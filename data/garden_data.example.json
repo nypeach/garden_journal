@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "garden_name": "Example Garden Journal",
+    "start_date": "20251001",
+    "location": "Miami, Florida",
+    "garden_type": "Container/Fence Panel Garden"
+  },
+
+  "plants": [
+    {
+      "plant_id": "basil_001",
+      "common_name": "Basil - Left",
+      "variety": "Sweet Basil",
+      "purchase_date": "20251001",
+      "source": "Local Nursery",
+      "status": "active",
+
+      "location_history": [
+        {
+          "date": "20251001",
+          "location": "Picnic Table",
+          "container": "8\" white round pot, 0.94 gal",
+          "soil_mix": "Miracle-Gro Moisture Control",
+          "reason": "Initial purchase"
+        }
+      ],
+
+      "current_location": {
+        "location": "Picnic Table",
+        "container": "8\" white round pot, 0.94 gal",
+        "soil_mix": "Miracle-Gro Moisture Control"
+      },
+
+      "care_history": [],
+      "growth_stages": []
+    }
+  ],
+
+  "locations": {
+    "Picnic Table": {
+      "type": "temporary_staging",
+      "description": "Initial placement area"
+    }
+  },
+
+  "daily_entries": []
+}

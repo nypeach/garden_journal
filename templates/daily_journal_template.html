@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daily Journal — {{ date }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+
+    <h1><span class='emoji'>🌿</span>Daily Journal</h1>
+    <p class="note">Date: {{ formatted_date }} • Panels 1–18 (left → right); Stakes 1–4 within the raised bed</p>
+    <hr class="divider" />
+
+    <!-- SUMMARY OF ACTIVITIES -->
+    <h2><span class='emoji'>📝</span>Summary of Activities</h2>
+    {% if activities and activities|length > 0 %}
+    <ul>
+      {% for activity in activities %}
+      <li>{{ activity }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-state">No activities recorded for this date</p>
+    {% endif %}
+
+    <!-- WEATHER / SUN CONDITIONS -->
+    <h2><span class='emoji'>☀️</span>Weather / Sun Conditions</h2>
+    {% if weather %}
+    <p class="lead">
+      {% if weather.temp_high and weather.temp_low %}
+      <strong>Temperature:</strong> {{ weather.temp_low }}°F – {{ weather.temp_high }}°F<br>
+      {% endif %}
+      {% if weather.conditions %}
+      <strong>Conditions:</strong> {{ weather.conditions }}<br>
+      {% endif %}
+      {% if weather.sunrise and weather.sunset %}
+      <strong>Sun:</strong> Sunrise {{ weather.sunrise }}, Sunset {{ weather.sunset }}<br>
+      {% endif %}
+      {% if weather.humidity %}
+      <strong>Humidity:</strong> {{ weather.humidity }}%<br>
+      {% endif %}
+      {% if weather.wind %}
+      <strong>Wind:</strong> {{ weather.wind }}<br>
+      {% endif %}
+      {% if weather.notes %}
+      <strong>Notes:</strong> {{ weather.notes }}
+      {% endif %}
+    </p>
+    {% else %}
+    <p class="empty-state">No weather update recorded for this date</p>
+    {% endif %}
+
+    <!-- GENERAL OBSERVATIONS -->
+    <h2><span class='emoji'>📝</span>General Observations</h2>
+    {% if observations and observations|length > 0 %}
+    <ul>
+      {% for observation in observations %}
+      <li>{{ observation }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-state">No general observations recorded</p>
+    {% endif %}
+
+    <!-- QUESTIONS & ANSWERS (GENERAL) -->
+    <h2><span class='emoji'>❓</span>Questions &amp; Answers</h2>
+    {% if questions_and_answers and questions_and_answers|length > 0 %}
+    {% for qa in questions_and_answers %}
+    <div class="qa-item">
+      <div class="qa-question">Q: {{ qa.question }}</div>
+      <div class="qa-answer">A: {{ qa.answer }}</div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p class="empty-state">No questions &amp; answers today</p>
+    {% endif %}
+
+    <hr class="divider" />
+
+    <!-- PLANT BY PLANT -->
+    <h2 style="font-size: 22px; margin-top: 32px;"><span class='emoji'>🪴</span>Plant by Plant</h2>
+    <p class="note">Each entry lists container and care notes, followed by photos (if available)</p>
+
+    {% for plant in plant_observations %}
+
+    <!-- Check if this is a raised bed plant (contains "Stake" in location) -->
+    {% if "Stake" in plant.location %}
+
+      <!-- If this is the first stake, add raised bed header -->
+      {% if loop.index == 1 or "Stake" not in plant_observations[loop.index-2].location %}
+      <h3><span class='emoji'>🥕</span>Raised Bed — Panels 16–18</h3>
+      {% endif %}
+
+      <div class="stake">
+        <div class="stake-title">{{ plant.location }} — {{ plant.plant_id|replace('_', ' ')|title }}</div>
+        <ul>
+          <li><strong>Soil Mix:</strong> {{ plant.soil_mix }}</li>
+          <li><strong>Current Stage:</strong> {{ plant.current_stage }}</li>
+          <li><strong>Next Stage:</strong> {{ plant.next_stage }}</li>
+          <li><strong>Notes:</strong> {{ plant.notes }}</li>
+        </ul>
+
+        {% if plant.plant_qa %}
+        <div class="qa-item">
+          <div class="qa-question">Q: {{ plant.plant_qa.question }}</div>
+          <div class="qa-answer">A: {{ plant.plant_qa.answer }}</div>
+        </div>
+        {% endif %}
+
+        {% if plant.photos and plant.photos|length > 0 %}
+        <div class="photo-row">
+          {% for photo in plant.photos[:4] %}
+          <img src="../photos/{{ photo }}" alt="{{ plant.plant_id }}" class="photo">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+    {% else %}
+      <!-- Regular panel plant -->
+      <div class="panel">
+        <div class="panel-title">{{ plant.location }}</div>
+        <ul>
+          <li><strong>Container:</strong> {{ plant.container }}</li>
+          <li><strong>Soil Mix:</strong> {{ plant.soil_mix }}</li>
+          <li><strong>Current Stage:</strong> {{ plant.current_stage }}</li>
+          <li><strong>Next Stage:</strong> {{ plant.next_stage }}</li>
+          <li><strong>Notes:</strong> {{ plant.notes }}</li>
+        </ul>
+
+        {% if plant.plant_qa %}
+        <div class="qa-item">
+          <div class="qa-question">Q: {{ plant.plant_qa.question }}</div>
+          <div class="qa-answer">A: {{ plant.plant_qa.answer }}</div>
+        </div>
+        {% endif %}
+
+        {% if plant.photos and plant.photos|length > 0 %}
+        <div class="photo-row">
+          {% for photo in plant.photos[:4] %}
+          <img src="../photos/{{ photo }}" alt="{{ plant.plant_id }}" class="photo">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+      <hr class="divider" />
+    {% endif %}
+
+    {% endfor %}
+
+  </main>
+</body>
+
+</html>
