@@ -12,6 +12,7 @@ ENV/
 data/garden_data.json
 photos/*.jpg
 output/*.html
+chatGPT_conversations/
 
 # Keep example files
 !data/garden_data.example.json

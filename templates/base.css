@@ -45,6 +45,11 @@ h2 {
   align-items: center;
 }
 
+h2.major-section {
+  font-size: 24px;
+  margin: 36px 0 12px;
+}
+
 h3 {
   font-size: 16px;
   margin: 12px 0 6px;
@@ -126,6 +131,15 @@ hr {
 }
 
 /* Q&A Styling */
+.qa-section-header {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
 .qa-item {
   margin: 12px 0 12px 20px;
   padding-left: 16px;

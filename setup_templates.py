@@ -61,6 +61,11 @@ h2 {
   align-items: center;
 }
 
+h2.major-section {
+  font-size: 24px;
+  margin: 36px 0 12px;
+}
+
 h3 {
   font-size: 16px;
   margin: 12px 0 6px;
@@ -142,6 +147,15 @@ hr {
 }
 
 /* Q&A Styling */
+.qa-section-header {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
 .qa-item {
   margin: 12px 0 12px 20px;
   padding-left: 16px;
@@ -442,7 +456,8 @@ def create_sample_html():
       </ul>
 
       <div class="photo-row">
-        <!-- Photos would go here -->
+        <img src="sample-basil-1.jpg" alt="Basil" class="photo">
+        <img src="sample-basil-2.jpg" alt="Basil" class="photo">
       </div>
     </div>
 
@@ -465,11 +480,10 @@ def create_sample_html():
       </div>
 
       <div class="photo-row">
-        <!-- Photos would go here -->
+        <img src="sample-strawberry-1.jpg" alt="Strawberry" class="photo">
+        <img src="sample-strawberry-2.jpg" alt="Strawberry" class="photo">
+        <img src="sample-strawberry-3.jpg" alt="Strawberry" class="photo">
       </div>
-    </div>
-
-    <hr class="divider" />
 
     <!-- Raised Bed Section -->
     <h3><span class='emoji'>🥕</span>Raised Bed — Panels 16–18</h3>
@@ -484,7 +498,7 @@ def create_sample_html():
       </ul>
 
       <div class="photo-row">
-        <!-- Photos would go here -->
+        <img src="sample-tomato-1.jpg" alt="Tomato" class="photo">
       </div>
     </div>
 
@@ -498,7 +512,10 @@ def create_sample_html():
       </ul>
 
       <div class="photo-row">
-        <!-- Photos would go here -->
+        <img src="sample-zucchini-1.jpg" alt="Zucchini" class="photo">
+        <img src="sample-zucchini-2.jpg" alt="Zucchini" class="photo">
+        <img src="sample-zucchini-3.jpg" alt="Zucchini" class="photo">
+        <img src="sample-zucchini-4.jpg" alt="Zucchini" class="photo">
       </div>
     </div>
 
