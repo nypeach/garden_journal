@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<!-- Template Version 13 -->
 
 <head>
   <meta charset="utf-8">
@@ -12,7 +13,7 @@
   <main>
 
     <h1><span class='emoji'>🌿</span>Daily Journal</h1>
-    <p class="note">Date: {{ formatted_date }} • Panels 1–18 (left → right); Stakes 1–4 within the raised bed</p>
+    <p class="note">Date: {{ formatted_date }} • Panels 1–18 (left → right); Stakes 1–4 within raised bed</p>
     <hr class="divider" />
 
     <!-- SUMMARY OF ACTIVITIES -->
@@ -30,26 +31,26 @@
     <!-- WEATHER / SUN CONDITIONS -->
     <h2><span class='emoji'>☀️</span>Weather / Sun Conditions</h2>
     {% if weather %}
-    <p class="lead">
+    <ul>
       {% if weather.temp_high and weather.temp_low %}
-      <strong>Temperature:</strong> {{ weather.temp_low }}°F – {{ weather.temp_high }}°F<br>
+      <li><strong>Temperature:</strong> {{ weather.temp_low }}°F – {{ weather.temp_high }}°F</li>
       {% endif %}
       {% if weather.conditions %}
-      <strong>Conditions:</strong> {{ weather.conditions }}<br>
+      <li><strong>Conditions:</strong> {{ weather.conditions }}</li>
       {% endif %}
       {% if weather.sunrise and weather.sunset %}
-      <strong>Sun:</strong> Sunrise {{ weather.sunrise }}, Sunset {{ weather.sunset }}<br>
+      <li><strong>Sun:</strong> Sunrise {{ weather.sunrise }}, Sunset {{ weather.sunset }}</li>
       {% endif %}
       {% if weather.humidity %}
-      <strong>Humidity:</strong> {{ weather.humidity }}%<br>
+      <li><strong>Humidity:</strong> {{ weather.humidity }}%</li>
       {% endif %}
       {% if weather.wind %}
-      <strong>Wind:</strong> {{ weather.wind }}<br>
+      <li><strong>Wind:</strong> {{ weather.wind }}</li>
       {% endif %}
       {% if weather.notes %}
-      <strong>Notes:</strong> {{ weather.notes }}
+      <li><strong>Notes:</strong> {{ weather.notes }}</li>
       {% endif %}
-    </p>
+    </ul>
     {% else %}
     <p class="empty-state">No weather update recorded for this date</p>
     {% endif %}
@@ -79,74 +80,160 @@
     <p class="empty-state">No questions &amp; answers today</p>
     {% endif %}
 
+    <!-- UPCOMING ACTIONS -->
+    <h2><span class='emoji'>📋</span>Upcoming Actions</h2>
+    {% if upcoming_actions and upcoming_actions|length > 0 %}
+    <ul>
+      {% for action in upcoming_actions %}
+      <li>
+        <strong>{{ action.description }}</strong>
+        {% if action.target_timeframe %} ({{ action.target_timeframe }}){% endif %}
+        {% if action.plants_affected and action.plants_affected|length > 0 %}
+        <span class="subtle"> — Affects: {{ action.plants_affected|join(', ') }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-state">No upcoming actions planned</p>
+    {% endif %}
+
     <hr class="divider" />
 
     <!-- PLANT BY PLANT -->
-    <h2 style="font-size: 22px; margin-top: 32px;"><span class='emoji'>🪴</span>Plant by Plant</h2>
-    <p class="note">Each entry lists container and care notes, followed by photos (if available)</p>
+    <h2 class="major-section"><span class='emoji'>🪴</span>Plant by Plant</h2>
+    <p class="note">Each entry lists container, care notes, and photos with observations made throughout the day</p>
 
-    {% for plant in plant_observations %}
+    {# This template expects plant_observations_grouped dict from generator #}
+    {# Format: {"Panel 1 - Basil Pot - Left": [obs1], "Panel 7 - Pepper Box": [obs1, obs2, obs3]} #}
 
-    <!-- Check if this is a raised bed plant (contains "Stake" in location) -->
-    {% if "Stake" in plant.location %}
+    {% for container_key, obs_list in plant_observations_grouped.items() %}
 
-      <!-- If this is the first stake, add raised bed header -->
-      {% if loop.index == 1 or "Stake" not in plant_observations[loop.index-2].location %}
-      <h3><span class='emoji'>🥕</span>Raised Bed — Panels 16–18</h3>
-      {% endif %}
+    {# Check if multiple plants share this container with stakes #}
+    {% if obs_list|length > 1 and obs_list[0].stake %}
 
+      {# Staked container header #}
+      <h3>{{ container_key }}</h3>
+
+      {% for obs in obs_list %}
       <div class="stake">
-        <div class="stake-title">{{ plant.location }} — {{ plant.plant_id|replace('_', ' ')|title }}</div>
+        <div class="stake-title">
+          Stake {{ obs.stake }} — {{ obs.plant_id|replace('_', ' ')|title }}
+          {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
+        </div>
         <ul>
-          <li><strong>Soil Mix:</strong> {{ plant.soil_mix }}</li>
-          <li><strong>Current Stage:</strong> {{ plant.current_stage }}</li>
-          <li><strong>Next Stage:</strong> {{ plant.next_stage }}</li>
-          <li><strong>Notes:</strong> {{ plant.notes }}</li>
+          <li><strong>Soil Mix:</strong> {{ obs.soil_mix }}</li>
+          {% if obs.soil_moisture %}
+          <li><strong>Soil Moisture:</strong> {{ obs.soil_moisture }}</li>
+          {% endif %}
+          <li><strong>Current Stage:</strong> {{ obs.current_stage }}</li>
+          <li><strong>Next Stage:</strong> {{ obs.next_stage }}</li>
+          <li><strong>Observations:</strong> {{ obs.observations }}</li>
+          {% if obs.actions_taken and obs.actions_taken|length > 0 %}
+          <li><strong>Actions Taken:</strong>
+            <ul style="margin-top: 4px;">
+              {% for action in obs.actions_taken %}
+              <li style="margin-left: 20px;">{{ action }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% if obs.notes %}
+          <li><strong>Notes:</strong> {{ obs.notes }}</li>
+          {% endif %}
         </ul>
 
-        {% if plant.plant_qa %}
+        {% if obs.plant_qa %}
+        <div class="qa-section-header"><span class='emoji'>❓</span>Questions &amp; Answers</div>
         <div class="qa-item">
-          <div class="qa-question">Q: {{ plant.plant_qa.question }}</div>
-          <div class="qa-answer">A: {{ plant.plant_qa.answer }}</div>
+          <div class="qa-question">Q: {{ obs.plant_qa.question }}</div>
+          <div class="qa-answer">A: {{ obs.plant_qa.answer }}</div>
         </div>
         {% endif %}
 
-        {% if plant.photos and plant.photos|length > 0 %}
+        {% if obs.photos and obs.photos|length > 0 %}
         <div class="photo-row">
-          {% for photo in plant.photos[:4] %}
-          <img src="../photos/{{ photo }}" alt="{{ plant.plant_id }}" class="photo">
+          {% for photo in obs.photos[:4] %}
+          <div class="photo-container">
+            <img src="../photos/{{ photo.filename }}" alt="{{ obs.plant_id }}" class="photo">
+            {% if photo.caption %}
+            <div class="photo-caption">{{ photo.caption }}</div>
+            {% endif %}
+          </div>
           {% endfor %}
         </div>
         {% endif %}
       </div>
+      {% endfor %}
+
+      <hr class="divider" />
 
     {% else %}
-      <!-- Regular panel plant -->
-      <div class="panel">
-        <div class="panel-title">{{ plant.location }}</div>
+      {# Regular panel or shared container without stakes #}
+
+      {% if obs_list|length > 1 %}
+      {# Shared container header (no stakes) #}
+      <h3>{{ container_key }}</h3>
+      {% endif %}
+
+      {% for obs in obs_list %}
+      <div class="panel" {% if obs_list|length > 1 %}style="margin-left: 20px;"{% endif %}>
+        <div class="panel-title">
+          {% if obs_list|length == 1 %}
+          {{ container_key }}
+          {% else %}
+          {{ obs.plant_id|replace('_', ' ')|title }}
+          {% endif %}
+          {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
+        </div>
         <ul>
-          <li><strong>Container:</strong> {{ plant.container }}</li>
-          <li><strong>Soil Mix:</strong> {{ plant.soil_mix }}</li>
-          <li><strong>Current Stage:</strong> {{ plant.current_stage }}</li>
-          <li><strong>Next Stage:</strong> {{ plant.next_stage }}</li>
-          <li><strong>Notes:</strong> {{ plant.notes }}</li>
+          <li><strong>Container:</strong> {{ obs.container_type }}</li>
+          {% if obs.position %}
+          <li><strong>Position:</strong> {{ obs.position }}</li>
+          {% endif %}
+          <li><strong>Soil Mix:</strong> {{ obs.soil_mix }}</li>
+          {% if obs.soil_moisture %}
+          <li><strong>Soil Moisture:</strong> {{ obs.soil_moisture }}</li>
+          {% endif %}
+          <li><strong>Current Stage:</strong> {{ obs.current_stage }}</li>
+          <li><strong>Next Stage:</strong> {{ obs.next_stage }}</li>
+          <li><strong>Observations:</strong> {{ obs.observations }}</li>
+          {% if obs.actions_taken and obs.actions_taken|length > 0 %}
+          <li><strong>Actions Taken:</strong>
+            <ul style="margin-top: 4px;">
+              {% for action in obs.actions_taken %}
+              <li style="margin-left: 20px;">{{ action }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% if obs.notes %}
+          <li><strong>Notes:</strong> {{ obs.notes }}</li>
+          {% endif %}
         </ul>
 
-        {% if plant.plant_qa %}
+        {% if obs.plant_qa %}
+        <div class="qa-section-header"><span class='emoji'>❓</span>Questions &amp; Answers</div>
         <div class="qa-item">
-          <div class="qa-question">Q: {{ plant.plant_qa.question }}</div>
-          <div class="qa-answer">A: {{ plant.plant_qa.answer }}</div>
+          <div class="qa-question">Q: {{ obs.plant_qa.question }}</div>
+          <div class="qa-answer">A: {{ obs.plant_qa.answer }}</div>
         </div>
         {% endif %}
 
-        {% if plant.photos and plant.photos|length > 0 %}
+        {% if obs.photos and obs.photos|length > 0 %}
         <div class="photo-row">
-          {% for photo in plant.photos[:4] %}
-          <img src="../photos/{{ photo }}" alt="{{ plant.plant_id }}" class="photo">
+          {% for photo in obs.photos[:4] %}
+          <div class="photo-container">
+            <img src="../photos/{{ photo.filename }}" alt="{{ obs.plant_id }}" class="photo">
+            {% if photo.caption %}
+            <div class="photo-caption">{{ photo.caption }}</div>
+            {% endif %}
+          </div>
           {% endfor %}
         </div>
         {% endif %}
       </div>
+      {% endfor %}
 
       <hr class="divider" />
     {% endif %}
