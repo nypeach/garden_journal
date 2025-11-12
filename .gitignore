@@ -13,6 +13,7 @@ data/garden_data.json
 photos/*.jpg
 output/*.html
 chatGPT_conversations/
+templates/samples/
 
 # Keep example files
 !data/garden_data.example.json

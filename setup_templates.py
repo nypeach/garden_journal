@@ -249,26 +249,7 @@ hr {
   margin-top: 4px;
 }
 
-/* Print Styles */
-@media print {
-  @page {
-    size: 8.5in 11in;
-    margin: 0.25in;
-  }
-
-  body {
-    font-size: 11pt;
-  }
-
-  .divider {
-    page-break-after: avoid;
-  }
-
-  .panel,
-  .stake {
-    page-break-inside: avoid;
-  }
-}
+/* Print Styles - REMOVED for use with Print Friendly & PDF plugin */
 """
 
     with open('templates/base.css', 'w', encoding='utf-8') as f:
@@ -964,9 +945,9 @@ def create_sample_html():
 
 </html>'''
 
-    with open('templates/sample_daily_journal.html', 'w', encoding='utf-8') as f:
+    with open('templates/samples/sample_daily_journal.html', 'w', encoding='utf-8') as f:
         f.write(content)
-    print("✓ Created file: templates/sample_daily_journal.html (Version 13)")
+    print("✓ Created file: templates/samples/sample_daily_journal.html (Version 13)")
 
 
 def main():
@@ -978,9 +959,11 @@ def main():
     print()
 
     try:
-        # Make sure templates directory exists
+        # Make sure directories exist
         Path('templates').mkdir(exist_ok=True)
-        print("✓ Verified directory: templates/\n")
+        Path('templates/samples').mkdir(exist_ok=True)
+        print("✓ Verified directory: templates/")
+        print("✓ Verified directory: templates/samples/\n")
 
         # Create CSS file
         print("Creating CSS file...")
@@ -1000,7 +983,7 @@ def main():
         print("📁 Files created:")
         print("  templates/base.css (Version 13)")
         print("  templates/daily_journal_template.html (Version 13)")
-        print("  templates/sample_daily_journal.html (Version 13)")
+        print("  templates/samples/sample_daily_journal.html (Version 13)")
         print()
         print("📋 Version 13 Major Features:")
         print("  ✓ Multiple observations per plant per day with time badges")
@@ -1010,8 +993,10 @@ def main():
         print("  ✓ Upcoming Actions section")
         print("  ✓ Container grouping (stakes and positions)")
         print("  ✓ Shared container support (Arugula/Cilantro example)")
+        print("  ✓ Print CSS removed (use Print Friendly & PDF plugin)")
+        print("  ✓ Samples in templates/samples/ folder")
         print()
-        print("📷 Photos needed in templates/ folder:")
+        print("📷 Sample photos needed in templates/samples/ folder:")
         print("  Basil: sample-basil-left-1.jpg, -2.jpg, sample-basil-right-1.jpg")
         print("  Strawberry Left: sample-strawberry-left-1.jpg, -2.jpg, -3.jpg")
         print("  Strawberry Right: sample-strawberry-right-before-1.jpg,")
@@ -1025,9 +1010,10 @@ def main():
         print("            sample-zucchini-stake4-1.jpg, -2.jpg")
         print()
         print("🎯 Next steps:")
-        print("  1. Add sample photos to templates/ folder")
-        print("  2. Open templates/sample_daily_journal.html in browser")
+        print("  1. Add sample photos to templates/samples/ folder")
+        print("  2. Open templates/samples/sample_daily_journal.html in browser")
         print("  3. Review layout with real Nov 11 data!")
+        print("  4. Add 'templates/samples/' to .gitignore")
         print("\n🌱 Happy gardening!")
 
     except Exception as e:

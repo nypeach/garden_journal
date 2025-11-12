@@ -219,23 +219,4 @@ hr {
   margin-top: 4px;
 }
 
-/* Print Styles */
-@media print {
-  @page {
-    size: 8.5in 11in;
-    margin: 0.25in;
-  }
-
-  body {
-    font-size: 11pt;
-  }
-
-  .divider {
-    page-break-after: avoid;
-  }
-
-  .panel,
-  .stake {
-    page-break-inside: avoid;
-  }
-}
+/* Print Styles - REMOVED for use with Print Friendly & PDF plugin */
