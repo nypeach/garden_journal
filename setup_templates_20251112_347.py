@@ -196,7 +196,7 @@ hr {
   display: flex;
   gap: 0.15in;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 14px;
   margin-left: 20px;
 }
 
@@ -521,7 +521,7 @@ def create_sample_html():
   <meta charset="utf-8">
   <title>Daily Journal — November 11, 2025 (SAMPLE V13)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="base.css">
 </head>
 
 <body>
@@ -945,9 +945,9 @@ def create_sample_html():
 
 </html>'''
 
-    with open('templates/samples/sample_daily_journal.html', 'w', encoding='utf-8') as f:
+    with open('templates/sample_daily_journal.html', 'w', encoding='utf-8') as f:
         f.write(content)
-    print("✓ Created file: templates/samples/sample_daily_journal.html (Version 13)")
+    print("✓ Created file: templates/sample_daily_journal.html (Version 13)")
 
 
 def main():
@@ -959,11 +959,9 @@ def main():
     print()
 
     try:
-        # Make sure directories exist
+        # Make sure templates directory exists
         Path('templates').mkdir(exist_ok=True)
-        Path('templates/samples').mkdir(exist_ok=True)
-        print("✓ Verified directory: templates/")
-        print("✓ Verified directory: templates/samples/\n")
+        print("✓ Verified directory: templates/\n")
 
         # Create CSS file
         print("Creating CSS file...")
@@ -983,14 +981,18 @@ def main():
         print("📁 Files created:")
         print("  templates/base.css (Version 13)")
         print("  templates/daily_journal_template.html (Version 13)")
-        print("  templates/samples/sample_daily_journal.html (Version 13)")
+        print("  templates/sample_daily_journal.html (Version 13)")
         print()
-        print("🔧 Changes from original:")
-        print("  ✓ Sample HTML moved to templates/samples/")
-        print("  ✓ CSS link updated to ../base.css")
-        print("  ✓ Photo spacing increased to 20px")
+        print("📋 Version 13 Major Features:")
+        print("  ✓ Multiple observations per plant per day with time badges")
+        print("  ✓ Photo captions and metadata support")
+        print("  ✓ Soil moisture field display")
+        print("  ✓ Detailed actions with nested lists (amounts/products)")
+        print("  ✓ Upcoming Actions section")
+        print("  ✓ Container grouping (stakes and positions)")
+        print("  ✓ Shared container support (Arugula/Cilantro example)")
         print()
-        print("📷 Photos needed in templates/samples/ folder:")
+        print("📷 Photos needed in templates/ folder:")
         print("  Basil: sample-basil-left-1.jpg, -2.jpg, sample-basil-right-1.jpg")
         print("  Strawberry Left: sample-strawberry-left-1.jpg, -2.jpg, -3.jpg")
         print("  Strawberry Right: sample-strawberry-right-before-1.jpg,")
@@ -1004,9 +1006,9 @@ def main():
         print("            sample-zucchini-stake4-1.jpg, -2.jpg")
         print()
         print("🎯 Next steps:")
-        print("  1. Move sample photos from templates/ to templates/samples/")
-        print("  2. Open templates/samples/sample_daily_journal.html in browser")
-        print("  3. Verify everything displays correctly!")
+        print("  1. Add sample photos to templates/ folder")
+        print("  2. Open templates/sample_daily_journal.html in browser")
+        print("  3. Review layout with real Nov 11 data!")
         print("\n🌱 Happy gardening!")
 
     except Exception as e:
