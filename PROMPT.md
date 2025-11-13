@@ -1,7 +1,7 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 11, 2025 @ 5:45 PM EST
-**Current Version:** 13
+**Last Updated:** November 13, 2025 @ 5:33 AM EST
+**Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
 ---
@@ -22,40 +22,52 @@ Build a local-first garden journaling system to track plants, their complete loc
 ```
 garden-journal/
 ├── README.md
+├── LICENSE
 ├── .gitignore
+├── PROMPT.md
+├── .claude/
+├── chatGPT_conversations/ (PDFs of chat history)
+├── data/
+│   ├── garden_data.example.json
+│   └── data.py (untracked - work in progress)
 ├── docs/
 │   ├── data-structure.md
 │   └── photo-naming.md
+├── html_examples/ (reference files from ChatGPT)
+├── output/ (gitignored - generated HTML files)
+├── photos/ (gitignored - photo files)
+├── scripts/
+│   └── compress_photos.py
 ├── src/
 │   ├── __init__.py
+│   ├── __pycache__/ (gitignored)
+│   ├── html_generator.py
 │   └── schema.py
-├── data/
-│   └── garden_data.example.json
-├── photos/ (excluded from git due to size)
-├── output/
 ├── templates/
 │   ├── base.css
 │   ├── daily_journal_template.html
-│   └── sample_daily_journal.html
-├── scripts/
-│   └── compress_photos.py
-├── html_examples/ (reference files from ChatGPT)
-├── chatGPT_conversations/ (PDFs of chat history)
+│   ├── front_page_template.html
+│   ├── layout_template.html
+│   ├── plant_summary_template.html
+│   └── samples/ (gitignored - sample files)
+│       ├── sample_daily_journal.html
+│       └── sample-*.jpg (sample photos)
 ├── setup_docs.py
-└── setup_templates_V13.py
+├── setup_templates_20251112_347.py (old version)
+└── setup_templates.py
 ```
 
-### 2. Documentation (VERSION 13)
+### 2. Documentation (VERSION 13.1)
 
 **Files created:**
 - `README.md` - Project overview, quick start guide, features
-- `docs/data-structure.md` - Complete JSON schema with all V13 enhancements
+- `docs/data-structure.md` - Complete JSON schema with all V13.1 enhancements
 - `docs/photo-naming.md` - Photo naming conventions and best practices
-- `src/schema.py` - Python validation functions and dataclasses
+- `src/schema.py` - Python validation functions and dataclasses (V13.1)
 - `data/garden_data.example.json` - Working example with V13 structure
 - `PROMPT.md` - This file - handoff documentation
 
-### 3. Data Schema (VERSION 13)
+### 3. Data Schema (VERSION 13.1)
 
 **Core design:**
 - **Plants are primary entities** with unique IDs (basil_001, tomato_001, etc.)
@@ -64,6 +76,9 @@ garden-journal/
 - **Shared containers supported:**
   - **With stakes:** Pepper Box (3 peppers at stakes 1-3), Raised Bed (4 stakes)
   - **With positions:** Garlic Box (garlic in sections, scallions at edges), Arugula/Cilantro Box
+
+**VERSION 13.1 NEW FEATURE:**
+- **Plant summary field** - Evolving assessment of each plant that displays in Section 2. Can be kept, updated, or appended when adding daily observations.
 
 **VERSION 13 major features:**
 1. Multiple observations per plant per day (with timestamps)
@@ -91,12 +106,15 @@ garden-journal/
 
 **Metadata:** Photos can have tags (before_pruning, after_watering, etc.) and captions
 
-### 5. HTML Templates (VERSION 13)
+### 5. HTML Templates (VERSION 13.1)
 
 **Files created:**
-- `templates/base.css` - Shared styles, green color scheme (#216e3a)
+- `templates/base.css` - Shared styles, color scheme
 - `templates/daily_journal_template.html` - Jinja2 template for daily pages
-- `templates/sample_daily_journal.html` - Working sample with Nov 11, 2025 real data
+- `templates/front_page_template.html` - Front page with dynamic dates
+- `templates/layout_template.html` - Current garden layout table
+- `templates/plant_summary_template.html` - Plant summaries with summary field
+- `templates/samples/sample_daily_journal.html` - Working sample with Nov 11, 2025 real data
 
 **Template features:**
 - Time badges showing observation times (green rounded badges)
@@ -107,6 +125,8 @@ garden-journal/
 - Container grouping (staked and position-based)
 - Plant-specific Q&A with headers
 - Shared container support (Arugula/Cilantro example included)
+- Plant summary field display in Section 2
+- Dynamic date ranges on front page
 - **No print CSS** - removed for Print Friendly & PDF plugin use
 
 **Sample includes:**
@@ -115,12 +135,35 @@ garden-journal/
 - Shared Arugula/Cilantro container (positions)
 - Raised Bed with 3 zucchini at different stakes
 - Real Nov 11 activities and observations
+- Photos moved to templates/samples/ folder
 
-### 6. Setup Scripts
+### 6. HTML Generator (VERSION 13)
+
+**Created:** `src/html_generator.py`
+
+**Features implemented:**
+- Reads `garden_data.json` using Python's json module
+- Uses Jinja2 to render all templates
+- Container grouping logic for plant observations
+- Generates all static pages (Front, Layout, Plant Summary)
+- Generates daily journal pages from daily_entries
+- Copies `base.css` to `output/styles.css`
+- Handles photo paths correctly (`../photos/filename.jpg`)
+- Formats dates and times for display using schema.py functions
+- Calculates `last_entry_date` from daily_entries
+- Command-line options: `--static-only`, `--daily-only`, `--date YYYYMMDD`
+
+**Successfully generates:**
+- `Garden_00_Front_Page.html`
+- `Garden_01_Layout.html`
+- `Garden_02_Plant_by_Plant_Summary.html`
+- `Garden_03_Daily_YYYYMMDD.html` (one per date in daily_entries)
+
+### 7. Setup Scripts
 
 **Created:**
 - `setup_docs.py` - Generates all documentation files and project structure
-- `setup_templates_V13.py` - Generates CSS and HTML templates (VERSION 13)
+- `setup_templates.py` - Generates CSS and HTML templates (VERSION 13.1)
 - `scripts/compress_photos.py` - Batch compress photos maintaining quality
 
 ---
@@ -139,6 +182,17 @@ garden-journal/
 2. Panel 14 (Oct 15)
 3. Panel 1 (Oct 20 - current)
 
+### Plant Summary Field
+
+**NEW IN VERSION 13.1**
+
+Each plant now has a `summary` field containing an evolving assessment:
+- Appears in Section 2 (Plant-by-Plant Summary) as "Notes"
+- Updated manually when adding daily observations
+- Can be kept unchanged, replaced, or appended to
+- Contains high-level health status, care patterns, temperature thresholds
+- Example: "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F."
+
 ### Sun Exposure Pattern
 
 - Panels 1-3: Full sun starting 7:00 AM
@@ -151,6 +205,7 @@ garden-journal/
 **Individual containers:** Each plant has its own pot
 - Basil Pot - Left, Basil Pot - Right
 - Strawberry Pot - Left, Strawberry Pot - Right
+- Lavender Pot - Left, Lavender Pot - Right
 
 **Shared containers with stakes:**
 - Pepper Box (Panel 7): 3 stakes for 3 pepper plants
@@ -184,7 +239,7 @@ garden-journal/
   - h2 (other sections): 18px
   - h3 (Raised Bed, container headers): 18px
   - Stake titles: 16px
-- **Photos:** 2.0in × 1.5in, 0.15in gap, max 4 per observation, indented 20px
+- **Photos:** 2.0in × 1.5in, 0.15in gap, max 4 per observation, indented 20px, 20px margin-top
 - **Q&A blocks:** Indented 20px with left border
 - **Time badges:** Green rounded badges showing observation time
 - **No print CSS:** User will use Print Friendly & PDF browser plugin
@@ -255,50 +310,56 @@ garden-journal/
 
 ### IMMEDIATE PRIORITIES:
 
-### 1. Create Remaining HTML Templates
+### 1. ~~Create Remaining HTML Templates~~ ✅ COMPLETED
 
-Need to create templates matching the approved HTML examples:
+All templates created and tested:
 
-**a) Front Page Template** (`templates/front_page_template.html`)
-- Reference: `html_examples/Garden_00_Front Page.html` (approved design)
-- Title: "🪴 Jodi's Garden Journal"
-- Subtitle: "Beginning October 2025"
-- Description and sections list
+**✅ Front Page Template** (`templates/front_page_template.html`)
+- Dynamic date range (Started: [date], Last Updated: [date])
+- Uses metadata from garden_data.json
+- Successfully generates Garden_00_Front_Page.html
 
-**b) Section 1 - Layout Template** (`templates/layout_template.html`)
-- Table format with leaf emoji (🍃)
-- Columns: Panel, Plant, Container, Soil Mix, Notes
-- Italic note: "Fence panels are numbered 1 → 18 (gate between 11 & 12). Raised bed spans Panels 16–18."
-- Lists all current plant locations
+**✅ Section 1 - Layout Template** (`templates/layout_template.html`)
+- Table format with 🌿 emoji
+- Columns: Panel, Plant, Container
+- Shows current plant locations
+- Successfully generates Garden_01_Layout.html
 
-**c) Section 2 - Plant Summary Template** (`templates/plant_summary_template.html`)
-- Reference: `html_examples/Garden_02_Plant_by_Plant_Summary.html` (user manually fixed, approved)
+**✅ Section 2 - Plant Summary Template** (`templates/plant_summary_template.html`)
 - Ordered by panel 1-18, then stakes 1-4
-- Each plant separate with container, soil, notes, growth expectations
+- Displays plant summary field as "Notes"
+- Each plant with container, soil, summary
 - Divider lines between panels
 - Text-only (no photos) - static reference document
+- Successfully generates Garden_02_Plant_by_Plant_Summary.html
 
-**d) Section 3 Cover Page Template** (`templates/section3_cover_template.html`)
-- Static title page explaining daily journal structure
-- Describes the 6 sections and photo format
+**✅ Daily Journal Template** (`templates/daily_journal_template.html`)
+- Complete with all 6 sections
+- Photo display with captions
+- Container grouping (stakes and positions)
+- Sample validated and working
 
-### 2. Build HTML Generator (`src/html_generator.py`)
+### 2. ~~Build HTML Generator~~ ✅ COMPLETED
 
-**Must implement:**
-- Read `garden_data.json`
-- Use Jinja2 to render all templates
-- **Container grouping logic:** Implement `group_plants_by_container()` function from `schema.py`
-  - Group by location + container_name
-  - Detect stakes vs positions
-  - Sort appropriately for display
-- Generate output files with proper naming:
-  - `Garden_00_Front_Page.html`
-  - `Garden_01_Layout.html`
-  - `Garden_02_Plant_by_Plant_Summary.html`
-  - `Garden_03_Daily_YYYYMMDD.html` (one per date)
-- Copy `base.css` to `output/styles.css`
-- Handle photo paths (../photos/filename.jpg)
-- Format dates and times for display
+**Created:** `src/html_generator.py` (VERSION 13)
+
+**Features implemented:**
+- Reads `garden_data.json` using Python's json module
+- Uses Jinja2 to render all templates
+- Container grouping logic for plant observations
+- Generates all static pages (Front, Layout, Plant Summary)
+- Generates daily journal pages from daily_entries
+- Copies `base.css` to `output/styles.css`
+- Handles photo paths correctly (`../photos/filename.jpg`)
+- Formats dates and times for display using schema.py functions
+- Calculates `last_entry_date` from daily_entries automatically
+- Command-line options: `--static-only`, `--daily-only`, `--date YYYYMMDD`
+
+**Successfully tested and generates:**
+- `Garden_00_Front_Page.html` ✅
+- `Garden_01_Layout.html` ✅
+- `Garden_02_Plant_by_Plant_Summary.html` ✅
+- `Garden_03_Daily_YYYYMMDD.html` (ready to test with real data)
 
 ### 3. Build Data Manager (`src/data_manager.py`)
 
@@ -306,6 +367,7 @@ Need to create templates matching the approved HTML examples:
 - `load_data()` - Read garden_data.json with validation
 - `save_data()` - Write garden_data.json with backup
 - `add_plant()` - Add new plant with initial location
+- `update_plant_summary()` - Update/append to plant summary field
 - `move_plant()` - Add location history entry, update current_location
 - `add_daily_entry()` - Add complete daily entry
 - `add_plant_observation()` - Add observation to existing daily entry
@@ -318,6 +380,7 @@ Need to create templates matching the approved HTML examples:
 **a) `scripts/add_plant.py`**
 - Interactive CLI to add new plants
 - Prompts for: plant type, common name, variety, purchase date, location, container details, stake/position
+- Prompt for initial plant summary
 - Auto-generates plant_id
 - Validates all inputs
 - Updates garden_data.json
@@ -331,9 +394,11 @@ Need to create templates matching the approved HTML examples:
 - Interactive form for daily entries
 - Sections: date/time, weather, activities, observations, general Q&A, upcoming actions
 - Then loop: add plant observations (select plant, enter details, specify photos)
+- **Show current summary** and allow user to keep/update/append
 - Support multiple observations per plant (morning, afternoon checks)
 
 **d) `scripts/generate_all.py`**
+- Wrapper around html_generator.py
 - Generate all HTML pages
 - Options: --static-only, --daily-only, --date YYYYMMDD
 - Progress indicators
@@ -362,6 +427,7 @@ Need to create templates matching the approved HTML examples:
 
 - Start with structure from garden_data.example.json
 - Add all real plants with accurate data
+- Add plant summaries for each plant
 - Import validated historical entries
 - Current data through Nov 11, 2025
 
@@ -440,6 +506,7 @@ Valid values: `active`, `removed`, `died`, `harvested`
 - **Gap:** 0.15in between photos
 - **Max per observation:** 4 photos
 - **Indent:** 20px (aligns with bullet text)
+- **Margin-top:** 20px (spacing above photo row)
 - **Border:** 1px solid #e6e8eb, 10px border-radius
 - **Captions:** 12px gray italic text below photo, centered, max-width 2.0in
 - **Container:** Flexbox column for photo + caption
@@ -486,7 +553,7 @@ Pillow>=10.0.0
 ### Adding New Plant:
 
 1. Run `python3 scripts/add_plant.py`
-2. Follow prompts
+2. Follow prompts (including initial summary)
 3. Regenerate static pages: `python3 scripts/generate_all.py --static-only`
 
 ### Moving Plant:
@@ -494,6 +561,13 @@ Pillow>=10.0.0
 1. Run `python3 scripts/move_plant.py`
 2. Select plant, enter new location
 3. Updates location_history automatically
+
+### Updating Plant Summary:
+
+When running `add_entry.py`, after entering plant observation:
+- Current summary displayed
+- Choose: Keep, Update, or Append
+- New summary saved to plant record
 
 ---
 
@@ -506,6 +580,8 @@ Pillow>=10.0.0
 3. **Print CSS removed:** User prefers Print Friendly & PDF browser plugin for page break control instead of embedded CSS.
 
 4. **Version tracking:** Always update VERSION number in file headers when making changes. Check line 3-4 of Python files for version number.
+
+5. **Sample files location:** Sample HTML and photos now in `templates/samples/` folder (gitignored)
 
 ---
 
@@ -521,13 +597,13 @@ Pillow>=10.0.0
 
 ## 🎯 IMMEDIATE NEXT ACTIONS
 
-**Priority 1: HTML Generator**
-Build `src/html_generator.py` so we can generate actual journal pages from data. This is the critical path to having a working system.
+**Priority 1: ~~HTML Generator~~** ✅ COMPLETED
+~~Build `src/html_generator.py` so we can generate actual journal pages from data.~~
 
-**Priority 2: Remaining Templates**
-Create Front Page, Layout (Section 1), Plant Summary (Section 2), and Section 3 Cover templates.
+**Priority 2: ~~Remaining Templates~~** ✅ COMPLETED
+~~Create Front Page, Layout (Section 1), Plant Summary (Section 2) templates.~~
 
-**Priority 3: Data Manager**
+**Priority 3: Data Manager** ⬅️ NEXT!
 Build `src/data_manager.py` for JSON read/write operations.
 
 **Priority 4: Scripts**
@@ -549,7 +625,9 @@ Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
 - Prefers: clean design, no excessive formatting, functional over flashy
 - Technical level: Comfortable with Python, command line, GitHub
 - Always use `python3` commands (not `python`)
+- **IMPORTANT:** Only make changes that are explicitly requested - do not modify code, templates, or documentation beyond what is asked
+- **IMPORTANT:** If you ask the user a question, WAIT for their answer before generating any code, artifacts, or making changes. Do not assume an answer.
 
 ---
 
-**Continue from here. Ready to build the HTML generator to start creating actual journal pages.**
+**Continue from here. Next priority: Build Data Manager for JSON operations.**
