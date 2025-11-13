@@ -58,8 +58,10 @@ def print_error(text):
 def create_test_backup():
     """Create a backup of current garden_data.json before testing."""
     if DATA_FILE.exists():
+        # Ensure backup directory exists
+        BACKUP_DIR.mkdir(parents=True, exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_file = DATA_FILE.parent / f"garden_data.TEST_BACKUP_{timestamp}.json"
+        backup_file = BACKUP_DIR / f"garden_data.TEST_BACKUP_{timestamp}.json"
         shutil.copy2(DATA_FILE, backup_file)
         print_success(f"Created test backup: {backup_file.name}")
         return backup_file
