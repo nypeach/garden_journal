@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 13, 2025 @ 7:04 AM EST
+**Last Updated:** November 13, 2025 @ 11:30 AM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -34,7 +34,8 @@ garden-journal/
 │   └── data.py (untracked - work in progress)
 ├── docs/
 │   ├── data-structure.md
-│   └── photo-naming.md
+│   ├── photo-naming.md
+│   └── webform.md                  # Web forms requirements (VERSION 1.0)
 ├── html_examples/ (reference files from ChatGPT)
 ├── output/ (gitignored - generated HTML files)
 ├── photos/ (gitignored - photo files)
@@ -67,6 +68,7 @@ garden-journal/
 - `README.md` - Project overview, quick start guide, features
 - `docs/data-structure.md` - Complete JSON schema with all V13.1 enhancements
 - `docs/photo-naming.md` - Photo naming conventions and best practices
+- `docs/webform.md` - Complete web forms requirements (VERSION 1.0) **NEW!**
 - `src/schema.py` - Python validation functions and dataclasses (V13.1)
 - `data/garden_data.example.json` - Working example with V13 structure
 - `PROMPT.md` - This file - handoff documentation
@@ -109,6 +111,16 @@ garden-journal/
 **Format:** .jpg (JPEG) for smaller file sizes vs .png
 
 **Metadata:** Photos can have tags (before_pruning, after_watering, etc.) and captions
+
+**Photo Workflow (for web forms):**
+1. Take photos with iPhone → sync to iCloud Photos
+2. In Photos app on MacBook: drag photos from "Garden" album to Google Drive folder
+3. Photos auto-convert from HEIC to JPEG when dragged out
+4. In web form: browse Google Drive folder, select photos
+5. Form compresses (600×450px), renames, and copies to `photos/` folder
+6. Originals remain in Google Drive folder
+
+**Google Drive Storage Path:** `/Users/jodisilverman/Library/CloudStorage/GoogleDrive-jodimsilverman@gmail.com/My Drive/GardenPhotos/`
 
 ### 5. HTML Templates (VERSION 13.1)
 
@@ -252,11 +264,12 @@ Each plant now has a `summary` field containing an evolving assessment:
 - **Fonts:** System fonts (Apple, Segoe UI, Roboto, etc.)
 - **Headers:**
   - h1 (Daily Journal): 28px
-  - h2.major-section (Plant by Plant): 24px
+  - h2.major-section (Plant by Plant): 24px - larger than other sections
   - h2 (other sections): 18px
-  - h3 (Raised Bed, container headers): 18px
-  - Stake titles: 16px
-- **Photos:** 2.0in × 1.5in, 0.15in gap, max 4 per observation, indented 20px, 20px margin-top
+  - h3 (Raised Bed, container headers): 18px, bold
+  - Panel titles: 18px, bold
+  - Stake titles: 16px, bold
+- **Photos:** 2.0in width × 1.5in height, 0.15in gap, max 4 displayed per observation, indented 20px, 20px margin-top
 - **Q&A blocks:** Indented 20px with left border
 - **Time badges:** Green rounded badges showing observation time
 - **No print CSS:** User will use Print Friendly & PDF browser plugin
@@ -400,40 +413,64 @@ All templates created and tested:
 - Full validation using schema.py functions
 - Comprehensive test suite: `scripts/test_data_manager.py` (7/8 tests passing)
 
-### 4. Build Web Forms
+### 4. Build Web Forms ⬅️ IN PROGRESS!
+
+**Status:** Requirements complete, ready for implementation
+
+**Created:** `docs/webform.md` - Complete web forms requirements (VERSION 1.0) ✅
 
 Build HTML forms for local web application (not CLI scripts):
 
-**a) `forms/index.html`**
-- Main landing page for the web application
-- Links to all forms and generated journal pages
+**a) `forms/index.html`** - Main landing page
+- Navigation links to all forms
+- Quick stats (total plants, last entry date)
 
-**b) `forms/add_plant.html`**
-- HTML form to add new plants
-- Fields: plant type, common name, variety, purchase date, location, container details, stake/position
+**b) `forms/add_plant.html`** - Add new plants
+- Fields: plant type, common name, variety, purchased/sowed date, location, container details, stake/position
 - Field for initial plant summary
-- JavaScript for client-side validation
 - Submits to backend that calls data_manager.add_plant()
 
-**c) `forms/add_entry.html`**
-- Multi-section form for daily entries
-- Sections: date/time, weather, activities, observations, general Q&A, upcoming actions
-- Loop for adding plant observations with photo selection
-- **Show current summary** and allow inline editing
-- Support multiple observations per plant
+**c) `forms/add_entry.html`** - Daily journal entry form (THE BIG ONE)
+- Section 1: Activities (markdown bullets)
+- Section 2: Weather/Sun conditions
+- Section 3: General observations (markdown bullets)
+- Section 4: Questions & Answers (general, multiple pairs)
+- Section 5: Upcoming actions (multiple items)
+- Section 6: Plant by Plant observations (repeatable):
+  - Select plant → loads current summary for inline editing
+  - Container/soil info (auto-filled, editable)
+  - Soil conditions: moisture, pH, fertility (all text fields)
+  - Growth tracking: current stage, next stage
+  - Observations, actions (markdown bullets), notes
+  - Plant-specific Q&A (optional, multiple pairs)
+  - Photos: browse Google Drive folder → select → compress → rename → copy to repo
 - Submits to backend that calls data_manager functions
 
-**d) `forms/move_plant.html`**
+**d) `forms/move_plant.html`** - Move plants between locations
 - Dropdown to select plant from list
-- Fields for new location, reason for move
+- Fields for new location, reason for move, date
 - Submits to backend that calls data_manager.move_plant()
 
-**e) `src/web_server.py`**
-- Simple Flask or FastAPI server
-- Serves HTML forms locally
+**e) `src/web_server.py`** - Flask backend
+- Serves HTML forms locally on localhost:5000
 - Handles form submissions
-- Calls data_manager functions
-- Returns success/error messages
+- Interfaces with data_manager.py
+- Handles photo upload, compression, renaming
+- Triggers html_generator.py after daily entry submission
+- Returns success/error modals
+
+**Photo workflow validated:**
+- ✅ User can drag photos from macOS Photos app to Google Drive folder (HEIC → JPEG automatic)
+- ✅ Flask can read from Google Drive CloudStorage path
+- Form will: extract EXIF metadata → compress to 600×450px @ 85-90% → rename → copy to `photos/` folder
+
+**Next steps:**
+1. Build Flask backend (`src/web_server.py`)
+2. Create form HTML files
+3. Add JavaScript for photo handling and markdown conversion
+4. Style forms to match garden journal theme
+5. Test all forms end-to-end
+6. Validate against requirements in docs/webform.md
 
 ### 5. Import Historical Data
 
@@ -458,7 +495,7 @@ Build HTML forms for local web application (not CLI scripts):
 
 ---
 
-## 📐 TECHNICAL SPECIFICATIONS
+## 📝 TECHNICAL SPECIFICATIONS
 
 ### Date/Time Formats
 
@@ -529,7 +566,7 @@ Valid values: `active`, `removed`, `died`, `harvested`
 
 - **Size:** 2.0in width × 1.5in height
 - **Gap:** 0.15in between photos
-- **Max per observation:** 4 photos
+- **No limit on photos per observation** (though template shows 4 displayed)
 - **Indent:** 20px (aligns with bullet text)
 - **Margin-top:** 20px (spacing above photo row)
 - **Border:** 1px solid #e6e8eb, 10px border-radius
@@ -554,28 +591,31 @@ Valid values: `active`, `removed`, `died`, `harvested`
 ```
 Jinja2>=3.1.0        # Template engine
 Pillow>=10.0.0       # Image processing for compression script
+Flask>=3.0.0         # Web framework for forms
 ```
 
 Create `requirements.txt`:
 ```
 Jinja2>=3.1.0
 Pillow>=10.0.0
+Flask>=3.0.0
 ```
 
 ---
 
-## 🔄 WORKFLOW (Future State)
+## 📄 WORKFLOW (Future State)
 
 ### Daily Usage:
 
-1. Take photos throughout the day
-2. Transfer photos to computer, rename with script or manually
-3. Open web application (http://localhost:5000)
-4. Fill out daily entry form with observations
-5. Submit form - generates/updates garden_data.json
-6. Click "Generate Pages" button to create HTML journal
-7. Open `output/Garden_03_Daily_20251111.html` in browser
-8. Use Print Friendly & PDF to save as PDF with custom page breaks
+1. Take photos throughout the day with iPhone
+2. Photos sync to iCloud Photos automatically
+3. Open Photos app on MacBook, drag photos from "Garden" album to Google Drive folder
+4. Open web application in Chrome: `http://localhost:5000`
+5. Fill out daily entry form with observations
+6. Browse Google Drive folder to select photos
+7. Submit form - form compresses/renames photos, saves to garden_data.json, generates HTML
+8. Click "View Journal" to see `output/Garden_03_Daily_20251113.html`
+9. Use Print Friendly & PDF Chrome extension to save as PDF
 
 ### Adding New Plant:
 
@@ -595,17 +635,17 @@ Pillow>=10.0.0
 ### Updating Plant Summary:
 
 When filling out daily entry form:
-- After entering plant observation, current summary is displayed in editable field
+- After selecting plant, current summary is displayed in editable textarea
 - Edit as needed (keep, update, or append)
 - New summary saved to plant record on submit
 
 ---
 
-## 🐛 KNOWN ISSUES / NOTES
+## 🛠️ KNOWN ISSUES / NOTES
 
 1. **ChatGPT data has errors:** The Garden_Log_Oct8–Nov9.html file has some incorrect timestamps and data. Need to manually validate against actual photos and PDF conversations.
 
-2. **Photo size:** Original photos too large for git (excluded in .gitignore). Need compression script before committing photos.
+2. **Photo size:** Original photos too large for git (excluded in .gitignore). Compression happens in web form before saving to repo.
 
 3. **Print CSS removed:** User prefers Print Friendly & PDF browser plugin for page break control instead of embedded CSS.
 
@@ -613,15 +653,19 @@ When filling out daily entry form:
 
 5. **Sample files location:** Sample HTML and photos now in `templates/samples/` folder (gitignored)
 
+6. **Soil tracking:** User now tracks Soil Moisture, Soil pH, and Soil Fertility using JQ001-style soil meter. All three fields are optional text inputs in forms.
+
 ---
 
 ## 📱 TOOLS & BROWSER EXTENSIONS
 
-### Recommended (User's Choices):
+### User's Choices:
 
+- **Browser:** Chrome (primary)
+- **Photo Export:** macOS Photos app drag-and-drop (auto-converts HEIC → JPEG)
+- **Photo Storage:** Google Drive folder (100GB storage, 17GB used)
 - **Print Friendly & PDF** - Chrome extension for PDF creation with custom page breaks
-- **ImageOptim** (Mac) or **Squoosh** (web) - Free photo compression maintaining quality
-- **Compression script** - Python script created at `scripts/compress_photos.py`
+- **Soil Meter:** JQ001 or similar (measures Fertility/color, Moisture/numeric, pH/range)
 
 ---
 
@@ -636,8 +680,8 @@ When filling out daily entry form:
 **Priority 3: ~~Data Manager~~** ✅ COMPLETED
 ~~Build `src/data_manager.py` for JSON read/write operations.~~
 
-**Priority 4: Web Forms** ⬅️ NEXT!
-Build HTML forms and web server for local application.
+**Priority 4: Web Forms** ⬅️ IN PROGRESS!
+Requirements complete in `docs/webform.md`. Ready to build Flask backend and HTML forms.
 
 **Priority 5: Import Data**
 Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
@@ -656,6 +700,7 @@ Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
 - **Wants a local web application** with HTML forms for data entry, not CLI scripts
 - **Project uses array-based data structure** - plants stored as array/list, not dict
 - **Backups are automatic** - every save operation creates timestamped backup in data/backups/
+- **Photo workflow validated** - drag from Photos app → Google Drive folder → select in form → compress/rename → copy to repo
 - Technical level: Comfortable with Python, command line, GitHub
 - Always use `python3` commands (not `python`)
 - **Commit message format:** User prefers commit messages generated in a copyable bash format like:
@@ -672,4 +717,4 @@ Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
 
 ---
 
-**Continue from here. Next priority: Build Web Forms for local application.**
+**Continue from here. Next priority: Build Flask backend and HTML forms based on requirements in docs/webform.md.**
