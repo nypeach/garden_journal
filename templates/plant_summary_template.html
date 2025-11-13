@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Section 2 — Plant‑by‑Plant Summary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --green: #216e3a;
+      --muted: #5f6b6b;
+      --rule: #e6e8eb;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: #111;
+    }
+
+    main {
+      max-width: 880px;
+      margin: 32px auto 60px;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0 0 14px 0;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      color: #111;
+    }
+
+    h1 .leaf {
+      font-size: 28px
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 26px 0 8px;
+      color: #111;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 12px 0 6px;
+      color: #111;
+    }
+
+    p.note {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 18px;
+      font-style: italic;
+    }
+
+    ul {
+      margin: 8px 0 8px 0px
+    }
+
+    li {
+      margin: 6px 0
+    }
+
+    .divider {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 22px 0
+    }
+
+    .panel-title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 2px
+    }
+
+    .stake-title {
+      font-weight: 700;
+      margin: 12px 0 6px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+
+    <h1><span class="leaf">🌿</span>Section 2 — Plant‑by‑Plant Summary</h1>
+    <p class="note">As of {{ metadata.last_entry_date|format_date }} • Panels 1–18 left to right; Stakes 1–4 within the
+      raised bed.</p>
+
+    {% for location in sorted_locations %}
+    {% for plant in locations[location] %}
+    {% if plant.current_location.stake %}
+    {# Plant with stake - check if we need container header #}
+    {% set container_name = plant.current_location.container_name %}
+    {% set is_first_stake = loop.first or locations[location][loop.index0 - 1].current_location.container_name !=
+    container_name %}
+
+    {% if is_first_stake %}
+    <div class="panel">
+      <div class="panel-title">{{ plant.current_location.location }} — {{ container_name }}</div>
+      <p class="note">{% if container_name == "Raised Bed" %}Four separate stakes in the raised bed.{% else %}Separate
+        stakes in the container.{% endif %}</p>
+      {% endif %}
+
+      <div class="stake">
+        <div class="stake-title">Stake {{ plant.current_location.stake }} — {{ plant.common_name }}</div>
+        <ul>
+          <li><strong>Soil Mix:</strong> {{ plant.current_location.soil_mix }}</li>
+          {% if plant.summary %}
+          <li><strong>Notes:</strong> {{ plant.summary }}</li>
+          {% endif %}
+        </ul>
+      </div>
+
+      {% set is_last_stake = loop.last or locations[location][loop.index0 + 1].current_location.container_name !=
+      container_name %}
+      {% if is_last_stake %}
+    </div>
+    <hr class="divider" />
+    {% endif %}
+
+    {% else %}
+    {# Regular plant without stake #}
+    <div class="panel">
+      <div class="panel-title">{{ plant.current_location.location }} — {{ plant.common_name }}</div>
+      <ul>
+        <li><strong>Container:</strong> {{ plant.current_location.container_type }}</li>
+        <li><strong>Soil Mix:</strong> {{ plant.current_location.soil_mix }}</li>
+        {% if plant.summary %}
+        <li><strong>Notes:</strong> {{ plant.summary }}</li>
+        {% endif %}
+      </ul>
+    </div>
+    <hr class="divider" />
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+
+  </main>
+</body>
+
+</html>

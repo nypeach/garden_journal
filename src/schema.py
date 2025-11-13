@@ -1,13 +1,14 @@
 """
 =================================================================
 Garden Journal Data Schema
-VERSION: 13
-Last Updated: 2025-11-11 @ 5:00 PM
+VERSION: 13.1
+Last Updated: 2025-11-12
 =================================================================
 
 Defines the structure for garden_data.json and provides validation functions.
 
-Major Changes in Version 13:
+Major Changes in Version 13.1:
+- Added 'summary' field to Plant dataclass for evolving plant assessments
 - Support for multiple observations per plant per day (with timestamps)
 - Photo metadata (before/after tags, observation linking)
 - Detailed action tracking (amounts, products, methods)
@@ -90,6 +91,7 @@ class Plant:
     current_location: Dict[str, Any]
     variety: Optional[str] = None
     source: Optional[str] = None
+    summary: Optional[str] = None
     care_history: List[CareAction] = field(default_factory=list)
     growth_stages: List[GrowthStageEntry] = field(default_factory=list)
     temporary_locations: List[TemporaryLocation] = field(default_factory=list)
@@ -131,11 +133,11 @@ class PlantObservation:
     container_type: str
     stake: Optional[int] = None
     position: Optional[str] = None
-    soil_mix: str
+    soil_mix: str = ""
     soil_moisture: Optional[str] = None  # "bone dry", "lightly moist", "very dry", etc.
-    current_stage: str
-    next_stage: str
-    observations: str  # What you observed
+    current_stage: str = ""
+    next_stage: str = ""
+    observations: str  = "" # What you observed
     actions_taken: List[str] = field(default_factory=list)  # Actions during this observation
     notes: str = ""
     plant_qa: Optional[Dict[str, str]] = None  # {"question": "...", "answer": "..."}
@@ -431,5 +433,5 @@ if __name__ == "__main__":
 
     print()
     print("=" * 65)
-    print("✅ All validation tests passed! (VERSION 13)")
+    print("✅ All validation tests passed! (VERSION 13.1)")
     print("=" * 65)

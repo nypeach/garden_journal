@@ -1,13 +1,13 @@
 # Garden Journal Data Structure
 
-**VERSION: 13**
-**Last Updated: 2025-11-11**
+**VERSION: 13.1**
+**Last Updated: 2025-11-12**
 
 ---
 
 ## Overview
 
-The garden journal uses a single JSON file (`data/garden_data.json`) to store all garden data. Version 13 introduces comprehensive tracking for multiple daily observations, detailed actions, photo metadata, and temporary location changes.
+The garden journal uses a single JSON file (`data/garden_data.json`) to store all garden data. Version 13 introduces comprehensive tracking for multiple daily observations, detailed actions, photo metadata, and temporary location changes. Version 13.1 adds the `summary` field for evolving plant assessments.
 
 ## File Location
 
@@ -19,14 +19,28 @@ data/garden_data.json
 
 ```json
 {
-  "_schema_version": "13",
-  "_last_updated": "2025-11-11",
+  "_schema_version": "13.1",
+  "_last_updated": "2025-11-12",
   "metadata": { },
   "plants": [ ],
   "locations": { },
   "daily_entries": [ ]
 }
 ```
+
+---
+
+## What's New in Version 13.1
+
+### New in This Version
+
+**Plant Summary Field** - Each plant now has an optional `summary` field that contains your evolving assessment of the plant. This field:
+- Appears in Section 2 (Plant-by-Plant Summary) as the "Notes"
+- Can be updated when adding daily observations
+- Allows you to keep, update, or append to the summary as the plant evolves
+- Contains high-level notes about health, status, and care needs
+
+Example: `"Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F."`
 
 ---
 
@@ -85,6 +99,7 @@ Each plant in your garden with complete history.
   "purchase_date": "20251008",
   "source": "Lowe's",
   "status": "active",
+  "summary": "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F.",
 
   "location_history": [ ],
   "current_location": { },
@@ -107,9 +122,51 @@ Each plant in your garden with complete history.
 
 - `variety` (string) - Plant variety (e.g., "Sweet Basil", "Husky Cherry Red")
 - `source` (string) - Where acquired (e.g., "Lowe's", "Garden Center")
+- `summary` (string) - **NEW IN 13.1** - Your evolving assessment of the plant's status, health, and care needs (appears in Section 2 as "Notes")
 - `temporary_locations` (array) - Temporary moves (indoors, covered, etc.)
 - `care_history` (array) - All care actions
 - `growth_stages` (array) - Growth milestones
+
+---
+
+## Summary Field (NEW IN 13.1)
+
+The `summary` field contains your high-level, evolving assessment of each plant.
+
+### Purpose
+
+- Displays in Section 2 (Plant-by-Plant Summary) as the "Notes" field
+- Contains your current overall understanding of the plant
+- Updated manually when the plant's status changes significantly
+- Separate from daily observations (which are timestamped snapshots)
+
+### What to Include
+
+- Overall health status
+- Recent significant changes or milestones
+- Ongoing care patterns or harvest cycles
+- Temperature/environmental thresholds
+- Expected next phase
+- Any concerns or issues to monitor
+
+### Examples
+
+```
+"Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F."
+
+"Flowering strongly; weaker blooms trimmed Nov 2. Expect runners late Nov–Dec; prep extra pots for rooting."
+
+"First fruits forming! Pruned lower diseased branches Nov 11. Staked Oct 29; protect at ≤49°F with frost cloth."
+
+"Recovering from transplant; new center growth emerging. Pale leaf color shows still re-establishing roots."
+```
+
+### Updating the Summary
+
+When adding daily observations using `scripts/add_entry.py`, you'll see the current summary and can choose to:
+1. Keep the current summary unchanged
+2. Replace the summary with new text
+3. Append additional information to the existing summary
 
 ---
 
@@ -588,6 +645,7 @@ A basil plant that moved multiple times:
   "purchase_date": "20251008",
   "source": "Lowe's",
   "status": "active",
+  "summary": "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F.",
 
   "location_history": [
     {
@@ -644,6 +702,7 @@ Three peppers sharing a window planter with stakes:
   "plant_id": "pepper_001",
   "common_name": "Scotch Bonnet",
   "variety": "Scotch Bonnet",
+  "summary": "Vertical stake support added Nov 10; unplanted as of Nov 10.",
   "current_location": {
     "location": "Panel 7",
     "container_name": "Pepper Box",
@@ -657,6 +716,7 @@ Three peppers sharing a window planter with stakes:
   "plant_id": "pepper_002",
   "common_name": "Orange Cali Wonder",
   "variety": "California Wonder",
+  "summary": "Same setup as Stake 1; unplanted as of Nov 10.",
   "current_location": {
     "location": "Panel 7",
     "container_name": "Pepper Box",
@@ -670,6 +730,7 @@ Three peppers sharing a window planter with stakes:
   "plant_id": "pepper_003",
   "common_name": "Jalapeño",
   "variety": "Jalapeño",
+  "summary": "Staked for vertical training; unplanted as of Nov 10.",
   "current_location": {
     "location": "Panel 7",
     "container_name": "Pepper Box",
@@ -697,6 +758,7 @@ Multiple plants sharing container, no stakes, using positions:
 {
   "plant_id": "garlic_001",
   "common_name": "Siberian Hardneck Garlic",
+  "summary": "Bulbs/clusters to be set pointy-side up, ~2\" deep; mulch lightly once shoots emerge.",
   "current_location": {
     "location": "Panel 8",
     "container_name": "Garlic & Scallion Box",
@@ -860,6 +922,13 @@ Always record:
 - When it moved temporarily
 - Why (cold protection, pest treatment, etc.)
 - When it returned (if it did)
+
+### Updating Plant Summaries
+
+- Update the summary when significant changes occur
+- Keep summaries concise but informative
+- Include temperature thresholds and care reminders
+- Mention expected next phases or upcoming needs
 
 ---
 
