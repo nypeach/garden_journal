@@ -9,7 +9,8 @@ env/
 ENV/
 
 # Garden Journal specific
-data/garden_data.json
+# data/garden_data.json
+data/backups/
 photos/*.jpg
 output/*.html
 chatGPT_conversations/

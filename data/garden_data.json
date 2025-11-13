@@ -1,0 +1,748 @@
+{
+  "_schema_version": "13",
+  "_last_updated": "2025-11-11",
+  "metadata": {
+    "garden_name": "Jodi's Garden Journal",
+    "start_date": "20251008",
+    "location": "Miami, Florida",
+    "garden_type": "Container/Fence Panel Garden"
+  },
+  "plants": [
+    {
+      "plant_id": "basil_001",
+      "common_name": "Basil - Left",
+      "variety": "Sweet Basil",
+      "purchase_date": "20251008",
+      "source": "Lowe's",
+      "status": "active",
+      "location_history": [
+        {
+          "date": "20251008",
+          "location": "Picnic Table",
+          "container_name": "Basil Pot - Left",
+          "container_type": "8\" white round pot, 0.94 gal",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original nursery potting mix",
+          "reason": "Initial purchase, observation period"
+        },
+        {
+          "date": "20251015",
+          "location": "Panel 14",
+          "container_name": "Basil Pot - Left",
+          "container_type": "8\" white round pot, 0.94 gal",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original nursery potting mix",
+          "reason": "Moved to fence for sun exposure"
+        },
+        {
+          "date": "20251020",
+          "location": "Panel 1",
+          "container_name": "Basil Pot - Left",
+          "container_type": "8\" white round pot, 0.94 gal",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original nursery potting mix",
+          "reason": "Moved to first morning sun position"
+        }
+      ],
+      "current_location": {
+        "location": "Panel 1",
+        "container_name": "Basil Pot - Left",
+        "container_type": "8\" white round pot, 0.94 gal",
+        "stake": null,
+        "position": null,
+        "soil_mix": "Original nursery potting mix"
+      },
+      "temporary_locations": [
+        {
+          "date": "20251110",
+          "time": "1800",
+          "temp_location": "Indoors",
+          "reason": "Cold protection - temps below 40°F",
+          "returned_date": "20251111",
+          "returned_time": "0900"
+        }
+      ],
+      "care_history": [
+        {
+          "date": "20251111",
+          "time": "1400",
+          "action_type": "watering",
+          "details": "Watered after being brought back outside from cold night",
+          "amount": "1½ cups",
+          "product": null,
+          "method": "Slowly and evenly over soil surface",
+          "notes": "Soil was very dry, plant was indoors overnight"
+        }
+      ],
+      "growth_stages": [
+        {
+          "date": "20251008",
+          "stage": "Purchased - Vegetative",
+          "notes": "Healthy, compact growth from nursery"
+        }
+      ]
+    },
+    {
+      "plant_id": "strawberry_002",
+      "common_name": "Strawberry - Right",
+      "variety": null,
+      "purchase_date": "20251008",
+      "source": "Lowe's",
+      "status": "active",
+      "location_history": [
+        {
+          "date": "20251008",
+          "location": "Picnic Table",
+          "container_name": "Original Strawberry Pot",
+          "container_type": "25 fl oz nursery pot",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original nursery potting mix",
+          "reason": "Initial purchase"
+        },
+        {
+          "date": "20251020",
+          "location": "Panel 4",
+          "container_name": "Strawberry Pot - Right",
+          "container_type": "2.32 qt black pot",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original potting soil + topsoil/sand fill",
+          "reason": "Transplanted to larger container"
+        }
+      ],
+      "current_location": {
+        "location": "Panel 4",
+        "container_name": "Strawberry Pot - Right",
+        "container_type": "2.32 qt black pot",
+        "stake": null,
+        "position": null,
+        "soil_mix": "Original potting soil + topsoil/sand fill"
+      },
+      "temporary_locations": [
+        {
+          "date": "20251110",
+          "time": "1800",
+          "temp_location": "Indoors",
+          "reason": "Cold protection - temps below 40°F",
+          "returned_date": "20251111",
+          "returned_time": "0900"
+        }
+      ],
+      "care_history": [
+        {
+          "date": "20251111",
+          "time": "1400",
+          "action_type": "pruning",
+          "details": "Removed leaves with fungal leaf spot",
+          "amount": null,
+          "product": null,
+          "method": "Clean scissors, discarded affected leaves",
+          "notes": "Brown-purple spots on lower leaves, likely Mycosphaerella"
+        },
+        {
+          "date": "20251111",
+          "time": "1400",
+          "action_type": "soil_amendment",
+          "details": "Added thin layer of fresh topsoil",
+          "amount": "Thin layer",
+          "product": "Topsoil",
+          "method": "Top dressing",
+          "notes": "To improve moisture balance after leaf removal"
+        },
+        {
+          "date": "20251111",
+          "time": "1400",
+          "action_type": "treatment",
+          "details": "Plan to apply neem oil tomorrow morning",
+          "amount": null,
+          "product": "Captain Jack's Neem Oil",
+          "method": "Spray application",
+          "notes": "Waiting 24-48 hours after pruning for cuts to seal"
+        }
+      ]
+    },
+    {
+      "plant_id": "tomato_001",
+      "common_name": "Cherry Tomato",
+      "variety": "Husky Cherry Red",
+      "purchase_date": "20251008",
+      "source": "Lowe's",
+      "status": "active",
+      "location_history": [
+        {
+          "date": "20251008",
+          "location": "Picnic Table",
+          "container_name": "Original Tomato Pot",
+          "container_type": "2.32 qt black pot",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original nursery potting mix",
+          "reason": "Initial purchase"
+        },
+        {
+          "date": "20251026",
+          "location": "Raised Bed - Panels 16-18",
+          "container_name": "Raised Bed",
+          "container_type": "2' x 6' x 10\" raised bed",
+          "stake": 1,
+          "position": null,
+          "soil_mix": "Topsoil/Sand mix",
+          "reason": "Transplanted for more root space",
+          "transplant_method": "Sideways planting - stem laid at angle and buried to first leaf nodes due to shallow bed depth"
+        }
+      ],
+      "current_location": {
+        "location": "Raised Bed - Panels 16-18",
+        "container_name": "Raised Bed",
+        "container_type": "2' x 6' x 10\" raised bed",
+        "stake": 1,
+        "position": null,
+        "soil_mix": "Topsoil/Sand mix"
+      },
+      "temporary_locations": [
+        {
+          "date": "20251110",
+          "time": "1800",
+          "temp_location": "Covered with plastic tablecloth",
+          "reason": "Cold protection overnight",
+          "returned_date": "20251111",
+          "returned_time": "0800"
+        }
+      ],
+      "care_history": [
+        {
+          "date": "20251111",
+          "time": "1500",
+          "action_type": "pruning",
+          "details": "Removed all lower speckled branches showing disease",
+          "amount": "Multiple branches removed",
+          "product": null,
+          "method": "Clean scissors, cut at main stem",
+          "notes": "Early blight or bacterial leaf spot on lower leaves, no fruit on removed branches"
+        },
+        {
+          "date": "20251111",
+          "time": "1515",
+          "action_type": "watering",
+          "details": "Deep watered after pruning",
+          "amount": null,
+          "product": null,
+          "method": "At soil base, avoiding leaves",
+          "notes": "Soil was dry 1 inch down before watering"
+        },
+        {
+          "date": "20251111",
+          "time": "1520",
+          "action_type": "mulching",
+          "details": "Added organic mulch layer",
+          "amount": "1-1.5 inch layer",
+          "product": "Miracle-Gro Organic Choice",
+          "method": "Around base, not touching stem",
+          "notes": "To retain moisture and prevent soil splash"
+        },
+        {
+          "date": "20251111",
+          "time": "1525",
+          "action_type": "watering",
+          "details": "Watered mulch to settle it in",
+          "amount": null,
+          "product": null,
+          "method": "Gentle watering over mulch",
+          "notes": "Final step after mulching"
+        }
+      ],
+      "growth_stages": [
+        {
+          "date": "20251008",
+          "stage": "Purchased - Vegetative",
+          "notes": "Strong single stem, healthy leaves"
+        },
+        {
+          "date": "20251105",
+          "stage": "Early flowering",
+          "notes": "First flower clusters visible"
+        },
+        {
+          "date": "20251111",
+          "stage": "Fruiting",
+          "notes": "First small green tomatoes forming - major milestone!"
+        }
+      ]
+    },
+    {
+      "plant_id": "garlic_001",
+      "common_name": "Siberian Hardneck Garlic",
+      "variety": "Siberian Hardneck",
+      "purchase_date": "20251101",
+      "source": "Garden Center",
+      "status": "active",
+      "location_history": [
+        {
+          "date": "20251109",
+          "location": "Panel 8",
+          "container_name": "Garlic & Scallion Box",
+          "container_type": "Window planter 23.5\" × 6\" (shared)",
+          "stake": null,
+          "position": "left section",
+          "soil_mix": "Miracle-Gro Moisture Control Potting Mix",
+          "reason": "Initial planting"
+        }
+      ],
+      "current_location": {
+        "location": "Panel 8",
+        "container_name": "Garlic & Scallion Box",
+        "container_type": "Window planter 23.5\" × 6\" (shared)",
+        "stake": null,
+        "position": "left section",
+        "soil_mix": "Miracle-Gro Moisture Control Potting Mix"
+      },
+      "care_history": [
+        {
+          "date": "20251111",
+          "time": "1515",
+          "action_type": "watering",
+          "details": "Deep rehydration watering",
+          "amount": "16 oz",
+          "product": null,
+          "method": "Hose on gentle shower setting",
+          "notes": "Soil was very dry after cold night, checked moisture 1 inch down after watering"
+        }
+      ]
+    },
+    {
+      "plant_id": "pepper_001",
+      "common_name": "Scotch Bonnet Pepper",
+      "variety": "Scotch Bonnet",
+      "purchase_date": "20251101",
+      "source": "Garden Center",
+      "status": "active",
+      "location_history": [
+        {
+          "date": "20251109",
+          "location": "Panel 7",
+          "container_name": "Pepper Box",
+          "container_type": "Window planter 23.5\" × 6\" (shared, 3 stakes)",
+          "stake": 1,
+          "position": null,
+          "soil_mix": "Potting mix",
+          "reason": "Initial planting in staked window planter"
+        }
+      ],
+      "current_location": {
+        "location": "Panel 7",
+        "container_name": "Pepper Box",
+        "container_type": "Window planter 23.5\" × 6\" (shared, 3 stakes)",
+        "stake": 1,
+        "position": null,
+        "soil_mix": "Potting mix"
+      }
+    },
+    {
+      "plant_id": "test_basil_999",
+      "plant_type": "basil",
+      "common_name": "Test Basil",
+      "variety": "Sweet Basil Test",
+      "purchase_date": "20251113",
+      "status": "active",
+      "current_location": {
+        "location": "Panel 10",
+        "container_type": "pot",
+        "container_name": "Test Pot",
+        "stake_number": null,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251113",
+          "location": "Panel 5",
+          "container_type": "pot",
+          "container_name": "Test Pot",
+          "stake_number": null,
+          "position": null,
+          "reason": "Initial placement"
+        },
+        {
+          "date": "20251113",
+          "location": "Panel 10",
+          "container_type": "pot",
+          "container_name": "Test Pot",
+          "stake_number": null,
+          "position": null,
+          "reason": "Testing move functionality"
+        }
+      ],
+      "summary": "Updated test summary with new observations. Plant is thriving!"
+    },
+    {
+      "plant_id": "test_003",
+      "plant_type": "basil",
+      "common_name": "Test",
+      "variety": null,
+      "purchase_date": "20251332",
+      "status": "active",
+      "current_location": {
+        "location": "Panel 1",
+        "container_type": "pot",
+        "container_name": "Test",
+        "stake_number": null,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251332",
+          "location": "Panel 1",
+          "container_type": "pot",
+          "container_name": "Test",
+          "stake_number": null,
+          "position": null,
+          "reason": "Initial placement"
+        }
+      ],
+      "summary": ""
+    }
+  ],
+  "locations": {
+    "Picnic Table": {
+      "type": "temporary_staging",
+      "description": "Initial placement area for new purchases, opposite fence in shade"
+    },
+    "Panel 1": {
+      "type": "fence_panel",
+      "sun_exposure": "Full sun 7am-3:50pm",
+      "notes": "First morning sun"
+    },
+    "Panel 7": {
+      "type": "fence_panel",
+      "sun_exposure": "Full sun 10am-3:50pm"
+    },
+    "Panel 8": {
+      "type": "fence_panel",
+      "sun_exposure": "Full sun 10am-3:50pm"
+    },
+    "Raised Bed - Panels 16-18": {
+      "type": "raised_bed",
+      "dimensions": "2' x 6' x 10\"",
+      "sun_exposure": "Full sun 9:30am-3:50pm",
+      "stakes": 4
+    },
+    "Indoors": {
+      "type": "temporary_protection",
+      "description": "Inside house for cold protection"
+    }
+  },
+  "daily_entries": [
+    {
+      "date": "20251113",
+      "summary_of_activities": [
+        "Tested data_manager.py functions",
+        "Added test plant",
+        "Moved test plant"
+      ],
+      "weather": {
+        "temp_high": 78,
+        "temp_low": 68,
+        "conditions": "Sunny and clear",
+        "sunrise": "0645",
+        "sunset": "1745"
+      },
+      "general_observations": "Testing day - all systems working well.",
+      "general_qa": [
+        {
+          "question": "How is the data_manager performing?",
+          "answer": "Excellent! All functions working as expected."
+        }
+      ],
+      "upcoming_actions": [
+        "Build interactive scripts",
+        "Start fresh data entry"
+      ],
+      "plant_observations": [
+        {
+          "plant_id": "test_basil_999",
+          "time": "1430",
+          "observation": "Test observation: Plant looking healthy after move.",
+          "photos": [
+            {
+              "filename": "test_basil_999_20251113_1430_1.jpg",
+              "tag": "after_move",
+              "caption": "Test photo after moving to Panel 10"
+            }
+          ],
+          "soil_moisture": "lightly moist",
+          "care_actions": [
+            {
+              "action_type": "watering",
+              "amount": "1 cup",
+              "notes": "Light watering after move"
+            }
+          ],
+          "plant_qa": [
+            {
+              "question": "How did the plant handle the move?",
+              "answer": "Very well! No signs of stress."
+            }
+          ],
+          "temporary_location": null
+        }
+      ]
+    },
+    {
+      "date": "20251111",
+      "time_of_entry": "1400",
+      "weather": {
+        "temp_high": 68,
+        "temp_low": 40,
+        "conditions": "Sunny and clear",
+        "sunrise": "0653",
+        "sunset": "1745",
+        "humidity": null,
+        "wind": "Light breeze",
+        "notes": "Cold night, brought several plants indoors"
+      },
+      "activities": [
+        "Brought basil and strawberry plants back outside after cold night indoors",
+        "Watered multiple plants that were dry from overnight",
+        "Pruned tomato plant - removed diseased lower branches",
+        "Added mulch to tomato plant",
+        "Applied neem oil to several plants",
+        "Removed spotted leaves from strawberry",
+        "Added topsoil to strawberry and arugula"
+      ],
+      "observations": [
+        "All plants survived the cold night well",
+        "Tomato plant has first fruits forming!",
+        "Lavender seeds still not germinated (day 2)",
+        "Arugula showing excellent recovery after reseeding",
+        "Some fungal leaf spot issues on strawberry and tomato"
+      ],
+      "questions_and_answers": [
+        {
+          "question": "Should I start fertilizing the tomato plant now that it's fruiting?",
+          "answer": "Wait until you see the first flowers forming, then start with a diluted 10-10-10 fertilizer at half strength every 2 weeks."
+        },
+        {
+          "question": "Should I clean leaves with alcohol before applying neem oil?",
+          "answer": "No, use water instead. Alcohol can damage tender zucchini leaves. Use room-temperature water, let dry completely, then apply neem oil."
+        }
+      ],
+      "upcoming_actions": [
+        {
+          "description": "Apply Captain Jack's neem oil to Strawberry - Right",
+          "target_date": "20251112",
+          "target_timeframe": "tomorrow morning",
+          "plants_affected": [
+            "strawberry_002"
+          ]
+        },
+        {
+          "description": "Add potting mix layer to broccoli/chives planter and reseed chives",
+          "target_date": null,
+          "target_timeframe": "in a few days",
+          "plants_affected": [
+            "broccoli_001",
+            "chives_001"
+          ]
+        },
+        {
+          "description": "Add mulch to zucchini Stake 3",
+          "target_date": null,
+          "target_timeframe": "in about a week once stem strengthens",
+          "plants_affected": [
+            "zucchini_003"
+          ]
+        }
+      ],
+      "plant_observations": [
+        {
+          "plant_id": "basil_001",
+          "time": "1400",
+          "location": "Panel 1",
+          "container_name": "Basil Pot - Left",
+          "container_type": "8\" white round pot, 0.94 gal",
+          "stake": null,
+          "position": null,
+          "soil_mix": "Original nursery potting mix",
+          "soil_moisture": "very dry",
+          "current_stage": "Vegetative",
+          "next_stage": "Ready for harvest",
+          "observations": "Plant vibrant and upright. Was brought indoors last night due to temps below 40°F. Soil very dry.",
+          "actions_taken": [
+            "Watered 1½ cups slowly and evenly",
+            "Checked after 10 minutes, added ½ cup more as top 2\" still felt dry",
+            "Ensured drainage"
+          ],
+          "notes": "Plant expected to perk up within an hour. Avoid fertilizing today to let it stabilize.",
+          "plant_qa": null,
+          "photos": [
+            {
+              "filename": "basil_001_20251111_1400_1.jpg",
+              "timestamp": "1400",
+              "tags": [
+                "before_watering",
+                "after_cold_night"
+              ],
+              "caption": "Basil - Left after being brought back outside"
+            },
+            {
+              "filename": "basil_001_20251111_1400_2.jpg",
+              "timestamp": "1400",
+              "tags": [
+                "before_watering",
+                "soil_condition"
+              ],
+              "caption": "Close-up showing dry soil"
+            }
+          ]
+        },
+        {
+          "plant_id": "tomato_001",
+          "time": "1500",
+          "location": "Raised Bed - Panels 16-18",
+          "container_name": "Raised Bed",
+          "container_type": "2' x 6' x 10\" raised bed",
+          "stake": 1,
+          "position": null,
+          "soil_mix": "Topsoil/Sand mix",
+          "soil_moisture": "dry 1 inch down before watering",
+          "current_stage": "Fruiting",
+          "next_stage": "Fruit development",
+          "observations": "Plant vigorous with first fruits forming! Speckled and browning lower leaves show early blight or bacterial leaf spot. Upper foliage healthy.",
+          "actions_taken": [
+            "Pruned all lower speckled branches (no fruit on them)",
+            "Deep watered soil/sand mix at base",
+            "Added 1-1.5\" layer of Miracle-Gro Organic Choice mulch",
+            "Watered mulch to settle it in"
+          ],
+          "notes": "Plant appears leaner after pruning but structurally healthy. Canopy will fill out again in 1-2 weeks with new side shoots.",
+          "plant_qa": {
+            "question": "Will it fill out again after I chopped so much off?",
+            "answer": "Yes absolutely! New side shoots will emerge in upper leaf joints within 5-7 days. Plant will redirect energy toward top growth and fruit production. Pruning strengthens the main stem and improves airflow."
+          },
+          "photos": [
+            {
+              "filename": "tomato_001_20251111_1445_1.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_pruning",
+                "diseased_leaves"
+              ],
+              "caption": "Before pruning - showing speckled lower leaves"
+            },
+            {
+              "filename": "tomato_001_20251111_1445_2.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_pruning",
+                "full_plant"
+              ],
+              "caption": "Full plant before pruning"
+            },
+            {
+              "filename": "tomato_001_20251111_1445_3.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_pruning",
+                "fruit_forming"
+              ],
+              "caption": "First fruits visible!"
+            },
+            {
+              "filename": "tomato_001_20251111_1445_4.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_pruning",
+                "diseased_leaves_closeup"
+              ],
+              "caption": "Close-up of leaf spotting"
+            },
+            {
+              "filename": "tomato_001_20251111_1445_5.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_pruning",
+                "soil_condition"
+              ],
+              "caption": "Soil condition before work"
+            },
+            {
+              "filename": "tomato_001_20251111_1530_1.jpg",
+              "timestamp": "1530",
+              "tags": [
+                "after_pruning",
+                "after_mulching"
+              ],
+              "caption": "After pruning and mulching - clean lower stem"
+            },
+            {
+              "filename": "tomato_001_20251111_1530_2.jpg",
+              "timestamp": "1530",
+              "tags": [
+                "after_pruning",
+                "after_mulching",
+                "full_plant"
+              ],
+              "caption": "Full plant after work - leaner but healthy"
+            },
+            {
+              "filename": "tomato_001_20251111_1530_3.jpg",
+              "timestamp": "1530",
+              "tags": [
+                "after_mulching",
+                "mulch_layer"
+              ],
+              "caption": "Mulch layer settled and watered in"
+            }
+          ]
+        },
+        {
+          "plant_id": "zucchini_003",
+          "time": "1445",
+          "location": "Raised Bed - Panels 16-18",
+          "container_name": "Raised Bed",
+          "container_type": "2' x 6' x 10\" raised bed",
+          "stake": 3,
+          "position": null,
+          "soil_mix": "Topsoil/Sand mix",
+          "soil_moisture": "moist but not soggy after ½ cup watering",
+          "current_stage": "Vegetative - direct-sown",
+          "next_stage": "Continued growth",
+          "observations": "Plant healthy and upright with new inner growth forming. Lower leaves show a few small chew marks (likely beetles or caterpillars). No rot at base, stem sturdy and green.",
+          "actions_taken": [
+            "Watered ½ cup at base",
+            "Gently cleaned leaves with room-temperature water",
+            "Applied Captain Jack's Neem Oil spray (first treatment for this plant)"
+          ],
+          "notes": "This was the plant's FIRST neem oil treatment. Wait about 1 week before mulching to allow stem to strengthen.",
+          "plant_qa": {
+            "question": "Should I clean the leaves with alcohol or water before neem oil?",
+            "answer": "Use water, not alcohol. Zucchini leaves are tender and alcohol can damage their protective coating and cause burn spots in sunlight. Use room-temp water, let dry completely, then apply neem."
+          },
+          "photos": [
+            {
+              "filename": "zucchini_003_20251111_1445_1.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_neem",
+                "chew_marks"
+              ],
+              "caption": "Showing chew marks on lower leaves"
+            },
+            {
+              "filename": "zucchini_003_20251111_1445_2.jpg",
+              "timestamp": "1445",
+              "tags": [
+                "before_neem",
+                "full_plant"
+              ],
+              "caption": "Full plant before neem oil treatment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

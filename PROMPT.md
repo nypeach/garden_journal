@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 13, 2025 @ 5:33 AM EST
+**Last Updated:** November 13, 2025 @ 7:04 AM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -28,7 +28,9 @@ garden-journal/
 ├── .claude/
 ├── chatGPT_conversations/ (PDFs of chat history)
 ├── data/
+│   ├── garden_data.json            # Your actual garden data
 │   ├── garden_data.example.json
+│   ├── backups/                    # Timestamped backups (gitignored)
 │   └── data.py (untracked - work in progress)
 ├── docs/
 │   ├── data-structure.md
@@ -37,10 +39,12 @@ garden-journal/
 ├── output/ (gitignored - generated HTML files)
 ├── photos/ (gitignored - photo files)
 ├── scripts/
-│   └── compress_photos.py
+│   ├── compress_photos.py
+│   └── test_data_manager.py       # Test suite for data_manager
 ├── src/
 │   ├── __init__.py
 │   ├── __pycache__/ (gitignored)
+│   ├── data_manager.py            # JSON read/write operations
 │   ├── html_generator.py
 │   └── schema.py
 ├── templates/
@@ -159,12 +163,25 @@ garden-journal/
 - `Garden_02_Plant_by_Plant_Summary.html`
 - `Garden_03_Daily_YYYYMMDD.html` (one per date in daily_entries)
 
-### 7. Setup Scripts
+### 7. Data Manager (VERSION 1.0) ✅ COMPLETED
+
+**Created:** `src/data_manager.py`
+
+**Functions implemented:**
+- `load_data()` / `save_data()` with timestamped backups to `data/backups/`
+- `add_plant()` / `update_plant_summary()` / `move_plant()`
+- `add_daily_entry()` / `add_plant_observation()`
+- `get_plant_by_id()` / `get_entry_by_date()` / `get_all_plants()` / `get_all_entries()`
+
+**Tested:** `scripts/test_data_manager.py` - Comprehensive test suite (7/8 tests passing)
+
+### 8. Setup Scripts
 
 **Created:**
 - `setup_docs.py` - Generates all documentation files and project structure
 - `setup_templates.py` - Generates CSS and HTML templates (VERSION 13.1)
 - `scripts/compress_photos.py` - Batch compress photos maintaining quality
+- `scripts/test_data_manager.py` - Test suite for data_manager.py
 
 ---
 
@@ -361,54 +378,62 @@ All templates created and tested:
 - `Garden_02_Plant_by_Plant_Summary.html` ✅
 - `Garden_03_Daily_YYYYMMDD.html` (ready to test with real data)
 
-### 3. Build Data Manager (`src/data_manager.py`)
+### 3. ~~Build Data Manager~~ ✅ COMPLETED
 
-**Functions needed:**
+**Created:** `src/data_manager.py` (VERSION 1.0)
+
+**All functions implemented and tested:**
 - `load_data()` - Read garden_data.json with validation
-- `save_data()` - Write garden_data.json with backup
+- `save_data()` - Write garden_data.json with timestamped backup to `data/backups/`
 - `add_plant()` - Add new plant with initial location
-- `update_plant_summary()` - Update/append to plant summary field
+- `update_plant_summary()` - Update plant summary field
 - `move_plant()` - Add location history entry, update current_location
 - `add_daily_entry()` - Add complete daily entry
 - `add_plant_observation()` - Add observation to existing daily entry
 - `get_plant_by_id()` - Retrieve plant data
 - `get_entry_by_date()` - Retrieve daily entry
-- Validation using schema.py functions
+- `get_all_plants()` / `get_all_entries()` - Retrieve all data
 
-### 4. Build Interactive Scripts
+**Key features:**
+- Automatic timestamped backups before every save
+- Works with array-based plant data structure
+- Full validation using schema.py functions
+- Comprehensive test suite: `scripts/test_data_manager.py` (7/8 tests passing)
 
-**a) `scripts/add_plant.py`**
-- Interactive CLI to add new plants
-- Prompts for: plant type, common name, variety, purchase date, location, container details, stake/position
-- Prompt for initial plant summary
-- Auto-generates plant_id
-- Validates all inputs
-- Updates garden_data.json
+### 4. Build Web Forms
 
-**b) `scripts/move_plant.py`**
-- Select plant from list
-- Enter new location, reason for move
-- Updates location_history and current_location
+Build HTML forms for local web application (not CLI scripts):
 
-**c) `scripts/add_entry.py`**
-- Interactive form for daily entries
+**a) `forms/index.html`**
+- Main landing page for the web application
+- Links to all forms and generated journal pages
+
+**b) `forms/add_plant.html`**
+- HTML form to add new plants
+- Fields: plant type, common name, variety, purchase date, location, container details, stake/position
+- Field for initial plant summary
+- JavaScript for client-side validation
+- Submits to backend that calls data_manager.add_plant()
+
+**c) `forms/add_entry.html`**
+- Multi-section form for daily entries
 - Sections: date/time, weather, activities, observations, general Q&A, upcoming actions
-- Then loop: add plant observations (select plant, enter details, specify photos)
-- **Show current summary** and allow user to keep/update/append
-- Support multiple observations per plant (morning, afternoon checks)
+- Loop for adding plant observations with photo selection
+- **Show current summary** and allow inline editing
+- Support multiple observations per plant
+- Submits to backend that calls data_manager functions
 
-**d) `scripts/generate_all.py`**
-- Wrapper around html_generator.py
-- Generate all HTML pages
-- Options: --static-only, --daily-only, --date YYYYMMDD
-- Progress indicators
-- Validation before generating
+**d) `forms/move_plant.html`**
+- Dropdown to select plant from list
+- Fields for new location, reason for move
+- Submits to backend that calls data_manager.move_plant()
 
-**e) `scripts/rename_photos.py`**
-- Batch rename photos to proper convention
-- Prompts for plant_id, date, time
-- Automatically numbers sequence
-- Moves to photos/ folder
+**e) `src/web_server.py`**
+- Simple Flask or FastAPI server
+- Serves HTML forms locally
+- Handles form submissions
+- Calls data_manager functions
+- Returns success/error messages
 
 ### 5. Import Historical Data
 
@@ -545,29 +570,34 @@ Pillow>=10.0.0
 
 1. Take photos throughout the day
 2. Transfer photos to computer, rename with script or manually
-3. Run `python3 scripts/add_entry.py` - add daily observations
-4. Run `python3 scripts/generate_all.py --daily-only --date 20251111`
-5. Open `output/Garden_03_Daily_20251111.html` in browser
-6. Use Print Friendly & PDF to save as PDF with custom page breaks
+3. Open web application (http://localhost:5000)
+4. Fill out daily entry form with observations
+5. Submit form - generates/updates garden_data.json
+6. Click "Generate Pages" button to create HTML journal
+7. Open `output/Garden_03_Daily_20251111.html` in browser
+8. Use Print Friendly & PDF to save as PDF with custom page breaks
 
 ### Adding New Plant:
 
-1. Run `python3 scripts/add_plant.py`
-2. Follow prompts (including initial summary)
-3. Regenerate static pages: `python3 scripts/generate_all.py --static-only`
+1. Open web application
+2. Click "Add Plant" form
+3. Fill in all fields (including initial summary)
+4. Submit - updates garden_data.json
+5. Regenerate static pages
 
 ### Moving Plant:
 
-1. Run `python3 scripts/move_plant.py`
-2. Select plant, enter new location
-3. Updates location_history automatically
+1. Open "Move Plant" form
+2. Select plant from dropdown
+3. Enter new location and reason
+4. Submit - updates location_history automatically
 
 ### Updating Plant Summary:
 
-When running `add_entry.py`, after entering plant observation:
-- Current summary displayed
-- Choose: Keep, Update, or Append
-- New summary saved to plant record
+When filling out daily entry form:
+- After entering plant observation, current summary is displayed in editable field
+- Edit as needed (keep, update, or append)
+- New summary saved to plant record on submit
 
 ---
 
@@ -603,11 +633,11 @@ When running `add_entry.py`, after entering plant observation:
 **Priority 2: ~~Remaining Templates~~** ✅ COMPLETED
 ~~Create Front Page, Layout (Section 1), Plant Summary (Section 2) templates.~~
 
-**Priority 3: Data Manager** ⬅️ NEXT!
-Build `src/data_manager.py` for JSON read/write operations.
+**Priority 3: ~~Data Manager~~** ✅ COMPLETED
+~~Build `src/data_manager.py` for JSON read/write operations.~~
 
-**Priority 4: Scripts**
-Create add_entry.py, add_plant.py, generate_all.py for daily usage.
+**Priority 4: Web Forms** ⬅️ NEXT!
+Build HTML forms and web server for local application.
 
 **Priority 5: Import Data**
 Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
@@ -623,11 +653,23 @@ Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
 - Previously used ChatGPT but it couldn't maintain accurate dates/times
 - Values: accuracy, completeness, beautiful printable output
 - Prefers: clean design, no excessive formatting, functional over flashy
+- **Wants a local web application** with HTML forms for data entry, not CLI scripts
+- **Project uses array-based data structure** - plants stored as array/list, not dict
+- **Backups are automatic** - every save operation creates timestamped backup in data/backups/
 - Technical level: Comfortable with Python, command line, GitHub
 - Always use `python3` commands (not `python`)
+- **Commit message format:** User prefers commit messages generated in a copyable bash format like:
+```
+  git add -A && git commit -m "Title
+
+  - Bullet point 1
+  - Bullet point 2
+  - Bullet point 3"
+```
+  Always provide commit messages in this exact format, ready to copy/paste into terminal.
 - **IMPORTANT:** Only make changes that are explicitly requested - do not modify code, templates, or documentation beyond what is asked
 - **IMPORTANT:** If you ask the user a question, WAIT for their answer before generating any code, artifacts, or making changes. Do not assume an answer.
 
 ---
 
-**Continue from here. Next priority: Build Data Manager for JSON operations.**
+**Continue from here. Next priority: Build Web Forms for local application.**
