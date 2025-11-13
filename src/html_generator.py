@@ -80,7 +80,8 @@ class GardenHTMLGenerator:
         print(f"✓ Created output directory: {self.output_dir}")
 
         # Copy base.css to output/styles.css
-        css_source = self.templates_dir / "base.css"
+        # css_source = self.templates_dir / "base.css"
+        css_source = Path("forms/static/base.css")
         css_dest = self.output_dir / "styles.css"
 
         if css_source.exists():

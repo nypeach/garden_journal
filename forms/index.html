@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌿 Garden Journal</title>
+  <link rel="stylesheet" href="/static/base.css">
+  <link rel="stylesheet" href="/static/forms.css">
+</head>
+
+<body>
+  <main>
+    <h1><span>🌿</span> Garden Journal</h1>
+    <p class="note">Local garden tracking system • Miami, Florida</p>
+
+    <hr class="divider" />
+
+    <!-- Quick Stats -->
+    {% if total_plants is not none %}
+    <div class="stats">
+      <ul>
+        <li><strong>Active Plants:</strong> {{ total_plants }}</li>
+        <li><strong>Last Entry:</strong>
+          {% if last_entry_date %}
+          {{ last_entry_date[4:6] }}/{{ last_entry_date[6:8] }}/{{ last_entry_date[0:4] }}
+          {% else %}
+          --
+          {% endif %}
+        </li>
+      </ul>
+    </div>
+
+    <hr class="divider" />
+    {% endif %}
+
+    <!-- Server Instructions -->
+    <h2><span>🚀</span> Getting Started</h2>
+    <div class="instructions">
+      <p>To use the garden journal web forms, you need to start the Flask web server.</p>
+
+      <h3 style="font-size: 16px; margin: 16px 0 8px;">Start the Server:</h3>
+      <ol>
+        <li>Open Terminal</li>
+        <li>Navigate to your garden-journal folder:
+          <pre>cd ~/path/to/garden-journal</pre>
+        </li>
+        <li>Run the server:
+          <pre>python3 src/web_server.py</pre>
+        </li>
+        <li>You'll see a message: <code>Starting server on http://localhost:3000</code></li>
+        <li>Open Chrome and navigate to: <code>http://localhost:3000</code></li>
+      </ol>
+
+      <h3 style="font-size: 16px; margin: 16px 0 8px;">Stop the Server:</h3>
+      <p>Press <code>Ctrl+C</code> in the Terminal window to stop the server.</p>
+
+      <p style="margin-top: 16px; color: var(--muted); font-size: 14px;">
+        💡 <strong>Tip:</strong> Keep the Terminal window open while using the forms. You'll see helpful logs as you
+        submit forms.
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Navigation -->
+    <h2><span>📝</span> Forms</h2>
+    <div class="nav-cards">
+      <a href="/add-plant" class="nav-card">
+        <div class="nav-card-title">➕ Add Plant</div>
+        <p class="nav-card-desc">Add a new plant to your garden with location, container, and initial summary.</p>
+      </a>
+
+      <a href="/add-entry" class="nav-card">
+        <div class="nav-card-title">📔 Daily Entry</div>
+        <p class="nav-card-desc">Record daily observations, weather, activities, and plant-by-plant notes with photos.
+        </p>
+      </a>
+
+      <a href="/move-plant" class="nav-card">
+        <div class="nav-card-title">🔄 Move Plant</div>
+        <p class="nav-card-desc">Record when a plant moves to a new location (panel, indoors, etc.).</p>
+      </a>
+    </div>
+
+    <!-- Generated Journal -->
+    <h2><span>📚</span> View Journal</h2>
+    <div class="nav-cards">
+      <a href="/output/Garden_00_Front_Page.html" class="nav-card" target="_blank">
+        <div class="nav-card-title">📄 Front Page</div>
+        <p class="nav-card-desc">Garden overview and table of contents</p>
+      </a>
+
+      <a href="/output/Garden_01_Layout.html" class="nav-card" target="_blank">
+        <div class="nav-card-title">🗺️ Layout</div>
+        <p class="nav-card-desc">Current garden layout (Panels 1-18)</p>
+      </a>
+
+      <a href="/output/Garden_02_Plant_by_Plant_Summary.html" class="nav-card" target="_blank">
+        <div class="nav-card-title">🌱 Plant Summary</div>
+        <p class="nav-card-desc">All plants with containers and notes</p>
+      </a>
+    </div>
+
+    {% if error %}
+    <div class="error-message">
+      <strong>Error loading data:</strong> {{ error }}
+    </div>
+    {% endif %}
+  </main>
+</body>
+
+</html>
