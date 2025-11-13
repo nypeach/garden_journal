@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔄 Move Plant - Garden Journal</title>
+  <link rel="stylesheet" href="/static/base.css">
+  <link rel="stylesheet" href="/static/forms.css">
+</head>
+
+<body>
+  <main>
+    <h1><span>🔄</span> Move Plant</h1>
+    <p class="note">Record when a plant moves to a new location</p>
+
+    <hr class="divider" />
+
+    <form id="movePlantForm">
+
+      <div class="form-group">
+        <label for="plant_id">
+          Select Plant <span class="required">*</span>
+        </label>
+        <select id="plant_id" name="plant_id" required>
+          <option value="">-- Choose a plant --</option>
+          {% for plant in plants %}
+          <option value="{{ plant.plant_id }}">
+            {{ plant.common_name }} ({{ plant.plant_id }})
+          </option>
+          {% endfor %}
+        </select>
+        <div class="help-text">Select the plant you're moving</div>
+      </div>
+
+      <div class="form-group">
+        <label for="new_location">
+          New Location <span class="required">*</span>
+        </label>
+        <input type="text" id="new_location" name="new_location" placeholder="Panel 5, Indoors, Garage, etc."
+          required />
+        <div class="help-text">Where is the plant moving to?</div>
+      </div>
+
+      <div class="form-group">
+        <label for="reason">
+          Reason for Move <span class="required">*</span>
+        </label>
+        <input type="text" id="reason" name="reason" placeholder="Better sunlight, cold protection, repotting, etc."
+          required />
+        <div class="help-text">Why are you moving this plant?</div>
+      </div>
+
+      <div class="form-group">
+        <label for="move_date">
+          Date of Move <span class="required">*</span>
+        </label>
+        <input type="date" id="move_date" name="move_date" required />
+        <div class="help-text">When did/will the move happen?</div>
+      </div>
+
+      <div class="form-buttons">
+        <button type="submit" class="btn btn-primary">
+          🔄 Move Plant
+        </button>
+        <a href="/" class="btn btn-secondary">Cancel</a>
+      </div>
+
+    </form>
+
+    {% if error %}
+    <div class="error-message">
+      <strong>Error:</strong> {{ error }}
+    </div>
+    {% endif %}
+
+  </main>
+
+  <!-- Success Modal -->
+  <div id="successModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-icon">✅</span>
+        <h2 class="modal-title">Plant Moved Successfully!</h2>
+      </div>
+      <div class="modal-body">
+        <p><strong>Plant:</strong> <span id="modal-plant-name"></span></p>
+        <p><strong>From:</strong> <span id="modal-old-location"></span></p>
+        <p><strong>To:</strong> <span id="modal-new-location"></span></p>
+        <p><strong>Reason:</strong> <span id="modal-reason"></span></p>
+      </div>
+      <div class="modal-buttons">
+        <a href="/output/Garden_02_Plant_by_Plant_Summary.html" target="_blank" class="btn btn-primary">
+          View Plant Summary
+        </a>
+        <button onclick="closeModal()" class="btn btn-secondary">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Set today's date as default
+    document.getElementById('move_date').valueAsDate = new Date();
+
+    // Handle form submission
+    document.getElementById('movePlantForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = {
+        plant_id: document.getElementById('plant_id').value,
+        new_location: document.getElementById('new_location').value,
+        reason: document.getElementById('reason').value,
+        move_date: document.getElementById('move_date').value.replace(/-/g, '') // Convert to YYYYMMDD
+      };
+
+      try {
+        const response = await fetch('/api/move-plant', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          // Get plant name for display
+          const plantSelect = document.getElementById('plant_id');
+          const plantName = plantSelect.options[plantSelect.selectedIndex].text;
+
+          // Show success modal
+          document.getElementById('modal-plant-name').textContent = plantName;
+          document.getElementById('modal-old-location').textContent = result.old_location || 'Unknown';
+          document.getElementById('modal-new-location').textContent = formData.new_location;
+          document.getElementById('modal-reason').textContent = formData.reason;
+          document.getElementById('successModal').classList.add('active');
+        } else {
+          alert('Error: ' + result.error);
+        }
+      } catch (error) {
+        alert('Error submitting form: ' + error.message);
+      }
+    });
+
+    function closeModal() {
+      document.getElementById('successModal').classList.remove('active');
+      // Reset form
+      document.getElementById('movePlantForm').reset();
+      document.getElementById('move_date').valueAsDate = new Date();
+    }
+  </script>
+</body>
+
+</html>
