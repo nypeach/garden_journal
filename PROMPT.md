@@ -765,3 +765,50 @@ Add all real plants and import historical entries.
 ---
 
 **Continue from here. Next priority: Build Daily Entry form (forms/add_entry.html) - the comprehensive daily journal form with all 6 sections and photo handling.**
+
+**Continue from here. Next priority: Build Daily Entry form (forms/add_entry.html) - the comprehensive daily journal form with all 6 sections and photo handling.**
+
+**Build Plan for Daily Entry Form (build incrementally in phases):**
+
+**Phase 1: Basic Structure + Sections 1-5**
+- Form foundation with date/time inputs
+- Section 1: Summary of Activities (textarea with markdown support)
+- Section 2: Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
+- Section 3: General Observations (textarea with markdown support)
+- Section 4: Questions & Answers (repeatable Q&A pairs with [+ Add Another Q&A] button)
+- Section 5: Upcoming Actions (repeatable items with description, target date/timeframe, [+ Add Another Action] button)
+- Test and verify Sections 1-5 work before moving to Phase 2
+
+**Phase 2: Section 6 - Plant by Plant Observations**
+- Plant selection dropdown (loads from active plants)
+- Time of observation input
+- Current summary auto-load and inline editing (textarea, pre-filled, editable)
+- Plant status dropdown (active/died/harvested/removed, defaults to current status)
+- Status change reason field (only appears if status changed from active)
+- Container/soil info (auto-filled from plant data, editable)
+- Soil conditions: moisture, pH, fertility (all free text inputs)
+- Growth stages: current stage, next stage
+- Observations (textarea), Actions Taken (textarea with markdown), Notes (textarea)
+- Plant-specific Q&A (repeatable pairs within each plant observation)
+- [+ Add Another Plant Observation] button for multiple plants per entry
+- Test and verify plant observations work before moving to Phase 3
+
+**Phase 3: Photo Handling in Plant Observations**
+- Browse button to select photos from Google Drive folder path
+- Display selected photos as thumbnails
+- Extract EXIF metadata (date/time) from JPEGs
+- Auto-suggest filenames: {plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg
+- Client-side compression using Canvas API (target: 600×450px @ 85-90% quality)
+- Caption and tags inputs for each photo
+- Copy compressed/renamed photos to repo `photos/` folder
+- Leave originals in Google Drive folder
+- Test complete form end-to-end with photos
+
+**After all 3 phases complete:**
+- Add POST /api/add-entry endpoint to web_server.py
+- Endpoint calls data_manager.add_daily_entry()
+- Auto-regenerate ALL pages (Front, Layout, Plant Summary, Daily page for that date)
+- Success modal with link to view generated daily journal page
+- Full end-to-end testing of complete form
+
+---
