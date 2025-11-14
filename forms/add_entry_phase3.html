@@ -44,6 +44,8 @@
 
     /* Photo preview styles */
     .photo-preview-grid {
+      display: grid;
+      gap: 16px;
       margin-top: 16px;
     }
 
@@ -52,7 +54,6 @@
       border-radius: 8px;
       padding: 16px;
       background: #fafafa;
-      margin-bottom: 12px;
     }
 
     .photo-preview-layout {
@@ -96,25 +97,38 @@
       <h2><span>📅</span> Basic Information</h2>
 
       <div class="form-group">
-        <label for="entry_date">Date *</label>
+        <label for="entry_date">
+          Date <span class="required">*</span>
+        </label>
         <input type="date" id="entry_date" name="entry_date" required />
+        <div class="help-text">Date of this journal entry</div>
       </div>
 
       <div class="form-group">
-        <label for="entry_time">Time of Entry *</label>
+        <label for="entry_time">
+          Time of Entry <span class="required">*</span>
+        </label>
         <input type="time" id="entry_time" name="entry_time" required />
+        <div class="help-text">When you're filling out this form</div>
       </div>
 
       <hr class="divider" />
 
       <!-- SECTION 1: SUMMARY OF ACTIVITIES -->
-      <h2><span>📋</span> Summary of Activities</h2>
+      <h2><span>📝</span> Summary of Activities</h2>
+
       <div class="form-group">
-        <label for="activities">Activities</label>
-        <textarea id="activities" name="activities"
-          placeholder="Use markdown bullets:&#10;- Watered all plants&#10;- Pruned tomato&#10;   - Removed diseased leaves&#10;   - Cut back lower branches"
-          rows="6"></textarea>
-        <small class="form-help">Use "- " for bullets, " - " (3 spaces + dash) for indented bullets</small>
+        <label for="activities">
+          What did you do today?
+        </label>
+        <textarea id="activities" name="activities" placeholder="Use markdown bullets:
+- Watered all plants
+- Pruned tomato
+   - Removed diseased leaves
+   - Cut back lower branches
+- Added mulch to raised bed" rows="8"></textarea>
+        <div class="help-text">Use <code>- </code> for bullets, <code>   - </code> (3 spaces + dash) for indented
+          bullets</div>
       </div>
 
       <hr class="divider" />
@@ -130,13 +144,13 @@
 
         <div class="form-group">
           <label for="temp_low">Temperature Low (°F)</label>
-          <input type="number" id="temp_low" name="temp_low" placeholder="62" />
+          <input type="number" id="temp_low" name="temp_low" placeholder="68" />
         </div>
       </div>
 
       <div class="form-group">
         <label for="conditions">Current Conditions</label>
-        <input type="text" id="conditions" name="conditions" placeholder="Sunny, partly cloudy, overcast, etc." />
+        <input type="text" id="conditions" name="conditions" placeholder="Sunny, Partly cloudy, Overcast, etc." />
       </div>
 
       <div class="form-row">
@@ -154,37 +168,43 @@
       <div class="form-row">
         <div class="form-group">
           <label for="humidity">Humidity</label>
-          <input type="text" id="humidity" name="humidity" placeholder="65%, high, low, etc." />
+          <input type="text" id="humidity" name="humidity" placeholder="65%, High, Low, etc." />
         </div>
 
         <div class="form-group">
           <label for="wind">Wind</label>
-          <input type="text" id="wind" name="wind" placeholder="Light breeze, 10-15 mph, etc." />
+          <input type="text" id="wind" name="wind" placeholder="Light breeze, Calm, 10-15 mph, etc." />
         </div>
       </div>
 
       <div class="form-group">
         <label for="weather_notes">Weather Notes</label>
-        <textarea id="weather_notes" name="weather_notes" placeholder="Any additional weather observations..."
+        <textarea id="weather_notes" name="weather_notes" placeholder="Additional weather observations..."
           rows="3"></textarea>
       </div>
 
       <hr class="divider" />
 
       <!-- SECTION 3: GENERAL OBSERVATIONS -->
-      <h2><span>👀</span> General Observations</h2>
+      <h2><span>📝</span> General Observations</h2>
+
       <div class="form-group">
-        <label for="observations">Garden-Wide Observations</label>
-        <textarea id="observations" name="observations"
-          placeholder="Use markdown bullets:&#10;- Garden looking healthy overall&#10;- Some pest activity noticed&#10;- Soil drying out faster than usual"
-          rows="6"></textarea>
-        <small class="form-help">Use "- " for bullets, " - " for indented bullets</small>
+        <label for="observations">
+          Garden-wide observations
+        </label>
+        <textarea id="observations" name="observations" placeholder="Use markdown bullets:
+- All plants looking healthy after rain
+- Noticed more bees today
+- Some fungal issues on lower leaves" rows="6"></textarea>
+        <div class="help-text">Observations about the whole garden (not specific to one plant)</div>
       </div>
 
       <hr class="divider" />
 
-      <!-- SECTION 4: QUESTIONS & ANSWERS -->
-      <h2><span>❓</span> Questions & Answers (General)</h2>
+      <!-- SECTION 4: QUESTIONS & ANSWERS (GENERAL) -->
+      <h2><span>❓</span> Questions & Answers</h2>
+      <p class="note">General garden questions and research (not plant-specific)</p>
+
       <div id="qaContainer">
         <!-- Q&A pairs will be added here -->
       </div>
@@ -196,7 +216,9 @@
       <hr class="divider" />
 
       <!-- SECTION 5: UPCOMING ACTIONS -->
-      <h2><span>📅</span> Upcoming Actions</h2>
+      <h2><span>📋</span> Upcoming Actions</h2>
+      <p class="note">Planned future tasks</p>
+
       <div id="actionsContainer">
         <!-- Actions will be added here -->
       </div>
@@ -209,6 +231,8 @@
 
       <!-- SECTION 6: PLANT BY PLANT -->
       <h2 class="major-section"><span>🪴</span> Plant by Plant</h2>
+      <p class="note">Individual plant observations with photos</p>
+
       <div id="plantObservationsContainer">
         <!-- Plant observations will be added here -->
       </div>
@@ -216,8 +240,6 @@
       <button type="button" onclick="addPlantObservation()" class="btn btn-secondary" style="margin-top: 12px;">
         + Add Plant Observation
       </button>
-
-      <hr class="divider" />
 
       <div class="form-buttons">
         <button type="submit" class="btn btn-primary">
@@ -253,12 +275,22 @@
 
   <script>
     // Initialize
-    let allPlants = [];
+    let activeP plants = [];
     let qaCount = 0;
     let actionCount = 0;
     let plantObsCount = 0;
     const plantQACounts = {};
-    const plantPhotos = {}; // PHASE 3: Store photos by plant observation ID
+    const plantPhotos = {}; // Store photos by plant observation ID
+
+    // Load active plants on page load
+    fetch('/api/plants')
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          activePlants = data.plants;
+        }
+      })
+      .catch(err => console.error('Error loading plants:', err));
 
     // Set defaults
     document.getElementById('entry_date').valueAsDate = new Date();
@@ -266,19 +298,6 @@
     const hours = localNow.getHours().toString().padStart(2, '0');
     const minutes = localNow.getMinutes().toString().padStart(2, '0');
     document.getElementById('entry_time').value = `${hours}:${minutes}`;
-
-    // Fetch all plants on page load
-    async function loadPlants() {
-      try {
-        const response = await fetch('/api/plants');
-        const data = await response.json();
-        allPlants = data.plants || [];
-      } catch (error) {
-        console.error('Error loading plants:', error);
-      }
-    }
-
-    loadPlants();
 
     // ========================================
     // Q&A MANAGEMENT
@@ -354,26 +373,24 @@
     // PLANT OBSERVATION MANAGEMENT
     // ========================================
 
-    async function addPlantObservation() {
+    function addPlantObservation() {
       plantObsCount++;
       plantQACounts[plantObsCount] = 0;
-      plantPhotos[plantObsCount] = []; // PHASE 3: Initialize photo array
+      plantPhotos[plantObsCount] = [];
+
+      const plantOptions = activePlants.map(p =>
+        `<option value="${p.plant_id}">${p.common_name} (${p.plant_id})</option>`
+      ).join('');
 
       const container = document.getElementById('plantObservationsContainer');
       const obsDiv = document.createElement('div');
       obsDiv.className = 'plant-observation';
-      obsDiv.id = `plant-obs-${plantObsCount}`;
-
-      // Build plant options
-      const plantOptions = allPlants.map(p =>
-        `<option value="${p.plant_id}" data-status="${p.status}">${p.common_name} (${p.plant_id})</option>`
-      ).join('');
-
+      obsDiv.id = `plant_obs_${plantObsCount}`;
       obsDiv.innerHTML = `
-        <div style="border: 1px solid var(--rule); border-radius: 8px; padding: 20px; margin: 16px 0; background: #fafafa;">
+        <div style="border: 2px solid var(--green); border-radius: 8px; padding: 20px; margin: 20px 0;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-            <strong style="font-size: 16px; color: var(--text);">Plant Observation #${plantObsCount}</strong>
-            <button type="button" onclick="removePlantObservation(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
+            <h3 style="margin: 0; color: var(--green);">Plant Observation #${plantObsCount}</h3>
+            <button type="button" onclick="removePlantObservation(${plantObsCount})" class="btn btn-secondary" style="padding: 8px 14px;">Remove</button>
           </div>
 
           <!-- Plant Selection & Time -->
@@ -396,7 +413,7 @@
           <div class="form-group">
             <label for="plant_summary_${plantObsCount}">Plant Summary (editable)</label>
             <textarea id="plant_summary_${plantObsCount}" name="plant_summary_${plantObsCount}" placeholder="Current plant summary will load here..." rows="3"></textarea>
-            <small class="form-help">Edit to update, keep as-is, or append new observations</small>
+            <div class="help-text">Edit to update, keep as-is, or append new observations</div>
           </div>
 
           <!-- Plant Status -->
@@ -415,7 +432,8 @@
           <!-- Status Change Reason (initially hidden) -->
           <div class="form-group" id="status_reason_group_${plantObsCount}" style="display: none;">
             <label for="status_reason_${plantObsCount}">Reason for Status Change *</label>
-            <input type="text" id="status_reason_${plantObsCount}" name="status_reason_${plantObsCount}" placeholder="e.g., Water rot, completed harvest, moved to another location" />
+            <input type="text" id="status_reason_${plantObsCount}" name="status_reason_${plantObsCount}" placeholder="Water rot, harvested and composted, etc." />
+            <div class="help-text">Why is this plant's status changing?</div>
           </div>
 
           <!-- Container Info -->
@@ -436,17 +454,17 @@
           <div class="form-row">
             <div class="form-group">
               <label for="container_size_${plantObsCount}">Container Size (optional)</label>
-              <input type="text" id="container_size_${plantObsCount}" name="container_size_${plantObsCount}" placeholder="Manual entry only (size info in type field)" />
+              <input type="text" id="container_size_${plantObsCount}" name="container_size_${plantObsCount}" placeholder="8 inch, 0.94 gal, etc." />
             </div>
 
             <div class="form-group">
-              <label for="stake_${plantObsCount}">Stake Number</label>
-              <input type="number" id="stake_${plantObsCount}" name="stake_${plantObsCount}" placeholder="Optional" />
+              <label for="stake_${plantObsCount}">Stake Number (optional)</label>
+              <input type="number" id="stake_${plantObsCount}" name="stake_${plantObsCount}" placeholder="1, 2, 3, 4" />
             </div>
 
             <div class="form-group">
-              <label for="position_${plantObsCount}">Position</label>
-              <input type="text" id="position_${plantObsCount}" name="position_${plantObsCount}" placeholder="e.g., left section, edges" />
+              <label for="position_${plantObsCount}">Position (optional)</label>
+              <input type="text" id="position_${plantObsCount}" name="position_${plantObsCount}" placeholder="left section, edges, etc." />
             </div>
           </div>
 
@@ -456,17 +474,17 @@
           <div class="form-row" style="margin-top: 12px;">
             <div class="form-group">
               <label for="soil_moisture_${plantObsCount}">Soil Moisture</label>
-              <input type="text" id="soil_moisture_${plantObsCount}" name="soil_moisture_${plantObsCount}" placeholder="e.g., bone dry, lightly moist, dry 1 inch down" />
+              <input type="text" id="soil_moisture_${plantObsCount}" name="soil_moisture_${plantObsCount}" placeholder="bone dry, lightly moist, 4 (ideal)" />
             </div>
 
             <div class="form-group">
               <label for="soil_ph_${plantObsCount}">Soil pH</label>
-              <input type="text" id="soil_ph_${plantObsCount}" name="soil_ph_${plantObsCount}" placeholder="e.g., 6.5, neutral, slightly acidic" />
+              <input type="text" id="soil_ph_${plantObsCount}" name="soil_ph_${plantObsCount}" placeholder="6.5, between 6-7, slightly acidic" />
             </div>
 
             <div class="form-group">
               <label for="soil_fertility_${plantObsCount}">Soil Fertility</label>
-              <input type="text" id="soil_fertility_${plantObsCount}" name="soil_fertility_${plantObsCount}" placeholder="e.g., high, medium, low, dark green" />
+              <input type="text" id="soil_fertility_${plantObsCount}" name="soil_fertility_${plantObsCount}" placeholder="Yellow (Low), Green (High)" />
             </div>
           </div>
 
@@ -476,12 +494,12 @@
           <div class="form-row" style="margin-top: 12px;">
             <div class="form-group">
               <label for="current_stage_${plantObsCount}">Current Stage</label>
-              <input type="text" id="current_stage_${plantObsCount}" name="current_stage_${plantObsCount}" placeholder="e.g., Seedling, Vegetative, Flowering, Fruiting" />
+              <input type="text" id="current_stage_${plantObsCount}" name="current_stage_${plantObsCount}" placeholder="Seedling, Vegetative, Flowering, Fruiting" />
             </div>
 
             <div class="form-group">
               <label for="next_stage_${plantObsCount}">Next Stage</label>
-              <input type="text" id="next_stage_${plantObsCount}" name="next_stage_${plantObsCount}" placeholder="e.g., Flowering, Fruiting, Harvest" />
+              <input type="text" id="next_stage_${plantObsCount}" name="next_stage_${plantObsCount}" placeholder="Flowering, Fruiting, Harvest" />
             </div>
           </div>
 
@@ -492,17 +510,18 @@
           </div>
 
           <div class="form-group">
-            <label for="plant_actions_${plantObsCount}">Actions Taken</label>
-            <textarea id="plant_actions_${plantObsCount}" name="plant_actions_${plantObsCount}" placeholder="Use markdown bullets:&#10;- Watered 8 oz&#10;- Applied Captain Jack's Neem Oil&#10;- Pruned diseased leaves" rows="4"></textarea>
-            <small class="form-help">Use "- " for bullets, include amounts and products</small>
+            <label for="plant_actions_${plantObsCount}">Actions Taken (markdown bullets)</label>
+            <textarea id="plant_actions_${plantObsCount}" name="plant_actions_${plantObsCount}"
+              placeholder="- Watered 1½ cups&#10;- Pruned lower leaves&#10;   - Removed diseased branches" rows="4"></textarea>
+            <div class="help-text">Use <code>- </code> for bullets, <code>   - </code> for indented</div>
           </div>
 
           <div class="form-group">
             <label for="plant_notes_${plantObsCount}">Notes</label>
-            <textarea id="plant_notes_${plantObsCount}" name="plant_notes_${plantObsCount}" placeholder="Any additional notes..." rows="3"></textarea>
+            <textarea id="plant_notes_${plantObsCount}" name="plant_notes_${plantObsCount}" placeholder="Additional notes..." rows="2"></textarea>
           </div>
 
-          <!-- PHASE 3: PHOTOS SECTION -->
+          <!-- PHASE 3: PHOTOS -->
           <h3 class="section-header">📷 Photos</h3>
 
           <div class="form-group" style="margin-top: 12px;">
@@ -527,12 +546,14 @@
             <p style="color: var(--muted); font-style: italic; font-size: 14px;">No photos selected</p>
           </div>
 
-          <!-- Plant-Specific Q&A -->
-          <h3 class="section-header">Plant-Specific Q&A</h3>
+          <!-- Plant Q&A -->
+          <h3 class="section-header">❓ Plant-Specific Q&A</h3>
+
           <div id="plant_qa_container_${plantObsCount}" style="margin-top: 12px;">
             <!-- Plant Q&A pairs will be added here -->
           </div>
-          <button type="button" onclick="addPlantQA(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px; margin-top: 8px;">
+
+          <button type="button" onclick="addPlantQA(${plantObsCount})" class="btn btn-secondary" style="margin-top: 12px;">
             + Add Plant Q&A
           </button>
 
@@ -541,101 +562,82 @@
 
       container.appendChild(obsDiv);
 
-      // Set current time as default
-      const timeInput = document.getElementById(`plant_time_${plantObsCount}`);
-      timeInput.value = `${hours}:${minutes}`;
+      // Set default time to current time
+      document.getElementById(`plant_time_${plantObsCount}`).value = `${hours}:${minutes}`;
     }
 
     function removePlantObservation(id) {
-      document.getElementById(`plant-obs-${id}`).remove();
-      delete plantPhotos[id]; // PHASE 3: Clean up photos
+      document.getElementById(`plant_obs_${id}`).remove();
+      delete plantPhotos[id];
     }
 
-    // ========================================
-    // LOAD PLANT DATA
-    // ========================================
+    async function loadPlantData(plantObsId) {
+      const plantSelect = document.getElementById(`plant_select_${plantObsId}`);
+      const plant_id = plantSelect.value;
 
-    async function loadPlantData(obsId) {
-      const selectEl = document.getElementById(`plant_select_${obsId}`);
-      const plantId = selectEl.value;
-
-      if (!plantId) return;
+      if (!plant_id) return;
 
       try {
-        const response = await fetch(`/api/plant/${plantId}`);
-        const data = await response.json();
+        const response = await fetch(`/api/plant/${plant_id}`);
+        const result = await response.json();
 
-        if (data.plant) {
-          const plant = data.plant;
-          const currentLoc = plant.current_location || {};
+        if (result.success && result.plant) {
+          const plant = result.plant;
 
-          // Load plant summary
-          document.getElementById(`plant_summary_${obsId}`).value = plant.summary || '';
+          // Load summary
+          document.getElementById(`plant_summary_${plantObsId}`).value = plant.summary || '';
 
-          // Set status dropdown to current status
-          const statusSelect = document.getElementById(`plant_status_${obsId}`);
+          // Set status and store original
+          const statusSelect = document.getElementById(`plant_status_${plantObsId}`);
           statusSelect.value = plant.status || 'active';
           statusSelect.dataset.originalStatus = plant.status || 'active';
 
-          // Load container info from current_location
-          document.getElementById(`container_name_${obsId}`).value = currentLoc.container_name || '';
-          document.getElementById(`container_type_${obsId}`).value = currentLoc.container_type || '';
-          document.getElementById(`stake_${obsId}`).value = currentLoc.stake || '';
-          document.getElementById(`position_${obsId}`).value = currentLoc.position || '';
-
-          // Check if status changed from active
-          toggleStatusReason(obsId);
+          // Load container info
+          const loc = plant.current_location || {};
+          document.getElementById(`container_name_${plantObsId}`).value = loc.container_name || '';
+          document.getElementById(`container_type_${plantObsId}`).value = loc.container_type || '';
+          document.getElementById(`stake_${plantObsId}`).value = loc.stake || '';
+          document.getElementById(`position_${plantObsId}`).value = loc.position || '';
         }
       } catch (error) {
         console.error('Error loading plant data:', error);
       }
     }
 
-    // ========================================
-    // STATUS CHANGE HANDLING
-    // ========================================
-
-    function toggleStatusReason(obsId) {
-      const statusSelect = document.getElementById(`plant_status_${obsId}`);
-      const reasonGroup = document.getElementById(`status_reason_group_${obsId}`);
-      const reasonInput = document.getElementById(`status_reason_${obsId}`);
-
+    function toggleStatusReason(plantObsId) {
+      const statusSelect = document.getElementById(`plant_status_${plantObsId}`);
       const originalStatus = statusSelect.dataset.originalStatus || 'active';
       const newStatus = statusSelect.value;
+      const reasonGroup = document.getElementById(`status_reason_group_${plantObsId}`);
 
-      // Show reason field if changing FROM active TO something else
+      // Show reason field only if changing FROM active TO something else
       if (originalStatus === 'active' && newStatus !== 'active') {
         reasonGroup.style.display = 'block';
-        reasonInput.required = true;
+        document.getElementById(`status_reason_${plantObsId}`).required = true;
       } else {
         reasonGroup.style.display = 'none';
-        reasonInput.required = false;
+        document.getElementById(`status_reason_${plantObsId}`).required = false;
       }
     }
 
-    // ========================================
-    // PLANT Q&A MANAGEMENT
-    // ========================================
-
     function addPlantQA(plantObsId) {
-      if (!plantQACounts[plantObsId]) {
-        plantQACounts[plantObsId] = 0;
-      }
+      if (!plantQACounts[plantObsId]) plantQACounts[plantObsId] = 0;
       plantQACounts[plantObsId]++;
 
       const qaId = plantQACounts[plantObsId];
       const container = document.getElementById(`plant_qa_container_${plantObsId}`);
+
       const qaDiv = document.createElement('div');
       qaDiv.id = `plant_qa_${plantObsId}_${qaId}`;
       qaDiv.innerHTML = `
-        <div style="border: 1px solid var(--rule); border-radius: 6px; padding: 12px; margin: 8px 0; background: white;">
+        <div style="border: 1px solid var(--rule); border-radius: 6px; padding: 12px; margin: 8px 0;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
             <strong style="font-size: 14px;">Q&A #${qaId}</strong>
-            <button type="button" onclick="removePlantQA(${plantObsId}, ${qaId})" class="btn btn-secondary" style="padding: 4px 8px; font-size: 12px;">Remove</button>
+            <button type="button" onclick="removePlantQA(${plantObsId}, ${qaId})" class="btn btn-secondary" style="padding: 4px 10px; font-size: 12px;">Remove</button>
           </div>
           <div class="form-group">
             <label for="plant_question_${plantObsId}_${qaId}">Question</label>
-            <input type="text" id="plant_question_${plantObsId}_${qaId}" name="plant_question_${plantObsId}_${qaId}" placeholder="Why are the leaves yellowing?" />
+            <input type="text" id="plant_question_${plantObsId}_${qaId}" name="plant_question_${plantObsId}_${qaId}" placeholder="Why are leaves yellowing?" />
           </div>
           <div class="form-group">
             <label for="plant_answer_${plantObsId}_${qaId}">Answer</label>
@@ -651,7 +653,7 @@
     }
 
     // ========================================
-    // PHASE 3: PHOTO HANDLING FUNCTIONS
+    // PHASE 3: PHOTO HANDLING
     // ========================================
 
     async function handlePhotoSelection(plantObsId, files) {
@@ -742,6 +744,7 @@
 
     function extractEXIF(file) {
       // Simple EXIF extraction using file modification time
+      // For production, consider using exif-js library for real EXIF data
       const modDate = new Date(file.lastModified);
 
       return {
@@ -908,7 +911,7 @@
         observations: document.getElementById('observations').value,
         qa: collectQA(),
         upcoming_actions: collectActions(),
-        plant_observations: await collectPlantObservations() // PHASE 3: Now async for photos
+        plant_observations: await collectPlantObservations()
       };
 
       console.log('Form data (Phase 3 with photos):', formData);
@@ -958,7 +961,7 @@
         const originalStatus = statusSelect.dataset.originalStatus || 'active';
         const newStatus = statusSelect.value;
 
-        // PHASE 3: Collect photos for this observation
+        // Collect photos for this observation
         const photos = (plantPhotos[i] || []).map(photo => ({
           filename: photo.suggestedFilename,
           caption: photo.caption || null,
@@ -996,7 +999,7 @@
           actions: document.getElementById(`plant_actions_${i}`).value,
           notes: document.getElementById(`plant_notes_${i}`).value,
           qa: collectPlantQA(i),
-          photos: photos // PHASE 3: Include photos
+          photos: photos
         };
 
         observations.push(obs);
@@ -1037,7 +1040,7 @@
       const minutes = localNow.getMinutes().toString().padStart(2, '0');
       document.getElementById('entry_time').value = `${hours}:${minutes}`;
 
-      // Clear dynamic content
+      // Clear all dynamic content
       qaCount = 0;
       actionCount = 0;
       plantObsCount = 0;
@@ -1045,7 +1048,6 @@
       document.getElementById('actionsContainer').innerHTML = '';
       document.getElementById('plantObservationsContainer').innerHTML = '';
       Object.keys(plantPhotos).forEach(key => delete plantPhotos[key]);
-      Object.keys(plantQACounts).forEach(key => delete plantQACounts[key]);
     }
   </script>
 </body>

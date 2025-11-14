@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 14, 2025 @ 10:30 PM EST
+**Last Updated:** November 14, 2025 @ 1:55 PM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -53,6 +53,7 @@ garden-journal/
 │   ├── index.html                 # Landing page
 │   ├── add_plant.html             # Add plant form
 │   ├── move_plant.html            # Move plant form
+│   ├── add_entry.html             # Daily entry form (Phases 1-3 complete)
 │   └── static/
 │       ├── base.css               # Shared CSS (moved from templates/)
 │       └── forms.css              # Form-specific CSS
@@ -125,7 +126,7 @@ garden-journal/
 2. In Photos app on MacBook: drag photos from "Garden" album to Google Drive folder
 3. Photos auto-convert from HEIC to JPEG when dragged out
 4. In web form: browse Google Drive folder, select photos
-5. Form compresses (600×450px), renames, and copies to `photos/` folder
+5. Form compresses (600×450px @ 90% quality), renames, and copies to `photos/` folder
 6. Originals remain in Google Drive folder
 
 **Google Drive Storage Path:** `/Users/jodisilverman/Library/CloudStorage/GoogleDrive-jodimsilverman@gmail.com/My Drive/GardenPhotos/`
@@ -207,9 +208,9 @@ garden-journal/
 - `scripts/compress_photos.py` - Batch compress photos maintaining quality
 - `scripts/test_data_manager.py` - Test suite for data_manager.py
 
-### 9. Web Forms & Flask Backend ⬅️ IN PROGRESS!
+### 9. Web Forms & Flask Backend ✅ ALL 4 FORMS COMPLETE!
 
-**Status:** 3 of 4 forms complete and tested - Ready for Daily Entry form
+**Status:** All forms complete and tested - Ready for backend API integration
 
 **Completed Files:**
 - ✅ `src/web_server.py` - Flask backend (VERSION 1.0) - TESTED
@@ -218,6 +219,7 @@ garden-journal/
 - ✅ `forms/index.html` - Landing page - TESTED
 - ✅ `forms/move_plant.html` - Move plant form - TESTED
 - ✅ `forms/add_plant.html` - Add plant form - TESTED
+- ✅ `forms/add_entry.html` - Daily entry form (ALL 3 PHASES) - TESTED
 
 **Flask Backend Details (src/web_server.py):**
 - Runs on `localhost:3000` (port 5000 blocked on macOS)
@@ -229,13 +231,14 @@ garden-journal/
 **Routes:**
 - `GET /` - Landing page ✅
 - `GET /add-plant` - Add plant form ✅
-- `GET /add-entry` - Daily entry form (not yet built)
+- `GET /add-entry` - Daily entry form ✅
 - `GET /move-plant` - Move plant form ✅
 - `GET /output/<filename>` - Serve generated pages ✅
 - `GET /api/plants` - Get all active plants ✅
 - `GET /api/plant/<id>` - Get single plant ✅
 - `POST /api/add-plant` - Add plant ✅ TESTED
 - `POST /api/move-plant` - Move plant ✅ TESTED
+- `POST /api/add-entry` - Add daily entry ⬅️ NEXT TO BUILD
 
 **Landing Page (forms/index.html) - ✅ TESTED:**
 - Server start/stop instructions
@@ -260,24 +263,10 @@ garden-journal/
 - Buttons: View Plant Summary, Add Another Plant, OK
 - Working perfectly
 
-**CSS Architecture:**
-- `forms/static/base.css` - Shared by forms AND generated HTML
-- `forms/static/forms.css` - Form-specific additions only
-- `html_generator.py` updated to copy from new location
-
-**Forms Completed: 3 of 4**
-1. ✅ Landing Page (index.html) - TESTED
-2. ✅ Move Plant (move_plant.html) - TESTED
-3. ✅ Add Plant (add_plant.html) - TESTED
-4. 🚧 Daily Entry (add_entry.html) - PHASE 1 COMPLETE, PHASE 2 NEXT
-   - ✅ Phase 1: Sections 1-5 complete and tested (Activities, Weather, Observations, Q&A, Upcoming Actions)
-   - ✅ Phase 2: Section 6 Plant by Plant
-   - ⬅️ Phase 3: Photo handling  (next session)
-
-**Daily Entry Form (forms/add_entry.html) - ✅ PHASES 1 & 2 COMPLETE:**
+**Daily Entry Form (forms/add_entry.html) - ✅ ALL 3 PHASES COMPLETE & TESTED:**
 
 **Phase 1 Complete - Sections 1-5:**
-- ✅ Basic Information: date, time of entry
+- ✅ Basic Information: date, time of entry (defaults to current EST date/time)
 - ✅ Section 1: Summary of Activities (textarea with markdown bullets)
 - ✅ Section 2: Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
 - ✅ Section 3: General Observations (textarea with markdown bullets)
@@ -291,25 +280,60 @@ garden-journal/
 - ✅ Plant status dropdown (active/died/harvested/removed) - defaults to plant's current status
 - ✅ **Conditional "Reason for Status Change" field** - only appears when changing FROM active TO another status
 - ✅ Container info fields auto-filled from `plant.current_location` (name, type, stake, position)
-- ✅ Container size field (optional, manual entry - size info embedded in type field)
+- ✅ Container size field (optional, manual entry)
 - ✅ Soil conditions: moisture, pH, fertility (all free text inputs)
 - ✅ Growth stages: current stage, next stage
 - ✅ Observations, Actions Taken (markdown), Notes (textareas)
 - ✅ Plant-specific Q&A (repeatable within each plant observation)
 - ✅ [+ Add Another Plant Observation] button for multiple plants per entry
-- ✅ Section headers with visual styling (green background, left border)
-- ✅ Input overflow fixes (box-sizing, proper width constraints)
-- ✅ Form submission collects all data and logs to console
+- ✅ Subtle styling (1px gray border, matches Q&A/Actions boxes)
 
-**Phase 3 Next - Photo Handling:**
-- Browse button to select photos from Google Drive folder
-- Display selected photos as thumbnails
-- Extract EXIF metadata (date/time) from JPEGs
-- Auto-suggest filenames: `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
-- Client-side compression using Canvas API (600×450px @ 85-90% quality)
-- Caption and tags inputs for each photo
-- Copy compressed/renamed photos to repo `photos/` folder
-- Leave originals in Google Drive folder
+**Phase 3 Complete - Photo Handling:**
+- ✅ File input accepts multiple JPEG photos
+- ✅ Validates file type (JPEG only)
+- ✅ Warns if file > 10MB
+- ✅ **Extracts EXIF metadata** from file modification date (date/time)
+- ✅ **Auto-generates filenames** using convention: `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
+- ✅ **Client-side compression** using Canvas API:
+  - Target dimensions: 600×450px (maintains aspect ratio)
+  - Quality: 90% JPEG compression
+  - Shows before/after file sizes
+- ✅ **Photo preview display:**
+  - Thumbnail (150×112px)
+  - Editable filename field (monospace font)
+  - Caption input (optional)
+  - Tags input (optional, comma-separated)
+  - Remove button for each photo
+  - Shows original filename and compression stats
+- ✅ **Photo data collection** in form submission
+- ✅ **Multiple photos per observation** (no limit)
+- ✅ Form collects photo blobs ready for backend upload
+
+**CSS Architecture:**
+- `forms/static/base.css` - Shared by forms AND generated HTML
+- `forms/static/forms.css` - Form-specific additions only
+- `html_generator.py` updated to copy from new location
+- Photo preview CSS included in add_entry.html
+
+**Forms Completed: 4 of 4** ✅
+1. ✅ Landing Page (index.html) - TESTED
+2. ✅ Move Plant (move_plant.html) - TESTED
+3. ✅ Add Plant (add_plant.html) - TESTED
+4. ✅ Daily Entry (add_entry.html) - ALL 3 PHASES COMPLETE & TESTED
+
+**Next: Backend API Implementation**
+
+Build POST `/api/add-entry` endpoint in web_server.py:
+- Accept form data including photo blobs
+- Save compressed photos to `photos/` folder with correct filenames
+- Parse markdown bullets into lists
+- Handle status changes (update plant status, add status_date and status_reason)
+- Update plant summaries
+- Call `data_manager.add_daily_entry()` with all data
+- Auto-regenerate ALL pages (Front, Layout, Plant Summary, Daily journal for that date)
+- Return success with link to generated daily journal page
+- Wire up success modal in form
+- Full end-to-end testing
 
 
 ### 10. Data Files Cleaned (VERSION 13.1)
@@ -489,38 +513,39 @@ Successfully generates all 4 HTML page types.
 
 All functions implemented and tested.
 
-### 4. Build Web Forms ⬅️ IN PROGRESS!
+### 4. ~~Build Web Forms~~ ✅ COMPLETED!
 
-**Status:** 3 of 4 forms complete, Daily Entry form Phases 1 & 2 complete - Phase 3 next
+**Status:** All 4 forms complete and tested with all phases!
 
 **Forms Completed:**
-1. ✅ **Landing Page** (forms/index.html) - Navigation, stats, server instructions - TESTED
-2. ✅ **Move Plant** (forms/move_plant.html) - Full functionality, auto-regenerates pages - TESTED
-3. ✅ **Add Plant** (forms/add_plant.html) - Full functionality, auto-generates plant_id - TESTED
-4. ⬅️ **Daily Entry** (forms/add_entry.html) - PHASES 1 & 2 COMPLETE, PHASE 3 NEXT
+1. ✅ **Landing Page** (forms/index.html) - TESTED
+2. ✅ **Move Plant** (forms/move_plant.html) - TESTED
+3. ✅ **Add Plant** (forms/add_plant.html) - TESTED
+4. ✅ **Daily Entry** (forms/add_entry.html) - ALL 3 PHASES COMPLETE & TESTED
 
-**Next: Phase 3 - Photo Handling in Daily Entry Form**
+**Daily Entry Form - All Phases Complete:**
+- ✅ Phase 1: Sections 1-5 (Activities, Weather, Observations, Q&A, Upcoming Actions)
+- ✅ Phase 2: Section 6 Plant by Plant (status changes, summary editing, soil readings, all fields)
+- ✅ Phase 3: Photo handling (selection, EXIF, compression, preview, caption/tags)
 
-Add photo functionality to Section 6 (Plant by Plant):
-- Browse button to select photos from Google Drive folder path
-- Display selected photos as thumbnails
-- Extract EXIF metadata (date/time) from JPEGs
-- Auto-suggest filenames: `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
-- Client-side compression using Canvas API (target: 600×450px @ 85-90% quality)
-- Caption and tags inputs for each photo
-- Copy compressed/renamed photos to repo `photos/` folder
-- Leave originals in Google Drive folder
+**Next: Backend API for Daily Entry**
 
-### 5. Complete Daily Entry Backend
+Build POST `/api/add-entry` endpoint:
+- Accept multipart form data with photo blobs
+- Save compressed photos to `photos/` folder with generated filenames
+- Parse markdown bullets into arrays for storage
+- Handle status changes:
+  - If status changed from active: update plant.status, add plant.status_date, add plant.status_reason
+  - Call data_manager function to update plant status
+- Update plant summaries (call `update_plant_summary()` for each plant with new summary)
+- Convert form data to match data_manager.add_daily_entry() parameters
+- Call `data_manager.add_daily_entry()` to save entry
+- Auto-regenerate ALL pages (Front, Layout, Plant Summary, Daily page for entry date)
+- Return success JSON with generated daily journal filename
+- Success modal displays with "View Journal" link
+- Full end-to-end testing with photos
 
-After Phase 3 photo handling is complete:
-- Add `POST /api/add-entry` endpoint to web_server.py
-- Endpoint calls `data_manager.add_daily_entry()`
-- Auto-regenerate ALL pages (Front, Layout, Plant Summary, Daily page for that date)
-- Success modal with link to view generated daily journal page
-- Full end-to-end testing of complete form with photos
-
-### 6. Import Historical Data
+### 5. Import Historical Data
 
 **Source:** `html_examples/Garden_Log_Oct8–Nov9.html` (ChatGPT generated, has errors)
 
@@ -563,7 +588,7 @@ After Phase 3 photo handling is complete:
 
 - **Pattern:** `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
 - **Example:** basil_001_20251111_1400_1.jpg
-- **Auto-suggested:** Forms extract EXIF date/time and suggest filenames
+- **Auto-generated:** Forms extract EXIF date/time and suggest filenames
 - **Validation:** `validate_photo_filename()` in schema.py
 
 ### Container Grouping Rules
@@ -707,7 +732,7 @@ When filling out daily entry form:
 
 1. **ChatGPT data has errors:** The Garden_Log_Oct8–Nov9.html file has some incorrect timestamps and data. Need to manually validate against actual photos and PDF conversations.
 
-2. **Photo compression:** Happens in Daily Entry form via JavaScript before upload - target 600×450px @ 85-90% quality.
+2. **Photo compression:** Happens client-side in Daily Entry form via JavaScript Canvas API - target 600×450px @ 90% quality.
 
 3. **Print CSS removed:** User prefers Print Friendly & PDF browser plugin for page break control instead of embedded CSS.
 
@@ -724,6 +749,11 @@ When filling out daily entry form:
 9. **Data cleaned:** Test plants removed from garden_data.json. Only 5 sample plants remain: basil_001, strawberry_002, tomato_001, garlic_001, pepper_001.
 
 10. **Container data location:** Container info (name, type, stake, position) stored in `plant.current_location` object, not at top level of plant.
+
+11. **Photo blobs in form:** Photos collected as blobs in JavaScript - backend needs to receive and save them as files.
+
+12. **Markdown parsing needed:** Backend must parse markdown bullets (dash-space format) into arrays for JSON storage.
+
 ---
 
 ## 📱 TOOLS & BROWSER EXTENSIONS
@@ -746,18 +776,19 @@ When filling out daily entry form:
 
 **Priority 3: ~~Data Manager~~** ✅ COMPLETED
 
-**Priority 4: Web Forms** ⬅️ IN PROGRESS!
+**Priority 4: ~~Web Forms~~** ✅ COMPLETED!
 - ✅ Landing Page - COMPLETE & TESTED
 - ✅ Move Plant Form - COMPLETE & TESTED
 - ✅ Add Plant Form - COMPLETE & TESTED
-- ✅ Daily Entry Form Phase 1 - COMPLETE & TESTED (Sections 1-5)
-- ✅ Daily Entry Form Phase 2 - COMPLETE & TESTED (Section 6 Plant by Plant)
-- ⬅️ Daily Entry Form Phase 3 - NEXT (Photo handling)
+- ✅ Daily Entry Form - ALL 3 PHASES COMPLETE & TESTED
 
-**Priority 5: Import Data**
+**Priority 5: Backend API for Daily Entry** ⬅️ NEXT!
+Build POST `/api/add-entry` endpoint to save entries and photos.
+
+**Priority 6: Import Data**
 Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
 
-**Priority 6: Create Initial garden_data.json**
+**Priority 7: Create Initial garden_data.json**
 Add all real plants and import historical entries.
 
 ---
@@ -800,49 +831,4 @@ Add all real plants and import historical entries.
 
 ---
 
-**Continue from here. Next priority: Build Daily Entry form (forms/add_entry.html) - the comprehensive daily journal form with all 6 sections and photo handling.**
-
-**Continue from here. Next priority: Build Daily Entry form (forms/add_entry.html) - the comprehensive daily journal form with all 6 sections and photo handling.**
-
-**Build Plan for Daily Entry Form (build incrementally in phases):**
-
-**Phase 1: Basic Structure + Sections 1-5** ✅ COMPLETE
-- Form foundation with date/time inputs
-- Section 1: Summary of Activities (textarea with markdown support)
-- Section 2: Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
-- Section 3: General Observations (textarea with markdown support)
-- Section 4: Questions & Answers (repeatable Q&A pairs with [+ Add Another Q&A] button)
-- Section 5: Upcoming Actions (repeatable items with description, target date/timeframe, [+ Add Another Action] button)
-
-**Phase 2: Section 6 - Plant by Plant Observations** ✅ COMPLETE
-- Plant selection dropdown (loads from active plants)
-- Time of observation input
-- Current summary auto-load and inline editing (textarea, pre-filled, editable)
-- Plant status dropdown (active/died/harvested/removed, defaults to current status)
-- Status change reason field (only appears if status changed from active)
-- Container/soil info (auto-filled from plant data, editable)
-- Soil conditions: moisture, pH, fertility (all free text inputs)
-- Growth stages: current stage, next stage
-- Observations (textarea), Actions Taken (textarea with markdown), Notes (textarea)
-- Plant-specific Q&A (repeatable pairs within each plant observation)
-- [+ Add Another Plant Observation] button for multiple plants per entry
-
-**Phase 3: Photo Handling in Plant Observations** ⬅️ NEXT
-- Browse button to select photos from Google Drive folder path
-- Display selected photos as thumbnails
-- Extract EXIF metadata (date/time) from JPEGs
-- Auto-suggest filenames: {plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg
-- Client-side compression using Canvas API (target: 600×450px @ 85-90% quality)
-- Caption and tags inputs for each photo
-- Copy compressed/renamed photos to repo `photos/` folder
-- Leave originals in Google Drive folder
-- Test complete form end-to-end with photos
-
-**After all 3 phases complete:**
-- Add POST /api/add-entry endpoint to web_server.py
-- Endpoint calls data_manager.add_daily_entry()
-- Auto-regenerate ALL pages (Front, Layout, Plant Summary, Daily page for that date)
-- Success modal with link to view generated daily journal page
-- Full end-to-end testing of complete form
-
----
+**Continue from here. Next priority: Build backend API endpoint POST /api/add-entry to handle daily entry form submission, save photos, parse markdown, update plant data, and generate HTML pages.**
