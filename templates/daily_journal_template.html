@@ -89,7 +89,7 @@
         <strong>{{ action.description }}</strong>
         {% if action.target_timeframe %} ({{ action.target_timeframe }}){% endif %}
         {% if action.plants_affected and action.plants_affected|length > 0 %}
-        <span class="subtle"> — Affects: {{ action.plants_affected|join(', ') }}</span>
+        <span class="subtle">: Affects: {{ action.plants_affected|join(', ') }}</span>
         {% endif %}
       </li>
       {% endfor %}
@@ -118,7 +118,7 @@
       {% for obs in obs_list %}
       <div class="stake">
         <div class="stake-title">
-          Stake {{ obs.stake }} — {{ obs.plant_id|replace('_', ' ')|title }}
+          Stake {{ obs.stake }}: {{ obs.plant_id|replace('_', ' ')|title }}
           {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
         </div>
         <ul>

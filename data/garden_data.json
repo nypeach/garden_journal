@@ -419,6 +419,60 @@
         }
       ],
       "summary": ""
+    },
+    {
+      "plant_id": "tomato_002",
+      "plant_type": "tomato",
+      "common_name": "Roma Tomato 01",
+      "variety": "Roma Tomato",
+      "purchase_date": "20251113",
+      "status": "active",
+      "current_location": {
+        "location": "Panel 16-18",
+        "container_type": "Raised Bed",
+        "container_name": "Raised Bed",
+        "stake_number": 5,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251113",
+          "location": "Panel 16-18",
+          "container_type": "Raised Bed",
+          "container_name": "Raised Bed",
+          "stake_number": 5,
+          "position": null,
+          "reason": "Initial placement"
+        }
+      ],
+      "summary": null
+    },
+    {
+      "plant_id": "your_mom_001",
+      "plant_type": "your_mom",
+      "common_name": "Your Mom",
+      "variety": null,
+      "purchase_date": "20251113",
+      "status": "active",
+      "current_location": {
+        "location": "Your Mom",
+        "container_type": "Your Mom",
+        "container_name": "Your Mom",
+        "stake_number": null,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251113",
+          "location": "Your Mom",
+          "container_type": "Your Mom",
+          "container_name": "Your Mom",
+          "stake_number": null,
+          "position": null,
+          "reason": "Initial placement"
+        }
+      ],
+      "summary": null
     }
   ],
   "locations": {

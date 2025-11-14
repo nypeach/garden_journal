@@ -133,6 +133,58 @@ def serve_output(filename):
     return send_from_directory(output_dir, filename)
 
 
+@app.route('/api/add-plant', methods=['POST'])
+def api_add_plant():
+    """Add a new plant"""
+    try:
+        data = request.get_json()
+
+        # Get existing plants to generate new plant_id
+        existing_plants = get_all_plants()
+        existing_ids = [p['plant_id'] for p in existing_plants]
+
+        # Generate plant_id
+        from schema import generate_plant_id
+        plant_id = generate_plant_id(data['plant_type'], existing_ids)
+
+        # Call data_manager to add plant (returns None on success, raises on error)
+        add_plant(
+            plant_id=plant_id,
+            plant_type=data['plant_type'],
+            common_name=data['common_name'],
+            variety=data.get('variety'),
+            purchase_date=data['purchase_date'],
+            location=data['location'],
+            container_type=data['container_type'],
+            container_name=data['container_name'],
+            stake_number=data.get('stake_number'),
+            position=data.get('position'),
+            summary=data.get('summary')
+        )
+
+        # Regenerate static pages to show new plant
+        generator = GardenHTMLGenerator()
+        if generator.load_data():
+            generator.setup_output_dir()
+            generator.generate_front_page()
+            generator.generate_layout_page()
+            generator.generate_plant_summary()
+
+        # Get the newly added plant to return in response
+        new_plant = get_plant_by_id(plant_id)
+
+        # If no exception was raised, it succeeded
+        return jsonify({
+            'success': True,
+            'plant': new_plant,
+            'message': 'Plant added successfully'
+        })
+
+    except Exception as e:
+        print(f"Error adding plant: {e}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+
 @app.route('/api/move-plant', methods=['POST'])
 def api_move_plant():
     """Move a plant to a new location"""
@@ -154,6 +206,14 @@ def api_move_plant():
             stake_number=data.get('stake_number'),
             position=data.get('position')
         )
+
+        # Regenerate static pages to show updated location
+        generator = GardenHTMLGenerator()
+        if generator.load_data():
+            generator.setup_output_dir()
+            generator.generate_front_page()
+            generator.generate_layout_page()
+            generator.generate_plant_summary()
 
         # If no exception was raised, it succeeded
         return jsonify({

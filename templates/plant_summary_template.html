@@ -27,13 +27,13 @@
 
     {% if is_first_stake %}
     <div class="panel">
-      <div class="panel-title">{{ plant.current_location.location }} — {{ container_name }}</div>
+      <div class="panel-title">{{ plant.current_location.location }}: {{ container_name }}</div>
       <p class="note">{% if container_name == "Raised Bed" %}Four separate stakes in the raised bed.{% else %}Separate
         stakes in the container.{% endif %}</p>
       {% endif %}
 
       <div class="stake">
-        <div class="stake-title">Stake {{ plant.current_location.stake }} — {{ plant.common_name }}</div>
+        <div class="stake-title">Stake {{ plant.current_location.stake }}: {{ plant.common_name }}</div>
         <ul>
           <li><strong>Soil Mix:</strong> {{ plant.current_location.soil_mix }}</li>
           {% if plant.summary %}
@@ -52,7 +52,7 @@
     {% else %}
     {# Regular plant without stake #}
     <div class="panel">
-      <div class="panel-title">{{ plant.current_location.location }} — {{ plant.common_name }}</div>
+      <div class="panel-title">{{ plant.current_location.location }}: {{ plant.common_name }}</div>
       <ul>
         <li><strong>Container:</strong> {{ plant.current_location.container_type }}</li>
         <li><strong>Soil Mix:</strong> {{ plant.current_location.soil_mix }}</li>

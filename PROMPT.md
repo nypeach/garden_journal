@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 13, 2025 @ 8:15 PM EST
+**Last Updated:** November 13, 2025 @ 9:29 PM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -47,9 +47,16 @@ garden-journal/
 │   ├── __pycache__/ (gitignored)
 │   ├── data_manager.py            # JSON read/write operations
 │   ├── html_generator.py
-│   └── schema.py
+│   ├── schema.py
+│   └── web_server.py              # Flask backend (VERSION 1.0)
+├── forms/
+│   ├── index.html                 # Landing page
+│   ├── add_plant.html             # Add plant form
+│   ├── move_plant.html            # Move plant form
+│   └── static/
+│       ├── base.css               # Shared CSS (moved from templates/)
+│       └── forms.css              # Form-specific CSS
 ├── templates/
-│   ├── base.css
 │   ├── daily_journal_template.html
 │   ├── front_page_template.html
 │   ├── layout_template.html
@@ -125,11 +132,10 @@ garden-journal/
 ### 5. HTML Templates (VERSION 13.1)
 
 **Files created:**
-- `templates/base.css` - Shared styles, color scheme
 - `templates/daily_journal_template.html` - Jinja2 template for daily pages
 - `templates/front_page_template.html` - Front page with dynamic dates
 - `templates/layout_template.html` - Current garden layout table
-- `templates/plant_summary_template.html` - Plant summaries with summary field
+- `templates/plant_summary_template.html` - Plant summaries with summary field and Inactive Plants section
 - `templates/samples/sample_daily_journal.html` - Working sample with Nov 11, 2025 real data
 
 **Template features:**
@@ -142,8 +148,10 @@ garden-journal/
 - Plant-specific Q&A with headers
 - Shared container support (Arugula/Cilantro example included)
 - Plant summary field display in Section 2
+- Inactive Plants section at bottom of Section 2 (for died/harvested/removed plants)
 - Dynamic date ranges on front page
 - **No print CSS** - removed for Print Friendly & PDF plugin use
+- **Title formatting:** All templates use colons (`:`) not em-dashes in titles/headings
 
 **Sample includes:**
 - Multiple basil and strawberry observations
@@ -163,17 +171,17 @@ garden-journal/
 - Container grouping logic for plant observations
 - Generates all static pages (Front, Layout, Plant Summary)
 - Generates daily journal pages from daily_entries
-- Copies `base.css` to `output/styles.css`
+- Copies `base.css` from `forms/static/base.css` to `output/styles.css`
 - Handles photo paths correctly (`../photos/filename.jpg`)
 - Formats dates and times for display using schema.py functions
-- Calculates `last_entry_date` from daily_entries
+- Calculates `last_entry_date` from daily_entries automatically
 - Command-line options: `--static-only`, `--daily-only`, `--date YYYYMMDD`
 
-**Successfully generates:**
-- `Garden_00_Front_Page.html`
-- `Garden_01_Layout.html`
-- `Garden_02_Plant_by_Plant_Summary.html`
-- `Garden_03_Daily_YYYYMMDD.html` (one per date in daily_entries)
+**Successfully tested and generates:**
+- `Garden_00_Front_Page.html` ✅
+- `Garden_01_Layout.html` ✅
+- `Garden_02_Plant_by_Plant_Summary.html` ✅
+- `Garden_03_Daily_YYYYMMDD.html` (ready to test with real data)
 
 ### 7. Data Manager (VERSION 1.0) ✅ COMPLETED
 
@@ -181,8 +189,11 @@ garden-journal/
 
 **Functions implemented:**
 - `load_data()` / `save_data()` with timestamped backups to `data/backups/`
-- `add_plant()` / `update_plant_summary()` / `move_plant()`
-- `add_daily_entry()` / `add_plant_observation()`
+- `add_plant()` - Add new plant with initial location
+- `update_plant_summary()` - Update plant summary field
+- `move_plant()` - Add location history entry, update current_location
+- `add_daily_entry()` - Add complete daily entry
+- `add_plant_observation()` - Add observation to existing daily entry
 - `get_plant_by_id()` / `get_entry_by_date()` / `get_all_plants()` / `get_all_entries()`
 
 **Tested:** `scripts/test_data_manager.py` - Comprehensive test suite (7/8 tests passing)
@@ -194,6 +205,90 @@ garden-journal/
 - `setup_templates.py` - Generates CSS and HTML templates (VERSION 13.1)
 - `scripts/compress_photos.py` - Batch compress photos maintaining quality
 - `scripts/test_data_manager.py` - Test suite for data_manager.py
+
+### 9. Web Forms & Flask Backend ⬅️ IN PROGRESS!
+
+**Status:** 3 of 4 forms complete and tested - Ready for Daily Entry form
+
+**Completed Files:**
+- ✅ `src/web_server.py` - Flask backend (VERSION 1.0) - TESTED
+- ✅ `forms/static/base.css` - Shared CSS - moved from templates/
+- ✅ `forms/static/forms.css` - Form-specific styles
+- ✅ `forms/index.html` - Landing page - TESTED
+- ✅ `forms/move_plant.html` - Move plant form - TESTED
+- ✅ `forms/add_plant.html` - Add plant form - TESTED
+
+**Flask Backend Details (src/web_server.py):**
+- Runs on `localhost:3000` (port 5000 blocked on macOS)
+- Serves forms from `forms/` folder using Jinja2 templates
+- Serves static files from `forms/static/`
+- Serves generated HTML from `output/` folder
+- Auto-regenerates static pages after Add Plant and Move Plant submissions
+
+**Routes:**
+- `GET /` - Landing page ✅
+- `GET /add-plant` - Add plant form ✅
+- `GET /add-entry` - Daily entry form (not yet built)
+- `GET /move-plant` - Move plant form ✅
+- `GET /output/<filename>` - Serve generated pages ✅
+- `GET /api/plants` - Get all active plants ✅
+- `GET /api/plant/<id>` - Get single plant ✅
+- `POST /api/add-plant` - Add plant ✅ TESTED
+- `POST /api/move-plant` - Move plant ✅ TESTED
+
+**Landing Page (forms/index.html) - ✅ TESTED:**
+- Server start/stop instructions
+- Quick stats (total active plants, last entry date)
+- Navigation cards to all forms
+- Links to generated journal pages
+- Matches base.css styling
+
+**Move Plant Form (forms/move_plant.html) - ✅ TESTED:**
+- Dropdown with all active plants
+- Fields: new location, container type/name, stake, position, reason, date
+- Auto-regenerates static pages after move
+- Success modal with old → new location
+- Working perfectly
+
+**Add Plant Form (forms/add_plant.html) - ✅ TESTED:**
+- 3 sections: Plant Info, Location & Container, Soil & Care
+- Auto-generates unique plant_id (basil_001, basil_002, etc.)
+- All fields: type, name, variety, purchased/sowed date, source, location, container details, stake, position, soil mix, initial summary
+- Auto-regenerates static pages after adding
+- Success modal shows plant details
+- Buttons: View Plant Summary, Add Another Plant, OK
+- Working perfectly
+
+**CSS Architecture:**
+- `forms/static/base.css` - Shared by forms AND generated HTML
+- `forms/static/forms.css` - Form-specific additions only
+- `html_generator.py` updated to copy from new location
+
+**Forms Completed: 3 of 4**
+1. ✅ Landing Page (index.html) - TESTED
+2. ✅ Move Plant (move_plant.html) - TESTED
+3. ✅ Add Plant (add_plant.html) - TESTED
+4. ⬅️ Daily Entry (add_entry.html) - NEXT PRIORITY
+
+**Daily Entry Form Requirements (Form 4):**
+The comprehensive daily journal form with 6 sections:
+- **Section 1:** Summary of Activities (markdown bullets)
+- **Section 2:** Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
+- **Section 3:** General Observations (markdown bullets)
+- **Section 4:** Questions & Answers - General (multiple Q&A pairs, repeatable)
+- **Section 5:** Upcoming Actions (multiple items with optional target dates/timeframes)
+- **Section 6:** Plant by Plant Observations (repeatable):
+  - Select plant → auto-loads current summary for inline editing
+  - Plant status dropdown (active/died/harvested/removed) - defaults to current status
+  - If status changed from active: show "Reason for Status Change" field
+  - Status change date = daily entry date
+  - Container/soil info auto-filled from plant data, editable
+  - Soil conditions: moisture, pH, fertility (all free text inputs)
+  - Growth: current stage, next stage
+  - Observations (textarea), Actions Taken (markdown bullets), Notes (textarea)
+  - Plant-specific Q&A (multiple pairs, repeatable)
+  - Photos: browse Google Drive → select multiple → extract EXIF → compress to 600×450px @ 85-90% → auto-suggest filename → add caption/tags → copy to `photos/` folder
+  - No limit on photos per observation
 
 ---
 
@@ -221,6 +316,16 @@ Each plant now has a `summary` field containing an evolving assessment:
 - Can be kept unchanged, replaced, or appended to
 - Contains high-level health status, care patterns, temperature thresholds
 - Example: "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F."
+
+### Plant Status Tracking
+
+**NEW FOR WEB FORMS**
+
+Each plant has a `status` field (active/died/harvested/removed). When status changes in Daily Entry form:
+- New fields populated: `status_date` (YYYYMMDD), `status_reason` (text)
+- Status date = the daily entry date where change occurred
+- Inactive plants display in separate section at bottom of Plant Summary
+- Format: "Lavender - Left (Died November 5, 2025: Water rot)"
 
 ### Sun Exposure Pattern
 
@@ -264,12 +369,12 @@ Each plant now has a `summary` field containing an evolving assessment:
 - **Fonts:** System fonts (Apple, Segoe UI, Roboto, etc.)
 - **Headers:**
   - h1 (Daily Journal): 28px
-  - h2.major-section (Plant by Plant): 24px - larger than other sections
+  - h2.major-section (Plant by Plant): 24px
   - h2 (other sections): 18px
-  - h3 (Raised Bed, container headers): 18px, bold
+  - h3 (Raised Bed, container headers): 18px
   - Panel titles: 18px, bold
   - Stake titles: 16px, bold
-- **Photos:** 2.0in width × 1.5in height, 0.15in gap, max 4 displayed per observation, indented 20px, 20px margin-top
+- **Photos:** 2.0in × 1.5in, 0.15in gap, no limit per observation, indented 20px, 20px margin-top
 - **Q&A blocks:** Indented 20px with left border
 - **Time badges:** Green rounded badges showing observation time
 - **No print CSS:** User will use Print Friendly & PDF browser plugin
@@ -342,142 +447,47 @@ Each plant now has a `summary` field containing an evolving assessment:
 
 ### 1. ~~Create Remaining HTML Templates~~ ✅ COMPLETED
 
-All templates created and tested:
-
-**✅ Front Page Template** (`templates/front_page_template.html`)
-- Dynamic date range (Started: [date], Last Updated: [date])
-- Uses metadata from garden_data.json
-- Successfully generates Garden_00_Front_Page.html
-
-**✅ Section 1 - Layout Template** (`templates/layout_template.html`)
-- Table format with 🌿 emoji
-- Columns: Panel, Plant, Container
-- Shows current plant locations
-- Successfully generates Garden_01_Layout.html
-
-**✅ Section 2 - Plant Summary Template** (`templates/plant_summary_template.html`)
-- Ordered by panel 1-18, then stakes 1-4
-- Displays plant summary field as "Notes"
-- Each plant with container, soil, summary
-- Divider lines between panels
-- Text-only (no photos) - static reference document
-- Successfully generates Garden_02_Plant_by_Plant_Summary.html
-
-**✅ Daily Journal Template** (`templates/daily_journal_template.html`)
-- Complete with all 6 sections
-- Photo display with captions
-- Container grouping (stakes and positions)
-- Sample validated and working
+All templates created and tested.
 
 ### 2. ~~Build HTML Generator~~ ✅ COMPLETED
 
-**Created:** `src/html_generator.py` (VERSION 13)
-
-**Features implemented:**
-- Reads `garden_data.json` using Python's json module
-- Uses Jinja2 to render all templates
-- Container grouping logic for plant observations
-- Generates all static pages (Front, Layout, Plant Summary)
-- Generates daily journal pages from daily_entries
-- Copies `base.css` to `output/styles.css`
-- Handles photo paths correctly (`../photos/filename.jpg`)
-- Formats dates and times for display using schema.py functions
-- Calculates `last_entry_date` from daily_entries automatically
-- Command-line options: `--static-only`, `--daily-only`, `--date YYYYMMDD`
-
-**Successfully tested and generates:**
-- `Garden_00_Front_Page.html` ✅
-- `Garden_01_Layout.html` ✅
-- `Garden_02_Plant_by_Plant_Summary.html` ✅
-- `Garden_03_Daily_YYYYMMDD.html` (ready to test with real data)
+Successfully generates all 4 HTML page types.
 
 ### 3. ~~Build Data Manager~~ ✅ COMPLETED
 
-**Created:** `src/data_manager.py` (VERSION 1.0)
-
-**All functions implemented and tested:**
-- `load_data()` - Read garden_data.json with validation
-- `save_data()` - Write garden_data.json with timestamped backup to `data/backups/`
-- `add_plant()` - Add new plant with initial location
-- `update_plant_summary()` - Update plant summary field
-- `move_plant()` - Add location history entry, update current_location
-- `add_daily_entry()` - Add complete daily entry
-- `add_plant_observation()` - Add observation to existing daily entry
-- `get_plant_by_id()` - Retrieve plant data
-- `get_entry_by_date()` - Retrieve daily entry
-- `get_all_plants()` / `get_all_entries()` - Retrieve all data
-
-**Key features:**
-- Automatic timestamped backups before every save
-- Works with array-based plant data structure
-- Full validation using schema.py functions
-- Comprehensive test suite: `scripts/test_data_manager.py` (7/8 tests passing)
+All functions implemented and tested.
 
 ### 4. Build Web Forms ⬅️ IN PROGRESS!
 
-**Status:** Landing page complete, ready for next form
+**Status:** 3 of 4 forms complete - Daily Entry form is next
 
-**Created:** `docs/webform.md` - Complete web forms requirements (VERSION 1.0) ✅
+**Forms Completed:**
+1. ✅ **Landing Page** (forms/index.html) - Navigation, stats, server instructions - TESTED
+2. ✅ **Move Plant** (forms/move_plant.html) - Full functionality, auto-regenerates pages - TESTED
+3. ✅ **Add Plant** (forms/add_plant.html) - Full functionality, auto-generates plant_id - TESTED
+4. ⬅️ **Daily Entry** (forms/add_entry.html) - NEXT - The big form with all 6 sections
 
-**Completed:**
-- ✅ Flask backend (`src/web_server.py`) - Runs on localhost:3000
-- ✅ Shared CSS (`forms/static/base.css`) - Moved from templates/ for shared access
-- ✅ Forms CSS (`forms/static/forms.css`) - Additional form-specific styles
-- ✅ Landing page (`forms/index.html`) - Navigation, stats, server instructions
-- Updated `html_generator.py` to reference new CSS location
+**Next: Build Daily Entry Form**
 
-Build HTML forms for local web application (not CLI scripts):
-
-**a) `forms/index.html`** - Main landing page
-- Navigation links to all forms
-- Quick stats (total plants, last entry date)
-
-**b) `forms/add_plant.html`** - Add new plants
-- Fields: plant type, common name, variety, purchased/sowed date, location, container details, stake/position
-- Field for initial plant summary
-- Submits to backend that calls data_manager.add_plant()
-
-**c) `forms/add_entry.html`** - Daily journal entry form (THE BIG ONE)
-- Section 1: Activities (markdown bullets)
-- Section 2: Weather/Sun conditions
-- Section 3: General observations (markdown bullets)
-- Section 4: Questions & Answers (general, multiple pairs)
-- Section 5: Upcoming actions (multiple items)
-- Section 6: Plant by Plant observations (repeatable):
-  - Select plant → loads current summary for inline editing
-  - Container/soil info (auto-filled, editable)
-  - Soil conditions: moisture, pH, fertility (all text fields)
-  - Growth tracking: current stage, next stage
-  - Observations, actions (markdown bullets), notes
-  - Plant-specific Q&A (optional, multiple pairs)
-  - Photos: browse Google Drive folder → select → compress → rename → copy to repo
-- Submits to backend that calls data_manager functions
-
-**d) `forms/move_plant.html`** - Move plants between locations
-- Dropdown to select plant from list
-- Fields for new location, reason for move, date
-- Submits to backend that calls data_manager.move_plant()
-
-**e) `src/web_server.py`** - Flask backend
-- Serves HTML forms locally on localhost:5000
-- Handles form submissions
-- Interfaces with data_manager.py
-- Handles photo upload, compression, renaming
-- Triggers html_generator.py after daily entry submission
-- Returns success/error modals
-
-**Photo workflow validated:**
-- ✅ User can drag photos from macOS Photos app to Google Drive folder (HEIC → JPEG automatic)
-- ✅ Flask can read from Google Drive CloudStorage path
-- Form will: extract EXIF metadata → compress to 600×450px @ 85-90% → rename → copy to `photos/` folder
-
-**Next steps:**
-1. Build Flask backend (`src/web_server.py`)
-2. Create form HTML files
-3. Add JavaScript for photo handling and markdown conversion
-4. Style forms to match garden journal theme
-5. Test all forms end-to-end
-6. Validate against requirements in docs/webform.md
+This is the most complex form with 6 sections:
+- Basic info: date, time of entry
+- Section 1: Summary of Activities (markdown bullets)
+- Section 2: Weather/Sun Conditions (temp, conditions, sun times, humidity, wind, notes)
+- Section 3: General Observations (markdown bullets)
+- Section 4: Questions & Answers (general, multiple Q&A pairs)
+- Section 5: Upcoming Actions (multiple items with target dates/timeframes)
+- Section 6: Plant by Plant Observations (repeatable):
+  - Select plant dropdown
+  - Time of observation
+  - Current plant summary (auto-loaded, editable textarea)
+  - Plant status dropdown (active/died/harvested/removed)
+  - Status change reason field (appears if status changed)
+  - Container/soil auto-filled, editable
+  - Soil readings: moisture, pH, fertility (free text)
+  - Growth stages: current, next
+  - Observations, actions (markdown), notes
+  - Plant Q&A (multiple pairs)
+  - Photo browser: select from Google Drive → compress → rename → copy to repo
 
 ### 5. Import Historical Data
 
@@ -509,17 +519,20 @@ Build HTML forms for local web application (not CLI scripts):
 - **Dates:** YYYYMMDD (e.g., "20251111")
 - **Times:** HHMM in 24-hour military time (e.g., "1400" for 2:00 PM)
 - **Display:** Functions in schema.py convert to readable format
+- **Date pickers in forms:** Use local timezone to ensure correct EST dates
 
 ### Plant ID Format
 
 - **Pattern:** `{planttype}_{###}` with 3-digit numbers
 - **Examples:** basil_001, tomato_001, strawberry_002
+- **Auto-generated:** Forms use `schema.generate_plant_id()` function
 - **Validation:** `validate_plant_id()` in schema.py
 
 ### Photo Filename Format
 
 - **Pattern:** `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
 - **Example:** basil_001_20251111_1400_1.jpg
+- **Auto-suggested:** Forms extract EXIF date/time and suggest filenames
 - **Validation:** `validate_photo_filename()` in schema.py
 
 ### Container Grouping Rules
@@ -528,15 +541,15 @@ Build HTML forms for local web application (not CLI scripts):
 
 1. Group plant observations by: `location + container_name`
 2. **If multiple plants with same container_name AND have stakes:**
-   - Display container header once (e.g., "Raised Bed — Panels 16–18")
+   - Display container header once (e.g., "Raised Bed: Panels 16–18")
    - List plants by stake number underneath
    - Indent stakes 20px
 3. **If multiple plants with same container_name but NO stakes:**
-   - Display container header once (e.g., "Panel 11 — Arugula & Cilantro Box")
+   - Display container header once (e.g., "Panel 11: Arugula & Cilantro Box")
    - List each plant with position shown
    - Indent plants 20px
 4. **If single plant in container:**
-   - Display: "Panel X — Container Name"
+   - Display: "Panel X: Container Name"
    - No grouping header needed
 
 ### Action Types (Validation)
@@ -563,8 +576,8 @@ Valid values: `active`, `removed`, `died`, `harvested`
 
 - **Fonts:** -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"
 - **H1 (Daily Journal):** 28px
-- **H2.major-section (Plant by Plant):** 24px - larger than other sections
-- **H2 (Summary, Weather, etc.):** 18px
+- **H2.major-section (Plant by Plant):** 24px
+- **H2 (other sections):** 18px
 - **H3 (Raised Bed, container headers):** 18px, bold
 - **Panel titles:** 18px, bold
 - **Stake titles:** 16px, bold
@@ -573,7 +586,7 @@ Valid values: `active`, `removed`, `died`, `harvested`
 
 - **Size:** 2.0in width × 1.5in height
 - **Gap:** 0.15in between photos
-- **No limit on photos per observation** (though template shows 4 displayed)
+- **No limit** on photos per observation
 - **Indent:** 20px (aligns with bullet text)
 - **Margin-top:** 20px (spacing above photo row)
 - **Border:** 1px solid #e6e8eb, 10px border-radius
@@ -610,41 +623,52 @@ Flask>=3.0.0
 
 ---
 
-## 📄 WORKFLOW (Future State)
+## 📄 WORKFLOW (Current State with Web Forms)
 
 ### Daily Usage:
 
 1. Take photos throughout the day with iPhone
 2. Photos sync to iCloud Photos automatically
 3. Open Photos app on MacBook, drag photos from "Garden" album to Google Drive folder
-4. Open web application in Chrome: `http://localhost:5000`
-5. Fill out daily entry form with observations
-6. Browse Google Drive folder to select photos
-7. Submit form - form compresses/renames photos, saves to garden_data.json, generates HTML
-8. Click "View Journal" to see `output/Garden_03_Daily_20251113.html`
-9. Use Print Friendly & PDF Chrome extension to save as PDF
+4. Start Flask server: `python3 src/web_server.py`
+5. Open Chrome: `http://localhost:3000`
+6. Click "📔 Daily Entry" to fill out daily journal form
+7. Form sections: Activities, Weather, Observations, Q&A, Upcoming Actions, Plant by Plant
+8. For each plant: select photos from Google Drive, form compresses/renames/copies to repo
+9. Submit form - auto-saves to garden_data.json and generates HTML pages
+10. Click "View Journal" to see generated daily page
+11. Use Print Friendly & PDF Chrome extension to save as PDF
 
 ### Adding New Plant:
 
-1. Open web application
-2. Click "Add Plant" form
-3. Fill in all fields (including initial summary)
-4. Submit - updates garden_data.json
-5. Regenerate static pages
+1. Open web application: `http://localhost:3000`
+2. Click "➕ Add Plant" form
+3. Fill in all fields (type, name, location, container, soil, initial summary)
+4. Submit - auto-generates unique plant_id, updates garden_data.json
+5. Pages auto-regenerate - plant immediately visible in Plant Summary
 
 ### Moving Plant:
 
-1. Open "Move Plant" form
+1. Open "🔄 Move Plant" form
 2. Select plant from dropdown
-3. Enter new location and reason
-4. Submit - updates location_history automatically
+3. Enter new location, container details, reason
+4. Submit - updates location_history and current_location
+5. Pages auto-regenerate - plant shows at new location immediately
 
 ### Updating Plant Summary:
 
 When filling out daily entry form:
-- After selecting plant, current summary is displayed in editable textarea
+- After selecting plant, current summary auto-loads in editable textarea
 - Edit as needed (keep, update, or append)
 - New summary saved to plant record on submit
+
+### Changing Plant Status:
+
+When filling out daily entry form:
+- Plant status dropdown defaults to current status (active/died/harvested/removed)
+- If changing from active to inactive: "Reason for Status Change" field appears
+- Status change date = daily entry date
+- Inactive plants appear in separate section at bottom of Plant Summary
 
 ---
 
@@ -652,7 +676,7 @@ When filling out daily entry form:
 
 1. **ChatGPT data has errors:** The Garden_Log_Oct8–Nov9.html file has some incorrect timestamps and data. Need to manually validate against actual photos and PDF conversations.
 
-2. **Photo size:** Original photos too large for git (excluded in .gitignore). Compression happens in web form before saving to repo.
+2. **Photo compression:** Happens in Daily Entry form via JavaScript before upload - target 600×450px @ 85-90% quality.
 
 3. **Print CSS removed:** User prefers Print Friendly & PDF browser plugin for page break control instead of embedded CSS.
 
@@ -660,7 +684,11 @@ When filling out daily entry form:
 
 5. **Sample files location:** Sample HTML and photos now in `templates/samples/` folder (gitignored)
 
-6. **Soil tracking:** User now tracks Soil Moisture, Soil pH, and Soil Fertility using JQ001-style soil meter. All three fields are optional text inputs in forms.
+6. **Soil tracking:** User tracks Soil Moisture, Soil pH, and Soil Fertility using JQ001-style soil meter. All three fields are free text inputs in forms.
+
+7. **Port 3000:** Flask runs on port 3000 (port 5000 blocked on macOS).
+
+8. **Auto-regeneration:** Add Plant and Move Plant forms automatically regenerate static HTML pages after submission so changes are immediately visible.
 
 ---
 
@@ -679,19 +707,22 @@ When filling out daily entry form:
 ## 🎯 IMMEDIATE NEXT ACTIONS
 
 **Priority 1: ~~HTML Generator~~** ✅ COMPLETED
-~~Build `src/html_generator.py` so we can generate actual journal pages from data.~~
 
 **Priority 2: ~~Remaining Templates~~** ✅ COMPLETED
-~~Create Front Page, Layout (Section 1), Plant Summary (Section 2) templates.~~
 
 **Priority 3: ~~Data Manager~~** ✅ COMPLETED
-~~Build `src/data_manager.py` for JSON read/write operations.~~
 
 **Priority 4: Web Forms** ⬅️ IN PROGRESS!
-Requirements complete in `docs/webform.md`. Ready to build Flask backend and HTML forms.
+- ✅ Landing Page - COMPLETE & TESTED
+- ✅ Move Plant Form - COMPLETE & TESTED
+- ✅ Add Plant Form - COMPLETE & TESTED
+- ⬅️ Daily Entry Form - NEXT (the comprehensive form with all 6 sections)
 
 **Priority 5: Import Data**
 Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
+
+**Priority 6: Create Initial garden_data.json**
+Add all real plants and import historical entries.
 
 ---
 
@@ -728,8 +759,9 @@ Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
   4. If user finds issues, fix them before proceeding
   5. Do NOT move ahead to next feature until current one is confirmed working
   6. User will explicitly say "let's move on" or "next" when ready
-- **Title Formatting:** In HTML templates, both `<title>` tags and `<h1>` headings should use colons (`:`) not em-dashes, like "Section 2: Plant-by-Plant Summary"
+- **Title Formatting:** In HTML templates, both `<title>` tags and `<h1>` headings should use colons (`:`) not em-dashes
+- **IMPORTANT:** When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
 
 ---
 
-**Continue from here. Next priority: Build Add Plant form (forms/add_plant.html).**
+**Continue from here. Next priority: Build Daily Entry form (forms/add_entry.html) - the comprehensive daily journal form with all 6 sections and photo handling.**
