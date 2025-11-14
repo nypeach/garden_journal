@@ -136,7 +136,7 @@
     // Set today's date as default (using user's local timezone)
     const today = new Date();
     today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
-    document.getElementById('move_date').valueAsDate = today;
+    document.getElementById('move_date').valueAsDate = new Date();
 
     // Handle form submission
     document.getElementById('movePlantForm').addEventListener('submit', async (e) => {

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Entry: Garden Journal</title>
+  <link rel="stylesheet" href="/static/base.css">
+  <link rel="stylesheet" href="/static/forms.css">
+</head>
+
+<body>
+  <main>
+    <h1><span>📔</span> Daily Entry</h1>
+    <p class="note">Record daily observations, weather, activities, and plant-by-plant notes</p>
+
+    <hr class="divider" />
+
+    <form id="dailyEntryForm">
+
+      <!-- BASIC INFORMATION -->
+      <h2><span>📅</span> Basic Information</h2>
+
+      <div class="form-group">
+        <label for="entry_date">
+          Date <span class="required">*</span>
+        </label>
+        <input type="date" id="entry_date" name="entry_date" required />
+        <div class="help-text">Date of this journal entry</div>
+      </div>
+
+      <div class="form-group">
+        <label for="entry_time">
+          Time of Entry <span class="required">*</span>
+        </label>
+        <input type="time" id="entry_time" name="entry_time" required />
+        <div class="help-text">When you're filling out this form</div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- SECTION 1: SUMMARY OF ACTIVITIES -->
+      <h2><span>📝</span> Summary of Activities</h2>
+
+      <div class="form-group">
+        <label for="activities">
+          What did you do today?
+        </label>
+        <textarea id="activities" name="activities" placeholder="Use markdown bullets:
+- Watered all plants
+- Pruned tomato
+   - Removed diseased leaves
+   - Cut back lower branches
+- Added mulch to raised bed" rows="8"></textarea>
+        <div class="help-text">Use <code>- </code> for bullets, <code>   - </code> (3 spaces + dash) for indented
+          bullets</div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- SECTION 2: WEATHER / SUN CONDITIONS -->
+      <h2><span>☀️</span> Weather / Sun Conditions</h2>
+
+      <div class="form-group">
+        <label for="temp_high">Temperature High (°F)</label>
+        <input type="number" id="temp_high" name="temp_high" placeholder="78" />
+      </div>
+
+      <div class="form-group">
+        <label for="temp_low">Temperature Low (°F)</label>
+        <input type="number" id="temp_low" name="temp_low" placeholder="68" />
+      </div>
+
+      <div class="form-group">
+        <label for="conditions">Current Conditions</label>
+        <input type="text" id="conditions" name="conditions" placeholder="Sunny, Partly cloudy, Overcast, etc." />
+      </div>
+
+      <div class="form-group">
+        <label for="sunrise">Sunrise Time</label>
+        <input type="time" id="sunrise" name="sunrise" />
+      </div>
+
+      <div class="form-group">
+        <label for="sunset">Sunset Time</label>
+        <input type="time" id="sunset" name="sunset" />
+      </div>
+
+      <div class="form-group">
+        <label for="humidity">Humidity</label>
+        <input type="text" id="humidity" name="humidity" placeholder="65%, High, Low, etc." />
+      </div>
+
+      <div class="form-group">
+        <label for="wind">Wind</label>
+        <input type="text" id="wind" name="wind" placeholder="Light breeze, Calm, 10-15 mph, etc." />
+      </div>
+
+      <div class="form-group">
+        <label for="weather_notes">Weather Notes</label>
+        <textarea id="weather_notes" name="weather_notes" placeholder="Additional weather observations..."
+          rows="3"></textarea>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- SECTION 3: GENERAL OBSERVATIONS -->
+      <h2><span>📝</span> General Observations</h2>
+
+      <div class="form-group">
+        <label for="observations">
+          Garden-wide observations
+        </label>
+        <textarea id="observations" name="observations" placeholder="Use markdown bullets:
+- All plants looking healthy after rain
+- Noticed more bees today
+- Some fungal issues on lower leaves" rows="6"></textarea>
+        <div class="help-text">Observations about the whole garden (not specific to one plant)</div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- SECTION 4: QUESTIONS & ANSWERS (GENERAL) -->
+      <h2><span>❓</span> Questions & Answers</h2>
+      <p class="note">General garden questions and research (not plant-specific)</p>
+
+      <div id="qaContainer">
+        <!-- Q&A pairs will be added here -->
+      </div>
+
+      <button type="button" onclick="addQA()" class="btn btn-secondary" style="margin-top: 12px;">
+        + Add Question & Answer
+      </button>
+
+      <hr class="divider" />
+
+      <!-- SECTION 5: UPCOMING ACTIONS -->
+      <h2><span>📋</span> Upcoming Actions</h2>
+      <p class="note">Planned future tasks</p>
+
+      <div id="actionsContainer">
+        <!-- Actions will be added here -->
+      </div>
+
+      <button type="button" onclick="addAction()" class="btn btn-secondary" style="margin-top: 12px;">
+        + Add Upcoming Action
+      </button>
+
+      <hr class="divider" />
+
+      <!-- SECTION 6: PLANT BY PLANT - PLACEHOLDER FOR PHASE 2 -->
+      <h2 class="major-section"><span>🪴</span> Plant by Plant</h2>
+      <p class="note">Phase 2: Plant observations will be added here</p>
+
+      <div class="form-buttons">
+        <button type="submit" class="btn btn-primary">
+          💾 Save Entry & Generate Journal
+        </button>
+        <a href="/" class="btn btn-secondary">Cancel</a>
+      </div>
+
+    </form>
+
+  </main>
+
+  <!-- Success Modal -->
+  <div id="successModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-icon">✅</span>
+        <h2 class="modal-title">Daily Entry Saved!</h2>
+      </div>
+      <div class="modal-body">
+        <p><strong>Date:</strong> <span id="modal-date"></span></p>
+        <p id="modal-summary"></p>
+      </div>
+      <div class="modal-buttons">
+        <a href="#" id="viewJournalLink" target="_blank" class="btn btn-primary">
+          View Journal
+        </a>
+        <button onclick="addAnother()" class="btn btn-secondary">Add Another Entry</button>
+        <button onclick="closeModal()" class="btn btn-secondary">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Set today's date and current time as defaults (using local timezone)
+    const now = new Date();
+    now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+    document.getElementById('entry_date').valueAsDate = new Date();
+
+    // Get current local time
+    const localNow = new Date();
+    const hours = localNow.getHours().toString().padStart(2, '0');
+    const minutes = localNow.getMinutes().toString().padStart(2, '0');
+    document.getElementById('entry_time').value = `${hours}:${minutes}`;
+
+    // Q&A Management
+    let qaCount = 0;
+
+    function addQA() {
+      qaCount++;
+      const container = document.getElementById('qaContainer');
+      const qaDiv = document.createElement('div');
+      qaDiv.className = 'form-group';
+      qaDiv.id = `qa-${qaCount}`;
+      qaDiv.innerHTML = `
+        <div style="border: 1px solid var(--rule); border-radius: 6px; padding: 16px; margin: 12px 0;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <strong>Q&A #${qaCount}</strong>
+            <button type="button" onclick="removeQA(${qaCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
+          </div>
+          <div class="form-group">
+            <label for="question_${qaCount}">Question</label>
+            <input type="text" id="question_${qaCount}" name="question_${qaCount}" placeholder="What causes blossom end rot?" />
+          </div>
+          <div class="form-group">
+            <label for="answer_${qaCount}">Answer</label>
+            <textarea id="answer_${qaCount}" name="answer_${qaCount}" placeholder="Calcium deficiency, often from inconsistent watering..." rows="3"></textarea>
+          </div>
+        </div>
+      `;
+      container.appendChild(qaDiv);
+    }
+
+    function removeQA(id) {
+      document.getElementById(`qa-${id}`).remove();
+    }
+
+    // Actions Management
+    let actionCount = 0;
+
+    function addAction() {
+      actionCount++;
+      const container = document.getElementById('actionsContainer');
+      const actionDiv = document.createElement('div');
+      actionDiv.className = 'form-group';
+      actionDiv.id = `action-${actionCount}`;
+      actionDiv.innerHTML = `
+        <div style="border: 1px solid var(--rule); border-radius: 6px; padding: 16px; margin: 12px 0;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <strong>Action #${actionCount}</strong>
+            <button type="button" onclick="removeAction(${actionCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
+          </div>
+          <div class="form-group">
+            <label for="action_desc_${actionCount}">Description</label>
+            <input type="text" id="action_desc_${actionCount}" name="action_desc_${actionCount}" placeholder="Fertilize tomatoes, reseed arugula, etc." />
+          </div>
+          <div class="form-group">
+            <label for="action_date_${actionCount}">Target Date (optional)</label>
+            <input type="date" id="action_date_${actionCount}" name="action_date_${actionCount}" />
+          </div>
+          <div class="form-group">
+            <label for="action_timeframe_${actionCount}">Target Timeframe (optional)</label>
+            <input type="text" id="action_timeframe_${actionCount}" name="action_timeframe_${actionCount}" placeholder="in 3 days, next week, etc." />
+          </div>
+        </div>
+      `;
+      container.appendChild(actionDiv);
+    }
+
+    function removeAction(id) {
+      document.getElementById(`action-${id}`).remove();
+    }
+
+    // Form submission (Phase 1 - just console log for now)
+    document.getElementById('dailyEntryForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Collect form data
+      const formData = {
+        date: document.getElementById('entry_date').value.replace(/-/g, ''),
+        time_of_entry: document.getElementById('entry_time').value.replace(/:/g, ''),
+        activities: document.getElementById('activities').value,
+        weather: {
+          temp_high: document.getElementById('temp_high').value || null,
+          temp_low: document.getElementById('temp_low').value || null,
+          conditions: document.getElementById('conditions').value || null,
+          sunrise: document.getElementById('sunrise').value ? document.getElementById('sunrise').value.replace(/:/g, '') : null,
+          sunset: document.getElementById('sunset').value ? document.getElementById('sunset').value.replace(/:/g, '') : null,
+          humidity: document.getElementById('humidity').value || null,
+          wind: document.getElementById('wind').value || null,
+          notes: document.getElementById('weather_notes').value || null
+        },
+        observations: document.getElementById('observations').value,
+        qa: collectQA(),
+        upcoming_actions: collectActions()
+      };
+
+      console.log('Form data (Phase 1):', formData);
+      alert('Phase 1 form data logged to console! Check browser DevTools → Console tab to see the data structure.');
+    });
+
+    function collectQA() {
+      const qaPairs = [];
+      for (let i = 1; i <= qaCount; i++) {
+        const questionEl = document.getElementById(`question_${i}`);
+        const answerEl = document.getElementById(`answer_${i}`);
+        if (questionEl && answerEl && questionEl.value) {
+          qaPairs.push({
+            question: questionEl.value,
+            answer: answerEl.value
+          });
+        }
+      }
+      return qaPairs;
+    }
+
+    function collectActions() {
+      const actions = [];
+      for (let i = 1; i <= actionCount; i++) {
+        const descEl = document.getElementById(`action_desc_${i}`);
+        const dateEl = document.getElementById(`action_date_${i}`);
+        const timeframeEl = document.getElementById(`action_timeframe_${i}`);
+        if (descEl && descEl.value) {
+          actions.push({
+            description: descEl.value,
+            target_date: dateEl.value ? dateEl.value.replace(/-/g, '') : null,
+            target_timeframe: timeframeEl.value || null
+          });
+        }
+      }
+      return actions;
+    }
+
+    function closeModal() {
+      document.getElementById('successModal').classList.remove('active');
+      window.location.href = '/';
+    }
+
+    function addAnother() {
+      document.getElementById('successModal').classList.remove('active');
+      document.getElementById('dailyEntryForm').reset();
+      const now = new Date();
+      now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+      document.getElementById('entry_date').valueAsDate = now;
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      document.getElementById('entry_time').value = `${hours}:${minutes}`;
+    }
+  </script>
+</body>
+
+</html>

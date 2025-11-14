@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 13, 2025 @ 9:29 PM EST
+**Last Updated:** November 13, 2025 @ 9:58 PM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -268,7 +268,10 @@ garden-journal/
 1. ✅ Landing Page (index.html) - TESTED
 2. ✅ Move Plant (move_plant.html) - TESTED
 3. ✅ Add Plant (add_plant.html) - TESTED
-4. ⬅️ Daily Entry (add_entry.html) - NEXT PRIORITY
+4. 🚧 Daily Entry (add_entry.html) - PHASE 1 COMPLETE, PHASE 2 NEXT
+   - ✅ Phase 1: Sections 1-5 complete and tested (Activities, Weather, Observations, Q&A, Upcoming Actions)
+   - ⬅️ Phase 2: Section 6 Plant by Plant (next session)
+   - Phase 3: Photo handling (after Phase 2)
 
 **Daily Entry Form Requirements (Form 4):**
 The comprehensive daily journal form with 6 sections:

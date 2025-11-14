@@ -183,7 +183,7 @@
     // Set today's date as default (using user's local timezone)
     const today = new Date();
     today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
-    document.getElementById('purchase_date').valueAsDate = today;
+    document.getElementById('purchase_date').valueAsDate = new Date();
 
     // Handle form submission
     document.getElementById('addPlantForm').addEventListener('submit', async (e) => {
