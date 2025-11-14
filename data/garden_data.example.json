@@ -1,6 +1,6 @@
 {
-  "_schema_version": "13",
-  "_last_updated": "2025-11-11",
+  "_schema_version": "13.1",
+  "_last_updated": "2025-11-14",
   "metadata": {
     "garden_name": "Jodi's Garden Journal",
     "start_date": "20251008",
@@ -15,6 +15,7 @@
       "purchase_date": "20251008",
       "source": "Lowe's",
       "status": "active",
+      "summary": "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F.",
       "location_history": [
         {
           "date": "20251008",
@@ -92,6 +93,7 @@
       "purchase_date": "20251008",
       "source": "Lowe's",
       "status": "active",
+      "summary": "Flowering strongly; some fungal leaf spot treated Nov 11. Monitor for runners late Nov-Dec.",
       "location_history": [
         {
           "date": "20251008",
@@ -172,6 +174,7 @@
       "purchase_date": "20251008",
       "source": "Lowe's",
       "status": "active",
+      "summary": "First fruits forming! Pruned lower diseased branches Nov 11. Staked Oct 29; protect at ≤49°F with frost cloth.",
       "location_history": [
         {
           "date": "20251008",
@@ -280,6 +283,7 @@
       "purchase_date": "20251101",
       "source": "Garden Center",
       "status": "active",
+      "summary": "Planted Nov 9 in left section of shared planter. Hardneck variety for cold climates.",
       "location_history": [
         {
           "date": "20251109",
@@ -320,6 +324,7 @@
       "purchase_date": "20251101",
       "source": "Garden Center",
       "status": "active",
+      "summary": "Vertical stake support added Nov 10; unplanted as of Nov 11.",
       "location_history": [
         {
           "date": "20251109",
@@ -351,6 +356,10 @@
       "type": "fence_panel",
       "sun_exposure": "Full sun 7am-3:50pm",
       "notes": "First morning sun"
+    },
+    "Panel 4": {
+      "type": "fence_panel",
+      "sun_exposure": "Full sun 7am-3:50pm"
     },
     "Panel 7": {
       "type": "fence_panel",

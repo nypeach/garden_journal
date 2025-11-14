@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 13, 2025 @ 9:58 PM EST
+**Last Updated:** November 14, 2025 @ 10:30 PM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -77,7 +77,8 @@ garden-journal/
 - `docs/photo-naming.md` - Photo naming conventions and best practices
 - `docs/webform.md` - Complete web forms requirements (VERSION 1.0) **NEW!**
 - `src/schema.py` - Python validation functions and dataclasses (V13.1)
-- `data/garden_data.example.json` - Working example with V13 structure
+- `data/garden_data.example.json` - Working example with V13.1 structure (cleaned)
+- `data/garden_data.json` - Actual garden data (cleaned, test plants removed)
 - `PROMPT.md` - This file - handoff documentation
 
 ### 3. Data Schema (VERSION 13.1)
@@ -270,28 +271,56 @@ garden-journal/
 3. ✅ Add Plant (add_plant.html) - TESTED
 4. 🚧 Daily Entry (add_entry.html) - PHASE 1 COMPLETE, PHASE 2 NEXT
    - ✅ Phase 1: Sections 1-5 complete and tested (Activities, Weather, Observations, Q&A, Upcoming Actions)
-   - ⬅️ Phase 2: Section 6 Plant by Plant (next session)
-   - Phase 3: Photo handling (after Phase 2)
+   - ✅ Phase 2: Section 6 Plant by Plant
+   - ⬅️ Phase 3: Photo handling  (next session)
 
-**Daily Entry Form Requirements (Form 4):**
-The comprehensive daily journal form with 6 sections:
-- **Section 1:** Summary of Activities (markdown bullets)
-- **Section 2:** Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
-- **Section 3:** General Observations (markdown bullets)
-- **Section 4:** Questions & Answers - General (multiple Q&A pairs, repeatable)
-- **Section 5:** Upcoming Actions (multiple items with optional target dates/timeframes)
-- **Section 6:** Plant by Plant Observations (repeatable):
-  - Select plant → auto-loads current summary for inline editing
-  - Plant status dropdown (active/died/harvested/removed) - defaults to current status
-  - If status changed from active: show "Reason for Status Change" field
-  - Status change date = daily entry date
-  - Container/soil info auto-filled from plant data, editable
-  - Soil conditions: moisture, pH, fertility (all free text inputs)
-  - Growth: current stage, next stage
-  - Observations (textarea), Actions Taken (markdown bullets), Notes (textarea)
-  - Plant-specific Q&A (multiple pairs, repeatable)
-  - Photos: browse Google Drive → select multiple → extract EXIF → compress to 600×450px @ 85-90% → auto-suggest filename → add caption/tags → copy to `photos/` folder
-  - No limit on photos per observation
+**Daily Entry Form (forms/add_entry.html) - ✅ PHASES 1 & 2 COMPLETE:**
+
+**Phase 1 Complete - Sections 1-5:**
+- ✅ Basic Information: date, time of entry
+- ✅ Section 1: Summary of Activities (textarea with markdown bullets)
+- ✅ Section 2: Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
+- ✅ Section 3: General Observations (textarea with markdown bullets)
+- ✅ Section 4: Questions & Answers (repeatable Q&A pairs with [+ Add Another Q&A])
+- ✅ Section 5: Upcoming Actions (repeatable with description, target date/timeframe, [+ Add Another Action])
+
+**Phase 2 Complete - Section 6: Plant by Plant:**
+- ✅ Plant selection dropdown (loads active plants from `/api/plants`)
+- ✅ Time of observation input (defaults to current time)
+- ✅ Plant summary textarea (auto-loads current summary when plant selected, fully editable)
+- ✅ Plant status dropdown (active/died/harvested/removed) - defaults to plant's current status
+- ✅ **Conditional "Reason for Status Change" field** - only appears when changing FROM active TO another status
+- ✅ Container info fields auto-filled from `plant.current_location` (name, type, stake, position)
+- ✅ Container size field (optional, manual entry - size info embedded in type field)
+- ✅ Soil conditions: moisture, pH, fertility (all free text inputs)
+- ✅ Growth stages: current stage, next stage
+- ✅ Observations, Actions Taken (markdown), Notes (textareas)
+- ✅ Plant-specific Q&A (repeatable within each plant observation)
+- ✅ [+ Add Another Plant Observation] button for multiple plants per entry
+- ✅ Section headers with visual styling (green background, left border)
+- ✅ Input overflow fixes (box-sizing, proper width constraints)
+- ✅ Form submission collects all data and logs to console
+
+**Phase 3 Next - Photo Handling:**
+- Browse button to select photos from Google Drive folder
+- Display selected photos as thumbnails
+- Extract EXIF metadata (date/time) from JPEGs
+- Auto-suggest filenames: `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
+- Client-side compression using Canvas API (600×450px @ 85-90% quality)
+- Caption and tags inputs for each photo
+- Copy compressed/renamed photos to repo `photos/` folder
+- Leave originals in Google Drive folder
+
+
+### 10. Data Files Cleaned (VERSION 13.1)
+
+**Cleaned garden_data.json:**
+- Removed all test plants (test_basil_999, test_003, tomato_002, your_mom_001)
+- Fixed field naming: `stake` (not `stake_number`) throughout
+- Added `summary` field to all 5 real plants
+- Ensured `current_location` matches latest `location_history` for all plants
+- Updated schema version to 13.1
+- 5 sample plants only: basil_001, strawberry_002, tomato_001, garlic_001, pepper_001
 
 ---
 
@@ -462,37 +491,36 @@ All functions implemented and tested.
 
 ### 4. Build Web Forms ⬅️ IN PROGRESS!
 
-**Status:** 3 of 4 forms complete - Daily Entry form is next
+**Status:** 3 of 4 forms complete, Daily Entry form Phases 1 & 2 complete - Phase 3 next
 
 **Forms Completed:**
 1. ✅ **Landing Page** (forms/index.html) - Navigation, stats, server instructions - TESTED
 2. ✅ **Move Plant** (forms/move_plant.html) - Full functionality, auto-regenerates pages - TESTED
 3. ✅ **Add Plant** (forms/add_plant.html) - Full functionality, auto-generates plant_id - TESTED
-4. ⬅️ **Daily Entry** (forms/add_entry.html) - NEXT - The big form with all 6 sections
+4. ⬅️ **Daily Entry** (forms/add_entry.html) - PHASES 1 & 2 COMPLETE, PHASE 3 NEXT
 
-**Next: Build Daily Entry Form**
+**Next: Phase 3 - Photo Handling in Daily Entry Form**
 
-This is the most complex form with 6 sections:
-- Basic info: date, time of entry
-- Section 1: Summary of Activities (markdown bullets)
-- Section 2: Weather/Sun Conditions (temp, conditions, sun times, humidity, wind, notes)
-- Section 3: General Observations (markdown bullets)
-- Section 4: Questions & Answers (general, multiple Q&A pairs)
-- Section 5: Upcoming Actions (multiple items with target dates/timeframes)
-- Section 6: Plant by Plant Observations (repeatable):
-  - Select plant dropdown
-  - Time of observation
-  - Current plant summary (auto-loaded, editable textarea)
-  - Plant status dropdown (active/died/harvested/removed)
-  - Status change reason field (appears if status changed)
-  - Container/soil auto-filled, editable
-  - Soil readings: moisture, pH, fertility (free text)
-  - Growth stages: current, next
-  - Observations, actions (markdown), notes
-  - Plant Q&A (multiple pairs)
-  - Photo browser: select from Google Drive → compress → rename → copy to repo
+Add photo functionality to Section 6 (Plant by Plant):
+- Browse button to select photos from Google Drive folder path
+- Display selected photos as thumbnails
+- Extract EXIF metadata (date/time) from JPEGs
+- Auto-suggest filenames: `{plant_id}_{YYYYMMDD}_{HHMM}_{seq}.jpg`
+- Client-side compression using Canvas API (target: 600×450px @ 85-90% quality)
+- Caption and tags inputs for each photo
+- Copy compressed/renamed photos to repo `photos/` folder
+- Leave originals in Google Drive folder
 
-### 5. Import Historical Data
+### 5. Complete Daily Entry Backend
+
+After Phase 3 photo handling is complete:
+- Add `POST /api/add-entry` endpoint to web_server.py
+- Endpoint calls `data_manager.add_daily_entry()`
+- Auto-regenerate ALL pages (Front, Layout, Plant Summary, Daily page for that date)
+- Success modal with link to view generated daily journal page
+- Full end-to-end testing of complete form with photos
+
+### 6. Import Historical Data
 
 **Source:** `html_examples/Garden_Log_Oct8–Nov9.html` (ChatGPT generated, has errors)
 
@@ -693,6 +721,9 @@ When filling out daily entry form:
 
 8. **Auto-regeneration:** Add Plant and Move Plant forms automatically regenerate static HTML pages after submission so changes are immediately visible.
 
+9. **Data cleaned:** Test plants removed from garden_data.json. Only 5 sample plants remain: basil_001, strawberry_002, tomato_001, garlic_001, pepper_001.
+
+10. **Container data location:** Container info (name, type, stake, position) stored in `plant.current_location` object, not at top level of plant.
 ---
 
 ## 📱 TOOLS & BROWSER EXTENSIONS
@@ -719,7 +750,9 @@ When filling out daily entry form:
 - ✅ Landing Page - COMPLETE & TESTED
 - ✅ Move Plant Form - COMPLETE & TESTED
 - ✅ Add Plant Form - COMPLETE & TESTED
-- ⬅️ Daily Entry Form - NEXT (the comprehensive form with all 6 sections)
+- ✅ Daily Entry Form Phase 1 - COMPLETE & TESTED (Sections 1-5)
+- ✅ Daily Entry Form Phase 2 - COMPLETE & TESTED (Section 6 Plant by Plant)
+- ⬅️ Daily Entry Form Phase 3 - NEXT (Photo handling)
 
 **Priority 5: Import Data**
 Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
@@ -773,16 +806,15 @@ Add all real plants and import historical entries.
 
 **Build Plan for Daily Entry Form (build incrementally in phases):**
 
-**Phase 1: Basic Structure + Sections 1-5**
+**Phase 1: Basic Structure + Sections 1-5** ✅ COMPLETE
 - Form foundation with date/time inputs
 - Section 1: Summary of Activities (textarea with markdown support)
 - Section 2: Weather/Sun Conditions (temp high/low, conditions, sunrise/sunset, humidity, wind, notes)
 - Section 3: General Observations (textarea with markdown support)
 - Section 4: Questions & Answers (repeatable Q&A pairs with [+ Add Another Q&A] button)
 - Section 5: Upcoming Actions (repeatable items with description, target date/timeframe, [+ Add Another Action] button)
-- Test and verify Sections 1-5 work before moving to Phase 2
 
-**Phase 2: Section 6 - Plant by Plant Observations**
+**Phase 2: Section 6 - Plant by Plant Observations** ✅ COMPLETE
 - Plant selection dropdown (loads from active plants)
 - Time of observation input
 - Current summary auto-load and inline editing (textarea, pre-filled, editable)
@@ -794,9 +826,8 @@ Add all real plants and import historical entries.
 - Observations (textarea), Actions Taken (textarea with markdown), Notes (textarea)
 - Plant-specific Q&A (repeatable pairs within each plant observation)
 - [+ Add Another Plant Observation] button for multiple plants per entry
-- Test and verify plant observations work before moving to Phase 3
 
-**Phase 3: Photo Handling in Plant Observations**
+**Phase 3: Photo Handling in Plant Observations** ⬅️ NEXT
 - Browse button to select photos from Google Drive folder path
 - Display selected photos as thumbnails
 - Extract EXIF metadata (date/time) from JPEGs

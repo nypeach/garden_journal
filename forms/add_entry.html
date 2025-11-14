@@ -7,53 +7,79 @@
   <title>Daily Entry: Garden Journal</title>
   <link rel="stylesheet" href="/static/base.css">
   <link rel="stylesheet" href="/static/forms.css">
+  <style>
+    /* Fix input overflow issues */
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    select,
+    textarea {
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 16px;
+    }
+
+    .form-row .form-group {
+      flex: 1;
+      min-width: 0;
+      /* Allow flex items to shrink below content size */
+    }
+
+    /* Section headers */
+    .section-header {
+      margin-top: 20px;
+      margin-bottom: 0;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
+      background: #f0f9f4;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border-left: 3px solid var(--primary);
+    }
+  </style>
 </head>
 
 <body>
+
+  <header>
+    <h1>📓 Daily Entry</h1>
+    <p class="subtitle">Record your daily garden activities and observations</p>
+  </header>
+
   <main>
-    <h1><span>📔</span> Daily Entry</h1>
-    <p class="note">Record daily observations, weather, activities, and plant-by-plant notes</p>
-
-    <hr class="divider" />
-
     <form id="dailyEntryForm">
 
       <!-- BASIC INFORMATION -->
-      <h2><span>📅</span> Basic Information</h2>
+      <div class="form-section">
+        <h2>Basic Information</h2>
 
-      <div class="form-group">
-        <label for="entry_date">
-          Date <span class="required">*</span>
-        </label>
-        <input type="date" id="entry_date" name="entry_date" required />
-        <div class="help-text">Date of this journal entry</div>
-      </div>
+        <div class="form-group">
+          <label for="entry_date">Date *</label>
+          <input type="date" id="entry_date" name="entry_date" required />
+        </div>
 
-      <div class="form-group">
-        <label for="entry_time">
-          Time of Entry <span class="required">*</span>
-        </label>
-        <input type="time" id="entry_time" name="entry_time" required />
-        <div class="help-text">When you're filling out this form</div>
+        <div class="form-group">
+          <label for="entry_time">Time of Entry *</label>
+          <input type="time" id="entry_time" name="entry_time" required />
+        </div>
       </div>
 
       <hr class="divider" />
 
       <!-- SECTION 1: SUMMARY OF ACTIVITIES -->
-      <h2><span>📝</span> Summary of Activities</h2>
-
+      <h2><span>📋</span> Summary of Activities</h2>
       <div class="form-group">
-        <label for="activities">
-          What did you do today?
-        </label>
-        <textarea id="activities" name="activities" placeholder="Use markdown bullets:
-- Watered all plants
-- Pruned tomato
-   - Removed diseased leaves
-   - Cut back lower branches
-- Added mulch to raised bed" rows="8"></textarea>
-        <div class="help-text">Use <code>- </code> for bullets, <code>   - </code> (3 spaces + dash) for indented
-          bullets</div>
+        <label for="activities">Activities</label>
+        <textarea id="activities" name="activities"
+          placeholder="Use markdown bullets:&#10;- Watered all plants&#10;- Pruned tomato&#10;   - Removed diseased leaves&#10;   - Cut back lower branches"
+          rows="6"></textarea>
+        <small class="form-help">Use "- " for bullets, " - " (3 spaces + dash) for indented bullets</small>
       </div>
 
       <hr class="divider" />
@@ -61,69 +87,69 @@
       <!-- SECTION 2: WEATHER / SUN CONDITIONS -->
       <h2><span>☀️</span> Weather / Sun Conditions</h2>
 
-      <div class="form-group">
-        <label for="temp_high">Temperature High (°F)</label>
-        <input type="number" id="temp_high" name="temp_high" placeholder="78" />
-      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="temp_high">Temperature High (°F)</label>
+          <input type="number" id="temp_high" name="temp_high" placeholder="78" />
+        </div>
 
-      <div class="form-group">
-        <label for="temp_low">Temperature Low (°F)</label>
-        <input type="number" id="temp_low" name="temp_low" placeholder="68" />
+        <div class="form-group">
+          <label for="temp_low">Temperature Low (°F)</label>
+          <input type="number" id="temp_low" name="temp_low" placeholder="62" />
+        </div>
       </div>
 
       <div class="form-group">
         <label for="conditions">Current Conditions</label>
-        <input type="text" id="conditions" name="conditions" placeholder="Sunny, Partly cloudy, Overcast, etc." />
+        <input type="text" id="conditions" name="conditions" placeholder="Sunny, partly cloudy, overcast, etc." />
       </div>
 
-      <div class="form-group">
-        <label for="sunrise">Sunrise Time</label>
-        <input type="time" id="sunrise" name="sunrise" />
+      <div class="form-row">
+        <div class="form-group">
+          <label for="sunrise">Sunrise Time</label>
+          <input type="time" id="sunrise" name="sunrise" />
+        </div>
+
+        <div class="form-group">
+          <label for="sunset">Sunset Time</label>
+          <input type="time" id="sunset" name="sunset" />
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="sunset">Sunset Time</label>
-        <input type="time" id="sunset" name="sunset" />
-      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="humidity">Humidity</label>
+          <input type="text" id="humidity" name="humidity" placeholder="65%, high, low, etc." />
+        </div>
 
-      <div class="form-group">
-        <label for="humidity">Humidity</label>
-        <input type="text" id="humidity" name="humidity" placeholder="65%, High, Low, etc." />
-      </div>
-
-      <div class="form-group">
-        <label for="wind">Wind</label>
-        <input type="text" id="wind" name="wind" placeholder="Light breeze, Calm, 10-15 mph, etc." />
+        <div class="form-group">
+          <label for="wind">Wind</label>
+          <input type="text" id="wind" name="wind" placeholder="Light breeze, 10-15 mph, etc." />
+        </div>
       </div>
 
       <div class="form-group">
         <label for="weather_notes">Weather Notes</label>
-        <textarea id="weather_notes" name="weather_notes" placeholder="Additional weather observations..."
+        <textarea id="weather_notes" name="weather_notes" placeholder="Any additional weather observations..."
           rows="3"></textarea>
       </div>
 
       <hr class="divider" />
 
       <!-- SECTION 3: GENERAL OBSERVATIONS -->
-      <h2><span>📝</span> General Observations</h2>
-
+      <h2><span>👀</span> General Observations</h2>
       <div class="form-group">
-        <label for="observations">
-          Garden-wide observations
-        </label>
-        <textarea id="observations" name="observations" placeholder="Use markdown bullets:
-- All plants looking healthy after rain
-- Noticed more bees today
-- Some fungal issues on lower leaves" rows="6"></textarea>
-        <div class="help-text">Observations about the whole garden (not specific to one plant)</div>
+        <label for="observations">Garden-Wide Observations</label>
+        <textarea id="observations" name="observations"
+          placeholder="Use markdown bullets:&#10;- Garden looking healthy overall&#10;- Some pest activity noticed&#10;- Soil drying out faster than usual"
+          rows="6"></textarea>
+        <small class="form-help">Use "- " for bullets, " - " for indented bullets</small>
       </div>
 
       <hr class="divider" />
 
-      <!-- SECTION 4: QUESTIONS & ANSWERS (GENERAL) -->
-      <h2><span>❓</span> Questions & Answers</h2>
-      <p class="note">General garden questions and research (not plant-specific)</p>
-
+      <!-- SECTION 4: QUESTIONS & ANSWERS -->
+      <h2><span>❓</span> Questions & Answers (General)</h2>
       <div id="qaContainer">
         <!-- Q&A pairs will be added here -->
       </div>
@@ -135,9 +161,7 @@
       <hr class="divider" />
 
       <!-- SECTION 5: UPCOMING ACTIONS -->
-      <h2><span>📋</span> Upcoming Actions</h2>
-      <p class="note">Planned future tasks</p>
-
+      <h2><span>📅</span> Upcoming Actions</h2>
       <div id="actionsContainer">
         <!-- Actions will be added here -->
       </div>
@@ -148,9 +172,17 @@
 
       <hr class="divider" />
 
-      <!-- SECTION 6: PLANT BY PLANT - PLACEHOLDER FOR PHASE 2 -->
+      <!-- SECTION 6: PLANT BY PLANT -->
       <h2 class="major-section"><span>🪴</span> Plant by Plant</h2>
-      <p class="note">Phase 2: Plant observations will be added here</p>
+      <div id="plantObservationsContainer">
+        <!-- Plant observations will be added here -->
+      </div>
+
+      <button type="button" onclick="addPlantObservation()" class="btn btn-secondary" style="margin-top: 12px;">
+        + Add Plant Observation
+      </button>
+
+      <hr class="divider" />
 
       <div class="form-buttons">
         <button type="submit" class="btn btn-primary">
@@ -185,15 +217,11 @@
   </div>
 
   <script>
-    // Set today's date and current time as defaults (using local timezone)
+    // Set today's date and current time as defaults
     const now = new Date();
-    now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
     document.getElementById('entry_date').valueAsDate = new Date();
-
-    // Get current local time
-    const localNow = new Date();
-    const hours = localNow.getHours().toString().padStart(2, '0');
-    const minutes = localNow.getMinutes().toString().padStart(2, '0');
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
     document.getElementById('entry_time').value = `${hours}:${minutes}`;
 
     // Q&A Management
@@ -264,7 +292,291 @@
       document.getElementById(`action-${id}`).remove();
     }
 
-    // Form submission (Phase 1 - just console log for now)
+    // Plant Observations Management
+    let plantObsCount = 0;
+    let allPlants = []; // Will store plant data
+
+    // Fetch all plants on page load
+    async function loadPlants() {
+      try {
+        const response = await fetch('/api/plants');
+        const data = await response.json();
+        allPlants = data.plants || [];
+      } catch (error) {
+        console.error('Error loading plants:', error);
+      }
+    }
+
+    // Load plants when page loads
+    loadPlants();
+
+    async function addPlantObservation() {
+      plantObsCount++;
+      const container = document.getElementById('plantObservationsContainer');
+      const obsDiv = document.createElement('div');
+      obsDiv.className = 'plant-observation';
+      obsDiv.id = `plant-obs-${plantObsCount}`;
+
+      // Build plant options
+      const plantOptions = allPlants.map(p =>
+        `<option value="${p.plant_id}" data-status="${p.status}">${p.common_name} (${p.plant_id})</option>`
+      ).join('');
+
+      obsDiv.innerHTML = `
+        <div style="border: 2px solid var(--primary); border-radius: 8px; padding: 20px; margin: 16px 0; background: #f9fafb;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <strong style="font-size: 18px; color: var(--primary);">Plant Observation #${plantObsCount}</strong>
+            <button type="button" onclick="removePlantObservation(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
+          </div>
+
+          <!-- Plant Selection & Time -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="plant_select_${plantObsCount}">Select Plant *</label>
+              <select id="plant_select_${plantObsCount}" name="plant_select_${plantObsCount}" required onchange="loadPlantData(${plantObsCount})">
+                <option value="">-- Select a plant --</option>
+                ${plantOptions}
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="plant_time_${plantObsCount}">Time of Observation *</label>
+              <input type="time" id="plant_time_${plantObsCount}" name="plant_time_${plantObsCount}" required />
+            </div>
+          </div>
+
+          <!-- Plant Summary -->
+          <div class="form-group">
+            <label for="plant_summary_${plantObsCount}">Plant Summary (editable)</label>
+            <textarea id="plant_summary_${plantObsCount}" name="plant_summary_${plantObsCount}" placeholder="Current plant summary will load here..." rows="3"></textarea>
+            <small class="form-help">Edit to update, keep as-is, or append new observations</small>
+          </div>
+
+          <!-- Plant Status -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="plant_status_${plantObsCount}">Plant Status</label>
+              <select id="plant_status_${plantObsCount}" name="plant_status_${plantObsCount}" onchange="toggleStatusReason(${plantObsCount})">
+                <option value="active">Active</option>
+                <option value="died">Died</option>
+                <option value="harvested">Harvested</option>
+                <option value="removed">Removed</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Status Change Reason (initially hidden) -->
+          <div class="form-group" id="status_reason_group_${plantObsCount}" style="display: none;">
+            <label for="status_reason_${plantObsCount}">Reason for Status Change *</label>
+            <input type="text" id="status_reason_${plantObsCount}" name="status_reason_${plantObsCount}" placeholder="e.g., Water rot, completed harvest, moved to another location" />
+          </div>
+
+          <!-- Container Info -->
+          <h3 class="section-header">Container & Location</h3>
+
+          <div class="form-row" style="margin-top: 12px;">
+            <div class="form-group">
+              <label for="container_name_${plantObsCount}">Container Name</label>
+              <input type="text" id="container_name_${plantObsCount}" name="container_name_${plantObsCount}" placeholder="Auto-filled from plant data" />
+            </div>
+
+            <div class="form-group">
+              <label for="container_type_${plantObsCount}">Container Type</label>
+              <input type="text" id="container_type_${plantObsCount}" name="container_type_${plantObsCount}" placeholder="Auto-filled from plant data" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="container_size_${plantObsCount}">Container Size (optional)</label>
+              <input type="text" id="container_size_${plantObsCount}" name="container_size_${plantObsCount}" placeholder="Manual entry only (size info in type field)" />
+            </div>
+
+            <div class="form-group">
+              <label for="stake_${plantObsCount}">Stake Number</label>
+              <input type="number" id="stake_${plantObsCount}" name="stake_${plantObsCount}" placeholder="Optional" />
+            </div>
+
+            <div class="form-group">
+              <label for="position_${plantObsCount}">Position</label>
+              <input type="text" id="position_${plantObsCount}" name="position_${plantObsCount}" placeholder="e.g., left section, edges" />
+            </div>
+          </div>
+
+          <!-- Soil Conditions -->
+          <h3 class="section-header">Soil Conditions</h3>
+
+          <div class="form-row" style="margin-top: 12px;">
+            <div class="form-group">
+              <label for="soil_moisture_${plantObsCount}">Soil Moisture</label>
+              <input type="text" id="soil_moisture_${plantObsCount}" name="soil_moisture_${plantObsCount}" placeholder="e.g., bone dry, lightly moist, dry 1 inch down" />
+            </div>
+
+            <div class="form-group">
+              <label for="soil_ph_${plantObsCount}">Soil pH</label>
+              <input type="text" id="soil_ph_${plantObsCount}" name="soil_ph_${plantObsCount}" placeholder="e.g., 6.5, neutral, slightly acidic" />
+            </div>
+
+            <div class="form-group">
+              <label for="soil_fertility_${plantObsCount}">Soil Fertility</label>
+              <input type="text" id="soil_fertility_${plantObsCount}" name="soil_fertility_${plantObsCount}" placeholder="e.g., high, medium, low, dark green" />
+            </div>
+          </div>
+
+          <!-- Growth Stages -->
+          <h3 class="section-header">Growth</h3>
+
+          <div class="form-row" style="margin-top: 12px;">
+            <div class="form-group">
+              <label for="current_stage_${plantObsCount}">Current Stage</label>
+              <input type="text" id="current_stage_${plantObsCount}" name="current_stage_${plantObsCount}" placeholder="e.g., Seedling, Vegetative, Flowering, Fruiting" />
+            </div>
+
+            <div class="form-group">
+              <label for="next_stage_${plantObsCount}">Next Stage</label>
+              <input type="text" id="next_stage_${plantObsCount}" name="next_stage_${plantObsCount}" placeholder="e.g., Flowering, Fruiting, Harvest" />
+            </div>
+          </div>
+
+          <!-- Observations, Actions, Notes -->
+          <div class="form-group">
+            <label for="plant_observations_${plantObsCount}">Observations</label>
+            <textarea id="plant_observations_${plantObsCount}" name="plant_observations_${plantObsCount}" placeholder="What did you observe about this plant?" rows="4"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="plant_actions_${plantObsCount}">Actions Taken</label>
+            <textarea id="plant_actions_${plantObsCount}" name="plant_actions_${plantObsCount}" placeholder="Use markdown bullets:&#10;- Watered 8 oz&#10;- Applied Captain Jack's Neem Oil&#10;- Pruned diseased leaves" rows="4"></textarea>
+            <small class="form-help">Use "- " for bullets, include amounts and products</small>
+          </div>
+
+          <div class="form-group">
+            <label for="plant_notes_${plantObsCount}">Notes</label>
+            <textarea id="plant_notes_${plantObsCount}" name="plant_notes_${plantObsCount}" placeholder="Any additional notes..." rows="3"></textarea>
+          </div>
+
+          <!-- Plant-Specific Q&A -->
+          <h3 class="section-header">Plant-Specific Q&A</h3>
+          <div id="plant_qa_container_${plantObsCount}" style="margin-top: 12px;">
+            <!-- Plant Q&A pairs will be added here -->
+          </div>
+          <button type="button" onclick="addPlantQA(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px; margin-top: 8px;">
+            + Add Plant Q&A
+          </button>
+
+        </div>
+      `;
+
+      container.appendChild(obsDiv);
+
+      // Set current time as default
+      const timeInput = document.getElementById(`plant_time_${plantObsCount}`);
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      timeInput.value = `${hours}:${minutes}`;
+    }
+
+    function removePlantObservation(id) {
+      document.getElementById(`plant-obs-${id}`).remove();
+    }
+
+    // Load plant data when plant is selected
+    async function loadPlantData(obsId) {
+      const selectEl = document.getElementById(`plant_select_${obsId}`);
+      const plantId = selectEl.value;
+
+      if (!plantId) return;
+
+      try {
+        const response = await fetch(`/api/plant/${plantId}`);
+        const data = await response.json();
+
+        if (data.plant) {
+          const plant = data.plant;
+          const currentLoc = plant.current_location || {};
+
+          // Load plant summary
+          document.getElementById(`plant_summary_${obsId}`).value = plant.summary || '';
+
+          // Set status dropdown to current status
+          const statusSelect = document.getElementById(`plant_status_${obsId}`);
+          statusSelect.value = plant.status || 'active';
+
+          // Store original status for comparison
+          statusSelect.dataset.originalStatus = plant.status || 'active';
+
+          // Load container info from current_location
+          document.getElementById(`container_name_${obsId}`).value = currentLoc.container_name || '';
+          document.getElementById(`container_type_${obsId}`).value = currentLoc.container_type || '';
+          document.getElementById(`container_size_${obsId}`).value = ''; // No separate size field, embedded in type
+          document.getElementById(`stake_${obsId}`).value = currentLoc.stake || '';
+          document.getElementById(`position_${obsId}`).value = currentLoc.position || '';
+
+          // Check if status changed from active
+          toggleStatusReason(obsId);
+        }
+      } catch (error) {
+        console.error('Error loading plant data:', error);
+      }
+    }
+
+    // Toggle status reason field visibility
+    function toggleStatusReason(obsId) {
+      const statusSelect = document.getElementById(`plant_status_${obsId}`);
+      const reasonGroup = document.getElementById(`status_reason_group_${obsId}`);
+      const reasonInput = document.getElementById(`status_reason_${obsId}`);
+
+      const originalStatus = statusSelect.dataset.originalStatus || 'active';
+      const newStatus = statusSelect.value;
+
+      // Show reason field if changing FROM active TO something else
+      if (originalStatus === 'active' && newStatus !== 'active') {
+        reasonGroup.style.display = 'block';
+        reasonInput.required = true;
+      } else {
+        reasonGroup.style.display = 'none';
+        reasonInput.required = false;
+      }
+    }
+
+    // Plant-specific Q&A management
+    const plantQACounts = {};
+
+    function addPlantQA(plantObsId) {
+      if (!plantQACounts[plantObsId]) {
+        plantQACounts[plantObsId] = 0;
+      }
+      plantQACounts[plantObsId]++;
+
+      const qaId = plantQACounts[plantObsId];
+      const container = document.getElementById(`plant_qa_container_${plantObsId}`);
+      const qaDiv = document.createElement('div');
+      qaDiv.id = `plant_qa_${plantObsId}_${qaId}`;
+      qaDiv.innerHTML = `
+        <div style="border: 1px solid var(--rule); border-radius: 6px; padding: 12px; margin: 8px 0; background: white;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <strong style="font-size: 14px;">Q&A #${qaId}</strong>
+            <button type="button" onclick="removePlantQA(${plantObsId}, ${qaId})" class="btn btn-secondary" style="padding: 4px 8px; font-size: 12px;">Remove</button>
+          </div>
+          <div class="form-group">
+            <label for="plant_question_${plantObsId}_${qaId}">Question</label>
+            <input type="text" id="plant_question_${plantObsId}_${qaId}" name="plant_question_${plantObsId}_${qaId}" placeholder="Why are the leaves yellowing?" />
+          </div>
+          <div class="form-group">
+            <label for="plant_answer_${plantObsId}_${qaId}">Answer</label>
+            <textarea id="plant_answer_${plantObsId}_${qaId}" name="plant_answer_${plantObsId}_${qaId}" placeholder="Possible nitrogen deficiency..." rows="2"></textarea>
+          </div>
+        </div>
+      `;
+      container.appendChild(qaDiv);
+    }
+
+    function removePlantQA(plantObsId, qaId) {
+      document.getElementById(`plant_qa_${plantObsId}_${qaId}`).remove();
+    }
+
+    // Form submission (Phase 2 - now including plant observations)
     document.getElementById('dailyEntryForm').addEventListener('submit', async (e) => {
       e.preventDefault();
 
@@ -277,19 +589,22 @@
           temp_high: document.getElementById('temp_high').value || null,
           temp_low: document.getElementById('temp_low').value || null,
           conditions: document.getElementById('conditions').value || null,
-          sunrise: document.getElementById('sunrise').value ? document.getElementById('sunrise').value.replace(/:/g, '') : null,
-          sunset: document.getElementById('sunset').value ? document.getElementById('sunset').value.replace(/:/g, '') : null,
+          sunrise: document.getElementById('sunrise').value ?
+            document.getElementById('sunrise').value.replace(/:/g, '') : null,
+          sunset: document.getElementById('sunset').value ?
+            document.getElementById('sunset').value.replace(/:/g, '') : null,
           humidity: document.getElementById('humidity').value || null,
           wind: document.getElementById('wind').value || null,
           notes: document.getElementById('weather_notes').value || null
         },
         observations: document.getElementById('observations').value,
         qa: collectQA(),
-        upcoming_actions: collectActions()
+        upcoming_actions: collectActions(),
+        plant_observations: collectPlantObservations()
       };
 
-      console.log('Form data (Phase 1):', formData);
-      alert('Phase 1 form data logged to console! Check browser DevTools → Console tab to see the data structure.');
+      console.log('Form data (Phase 2 with plant observations):', formData);
+      alert('Phase 2 form data logged to console! Check browser DevTools → Console tab to see the complete data structure including plant observations.');
     });
 
     function collectQA() {
@@ -322,6 +637,71 @@
         }
       }
       return actions;
+    }
+
+    function collectPlantObservations() {
+      const observations = [];
+
+      for (let i = 1; i <= plantObsCount; i++) {
+        const plantSelectEl = document.getElementById(`plant_select_${i}`);
+        if (!plantSelectEl || !plantSelectEl.value) continue;
+
+        const statusSelect = document.getElementById(`plant_status_${i}`);
+        const originalStatus = statusSelect.dataset.originalStatus || 'active';
+        const newStatus = statusSelect.value;
+
+        const obs = {
+          plant_id: plantSelectEl.value,
+          time: document.getElementById(`plant_time_${i}`).value.replace(/:/g, ''),
+          summary: document.getElementById(`plant_summary_${i}`).value,
+          status: newStatus,
+          status_changed: originalStatus !== newStatus,
+          status_reason: (originalStatus === 'active' && newStatus !== 'active') ?
+            document.getElementById(`status_reason_${i}`).value : null,
+          container: {
+            name: document.getElementById(`container_name_${i}`).value || null,
+            type: document.getElementById(`container_type_${i}`).value || null,
+            size: document.getElementById(`container_size_${i}`).value || null
+          },
+          stake: document.getElementById(`stake_${i}`).value || null,
+          position: document.getElementById(`position_${i}`).value || null,
+          soil: {
+            moisture: document.getElementById(`soil_moisture_${i}`).value || null,
+            ph: document.getElementById(`soil_ph_${i}`).value || null,
+            fertility: document.getElementById(`soil_fertility_${i}`).value || null
+          },
+          growth: {
+            current_stage: document.getElementById(`current_stage_${i}`).value || null,
+            next_stage: document.getElementById(`next_stage_${i}`).value || null
+          },
+          observations: document.getElementById(`plant_observations_${i}`).value,
+          actions: document.getElementById(`plant_actions_${i}`).value,
+          notes: document.getElementById(`plant_notes_${i}`).value,
+          qa: collectPlantQA(i)
+        };
+
+        observations.push(obs);
+      }
+
+      return observations;
+    }
+
+    function collectPlantQA(plantObsId) {
+      const qaPairs = [];
+      const count = plantQACounts[plantObsId] || 0;
+
+      for (let i = 1; i <= count; i++) {
+        const questionEl = document.getElementById(`plant_question_${plantObsId}_${i}`);
+        const answerEl = document.getElementById(`plant_answer_${plantObsId}_${i}`);
+        if (questionEl && answerEl && questionEl.value) {
+          qaPairs.push({
+            question: questionEl.value,
+            answer: answerEl.value
+          });
+        }
+      }
+
+      return qaPairs;
     }
 
     function closeModal() {

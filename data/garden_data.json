@@ -1,6 +1,6 @@
 {
-  "_schema_version": "13",
-  "_last_updated": "2025-11-11",
+  "_schema_version": "13.1",
+  "_last_updated": "2025-11-14",
   "metadata": {
     "garden_name": "Jodi's Garden Journal",
     "start_date": "20251008",
@@ -15,6 +15,7 @@
       "purchase_date": "20251008",
       "source": "Lowe's",
       "status": "active",
+      "summary": "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F.",
       "location_history": [
         {
           "date": "20251008",
@@ -45,23 +46,15 @@
           "position": null,
           "soil_mix": "Original nursery potting mix",
           "reason": "Moved to first morning sun position"
-        },
-        {
-          "date": "20251113",
-          "location": "Kitchen",
-          "container_type": "pot",
-          "container_name": "Basil Pot - Left",
-          "stake_number": null,
-          "position": null,
-          "reason": "Cold Protection"
         }
       ],
       "current_location": {
-        "location": "Kitchen",
-        "container_type": "pot",
+        "location": "Panel 1",
         "container_name": "Basil Pot - Left",
-        "stake_number": null,
-        "position": null
+        "container_type": "8\" white round pot, 0.94 gal",
+        "stake": null,
+        "position": null,
+        "soil_mix": "Original nursery potting mix"
       },
       "temporary_locations": [
         {
@@ -100,6 +93,7 @@
       "purchase_date": "20251008",
       "source": "Lowe's",
       "status": "active",
+      "summary": "Flowering strongly; some fungal leaf spot treated Nov 11. Monitor for runners late Nov-Dec.",
       "location_history": [
         {
           "date": "20251008",
@@ -120,23 +114,15 @@
           "position": null,
           "soil_mix": "Original potting soil + topsoil/sand fill",
           "reason": "Transplanted to larger container"
-        },
-        {
-          "date": "20251113",
-          "location": "Panel 5",
-          "container_type": "Large Pot",
-          "container_name": "Strawberry - Left",
-          "stake_number": null,
-          "position": null,
-          "reason": "Growing"
         }
       ],
       "current_location": {
-        "location": "Panel 5",
-        "container_type": "Large Pot",
-        "container_name": "Strawberry - Left",
-        "stake_number": null,
-        "position": null
+        "location": "Panel 4",
+        "container_name": "Strawberry Pot - Right",
+        "container_type": "2.32 qt black pot",
+        "stake": null,
+        "position": null,
+        "soil_mix": "Original potting soil + topsoil/sand fill"
       },
       "temporary_locations": [
         {
@@ -188,6 +174,7 @@
       "purchase_date": "20251008",
       "source": "Lowe's",
       "status": "active",
+      "summary": "First fruits forming! Pruned lower diseased branches Nov 11. Staked Oct 29; protect at ≤49°F with frost cloth.",
       "location_history": [
         {
           "date": "20251008",
@@ -296,6 +283,7 @@
       "purchase_date": "20251101",
       "source": "Garden Center",
       "status": "active",
+      "summary": "Planted Nov 9 in left section of shared planter. Hardneck variety for cold climates.",
       "location_history": [
         {
           "date": "20251109",
@@ -336,6 +324,7 @@
       "purchase_date": "20251101",
       "source": "Garden Center",
       "status": "active",
+      "summary": "Vertical stake support added Nov 10; unplanted as of Nov 11.",
       "location_history": [
         {
           "date": "20251109",
@@ -356,123 +345,6 @@
         "position": null,
         "soil_mix": "Potting mix"
       }
-    },
-    {
-      "plant_id": "test_basil_999",
-      "plant_type": "basil",
-      "common_name": "Test Basil",
-      "variety": "Sweet Basil Test",
-      "purchase_date": "20251113",
-      "status": "active",
-      "current_location": {
-        "location": "Panel 10",
-        "container_type": "pot",
-        "container_name": "Test Pot",
-        "stake_number": null,
-        "position": null
-      },
-      "location_history": [
-        {
-          "date": "20251113",
-          "location": "Panel 5",
-          "container_type": "pot",
-          "container_name": "Test Pot",
-          "stake_number": null,
-          "position": null,
-          "reason": "Initial placement"
-        },
-        {
-          "date": "20251113",
-          "location": "Panel 10",
-          "container_type": "pot",
-          "container_name": "Test Pot",
-          "stake_number": null,
-          "position": null,
-          "reason": "Testing move functionality"
-        }
-      ],
-      "summary": "Updated test summary with new observations. Plant is thriving!"
-    },
-    {
-      "plant_id": "test_003",
-      "plant_type": "basil",
-      "common_name": "Test",
-      "variety": null,
-      "purchase_date": "20251332",
-      "status": "active",
-      "current_location": {
-        "location": "Panel 1",
-        "container_type": "pot",
-        "container_name": "Test",
-        "stake_number": null,
-        "position": null
-      },
-      "location_history": [
-        {
-          "date": "20251332",
-          "location": "Panel 1",
-          "container_type": "pot",
-          "container_name": "Test",
-          "stake_number": null,
-          "position": null,
-          "reason": "Initial placement"
-        }
-      ],
-      "summary": ""
-    },
-    {
-      "plant_id": "tomato_002",
-      "plant_type": "tomato",
-      "common_name": "Roma Tomato 01",
-      "variety": "Roma Tomato",
-      "purchase_date": "20251113",
-      "status": "active",
-      "current_location": {
-        "location": "Panel 16-18",
-        "container_type": "Raised Bed",
-        "container_name": "Raised Bed",
-        "stake_number": 5,
-        "position": null
-      },
-      "location_history": [
-        {
-          "date": "20251113",
-          "location": "Panel 16-18",
-          "container_type": "Raised Bed",
-          "container_name": "Raised Bed",
-          "stake_number": 5,
-          "position": null,
-          "reason": "Initial placement"
-        }
-      ],
-      "summary": null
-    },
-    {
-      "plant_id": "your_mom_001",
-      "plant_type": "your_mom",
-      "common_name": "Your Mom",
-      "variety": null,
-      "purchase_date": "20251113",
-      "status": "active",
-      "current_location": {
-        "location": "Your Mom",
-        "container_type": "Your Mom",
-        "container_name": "Your Mom",
-        "stake_number": null,
-        "position": null
-      },
-      "location_history": [
-        {
-          "date": "20251113",
-          "location": "Your Mom",
-          "container_type": "Your Mom",
-          "container_name": "Your Mom",
-          "stake_number": null,
-          "position": null,
-          "reason": "Initial placement"
-        }
-      ],
-      "summary": null
     }
   ],
   "locations": {
@@ -484,6 +356,10 @@
       "type": "fence_panel",
       "sun_exposure": "Full sun 7am-3:50pm",
       "notes": "First morning sun"
+    },
+    "Panel 4": {
+      "type": "fence_panel",
+      "sun_exposure": "Full sun 7am-3:50pm"
     },
     "Panel 7": {
       "type": "fence_panel",
@@ -505,61 +381,6 @@
     }
   },
   "daily_entries": [
-    {
-      "date": "20251113",
-      "summary_of_activities": [
-        "Tested data_manager.py functions",
-        "Added test plant",
-        "Moved test plant"
-      ],
-      "weather": {
-        "temp_high": 78,
-        "temp_low": 68,
-        "conditions": "Sunny and clear",
-        "sunrise": "0645",
-        "sunset": "1745"
-      },
-      "general_observations": "Testing day - all systems working well.",
-      "general_qa": [
-        {
-          "question": "How is the data_manager performing?",
-          "answer": "Excellent! All functions working as expected."
-        }
-      ],
-      "upcoming_actions": [
-        "Build interactive scripts",
-        "Start fresh data entry"
-      ],
-      "plant_observations": [
-        {
-          "plant_id": "test_basil_999",
-          "time": "1430",
-          "observation": "Test observation: Plant looking healthy after move.",
-          "photos": [
-            {
-              "filename": "test_basil_999_20251113_1430_1.jpg",
-              "tag": "after_move",
-              "caption": "Test photo after moving to Panel 10"
-            }
-          ],
-          "soil_moisture": "lightly moist",
-          "care_actions": [
-            {
-              "action_type": "watering",
-              "amount": "1 cup",
-              "notes": "Light watering after move"
-            }
-          ],
-          "plant_qa": [
-            {
-              "question": "How did the plant handle the move?",
-              "answer": "Very well! No signs of stress."
-            }
-          ],
-          "temporary_location": null
-        }
-      ]
-    },
     {
       "date": "20251111",
       "time_of_entry": "1400",
