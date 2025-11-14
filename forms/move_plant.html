@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🔄 Move Plant - Garden Journal</title>
+  <title>🔄 Move Plant: Garden Journal</title>
   <link rel="stylesheet" href="/static/base.css">
   <link rel="stylesheet" href="/static/forms.css">
 </head>
@@ -40,6 +40,40 @@
         <input type="text" id="new_location" name="new_location" placeholder="Panel 5, Indoors, Garage, etc."
           required />
         <div class="help-text">Where is the plant moving to?</div>
+      </div>
+
+      <div class="form-group">
+        <label for="container_type">
+          Container Type <span class="required">*</span>
+        </label>
+        <input type="text" id="container_type" name="container_type" placeholder="pot, window_planter, raised_bed, etc."
+          required />
+        <div class="help-text">Type of container at new location</div>
+      </div>
+
+      <div class="form-group">
+        <label for="container_name">
+          Container Name <span class="required">*</span>
+        </label>
+        <input type="text" id="container_name" name="container_name" placeholder="Basil Pot - Left, Pepper Box, etc."
+          required />
+        <div class="help-text">Name of container at new location</div>
+      </div>
+
+      <div class="form-group">
+        <label for="stake_number">
+          Stake Number (optional)
+        </label>
+        <input type="number" id="stake_number" name="stake_number" placeholder="1, 2, 3, 4..." />
+        <div class="help-text">If moving to a staked container</div>
+      </div>
+
+      <div class="form-group">
+        <label for="position">
+          Position (optional)
+        </label>
+        <input type="text" id="position" name="position" placeholder="left section, edges, center, etc." />
+        <div class="help-text">Position in shared container</div>
       </div>
 
       <div class="form-group">
@@ -99,16 +133,25 @@
   </div>
 
   <script>
-    // Set today's date as default
-    document.getElementById('move_date').valueAsDate = new Date();
+    // Set today's date as default (using user's local timezone)
+    const today = new Date();
+    today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+    document.getElementById('move_date').valueAsDate = today;
 
     // Handle form submission
     document.getElementById('movePlantForm').addEventListener('submit', async (e) => {
       e.preventDefault();
 
+      const stake_number = document.getElementById('stake_number').value;
+      const position = document.getElementById('position').value;
+
       const formData = {
         plant_id: document.getElementById('plant_id').value,
         new_location: document.getElementById('new_location').value,
+        container_type: document.getElementById('container_type').value,
+        container_name: document.getElementById('container_name').value,
+        stake_number: stake_number ? parseInt(stake_number) : null,
+        position: position || null,
         reason: document.getElementById('reason').value,
         move_date: document.getElementById('move_date').value.replace(/-/g, '') // Convert to YYYYMMDD
       };

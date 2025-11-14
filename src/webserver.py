@@ -143,22 +143,24 @@ def api_move_plant():
         plant = get_plant_by_id(data['plant_id'])
         old_location = plant.get('current_location', {}).get('location', 'Unknown') if plant else 'Unknown'
 
-        # Call data_manager to move plant
-        success = move_plant(
+        # Call data_manager to move plant (returns None on success, raises on error)
+        move_plant(
             plant_id=data['plant_id'],
+            date=data['move_date'],
             new_location=data['new_location'],
-            move_date=data['move_date'],
-            reason=data['reason']
+            container_type=data['container_type'],
+            container_name=data['container_name'],
+            reason=data['reason'],
+            stake_number=data.get('stake_number'),
+            position=data.get('position')
         )
 
-        if success:
-            return jsonify({
-                'success': True,
-                'old_location': old_location,
-                'message': 'Plant moved successfully'
-            })
-        else:
-            return jsonify({'success': False, 'error': 'Failed to move plant'}), 500
+        # If no exception was raised, it succeeded
+        return jsonify({
+            'success': True,
+            'old_location': old_location,
+            'message': 'Plant moved successfully'
+        })
 
     except Exception as e:
         print(f"Error moving plant: {e}")

@@ -45,15 +45,23 @@
           "position": null,
           "soil_mix": "Original nursery potting mix",
           "reason": "Moved to first morning sun position"
+        },
+        {
+          "date": "20251113",
+          "location": "Kitchen",
+          "container_type": "pot",
+          "container_name": "Basil Pot - Left",
+          "stake_number": null,
+          "position": null,
+          "reason": "Cold Protection"
         }
       ],
       "current_location": {
-        "location": "Panel 1",
+        "location": "Kitchen",
+        "container_type": "pot",
         "container_name": "Basil Pot - Left",
-        "container_type": "8\" white round pot, 0.94 gal",
-        "stake": null,
-        "position": null,
-        "soil_mix": "Original nursery potting mix"
+        "stake_number": null,
+        "position": null
       },
       "temporary_locations": [
         {
@@ -112,15 +120,23 @@
           "position": null,
           "soil_mix": "Original potting soil + topsoil/sand fill",
           "reason": "Transplanted to larger container"
+        },
+        {
+          "date": "20251113",
+          "location": "Panel 5",
+          "container_type": "Large Pot",
+          "container_name": "Strawberry - Left",
+          "stake_number": null,
+          "position": null,
+          "reason": "Growing"
         }
       ],
       "current_location": {
-        "location": "Panel 4",
-        "container_name": "Strawberry Pot - Right",
-        "container_type": "2.32 qt black pot",
-        "stake": null,
-        "position": null,
-        "soil_mix": "Original potting soil + topsoil/sand fill"
+        "location": "Panel 5",
+        "container_type": "Large Pot",
+        "container_name": "Strawberry - Left",
+        "stake_number": null,
+        "position": null
       },
       "temporary_locations": [
         {

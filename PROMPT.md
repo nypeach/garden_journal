@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 13, 2025 @ 11:30 AM EST
+**Last Updated:** November 13, 2025 @ 8:15 PM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -721,7 +721,15 @@ Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
   Always provide commit messages in this exact format, ready to copy/paste into terminal.
 - **IMPORTANT:** Only make changes that are explicitly requested - do not modify code, templates, or documentation beyond what is asked
 - **IMPORTANT:** If you ask the user a question, WAIT for their answer before generating any code, artifacts, or making changes. Do not assume an answer.
+- **CRITICAL WORKFLOW:** When building features, work incrementally and WAIT for user verification at each step:
+  1. Build one component at a time
+  2. Let user test and verify it works correctly
+  3. WAIT for user confirmation before moving to next component
+  4. If user finds issues, fix them before proceeding
+  5. Do NOT move ahead to next feature until current one is confirmed working
+  6. User will explicitly say "let's move on" or "next" when ready
+- **Title Formatting:** In HTML templates, both `<title>` tags and `<h1>` headings should use colons (`:`) not em-dashes, like "Section 2: Plant-by-Plant Summary"
 
 ---
 
-**Continue from here. Next priority: Build Flask backend and HTML forms based on requirements in docs/webform.md.**
+**Continue from here. Next priority: Build Add Plant form (forms/add_plant.html).**
