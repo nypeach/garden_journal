@@ -1,7 +1,13 @@
-/* Garden Journal Base Styles - Version 13 */
+/* Garden Journal Base Styles - Version 13.1 */
+
+/* Print Settings */
+@page {
+  size: 8.5in 11in;
+  margin: 0.25in;
+}
 
 :root {
-  --green: #216e3a;
+  --green: #22642f;
   --muted: #5f6b6b;
   --rule: #e6e8eb;
   --bg: #fff;
@@ -21,7 +27,7 @@ body {
 
 /* Container */
 main {
-  max-width: 880px;
+  max-width: 7.75in;
   margin: 32px auto 60px;
   padding: 0 20px;
 }
@@ -33,13 +39,13 @@ h1 {
   display: flex;
   gap: 10px;
   align-items: center;
-  color: var(--text);
+  color: var(--green);
 }
 
 h2 {
   font-size: 18px;
   margin: 26px 0 8px;
-  color: var(--text);
+  color: var(--green);
   display: flex;
   gap: 8px;
   align-items: center;
@@ -76,12 +82,18 @@ p.note {
 p.lead {
   margin: 8px 0 12px;
   line-height: 1.6;
+  font-size: 12pt;
 }
 
 p.empty-state {
   color: var(--muted);
   font-style: italic;
   margin: 8px 0 12px;
+}
+
+.muted {
+  color: var(--muted);
+  font-style: italic;
 }
 
 /* Lists */
@@ -219,4 +231,32 @@ hr {
   margin-top: 4px;
 }
 
-/* Print Styles - REMOVED for use with Print Friendly & PDF plugin */
+/* Table Styles (for Layout page) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95em;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  padding: 6px 8px;
+}
+
+th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+/* Emoji in headers */
+.emoji {
+  font-size: 1.1em;
+}

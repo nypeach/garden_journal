@@ -384,21 +384,32 @@ Example format:
 
 ## 🔄 Continue from here
 
-**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Template syntax error discovered blocking Plant Summary display.  We began Testing the Daily Entry form end-to-end and encountered some issues.
+**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html (removed stray `{% endif %}` tag). Unified all templates to use consistent base.css with:
+- Unified green color (#22642f)
+- Main container: 960px width for better form layout
+- Removed @page rules (Print Friendly plugin handles printing)
+- Removed `.muted` class (using `p.note` everywhere)
+- Added table styles for layout page
+- All templates ready to use `../forms/static/base.css`
 
-**Next step:**
+**Next steps:**
 
 * Resolve Issues
   * ✅ ~~Issue 1: Tile buttons regenerate pages~~ - COMPLETE
   * ✅ ~~Issue 2: Container_size saving~~ - COMPLETE
   * ✅ ~~Issue 3: Container display format~~ - COMPLETE
-  * 🚨 Issue 4: Template Syntax Error (BLOCKER) ⬅️ Fix first
-    * Stray `{% endif %}` on line 36 of `plant_summary_template.html`
-* 🆕 Create fixed header on static pages
+  * ✅ ~~Issue 4: Template Syntax Error~~ - COMPLETE
+* ⬅️ Create fixed header on static pages - Working on this now
   * Header fixed at top (scrollable content below)
-  * Contains "🌿 Back to Home" link
+  * Contains "🌿 Back to Home" link (all pages except front_page)
   * When clicked: closes current tab and returns to Garden Journal tab
+  * Uses `p.note` class on all pages
+  * Has divider on all pages
+  * Update all templates to use `../forms/static/base.css`
+* 🆕 Update Form Headers
+  * Header fixed at top (scrollable content below)
+  * Uses `p.note` class on all pages
+  * Has divider on all pages
 * Continue testing Daily Entry workflow
-
 
 **After that:** Import Historical data
