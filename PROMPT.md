@@ -355,15 +355,18 @@ garden-journal/
    - Update the list after each task completion
    - This helps maintain context and prevents losing track of progress
 
-   Example format:
+Example format:
 ```
-   Task List:
-   ✅ ~~Issue 1: Description~~ - COMPLETE
-   ✅ ~~Issue 2: Description~~ - COMPLETE
-   ⬅️ Issue 3: Description - Working on this now
-   🆕 Issue 4: Description
-   * Sub-detail 1
-   * Sub-detail 2
+     Task List:
+     * Resolve Issues
+       * ✅ Issue 1: Description - COMPLETE
+       * ✅ Issue 2: Description - COMPLETE
+       * 🚨 Issue 3: Critical bug - BLOCKER
+     * ⬅️ Build Feature X - Working on this now
+       * Sub-detail 1
+       * Sub-detail 2
+     * 🆕 Add Feature Y
+       * Sub-detail 1
 ```
 - **Title Formatting:** In HTML templates, both `<title>` tags and `<h1>` headings should use colons (`:`) not em-dashes
 - **IMPORTANT:** When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
@@ -375,16 +378,27 @@ garden-journal/
 1. **Fix template syntax error** in `plant_summary_template.html`
 2. **Test Daily Entry form end-to-end** with photos
 3. **Verify all data flows properly** through API endpoints
-4. **Complete remaining issues** (4-7 from Task List)
-5. **Import historical data** from ChatGPT conversations (Oct 8 - Nov 9)
-6. **Create initial garden_data.json** with all real plants
+4. **Import historical data** from ChatGPT conversations (Oct 8 - Nov 9)
 
 ---
 
 ## 🔄 Continue from here
 
-**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Template syntax error discovered blocking Plant Summary display.
+**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Template syntax error discovered blocking Plant Summary display.  We began Testing the Daily Entry form end-to-end and encountered some issues.
 
-**Next step:** Fix template syntax error in `plant_summary_template.html` line 36 (stray `{% endif %}` tag), then test full daily entry workflow with photos to verify all data saves correctly and pages regenerate properly.
+**Next step:**
 
-**After that:** Complete Issues 4-7, then import historical October-November data from ChatGPT conversations.
+* Resolve Issues
+  * ✅ ~~Issue 1: Tile buttons regenerate pages~~ - COMPLETE
+  * ✅ ~~Issue 2: Container_size saving~~ - COMPLETE
+  * ✅ ~~Issue 3: Container display format~~ - COMPLETE
+  * 🚨 Issue 4: Template Syntax Error (BLOCKER) ⬅️ Fix first
+    * Stray `{% endif %}` on line 36 of `plant_summary_template.html`
+* 🆕 Create fixed header on static pages
+  * Header fixed at top (scrollable content below)
+  * Contains "🌿 Back to Home" link
+  * When clicked: closes current tab and returns to Garden Journal tab
+* Continue testing Daily Entry workflow
+
+
+**After that:** Import Historical data
