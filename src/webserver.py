@@ -18,7 +18,7 @@ Then open browser to: http://localhost:3000
 from flask import Flask, render_template, request, jsonify, send_from_directory
 from pathlib import Path
 import sys
-
+import base64
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -225,6 +225,155 @@ def api_move_plant():
     except Exception as e:
         print(f"Error moving plant: {e}")
         return jsonify({'success': False, 'error': str(e)}), 500
+
+# Add this to src/web_server.py
+# Place it before the "if __name__ == '__main__':" line
+
+import base64
+from pathlib import Path
+
+@app.route('/api/add-entry', methods=['POST'])
+def api_add_entry():
+    """Add a new daily entry with photos"""
+    try:
+        data = request.get_json()
+
+        # Parse markdown bullets into arrays
+        activities = parse_markdown_bullets(data.get('activities', ''))
+        observations_text = data.get('observations', '')
+
+        # Process plant observations
+        plant_observations = []
+        for obs_data in data.get('plant_observations', []):
+            # Handle status changes
+            if obs_data.get('status_changed') and obs_data.get('status_reason'):
+                # Update plant status
+                plant = get_plant_by_id(obs_data['plant_id'])
+                if plant:
+                    plant['status'] = obs_data['status']
+                    plant['status_date'] = data['date']
+                    plant['status_reason'] = obs_data['status_reason']
+                    # Save updated plant (will need to call save_data)
+
+            # Update plant summary if changed
+            if obs_data.get('summary'):
+                from data_manager import update_plant_summary
+                try:
+                    update_plant_summary(obs_data['plant_id'], obs_data['summary'])
+                except Exception as e:
+                    print(f"Warning: Could not update summary for {obs_data['plant_id']}: {e}")
+
+            # Process and save photos
+            saved_photos = []
+            for photo_data in obs_data.get('photos', []):
+                try:
+                    # Decode base64 blob and save to photos/ folder
+                    photo_filename = save_photo_from_blob(
+                        photo_data['compressed_blob_base64'],
+                        photo_data['filename']
+                    )
+
+                    saved_photos.append({
+                        'filename': photo_filename,
+                        'timestamp': photo_data.get('timestamp'),
+                        'caption': photo_data.get('caption'),
+                        'tags': photo_data.get('tags', [])
+                    })
+                except Exception as e:
+                    print(f"Error saving photo {photo_data.get('filename')}: {e}")
+                    continue
+
+            # Build observation object for data_manager
+            plant_obs = {
+                'plant_id': obs_data['plant_id'],
+                'time': obs_data['time'],
+                'observation': obs_data['observations'],
+                'photos': saved_photos,
+                'soil_moisture': obs_data['soil'].get('moisture'),
+                'care_actions': parse_markdown_bullets(obs_data.get('actions', '')),
+                'plant_qa': obs_data.get('qa', []),
+                'notes': obs_data.get('notes'),
+                'current_stage': obs_data['growth'].get('current_stage'),
+                'next_stage': obs_data['growth'].get('next_stage')
+            }
+
+            plant_observations.append(plant_obs)
+
+        # Call data_manager to add daily entry
+        add_daily_entry(
+            date=data['date'],
+            summary_of_activities=activities,
+            weather=data['weather'],
+            general_observations=observations_text,
+            general_qa=data.get('qa', []),
+            upcoming_actions=[{
+                'description': action['description'],
+                'target_date': action.get('target_date'),
+                'target_timeframe': action.get('target_timeframe')
+            } for action in data.get('upcoming_actions', [])],
+            plant_observations=plant_observations
+        )
+
+        # Regenerate ALL pages
+        generator = GardenHTMLGenerator()
+        if generator.load_data():
+            generator.setup_output_dir()
+            generator.generate_front_page()
+            generator.generate_layout_page()
+            generator.generate_plant_summary()
+            generator.generate_daily_journal(date=data['date'])
+
+        # Return success with link to generated page
+        return jsonify({
+            'success': True,
+            'date': data['date'],
+            'journal_file': f"Garden_03_Daily_{data['date']}.html",
+            'photos_saved': sum(len(obs.get('photos', [])) for obs in data.get('plant_observations', [])),
+            'plants_observed': len(data.get('plant_observations', []))
+        })
+
+    except Exception as e:
+        print(f"Error adding daily entry: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+
+def parse_markdown_bullets(text):
+    """Parse markdown bullet text into array of strings"""
+    if not text or not text.strip():
+        return []
+
+    lines = text.strip().split('\n')
+    bullets = []
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('- '):
+            # Remove the dash-space prefix
+            bullets.append(stripped[2:])
+        elif stripped:
+            # Non-bullet line, keep as-is
+            bullets.append(stripped)
+
+    return bullets
+
+
+def save_photo_from_blob(base64_blob, filename):
+    """Save a base64-encoded blob to photos/ folder"""
+    photos_dir = Path(__file__).parent.parent / 'photos'
+    photos_dir.mkdir(exist_ok=True)
+
+    # Decode base64
+    photo_bytes = base64.b64decode(base64_blob)
+
+    # Save to file
+    photo_path = photos_dir / filename
+    with open(photo_path, 'wb') as f:
+        f.write(photo_bytes)
+
+    print(f"✓ Saved photo: {filename}")
+    return filename
 
 
 if __name__ == '__main__':

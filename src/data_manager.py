@@ -133,6 +133,7 @@ def add_plant(
     location: str,
     container_type: str,
     container_name: str,
+    soil_mix: str,
     stake_number: Optional[int] = None,
     position: Optional[str] = None,
     summary: str = ""
@@ -178,6 +179,7 @@ def add_plant(
             "location": location,
             "container_type": container_type,
             "container_name": container_name,
+            "soil_mix": soil_mix,
             "stake_number": stake_number,
             "position": position
         },
@@ -187,6 +189,7 @@ def add_plant(
                 "location": location,
                 "container_type": container_type,
                 "container_name": container_name,
+                "soil_mix": soil_mix,
                 "stake_number": stake_number,
                 "position": position,
                 "reason": "Initial placement"

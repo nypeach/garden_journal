@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 14, 2025 @ 1:55 PM EST
+**Last Updated:** November 15, 2025 @ 4:24 AM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -754,6 +754,12 @@ When filling out daily entry form:
 
 12. **Markdown parsing needed:** Backend must parse markdown bullets (dash-space format) into arrays for JSON storage.
 
+13. **Soil mix bug fixed:** Updated `data_manager.add_plant()` to accept and save `soil_mix` parameter in both `current_location` and `location_history`.
+
+14. **Clean slate approach:** Created fresh garden_data.json with empty plants/entries arrays. Starting over with real plant data entry to avoid corrupted test data from previous sessions.
+
+15. **Photo date display:** Photo previews in Daily Entry form show creation date/time below thumbnails (extracted from file metadata) to help identify and organize photos chronologically.
+
 ---
 
 ## 📱 TOOLS & BROWSER EXTENSIONS
@@ -831,4 +837,4 @@ Add all real plants and import historical entries.
 
 ---
 
-**Continue from here. Next priority: Build backend API endpoint POST /api/add-entry to handle daily entry form submission, save photos, parse markdown, update plant data, and generate HTML pages.**
+**Continue from here. Next priority: Test and refine backend API endpoint POST /api/add-entry with clean real data. Add real plants using Add Plant form, then test complete Daily Entry workflow with photos. Debug any data mapping issues between form and data_manager. Once working end-to-end, proceed to import historical data from ChatGPT conversations.**

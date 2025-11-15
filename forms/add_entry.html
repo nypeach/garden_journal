@@ -808,11 +808,20 @@
       container.innerHTML = '';
 
       photos.forEach((photo, index) => {
+        // Format the EXIF date for display
+        const dateStr = `${photo.exif.date.substring(0, 4)}-${photo.exif.date.substring(4, 6)}-${photo.exif.date.substring(6, 8)}`;
+        const timeStr = `${photo.exif.time.substring(0, 2)}:${photo.exif.time.substring(2, 4)}`;
+
         const photoDiv = document.createElement('div');
         photoDiv.className = 'photo-preview-item';
         photoDiv.innerHTML = `
           <div class="photo-preview-layout">
-            <img src="${photo.preview}" class="photo-preview-thumb" alt="Preview" />
+            <div style="text-align: center;">
+              <img src="${photo.preview}" class="photo-preview-thumb" alt="Preview" />
+              <div style="font-size: 11px; color: var(--muted); margin-top: 4px;">
+                ${dateStr}<br>${timeStr}
+              </div>
+            </div>
             <div class="photo-preview-fields">
               <div class="form-group" style="margin: 0 0 10px 0;">
                 <label style="font-size: 13px; font-weight: 600;">Filename:</label>
@@ -889,30 +898,76 @@
     document.getElementById('dailyEntryForm').addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      const formData = {
-        date: document.getElementById('entry_date').value.replace(/-/g, ''),
-        time_of_entry: document.getElementById('entry_time').value.replace(/:/g, ''),
-        activities: document.getElementById('activities').value,
-        weather: {
-          temp_high: document.getElementById('temp_high').value || null,
-          temp_low: document.getElementById('temp_low').value || null,
-          conditions: document.getElementById('conditions').value || null,
-          sunrise: document.getElementById('sunrise').value ?
-            document.getElementById('sunrise').value.replace(/:/g, '') : null,
-          sunset: document.getElementById('sunset').value ?
-            document.getElementById('sunset').value.replace(/:/g, '') : null,
-          humidity: document.getElementById('humidity').value || null,
-          wind: document.getElementById('wind').value || null,
-          notes: document.getElementById('weather_notes').value || null
-        },
-        observations: document.getElementById('observations').value,
-        qa: collectQA(),
-        upcoming_actions: collectActions(),
-        plant_observations: await collectPlantObservations() // PHASE 3: Now async for photos
-      };
+      // Show loading state
+      const submitBtn = e.target.querySelector('button[type="submit"]');
+      const originalText = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<span class="loading"></span> Saving...';
+      submitBtn.disabled = true;
 
-      console.log('Form data (Phase 3 with photos):', formData);
-      alert('Phase 3 form data logged to console! Check browser DevTools → Console to see complete data including photos.');
+      try {
+        const formData = {
+          date: document.getElementById('entry_date').value.replace(/-/g, ''),
+          time_of_entry: document.getElementById('entry_time').value.replace(/:/g, ''),
+          activities: document.getElementById('activities').value,
+          weather: {
+            temp_high: document.getElementById('temp_high').value || null,
+            temp_low: document.getElementById('temp_low').value || null,
+            conditions: document.getElementById('conditions').value || null,
+            sunrise: document.getElementById('sunrise').value ?
+              document.getElementById('sunrise').value.replace(/:/g, '') : null,
+            sunset: document.getElementById('sunset').value ?
+              document.getElementById('sunset').value.replace(/:/g, '') : null,
+            humidity: document.getElementById('humidity').value || null,
+            wind: document.getElementById('wind').value || null,
+            notes: document.getElementById('weather_notes').value || null
+          },
+          observations: document.getElementById('observations').value,
+          qa: collectQA(),
+          upcoming_actions: collectActions(),
+          plant_observations: await collectPlantObservations()
+        };
+
+        // Call API
+        const response = await fetch('/api/add-entry', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          // Show success modal
+          const dateObj = new Date(formData.date.substring(0, 4),
+            parseInt(formData.date.substring(4, 6)) - 1,
+            formData.date.substring(6, 8));
+          const dateStr = dateObj.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          });
+
+          document.getElementById('modal-date').textContent = dateStr;
+          document.getElementById('modal-summary').innerHTML = `
+            <strong>Plants Observed:</strong> ${result.plants_observed}<br>
+            <strong>Photos Added:</strong> ${result.photos_saved}
+          `;
+          document.getElementById('viewJournalLink').href = `/output/${result.journal_file}`;
+          document.getElementById('successModal').classList.add('active');
+        } else {
+          alert('Error: ' + result.error);
+        }
+      } catch (error) {
+        alert('Error submitting form: ' + error.message);
+        console.error('Submission error:', error);
+      } finally {
+        // Restore button
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+      }
     });
 
     function collectQA() {
@@ -958,15 +1013,19 @@
         const originalStatus = statusSelect.dataset.originalStatus || 'active';
         const newStatus = statusSelect.value;
 
-        // PHASE 3: Collect photos for this observation
-        const photos = (plantPhotos[i] || []).map(photo => ({
-          filename: photo.suggestedFilename,
-          caption: photo.caption || null,
-          tags: photo.tags ? photo.tags.split(',').map(t => t.trim()) : [],
-          timestamp: photo.exif.time,
-          compressed_blob: photo.compressedBlob,
-          compressed_size: photo.compressedBlob.size
-        }));
+        // PHASE 3: Convert photo blobs to base64 for sending
+        const photos = [];
+        for (const photo of (plantPhotos[i] || [])) {
+          const base64 = await blobToBase64(photo.compressedBlob);
+          photos.push({
+            filename: photo.suggestedFilename,
+            caption: photo.caption || null,
+            tags: photo.tags ? photo.tags.split(',').map(t => t.trim()) : [],
+            timestamp: photo.exif.time,
+            compressed_blob_base64: base64,
+            compressed_size: photo.compressedBlob.size
+          });
+        }
 
         const obs = {
           plant_id: plantSelectEl.value,
@@ -996,13 +1055,27 @@
           actions: document.getElementById(`plant_actions_${i}`).value,
           notes: document.getElementById(`plant_notes_${i}`).value,
           qa: collectPlantQA(i),
-          photos: photos // PHASE 3: Include photos
+          photos: photos // PHASE 3: Include photos with base64
         };
 
         observations.push(obs);
       }
 
       return observations;
+    }
+
+    // Helper function to convert blob to base64
+    function blobToBase64(blob) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          // Remove the data:image/jpeg;base64, prefix
+          const base64 = reader.result.split(',')[1];
+          resolve(base64);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
     }
 
     function collectPlantQA(plantObsId) {
