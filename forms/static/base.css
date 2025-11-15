@@ -73,8 +73,17 @@ p.note {
   font-style: italic;
 }
 
+p.note a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+p.note a:hover {
+  color: #c41e3a;
+}
+
 p.lead {
-  margin: 8px 0 12px;
+  margin: -18px 0 12px;
   line-height: 1.6;
   font-size: 12pt;
 }
@@ -248,4 +257,25 @@ tr:hover {
 /* Emoji in headers */
 .emoji {
   font-size: 1.1em;
+}
+
+/* Fixed Header */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 100;
+  padding: 32px 24px 0;
+}
+
+.fixed-header-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Add padding to main when using fixed header */
+body.has-fixed-header main {
+  padding-top: 180px;
 }

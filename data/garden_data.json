@@ -262,5 +262,24 @@
       "description": "Garage for storage or protection"
     }
   },
-  "daily_entries": []
+  "daily_entries": [
+    {
+      "date": "20251115",
+      "summary_of_activities": [],
+      "weather": {
+        "temp_high": null,
+        "temp_low": null,
+        "conditions": null,
+        "sunrise": null,
+        "sunset": null,
+        "humidity": null,
+        "wind": null,
+        "notes": null
+      },
+      "general_observations": "",
+      "general_qa": [],
+      "upcoming_actions": [],
+      "plant_observations": []
+    }
+  ]
 }

@@ -9,15 +9,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="has-fixed-header">
+  <div class="fixed-header">
+    <div class="fixed-header-content">
+      <h1><span class='emoji'>🌿</span> Daily Journal</h1>
+      <p class="note">Date: {{ formatted_date }} • Panels 1–18 (left → right); Stakes 1–4 within raised bed. (<a
+          href="../forms/index.html" onclick="window.close(); return false;">🌿 Back to Home</a>)</p>
+      <hr class="divider" />
+    </div>
+  </div>
+
   <main>
-
-    <h1><span class='emoji'>🌿</span> Daily Journal</h1>
-    <p class="note">Date: {{ formatted_date }} • Panels 1–18 (left → right); Stakes 1–4 within raised bed</p>
-    <hr class="divider" />
-
     <!-- SUMMARY OF ACTIVITIES -->
-    <h2><span class='emoji'>📝</span>Summary of Activities</h2>
+    <h2><span class='emoji'>📋</span>Summary of Activities</h2>
     {% if activities and activities|length > 0 %}
     <ul>
       {% for activity in activities %}
@@ -56,7 +60,7 @@
     {% endif %}
 
     <!-- GENERAL OBSERVATIONS -->
-    <h2><span class='emoji'>📝</span>General Observations</h2>
+    <h2><span class='emoji'>👀</span>General Observations</h2>
     {% if observations and observations|length > 0 %}
     <ul>
       {% for observation in observations %}
@@ -112,130 +116,130 @@
     {# Check if multiple plants share this container with stakes #}
     {% if obs_list|length > 1 and obs_list[0].stake %}
 
-      {# Staked container header #}
-      <h3>{{ container_key }}</h3>
+    {# Staked container header #}
+    <h3>{{ container_key }}</h3>
 
-      {% for obs in obs_list %}
-      <div class="stake">
-        <div class="stake-title">
-          Stake {{ obs.stake }}: {{ obs.plant_id|replace('_', ' ')|title }}
-          {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
-        </div>
-        <ul>
-          <li><strong>Soil Mix:</strong> {{ obs.soil_mix }}</li>
-          {% if obs.soil_moisture %}
-          <li><strong>Soil Moisture:</strong> {{ obs.soil_moisture }}</li>
-          {% endif %}
-          <li><strong>Current Stage:</strong> {{ obs.current_stage }}</li>
-          <li><strong>Next Stage:</strong> {{ obs.next_stage }}</li>
-          <li><strong>Observations:</strong> {{ obs.observations }}</li>
-          {% if obs.actions_taken and obs.actions_taken|length > 0 %}
-          <li><strong>Actions Taken:</strong>
-            <ul style="margin-top: 4px;">
-              {% for action in obs.actions_taken %}
-              <li style="margin-left: 20px;">{{ action }}</li>
-              {% endfor %}
-            </ul>
-          </li>
-          {% endif %}
-          {% if obs.notes %}
-          <li><strong>Notes:</strong> {{ obs.notes }}</li>
-          {% endif %}
-        </ul>
-
-        {% if obs.plant_qa %}
-        <div class="qa-section-header"><span class='emoji'>❓</span>Questions &amp; Answers</div>
-        <div class="qa-item">
-          <div class="qa-question">Q: {{ obs.plant_qa.question }}</div>
-          <div class="qa-answer">A: {{ obs.plant_qa.answer }}</div>
-        </div>
-        {% endif %}
-
-        {% if obs.photos and obs.photos|length > 0 %}
-        <div class="photo-row">
-          {% for photo in obs.photos[:4] %}
-          <div class="photo-container">
-            <img src="../photos/{{ photo.filename }}" alt="{{ obs.plant_id }}" class="photo">
-            {% if photo.caption %}
-            <div class="photo-caption">{{ photo.caption }}</div>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
+    {% for obs in obs_list %}
+    <div class="stake">
+      <div class="stake-title">
+        Stake {{ obs.stake }}: {{ obs.plant_id|replace('_', ' ')|title }}
+        {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
       </div>
-      {% endfor %}
+      <ul>
+        <li><strong>Soil Mix:</strong> {{ obs.soil_mix }}</li>
+        {% if obs.soil_moisture %}
+        <li><strong>Soil Moisture:</strong> {{ obs.soil_moisture }}</li>
+        {% endif %}
+        <li><strong>Current Stage:</strong> {{ obs.current_stage }}</li>
+        <li><strong>Next Stage:</strong> {{ obs.next_stage }}</li>
+        <li><strong>Observations:</strong> {{ obs.observations }}</li>
+        {% if obs.actions_taken and obs.actions_taken|length > 0 %}
+        <li><strong>Actions Taken:</strong>
+          <ul style="margin-top: 4px;">
+            {% for action in obs.actions_taken %}
+            <li style="margin-left: 20px;">{{ action }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+        {% if obs.notes %}
+        <li><strong>Notes:</strong> {{ obs.notes }}</li>
+        {% endif %}
+      </ul>
 
-      <hr class="divider" />
-
-    {% else %}
-      {# Regular panel or shared container without stakes #}
-
-      {% if obs_list|length > 1 %}
-      {# Shared container header (no stakes) #}
-      <h3>{{ container_key }}</h3>
+      {% if obs.plant_qa %}
+      <div class="qa-section-header"><span class='emoji'>❓</span>Questions &amp; Answers</div>
+      <div class="qa-item">
+        <div class="qa-question">Q: {{ obs.plant_qa.question }}</div>
+        <div class="qa-answer">A: {{ obs.plant_qa.answer }}</div>
+      </div>
       {% endif %}
 
-      {% for obs in obs_list %}
-      <div class="panel" {% if obs_list|length > 1 %}style="margin-left: 20px;"{% endif %}>
-        <div class="panel-title">
-          {% if obs_list|length == 1 %}
-          {{ container_key }}
-          {% else %}
-          {{ obs.plant_id|replace('_', ' ')|title }}
+      {% if obs.photos and obs.photos|length > 0 %}
+      <div class="photo-row">
+        {% for photo in obs.photos[:4] %}
+        <div class="photo-container">
+          <img src="../photos/{{ photo.filename }}" alt="{{ obs.plant_id }}" class="photo">
+          {% if photo.caption %}
+          <div class="photo-caption">{{ photo.caption }}</div>
           {% endif %}
-          {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
         </div>
-        <ul>
-          <li><strong>Container:</strong> {{ obs.container_type }}</li>
-          {% if obs.position %}
-          <li><strong>Position:</strong> {{ obs.position }}</li>
-          {% endif %}
-          <li><strong>Soil Mix:</strong> {{ obs.soil_mix }}</li>
-          {% if obs.soil_moisture %}
-          <li><strong>Soil Moisture:</strong> {{ obs.soil_moisture }}</li>
-          {% endif %}
-          <li><strong>Current Stage:</strong> {{ obs.current_stage }}</li>
-          <li><strong>Next Stage:</strong> {{ obs.next_stage }}</li>
-          <li><strong>Observations:</strong> {{ obs.observations }}</li>
-          {% if obs.actions_taken and obs.actions_taken|length > 0 %}
-          <li><strong>Actions Taken:</strong>
-            <ul style="margin-top: 4px;">
-              {% for action in obs.actions_taken %}
-              <li style="margin-left: 20px;">{{ action }}</li>
-              {% endfor %}
-            </ul>
-          </li>
-          {% endif %}
-          {% if obs.notes %}
-          <li><strong>Notes:</strong> {{ obs.notes }}</li>
-          {% endif %}
-        </ul>
-
-        {% if obs.plant_qa %}
-        <div class="qa-section-header"><span class='emoji'>❓</span>Questions &amp; Answers</div>
-        <div class="qa-item">
-          <div class="qa-question">Q: {{ obs.plant_qa.question }}</div>
-          <div class="qa-answer">A: {{ obs.plant_qa.answer }}</div>
-        </div>
-        {% endif %}
-
-        {% if obs.photos and obs.photos|length > 0 %}
-        <div class="photo-row">
-          {% for photo in obs.photos[:4] %}
-          <div class="photo-container">
-            <img src="../photos/{{ photo.filename }}" alt="{{ obs.plant_id }}" class="photo">
-            {% if photo.caption %}
-            <div class="photo-caption">{{ photo.caption }}</div>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
+        {% endfor %}
       </div>
-      {% endfor %}
+      {% endif %}
+    </div>
+    {% endfor %}
 
-      <hr class="divider" />
+    <hr class="divider" />
+
+    {% else %}
+    {# Regular panel or shared container without stakes #}
+
+    {% if obs_list|length > 1 %}
+    {# Shared container header (no stakes) #}
+    <h3>{{ container_key }}</h3>
+    {% endif %}
+
+    {% for obs in obs_list %}
+    <div class="panel" {% if obs_list|length> 1 %}style="margin-left: 20px;"{% endif %}>
+      <div class="panel-title">
+        {% if obs_list|length == 1 %}
+        {{ container_key }}
+        {% else %}
+        {{ obs.plant_id|replace('_', ' ')|title }}
+        {% endif %}
+        {% if obs.time %}<span class="time-badge">{{ obs.time }}</span>{% endif %}
+      </div>
+      <ul>
+        <li><strong>Container:</strong> {{ obs.container_type }}</li>
+        {% if obs.position %}
+        <li><strong>Position:</strong> {{ obs.position }}</li>
+        {% endif %}
+        <li><strong>Soil Mix:</strong> {{ obs.soil_mix }}</li>
+        {% if obs.soil_moisture %}
+        <li><strong>Soil Moisture:</strong> {{ obs.soil_moisture }}</li>
+        {% endif %}
+        <li><strong>Current Stage:</strong> {{ obs.current_stage }}</li>
+        <li><strong>Next Stage:</strong> {{ obs.next_stage }}</li>
+        <li><strong>Observations:</strong> {{ obs.observations }}</li>
+        {% if obs.actions_taken and obs.actions_taken|length > 0 %}
+        <li><strong>Actions Taken:</strong>
+          <ul style="margin-top: 4px;">
+            {% for action in obs.actions_taken %}
+            <li style="margin-left: 20px;">{{ action }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+        {% if obs.notes %}
+        <li><strong>Notes:</strong> {{ obs.notes }}</li>
+        {% endif %}
+      </ul>
+
+      {% if obs.plant_qa %}
+      <div class="qa-section-header"><span class='emoji'>❓</span>Questions &amp; Answers</div>
+      <div class="qa-item">
+        <div class="qa-question">Q: {{ obs.plant_qa.question }}</div>
+        <div class="qa-answer">A: {{ obs.plant_qa.answer }}</div>
+      </div>
+      {% endif %}
+
+      {% if obs.photos and obs.photos|length > 0 %}
+      <div class="photo-row">
+        {% for photo in obs.photos[:4] %}
+        <div class="photo-container">
+          <img src="../photos/{{ photo.filename }}" alt="{{ obs.plant_id }}" class="photo">
+          {% if photo.caption %}
+          <div class="photo-caption">{{ photo.caption }}</div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+    <hr class="divider" />
     {% endif %}
 
     {% endfor %}

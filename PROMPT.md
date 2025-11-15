@@ -119,11 +119,15 @@ garden-journal/
 - `templates/daily_journal_template.html` - Daily entries chronological
 
 **Styling:**
-- Clean green color scheme (#2d5016, #f0f4ed, #4a7c2c)
+- Unified green color (#22642f) across all templates
+- Fixed headers on all 4 templates (front page, layout, plant summary, daily journal)
+- "🌿 Back to Home" link on 3 pages (all except front page) - closes tab or navigates to forms/index.html
+- Strawberry red (#c41e3a) hover color for "Back to Home" links
 - No print CSS (using Print Friendly & PDF browser plugin)
-- Responsive design
+- Responsive design with 960px max-width
 - Time badges for observations
 - Photo captions and metadata display
+- Table styles for layout page
 
 **See:** `templates/` directory for all template files
 
@@ -298,22 +302,6 @@ garden-journal/
 
 ---
 
-## 🐛 KNOWN ISSUES
-
-### Template Syntax Error (BLOCKER)
-**File:** `templates/plant_summary_template.html`
-**Line:** 36
-**Problem:** Stray `{% endif %}` tag that doesn't match any opening `{% if %}`
-```html
-<li><strong>Notes:</strong> {{ plant.summary }}</li>
-{% endif %}  <!-- ⬅️ THIS IS THE ERROR -->
-</ul>
-```
-**Impact:** Prevents template from rendering
-**Fix needed:** Remove or relocate this `{% endif %}` tag
-
----
-
 ## 💡 CONTEXT FOR AI ASSISTANT
 
 - User is Jodi, tracking a container garden in Miami, Florida
@@ -384,13 +372,14 @@ Example format:
 
 ## 🔄 Continue from here
 
-**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html (removed stray `{% endif %}` tag). Unified all templates to use consistent base.css with:
+**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html (removed stray `{% endif %}` tag). Unified all templates (front_page, layout, plant_summary, daily_journal) with:
 - Unified green color (#22642f)
-- Main container: 960px width for better form layout
-- Removed @page rules (Print Friendly plugin handles printing)
-- Removed `.muted` class (using `p.note` everywhere)
-- Added table styles for layout page
-- All templates ready to use `../forms/static/base.css`
+- Fixed headers on all 4 static pages with "🌿 Back to Home" links (except front page)
+- Strawberry red hover color for links (#c41e3a)
+- Main container: 960px width for better layout
+- Removed .muted class (using p.note everywhere)
+- Added table styles, fixed header CSS to base.css
+- Templates reference styles.css (copied from forms/static/base.css by html_generator.py)
 
 **Next steps:**
 
@@ -399,16 +388,16 @@ Example format:
   * ✅ ~~Issue 2: Container_size saving~~ - COMPLETE
   * ✅ ~~Issue 3: Container display format~~ - COMPLETE
   * ✅ ~~Issue 4: Template Syntax Error~~ - COMPLETE
-* ⬅️ Create fixed header on static pages - Working on this now
+* ✅ ~~Create fixed header on static pages~~ - COMPLETE
+  * All 4 templates updated (front_page, layout, plant_summary, daily_journal)
+  * Fixed header stays at top, content scrolls below
+  * "🌿 Back to Home" link added to 3 pages (all except front_page)
+  * Link closes tab with window.close() or navigates to forms/index.html
+  * Strawberry red hover color (#c41e3a) for visibility
+  * All templates use styles.css
+* ⬅️ Update Form Headers - Next up
   * Header fixed at top (scrollable content below)
-  * Contains "🌿 Back to Home" link (all pages except front_page)
-  * When clicked: closes current tab and returns to Garden Journal tab
-  * Uses `p.note` class on all pages
-  * Has divider on all pages
-  * Update all templates to use `../forms/static/base.css`
-* 🆕 Update Form Headers
-  * Header fixed at top (scrollable content below)
-  * Uses `p.note` class on all pages
+  * Uses p.note class on all pages
   * Has divider on all pages
 * Continue testing Daily Entry workflow
 
