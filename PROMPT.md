@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 15, 2025 @ 4:24 AM EST
+**Last Updated:** November 15, 2025 @ 5:30 AM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -760,6 +760,10 @@ When filling out daily entry form:
 
 15. **Photo date display:** Photo previews in Daily Entry form show creation date/time below thumbnails (extracted from file metadata) to help identify and organize photos chronologically.
 
+16. **Template date handling:** Both front_page_template.html and plant_summary_template.html updated to handle None for last_entry_date (uses current date from html_generator.py if no entries exist).
+
+17. **Cache-busting headers:** Added to /output/<filename> route to prevent browser from serving stale cached HTML files (Cache-Control: no-cache, no-store, must-revalidate).
+
 ---
 
 ## 📱 TOOLS & BROWSER EXTENSIONS
@@ -837,4 +841,4 @@ Add all real plants and import historical entries.
 
 ---
 
-**Continue from here. Next priority: Test backend API POST /api/add-entry with clean real data. Add plants using Add Plant form (with soil_mix), then test Daily Entry form end-to-end with photos. Debug data mapping issues. Verify photos save to photos/ folder, garden_data.json updates correctly, and HTML pages generate properly. Once working, commit and proceed to import historical data.**
+**Continue from here. Next priority: Continue testing with clean real data. Add more plants using Add Plant form (verify soil_mix saves). Test Daily Entry form end-to-end with photos - submit entry, verify photos save to photos/ folder, check garden_data.json structure, confirm HTML pages generate correctly. Debug any data mapping issues in /api/add-entry backend. Once Daily Entry works end-to-end, test status changes and summary updates. Then proceed to import historical data from October-November.**

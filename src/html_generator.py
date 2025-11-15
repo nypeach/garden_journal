@@ -99,10 +99,14 @@ class GardenHTMLGenerator:
             daily_entries = self.data.get('daily_entries', [])
             last_entry_date = None
             if daily_entries:
-                # Get the most recent date
                 dates = [entry.get('date') for entry in daily_entries if entry.get('date')]
                 if dates:
                     last_entry_date = max(dates)
+
+            # If no entries, use today's date
+            if last_entry_date is None:
+                from datetime import datetime
+                last_entry_date = datetime.now().strftime('%Y%m%d')
 
             context = {
                 'metadata': {
@@ -192,6 +196,11 @@ class GardenHTMLGenerator:
                 dates = [entry.get('date') for entry in daily_entries if entry.get('date')]
                 if dates:
                     last_entry_date = max(dates)
+
+            # If no entries, use today's date
+            if last_entry_date is None:
+                from datetime import datetime
+                last_entry_date = datetime.now().strftime('%Y%m%d')
 
             context = {
                 'metadata': {

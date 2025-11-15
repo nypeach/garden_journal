@@ -130,7 +130,14 @@ def api_get_plant(plant_id):
 def serve_output(filename):
     """Serve generated HTML files from output folder"""
     output_dir = Path(__file__).parent.parent / 'output'
-    return send_from_directory(output_dir, filename)
+    response = send_from_directory(output_dir, filename)
+
+    # Prevent browser caching of generated HTML files
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    response.headers['Pragma'] = 'no-cache'
+    response.headers['Expires'] = '0'
+
+    return response
 
 
 @app.route('/api/add-plant', methods=['POST'])
@@ -157,6 +164,7 @@ def api_add_plant():
             location=data['location'],
             container_type=data['container_type'],
             container_name=data['container_name'],
+            soil_mix=data['soil_mix'],
             stake_number=data.get('stake_number'),
             position=data.get('position'),
             summary=data.get('summary')
