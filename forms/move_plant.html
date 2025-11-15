@@ -77,6 +77,22 @@
       </div>
 
       <div class="form-group">
+        <label for="soil_mix">
+          Soil Mix <span class="required">*</span>
+        </label>
+        <input type="text" id="soil_mix" name="soil_mix" placeholder="Potting Mix, Topsoil/Sand, etc." required />
+        <div class="help-text">Soil mix at new location</div>
+      </div>
+
+      <div class="form-group">
+        <label for="container_size">
+          Container Size (optional)
+        </label>
+        <input type="text" id="container_size" name="container_size" placeholder="8\" dia / 0.94 gal, 2' x 6', etc." />
+        <div class="help-text">Size of container at new location</div>
+      </div>
+
+      <div class="form-group">
         <label for="reason">
           Reason for Move <span class="required">*</span>
         </label>
@@ -150,6 +166,8 @@
         new_location: document.getElementById('new_location').value,
         container_type: document.getElementById('container_type').value,
         container_name: document.getElementById('container_name').value,
+        soil_mix: document.getElementById('soil_mix').value,
+        container_size: document.getElementById('container_size').value || null,
         stake_number: stake_number ? parseInt(stake_number) : null,
         position: position || null,
         reason: document.getElementById('reason').value,

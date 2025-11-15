@@ -165,6 +165,7 @@ def api_add_plant():
             container_type=data['container_type'],
             container_name=data['container_name'],
             soil_mix=data['soil_mix'],
+            container_size=data.get('container_size'),
             stake_number=data.get('stake_number'),
             position=data.get('position'),
             summary=data.get('summary')
@@ -210,7 +211,9 @@ def api_move_plant():
             new_location=data['new_location'],
             container_type=data['container_type'],
             container_name=data['container_name'],
+            soil_mix=data['soil_mix'],
             reason=data['reason'],
+            container_size=data.get('container_size'),
             stake_number=data.get('stake_number'),
             position=data.get('position')
         )
@@ -382,6 +385,26 @@ def save_photo_from_blob(base64_blob, filename):
 
     print(f"✓ Saved photo: {filename}")
     return filename
+
+@app.route('/refresh-and-view/<page_name>')
+def refresh_and_view(page_name):
+    """Regenerate all static pages then redirect to requested page"""
+    try:
+        # Regenerate all static pages
+        generator = GardenHTMLGenerator()
+        if generator.load_data():
+            generator.setup_output_dir()
+            generator.generate_front_page()
+            generator.generate_layout_page()
+            generator.generate_plant_summary()
+
+        # Redirect to requested page
+        from flask import redirect
+        return redirect(f'/output/{page_name}')
+
+    except Exception as e:
+        print(f"Error regenerating pages: {e}")
+        return f"Error: {e}", 500
 
 
 if __name__ == '__main__':

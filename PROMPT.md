@@ -841,4 +841,5 @@ Add all real plants and import historical entries.
 
 ---
 
-**Continue from here. Next priority: Continue testing with clean real data. Add more plants using Add Plant form (verify soil_mix saves). Test Daily Entry form end-to-end with photos - submit entry, verify photos save to photos/ folder, check garden_data.json structure, confirm HTML pages generate correctly. Debug any data mapping issues in /api/add-entry backend. Once Daily Entry works end-to-end, test status changes and summary updates. Then proceed to import historical data from October-November.**
+
+**Continue from here. Next priority: Fix container_size saving (update data_manager.add_plant and move_plant to accept container_size parameter). Update plant_summary_template.html to display container as concatenated string (container_type, container_size). Test Daily Entry form end-to-end with photos - verify photos save, check JSON structure, confirm data_manager integration works. Debug /api/add-entry backend. All tile refresh mechanisms working (regenerates on click). Once Daily Entry backend works, proceed to import historical October-November data.**

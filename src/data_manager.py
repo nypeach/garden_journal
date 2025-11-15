@@ -134,6 +134,7 @@ def add_plant(
     container_type: str,
     container_name: str,
     soil_mix: str,
+    container_size: Optional[str] = None,
     stake_number: Optional[int] = None,
     position: Optional[str] = None,
     summary: str = ""
@@ -179,6 +180,7 @@ def add_plant(
             "location": location,
             "container_type": container_type,
             "container_name": container_name,
+            "container_size": container_size,
             "soil_mix": soil_mix,
             "stake_number": stake_number,
             "position": position
@@ -189,6 +191,7 @@ def add_plant(
                 "location": location,
                 "container_type": container_type,
                 "container_name": container_name,
+                "container_size": container_size,
                 "soil_mix": soil_mix,
                 "stake_number": stake_number,
                 "position": position,
@@ -243,7 +246,9 @@ def move_plant(
     new_location: str,
     container_type: str,
     container_name: str,
+    soil_mix: str,
     reason: str,
+    container_size: Optional[str] = None,
     stake_number: Optional[int] = None,
     position: Optional[str] = None
 ) -> None:
@@ -284,6 +289,8 @@ def move_plant(
         "location": new_location,
         "container_type": container_type,
         "container_name": container_name,
+        "container_size": container_size,
+        "soil_mix": soil_mix,
         "stake_number": stake_number,
         "position": position,
         "reason": reason
@@ -296,6 +303,8 @@ def move_plant(
         "location": new_location,
         "container_type": container_type,
         "container_name": container_name,
+        "container_size": container_size,
+        "soil_mix": soil_mix,
         "stake_number": stake_number,
         "position": position
     }

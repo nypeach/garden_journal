@@ -1,6 +1,6 @@
 {
   "_schema_version": "13.1",
-  "_last_updated": "2025-11-14",
+  "_last_updated": "2025-11-15",
   "metadata": {
     "garden_name": "Jodi's Garden Journal",
     "start_date": "20251008",
@@ -11,7 +11,7 @@
     {
       "plant_id": "basil_001",
       "plant_type": "basil",
-      "common_name": "Basil - Left",
+      "common_name": "Basil (Left)",
       "variety": "Sweet Basil",
       "purchase_date": "20251008",
       "status": "active",
@@ -19,7 +19,8 @@
         "location": "Picnic Table",
         "container_type": "Round Pot (white)",
         "container_name": "Basil Pot (Left)",
-        "soil_mix": "Original Potting Mix",
+        "container_size": "8\" dia / 0.94 gal",
+        "soil_mix": "Original Nursery Potting Mix",
         "stake_number": null,
         "position": null
       },
@@ -29,6 +30,7 @@
           "location": "Picnic Table",
           "container_type": "Round Pot (white)",
           "container_name": "Basil Pot (Left)",
+          "container_size": "8\" dia / 0.94 gal",
           "soil_mix": "Original Potting Mix",
           "stake_number": null,
           "position": null,
@@ -40,7 +42,7 @@
     {
       "plant_id": "basil_002",
       "plant_type": "basil",
-      "common_name": "Basil - Right",
+      "common_name": "Basil (Right)",
       "variety": "Sweet Basil",
       "purchase_date": "20251008",
       "status": "active",
@@ -48,7 +50,8 @@
         "location": "Picnic Table",
         "container_type": "Round Pot (white)",
         "container_name": "Basil Pot (Right)",
-        "soil_mix": "Original Potting Mix",
+        "container_size": "8\" dia / 0.94 gal",
+        "soil_mix": "Original Nursery Potting Mix",
         "stake_number": null,
         "position": null
       },
@@ -58,13 +61,107 @@
           "location": "Picnic Table",
           "container_type": "Round Pot (white)",
           "container_name": "Basil Pot (Right)",
-          "soil_mix": "Original Potting Mix",
+          "container_size": "8\" dia / 0.94 gal",
+          "soil_mix": "Original Nursery Potting Mix",
           "stake_number": null,
           "position": null,
           "reason": "Initial placement"
         }
       ],
       "summary": "Plant looks healthy and vibrant."
+    },
+    {
+      "plant_id": "lavender_001",
+      "plant_type": "lavender",
+      "common_name": "Lavender (Left)",
+      "variety": "English Lavender",
+      "purchase_date": "20251008",
+      "status": "active",
+      "current_location": {
+        "location": "Picnic Table",
+        "container_type": "Round Pot (clear)",
+        "container_name": "Lavender (Left)",
+        "container_size": "19.3 fl oz / 570 mL",
+        "soil_mix": "Original Nursery Potting Mix",
+        "stake_number": null,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251008",
+          "location": "Picnic Table",
+          "container_type": "Round Pot (clear)",
+          "container_name": "Lavender (Left)",
+          "container_size": "19.3 fl oz / 570 mL",
+          "soil_mix": "Original Nursery Potting Mix",
+          "stake_number": null,
+          "position": null,
+          "reason": "Initial placement"
+        }
+      ],
+      "summary": "Plant looks healthy."
+    },
+    {
+      "plant_id": "lavender_002",
+      "plant_type": "lavender",
+      "common_name": "Lavender (Center)",
+      "variety": "English Lavender",
+      "purchase_date": "20251008",
+      "status": "active",
+      "current_location": {
+        "location": "Picnic Table",
+        "container_type": "Round Pot (clear)",
+        "container_name": "Lavender (Center)",
+        "container_size": "19.3 fl oz / 570 mL",
+        "soil_mix": "Original Nursery Potting Mix",
+        "stake_number": null,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251008",
+          "location": "Picnic Table",
+          "container_type": "Round Pot (clear)",
+          "container_name": "Lavender (Center)",
+          "container_size": "19.3 fl oz / 570 mL",
+          "soil_mix": "Original Nursery Potting Mix",
+          "stake_number": null,
+          "position": null,
+          "reason": "Initial placement"
+        }
+      ],
+      "summary": "Plant looks healthy."
+    },
+    {
+      "plant_id": "lavender_003",
+      "plant_type": "lavender",
+      "common_name": "Lavender (Right)",
+      "variety": "English Lavender",
+      "purchase_date": "20251008",
+      "status": "active",
+      "current_location": {
+        "location": "Picnic Table",
+        "container_type": "Round Pot (clear)",
+        "container_name": "Lavender (Right)",
+        "container_size": "19.3 fl oz / 570 mL",
+        "soil_mix": "Original Nursery Potting Mix",
+        "stake_number": null,
+        "position": null
+      },
+      "location_history": [
+        {
+          "date": "20251008",
+          "location": "Picnic Table",
+          "container_type": "Round Pot (clear)",
+          "container_name": "Lavender (Left)",
+          "container_size": "19.3 fl oz / 570 mL",
+          "soil_mix": "Original Nursery Potting Mix",
+          "stake_number": null,
+          "position": null,
+          "reason": "Initial placement"
+        }
+      ],
+      "summary": "Plant looks healthy."
     }
   ],
   "locations": {

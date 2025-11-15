@@ -35,8 +35,10 @@
       <div class="stake">
         <div class="stake-title">Stake {{ plant.current_location.stake }}: {{ plant.common_name }}</div>
         <ul>
+          <li><strong>Container:</strong> {{ plant.current_location.container_type }}{% if
+            plant.current_location.container_size
+            %}, {{ plant.current_location.container_size }}{% endif %}</li>
           <li><strong>Soil Mix:</strong> {{ plant.current_location.soil_mix }}</li>
-          {% if plant.summary %}
           <li><strong>Notes:</strong> {{ plant.summary }}</li>
           {% endif %}
         </ul>
@@ -54,7 +56,9 @@
     <div class="panel">
       <div class="panel-title">{{ plant.current_location.location }}: {{ plant.common_name }}</div>
       <ul>
-        <li><strong>Container:</strong> {{ plant.current_location.container_type }}</li>
+        <li><strong>Container:</strong> {{ plant.current_location.container_type }}{% if
+          plant.current_location.container_size
+          %}, {{ plant.current_location.container_size }}{% endif %}</li>
         <li><strong>Soil Mix:</strong> {{ plant.current_location.soil_mix }}</li>
         {% if plant.summary %}
         <li><strong>Notes:</strong> {{ plant.summary }}</li>
