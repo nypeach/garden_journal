@@ -785,11 +785,11 @@ When filling out daily entry form:
 **Priority 4: ~~Web Forms~~** ✅ COMPLETED!
 - ✅ Landing Page - COMPLETE & TESTED
 - ✅ Move Plant Form - COMPLETE & TESTED
-- ✅ Add Plant Form - COMPLETE & TESTED
-- ✅ Daily Entry Form - ALL 3 PHASES COMPLETE & TESTED
+- ✅ Add Plant Form - COMPLETE & TESTED (soil_mix bug fixed)
+- ✅ Daily Entry Form - ALL 3 PHASES COMPLETE, BACKEND API IN TESTING
 
-**Priority 5: Backend API for Daily Entry** ⬅️ NEXT!
-Build POST `/api/add-entry` endpoint to save entries and photos.
+**Priority 5: Backend API Testing** ⬅️ IN PROGRESS!
+Testing POST `/api/add-entry` endpoint with clean real data.
 
 **Priority 6: Import Data**
 Validate and import historical data from ChatGPT conversations (Oct 8 - Nov 9).
@@ -837,4 +837,4 @@ Add all real plants and import historical entries.
 
 ---
 
-**Continue from here. Next priority: Test and refine backend API endpoint POST /api/add-entry with clean real data. Add real plants using Add Plant form, then test complete Daily Entry workflow with photos. Debug any data mapping issues between form and data_manager. Once working end-to-end, proceed to import historical data from ChatGPT conversations.**
+**Continue from here. Next priority: Test backend API POST /api/add-entry with clean real data. Add plants using Add Plant form (with soil_mix), then test Daily Entry form end-to-end with photos. Debug data mapping issues. Verify photos save to photos/ folder, garden_data.json updates correctly, and HTML pages generate properly. Once working, commit and proceed to import historical data.**
