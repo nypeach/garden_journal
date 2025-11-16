@@ -1,6 +1,6 @@
 # Garden Journal Project - Current Status
 
-**Last Updated:** November 15, 2025 @ 7:45 AM EST
+**Last Updated:** November 16, 2025 @ 12:57 PM EST
 **Current Version:** 13.1
 **GitHub Repo:** garden-journal
 
@@ -399,14 +399,17 @@ Example format:
 
 ## 🔄 Continue from here
 
-**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html. Unified all CSS with base.css:
-- Unified green color (#22642f), fixed headers on all templates and forms
-- Fixed headers completed on all 4 static page templates (front_page, layout, plant_summary, daily_journal) with "🌿 Back to Home" links
-- Fixed headers completed on 3 of 4 forms (index, add_plant, move_plant) with "❌ Cancel" links
-- Gap reduction CSS added: first h2 elements pull up by -18px to reduce space after fixed header
+**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html. Unified all templates and forms with consistent CSS:
+- Unified green color (#22642f), strawberry red hover (#c41e3a) for all links
+- Fixed headers completed on all 4 static page templates with "🌿 Back to Home" links (front_page, layout, plant_summary, daily_journal)
+- Fixed headers completed on all 4 forms with "❌ Cancel" links (index, add_plant, move_plant, add_entry)
+- Gap reduction CSS: first h2 elements pull up by -18px after fixed header
 - Index.html enhanced with "Skip to Getting Started" and "Back to Top" navigation
-- Strawberry red hover color (#c41e3a) for all header links
 - Templates reference styles.css (copied from forms/static/base.css by html_generator.py)
+- Moved all inline CSS from add_entry.html to forms.css
+- Replaced .section-header with h2+dividers in add_entry.html
+- Fixed addQA() and addPlantQA() functions to use CSS classes instead of inline styles
+- Q&A boxes use .repeatable-item class with white backgrounds
 
 **Next steps:**
 
@@ -416,16 +419,23 @@ Example format:
   * ✅ ~~Issue 3: Container display format~~ - COMPLETE
   * ✅ ~~Issue 4: Template Syntax Error~~ - COMPLETE
 * ✅ ~~Create fixed header on static pages~~ - COMPLETE
-* ⬅️ Update Form Headers - Almost complete
-  * ✅ ~~All 4 forms have fixed headers with ❌ Cancel links~~ - COMPLETE
-  * ✅ ~~Moved <style> block CSS to forms.css~~ - COMPLETE
-  * ✅ ~~Replaced .section-header with dividers + h2~~ - COMPLETE
-  * 🆕 Move JavaScript inline styles to CSS classes (in addQA, addAction, addPlantObservation, displayPhotoPreview functions)
+* ⬅️ Update add_entry.html JavaScript - Remove inline styles - Almost complete
+  * ✅ ~~addQA() function~~ - COMPLETE (uses .item-label, .repeatable-item, .btn-sm)
+  * ✅ ~~addPlantQA() function~~ - COMPLETE (uses .item-label, .repeatable-item, .btn-xs)
+  * 🆕 addAction() function - Next up
+  * 🆕 addPlantObservation() function
+  * 🆕 displayPhotoPreview() function
+* 🆕 Add "❌ Close" links to all static page templates
+  * Update front_page_template.html (change "🌿 Back to Home" → "❌ Close")
+  * Update layout_template.html (change "🌿 Back to Home" → "❌ Close")
+  * Update plant_summary_template.html (change "🌿 Back to Home" → "❌ Close")
+  * Update daily_journal_template.html (change "🌿 Back to Home" → "❌ Close")
 * 🆕 Journal Entries Page
-  * Add "📖 Journal Entries" tile to index.html
-  * Create list page with links to daily journals
-  * Update daily_journal_template.html: "Back to Home" → "❌ Close"
+  * Add "📖 Journal Entries" tile to index.html View Journal section
+  * Create journal entries list page with links to all daily journal pages
+  * Optional filters (by date range, plant, etc.)
+  * Already has "❌ Close" from template updates above
 * Continue testing Daily Entry workflow
-* 🆕 V14: Master Garden Dashboard (see V14 Requirements and Plan above)
+* Import Historical data
 
-**After that:** Import Historical data
+**After that:** 🆕 V14: Master Garden Dashboard (see V14 Requirements and Plan above)

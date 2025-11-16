@@ -279,3 +279,9 @@ tr:hover {
 body.has-fixed-header main {
   padding-top: 180px;
 }
+
+/* Reduce gap after fixed header */
+body.has-fixed-header main>h2:first-child,
+body.has-fixed-header main>form>h2:first-child {
+  margin-top: -18px;
+}

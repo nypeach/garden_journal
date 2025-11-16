@@ -90,6 +90,10 @@
   border-bottom: 2px solid var(--rule);
 }
 
+h3 {
+  color: var(--green);
+}
+
 .form-group {
   margin: 20px 0;
 }
@@ -350,4 +354,58 @@ textarea {
   margin-top: 8px;
   font-size: 13px;
   color: var(--muted);
+}
+
+.photo-field-label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.photo-field-input {
+  font-family: monospace;
+  font-size: 12px;
+  padding: 6px 8px;
+  width: 100%;
+}
+
+/* Repeatable item containers (Q&A, Actions, Plant Observations) */
+.repeatable-item {
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 16px;
+  margin: 12px 0;
+  background: white;
+}
+
+.repeatable-item-large {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 16px 0;
+  background: #fafafa;
+}
+
+.repeatable-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.repeatable-item-header .item-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--green);
+  margin: 0;
+}
+
+/* Small button variants */
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.btn-xs {
+  padding: 4px 8px;
+  font-size: 12px;
 }
