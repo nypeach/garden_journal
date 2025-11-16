@@ -301,6 +301,33 @@ garden-journal/
   - Track status_date and status_reason
 
 ---
+## 🎯 V14: MASTER GARDEN DASHBOARD (New Feature)
+
+### 1. V14 Requirements
+
+**Master Garden Dashboard - Comprehensive plant tracking with timelines**
+
+Visual dashboard showing detailed plant information including origin/history, current state, and projected timelines for all plants.
+
+**Features to implement:**
+- Add "Master Garden" tile to View Journal section in index.html
+- Convert master_garden.html to Jinja2 template using project CSS:
+  - Keep: layout, card structure, section headers, navigation pills
+  - Replace: all inline/page CSS with base.css and forms.css
+  - Use: project colors (#22642f green, strawberry red hover)
+  - Update: navigation pills to match section header emojis
+  - Remove: "JUMP TO:" text from header
+  - Improve: emojis for Shallots, Scallions, Chamomile, Lavender
+- Create "Update Master Garden" form for editing dashboard data
+- Extend Plant schema with new fields:
+  - `origin_history` (array of strings) - planting history and key events
+  - `current_state` (string) - current condition and status description
+  - `timeline_list` (array of objects) - projected dates and milestones
+
+### 2. V14 Implementation Plan
+
+_To be developed after completing Journal Entries page and Daily Entry workflow testing_
+
 
 ## 💡 CONTEXT FOR AI ASSISTANT
 
@@ -372,13 +399,13 @@ Example format:
 
 ## 🔄 Continue from here
 
-**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html (removed stray `{% endif %}` tag). Unified all templates (front_page, layout, plant_summary, daily_journal) with:
-- Unified green color (#22642f)
-- Fixed headers on all 4 static pages with "🌿 Back to Home" links (except front page)
-- Strawberry red hover color for links (#c41e3a)
-- Main container: 960px width for better layout
-- Removed .muted class (using p.note everywhere)
-- Added table styles, fixed header CSS to base.css
+**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html. Unified all CSS with base.css:
+- Unified green color (#22642f), fixed headers on all templates and forms
+- Fixed headers completed on all 4 static page templates (front_page, layout, plant_summary, daily_journal) with "🌿 Back to Home" links
+- Fixed headers completed on 3 of 4 forms (index, add_plant, move_plant) with "❌ Cancel" links
+- Gap reduction CSS added: first h2 elements pull up by -18px to reduce space after fixed header
+- Index.html enhanced with "Skip to Getting Started" and "Back to Top" navigation
+- Strawberry red hover color (#c41e3a) for all header links
 - Templates reference styles.css (copied from forms/static/base.css by html_generator.py)
 
 **Next steps:**
@@ -389,16 +416,16 @@ Example format:
   * ✅ ~~Issue 3: Container display format~~ - COMPLETE
   * ✅ ~~Issue 4: Template Syntax Error~~ - COMPLETE
 * ✅ ~~Create fixed header on static pages~~ - COMPLETE
-  * All 4 templates updated (front_page, layout, plant_summary, daily_journal)
-  * Fixed header stays at top, content scrolls below
-  * "🌿 Back to Home" link added to 3 pages (all except front_page)
-  * Link closes tab with window.close() or navigates to forms/index.html
-  * Strawberry red hover color (#c41e3a) for visibility
-  * All templates use styles.css
-* ⬅️ Update Form Headers - Next up
-  * Header fixed at top (scrollable content below)
-  * Uses p.note class on all pages
-  * Has divider on all pages
+* ⬅️ Update Form Headers - Almost complete
+  * ✅ ~~All 4 forms have fixed headers with ❌ Cancel links~~ - COMPLETE
+  * ✅ ~~Moved <style> block CSS to forms.css~~ - COMPLETE
+  * ✅ ~~Replaced .section-header with dividers + h2~~ - COMPLETE
+  * 🆕 Move JavaScript inline styles to CSS classes (in addQA, addAction, addPlantObservation, displayPhotoPreview functions)
+* 🆕 Journal Entries Page
+  * Add "📖 Journal Entries" tile to index.html
+  * Create list page with links to daily journals
+  * Update daily_journal_template.html: "Back to Home" → "❌ Close"
 * Continue testing Daily Entry workflow
+* 🆕 V14: Master Garden Dashboard (see V14 Requirements and Plan above)
 
 **After that:** Import Historical data

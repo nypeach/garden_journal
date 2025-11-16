@@ -9,13 +9,17 @@
   <link rel="stylesheet" href="/static/forms.css">
 </head>
 
-<body>
+<body class="has-fixed-header">
+  <div class="fixed-header">
+    <div class="fixed-header-content">
+      <h1><span>➕</span> Add Plant</h1>
+      <p class="note">Add a new plant to your garden with location, container, and initial summary (<a href="/"
+          onclick="window.close();">❌ Cancel</a>)</p>
+      <hr class="divider" />
+    </div>
+  </div>
+
   <main>
-    <h1><span>➕</span> Add Plant</h1>
-    <p class="note">Add a new plant to your garden with location, container, and initial summary</p>
-
-    <hr class="divider" />
-
     <form id="addPlantForm">
 
       <h2><span>🌱</span> Plant Information</h2>

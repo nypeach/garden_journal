@@ -290,3 +290,64 @@ textarea {
 .hidden {
   display: none;
 }
+
+/* Input box-sizing fix */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Form row layout */
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Photo preview styles */
+.photo-preview-grid {
+  margin-top: 16px;
+}
+
+.photo-preview-item {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px;
+  background: #fafafa;
+  margin-bottom: 12px;
+}
+
+.photo-preview-layout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.photo-preview-thumb {
+  width: 150px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--rule);
+  flex-shrink: 0;
+}
+
+.photo-preview-fields {
+  flex: 1;
+  min-width: 0;
+}
+
+.photo-size-info {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}

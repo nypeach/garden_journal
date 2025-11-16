@@ -9,13 +9,16 @@
   <link rel="stylesheet" href="/static/forms.css">
 </head>
 
-<body>
+<body class="has-fixed-header">
+  <div class="fixed-header">
+    <div class="fixed-header-content">
+      <h1><span>🔄</span> Move Plant</h1>
+      <p class="note">Record when a plant moves to a new location (<a href="/" onclick="window.close();">❌ Cancel</a>)</p>
+      <hr class="divider" />
+    </div>
+  </div>
+
   <main>
-    <h1><span>🔄</span> Move Plant</h1>
-    <p class="note">Record when a plant moves to a new location</p>
-
-    <hr class="divider" />
-
     <form id="movePlantForm">
 
       <div class="form-group">

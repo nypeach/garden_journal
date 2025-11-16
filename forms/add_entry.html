@@ -7,89 +7,19 @@
   <title>Daily Entry: Garden Journal</title>
   <link rel="stylesheet" href="/static/base.css">
   <link rel="stylesheet" href="/static/forms.css">
-  <style>
-    /* Fix input overflow issues */
-    input[type="text"],
-    input[type="number"],
-    input[type="date"],
-    input[type="time"],
-    select,
-    textarea {
-      box-sizing: border-box;
-      max-width: 100%;
-    }
-
-    .form-row {
-      display: flex;
-      gap: 16px;
-    }
-
-    .form-row .form-group {
-      flex: 1;
-      min-width: 0;
-    }
-
-    /* Section headers */
-    .section-header {
-      margin-top: 20px;
-      margin-bottom: 12px;
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--green);
-      background: #f0f9f4;
-      padding: 10px 14px;
-      border-radius: 6px;
-      border-left: 3px solid var(--green);
-    }
-
-    /* Photo preview styles */
-    .photo-preview-grid {
-      margin-top: 16px;
-    }
-
-    .photo-preview-item {
-      border: 1px solid var(--rule);
-      border-radius: 8px;
-      padding: 16px;
-      background: #fafafa;
-      margin-bottom: 12px;
-    }
-
-    .photo-preview-layout {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-    }
-
-    .photo-preview-thumb {
-      width: 150px;
-      height: 112px;
-      object-fit: cover;
-      border-radius: 4px;
-      border: 1px solid var(--rule);
-      flex-shrink: 0;
-    }
-
-    .photo-preview-fields {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .photo-size-info {
-      margin-top: 8px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-  </style>
 </head>
 
-<body>
+<body class="has-fixed-header">
+  <div class="fixed-header">
+    <div class="fixed-header-content">
+      <h1><span>📔</span> Daily Entry</h1>
+      <p class="note">Record daily observations, weather, activities, and plant-by-plant notes (<a href="/"
+          onclick="window.close();">❌ Cancel</a>)</p>
+      <hr class="divider" />
+    </div>
+  </div>
+
   <main>
-    <h1><span>📔</span> Daily Entry</h1>
-    <p class="note">Record daily observations, weather, activities, and plant-by-plant notes</p>
-
-    <hr class="divider" />
-
     <form id="dailyEntryForm">
 
       <!-- BASIC INFORMATION -->
@@ -372,7 +302,7 @@
       obsDiv.innerHTML = `
         <div style="border: 1px solid var(--rule); border-radius: 8px; padding: 20px; margin: 16px 0; background: #fafafa;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-            <strong style="font-size: 16px; color: var(--text);">Plant Observation #${plantObsCount}</strong>
+            <h2>Plant Observation #${plantObsCount}</h2>
             <button type="button" onclick="removePlantObservation(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
           </div>
 
@@ -418,10 +348,12 @@
             <input type="text" id="status_reason_${plantObsCount}" name="status_reason_${plantObsCount}" placeholder="e.g., Water rot, completed harvest, moved to another location" />
           </div>
 
-          <!-- Container Info -->
-          <h3 class="section-header">Container & Location</h3>
+          <hr class="divider" />
 
-          <div class="form-row" style="margin-top: 12px;">
+          <!-- Container Info -->
+          <h2><span>📦</span> Container & Location</h2>
+
+          <div class="form-row">
             <div class="form-group">
               <label for="container_name_${plantObsCount}">Container Name</label>
               <input type="text" id="container_name_${plantObsCount}" name="container_name_${plantObsCount}" placeholder="Auto-filled from plant data" />
@@ -450,10 +382,12 @@
             </div>
           </div>
 
-          <!-- Soil Conditions -->
-          <h3 class="section-header">Soil Conditions</h3>
+          <hr class="divider" />
 
-          <div class="form-row" style="margin-top: 12px;">
+          <!-- Soil Conditions -->
+          <h2><span>🌱</span> Soil Conditions</h2>
+
+          <div class="form-row">
             <div class="form-group">
               <label for="soil_moisture_${plantObsCount}">Soil Moisture</label>
               <input type="text" id="soil_moisture_${plantObsCount}" name="soil_moisture_${plantObsCount}" placeholder="e.g., bone dry, lightly moist, dry 1 inch down" />
@@ -470,10 +404,12 @@
             </div>
           </div>
 
-          <!-- Growth Stages -->
-          <h3 class="section-header">Growth</h3>
+          <hr class="divider" />
 
-          <div class="form-row" style="margin-top: 12px;">
+          <!-- Growth Stages -->
+          <h2><span>🌿</span> Growth</h2>
+
+          <div class="form-row">
             <div class="form-group">
               <label for="current_stage_${plantObsCount}">Current Stage</label>
               <input type="text" id="current_stage_${plantObsCount}" name="current_stage_${plantObsCount}" placeholder="e.g., Seedling, Vegetative, Flowering, Fruiting" />
@@ -502,10 +438,12 @@
             <textarea id="plant_notes_${plantObsCount}" name="plant_notes_${plantObsCount}" placeholder="Any additional notes..." rows="3"></textarea>
           </div>
 
-          <!-- PHASE 3: PHOTOS SECTION -->
-          <h3 class="section-header">📷 Photos</h3>
+          <hr class="divider" />
 
-          <div class="form-group" style="margin-top: 12px;">
+          <!-- PHASE 3: PHOTOS SECTION -->
+          <h2><span>📷</span> Photos</h2>
+
+          <div class="form-group">
             <label for="photo_input_${plantObsCount}">
               Select Photos from Google Drive
             </label>
@@ -527,9 +465,11 @@
             <p style="color: var(--muted); font-style: italic; font-size: 14px;">No photos selected</p>
           </div>
 
+          <hr class="divider" />
+
           <!-- Plant-Specific Q&A -->
-          <h3 class="section-header">Plant-Specific Q&A</h3>
-          <div id="plant_qa_container_${plantObsCount}" style="margin-top: 12px;">
+          <h2><span>❓</span> Plant-Specific Q&A</h2>
+          <div id="plant_qa_container_${plantObsCount}">
             <!-- Plant Q&A pairs will be added here -->
           </div>
           <button type="button" onclick="addPlantQA(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px; margin-top: 8px;">

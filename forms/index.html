@@ -9,15 +9,20 @@
   <link rel="stylesheet" href="/static/forms.css">
 </head>
 
-<body>
-  <main>
-    <h1><span>🌿</span> Garden Journal</h1>
-    <p class="note">Local garden tracking system • Miami, Florida</p>
+<body class="has-fixed-header">
+  <div class="fixed-header">
+    <div class="fixed-header-content">
+      <h1><span>🌿</span> Garden Journal</h1>
+      <p class="note">Local garden tracking system • Miami, Florida (<a href="#getting-started">Skip to 🚀 Getting
+          Started</a>)</p>
+      <hr class="divider"/>
+    </div>
+  </div>
 
-    <hr class="divider" />
-
+  <main id="top">
     <!-- Quick Stats -->
     {% if total_plants is not none %}
+    <h2><span>📊</span> Quick Stats</h2>
     <div class="stats">
       <ul>
         <li><strong>Active Plants:</strong> {{ total_plants }}</li>
@@ -34,8 +39,51 @@
     <hr class="divider" />
     {% endif %}
 
-    <!-- Server Instructions -->
-    <h2><span>🚀</span> Getting Started</h2>
+    <!-- Navigation -->
+    <h2><span>📝</span> Forms</h2>
+    <div class="nav-cards">
+      <a href="/add-plant" class="nav-card">
+        <div class="nav-card-title">➕ Add Plant</div>
+        <p class="nav-card-desc">Add a new plant to your garden with location, container, and initial summary.</p>
+      </a>
+
+      <a href="/add-entry" class="nav-card">
+        <div class="nav-card-title">📔 Daily Entry</div>
+        <p class="nav-card-desc">Record daily observations, weather, activities, and plant-by-plant notes with photos.
+        </p>
+      </a>
+
+      <a href="/move-plant" class="nav-card">
+        <div class="nav-card-title">🔄 Move Plant</div>
+        <p class="nav-card-desc">Record when a plant moves to a new location (panel, indoors, etc.).</p>
+      </a>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Generated Journal -->
+    <h2><span>📚</span> View Journal</h2>
+    <div class="nav-cards">
+      <a href="/refresh-and-view/Garden_00_Front_Page.html" class="nav-card" target="_blank">
+        <div class="nav-card-title">📄 Front Page</div>
+        <p class="nav-card-desc">Garden overview and table of contents</p>
+      </a>
+
+      <a href="/refresh-and-view/Garden_01_Layout.html" class="nav-card" target="_blank">
+        <div class="nav-card-title">🗺️ Layout</div>
+        <p class="nav-card-desc">Current garden layout (Panels 1-18)</p>
+      </a>
+
+      <a href="/refresh-and-view/Garden_02_Plant_by_Plant_Summary.html" class="nav-card" target="_blank">
+        <div class="nav-card-title">🌱 Plant Summary</div>
+        <p class="nav-card-desc">All plants with containers and notes</p>
+      </a>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Server Instructions (moved to bottom) -->
+    <h2 id="getting-started"><span>🚀</span> Getting Started</h2>
     <div class="instructions">
       <p>To use the garden journal web forms, you need to start the Flask web server.</p>
 
@@ -61,46 +109,9 @@
       </p>
     </div>
 
-    <hr class="divider" />
-
-    <!-- Navigation -->
-    <h2><span>📝</span> Forms</h2>
-    <div class="nav-cards">
-      <a href="/add-plant" class="nav-card">
-        <div class="nav-card-title">➕ Add Plant</div>
-        <p class="nav-card-desc">Add a new plant to your garden with location, container, and initial summary.</p>
-      </a>
-
-      <a href="/add-entry" class="nav-card">
-        <div class="nav-card-title">📔 Daily Entry</div>
-        <p class="nav-card-desc">Record daily observations, weather, activities, and plant-by-plant notes with photos.
-        </p>
-      </a>
-
-      <a href="/move-plant" class="nav-card">
-        <div class="nav-card-title">🔄 Move Plant</div>
-        <p class="nav-card-desc">Record when a plant moves to a new location (panel, indoors, etc.).</p>
-      </a>
-    </div>
-
-    <!-- Generated Journal -->
-    <h2><span>📚</span> View Journal</h2>
-    <div class="nav-cards">
-      <a href="/refresh-and-view/Garden_00_Front_Page.html" class="nav-card" target="_blank">
-        <div class="nav-card-title">📄 Front Page</div>
-        <p class="nav-card-desc">Garden overview and table of contents</p>
-      </a>
-
-      <a href="/refresh-and-view/Garden_01_Layout.html" class="nav-card" target="_blank">
-        <div class="nav-card-title">🗺️ Layout</div>
-        <p class="nav-card-desc">Current garden layout (Panels 1-18)</p>
-      </a>
-
-      <a href="/refresh-and-view/Garden_02_Plant_by_Plant_Summary.html" class="nav-card" target="_blank">
-        <div class="nav-card-title">🌱 Plant Summary</div>
-        <p class="nav-card-desc">All plants with containers and notes</p>
-      </a>
-    </div>
+    <p class="note" style="text-align: center; margin-top: 24px;">(
+      <a href="#top">⬆️ Back to Top</a>)
+    </p>
 
     {% if error %}
     <div class="error-message">
