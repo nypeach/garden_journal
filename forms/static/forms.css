@@ -144,6 +144,7 @@ textarea {
   color: var(--muted);
   margin-top: 4px;
   font-style: italic;
+  word-break: break-all;
 }
 
 /* Buttons */
@@ -300,6 +301,7 @@ input[type="text"],
 input[type="number"],
 input[type="date"],
 input[type="time"],
+input[type="file"],
 select,
 textarea {
   box-sizing: border-box;
@@ -326,7 +328,7 @@ textarea {
   border: 1px solid var(--rule);
   border-radius: 8px;
   padding: 16px;
-  background: #fafafa;
+  background: white;
   margin-bottom: 12px;
 }
 
@@ -366,6 +368,40 @@ textarea {
   font-size: 12px;
   padding: 6px 8px;
   width: 100%;
+}
+
+.photo-thumb-wrapper {
+  text-align: center;
+}
+
+.photo-datetime {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.photo-preview-item .form-group {
+  margin: 0 0 10px 0;
+}
+
+.photo-caption-input {
+  padding: 6px 8px;
+  width: 100%;
+}
+
+/* Photo upload section styling */
+.photo-upload-section {
+  background: white;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.btn-photo-remove {
+  padding: 8px 12px;
+  font-size: 13px;
+  align-self: flex-start;
 }
 
 /* Repeatable item containers (Q&A, Actions, Plant Observations) */

@@ -254,25 +254,25 @@
       actionDiv.className = 'form-group';
       actionDiv.id = `action-${actionCount}`;
       actionDiv.innerHTML = `
-        <div style="border: 1px solid var(--rule); border-radius: 6px; padding: 16px; margin: 12px 0;">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-            <strong>Action #${actionCount}</strong>
-            <button type="button" onclick="removeAction(${actionCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
-          </div>
-          <div class="form-group">
-            <label for="action_desc_${actionCount}">Description</label>
-            <input type="text" id="action_desc_${actionCount}" name="action_desc_${actionCount}" placeholder="Fertilize tomatoes, reseed arugula, etc." />
-          </div>
-          <div class="form-group">
-            <label for="action_date_${actionCount}">Target Date (optional)</label>
-            <input type="date" id="action_date_${actionCount}" name="action_date_${actionCount}" />
-          </div>
-          <div class="form-group">
-            <label for="action_timeframe_${actionCount}">Target Timeframe (optional)</label>
-            <input type="text" id="action_timeframe_${actionCount}" name="action_timeframe_${actionCount}" placeholder="in 3 days, next week, etc." />
-          </div>
-        </div>
-      `;
+    <div class="repeatable-item">
+      <div class="repeatable-item-header">
+        <span class="item-label">Action #${actionCount}</span>
+        <button type="button" onclick="removeAction(${actionCount})" class="btn btn-secondary btn-sm">Remove</button>
+      </div>
+      <div class="form-group">
+        <label for="action_desc_${actionCount}">Description</label>
+        <input type="text" id="action_desc_${actionCount}" name="action_desc_${actionCount}" placeholder="Fertilize tomatoes, reseed arugula, etc." />
+      </div>
+      <div class="form-group">
+        <label for="action_date_${actionCount}">Target Date (optional)</label>
+        <input type="date" id="action_date_${actionCount}" name="action_date_${actionCount}" />
+      </div>
+      <div class="form-group">
+        <label for="action_timeframe_${actionCount}">Target Timeframe (optional)</label>
+        <input type="text" id="action_timeframe_${actionCount}" name="action_timeframe_${actionCount}" placeholder="in 3 days, next week, etc." />
+      </div>
+    </div>
+  `;
       container.appendChild(actionDiv);
     }
 
@@ -300,10 +300,10 @@
       ).join('');
 
       obsDiv.innerHTML = `
-        <div style="border: 1px solid var(--rule); border-radius: 8px; padding: 20px; margin: 16px 0; background: #fafafa;">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div class="repeatable-item-large">
+          <div class="repeatable-item-header">
             <h2>Plant Observation #${plantObsCount}</h2>
-            <button type="button" onclick="removePlantObservation(${plantObsCount})" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">Remove</button>
+            <button type="button" onclick="removePlantObservation(${plantObsCount})" class="btn btn-secondary btn-sm">Remove</button>
           </div>
 
           <!-- Plant Selection & Time -->
@@ -443,20 +443,22 @@
           <!-- PHASE 3: PHOTOS SECTION -->
           <h2><span>📷</span> Photos</h2>
 
-          <div class="form-group">
-            <label for="photo_input_${plantObsCount}">
-              Select Photos from Google Drive
-            </label>
-            <input
-              type="file"
-              id="photo_input_${plantObsCount}"
-              name="photo_input_${plantObsCount}"
-              accept="image/jpeg,image/jpg"
-              multiple
-              onchange="handlePhotoSelection(${plantObsCount}, this.files)"
-            />
-            <div class="help-text">
-              Browse to: ~/Library/CloudStorage/GoogleDrive.../My Drive/GardenPhotos/
+          <div class="photo-upload-section">
+            <div class="form-group">
+              <label for="photo_input_${plantObsCount}">
+                Select Photos from Google Drive
+              </label>
+              <input
+                type="file"
+                id="photo_input_${plantObsCount}"
+                name="photo_input_${plantObsCount}"
+                accept="image/jpeg,image/jpg"
+                multiple
+                onchange="handlePhotoSelection(${plantObsCount}, this.files)"
+              />
+              <div class="help-text">
+                Browse to: ~/Library/CloudStorage/GoogleDrive.../My Drive/GardenPhotos/
+              </div>
             </div>
           </div>
 
@@ -755,53 +757,53 @@
         const photoDiv = document.createElement('div');
         photoDiv.className = 'photo-preview-item';
         photoDiv.innerHTML = `
-          <div class="photo-preview-layout">
-            <div style="text-align: center;">
-              <img src="${photo.preview}" class="photo-preview-thumb" alt="Preview" />
-              <div style="font-size: 11px; color: var(--muted); margin-top: 4px;">
-                ${dateStr}<br>${timeStr}
-              </div>
-            </div>
-            <div class="photo-preview-fields">
-              <div class="form-group" style="margin: 0 0 10px 0;">
-                <label style="font-size: 13px; font-weight: 600;">Filename:</label>
-                <input
-                  type="text"
-                  value="${photo.suggestedFilename}"
-                  onchange="updatePhotoFilename(${plantObsId}, ${index}, this.value)"
-                  style="font-family: monospace; font-size: 12px; padding: 6px 8px; width: 100%;"
-                />
-              </div>
-              <div class="form-group" style="margin: 0 0 10px 0;">
-                <label style="font-size: 13px;">Caption:</label>
-                <input
-                  type="text"
-                  placeholder="Before pruning, closeup of leaves, etc."
-                  onchange="updatePhotoCaption(${plantObsId}, ${index}, this.value)"
-                  value="${photo.caption}"
-                  style="padding: 6px 8px; width: 100%;"
-                />
-              </div>
-              <div class="form-group" style="margin: 0;">
-                <label style="font-size: 13px;">Tags:</label>
-                <input
-                  type="text"
-                  placeholder="before_pruning, closeup, diseased_leaves"
-                  onchange="updatePhotoTags(${plantObsId}, ${index}, this.value)"
-                  value="${photo.tags}"
-                  style="padding: 6px 8px; width: 100%;"
-                />
-              </div>
-            </div>
-            <button type="button" onclick="removePhoto(${plantObsId}, ${index})" class="btn btn-secondary" style="padding: 8px 12px; font-size: 13px; align-self: flex-start;">
-              Remove
-            </button>
+      <div class="photo-preview-layout">
+        <div class="photo-thumb-wrapper">
+          <img src="${photo.preview}" class="photo-preview-thumb" alt="Preview" />
+          <div class="photo-datetime">
+            ${dateStr}<br>${timeStr}
           </div>
-          <div class="photo-size-info">
-            Original: ${photo.originalFile.name} (${(photo.originalFile.size / 1024).toFixed(0)} KB) →
-            Compressed: ~${(photo.compressedBlob.size / 1024).toFixed(0)} KB
+        </div>
+        <div class="photo-preview-fields">
+          <div class="form-group">
+            <label class="photo-field-label">Filename:</label>
+            <input
+              type="text"
+              class="photo-field-input"
+              value="${photo.suggestedFilename}"
+              onchange="updatePhotoFilename(${plantObsId}, ${index}, this.value)"
+            />
           </div>
-        `;
+          <div class="form-group">
+            <label>Caption:</label>
+            <input
+              type="text"
+              class="photo-caption-input"
+              placeholder="Before pruning, closeup of leaves, etc."
+              onchange="updatePhotoCaption(${plantObsId}, ${index}, this.value)"
+              value="${photo.caption}"
+            />
+          </div>
+          <div class="form-group">
+            <label>Tags:</label>
+            <input
+              type="text"
+              class="photo-caption-input"
+              placeholder="before_pruning, closeup, diseased_leaves"
+              onchange="updatePhotoTags(${plantObsId}, ${index}, this.value)"
+              value="${photo.tags}"
+            />
+          </div>
+        </div>
+        <button type="button" onclick="removePhoto(${plantObsId}, ${index})" class="btn btn-secondary btn-photo-remove">
+          Remove
+        </button>
+      </div>
+      <div class="photo-size-info">
+        Original: ${photo.originalFile.name} (${(photo.originalFile.size / 1024).toFixed(0)} KB) →
+        Compressed: ~${(photo.compressedBlob.size / 1024).toFixed(0)} KB
+      </div>
+    `;
         container.appendChild(photoDiv);
       });
     }

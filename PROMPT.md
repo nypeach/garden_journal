@@ -328,7 +328,52 @@ Visual dashboard showing detailed plant information including origin/history, cu
 
 _To be developed after completing Journal Entries page and Daily Entry workflow testing_
 
+---
 
+## 📋 NEXT PRIORITIES
+
+1. **Test Daily Entry form end-to-end** with photos   ⬅️ _We are here_
+2. **Verify all data flows properly** through API endpoints
+3. **Import historical data** from ChatGPT conversations (Oct 8 - To Date)
+
+#### 🗺️ Where We Are Now
+- All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling).
+- Data manager updated with container_size and soil_mix parameters.
+- Fixed template syntax error in plant_summary_template.html.
+- Unified all templates and forms with consistent CSS
+- Unified green color (#22642f), strawberry red hover (#c41e3a) for all links
+- Fixed headers completed on all 4 static page templates with "🌿 Back to Home" links (front_page, layout, plant_summary, daily_journal)
+- Fixed headers completed on all 4 forms with "❌ Cancel" links (index, add_plant, move_plant, add_entry)
+- Gap reduction CSS: first h2 elements pull up by -18px after fixed header
+- Index.html enhanced with "Skip to Getting Started" and "Back to Top" navigation
+- Templates reference styles.css (copied from forms/static/base.css by html_generator.py)
+- Moved all inline CSS from add_entry.html to forms.css
+- Replaced .section-header with h2+dividers in add_entry.html
+- Fixed addQA() and addPlantQA() functions to use CSS classes instead of inline styles
+- Q&A boxes use .repeatable-item class with white backgrounds
+- Completed all JavaScript inline style cleanup in add_entry.html (addQA, addAction, addPlantObservation, addPlantQA, displayPhotoPreview)
+- All dynamically generated content uses CSS classes (.repeatable-item, .item-label, .photo-upload-section, etc.)
+
+
+#### 🔄 Continue From Here
+
+**Next steps:**
+* ⬅️ Add "❌ Close" links to all static page templates - Next up
+  * Update front_page_template.html (change "🌿 Back to Home" → "❌ Close")
+  * Update layout_template.html (change "🌿 Back to Home" → "❌ Close")
+  * Update plant_summary_template.html (change "🌿 Back to Home" → "❌ Close")
+  * Update daily_journal_template.html (change "🌿 Back to Home" → "❌ Close")
+* 🆕 Journal Entries Page
+  * Add "📖 Journal Entries" tile to index.html View Journal section
+  * Create journal entries list page with links to all daily journal pages
+  * Optional filters (by date range, plant, etc.)
+  * Already has "❌ Close" from template updates above
+* Continue testing Daily Entry workflow
+* Import Historical data
+
+**After that:** 🆕 V14: Master Garden Dashboard (see V14 Requirements and Plan above)
+
+---
 ## 💡 CONTEXT FOR AI ASSISTANT
 
 - User is Jodi, tracking a container garden in Miami, Florida
@@ -373,69 +418,13 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
 Example format:
 ```
      Task List:
-     * Resolve Issues
-       * ✅ Issue 1: Description - COMPLETE
-       * ✅ Issue 2: Description - COMPLETE
-       * 🚨 Issue 3: Critical bug - BLOCKER
+
+     * ✅ ~~Create fixed header on static pages~~ - COMPLETE
+     * ✅ ~~Update add_entry.html JavaScript - Remove inline styles~~ - COMPLETE
      * ⬅️ Build Feature X - Working on this now
        * Sub-detail 1
        * Sub-detail 2
      * 🆕 Add Feature Y
        * Sub-detail 1
 ```
-- **Title Formatting:** In HTML templates, both `<title>` tags and `<h1>` headings should use colons (`:`) not em-dashes
 - **IMPORTANT:** When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
-
----
-
-## 📋 NEXT PRIORITIES
-
-1. **Fix template syntax error** in `plant_summary_template.html`
-2. **Test Daily Entry form end-to-end** with photos
-3. **Verify all data flows properly** through API endpoints
-4. **Import historical data** from ChatGPT conversations (Oct 8 - Nov 9)
-
----
-
-## 🔄 Continue from here
-
-**Where we are:** All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling). Data manager updated with container_size and soil_mix parameters. Fixed template syntax error in plant_summary_template.html. Unified all templates and forms with consistent CSS:
-- Unified green color (#22642f), strawberry red hover (#c41e3a) for all links
-- Fixed headers completed on all 4 static page templates with "🌿 Back to Home" links (front_page, layout, plant_summary, daily_journal)
-- Fixed headers completed on all 4 forms with "❌ Cancel" links (index, add_plant, move_plant, add_entry)
-- Gap reduction CSS: first h2 elements pull up by -18px after fixed header
-- Index.html enhanced with "Skip to Getting Started" and "Back to Top" navigation
-- Templates reference styles.css (copied from forms/static/base.css by html_generator.py)
-- Moved all inline CSS from add_entry.html to forms.css
-- Replaced .section-header with h2+dividers in add_entry.html
-- Fixed addQA() and addPlantQA() functions to use CSS classes instead of inline styles
-- Q&A boxes use .repeatable-item class with white backgrounds
-
-**Next steps:**
-
-* Resolve Issues
-  * ✅ ~~Issue 1: Tile buttons regenerate pages~~ - COMPLETE
-  * ✅ ~~Issue 2: Container_size saving~~ - COMPLETE
-  * ✅ ~~Issue 3: Container display format~~ - COMPLETE
-  * ✅ ~~Issue 4: Template Syntax Error~~ - COMPLETE
-* ✅ ~~Create fixed header on static pages~~ - COMPLETE
-* ⬅️ Update add_entry.html JavaScript - Remove inline styles - Almost complete
-  * ✅ ~~addQA() function~~ - COMPLETE (uses .item-label, .repeatable-item, .btn-sm)
-  * ✅ ~~addPlantQA() function~~ - COMPLETE (uses .item-label, .repeatable-item, .btn-xs)
-  * 🆕 addAction() function - Next up
-  * 🆕 addPlantObservation() function
-  * 🆕 displayPhotoPreview() function
-* 🆕 Add "❌ Close" links to all static page templates
-  * Update front_page_template.html (change "🌿 Back to Home" → "❌ Close")
-  * Update layout_template.html (change "🌿 Back to Home" → "❌ Close")
-  * Update plant_summary_template.html (change "🌿 Back to Home" → "❌ Close")
-  * Update daily_journal_template.html (change "🌿 Back to Home" → "❌ Close")
-* 🆕 Journal Entries Page
-  * Add "📖 Journal Entries" tile to index.html View Journal section
-  * Create journal entries list page with links to all daily journal pages
-  * Optional filters (by date range, plant, etc.)
-  * Already has "❌ Close" from template updates above
-* Continue testing Daily Entry workflow
-* Import Historical data
-
-**After that:** 🆕 V14: Master Garden Dashboard (see V14 Requirements and Plan above)
