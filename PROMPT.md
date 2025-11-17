@@ -26,17 +26,17 @@ garden-journal/
 ├── .gitignore
 ├── PROMPT.md
 ├── .claude/
-├── chatGPT_conversations/ (PDFs of chat history)
+├── chatGPT_conversations/ (gitignored PDFs of chat history)
+│   ├── html_examples/ (reference files from ChatGPT)
+│   ├── html_printed_pdfs/ (reference files from ChatGPT)
 ├── data/
 │   ├── garden_data.json            # Your actual garden data
 │   ├── garden_data.example.json
-│   ├── backups/                    # Timestamped backups (gitignored)
-│   └── data.py (untracked - work in progress)
+│   └── backups/                    # Timestamped backups (gitignored)
 ├── docs/
 │   ├── data-structure.md
 │   ├── photo-naming.md
 │   └── webform.md                  # Web forms requirements (VERSION 1.0)
-├── html_examples/ (reference files from ChatGPT)
 ├── output/ (gitignored - generated HTML files)
 ├── photos/ (gitignored - photo files)
 ├── scripts/
@@ -148,6 +148,7 @@ garden-journal/
 - Photo display with captions
 - Timezone-aware date formatting (EST)
 - Error handling and validation
+- Copies `forms/static/base.css` → `output/styles.css` for templates
 
 **Tested:** Successfully generates all pages
 
@@ -309,7 +310,7 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
 - All dynamically generated content uses CSS classes (.repeatable-item, .item-label, .photo-upload-section, etc.)
 
 
-#### 🔄 Continue From Here
+#### 📄 Continue From Here
 
 **Next steps:**
 * ⬅️ Add "❌ Close" links to all static page templates - Next up
@@ -330,6 +331,35 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
 ---
 ## 💡 CONTEXT FOR AI ASSISTANT
 
+### 🚨 CRITICAL: About This PROMPT.md File
+
+**What this file is:**
+This PROMPT.md file is THE MOST CRITICAL file in this project. It serves as the complete handoff document that allows the user (Jodi) to start a new Claude conversation when conversation limits are reached, without having to re-explain the entire project context, architecture, current status, and work-in-progress. This file IS the project's continuity mechanism.
+
+**The frustrating bug that keeps happening:**
+Claude has been inconsistently rendering this file in two different ways when creating or updating it as an artifact:
+1. **CORRECT:** As a code artifact showing raw markdown (what we need for copy/paste)
+2. **INCORRECT:** As a document artifact showing rendered HTML preview (useless for copy/paste)
+
+This artifact type switching has happened MID-CONVERSATION without any change in user request, and it has been the single most frustrating technical issue in this entire project. When the artifact renders as HTML preview instead of raw markdown code, Jodi cannot copy the raw markdown to save the file.
+
+**EXPLICIT INSTRUCTION - READ CAREFULLY:**
+When creating or updating PROMPT.md, you MUST ALWAYS use a **code artifact** (`application/vnd.ant.code`) with `language="markdown"`, NOT a document artifact (`text/markdown`).
+
+- If PROMPT.md appears as formatted/styled text with headers, bullets, and styling instead of raw markdown code with visible `#` and `*` characters, you have done it WRONG.
+- If this happens, you must immediately regenerate it as a code artifact.
+- The artifact header should show "Code" not just the filename.
+- Jodi needs to see and copy raw markdown, not a pretty preview.
+
+This is non-negotiable and must never be violated.
+
+**Updating the timestamp:**
+When the user requests an update to PROMPT.md, always ask them for the current date and time before generating the updated file. Update the **Last Updated:** field at the top of the document with the format: `Day, Month DD, YYYY @ HH:MM AM/PM TZ` (e.g., "Monday, November 17, 2025 @ 5:25 AM EST"). This ensures the handoff document always reflects when it was last modified.
+
+---
+
+### 👤 User & Project Context
+
 - User is Jodi, tracking a container garden in Miami, Florida
 - Started garden Oct 8, 2025
 - Currently has 18 fence panels numbered 1-18 with gate between 11-12
@@ -343,57 +373,73 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
 - **Photo workflow validated** - drag from Photos app → Google Drive folder → select in form → compress/rename → copy to repo
 - Technical level: Comfortable with Python, command line, GitHub
 - Always use `python3` commands (not `python`)
-- **Commit message format:** User prefers commit messages generated in a copyable bash format like:
+
+---
+
+### 🛠️ Technical Preferences
+
+**Commit message format:** User prefers commit messages generated in a copyable bash format like:
 ```
-  git add -A && git commit -m "Title
+git add -A && git commit -m "Title
 
-  - Bullet point 1
-  - Bullet point 2
-  - Bullet point 3"
+- Bullet point 1
+- Bullet point 2
+- Bullet point 3"
 ```
-  Always provide commit messages in this exact format, ready to copy/paste into terminal.
+Always provide commit messages in this exact format, ready to copy/paste into terminal.
 
-- **CRITICAL WORKFLOW:** When building features, work incrementally and WAIT for user verification at each step:
-  1. Build one component at a time
-  2. Let user test and verify it works correctly
-  3. WAIT for user confirmation before moving to next component
-  4. If user finds issues, fix them before proceeding
-  5. Do NOT move ahead to next feature until current one is confirmed working
-  6. User will explicitly say "let's move on" or "next" when ready
+---
 
-- **CRITICAL: Multi-Issue Testing Workflow**
-  When user identifies multiple issues/bugs during testing:
-  1. **FIRST:** Create a numbered list of ALL changes needed (file + brief description)
-     - Example: "1. update_entry.html - Fix date picker, 2. data_manager.py - Add validation"
-  2. **STOP and WAIT** for user to review the list
-  3. **THEN:** For ONLY the first item, list the specific changes you'll make
-     - Be detailed: "Will change line 45 from X to Y, add new function Z at line 60"
-  4. **STOP and WAIT** for user to approve with explicit "ok" or "go ahead"
-  5. **ONLY THEN** update the artifact
-  6. After artifact is updated and user has tested, ask: "Ready to move to item 2?"
-  7. Repeat steps 3-6 for each remaining item
-  8. **NEVER** make changes to multiple artifacts or multiple sections without explicit approval for each one
-  9. If user has questions about a proposed change, discuss it fully BEFORE updating the artifact
-- When there are multiple tasks/issues to work through, create a visible task list and keep it updated throughout the conversation:
-    - Use ✅ and ~~strikethrough~~ for completed items
-    - Use ⬅️ arrow for current work in progress
-    - Use 🆕 for newly identified items
-    - Include brief details under each item as needed
-    - Update the list after each task completion
-    - This helps maintain context and prevents losing track of progress
+### ⚙️ Workflow Requirements
+
+**CRITICAL WORKFLOW:** When building features, work incrementally and WAIT for user verification at each step:
+1. Build one component at a time
+2. Let user test and verify it works correctly
+3. WAIT for user confirmation before moving to next component
+4. If user finds issues, fix them before proceeding
+5. Do NOT move ahead to next feature until current one is confirmed working
+6. User will explicitly say "let's move on" or "next" when ready
+
+**CRITICAL: Multi-Issue Testing Workflow**
+When user identifies multiple issues/bugs during testing:
+1. **FIRST:** Create a numbered list of ALL changes needed (file + brief description)
+   - Example: "1. update_entry.html - Fix date picker, 2. data_manager.py - Add validation"
+2. **STOP and WAIT** for user to review the list
+3. **THEN:** For ONLY the first item, list the specific changes you'll make
+   - Be detailed: "Will change line 45 from X to Y, add new function Z at line 60"
+4. **STOP and WAIT** for user to approve with explicit "ok" or "go ahead"
+5. **ONLY THEN** update the artifact
+6. After artifact is updated and user has tested, ask: "Ready to move to item 2?"
+7. Repeat steps 3-6 for each remaining item
+8. **NEVER** make changes to multiple artifacts or multiple sections without explicit approval for each one
+9. If user has questions about a proposed change, discuss it fully BEFORE updating the artifact
+
+**Task List Tracking:**
+When there are multiple tasks/issues to work through, create a visible task list and keep it updated throughout the conversation:
+- Use ✅ and ~~strikethrough~~ for completed items
+- Use ⬅️ arrow for current work in progress
+- Use 🆕 for newly identified items
+- Include brief details under each item as needed
+- Update the list after each task completion
+- This helps maintain context and prevents losing track of progress
 
 Example format:
 ```
-     Task List:
+Task List:
 
-     * ✅ ~~Create fixed header on static pages~~ - COMPLETE
-     * ✅ ~~Update add_entry.html JavaScript - Remove inline styles~~ - COMPLETE
-     * ⬅️ Build Feature X - Working on this now
-       * Sub-detail 1
-       * Sub-detail 2
-     * 🆕 Add Feature Y
-       * Sub-detail 1
+* ✅ ~~Create fixed header on static pages~~ - COMPLETE
+* ✅ ~~Update add_entry.html JavaScript - Remove inline styles~~ - COMPLETE
+* ⬅️ Build Feature X - Working on this now
+  * Sub-detail 1
+  * Sub-detail 2
+* 🆕 Add Feature Y
+  * Sub-detail 1
 ```
-- **IMPORTANT:** Sometimes the artifact doesn't seem to get updated.  When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
+
+---
+
+### ⚠️ Important Reminders
+
+- **IMPORTANT:** Sometimes the artifact doesn't seem to get updated. When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
 - **IMPORTANT:** Only make changes that are explicitly requested - do not modify code, templates, or documentation beyond what is asked
 - **IMPORTANT:** If you ask the user a question, WAIT for their answer before generating any code, artifacts, or making changes. Do not assume an answer. **This includes questions about proposed changes during multi-issue workflows - get clarity BEFORE updating artifacts.**
