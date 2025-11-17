@@ -253,54 +253,6 @@ garden-journal/
 
 ---
 
-## 🚀 CURRENT STATUS
-
-**Priority 5: Bug Fixes & Remaining Issues** ⬅️ **IN PROGRESS!**
-
-### Task List:
-
-**🚨 Issue 0: Template Syntax Error (BLOCKER)**
-- Template: `plant_summary_template.html` line 36
-- Problem: Stray `{% endif %}` tag inside `<ul>` doesn't match any opening `{% if %}`
-- Impact: Blocks template rendering and testing
-- Status: Identified, needs fix
-
-**✅ ~~Issue 1: Tile buttons regenerate pages~~ - COMPLETE**
-- Added `/refresh-and-view` route
-- All tiles now regenerate before displaying
-
-**✅ ~~Issue 2: Container_size saving~~ - COMPLETE**
-- Updated `data_manager.add_plant()` to accept and save `container_size`
-- Updated `data_manager.move_plant()` to accept and save `container_size` and `soil_mix`
-- Fixed parameter order in `move_plant` (required before optional)
-- Added fields to Move Plant form
-- Updated API endpoints
-
-**✅ ~~Issue 3: Container display format~~ - COMPLETE**
-- Plant Summary template shows: "Container: type, size"
-- Format: "Container: Round Pot (clear), 19.3 fl oz / 570 mL"
-- Implemented in both stake and regular plant sections
-
-**🆕 Issue 4: Fixed header on static pages**
-- Header fixed at top (scrollable content below)
-- Contains "🌿 Back to Home" link
-- Link closes current tab and returns to Garden Journal tab
-
-**🆕 Issue 5: Container name handling from daily entries**
-- Need to handle `container_name` changes when entered in daily observations
-- Update plant's `current_location.container_name` if different
-
-**🆕 Issue 6: Journal routes and navigation**
-- Create `/journal/current` link (all entries in chapter format)
-- Create `/journal/current_2025` route linking to `/journal.html`
-
-**🆕 Issue 7: Status change handling**
-- When plant status changes in daily entry:
-  - Generate status changes section in journal
-  - Update plant summary appropriately
-  - Track status_date and status_reason
-
----
 ## 🎯 V14: MASTER GARDEN DASHBOARD (New Feature)
 
 ### 1. V14 Requirements
@@ -330,11 +282,13 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
 
 ---
 
-## 📋 NEXT PRIORITIES
+## 📋 PRIORITIES
 
 1. **Test Daily Entry form end-to-end** with photos   ⬅️ _We are here_
 2. **Verify all data flows properly** through API endpoints
 3. **Import historical data** from ChatGPT conversations (Oct 8 - To Date)
+
+### 🚀 CURRENT STATUS
 
 #### 🗺️ Where We Are Now
 - All 3 phases of Daily Entry form complete (basic fields, plant observations, photo handling).
@@ -398,8 +352,7 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
   - Bullet point 3"
 ```
   Always provide commit messages in this exact format, ready to copy/paste into terminal.
-- **IMPORTANT:** Only make changes that are explicitly requested - do not modify code, templates, or documentation beyond what is asked
-- **IMPORTANT:** If you ask the user a question, WAIT for their answer before generating any code, artifacts, or making changes. Do not assume an answer.
+
 - **CRITICAL WORKFLOW:** When building features, work incrementally and WAIT for user verification at each step:
   1. Build one component at a time
   2. Let user test and verify it works correctly
@@ -407,13 +360,27 @@ _To be developed after completing Journal Entries page and Daily Entry workflow 
   4. If user finds issues, fix them before proceeding
   5. Do NOT move ahead to next feature until current one is confirmed working
   6. User will explicitly say "let's move on" or "next" when ready
-7. When there are multiple tasks/issues to work through, create a visible task list and keep it updated throughout the conversation:
-   - Use ✅ and ~~strikethrough~~ for completed items
-   - Use ⬅️ arrow for current work in progress
-   - Use 🆕 for newly identified items
-   - Include brief details under each item as needed
-   - Update the list after each task completion
-   - This helps maintain context and prevents losing track of progress
+
+- **CRITICAL: Multi-Issue Testing Workflow**
+  When user identifies multiple issues/bugs during testing:
+  1. **FIRST:** Create a numbered list of ALL changes needed (file + brief description)
+     - Example: "1. update_entry.html - Fix date picker, 2. data_manager.py - Add validation"
+  2. **STOP and WAIT** for user to review the list
+  3. **THEN:** For ONLY the first item, list the specific changes you'll make
+     - Be detailed: "Will change line 45 from X to Y, add new function Z at line 60"
+  4. **STOP and WAIT** for user to approve with explicit "ok" or "go ahead"
+  5. **ONLY THEN** update the artifact
+  6. After artifact is updated and user has tested, ask: "Ready to move to item 2?"
+  7. Repeat steps 3-6 for each remaining item
+  8. **NEVER** make changes to multiple artifacts or multiple sections without explicit approval for each one
+  9. If user has questions about a proposed change, discuss it fully BEFORE updating the artifact
+- When there are multiple tasks/issues to work through, create a visible task list and keep it updated throughout the conversation:
+    - Use ✅ and ~~strikethrough~~ for completed items
+    - Use ⬅️ arrow for current work in progress
+    - Use 🆕 for newly identified items
+    - Include brief details under each item as needed
+    - Update the list after each task completion
+    - This helps maintain context and prevents losing track of progress
 
 Example format:
 ```
@@ -427,4 +394,6 @@ Example format:
      * 🆕 Add Feature Y
        * Sub-detail 1
 ```
-- **IMPORTANT:** When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
+- **IMPORTANT:** Sometimes the artifact doesn't seem to get updated.  When the user asks you to update PROMPT.md or any other file, FIRST tell them in the chat what you changed (list the specific changes), THEN provide the updated file so they can verify the changes match what you said.
+- **IMPORTANT:** Only make changes that are explicitly requested - do not modify code, templates, or documentation beyond what is asked
+- **IMPORTANT:** If you ask the user a question, WAIT for their answer before generating any code, artifacts, or making changes. Do not assume an answer. **This includes questions about proposed changes during multi-issue workflows - get clarity BEFORE updating artifacts.**
