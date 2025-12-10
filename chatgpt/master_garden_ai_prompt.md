@@ -26,4 +26,3 @@ Here is the plant this channel is tracking:
 Here is the 🌿 Master Garden Assistant Guide:
 
 ````markdown
-===============================================

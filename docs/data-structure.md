@@ -3,27 +3,31 @@ _Last Updated: December 8, 2025 6:39 PM_
 ===============================================
 # Garden Journal Data Structure
 
-**VERSION:** 14
-**Last Updated: 2025-11-20**
+**VERSION:** 1
+**Last Updated: 2025-12-10**
 
 ---
 
 ## Overview
 
-The garden journal uses a single JSON file (`data/master_garden_data.json`) to store all garden data. Version 14 is a rework of the entire project.  It simplifies the data and html into a single object for each plant and a single web page with multiple sections.
+The 🌿 Master Garden Dashboard uses multiple JSON files to store all garden data.
 
 ## File Location
 
 ```
-data/master_garden_data.json
+data/meta.json
+data/plants.json
+data/containers.json
+data/products.json
+
 ```
 
 ## Root Structure
 
 ```json
 {
-  "_schema_version": "14",
-  "_last_updated": "2025-11-20",
+  "_schema_version": "1",
+  "_last_updated": "2025-12-10",
   "metadata": { },
   "products": [ ],
   "containers": [ ],
@@ -33,7 +37,7 @@ data/master_garden_data.json
 
 ---
 
-## What's New in Version 14
+## What's New in Version 1
 
 ### New in This Version
 
@@ -49,8 +53,8 @@ Basic information about your garden.
 {
   "metadata": {
     "garden_name": "Jodi's Garden Journal",
-    "start_date": "20251008",
-    "location": "Miami, Florida",
+    "start_date": "October 8, 2025",
+    "location": "Loxahatchee, Florida",
     "garden_type": "Campsite Fenced Front Yard Garden"
   }
 }
@@ -59,7 +63,7 @@ Basic information about your garden.
 ### Fields
 
 - `garden_name` (string) - Display name for your garden
-- `start_date` (string) - Date garden started (YYYYMMDD)
+- `start_date` (string) - Date garden started (MMMM, D, YYYY)
 - `location` (string) - Geographic location
 - `garden_type` (string) - Type of garden setup
 
