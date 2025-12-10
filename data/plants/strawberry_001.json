@@ -1,0 +1,1041 @@
+{
+  "id": "strawberry_001",
+  "status": "Active",
+  "plant": "Strawberry (Left)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 4",
+  "container": "Round pot, 2.32 qt, black",
+  "soil_mix": "Miracle-Gro Organic Potting Mix",
+  "origin_history": [
+    "Bought at Lowe's on Oct 8, 2025 in 25 oz container with nursery potting mix.",
+    "Transplanted to former Cherry Tomato pot using sand/topsoil base with Miracle-Gro Potting Mix.",
+    "Removed loose soil and repotted in the same container with Miracle-Gro Organic Potting Mix."
+  ],
+  "whats_been_logged": "The plant has moved from early bud formation into steady flowering and reliable fruit development. Older foliage showed isolated leaf-spot that remained contained after selective pruning, while new growth has stayed clean and vigorous. Improvements to soil structure after repotting have supported more even moisture and stronger root aeration, allowing the plant to maintain stable foliage and continually produce healthy blossoms and berries.",
+  "current_stage": "Active Flowering & Early Fruiting",
+  "current_state": "The plant is an established container-grown strawberry in active flowering and early fruiting. It shows strong new growth, good moisture balance, and healthy developing berries. Minor leaf-spot remains confined to older leaves with no active spreading, and the plant is recovering well from earlier alkaline soil issues.",
+  "timeline": [
+    {
+      "stage": "Leaf-spot cleanup & soil fix complete",
+      "date_range": "Nov 11 - Nov 13, 2025"
+    },
+    {
+      "stage": "Stabilization complete",
+      "date_range": "Nov 14 - Nov 19, 2025"
+    },
+    {
+      "stage": "Early fruit swell",
+      "date_range": "Nov 19 - Dec 2, 2025"
+    },
+    {
+      "stage": "Color change & berry sizing",
+      "date_range": "Dec 2 - Dec 15, 2025"
+    },
+    {
+      "stage": "First ripe berries",
+      "date_range": "Dec 15, 2025 - Jan 5, 2026"
+    },
+    {
+      "stage": "Second bloom/fruit cycle",
+      "date_range": "Jan 5 - Jan 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:26 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.31",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "176",
+        "moisture_mScm": "60.00",
+        "light": "64",
+        "rh_percent": "54",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "64.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows upright, well-hydrated foliage with vibrant new leaves and a stable crown. Leaf spot appears unchanged from prior days with no spread into new growth. Several developing berries are firm and uniformly shaped, and new flower buds are emerging. Soil texture is aerated following light fluffing, and a mulch ring is neatly placed beneath hanging berries while keeping the crown fully exposed. Probe readings show an artificially high pH and fertility level, consistent with freshly disturbed soil and recently added potting mix rather than true root-zone conditions.",
+      "actions": "Take no corrective action for pH as readings are distorted by soil disturbance. Do not apply copper or neem due to wet conditions. Do not water as moisture is sufficient and rainfall is expected. Leave the mulch ring in place beneath fruit to prevent soil contact and maintain berry cleanliness.",
+      "next_steps": "Recheck probe values once the soil settles to confirm normalization of pH. Continue monitoring for any new leaf spot activity on emerging foliage. Observe berry development as color change approaches. Plan copper treatment only on a dry, cool morning should new lesions appear.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:26 AM] Filled probe hole, fluffed soil lightly, and added Miracle-Gro Moisture Control Potting Mix. Arranged mulch ring beneath fruit while keeping crown clear."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing open blossom, healthy canopy, and newly added mulch ring.",
+          "tags": "strawberry, canopy, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead shot highlighting multiple new berries resting safely on mulch.",
+          "tags": "strawberry, developing-berries, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing plant posture and proper mulch placement away from the crown.",
+          "tags": "strawberry, crown, side-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Underside view of crown area confirming clear airflow and healthy new growth.",
+          "tags": "strawberry, crown, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing leaf spot remaining stable on older foliage with no spread to new leaves.",
+          "tags": "strawberry, leaf-spot, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:44 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.58",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "74.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows vigorous new growth with clean, bright leaves and a strong crown. A vibrant red flower is open and several developing berries are firm and healthy. The previously concerning leaf spot appears limited to a few older lesions with no clear expansion onto new foliage. Soil texture is loose and well aerated, and berries are forming normally. Overall posture is upright and productive.",
+      "actions": "Do not apply copper or neem today due to rainfall and humidity. Do not water as moisture is adequate and rain is expected to increase soil moisture. Add a small amount of mulch beneath developing berries to prevent direct soil contact while keeping mulch away from the crown and stems.",
+      "next_steps": "Monitor for any new leaf spot on recently emerged foliage after rain passes. Recheck moisture once weather stabilizes and water only if readings fall below mid-range. Plan copper application only on a cool, dry morning if new lesions appear. Continue rotating pot periodically for even light exposure.",
+      "q_and_a_summary": "Discussed whether mulch should be placed beneath berries to prevent soil contact; confirmed that a small, clean layer is beneficial and safe when kept away from the crown.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of upper foliage showing minimal older leaf spot and healthy new growth.",
+          "tags": "strawberry, foliage, leaf-spot"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting open red flower and developing berry cluster.",
+          "tags": "strawberry, flower, berries"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower canopy view showing crown structure and healthy leaf emergence.",
+          "tags": "strawberry, crown, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing overall posture and soil texture before rain.",
+          "tags": "strawberry, full-view, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle capturing developing pale berries hanging cleanly from the plant.",
+          "tags": "strawberry, developing-berries, side-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing balanced canopy, open flower, and berry positioning.",
+          "tags": "strawberry, top-view, canopy"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:27 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "5.13",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "144",
+        "moisture_mScm": "56.00",
+        "light": "97",
+        "rh_percent": "65",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "106.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong new growth with upright green leaves, active flowering, and multiple developing berries including one nearly ripe fruit. Soil appears evenly moist and well aerated. One leaf displays multiple circular purple-brown lesions with lighter centers consistent with active strawberry leaf spot, while newer foliage remains clean. Probe readings indicate slightly acidic pH, mid-range moisture, and hot midday soil temperatures typical for full sun exposure.",
+      "actions": "Remove the single worst spotted leaf by cutting the blade while leaving the petiole stub intact. Do not apply copper or neem today due to high temperatures and upcoming rain. Do not water as moisture is adequate. Lift any berries resting directly on the soil surface to prevent rot.",
+      "next_steps": "Monitor leaf spot progression over the next 24–48 hours and watch for any lesions on new foliage. Recheck moisture once weather stabilizes and water only when readings fall below mid-range. Plan for a light copper application on a cool, dry morning once weather conditions allow.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing healthy foliage and ripening berry.",
+          "tags": "strawberry, foliage, ripening-berry, top-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting fruit cluster with one red berry and developing others.",
+          "tags": "strawberry, berries, side-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Alternate side angle showing plant posture and soil structure.",
+          "tags": "strawberry, plant-posture, soil, side-angle"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of leaf displaying multiple circular leaf-spot lesions with purple margins.",
+          "tags": "strawberry, leaf-spot, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:47 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.02",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "18",
+        "moisture_mScm": "4.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "97.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The main strawberry continues ripening and is now deep red. A second bloom opened today with a bright pink flower. Leaf spot symptoms remain visible on several leaves, though no obvious rapid spread is observed. Soil is noticeably drier than previous days, consistent with the very low moisture reading.",
+      "actions": "Do not water immediately; evaluate moisture again in the evening or early tomorrow morning. Continue monitoring berry color and firmness for harvest readiness. Avoid overhead watering near the ripening fruit.",
+      "next_steps": "Plan to harvest the deep red berry once it reaches full color and shows slight softening. Recheck moisture within 12-24 hours and water when readings fall below 10 mS/cm or top inch is dry. Continue monitoring leaf spot on older foliage.",
+      "q_and_a_summary": "Discussed whether fungicide should be applied to both leaf surfaces. Guidance confirmed that coverage of both sides is ideal but should be done only during cool, shaded conditions. No treatment was applied today.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing deep red ripening berry and newly opened pink flower.",
+          "tags": "strawberry, ripening-berry, flower, deep-red"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:42 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "6.06",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "136",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "69",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Possible return of leaf spot visible on several leaves. Strawberries continue ripening with good color development. General plant posture and new growth appear strong despite windy conditions.",
+      "actions": "Do not water today as moisture is high at 70 mS/cm. Apply copper fungicide lightly to affected leaves during a low-wind, non-peak-sun window, covering both top and bottom surfaces when possible.",
+      "next_steps": "Monitor leaf spot progression over next 24-48 hours after fungicide application. Recheck moisture tomorrow to confirm gradual dry-down. Continue watching berry ripening and plan harvest when fruit is uniformly red and slightly soft.",
+      "q_and_a_summary": "Reviewed how to apply copper fungicide and whether both sides of leaves needed treatment. Discussion clarified optimal coverage and timing based on current wind and light conditions.",
+      "follow_up": [
+        "[11:58 AM] Applied copper fungicide to top of affected leaves and gently rubbed onto undersides during suitable weather window."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing leaf spot symptoms on older foliage before fungicide application.",
+          "tags": "strawberry, leaf-spot, fungicide-prep"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of ripening berries showing continued color development.",
+          "tags": "strawberry, berries, ripening"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "4:00 PM",
+      "conditions": "Mostly cloudy throughout the day with stable mid-70s°F temperatures. Light winds and high humidity, with possible showers expected around 6 PM. Overnight low near 69°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Primary berry is now turning fully red and appears nearly ripe. The berry has grown noticeably since yesterday and shows good color development. Leaf health overall appears stable with no new major lesion expansion. Previously trimmed problem leaves remain removed; surrounding young leaves are healthy. Soil surface shows moisture in the upper layer and appears uniformly settled after recent adjustments.",
+      "actions": "Do not water or prune today. General monitoring only as berry approaches harvest readiness.",
+      "next_steps": "Check berry color and firmness daily. Plan to harvest once uniformly red and slightly soft to touch. Continue monitoring leaf spot for any renewed activity. Water only if soil becomes noticeably dry before showers arrive.",
+      "q_and_a_summary": "Discussion focused on current state of the strawberry and weather context. The ripening berry was highlighted, and observations about stable leaf spot and overall plant improvement were reviewed. No corrective actions were requested.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing primary red berry and overall leaf posture.",
+          "tags": "strawberry, red-berry, full-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting mature berry and developing secondaries.",
+          "tags": "strawberry, berry-cluster, side-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of leaf spot areas showing no new lesion expansion.",
+          "tags": "strawberry, leaf-spot, stable"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down canopy view showing new growth and balanced foliage.",
+          "tags": "strawberry, canopy, top-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface showing even settling and moisture distribution.",
+          "tags": "strawberry, soil, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Detail showing ripening berry cluster and stem structure.",
+          "tags": "strawberry, berry-detail, stem"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "1:26 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "5.86",
+        "ec_mScm": "0.46",
+        "salt_mg_L": "231",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "27.3",
+        "soil_temp_f": "90.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears stable and vigorous with upright hydrated foliage and a compact canopy centered over the crown. The leading berry has turned bright red and is nearing full ripeness, while younger berries on the same truss are enlarging and showing clearer seed definition. Soil surface looks evenly moist and slightly mounded but structurally stable after recent top-ups. Previously pruned leaf stubs are drying normally without any signs of soft rot or crown injury.",
+      "actions": "Do not water again today; moisture is very high at 90 mS/cm after morning watering. Leave plant in usual sunny, breezy position to continue ripening fruit.",
+      "next_steps": "Allow pot to dry back toward mid-range moisture level before watering again. Monitor nearly red berry over next 24-48 hours and plan to harvest once color is uniform to slightly dark red, aromatic, and still firm. Continue observing older leaves for any new spotting but hold off on fungicides while disease remains stable.",
+      "q_and_a_summary": "Discussion focused on confirming that no extra interventions were needed while first berry finished ripening in breezy but mild weather. Agreed that high moisture reading was expected after morning watering and best course was to let mix dry naturally.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing leading berry bright red and hanging clearly over potting mix.",
+          "tags": "strawberry, berry-ripening, side-view, bright-red"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing compact healthy foliage and multiple developing berries near crown.",
+          "tags": "strawberry, canopy, top-view, berries"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of fruit cluster with one nearly ripe berry and younger green berries behind it.",
+          "tags": "strawberry, fruit-cluster, ripening"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower canopy and soil surface illustrating even moisture and normal healing at pruned leaf stem.",
+          "tags": "strawberry, soil, stem-health"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:30 AM",
+      "conditions": "Sunny, cool morning with expected high in mid-70s°F and overnight low near 60°F.",
+      "digital_probe": {
+        "ph": "6.02",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "163",
+        "moisture_mScm": "90.00",
+        "light": "96",
+        "rh_percent": "52",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "64.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant appears strong with upright, well-hydrated leaves and bright new growth emerging cleanly from the crown. The main berry has moved into early blush, showing first clear shift away from solid green along with gentle swelling. Soil structure looks loose and well aerated despite high moisture reading, reflecting both recent watering and cooler start to day. Runners are more evident and active, signaling transition from recovery into vegetative expansion.",
+      "actions": "Do not water since soil moisture is already high and conditions are cool. Avoid pruning or sprays, allowing plant to continue stabilizing in organic potting mix.",
+      "next_steps": "Allow container to dry gradually and avoid additional watering until readings fall back toward moderate moisture range. Continue watching ripening berry for steady color progression and check runners over coming days to decide whether to root or prune them based on space and fruiting goals.",
+      "q_and_a_summary": "Conversation centered on confirming that plant's improved posture, clean new leaves, and active runners were signs of successful recovery after soil reset. Agreed best approach was to avoid intervening and let current watering cycle and early ripening phase unfold naturally.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of plant with upright foliage and leading berry in early blush.",
+          "tags": "strawberry, top-view, berry-blush"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view capturing plant posture, crown position, and partially colored berry.",
+          "tags": "strawberry, side-view, crown, berry"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view highlighting runner initiation and improved soil leveling around crown.",
+          "tags": "strawberry, runners, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of primary berry showing early red tones and healthy seed pattern.",
+          "tags": "strawberry, berry-closeup, ripening"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "10:42 AM",
+      "conditions": "Cloudy with a high near 81°F dropping to 65°F overnight. Rainy conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.79",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "53",
+        "moisture_mScm": "41.00",
+        "light": "97",
+        "rh_percent": "65",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "81.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant remains vigorous with strong, turgid foliage and bright new growth at crown. The leading berry has shifted from solid green into earliest stages of white-to-pink transition, consistent with move into color-change phase. Several older leaves show distinct brown spotting consistent with mild fungal leaf spot, but newer leaves remain clean and unaffected. Soil level adjustments around probe holes are helping keep surface even and supporting stable moisture behavior.",
+      "actions": "Do not water due to both adequate moisture level and forecast for evening rain. Remove two heavily spotted older leaves on single stem by cutting leaf blades while leaving petiole stubs intact to avoid stressing crown.",
+      "next_steps": "Allow incoming rain to supplement soil moisture rather than watering again. Continue to observe leaf-spot-affected foliage and remove only worst individual leaves as needed while preserving overall leaf area. Watch reddening berry over next several days for rapid color change and softening as it approaches ripeness.",
+      "q_and_a_summary": "Main discussion focused on how aggressively to prune diseased foliage and whether to use neem oil or copper fungicide. Decided that removing only two worst leaves and leaving petiole stubs would reduce disease load without shocking plant, and that neither neem nor copper was warranted yet.",
+      "follow_up": [
+        "[11:36 AM] Removed two damaged leaves showing progressed leaf-spot lesions, leaving short petiole stubs that are drying normally and not contacting soil surface."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing healthy overall posture with some older leaves displaying leaf-spot lesions.",
+          "tags": "strawberry, leaf-spot, top-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of affected leaves illustrating circular brown spotting pattern.",
+          "tags": "strawberry, leaf-spot, closeup"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "After-pruning view showing clean removal of two worst leaves with short petiole stubs remaining and crown intact.",
+          "tags": "strawberry, pruning, after-view"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:42 AM",
+      "conditions": "Mostly cloudy with a high of 84°F and overnight low of 67°F. Thunderstorms expected around 4 PM with brief sun shower occurring at 11:15 AM.",
+      "digital_probe": {
+        "ph": "6.07",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "119",
+        "moisture_mScm": "56.00",
+        "light": "88",
+        "rh_percent": "63",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong post-repot stability with upright, well-hydrated leaves and clean new growth emerging from crown. Primary berry is clearly moving out of green stage and beginning to show subtle lightening and earliest blush, matching transition into color-change phase of development. Soil in organic mix appears evenly moist and well structured, with no signs of hydrophobic behavior or compaction. Legacy leaf-spot lesions remain confined to older foliage and do not appear to be spreading.",
+      "actions": "Do not water because soil moisture is already ideal and thunderstorms are expected to provide additional natural water later in day. Leave plant in place to take advantage of diffuse light from mostly cloudy conditions.",
+      "next_steps": "Allow storms to supply additional moisture and avoid supplementary watering unless readings later show clear drop. Continue to watch older spotted leaves for any signs of renewed activity and keep new foliage under observation for potential fresh lesions. Track berry's color and firmness daily as it progresses toward full ripeness.",
+      "q_and_a_summary": "Conversation emphasized confirming that plant had fully settled into new soil and that developing berry was progressing on schedule into early color change. Agreed that with rain on way and readings in healthy range, best approach was to avoid watering or spraying.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of foliage and berry showing strong posture and early color shift.",
+          "tags": "strawberry, top-view, berry, color-shift"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view capturing crown position, soil level, and developing berry.",
+          "tags": "strawberry, side-view, crown"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled shot highlighting clean new growth and stable crown after soil reset.",
+          "tags": "strawberry, new-growth, post-repot"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "4:03 PM",
+      "conditions": "Sunny all day with a high of 84°F and overnight low of 65°F.",
+      "digital_probe": {
+        "ph": "6.83",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "176",
+        "moisture_mScm": "67.00",
+        "light": "99",
+        "rh_percent": "41",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "93.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains upright and well hydrated despite warm, bright conditions, showing no signs of wilt in hours following afternoon watering. Leaf color is strong and new growth at crown appears clean, with legacy leaf-spot lesions unchanged from prior days. Soil surface looks evenly moist rather than patchy, indicating that organic mix is now distributing post-watering moisture more uniformly. Primary berry continues to size and firm, still in late green phase with seeds starting to darken slightly.",
+      "actions": "Do not water again today; readings taken approximately 1.5 hours after 2:33 PM watering. No additional pruning, sprays, or adjustments made.",
+      "next_steps": "Allow pot to dry down naturally before watering again, watching for moisture readings to fall back toward mid-range. Continue monitoring berry for first signs of color change and keep eye on older leaves to ensure leaf-spot lesions do not begin spreading onto new foliage.",
+      "q_and_a_summary": "No specific care questions this day; focus was on documenting how plant behaved after afternoon watering and confirming that resulting readings and plant posture looked normal. Discussion reinforced that new soil structure was helping water spread more evenly.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of plant with firm, upright foliage under bright sun.",
+          "tags": "strawberry, top-view, sunny"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of crown and berry cluster illustrating healthy coloration and structure after watering.",
+          "tags": "strawberry, berry, crown"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer angle on older spotted leaves showing no obvious increase in lesion size or number.",
+          "tags": "strawberry, leaf-spot, monitoring"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "View of soil surface highlighting even moisture and absence of deep probe holes after refilling and leveling.",
+          "tags": "strawberry, soil, moisture"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "10:33 AM",
+      "conditions": "Partly cloudy with a high of 81°F and overnight low of 61°F.",
+      "digital_probe": {
+        "ph": "7.14",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "69",
+        "fertility_percent": "8.5",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued improvement after repot, with upright leaf posture and clean, vigorous new growth. Older leaf-spot blemishes are unchanged and remain confined to legacy foliage. Main developing berry is enlarging normally with firm structure and healthy green calyx. Soil texture appears even and well aerated, and moisture is in comfortable mid-range following earlier watering cycles.",
+      "actions": "Do not water or prune at time of reading because moisture levels are stable and plant shows no signs of stress. Leave plant in usual sunny position to continue adapting to organic potting mix.",
+      "next_steps": "Monitor moisture over next couple days and water only when readings fall below mid-range or top layer feels dry. Continue observing berry for seed darkening and eventual color change, and keep watching older leaves to ensure leaf-spot lesions do not resume spreading.",
+      "q_and_a_summary": "Discussion focused on what to expect from developing green berry as it progresses through remaining stages. Clarified that fruit would first increase in size and show seed darkening, then move through pale green and white into pink and finally full red.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing strong leaf posture and main green berry developing steadily.",
+          "tags": "strawberry, top-view, fruit-development"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side-top angle of plant with primary berry and clean soil surface after repot.",
+          "tags": "strawberry, side-view, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer orientation on berry cluster highlighting firmness and seed development.",
+          "tags": "strawberry, berry-cluster, development"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Foliage and crown region showing vigorous new growth with no wilt.",
+          "tags": "strawberry, crown, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "12:29 PM",
+      "conditions": "Sunny with a high of 84°F and overnight low of 63°F.",
+      "digital_probe": {
+        "ph": "6.39",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "50.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "92.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows improved hydration and stronger leaf posture compared to prior day. New leaves appear clean and vigorous, and older leaf-spot remains stable without spreading. Developing berries continue to swell with healthy seed formation. Soil structure looks even and cohesive after recent adjustments, and moisture retention appears significantly improved. Afternoon heat is high but plant tolerates conditions well with no noticeable stress.",
+      "actions": "Do not water at time of reading, as moisture is at healthy level around 50 mS/cm. Leave plant in full sun with monitoring. Fertilizer withheld to avoid interfering with active fruit development.",
+      "next_steps": "Monitor leaf posture later in day for any heat-related droop. Water only if moisture falls below approximately 35 mS/cm or surface visibly dries. Rotate pot slightly for even sunlight coverage.",
+      "q_and_a_summary": "Discussed whether first or second digital probe reading was accurate; confirmed first reading reflected true soil conditions and second was anomaly caused by hitting moisture pocket. User asked whether plant could be fully lifted, loose soil removed, and repotted entirely in new potting mix; confirmed this was safe and recommended for improving soil structure. User asked step-by-step questions about how to place root ball, determine correct crown height, whether to rinse soil off leaves, and whether to water immediately after repotting.",
+      "follow_up": [
+        "[1:06 PM] Performed full soil correction repot. Lifted plant from container, shook off all loose non-rooted soil, and removed old sand/topsoil layer. Refilled pot with fresh organic potting mix, adjusted planting depth by adding soil beneath root ball, verified correct crown height, and backfilled while keeping crown exposed. Lightly rinsed soil from leaves and applied small settling water."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Initial placement check showing root ball positioned too high above rim before adjustments.",
+          "tags": "strawberry, repotting, root-ball, height-check"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Second positioning attempt where crown was still too elevated, confirming need for additional soil beneath root ball.",
+          "tags": "strawberry, repotting, crown-level, soil-adjustment"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Final test placement showing correct planting depth, with top of root ball below rim and crown ready to remain exposed once backfilled.",
+          "tags": "strawberry, repotting, correct-depth, crown-position"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Backfilling with fresh potting mix around root ball while keeping crown fully exposed.",
+          "tags": "strawberry, repotting, backfilling, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Fully backfilled pot showing even soil distribution, good crown visibility, and stable berry cluster after repotting.",
+          "tags": "strawberry, repotting, crown-exposed, post-repot"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Final placement outdoors after rinsing soil from leaves and providing light settling water; plant shows excellent posture and improved vigor.",
+          "tags": "strawberry, repotting-complete, healthy-posture, berries"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:19 AM",
+      "conditions": "Mild morning around 77-78°F with moderate humidity and full sun exposure.",
+      "digital_probe": {
+        "ph": "5.97",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "27",
+        "moisture_mScm": "4.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "77.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains healthy with firm developing berries and clean new growth. Leaf-spot remains limited to older leaves and shows no signs of active spread. Moisture reading was extremely low despite watering previous day, consistent with uneven sand/topsoil layer still present deeper in pot. Soil surface appears loose but lower layer is still drying too quickly, explaining plant's persistent dryness and inconsistent probe readings.",
+      "actions": "Do not water yet pending repotting. Evaluate soil structure and confirm that pot still contains mix of potting mix over coarse, fast-draining base layer.",
+      "next_steps": "Repot plant by gently lifting intact root mass, shaking away loose sand/topsoil, and refilling pot with uniform organic potting mix while keeping crown at correct height. After repotting, water lightly to settle new soil. Resume normal moisture checks once new mix stabilizes.",
+      "q_and_a_summary": "Discussed whether plant could be fully lifted from pot and repotted with all new organic potting mix, removing as much loose soil as possible. Confirmed this is safe if performed carefully without disturbing core root ball or burying crown.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing healthy foliage, early fruit development, and dry soil surface.",
+          "tags": "strawberry, top-view, fruit, dry-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing uneven soil texture and early berries developing normally.",
+          "tags": "strawberry, soil-texture, fruit, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Another perspective of plant's layout, showing stable new leaves and limited older leaf spotting.",
+          "tags": "strawberry, leaf-spot, new-growth, top-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of berry cluster showing healthy swelling and proper seed formation.",
+          "tags": "strawberry, berries, close-up, fruit-development"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:20 PM",
+      "conditions": "Sunny with a high of 84°F and overnight low of 60°F.",
+      "digital_probe": {
+        "ph": "6.07",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "88.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued healthy fruit development with firm green berries and strong crown. Several older leaves display mild leaf-spot lesions consistent with earlier logs but without signs of rapid spread. Slight leaf droop and scattered fallen petals reflect warm, low-humidity afternoon conditions combined with moderate dryness in soil. New growth remains bright and vigorous, and plant overall appears stable and productive.",
+      "actions": "Provide watering of approximately 1/4-1/3 cup around root zone, avoiding wetting leaves or fruit. Remove loose fallen petals from soil surface. Do not fertilize. Keep plant in full sun and maintain good airflow.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm recovery from today's heat. Continue monitoring leaf spots for any acceleration. Do not fertilize until after current fruit cycle. Rotate pot slightly every 1-2 days for even light coverage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing developing fruit and mild leaf droop from warm afternoon conditions.",
+          "tags": "strawberry, fruit-development, top-down, afternoon-light"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle of plant showing berry cluster and scattered fallen petals on soil surface.",
+          "tags": "strawberry, berries, petal-drop, side-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of older leaf with mild dark spotting consistent with stable fungal leaf-spot.",
+          "tags": "strawberry, leaf-spot, close-up, older-leaf"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view capturing plant posture, soil texture, and early-stage berry formation.",
+          "tags": "strawberry, wide-view, soil, berry-formation"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "11:11 AM",
+      "conditions": "Mostly sunny with a high of 83°F and low of 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.77",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "61.00",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "86.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is vigorous with upright, green foliage and multiple developing fruitlets. Petal drop is normal post-pollination. Soil appears evenly moist with no compaction or signs of disease, pests, or stress. Overall health is strong and stable.",
+      "actions": "Do not water today as moisture is adequate. Do not fertilize. Optionally remove fallen petals. Rotate pot periodically for even light exposure.",
+      "next_steps": "Recheck moisture tomorrow; water only if moisture drops below approximately 35 mS/cm or top inch becomes dry. Maintain full sun exposure. Monitor developing fruit for steady growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down overview showing healthy foliage and forming fruitlets.",
+          "tags": "strawberry, top-down, fruitlets, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of plant showing upright leaves and surrounding soil surface.",
+          "tags": "strawberry, side-view, leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of early-stage green strawberries with fallen petals beneath them.",
+          "tags": "strawberry, fruit, petals, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Another angle of developing berries showing healthy coloration and structure.",
+          "tags": "strawberry, fruit, developing, close-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Detailed view of leaf texture indicating no signs of disease or stress.",
+          "tags": "strawberry, leaf, texture, health"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide shot of pot highlighting overall plant layout and soil condition.",
+          "tags": "strawberry, container, soil, wide-view"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:17 AM",
+      "conditions": "Cool, clear morning around 67.5°F in full sun after earlier dew on leaves.",
+      "digital_probe": {
+        "ph": "5.73",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "156",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "67.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows active flowering with several bright pink blooms and developing berry. Lower foliage is compact and healthy green. One large mature leaf developed multiple dark necrotic leaf-spot lesions, and second leaf showed smaller early lesions; both were removed during day. Remaining leaves have only mild, non-progressing spots and appear structurally sound. Soil remains evenly moist and well aerated from prior amendments, with no pests visible.",
+      "actions": "Remove two heavily spotted leaves with clean scissors to reduce disease pressure. Leave mildly spotted leaves on berry stem intact to continue supporting fruit and flower development. Do not water because soil moisture is adequate.",
+      "next_steps": "Monitor remaining leaves, especially on berry stem, over next 24-48 hours for any increase in spotting. Recheck soil moisture tomorrow morning and avoid overhead watering. If new lesions expand rapidly, consider light neem treatment in evening when leaves are dry.",
+      "q_and_a_summary": "Discussed whether spotted leaves should be removed and later whether entire stem should be taken off since berry cluster is on it; advised to prune only two worst leaves and keep stem and mildly spotted leaves so developing berry and flower remain supported.",
+      "follow_up": [
+        "[2:48 PM] Removed two heavily spotted leaves; kept stem with few remaining small spots intact so developing berry cluster and supporting leaves remain functional."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning images showing overall plant structure and close-ups of spotted leaves before and after pruning near berry stem.",
+          "tags": "strawberry, leaf-spot, pruning, berry-cluster"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:32 AM",
+      "conditions": "Warm, sunny late morning trending toward 80°F under clear skies after mild start.",
+      "digital_probe": {
+        "ph": "5.66",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "73",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "61.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows vigorous growth with multiple open flowers and developing green berry. Foliage is mostly healthy and bright, with only light residual spotting on some older leaves and no sign of new lesion expansion. Soil moisture is moderate and beginning to trend downward with rising temperatures. No pests or wilting observed.",
+      "actions": "Provide light watering of about 1/4 cup around root zone in anticipation of warmer 80°F conditions, taking care to avoid splashing water on flowers and developing fruit. Do not apply fertilizer despite low fertility reading because plant is in active bloom.",
+      "next_steps": "Recheck soil moisture in late afternoon once temperatures peak, and again following morning. Continue full sun exposure while watching for heat stress such as midday drooping. Protect plant if nighttime temperatures are forecast to fall below about 45°F.",
+      "q_and_a_summary": "Discussed if actions needed to change because probe reading was taken earlier in cool morning but ambient temperature had risen to 80°F; advised small supplemental watering and to continue avoiding fertilizer while flowers and fruit are developing.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Photos showing plant in full sun with open blossoms and developing green berry.",
+          "tags": "strawberry, flowers, developing-berry, container, sunny"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "8:56 AM",
+      "conditions": "Cool, clear morning around 60°F in full sun with light air movement.",
+      "digital_probe": {
+        "ph": "5.65",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "166",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "18.7",
+        "soil_temp_f": "59.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears healthy with upright posture and strong morning turgor. New leaves are bright green and free of disease symptoms, while older leaves show minor, stable spotting with no spread. One developing strawberry is enlarging with uniform green color and well-formed seeds, and several flowers are open with another bud forming. Soil is fully moist from recent watering and improved potting mix, with no signs of crusting or waterlogging.",
+      "actions": "Do not water because soil moisture is high at 80 mS/cm. Fertilizer withheld to avoid excess vegetative growth during flowering and early fruiting. Keep plant in full sun and avoid overhead wetting of flowers and fruit.",
+      "next_steps": "Recheck soil moisture next morning to decide on next watering. Continue to monitor berry development, flower set, and any changes in older leaf spotting. Protect plant from nighttime temperatures at or below about 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Images showing plant with first clearly developing strawberry and multiple open flowers in morning sun.",
+          "tags": "strawberry, first-fruit, flowers, morning"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:15 AM",
+      "conditions": "Mild, sunny mid-morning around 73°F with clear skies and comfortable humidity.",
+      "digital_probe": {
+        "ph": "5.31",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "144",
+        "moisture_mScm": "57.00",
+        "light": "98",
+        "rh_percent": "58",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Digital probe readings showed ideal slightly acidic pH, moderate soil moisture, and safe salt and fertility levels as first berry began to form. Foliage looked vigorous with clean new growth and only light, stable spotting on some older leaves. A developing green berry and open flower were visible on one cluster, indicating plant had entered active fruiting phase.",
+      "actions": "Do not water or fertilize because soil moisture and fertility are in good range for fruit set. Leave plant in full sun with good airflow, and avoid overhead wetting of leaves and flowers.",
+      "next_steps": "Monitor berry size, seed color, and calyx condition over coming days, and continue checking soil moisture before watering. Plan to delay additional fertilizer for at least week while fruit is sizing. Watch for any new leaf spots or signs of pests as fruit develops.",
+      "q_and_a_summary": "Discussed if having only one developing berry and flower meant plant would produce only two strawberries and how more fruit would form; explained that each flower becomes one fruit, multiple clusters will appear over time, and plant can yield many berries over several flushes.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Clear view of first forming berry with adjacent flower cluster.",
+          "tags": "strawberry, first-berry, flower-cluster"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "8:55 AM",
+      "conditions": "Cool, sunny morning around 65°F in full sun with clear skies.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "center green",
+        "moisture": "between 6-7 green",
+        "ph": "between 5-6 slightly acidic"
+      },
+      "observations": "The plant appeared perkier and more open than previous days, with healthy crown and progressing flower and fruit cluster. Leaf spotting remained minimal and unchanged, with no new lesions forming. Analog readings showed fertility in middle of green range, moisture between 6 and 7 indicating ideal hydration, and pH between 5 and 6 in favorable range for strawberries. Soil surface looked evenly moist without crusting.",
+      "actions": "Do not water because analog moisture is in ideal green range. Fertilizer not applied, as fertility is adequate for current stage. Leave plant in full sun and avoid overhead wetting of foliage.",
+      "next_steps": "Recheck moisture following day or sooner if weather becomes unusually warm or windy. Continue monitoring existing leaf spots to confirm they remain stable and watch for additional flowers and fruit development.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Analog-probe day images showing overall plant, crown, and flower cluster while moisture and fertility were in green range.",
+          "tags": "strawberry, analog-probe, crown, flower-cluster"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "8:48 AM",
+      "conditions": "Cool, clear morning around 58°F in full sun.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow (low)",
+        "moisture": "1 red (very dry)",
+        "ph": "8 alkaline"
+      },
+      "observations": "Analog readings showed very dry soil, low fertility, and alkaline pH around 8 in sand/topsoil mix. Despite this, plant remained upright with firm crown and active buds, and leaf spotting appeared minimal and stable. Soil surface was compacted and somewhat crusted, making probe insertion difficult and indicating poor aeration.",
+      "actions": "Loosen top layer of soil, then remove roughly top 1.5 inches of compacted sand/topsoil mix and replace it with fresh potting mix to improve drainage, aeration, and pH. Water thoroughly in two passes (about 1/2 cup total) to rehydrate root zone and settle new mix. Clean debris and residue from leaves and prepare to apply Captain Jack's neem oil once foliage dries.",
+      "next_steps": "Apply light neem spray once leaves are fully dry, avoiding flowers, then monitor leaf spots over next couple days. Recheck pH and moisture with probe following morning to see how new potting mix has shifted conditions. Do not fertilize yet until plant shows stable new growth in refreshed soil.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Photos documenting dry, compacted sand/topsoil, analog meter readings, and start of soil removal and replacement with fresh potting mix.",
+          "tags": "strawberry, soil-amendment, analog-probe, dry-soil"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:00 PM",
+      "conditions": "Mild afternoon around 64°F in full sun after plant was brought indoors prior night due to temperatures dropping below 40°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant was upright with healthy inner growth and developing buds, but several outer leaves showed purple-brown leaf spots consistent with mild fungal leaf spot or cold flecking. Soil, a topsoil and sand mix, was still moist and slightly compacted but not waterlogged. New central leaves and crown appeared strong, and no pests were seen.",
+      "actions": "Remove worst affected spotted leaves with clean scissors and discard them away from pot. Lightly loosen soil surface and add thin layer of fresh topsoil to even out moisture and improve consistency. Do not water because soil is still moist. Plan to begin using pre-mixed Captain Jack's neem spray following morning after pruning cuts have time to dry.",
+      "next_steps": "Monitor remaining leaves for any spread of leaf spots and assess new growth over next 24-48 hours. Apply Captain Jack's neem spray next morning in mild light, avoiding flowers, and continue bringing plant indoors or covering it whenever overnight temperatures are forecast below about 45°F.",
+      "q_and_a_summary": "Discussed whether large leaf with only few small spots should also be removed and whether it was appropriate to use already prepared Captain Jack's neem spray; advised to keep mostly healthy leaf for photosynthesis, remove only worst leaves, and use pre-mixed Captain Jack's spray starting next morning after cuts healed slightly.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Images showing plant after cold night indoors, with close-ups of purple-brown spotted leaves that prompted first leaf-spot pruning and neem plan.",
+          "tags": "strawberry, leaf-spot, cold-stress, pruning-plan"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "id": "garlic_002",
+  "status": "Active",
+  "plant": "Music Hardneck",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 8",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Vernalized the garlic for 6 weeks prior to planting.",
+    "Planted in mid-November 2025 in black planter 23.5\" × 7.85\" × 6\" center section",
+    "Shared with Siberian Hardneck, Chesnok Red Hardneck, and Scallions."
+  ],
+  "whats_been_logged": "The cloves transitioned from underground through very low pH and declining moisture toward expected shoot emergence after lime correction and light watering. Two Music Hardneck shoots have now emerged above the soil surface with healthy, stable early growth following staggered development due to reduced vernalization.",
+  "current_stage": "Early top growth with the first shoot above the soil surface and additional cloves preparing to emerge.",
+  "current_state": "Two Music Hardneck shoots are now above the soil surface, with the second sprout newly emerged and consistent with expected staggered development due to reduced vernalization. Both shoots appear healthy with stable early growth, and soil moisture and pH have normalized into a favorable range for continued leaf development.",
+  "timeline": [
+    {
+      "stage": "Vernalization complete (6+ weeks in fridge)",
+      "date_range": "Sep 21 - Nov 15, 2025"
+    },
+    {
+      "stage": "Early top growth (shoots 1–3 inches)",
+      "date_range": "Nov 22 - Nov 30, 2025"
+    },
+    {
+      "stage": "Strong winter foliage established",
+      "date_range": "Jan 1 - Jan 31, 2026"
+    },
+    {
+      "stage": "Scapes for cutting and eating",
+      "date_range": "Mar 15 - May 1, 2026"
+    },
+    {
+      "stage": "Bulb harvest window",
+      "date_range": "May 25 - Jun 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:50 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.93",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "77",
+        "moisture_mScm": "46.00",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "66.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil structure is significantly improved after light aeration and addition of Miracle-Gro Moisture Control Potting Mix. Probe contact is restored and readings are stable across all parameters. The main shoot remains upright with dehydration-related tip damage but healthy green tissue at its base. The mid-sized shoot shows similar tip burn but no rot or softness. Soil appears evenly hydrated with no compaction or pooling.",
+      "actions": "Do not water today as soil moisture is ideal and additional rainfall is expected. Avoid fertilizing and leave the amended soil undisturbed to allow shoots to stabilize.",
+      "next_steps": "Recheck moisture tomorrow to confirm it settles into the 35–55 mS/cm range. Monitor for the smallest sprout to resume upward extension as soil conditions normalize. Continue avoiding deep probing until shoots strengthen.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:51 AM] Filled in the probe hole, lightly fluffed the soil, and added Miracle-Gro Moisture Control Potting Mix to improve soil structure and probe accuracy."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Main Music Hardneck shoot showing residual dehydration tip burn but healthy green growth at the base.",
+          "tags": "garlic, Music Hardneck, leaf tip, dehydration, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Improved soil structure after aeration and addition of potting mix, with even moisture throughout.",
+          "tags": "garlic, Music Hardneck, soil condition, potting mix"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-sized shoot area showing stabilized soil and absence of pooling after soil correction.",
+          "tags": "garlic, Music Hardneck, soil, hydration, early growth"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:55 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "76.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil has rehydrated fully from yesterday, restoring reliable probe contact. The mid-sized shoot shows dehydration-related tip browning that has persisted but the base remains firm and green. The smallest sprout is still stressed yet viable with healthy green tissue at the base. The main shoot remains upright and strong. Soil appears evenly moist with no oversaturation, pooling, or structural issues.",
+      "actions": "Do not water today. With storms likely and moisture already high, allow natural dry-down. Avoid fertilizing and leave shoots undisturbed to continue recovery.",
+      "next_steps": "Recheck moisture tomorrow after expected rainfall, watching for levels to settle between 40–70 mS/cm. Monitor the mid-sized and small shoots for new green growth emerging from the base. No amendments or interventions should be made unless moisture rises above 80–90 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-sized Music Hardneck shoot with dehydration-related tip browning but healthy green tissue at the base.",
+          "tags": "garlic, Music Hardneck, dehydration, leaf tip, early growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Smallest sprout showing stress from prior dry-down but retaining viable green growth at the base.",
+          "tags": "garlic, Music Hardneck, sprout, dry-down, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck soil surface now evenly moist following rehydration, with no signs of oversaturation.",
+          "tags": "garlic, Music Hardneck, soil moisture, even hydration"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:42 PM",
+      "conditions": "Patchy fog early, then sunny with a high near 86°F; calm wind becoming south 5–8 mph. Tonight partly cloudy with a low around 66°F.",
+      "digital_probe": {
+        "ph": "7.64",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "19",
+        "moisture_mScm": "2.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "88.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil is extremely dry with a moisture reading of 2 mS/cm, consistent with significant dehydration from extended sun exposure. Both smaller shoots show worsening tip browning and reduced turgor. The smallest back sprout appears stressed but still viable. High pH, low EC, and low salts reflect probe behavior in very dry soil rather than actual chemical imbalance. Main shoot remains upright and healthy.",
+      "actions": "Apply 1/2 cup of water evenly across the Music Hardneck zone to rehydrate the top layers without oversaturating. Do not fertilize or amend soil.",
+      "next_steps": "Recheck moisture tomorrow expecting levels to rise into the 25–40 mS/cm range. Continue monitoring the smaller shoots for recovery and adjust watering frequency to prevent rapid dry-out cycles.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[12:55 PM] Applied approximately 1/2 cup of water evenly across the garlic_002 planting zone as instructed"
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Dehydrated mid-sized shoot showing extended tip browning under intense sun.",
+          "tags": "garlic, Music Hardneck, dehydration, leaf tip, dry soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Small back sprout under stress due to severe dry-down, with soil cracking visible on the surface.",
+          "tags": "garlic, Music Hardneck, sprout, dry soil, heat stress"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overall planting zone showing very dry top layer despite deeper soil retaining some moisture.",
+          "tags": "garlic, Music Hardneck, soil condition, moisture, dry pockets"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "4:54 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight",
+      "digital_probe": {
+        "ph": "5.76",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "48",
+        "moisture_mScm": "47.00",
+        "light": "65",
+        "rh_percent": "52",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "79.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil experienced significant dry-out earlier in the day, resulting in partial rehydration after watering but with remaining dry pockets visible in the top layer. The main shoot remains healthy and upright with no stress symptoms. The mid-sized shoot displays increased tip browning consistent with dehydration burn, while the smallest back sprout shows mild wilt and tip discoloration, indicating sensitivity to rapid moisture loss. pH, EC, salts, and fertility readings remain within optimal ranges.",
+      "actions": "Apply an additional light watering of approximately 1/3 cup across the Music Hardneck zone to evenly rehydrate the upper soil layer without oversaturating. Avoid fertilizing or disturbing the soil.",
+      "next_steps": "Check moisture tomorrow to confirm even rehydration. Monitor both the mid-sized shoot and smallest sprout for recovery and stabilization. No nutrient amendments should be made.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[5:05 PM] Added approximately 1/3 cup of water evenly across the Music Hardneck zone as instructed"
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-sized shoot showing dehydration-related tip browning following a rapid dry-out event.",
+          "tags": "garlic, Music Hardneck, dehydration, leaf tip, dry soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Smallest back sprout showing mild wilt and tip discoloration due to insufficient moisture earlier in the day.",
+          "tags": "garlic, Music Hardneck, sprout, wilt, dry soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Surface soil still unevenly hydrated after watering, with visible dry pockets despite moderate probe moisture reading.",
+          "tags": "garlic, Music Hardneck, soil condition, moisture, dry pockets"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:34 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight",
+      "digital_probe": {
+        "ph": "5.60",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "19",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "88.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The main shoot remains strong and upright with no stress. The mid-sized shoot shows mild tip dryness consistent with rapid surface dry-down. The smallest sprout is intact and healthy. Soil surface is clearly dry and crumbly, and the probe reading of 0.00 mS/cm indicates a local dry pocket rather than true complete dryness. Subsurface soil in photos appears moderately hydrated beneath the dry crust.",
+      "actions": "Apply a light watering of 1/3 to 1/2 cup total over the Music section to rehydrate the top layer without risking oversaturation. Avoid fertilizing and do not disturb the soil around emerging shoots.",
+      "next_steps": "Check moisture tomorrow for expected rise into the moderate range. Monitor the mid-sized shoot to confirm tip dryness does not progress.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[1:47 PM] Applied a light watering of approximately 1/3–1/2 cup as instructed"
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-sized Music Hardneck shoot showing mild tip dryness due to rapid surface dry-down.",
+          "tags": "garlic, Music Hardneck, leaf tip, dry soil, early growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Main shoot upright and healthy with dry surface soil indicating significant moisture loss from the upper layer.",
+          "tags": "garlic, Music Hardneck, shoot, soil condition, sun exposure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Small back sprout remaining green and stable despite dry topsoil.",
+          "tags": "garlic, Music Hardneck, sprout, soil moisture, early development"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:49 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; wind gusts up to 19 mph",
+      "digital_probe": {
+        "ph": "5.55",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "90.00",
+        "light": "98",
+        "rh_percent": "63",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "74.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots appear healthy with upright foliage and no stress symptoms. Soil moisture is high but visually even and well-aerated, consistent with cool and cloudy weather. pH, fertility, salts, and EC remain within safe ranges for garlic growth.",
+      "actions": "Do not water today. Avoid fertilizing and leave the soil undisturbed.",
+      "next_steps": "Allow wind and daytime warmth to lower moisture naturally. Check moisture levels tomorrow for continued dry-down.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoots showing upright growth with evenly moist soil under morning light.",
+          "tags": "garlic, Music Hardneck, shoots, soil moisture, morning conditions"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of the smaller shoot continuing to elongate with no signs of stress.",
+          "tags": "garlic, Music Hardneck, new shoot, early growth, soil structure"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:35 AM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight; clear conditions expected around 6 PM",
+      "digital_probe": {
+        "ph": "5.59",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "47.00",
+        "light": "96",
+        "rh_percent": "53",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "62.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both Music Hardneck shoots appear healthy with strong upright growth and no signs of stress. Soil moisture has settled into an ideal range following recent high readings, and the surface looks evenly hydrated without saturation. pH, EC, salts, and fertility have stabilized at safe levels for continued vegetative development.",
+      "actions": "Do not water today. Leave soil undisturbed and avoid fertilizing.",
+      "next_steps": "Monitor moisture tomorrow to confirm continued moderate levels and watch for further leaf extension on both shoots.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoots standing upright with well-balanced soil moisture under cloudy morning light.",
+          "tags": "garlic, Music Hardneck, shoots, soil moisture, cloudy weather"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view showing healthy leaf development and evenly moist soil around the shoot bases.",
+          "tags": "garlic, Music Hardneck, early growth, foliage, soil condition"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "11:22 AM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight; rain expected around 6 PM",
+      "digital_probe": {
+        "ph": "4.82",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "219",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "25.3",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both Music Hardneck shoots appear healthy with steady leaf extension and no signs of stress. Soil moisture is high but expected given recent cloudy conditions and expected rainfall. Filling probe holes and leveling soil improved surface stability without disturbing new growth. pH and nutrient readings are slightly acidic but well within safe limits.",
+      "actions": "Do not water today due to already high moisture and incoming rain. Leave soil undisturbed and avoid fertilizing.",
+      "next_steps": "Recheck moisture tomorrow after rainfall and monitor leaf elongation on both shoots.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoots with dark, evenly moist soil and stable foliage ahead of expected evening rain.",
+          "tags": "garlic, Music Hardneck, shoots, soil moisture, cloudy weather"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer shot showing improved soil leveling around shoots, with room preserved around the newest emerging sprout.",
+          "tags": "garlic, Music Hardneck, early growth, soil structure, sprout"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:50 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; thunderstorms expected around 4 PM",
+      "digital_probe": {
+        "ph": "5.58",
+        "ec_mScm": "0.49",
+        "salt_mg_L": "245",
+        "moisture_mScm": "80.00",
+        "light": "88",
+        "rh_percent": "61",
+        "fertility_percent": "29.3",
+        "soil_temp_f": "79.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both Music Hardneck shoots appear healthy with steady leaf extension and no signs of stress. Soil moisture is high and reflective of recent cloudy, humid weather. Nutrient and salt values remain safe. The mix shows good drainage despite elevated moisture, and no plant stress indicators are present.",
+      "actions": "Do not water today due to incoming thunderstorms and already high moisture. Avoid fertilizing and keep the soil undisturbed.",
+      "next_steps": "Check moisture after storms to confirm drainage. Continue monitoring for new leaf formation.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shoots upright with stable color and moist soil surface ahead of afternoon thunderstorms.",
+          "tags": "garlic, Music Hardneck, shoots, soil moisture, storm conditions"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Secondary shoot showing expected early-stage development with healthy structure.",
+          "tags": "garlic, Music Hardneck, shoot, early growth, foliage"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:02 PM",
+      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight",
+      "digital_probe": {
+        "ph": "4.98",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "140",
+        "moisture_mScm": "55.00",
+        "light": "88",
+        "rh_percent": "44",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two Music Hardneck shoots remain healthy with clear upward growth. Soil moisture is moderate following an afternoon watering, and nutrient and salt levels are stable. Slightly acidic pH is tolerable and not causing visible stress.",
+      "actions": "Do not water again today. Avoid fertilizing and keep the soil undisturbed.",
+      "next_steps": "Monitor moisture tomorrow and watch for further leaf extension on both sprouts.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:33 PM] Watered lightly due to dry soil this morning"
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoots in late afternoon light showing healthy upright growth after watering.",
+          "tags": "garlic, Music Hardneck, shoots, soil moisture, afternoon"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view showing stable shoot health and moist soil surface approximately 1.5 hours after watering.",
+          "tags": "garlic, Music Hardneck, early growth, hydrated soil"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:32 AM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight",
+      "digital_probe": {
+        "ph": "5.27",
+        "ec_mScm": "0.64",
+        "salt_mg_L": "321",
+        "moisture_mScm": "80.00",
+        "light": "93",
+        "rh_percent": "57",
+        "fertility_percent": "39.3",
+        "soil_temp_f": "79.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two shoots are present and healthy with no signs of stress. Soil is heavily moistened by recent watering but remains within a safe range. Nutrient and salt levels rose temporarily due to moisture mobilization, and pH remains stable.",
+      "actions": "Do not water today. Avoid fertilizing and keep soil around the sprouts undisturbed.",
+      "next_steps": "Monitor moisture later in the day to ensure it declines toward the moderate range. Watch for leaf extension on both shoots.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoots showing healthy early growth after the morning watering.",
+          "tags": "garlic, Music Hardneck, shoots, soil, morning watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close shot confirming stable leaf color and soil moisture following irrigation.",
+          "tags": "garlic, Music Hardneck, soil moisture, sprouts"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:28 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.99",
+        "ec_mScm": "0.39",
+        "salt_mg_L": "198",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "22.7",
+        "soil_temp_f": "91.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Music Hardneck now has two confirmed shoots. The second sprout is newly emerged and distinct, located in the correct planting row and spacing for Music Hardneck cloves. Moisture is elevated following the previous day's watering but remains within a safe range that will naturally decline under sun and airflow. The pH reading has normalized after earlier lime interference and now reflects a stable root-zone environment. EC and salts have risen slightly due to nutrient mobilization from recent moisture but remain well within safe limits. Both shoots appear healthy, upright, and well-colored with no signs of stress or rot.",
+      "actions": "Do not water today, as moisture is sufficiently high. Avoid fertilizing at this stage. Allow the surface soil to dry naturally and refrain from disturbing the area around the new sprout.",
+      "next_steps": "Monitor moisture tomorrow to ensure it begins drifting down toward moderate levels. Track leaf extension on both shoots over the next 24–48 hours. Expect further staggered emergence due to reduced vernalization of Music Hardneck compared to the other varieties.",
+      "q_and_a_summary": "Confirmed that the suspected new sprout is a distinct second Music Hardneck emergence.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wider view of the Music Hardneck section showing the established shoot and overall soil conditions after watering.",
+          "tags": "garlic, music-hardneck, shoots, soil, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view showing soil texture and spacing between garlic shoots, with the new Music Hardneck sprout visible in the background.",
+          "tags": "garlic, music-hardneck, emergence, new-sprout, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closeup of the second Music Hardneck sprout breaking the soil surface with pale green emerging tissue.",
+          "tags": "garlic, music-hardneck, new-sprout, early-growth, allium"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:51 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "9.65",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "81",
+        "moisture_mScm": "22.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "76.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Only one Music Hardneck shoot is present, consistent with delayed emergence from reduced vernalization. The shoot visible today is the same one observed the day before, photographed from a different angle. Soil in the Music section is significantly drier than the surrounding Siberian and Chesnok zones, and today's low moisture reading confirms this. The elevated pH reading is not representative of the root zone and is instead caused by surface lime contacting the probe tip. The shoot appears healthy, with no yellowing or signs of stress.",
+      "actions": "Apply light watering to bring the dryness of the Music section in line with the adjacent garlic zones. Avoid adding additional lime, as remaining unmixed lime on the surface is distorting probe readings. Leave soil surface undisturbed.",
+      "next_steps": "Monitor the Music shoot for gradual leaf extension over the next 24–48 hours. Expect additional cloves to emerge later due to staggered, shorter vernalization. Recheck moisture tomorrow to ensure the section remains evenly hydrated.",
+      "q_and_a_summary": "Confirmed that only one Music Hardneck shoot exists and that the sprout in question is the same as previously observed.",
+      "follow_up": [
+        "[11:01 AM] Applied light watering to the Music section to equalize moisture with adjacent zones."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoot emerging with surrounding soil appearing significantly dry and lime dust visible on the surface.",
+          "tags": "garlic, music-hardneck, shoot, dry-soil, lime"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Alternate angle of the Music Hardneck section showing the single confirmed shoot and dry soil conditions.",
+          "tags": "garlic, music-hardneck, emergence, soil, container"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:26 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.05",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "79",
+        "moisture_mScm": "36.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Music Hardneck section shows its first confirmed shoot, consistent with delayed emergence due to shorter vernalization compared to the other varieties. Soil moisture is moderate and safe, pH is rising from previous low readings as lime integrates, and EC and salt levels remain low and appropriate for early garlic development. The visible shoot appears healthy with no signs of stress, rot, or discoloration, while nearby emerging garlic belongs to the Siberian and Chesnok sections, not Music. Conditions support steady early growth as additional cloves prepare to sprout.",
+      "actions": "Do not water today as moisture is sufficient. Do not add more lime and allow current application to continue dissolving. Leave soil surface undisturbed and keep planter in full sun.",
+      "next_steps": "Monitor the Music Hardneck shoot for leaf extension over the next 24–72 hours. Expect additional shoots within 2–6 days due to reduced vernalization time. Recheck pH tomorrow to confirm continued upward movement.",
+      "q_and_a_summary": "Clarified that only one shoot belongs to Music Hardneck and that its delayed emergence is expected due to shorter vernalization.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First Music Hardneck shoot emerging while lime residue remains visible on the soil surface.",
+          "tags": "garlic, music-hardneck, emergence, soil, lime"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of garlic planter showing Music Hardneck area with single healthy emerging shoot.",
+          "tags": "garlic, music-hardneck, shoot, allium, container"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "12:24 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.41",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "129",
+        "moisture_mScm": "39.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "13.3",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains moderately moist with significant lime visible on the surface from prior pH correction. Current pH reading is highly acidic at 4.41 but likely inaccurate due to unmixed lime and uneven pockets. No confirmed Music Hardneck emergence yet, though a very pale yellow garlic shoot is visible between the Music and Siberian sections. Temperature and light conditions are favorable, and fertility is appropriately low for early garlic development. No signs of rot, compaction, or oversaturation.",
+      "actions": "Do not add more lime today; allow soil to stabilize. Do not water, as moisture is adequate for garlic at this stage. Leave the emerging shoot undisturbed. Maintain full sun exposure.",
+      "next_steps": "Recheck pH and moisture in 24 hours as lime continues to integrate. Monitor the pale shoot for greening and confirm variety as it grows. Expect additional sprouts within 2–5 days. Do not fertilize until multiple leaves have developed.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck zone with visible lime residue on surface and early shoot emergence.",
+          "tags": "garlic, music-hardneck, lime, emergence, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view showing pale emerging shoot between Music and Siberian sections.",
+          "tags": "garlic, shoot, emergence, early-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overall planter view showing lime distribution and garlic spacing.",
+          "tags": "garlic, planter, lime, overview"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:32 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.72",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "24",
+        "moisture_mScm": "4.00",
+        "light": "98",
+        "rh_percent": "64",
+        "fertility_percent": "3.4",
+        "soil_temp_f": "71.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible yet; soil is lightly dry and pH remains low, but cloves are expected to emerge after correction.",
+      "actions": "Apply garden lime to the Music Hardneck section today and water lightly afterward to help raise pH without waterlogging.",
+      "next_steps": "Monitor for first sprout emergence over the next 24–48 hours and recheck pH and moisture tomorrow morning.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:07 AM] Soil was watered unexpectedly; confirmed lime can still be applied safely to moist soil.",
+        "[3:04 PM] Applied lime evenly across the garlic and scallions planter; soil surface is dusted but not clumped."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck garlic section prior to sprouting with low, dry soil surface.",
+          "tags": "garlic, music-hardneck, soil, pre-emergence"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:58 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.06",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "109",
+        "moisture_mScm": "33.00",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "71.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Music Hardneck still shows no visible sprouts, which is consistent with this variety's slower emergence. Soil is moderately moist with no pests or disease visible.",
+      "actions": "Apply light watering to maintain even moisture while avoiding saturation. Do not fertilize yet.",
+      "next_steps": "Check for first sprout tips within 24–48 hours and keep monitoring pH as lime begins to take effect.",
+      "q_and_a_summary": "Confirmed that grouped logs and photos for all garlic types are workable.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck garlic bed before emergence with evenly moist soil.",
+          "tags": "garlic, music-hardneck, soil, allium"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:02 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.61",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "185",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "60.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Music Hardneck section shows moist, healthy soil with a stable structure and no visible sprouts yet.",
+      "actions": "Apply a top-dress of dolomitic lime to begin raising the soil pH while moisture is still adequate.",
+      "next_steps": "Check for first sprouts over the next 24–48 hours and recheck pH once lime has begun to react.",
+      "q_and_a_summary": "Confirmed that lime application is appropriate for all three garlic varieties.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck planting area prior to emergence with evenly moist soil.",
+          "tags": "garlic, music-hardneck, soil, alliums"
+        }
+      ]
+    }
+  ]
+}

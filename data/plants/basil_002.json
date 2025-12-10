@@ -1,0 +1,736 @@
+{
+  "id": "basil_002",
+  "status": "Active",
+  "plant": "Basil (Right)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 2",
+  "container": "Round pot, 0.94 gal, white",
+  "soil_mix": "Nursery Potting Mix",
+  "origin_history": [
+    "Basil plant bought on Oct 8, 2025 and remains in the original Nursery container.",
+    "Moved from Picnic table to Panel 15 to Panel 2 to get the optimal sunlight",
+    "Recently topped very short to reset height and encourage dense branching."
+  ],
+  "whats_been_logged": "The plant experienced severe acidic soil and nutrient lockout after being topped very short, causing widespread yellowing and weak growth. pH swung from extreme acidity to alkalinity before stabilizing in the ideal range. The correction process involved careful monitoring, gradual pH adjustments, and patience while new growth slowly regained color and firmness. Healthy compact lateral branching has now emerged as the plant transitions into its post-topping recovery phase.",
+  "current_stage": "Post-topping regrowth and recovery",
+  "current_state": "The plant has recovered well from its pH crisis and severe topping. New growth is compact, bright, and fuller, with healthy lateral branching emerging from preserved lower nodes. A few pale lower leaves remain from earlier stress but show no progression. The main structure is upright and stable, with no pest pressure or nutrient deficiency visible. The plant remains sensitive to harsh afternoon heat but thrives in morning light.",
+  "timeline": [
+    {
+      "stage": "pH stabilization and early recovery",
+      "date_range": "Nov 20 - Nov 24, 2025"
+    },
+    {
+      "stage": "Stronger new growth and fuller top canopy",
+      "date_range": "Nov 25 - Dec 3, 2025"
+    },
+    {
+      "stage": "Light harvests from recovered upper stems",
+      "date_range": "Dec 5 - Dec 12, 2025"
+    },
+    {
+      "stage": "Regular harvest cycle from fuller plant",
+      "date_range": "Dec 20, 2025 - Jan 10, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:23 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.66",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133",
+        "moisture_mScm": "62.00",
+        "light": "47",
+        "rh_percent": "53",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant foliage remains vigorous with healthy leaf expansion across all clusters. The previously pale stem still shows slightly lighter coloring but appears stable and is producing new growth. The overnight rain and soil refresh have created a more evenly hydrated and aerated top layer, and the potting mix added has improved texture and moisture retention. The basil looks structurally strong with no droop, and all stems are maintaining good posture. Cooler morning temperatures temporarily lowered leaf turgor slightly, which is normal and not concerning.",
+      "actions": "Filled the probe hole, fluffed the soil surface, and added Miracle-Gro Moisture Control Potting Mix to improve aeration and moisture consistency. No watering needed today given the current 62 mS/cm moisture level. Do not fertilize.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm settling back toward the 45–55 range. Monitor the lighter stem for progressive deepening of color now that soil conditions are more stable. If Salt levels continue climbing above 150 mg/L, plan a light flush late in the week.",
+      "q_and_a_summary": "User updated soil structure with added potting mix to correct dryness and uneven surface. Confirmed readings indicate plant is responding well.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Overhead view showing strong plant growth and newly refreshed soil surface.",
+          "tags": "basil, overhead, soil-refresh, healthy"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Side view capturing full canopy and improved soil aeration.",
+          "tags": "basil, side-view, canopy, potting-mix"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Wide shot showing vigorous stems and overall container health.",
+          "tags": "basil, container, foliage, growth"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Plant showing stable posture and consistent leaf expansion.",
+          "tags": "basil, structure, growth"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Angle highlighting the previously pale stem, still slightly lighter but improving.",
+          "tags": "basil, pale-stem, monitoring"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "View of evening-moist soil after potting mix addition.",
+          "tags": "basil, soil, potting-mix, moisture"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Container shot showing uniform soil texture after fluffing.",
+          "tags": "basil, container, soil-refresh"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:42 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.62",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "131",
+        "moisture_mScm": "90.00",
+        "light": "96",
+        "rh_percent": "61",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong, vigorous growth across most stems with evenly green foliage. One stem displays lighter yellow-green leaves, likely due to temporary chlorosis following recovery from the extreme dryness the previous day. Leaf texture across the plant is firm, with no signs of pest activity, blotching, or systemic nutrient deficiency. Soil remains fully hydrated, consistent with the high moisture reading, and the canopy is otherwise healthy and stable.",
+      "actions": "Do not water or fertilize today. Allow the soil to settle and moisture to naturally decline. Rotate the pot slightly to improve light exposure on the pale stem and gently loosen the top 1/2 inch of soil around that stem to improve aeration.",
+      "next_steps": "Monitor the pale stem over the next 48 hours for normal deepening of leaf color. Recheck soil moisture tomorrow morning as readings should settle toward the 40–55 range. Consider a light nutrient feed only if pale new leaves continue after moisture stabilizes.",
+      "q_and_a_summary": "Discussed concern about one stem with lighter foliage. Confirmed this is likely temporary chlorosis from rehydration following extreme dryness and does not indicate systemic stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing strong overall basil growth with one lighter stem visible.",
+          "tags": "basil, overhead, foliage, light-stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing plant fullness and leaf texture after rehydration.",
+          "tags": "basil, side-view, growth, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Container view with healthy canopy and uniformly hydrated soil surface.",
+          "tags": "basil, container, soil, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing lighter colored stem among otherwise vibrant growth.",
+          "tags": "basil, stem, chlorosis, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of basil clusters showing firm leaves and even structure.",
+          "tags": "basil, close-up, foliage, healthy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Expanded view showing full container and morning lighting on foliage.",
+          "tags": "basil, container, lighting, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "View from above highlighting consistent leaf texture with minor color variation.",
+          "tags": "basil, overhead, foliage, color-variation"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side perspective of basil showing healthy posture and new growth.",
+          "tags": "basil, side-view, posture, growth"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:26 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "7.17",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "31",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "56",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil was extremely dry, causing the moisture sensor to fail at 0.00 mS/cm and the pH to read artificially high at 7.17 due to poor contact. Despite this, the basil shows healthy, bright green foliage with upright, vigorous growth across all stem clusters. Leaves appear firm and turgid with no signs of wilting, nutrient stress, or pest activity. The soil surface shows visible dryness and cracking consistent with the failed moisture reading.",
+      "actions": "Apply 1 cup of water slowly across the soil surface. After 5 minutes, apply an additional 1/2 cup if the soil absorbs well. Do not fertilize today. Avoid pruning or topping while the plant is adjusting to rehydration.",
+      "next_steps": "Recheck moisture tomorrow morning once the pot has rehydrated. Expect more accurate pH and moisture readings once soil contact improves. Continue providing morning sun and protect the plant from harsh afternoon heat. Hold fertilizer until moisture and pH stabilize.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing vibrant, upright basil foliage and a visibly dry soil surface.",
+          "tags": "basil, overhead, dry-soil, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing multiple healthy stem clusters and bright green leaves.",
+          "tags": "basil, side-view, stems, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing the pot structure and well-developed basil canopy despite dry soil.",
+          "tags": "basil, container, canopy, dry-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing firm, healthy leaves with no visible pest damage or stress.",
+          "tags": "basil, close-up, healthy-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "View of basil clusters around the pot rim, displaying bright growth and stable posture.",
+          "tags": "basil, clusters, growth, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view capturing the overall fullness of the basil plant in the white container.",
+          "tags": "basil, side-view, container, full-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "4:27 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.42",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "90",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows a compact, bushy form with upright stems and bright green foliage following recent structural pruning. Soil that was bone dry earlier in the afternoon is now evenly moist after watering, and the surface looks darker and rehydrated without pooling or sogginess. A light dusting of earlier lime treatments remains on parts of the soil surface but does not appear to be touching the stems. No active pest damage is visible on the fresh foliage.",
+      "actions": "Do not water again today now that the soil has been rehydrated to a moderate moisture level. Allow the pot to dry gradually and avoid letting it reach a completely bone-dry state between waterings on hot, sunny days. Hold off on any additional fertilizer or lime adjustments while pH and salts are stable and the plant is responding well.",
+      "next_steps": "Check soil moisture again around midday tomorrow to learn how quickly this pot dries under current weather. Plan to water when moisture readings fall into the low 20s–30s mS/cm range rather than waiting until the probe cannot read. Continue to monitor older leaves for any new spotting and keep tracking how the plant responds to this more even watering rhythm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing a fuller basil canopy with evenly moist, darkened soil after the afternoon watering.",
+          "tags": "basil, overhead, moist-soil, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the pot highlighting upright stems and bright green leaves with residual lime visible only on the soil surface.",
+          "tags": "basil, side-view, lime, stems"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view showing overall plant posture and spacing within the white container against the fence.",
+          "tags": "basil, container, posture, structure"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:51 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "91",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "93.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil shows strong post-topping regrowth with multiple upright stems and dense new leaf clusters. Foliage is a healthy medium green overall, and the plant looks more balanced and compact than earlier in the week. The soil surface remains dotted with a light residue from previous lime applications but appears evenly moist-to-drying with no crusting or visible salt buildup. No new chewing damage is obvious on the fresh tips.",
+      "actions": "Do not water immediately, as current moisture is moderate and well within the comfortable range for basil in afternoon sun. Avoid adding more lime or fertilizer today while pH is stable at 6.0 and salts are in a safe range. Allow the plant to keep building foliage and only take very small harvests from the newest tips if needed for cooking.",
+      "next_steps": "Recheck moisture and pH within the next 24–48 hours to confirm that levels remain steady as the pot dries. Continue monitoring for any new chew holes or spotting on leaves, using physical removal of pests as a first response if activity appears. Plan the next light fertilizer application only after moisture has cycled down and salts remain moderate.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing compact, upright basil stems and a cleaner soil surface with scattered lime residue.",
+          "tags": "basil, overhead, compact-growth, lime"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view emphasizing the thicker central stems and clusters of fresh leaves after recent topping.",
+          "tags": "basil, side-view, stems, topped"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle from the fence side showing the plant filling the rim of the pot with vigorous foliage.",
+          "tags": "basil, container, vigorous, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:38 AM",
+      "conditions": "Mostly cloudy with a high of 84°F, gusts up to 19 mph, and an overnight low near 67°F.",
+      "digital_probe": {
+        "ph": "5.44",
+        "ec_mScm": "0.45",
+        "salt_mg_L": "226",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "26.7",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is lush and full with many stems reaching the rim of the pot, and new growth appears bright and turgid. A fresh layer of finely powdered dolomite lime is visible on portions of the soil surface from the most recent pH correction. Moisture is high after recent watering, and the canopy still shows a few older, paler leaves lower down that reflect earlier stress. Overall structure is upright with no wilting despite the gusty, mostly cloudy weather.",
+      "actions": "Avoid additional watering for now while the soil moisture is very high. Allow the lime on the soil surface to sit and begin buffering pH upward, taking care that it does not remain on the leaves. Hold off on any fertilizer applications today since salts and fertility are already elevated and the plant is actively pushing new growth.",
+      "next_steps": "Recheck pH, salts, and moisture within the next day or two as the pot begins to dry to ensure the lime adjustment is not overshooting. Watch for any signs of leaf burn or spotting where lime may have contacted foliage. If readings move into the mid-6s with moderate salts, plan to resume very light feeding using the gentlest fertilizer from your product list.",
+      "q_and_a_summary": "Reviewed the available products, including balanced fertilizers, dolomite lime, and several ready-to-spray pest and disease controls, and clarified that lime is appropriate for gentle pH correction while stronger insect and fungicide sprays should be reserved for clear infestations or disease symptoms.",
+      "follow_up": [
+        "[11:52 AM] Gave the pot a quick, light shower to rinse dolomite lime off the leaves and lightly rewet the soil surface, topped the longest stems to keep the plant compact, and noted a small chew hole to monitor for possible future pest activity."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the basil after lime application, showing dense green foliage and white lime scattered on the soil surface.",
+          "tags": "basil, overhead, lime, dense-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of stems near the rim of the pot highlighting vigorous new growth and residual lime on the soil.",
+          "tags": "basil, close-up, stems, lime"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view capturing the overall height of the plant in the white pot and the even foliage around the perimeter.",
+          "tags": "basil, side-view, container, foliage"
+        }
+      ]
+    },
+    {
+      "date": "11/30/2025",
+      "time": "2:47 PM",
+      "conditions": "Mostly cloudy in the mid-70s°F with stable conditions through the afternoon, possible showers around 6:00 PM, and an overnight low near 69°F.",
+      "digital_probe": {
+        "ph": "7.70",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "86",
+        "moisture_mScm": "36.00",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "8.5",
+        "soil_temp_f": "86.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil has filled out the pot with several upright stems and a good amount of new foliage compared with earlier in the month. Leaf color is generally light-to-medium green, with a few older leaves around the lower canopy showing yellowing and small chew holes from past insect activity. Soil moisture is moderately dry but not yet wilting, and the plant holds its posture well in the mostly cloudy afternoon light. No active pests are visible in the photos.",
+      "actions": "Hold off on fertilizing today while soil pH sits in the high 7s, as nutrients will be less available at this alkalinity. Allow the soil surface to dry slightly further, then provide a gentle plain watering to support gradual pH drift back toward the mid-6s. Keep the pot in bright morning sun with some protection from the harshest late-afternoon heat, and leave healthy foliage intact to support recovery.",
+      "next_steps": "Recheck probe readings within the next day or two to verify that pH begins trending downward from 7.70 toward the ideal range. Continue to monitor for renewed chewing damage or spotting on any remaining older leaves. Plan the next fertilizer application only once pH is back in the 6.0–6.5 range and moisture has cycled through at least one more dry-down.",
+      "q_and_a_summary": "Discussed whether a full gallon of water was appropriate for this small planter and confirmed that smaller, measured volumes are safer, with the goal of deep but not excessive watering when the pot has dried through the top few inches.",
+      "follow_up": [
+        "[3:15 PM] Removed the remaining yellowed and bug-chewed leaves to tidy the canopy and focus the plant's energy on vigorous new growth."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing multiple basil clusters with a mix of fresh green leaves and a few older pale leaves near the rim.",
+          "tags": "basil, overhead, mixed-foliage, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the pot highlighting upright stems and light green leaves against the fence backdrop.",
+          "tags": "basil, side-view, stems, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer angle on the lower canopy showing older leaves with yellowing and small chew holes before cleanup.",
+          "tags": "basil, lower-leaves, chewing-damage, yellowing"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "12:21 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.43",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "58",
+        "moisture_mScm": "38.00",
+        "light": "88",
+        "rh_percent": "56",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "86.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil pH has risen to an alkaline 7.43, temporarily restricting nutrient uptake and causing continued yellowing and brown spotting on older leaves. New growth is present but lighter than ideal, indicating stalled nutrient absorption rather than new decline. Moisture levels are slightly dry, and overall plant structure remains upright and stable with no signs of pests or overwatering.",
+      "actions": "Do not fertilize at this pH. Provide a light watering with filtered or rain water to help gradually lower alkalinity. Avoid pruning to preserve leaf area during nutrient-limited recovery.",
+      "next_steps": "Recheck pH tomorrow morning to monitor natural drift downward. Once pH returns to the 6.0–6.4 range, begin gentle fertilizing to restore nutrient levels. Continue morning sun exposure while limiting harsh afternoon heat.",
+      "q_and_a_summary": "Discussed whether the continued yellowing indicated new problems or residual stress. Analysis confirmed that elevated pH is again limiting nutrient uptake, explaining yellowing and stalled green-up despite stable structural growth. Recommendations focused on avoiding fertilizing until pH drops naturally.",
+      "follow_up": [
+        "[12:34 PM] Applied gentle soil rinse to help gradually lower alkalinity and support pH drift back toward the ideal range."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front view showing pale leaves and stalled deep-green recovery, with upright posture still maintained.",
+          "tags": "basil, chlorosis, recovery, yellowing"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view with visible brown spotting and interveinal yellowing on mid-canopy leaves.",
+          "tags": "leaf-damage, chlorosis, brown-spots"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower leaf cluster showing pronounced yellowing consistent with nutrient deficiency due to alkaline pH.",
+          "tags": "lower-leaves, nutrient-deficiency, pale"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view revealing uneven coloration across basil clusters, with new growth present but pale.",
+          "tags": "top-view, canopy, uneven-color, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:07 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "5.75",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "55",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "68",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "72.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued recovery as soil pH has returned to an ideal range and moisture levels are moderate. New growth at the top is greener and firmer, but older leaves remain yellow with brown spots caused by past nutrient lockout. No new pest activity is visible. Overall posture is strong and upright, indicating improving health.",
+      "actions": "Do not fertilize immediately; wait until the soil dries slightly further. Avoid pruning and continue providing bright morning sun exposure.",
+      "next_steps": "Monitor soil drying and apply a light fertilizer once moisture decreases slightly. Recheck pH and nutrient levels within 24 hours.",
+      "q_and_a_summary": "Discussed concern about yellow and brown leaves. Explanation confirmed they are residual damage from prior pH swings and nutrient deficiency. Recommendation was to wait to fertilize until soil moisture decreases.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front view showing greener new growth and lingering yellowing on older leaves.",
+          "tags": "basil, recovery, yellowing, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing stem clusters and moderate leaf discoloration.",
+          "tags": "side-view, chlorosis, stems"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Bottom cluster with pale leaves reflecting past nutrient stress.",
+          "tags": "lower-leaves, pale, nutrient-deficiency"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing uneven coloration across basil clusters.",
+          "tags": "top-view, canopy, chlorosis"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:17 PM",
+      "conditions": "Sunny with a high of 84°F dropping to around 60°F overnight.",
+      "digital_probe": {
+        "ph": "7.04",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "122",
+        "moisture_mScm": "54.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "88.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues to recover from prior acidic soil stress, but pH has now risen to 7.04, which is slightly alkaline and may begin limiting nutrient uptake again. New top growth is greener and more upright, while lower leaves remain pale with older chewing and stress markings. Overall color suggests that nutrient availability is still restricted despite adequate moisture and sunlight. Soil moisture is moderate, and no active pest pressure is visible.",
+      "actions": "Do not fertilize today, as elevated pH will reduce nutrient availability. Allow the soil to dry slightly before the next watering. Stop any additional pH adjustments. Keep the pot in bright morning sun with protection from the harshest heat later in the day. Do not prune any stems today.",
+      "next_steps": "Recheck pH and moisture within 24 hours. Monitor leaf color for signs of deeper green as pH gradually drifts downward. Resume fertilizing only once soil pH returns to the 5.8–6.3 range. Continue to avoid topping until the plant shows stronger, darker new growth.",
+      "q_and_a_summary": "Discussed readiness to begin new tracking. Assessment confirmed that the plant is progressing through recovery but is temporarily limited by an alkaline pH that restricts nutrient uptake, and no fertilizing or pruning should occur today.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front view with upright stems and pale lower leaves showing recovery mixed with older stress marks.",
+          "tags": "basil, recovery, lower-leaves, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing multiple basil clusters with greener new growth and paler lower leaves.",
+          "tags": "top-view, new-growth, chlorosis, clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing stem bases and soil surface with improved structure and evenly moist texture.",
+          "tags": "side-view, soil, stems, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing leaf yellowing and older chewing damage still present on outer stems.",
+          "tags": "leaf-damage, yellowing, stress, pale-leaves"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "10:50 AM",
+      "conditions": "Mostly sunny, around 78°F at mid-morning with a forecast high of 83°F and an overnight low near 64°F.",
+      "digital_probe": {
+        "ph": "5.05",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "60",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "77.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued improvement in upper foliage color and posture. The tallest stem is standing upright and displaying greener, firmer new leaves. Lower leaves remain pale yellow with old chewing marks, but no fresh pest activity is visible. The soil surface has improved aeration due to fluffing, breaking up the compacted layer that was restricting airflow. Smaller basil plants around the central stem remain lighter in color but are stable and not declining. Moisture levels are moderate, and the improved pH is now within a workable recovery range.",
+      "actions": "No watering needed today. No fertilizing needed. Keep the plant in full morning sun and protect it from the hottest midday hours. Do NOT top or prune any stems today.",
+      "next_steps": "Recheck pH and moisture within 24 hours. Monitor new growth color for deepening green. If pH rises above 5.4 and moisture is moderate, moderate feeding may resume within 1–2 days.",
+      "q_and_a_summary": "Discussed whether recovery was truly progressing. Confirmation that recovery is on track: upper foliage is stronger, soil aeration is improved, and pH is near a healthy range, while older leaf discoloration reflects past stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front view showing upright main stem and greener top leaves.",
+          "tags": "basil, recovery, upright-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing pale lower leaves and loosened soil surface after fluffing.",
+          "tags": "lower-leaves, soil, aeration"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Back angle of the pot showing secondary stems and gradual color improvement.",
+          "tags": "side-angle, secondary-stems"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cluster of smaller basil plants around the main stem showing pale but stable foliage.",
+          "tags": "small-plants, pale-leaves, stability"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Main stem with firmer, greener new growth emerging at the top.",
+          "tags": "new-growth, main-stem, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing overall structure and spacing of basil clusters in the pot.",
+          "tags": "top-view, structure, canopy"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:14 AM",
+      "conditions": "Warm and clear around 76°F in the morning with full sun and light, dry air.",
+      "digital_probe": {
+        "ph": "4.13",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "104",
+        "moisture_mScm": "55.00",
+        "light": "89",
+        "rh_percent": "63",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "67.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows noticeable improvement compared to earlier in the week. The tallest stem is more upright with stronger leaf color and reduced wilting. New upper growth appears firmer and greener, while lower leaves remain pale with older chew marks and spotting that have not worsened. Soil is evenly moist and settling well after prior watering. Smaller plants around the main stem are still lighter in color but appear stable.",
+      "actions": "No watering needed today as moisture is adequate. Do NOT cut or top any stems. Keep the plant in full morning sun but avoid extended exposure to the harshest midday heat.",
+      "next_steps": "Recheck pH and fertility within 24 hours. Monitor lower leaves for additional yellowing or spotting. If pH remains below 5.0, plan a gentle pH correction. Continue morning sun exposure with partial protection during peak heat.",
+      "q_and_a_summary": "Discussed whether recovery was truly improving. Confirmation that upper growth and structure are better, and that no topping should be done yet while the plant continues to regain strength.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front view showing more upright growth and slightly greener foliage.",
+          "tags": "basil, recovery, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing greener new growth above paler lower leaves.",
+          "tags": "top-view, new-growth, pale-lower-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view with lower leaves showing chewing damage and stable yellowing.",
+          "tags": "leaf-damage, chewing, lower-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cluster of smaller basil plants around the main stem, still light in color but not wilting.",
+          "tags": "small-plants, pale, stable"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:30 AM",
+      "conditions": "Warm morning around 76°F with full sun and dry conditions.",
+      "digital_probe": {
+        "ph": "4.79",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "94",
+        "moisture_mScm": "59.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains pale overall with pronounced yellowing on lower leaves. New growth at the top is soft and light green, and the main stem continues to elongate. Two basal shoots are developing but are still weaker than the main stem. Soil is adequately moist. No active pest damage is visible. Overall condition is consistent with low pH and limited nutrient uptake rather than a lack of watering.",
+      "actions": "Apply ¼ teaspoon baking soda dissolved in 1 pint of water to continue correcting soil pH. Keep the plant in full morning sun for warmth while avoiding extreme midday heat. Do not fertilize today. Do NOT cut or top the main stem.",
+      "next_steps": "Recheck soil pH tomorrow morning. Monitor new growth color and firmness for signs of recovery over the next 24–48 hours. Allow the top inch of soil to dry slightly before watering again. Delay any fertilizer until pH stabilizes in the 5.6–6.2 range.",
+      "q_and_a_summary": "Discussed whether to top the main stem now that the two smaller shoots were larger. Decision was to wait: the plant is still under pH stress with pale, soft new growth, so topping now would slow recovery.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Canopy view showing overall pale foliage and uneven vigor.",
+          "tags": "basil, chlorosis, weak-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the main stem tip with soft, light green new leaves.",
+          "tags": "stem, growth-tip, light-green"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower leaves with strong yellowing and prior damage.",
+          "tags": "lower-leaves, yellowing, stress"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "View of soil surface showing even moisture around the stem base.",
+          "tags": "soil, moisture, stem-base"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing pale canopy and weaker lower foliage.",
+          "tags": "side-view, pale, uneven-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of upper growth showing softness and stress symptoms.",
+          "tags": "growth-tip, stress, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "8:54 AM",
+      "conditions": "Cool morning around 59–61°F with full sun and light, dry air.",
+      "digital_probe": {
+        "ph": "4.62",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "75",
+        "moisture_mScm": "50.00",
+        "light": "99",
+        "rh_percent": "60",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "59.5"
+      },
+      "analog_probe": {
+        "fertility": "green",
+        "moisture": "6 (green)",
+        "ph": "5.5 (green/yellow)"
+      },
+      "observations": "The plant shows pale yellow-green foliage across both older and newer leaves. Upper growth appears small and lightly colored with reduced vigor, while lower leaves show more pronounced yellowing. Stems are uneven in growth, with a tall main stem and smaller basal shoots just beginning to emerge. Soil appears evenly moist with no signs of overwatering. The pattern of symptoms is consistent with nutrient lockout caused by acidic soil.",
+      "actions": "Apply ¼ teaspoon baking soda dissolved in 1 pint of water to begin correcting acidic soil conditions. Keep the plant in full sun for the rest of the day. Do not fertilize today. Do NOT cut or top the main stem yet.",
+      "next_steps": "Recheck soil pH tomorrow morning. Allow the top inch of soil to dry before watering again. Resume fertilizer only once soil pH has moved into the 5.6–6.2 range.",
+      "q_and_a_summary": "Discussed whether topping should proceed. Decision was to delay topping because the plant was stressed by low pH and needed to regain strength and deeper green new growth before any pruning.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Pale basil canopy with uneven coloration across leaves.",
+          "tags": "basil, chlorosis, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower leaves displaying strong yellowing and thinning.",
+          "tags": "lower-leaves, yellowing, stress"
+        }
+      ]
+    }
+  ]
+}

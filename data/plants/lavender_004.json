@@ -1,0 +1,847 @@
+{
+  "id": "lavender_004",
+  "status": "Active",
+  "plant": "Lavender (Left)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 5",
+  "container": "Round pot, 25 oz, white",
+  "soil_mix": "Miracle-Gro Potting Soil + Skoon pebbles (1:3)",
+  "origin_history": [
+    "Lavender seed pot placed at Panel 4.",
+    "Seeds scattered and lightly covered on Nov 9, 2025.",
+    "Soil mix: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio)."
+  ],
+  "whats_been_logged": "Lavender (Left) has been tracked from initial sowing and first watering through early analog probe checks, a light fertilizer application, the switch to the YINMIK digital probe, repeated episodes of dry, acidic soil under strong sun, and ongoing adjustments in watering, shading, and pH planning while the pot remains in the pre-germination stage with no visible sprouts.",
+  "current_stage": "Germination – Tiny Seedling Visible",
+  "current_state": "First lavender sprout emerged on Day 12; early cotyledons forming and soil moisture now stable in the upper germination zone.",
+  "timeline": [
+    {
+      "stage": "Germination",
+      "date_range": "Nov 23 - Dec 5, 2025"
+    },
+    {
+      "stage": "Tiny seedlings visible",
+      "date_range": "Dec 10 - Dec 20, 2025"
+    },
+    {
+      "stage": "Transplantable small plants",
+      "date_range": "Jan 10 - Jan 25, 2026"
+    },
+    {
+      "stage": "First light flowering",
+      "date_range": "May 1 - Jul 31, 2026"
+    },
+    {
+      "stage": "Peak flowering",
+      "date_range": "Jul 15 - Sep 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:39 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.65",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "48.00",
+        "light": "97",
+        "rh_percent": "56",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "64.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling is upright and sturdy with multiple true leaves expanding, indicating a healthy transition into early seedling growth. Leaf color is a consistent soft green with no wilting, yellowing, or damping-off at the stem. The soil surface looks freshly loosened and leveled, with the former probe hole filled in and a light addition of Miracle-Gro Moisture Control Potting Mix blended into the upper layer. Probe values show ideal moisture, a stable near-neutral pH, and low EC suitable for young lavender.",
+      "actions": "Do not water today, as soil moisture is ideal for early seedling development. Keep the pot in bright morning sun and move it under cover before storms arrive so heavy rain does not compact the surface or disturb the seedling. Avoid fertilizer or additional amendments while the roots continue to establish.",
+      "next_steps": "Recheck moisture tomorrow morning after the weather system passes, aiming to keep readings in roughly the 35–50 mS/cm range for steady growth. Continue providing morning sun and light afternoon protection until the seedling becomes more robust. Watch for continued true leaf expansion as the plant moves further into active vegetative growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the lavender seedling showing multiple true leaves and a freshly loosened, evenly textured soil surface.",
+          "tags": "lavender, seedling, soil-surface, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the lavender seedling in its white container, with leveled soil and early vegetative growth.",
+          "tags": "lavender, seedling, container, side-view"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:49 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.76",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "139",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "78.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling appears upright, healthy, and actively expanding its first true leaves. The soil surface is evenly moist with a loose, aerated structure, indicating stable hydration after yesterday’s dry conditions. No signs of damping-off, yellowing, or heat stress are visible. Probe readings show ideal moisture, seedling-safe pH, and low EC appropriate for early growth.",
+      "actions": "No watering needed today due to ideal soil moisture. Keep the pot in morning sun and move it under cover before storms begin to avoid direct rainfall on the seedling. No fertilizer or soil amendments applied.",
+      "next_steps": "Recheck moisture tomorrow morning as cooler temperatures may slow drying. Continue avoiding fertilizer until several true leaves develop. Protect the seedling from heavy rain and midday heat while it strengthens.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender seedling showing healthy early leaf development and evenly moist soil in a white container.",
+          "tags": "lavender, seedling, soil-surface, container"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:33 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "7.98",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "17.00",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "93.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedling remains upright and healthy with open early leaves and no signs of damping-off or stress. The soil surface is dry and flaky, indicating insufficient moisture in the upper germination zone. The elevated pH reading is consistent with the probe being inserted into a dry zone rather than reflecting an actual soil shift. Light intensity is extremely high at midday, and soil temperature is elevated but not causing visible heat stress.",
+      "actions": "Add 1–2 tablespoons of water around the seedling, keeping at least half an inch away from the stem, to re-moisten the upper soil layer. Move the pot into bright shade for a few hours to help stabilize moisture around the root zone. No fertilizer or amendments applied.",
+      "next_steps": "Recheck moisture tomorrow morning to ensure levels return to the 35–45 mS/cm range. Keep the pot covered or sheltered before expected rain to prevent soil disturbance. Continue providing morning sun and avoiding harsh midday heat until the seedling strengthens.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender seedling in bright sun showing healthy early leaves and dry soil surface.",
+          "tags": "lavender, seedling, soil-surface, container"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:44 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.45",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "53.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "92.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling appears strong and healthy with cotyledons fully open and showing deeper green coloration. Stem remains upright and stable with no signs of damping-off or mechanical stress. Soil is evenly moist and well-aerated, with no signs of compaction or hydrophobic areas. Despite elevated soil temperature from direct sun exposure, the seedling shows no heat stress. Probe values indicate excellent pH, stable moisture, and safe nutrient levels.",
+      "actions": "No watering needed today due to ideal moisture. Continue providing morning sun and shift to a wind-sheltered bright shade area by early afternoon to limit heat buildup in the shallow pot.",
+      "next_steps": "Monitor moisture and water only when readings fall below 35-40 mS/cm. Avoid fertilizer and chemical treatments at this stage. Protect from strong afternoon sun and wind while the seedling continues to strengthen.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing excellent pH and ideal moisture.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender pot in sunlight with evenly moist soil surface.",
+          "tags": "lavender, container, soil-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of lavender seedling showing healthy cotyledons and strong early growth.",
+          "tags": "lavender, seedling, sprout, closeup"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:44 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "6.54",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "170",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "19.3",
+        "soil_temp_f": "77.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling appears strong and healthy with well-formed cotyledons and deepening green color. Stem remains upright and stable with no signs of damping-off or stress. Soil is evenly moist and well-aerated. pH and EC remain in excellent ranges for early seedling growth.",
+      "actions": "No watering required today due to adequate moisture. Move the pot to bright shade or a wind-sheltered area for the afternoon to protect the fragile seedling from 19 mph gusts.",
+      "next_steps": "Continue morning sun exposure and protect from strong afternoon wind. Avoid fertilizer and chemical treatments at this stage. Water only when moisture drops below 35-40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing excellent pH and moderate moisture.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Pot view showing well-aerated soil and stable seedling environment.",
+          "tags": "lavender, container, soil-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the lavender seedling showing healthy cotyledons and good coloration.",
+          "tags": "lavender, seedling, sprout, closeup"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing soil texture and seedling position.",
+          "tags": "lavender, seedling, soil, closeup"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "1:29 PM",
+      "conditions": "Mostly sunny with a high of 77-80°F dropping to 66-68°F overnight. Partly cloudy conditions expected around 11 AM returning to sunny again at 1 PM. Wind gusts up to 20 mph. Watered at 9:40 AM.",
+      "digital_probe": {
+        "ph": "6.24",
+        "ec_mScm": "0.44",
+        "salt_mg_L": "224",
+        "moisture_mScm": "90.00",
+        "light": "84",
+        "rh_percent": "53",
+        "fertility_percent": "26.0",
+        "soil_temp_f": "82.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling appears healthy, upright, and stable with intact cotyledons and normal early coloration. Soil added earlier in the week is now evenly hydrated, and the overall structure is loose and aerated without any hydrophobic patches. The seedling shows no signs of damping-off, stem thinning, or moisture-related stress. Probe readings indicate strong hydration from the morning watering and a stable, favorable pH. Increased EC and fertility readings are consistent with rehydration of organic material and are safe at this stage.",
+      "actions": "No further watering today due to high soil moisture. To prevent wind-driven dehydration and mechanical stress, the plant should be moved to bright shade around midday. Avoid fertilizer and all chemical treatments at this stage.",
+      "next_steps": "Continue providing morning sun and move to bright shade by early afternoon until true leaves appear. Recheck moisture tomorrow morning. Maintain protection from strong wind gusts and avoid disturbing soil around the sprout.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing well-hydrated soil and an ideal pH range following morning watering.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the lavender pot showing hydrated soil and the sprout area remaining undisturbed.",
+          "tags": "lavender, container, soil-surface"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "3:45 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. The pot remained on the picnic table to avoid yesterday's expected rain. Additional soil was added around the outer edges of the pot today, leaving the sprout area untouched.",
+      "digital_probe": {
+        "ph": "8.99",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedling remains intact with open cotyledons and no signs of collapse or damping-off. The soil surface and probe readings both indicate very dry conditions, including the newly added soil around the edges. The elevated pH is consistent with a dry probe zone rather than a true soil shift.",
+      "actions": "Rehydrate the upper soil layer around the sprout using a small amount of water applied away from the seedling.",
+      "next_steps": "Maintain gentle hydration of the top half inch of soil while keeping water away from the sprout stem. Keep the pot on the picnic table to avoid potential rainfall impact. No fertilizer needed at this stage.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:55 PM] Watered it per the instructions."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 reading showing a dry probe zone with elevated pH and zero moisture.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the lavender pot showing freshly added soil around the edges and a dry surface.",
+          "tags": "lavender, container, soil-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the lavender seedling displaying open cotyledons amid a dry upper soil layer.",
+          "tags": "lavender, seedling, sprout, closeup"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:44 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4 PM. A light rain occurred shortly after the readings.",
+      "digital_probe": {
+        "ph": "5.39",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "169",
+        "moisture_mScm": "59.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "18.7",
+        "soil_temp_f": "82.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedling remains upright with healthy pale-green cotyledons and no signs of damping-off. Soil moisture is high but not waterlogged following the light rain, and the surface remains loose and aerated. Probe values show stable pH and low EC suitable for early growth.",
+      "actions": "No watering planned due to natural rainfall and expected storms later in the day. Prepared to protect the seedling from direct heavy rain impact if thunderstorms approach.",
+      "next_steps": "Move the pot under covered bright shade if heavy rain begins to prevent soil disturbance. Keep the surface lightly moist in the coming days but avoid overwatering. Continue avoiding fertilizer at this stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing stable pH and high but safe moisture after recent rain.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the lavender seedling showing upright cotyledons and moist, aerated soil.",
+          "tags": "lavender, seedling, sprout, closeup"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the lavender pot displaying moisture distribution and intact seedling position.",
+          "tags": "lavender, container, soil-surface"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "2:53 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 65°F overnight. Watered at 2:33 PM and readings taken 1.5 hours later.",
+      "digital_probe": {
+        "ph": "6.29",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "37.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "87.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling remains upright with well-formed cotyledons showing healthy pale-green coloration. Soil moisture appears balanced following the afternoon watering, and probe readings show stable pH and very low EC suitable for a young seedling. No signs of damping-off or stress are visible, and soil texture remains loose and aerated.",
+      "actions": "No additional watering applied after the earlier session. Continued monitoring of moisture and seedling stability planned.",
+      "next_steps": "Keep the top layer lightly moist and avoid watering directly onto the seedling. Provide full morning sun and afternoon shade to maintain hydration stability. No fertilizer needed at this stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing stable pH and moderate moisture after early afternoon watering.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the lavender seedling with expanded cotyledons and healthy early growth.",
+          "tags": "lavender, seedling, sprout, closeup"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the lavender pot showing moist, aerated soil and stable seedling position.",
+          "tags": "lavender, container, soil-surface"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "10:36 AM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.38",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "140",
+        "moisture_mScm": "38.00",
+        "light": "96",
+        "rh_percent": "66",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "One small lavender seedling is visible and upright, showing normal early cotyledon development. Soil moisture appears moderately even though surface dryness in some areas likely caused the elevated pH reading. No signs of damping-off, pests, or algae were seen, and the seedling looks stable.",
+      "actions": "Maintain gentle, even moisture by adding a small amount of water to support the developing root zone.",
+      "next_steps": "Keep the top half inch lightly moist and avoid wetting the seedling directly. Provide morning sun and protect from harsh midday heat. No fertilizer needed yet.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:47 AM] Gave it a light shower."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing moderate moisture and an elevated pH due to uneven surface hydration.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the Lavender (Left) pot showing the soil surface and general seedling area.",
+          "tags": "lavender, container, soil-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the small lavender seedling emerging from the soil.",
+          "tags": "lavender, sprout, seedling, closeup"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "12:58 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.84",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "36.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "90.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "First confirmed sprout visible on Day 12 from sowing. A tiny pale-green lavender seedling has emerged at the soil surface with an upright embryonic stem and the cotyledons beginning to separate. Soil moisture appears moderately even after recent rehydration, and the top layer is no longer overly dry. Probe readings now reflect the upper zone rather than the bottom moisture pocket, showing stable pH and low EC suitable for seedlings. No mold, pests, or algae observed. The soil is naturally loose from prior fluffing but not disturbed around the sprout.",
+      "actions": "No watering applied at the time of the reading. Plan to maintain lightly moist topsoil around the seedling by adding 1-2 tablespoons of water as needed. Keep pot in full morning sun and shift to light shade during peak afternoon heat to prevent rapid drying. Avoid fertilizing for at least 10-14 days to protect the young seedling.",
+      "next_steps": "Monitor daily for moisture and seedling stability. Keep the surface evenly damp but not saturated. Begin checking for additional sprouts over the next several days. If soil pH trends downward or sprouts appear weak, reconsider micro lime adjustment, but none is needed at this stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing hydrated upper soil zone with mid-5 pH suitable for early lavender germination.",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the first tiny lavender sprout emerging from the soil surface.",
+          "tags": "lavender, sprout, seedling, closeup"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Alternate angle of the newly emerged lavender sprout showing early cotyledon formation.",
+          "tags": "lavender, sprout, seedling, closeup, emergence"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:30 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "4.90",
+        "ec_mScm": "0.60",
+        "salt_mg_L": "303",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "36.7",
+        "soil_temp_f": "77.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible on Day 11 from sowing. The surface and mid-zone of the pot remain relatively dry, which matches note that pH would not register until the probe reached the moist bottom layer. The bottom of the pot is well hydrated, leading to measurable pH, EC, and fertility values, while the upper germination zone continues to dry quickly in this small container. Soil structure remains healthy with no crusting, mold, algae, or pests. Moisture distribution is still uneven, which can slow germination.",
+      "actions": "Add 1-2 tablespoons of water to re-moisten the upper 1/2 inch of soil. Keep the pot in bright light but out of intense midday sun to avoid rapid drying. No fertilizer or lime added.",
+      "next_steps": "Monitor surface moisture over the next 24 hours, keeping the top layer evenly damp but not saturated. Expect more reliable pH readings once the upper zone remains hydrated. Prepare for a small lime top-dress only if no sprouts appear by Day 16-18. Protect the pot only if temperatures drop near 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:36 AM] Fluffed the top 1/4 inch of soil to improve surface moisture distribution."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing moisture and pH restored only at the pot's lower zone.",
+          "tags": "lavender, probe-reading, digital, moisture-pocket"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) pot outdoors with a darkened but unevenly moist soil surface.",
+          "tags": "lavender, container, soil-surface, outdoors"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:21 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "10",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "85.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible on Day 10 from sowing. The soil surface is completely dry, matching the 0.00 moisture reading. The 0.00 pH is characteristic of the YINMIK probe being unable to measure in very dry soil rather than an actual pH value. The potting mix remains fluffy with no algae, mold, pests, or surface crusting. Strong sun and lower humidity are causing extremely fast drying in the small pot.",
+      "actions": "Water with 2-3 tablespoons applied slowly to re-moisten the upper 3/4 inch of soil. Move the pot to partial shade during the hottest hours to slow evaporation. No fertilizer added.",
+      "next_steps": "Maintain a lightly damp surface for the remaining germination window. Recheck moisture within 12-24 hours. Expect pH to return to normal once moisture is restored. If no sprouts appear by Day 14-16, consider a tiny dolomitic lime top-dress to stabilize pH. Protect the pot only if temperatures approach 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital S-06 probe reading showing extremely dry soil and low EC values for Lavender (Left).",
+          "tags": "lavender, probe-reading, digital, dry-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) pot outdoors with visibly dry soil surface under full sun.",
+          "tags": "lavender, container, soil-surface, outdoors, dry"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "11:15 AM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.18",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "27",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "60",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil is extremely dry as shown by the 0.00 moisture reading and dry, crumbly surface. The potting mix with Skoon remains loose and well-aerated with no algae, mold, or pests. pH is still low for lavender but has improved slightly compared with earlier readings. Intense full sun and warm soil temperatures are accelerating evaporation.",
+      "actions": "Water with 2-3 tablespoons of water applied slowly and evenly, adding a small additional amount as needed to re-moisten the top layer. Move the pot to light shade around midday to slow surface drying. No fertilizer applied.",
+      "next_steps": "Recheck moisture within 24 hours and keep the top 1/2 inch lightly damp during germination. If no sprouts emerge by Day 14-16, prepare a very small dolomitic lime top-dress to gradually raise pH. Protect the pot if temperatures drop below 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading screen showing 11/20 measurements for Lavender (Left).",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) pot with large YINMIK probe inserted in full sun on a warm day.",
+          "tags": "lavender, container, probe"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:20 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.95",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "31.00",
+        "light": "99",
+        "rh_percent": "68",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "70.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil moisture is moderately low with the surface beginning to dry, but the mix still looks loose and healthy with no compaction, algae, or mold. The large YINMIK probe occupies much of the pot but has not disturbed the soil structure. pH remains too acidic for lavender and fertility is minimal but acceptable for pre-germination. Light intensity is very high under direct sun.",
+      "actions": "Lightly mist the top 1/2 inch of soil to maintain gentle, even moisture. Leave the pot in full morning sun and move it to partial shade around midday to prevent rapid drying. No fertilizer added.",
+      "next_steps": "Recheck moisture within 24 hours and keep the surface lightly damp. If no sprouts appear by Day 14-16, prepare a small dolomitic lime top-dress to gradually raise pH. Protect from overnight temperatures below 45°F.",
+      "q_and_a_summary": "Asked whether the large YINMIK probe was safe to use in such a small pot; the answer was that it is safe as long as it is inserted gently in one spot without twisting or disturbing the seed zone.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading screen showing 11/19 measurements for Lavender (Left).",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) pot outdoors with the large YINMIK probe inserted beside the label.",
+          "tags": "lavender, container, probe"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the soil surface in Lavender (Left) with the probe inserted.",
+          "tags": "soil, probe, closeup"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface of Lavender (Left) showing moisture level and texture without the probe in view.",
+          "tags": "lavender, soil, container"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:34 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.34",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "53",
+        "moisture_mScm": "32.00",
+        "light": "95",
+        "rh_percent": "60",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil is moderately moist but trending dry at the surface, with the mix still loose and well-aerated. pH has risen into a much better range for lavender germination. Fertility remains very low, appropriate for seed stage. Light levels are high under strong morning sun, and there are no signs of pests, algae, or mold.",
+      "actions": "Lightly mist the topsoil to maintain even surface moisture. No fertilizer applied. Keep the pot in full morning sun and move it into light shade around midday to slow evaporation.",
+      "next_steps": "Recheck moisture in 24 hours and keep the surface lightly damp during germination. If no sprouts appear by Day 14-16, plan a very small lime top-dress to help stabilize pH. Protect the pot if temperatures drop below 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) container in morning sun with visible soil surface and label.",
+          "tags": "lavender, container, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of Lavender (Left) showing soil moisture level and texture.",
+          "tags": "soil, top-view, seed-starting"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of Lavender (Left) soil surface showing moisture distribution.",
+          "tags": "closeup, soil, moisture"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "8:57 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.05",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "146",
+        "moisture_mScm": "55.00",
+        "light": "98",
+        "rh_percent": "61",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "61.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil is evenly moist with no pooling, and the potting mix with Skoon looks loose and well-aerated with no mold, algae, or compaction. pH remains low for lavender and fertility is on the lean side but acceptable for pre-germination. Strong morning sun provides high light levels typical for the planting location.",
+      "actions": "No watering needed and no fertilizer applied. Keep the pot in full morning sun with a plan to move it to light shade around midday to reduce surface drying.",
+      "next_steps": "Recheck moisture within 24 hours and maintain lightly damp topsoil. If no sprouts by around Day 14, prepare for a small dolomitic lime top-dress to nudge pH upward. Protect from nights near or below 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Pot of Lavender (Left) showing soil surface and container in morning sun.",
+          "tags": "lavender, seedling-stage, soil-surface"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:15 AM",
+      "conditions": "Warm, mostly sunny morning with temperatures in the mid-70s°F.",
+      "digital_probe": {
+        "ph": "5.06",
+        "ec_mScm": "0.51",
+        "salt_mg_L": "258",
+        "moisture_mScm": "60.00",
+        "light": "97",
+        "rh_percent": "59",
+        "fertility_percent": "30.7",
+        "soil_temp_f": "75.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil is moist but not waterlogged, with a fluffy texture and good aeration. The new YINMIK probe shows moderately high moisture and moderate fertility levels. pH is somewhat acidic for lavender. There are no signs of algae, mold, or surface crusting.",
+      "actions": "No watering or fertilizing needed. Continue to keep the pot in bright sun while monitoring to avoid over-drying in the afternoon.",
+      "next_steps": "Recheck moisture and pH in 24 hours and maintain even moisture without saturating the pot. Continue monitoring pH, with the option for a small lime adjustment later if germination is delayed.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading screen showing 11/16 measurements for Lavender (Left).",
+          "tags": "lavender, probe-reading, digital"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) pot placed outdoors near the fence with healthy, moist soil surface.",
+          "tags": "lavender, container, outdoors"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of Lavender (Left) showing moist soil texture and Skoon particles.",
+          "tags": "soil, top-view, skoon"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "8:55 AM",
+      "conditions": "Cool, mostly sunny morning around 65°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "end of yellow toward green (improving)",
+        "moisture": "4 (green, ideal)",
+        "ph": "between 6-7 (near neutral)"
+      },
+      "observations": "No new sprouts observed. Analog readings show improving fertility, ideal moisture, and a pH moving into the neutral range well suited for lavender. Soil surface looks evenly damp without crusting. Overall, conditions are favorable for germination to begin in the coming days.",
+      "actions": "Add about 1/2 cup of diluted balanced fertilizer to gently increase nutrient availability while keeping concentrations low. No additional watering beyond the diluted solution.",
+      "next_steps": "Monitor moisture and keep the surface evenly damp but not soggy. Avoid further fertilizing for at least 10-14 days. Continue to provide full morning sun and move to partial shade in the hottest part of the day.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "11/12/2025",
+      "time": "9:02 AM",
+      "conditions": "Cool morning around 60°F with full sun exposure expected until mid-afternoon.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow (low)",
+        "moisture": "1 red (dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "No sprouts visible. Soil surface is dry and analog readings show low fertility, very low moisture, and an alkaline pH. Full sun through much of the day is contributing to surface drying, but there is no sign of crusting, pests, or disease.",
+      "actions": "Lightly mist the soil with a few tablespoons of water to moisten the top 1 inch without causing pooling. Keep the pot in full morning sun, then move it into bright indirect light or light shade around midday to slow evaporation.",
+      "next_steps": "Recheck moisture later in the day and again the next morning, misting as needed to keep the top 1/2 inch evenly damp. Delay fertilizing until after germination and monitor pH in case future correction is needed.",
+      "q_and_a_summary": "Asked where to place the pot while it is germinating; guidance was to keep it in full morning sun but move it to bright indirect light or light shade around midday to prevent the small pot from drying out too quickly.",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:22 PM",
+      "conditions": "Cool, partly sunny afternoon around 64°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seeds were recently sown in a mix of Miracle-Gro potting soil and Skoon pebbles. Soil in the small container was completely dry prior to the first watering, with no sprouts expected yet at this early stage.",
+      "actions": "Give an initial germination soak of roughly 3 tablespoons of water distributed across the surface to moisten the top 2-3 inches of the mix without creating pooling. Position the pot in bright light while avoiding the harshest midday heat.",
+      "next_steps": "Monitor the top 1/2-1 inch of soil and mist lightly whenever it begins to dry. Avoid fertilizer until after germination and continue to provide bright light with protection from intense afternoon sun.",
+      "q_and_a_summary": "Asked how much water to use for the first watering after sowing lavender seeds in the pot; the recommendation was a small measured soak of a few tablespoons, just enough to evenly moisten the upper soil layers.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Left) pot shortly after sowing, showing dry soil mix in a recycled Foodie Fresh container.",
+          "tags": "lavender, sown-seeds, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of Lavender (Left) before initial watering, with dry potting mix and Skoon pebbles visible.",
+          "tags": "soil, top-view, dry"
+        }
+      ]
+    }
+  ]
+}

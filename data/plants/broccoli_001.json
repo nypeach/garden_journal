@@ -1,0 +1,813 @@
+{
+  "id": "broccoli_001",
+  "status": "Active",
+  "plant": "Broccoli",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 13",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
+  "origin_history": [
+    "Broccoli seedlings started in tray, surrounded by chive planting zones.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" center",
+    "Added potting mix on top of sand-heavy layer for better moisture and pH balance."
+  ],
+  "whats_been_logged": "The broccoli planting began in a shallow, sand-heavy tray with poor moisture retention and alkaline pH. Pale but stable seedlings gradually improved as richer potting mix was added and pH corrections were applied. Moisture retention strengthened and pH swung from alkaline to acidic before stabilizing near ideal range. Foliage color and structure have steadily improved with consistent light and moisture as the seedlings thicken their stems and develop multiple true leaves.",
+  "current_stage": "Seedling – true leaves expanding",
+  "current_state": "Seedlings are in a stable seedling phase with multiple true leaves unfolding and color improving toward a healthy light green. Moisture and pH are now within an acceptable range, and the plants are responding well to full sun in the window planter. They are not yet transplant-ready but are progressing toward thicker stems and a sturdier root system.",
+  "timeline": [
+    {
+      "stage": "True leaves expanding",
+      "date_range": "Nov 18 - Nov 30, 2025"
+    },
+    {
+      "stage": "Stronger stems and thicker foliage",
+      "date_range": "Dec 1 - Dec 20, 2025"
+    },
+    {
+      "stage": "Transplant-ready height",
+      "date_range": "Dec 20, 2025 - Jan 10, 2026"
+    },
+    {
+      "stage": "Central head formation",
+      "date_range": "Mar 1 - Mar 25, 2026"
+    },
+    {
+      "stage": "Harvest main heads",
+      "date_range": "Mar 25 - Apr 15, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:18 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.36",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "95",
+        "moisture_mScm": "55.50",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "9.4",
+        "soil_temp_f": "67.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings show vigorous leaf expansion with strong posture and healthy medium-green color. Canopy density is increasing, and chewing damage remains minor relative to size. Soil appears more open and aerated after today's light fluffing and the addition of Miracle-Gro Moisture Control Potting Mix, correcting compaction from the sand-heavy base. Probe readings are balanced and stable across both zones with ideal moisture and pH conditions for active vegetative growth.",
+      "actions": "Do not water today as moisture is ideal and rain is expected. Do not fertilize; current fertility is adequate and soil was recently amended. Leave soil undisturbed for the next day to allow the new potting mix to integrate naturally.",
+      "next_steps": "Recheck moisture tomorrow morning after possible overnight rainfall. Continue monitoring chewing but no treatment is needed at this time. Expect pH to stabilize further as the potting mix blends with the sand-heavy layer. Consider light fertilizer in 3–5 days depending on moisture stability.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[Morning] Fluffed compacted soil, filled probe hole, and added Miracle-Gro Moisture Control Potting Mix to improve structure and probe accuracy."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings with expanding canopy and strong upright growth following soil amendment.",
+          "tags": "broccoli, seedlings, canopy, upright-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing improved soil aeration and leaf development.",
+          "tags": "broccoli, soil-amendment, leaf-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view capturing full planter with evenly hydrated soil and vigorous foliage.",
+          "tags": "broccoli, overhead, foliage, hydrated-soil"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:26 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.31",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "117",
+        "moisture_mScm": "78.50",
+        "light": "99",
+        "rh_percent": "60",
+        "fertility_percent": "12.1",
+        "soil_temp_f": "76.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings appear exceptionally vigorous today with strong turgor, enlarged leaves, and healthy medium-green coloration. Recent rehydration has fully corrected yesterday’s dryness, giving the plants a refreshed and balanced look. Chewing damage remains minimal and stable without signs of active pest feeding. Soil is well-hydrated and evenly settled, and the overall growth posture reflects ideal pH and nutrient availability.",
+      "actions": "No watering needed now as moisture is high and showers are expected later today. Do not fertilize; nutrient availability is already strong and additional feeding could increase salts unnecessarily. No pest treatments or pruning required as current chewing damage is minor and not increasing.",
+      "next_steps": "Recheck moisture tomorrow morning after overnight showers. Expect moisture to remain elevated. Consider light fertilizer in 3–5 days only if moisture stabilizes and readings remain balanced. Continue monitoring for any uptick in chewing on lower leaves.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings with strong foliage and upright posture following full rehydration.",
+          "tags": "broccoli, seedlings, foliage, upright-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing vigorous leaf expansion and hydrated soil surface.",
+          "tags": "broccoli, seedlings, hydrated, leaf-expansion"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:10 PM",
+      "conditions": "Patchy fog before 8:00 AM, otherwise sunny with a high near 86°F dropping to 66°F overnight. Calm wind becoming south 5 to 8 mph in the morning. Sunday brings 20 percent chance of showers after 1:00 PM with patchy fog before 9:00 AM.",
+      "digital_probe": {
+        "ph": "3.85",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "30",
+        "moisture_mScm": "19.50",
+        "light": "94",
+        "rh_percent": "50",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "83.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both plants display healthy vigorous growth entering rapid vegetative expansion with left plant showing 4–6 mature true leaves and right plant slightly behind but equally healthy. Leaf chewing damage continues but plants maintain strong turgor and vibrant green color. Left broccoli probe reading failed completely with 0.00 pH and extremely low moisture due to bone-dry soil preventing electrode contact, while right broccoli registered dangerously low moisture at 16 mS/cm. Averaged readings show critical dryness across the container with uneven soil moisture distribution despite recent probe hole filling efforts. Solar predator light visible in photo shows integrated pest deterrent system in place. Container demonstrates rapid drying behavior typical of Florida sun and wind exposure with shallow soil volume accelerating moisture loss.",
+      "actions": "Apply gentle even watering immediately until moisture distributes clearly across entire root zone, addressing bone-dry left side and critically low right side. Ensure water penetrates full soil depth rather than running off surface. No fertilizing today despite low fertility readings; wait 3–5 days until moisture stabilizes and pH readings become reliable. No transplanting yet; plants approaching ideal size with 6–8 mature leaves expected in 10–14 days.",
+      "next_steps": "Monitor moisture daily given container's extreme drying rate in sunny 86°F conditions. Plan transplant in 10–14 days when central crown thickens and 6–8 mature true leaves are present. Consider fertilizing with Purived 4-5-5 or Gardenwise 10-10-10 Plus in 3–5 days once soil moisture remains consistent and pH stabilizes. Continue filling probe holes after readings to maintain soil contact accuracy. Watch for improved pH readings tomorrow after rehydration eliminates false low values caused by dry electrode contact.",
+      "q_and_a_summary": "Discussed whether to water today given bone-dry probe failure on left plant and critically low 16 mS/cm reading on right plant, confirming immediate watering is essential. Addressed transplant timing and confirmed plants need 1–2 more weeks before moving to larger containers when 6–8 mature leaves develop and central crown thickens. Explained fertilizing should wait 3–5 days until moisture stabilizes to avoid stacking stress after recent Dead Bug application and current dryness crisis. Clarified that extreme pH values of 0.00 and 7.70 result from uneven dryness and poor probe contact rather than true soil chemistry, with reliable readings expected after rehydration.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of broccoli section showing both plants with visible leaf chewing damage and solar predator light pest deterrent mounted on fence above container.",
+          "tags": "broccoli, seedlings, overhead, leaf-damage, solar-predator-light, pest-control"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:10 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.32",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "217",
+        "moisture_mScm": "100.00",
+        "light": "30",
+        "rh_percent": "54",
+        "fertility_percent": "25.3",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both plants appear healthy with continued growth, particularly the left seedling which now displays much larger leaves and a more established canopy. Chewing damage is increasing and now visible on multiple new leaves with irregular holes that enlarge over time, consistent with caterpillar or beetle feeding rather than soft-bodied pests. No sliminess or damage patterns suggesting snails are present. The bone-dry soil at 2:00 PM prevented any probe reading until after watering, demonstrating how Florida sun and wind create extremely rapid soil drying in this container.",
+      "actions": "Apply Captain Jack's Dead Bug Brew (Spinosad) between 5:15 PM and sunset. Shake bottle well and spray all leaf surfaces with emphasis on undersides and deep inner growth tips where caterpillars hide. Spray soil surface lightly without soaking. Do not water afterward to allow product to remain on foliage overnight. Avoid application if wind exceeds 10 mph.",
+      "next_steps": "Reapply Dead Bug every 6–7 days or sooner if chewing continues. Increase watering volume slightly and consider earlier morning watering around 8–9 AM to prevent midday bone-dry conditions. Adjust pH after Dead Bug treatment settles and moisture stabilizes. Monitor for continued caterpillar activity and inspect undersides of leaves for larvae or frass.",
+      "q_and_a_summary": "Discussed whether to apply neem or Dead Bug for increased chewing damage. Explained that Dead Bug is more effective for caterpillars and beetles causing the irregular chewing pattern, while neem risks leaf burn in mid-80s Florida sun and is better suited for soft-bodied pests. Confirmed Dead Bug is safe for plants at current size and should be applied late afternoon or at sunset.",
+      "follow_up": [
+        "[2:00 PM] Attempted probe reading but soil was bone dry from Florida sun exposure, causing complete reading failure. Applied water to rehydrate container.",
+        "[5:40 PM] Applied Captain Jack's Dead Bug Brew to all leaf surfaces and soil surface as recommended for caterpillar control."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing both broccoli seedlings with left plant displaying significantly larger leaf canopy and increased chewing damage visible on multiple leaves.",
+          "tags": "broccoli, seedlings, leaf-damage, caterpillar-damage, growth-comparison"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of left seedling showing irregular chewing holes on upper leaves consistent with caterpillar feeding.",
+          "tags": "broccoli, left-plant, leaf-damage, caterpillar-chewing, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of right seedling showing chewing damage pattern and established true leaf development.",
+          "tags": "broccoli, right-plant, leaf-damage, true-leaves, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:21 PM",
+      "conditions": "Mostly sunny with a high near 82°F and overnight low near 62°F.",
+      "digital_probe": {
+        "ph": "8.78",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "18",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "86.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plants show continued leaf expansion and good turgor. Several leaves have mild chewing consistent with light caterpillar activity. The probe reading produced abnormally high pH, extremely low EC and salt, and moisture of 0.00 because the soil was too dry for proper contact when the measurement was taken. The values are retained exactly as measured per user request. Soil surface appears dry and loose under full sun, while deeper root-zone moisture remains adequate based on plant posture.",
+      "actions": "Reviewed probe results, confirmed reading failure due to insufficient soil moisture, and evaluated leaf condition.",
+      "next_steps": "Deeply water the container to reestablish consistent soil contact for future readings. Retake a probe reading later in the day only if desired. Monitor chewing and apply neem on the next calm, low-wind evening if damage continues.",
+      "q_and_a_summary": "Explained why today's numbers were kept exactly as measured and clarified that the extreme pH and zero moisture were artifacts of very dry soil.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings in full sun showing strong leaf growth despite dry soil surface.",
+          "tags": "broccoli, seedlings, dry-soil, sunlight, leaf-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of center growth and light chewing damage on upper leaves.",
+          "tags": "broccoli, leaf-damage, true-leaves, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side seedling with visible chewing and dry topsoil conditions.",
+          "tags": "broccoli, chewing, dry-soil, container"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:08 AM",
+      "conditions": "Mostly cloudy with a high near 84°F and overnight low near 67°F. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "7.79",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "56",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "73.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both seedlings appear vigorous with expanding true leaves and healthy center growth. Light new chewing marks are visible but not severe. Soil has improved structure after recent leveling. Today's elevated pH is likely a false high due to soil contact variation.",
+      "actions": "Assessed probe stability, evaluated chewing progression, and reviewed wind conditions for neem suitability.",
+      "next_steps": "Wait for a low-wind evening to apply a light neem treatment if chewing continues. Continue gently firming soil to stabilize pH readings. No watering or fertilizing required today.",
+      "q_and_a_summary": "Explained safe use of inventory products, whether movement or transplanting is needed, and why today's pH spike is likely not real.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings showing good center growth and mild chewing.",
+          "tags": "broccoli, seedlings, leaf-growth, chewing, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing soil level and spacing between plants.",
+          "tags": "broccoli, spacing, soil, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view with lighting variation showing leaf health and posture.",
+          "tags": "broccoli, leaf-health, true-leaves"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "2:38 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1:00 PM. Wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "5.96",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "40",
+        "moisture_mScm": "11.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both seedlings remain upright and vigorous with good turgor maintained despite sunny conditions and wind gusts. New leaves continue developing with healthy color. Leaf chewing persists with some older holes enlarging and new small chew marks appearing, consistent with ongoing caterpillar activity. Soil surface appears properly leveled after adding fresh material to fill probe pockets and stabilize the bed. The artificially low moisture reading reflects fresh aerated soil in the top layer rather than actual root-zone dryness, as plants show no wilting or stress.",
+      "actions": "Apply Captain Jack's Neem Oil RTU after 5:30 PM once leaves are fully shaded and wind calms. Use light mist coverage on tops and undersides of leaves without dripping. Avoid hitting soil directly since surface was freshly leveled today. Do not water until tomorrow morning to allow neem to remain on foliage overnight.",
+      "next_steps": "Inspect leaves tomorrow morning for signs of new damage, frass, or curled leaves where caterpillars hide. Reapply neem in 7 days only if fresh chewing appears. Monitor whether moisture readings normalize as fresh soil settles and integrates with existing layers. Continue filling probe holes after each reading to maintain soil contact and reading accuracy.",
+      "q_and_a_summary": "Confirmed that difficulty obtaining probe reading was caused by aerated top layer and probe hole collapse rather than plant or soil chemistry issues. Explained that moisture reading of 11 is artificially low due to fresh soil addition and that plants show no actual moisture stress. Discussed that pH spike to 8.88 yesterday was false reading from poor electrode contact, with today's 5.96 confirming normal range.",
+      "follow_up": [
+        "[9:40 AM] Applied water to rehydrate soil after yesterday's rain. Added fresh soil to fill probe hole and level surface, which immediately stabilized probe contact and reading quality."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings in afternoon sun showing persistent leaf chewing with both old and new damage visible.",
+          "tags": "broccoli, seedlings, leaf-damage, caterpillar-damage, afternoon-sun"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "11:13 AM",
+      "conditions": "Cloudy with a high near 72°F and overnight low near 57°F. Clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "8.88",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "79",
+        "moisture_mScm": "42.00",
+        "light": "86",
+        "rh_percent": "52",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both seedlings show steady vegetative growth with multiple expanding true leaves. Leaf chewing remains present but not severe, consistent with early caterpillar activity. Soil appears evenly leveled after refilling probe pockets, and root-zone moisture is moderate despite a dry surface layer.",
+      "actions": "Reviewed the combined reading taken between both plants and assessed leaf damage progression.",
+      "next_steps": "Inspect leaves again at sunset; if new holes appear, apply a light neem treatment after dark when leaves are dry. Monitor pH over the next few days to confirm whether today's high value is temporary.",
+      "q_and_a_summary": "Explained that a single central reading was appropriate today and confirmed that chewing damage suggests caterpillar feeding.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings with moderate leaf chewing and refreshed soil layer.",
+          "tags": "broccoli, seedlings, leaf-damage, soil, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of both broccoli plants showing true leaf expansion and minor pest activity.",
+          "tags": "broccoli, true-leaves, growth, pest-signs"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli bed in cloudy midday light with soil leveled after probe pocket filling.",
+          "tags": "broccoli, cloudy, soil-leveling, container"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:23 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4:00 PM.",
+      "digital_probe": {
+        "ph": "6.82",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "47",
+        "moisture_mScm": "25.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "81.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both broccoli seedlings continue expanding leaves with the left plant remaining dominant, displaying strong upright leaf posture and vigorous development. The right plant is smaller but healthy, showing steady growth without stress. Several leaves now show minor holes consistent with flea beetles, tiny caterpillar nibbling, or minor leaf miner entry points, though none show active spreading or plant stress. Soil surface displays pockets and dips created by the large probe compacting and shifting coarse bark pieces, causing uneven areas that hold water differently or dry faster and alter readings. Two probe readings from left and right zones averaged to 25 mS/cm moisture, with differences explainable by uneven watering absorption and surface crusting on the left side causing higher pH readings there.",
+      "actions": "Do not water today; incoming thunderstorms around 4:00 PM will provide natural deep watering with current moisture average of 25 mS/cm adequate pre-storm. Add a light layer of potting mix to level probe pockets and dips, stabilizing the soil surface without compressing the entire bed. Gently pat down only loose areas to avoid excessive compaction. Monitor small leaf holes for multiplication to identify exact pest species if damage increases. No fertilizer or pH amendments needed; averaged values are within acceptable ranges for seedling stage.",
+      "next_steps": "Check post-storm moisture tomorrow after soil drains for at least 2–3 hours of sun; expect temporary moisture spike likely reaching 70–100 mS/cm range. Watch for potential bark displacement, temporary pH rise, or soil compaction from heavy pounding rain, though none should cause lasting harm. Continue taking averaged single log entries unless left and right sides sharply diverge again as seen on 11/22. Monitor leaf holes for pest activity escalation requiring identification and treatment.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli section in window box showing both left and right seedlings with visible leaf expansion and new sprouts.",
+          "tags": "broccoli, seedlings, window-box, both-plants, sprouts"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of broccoli seedlings displaying soil surface with pockets and dips from probe insertion.",
+          "tags": "broccoli, seedlings, soil-surface, pockets, probe-damage"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:16 PM",
+      "conditions": "Sunny all day with a high near 84°F and overnight low near 65°F.",
+      "digital_probe": {
+        "ph": "5.32",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "78",
+        "moisture_mScm": "52.00",
+        "light": "94",
+        "rh_percent": "45",
+        "fertility_percent": "7.7",
+        "soil_temp_f": "84.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both broccoli seedlings display healthy leaf expansion with upright growth and strong development. The left plant retained more moisture after early afternoon watering while the right side dried more quickly as observed in previous days, showing the natural moisture variation between planter zones. Overall development remains vigorous with no signs of stress, wilting, or nutrient deficiency visible on either seedling.",
+      "actions": "No fertilizer required; fertility at 7.7% and EC at 0.15 mS/cm are adequate for seedling stage with no burn or stress visible. No pH amendments needed; pH at 5.32 is acceptable for broccoli seedlings. Continue full sun exposure. Monitor moisture differences between left and right zones as watering pattern continues showing faster drying on right side.",
+      "next_steps": "Check surface dryness tomorrow morning and apply light shower if top layer becomes dusty or crusty, preventing inhibition of continued sprout emergence. Continue monitoring moisture variation between planter zones to understand watering needs. Watch for progressive leaf expansion over the next several days as seedlings advance toward stronger stem development stage.",
+      "q_and_a_summary": "Confirmed that both probe readings were close enough to average into unified assessment and explained the natural moisture variation between left and right planter zones as consistent with previous observations rather than indicating problematic soil conditions.",
+      "follow_up": [
+        "[Early afternoon] Soil was extremely dry and crumbly; applied light watering to rehydrate planter. Readings taken approximately 60 minutes after watering."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left broccoli seedling showing vigorous leaf expansion under afternoon sun with darker moist soil.",
+          "tags": "broccoli, seedling, left-side, leaf-expansion, afternoon-sun"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right broccoli seedling displaying steady growth with slightly drier soil surface visible around base.",
+          "tags": "broccoli, seedling, right-side, leaf-growth, dry-surface"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:23 PM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.84",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "115",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "79.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Both broccoli seedlings display healthy vigorous growth with the left plant clearly dominant, expanding leaves nicely with strong development. The right plant remains smaller but stable with no signs of stress. New sprouts are visible throughout the planter consistent with ongoing germination. Surface soil appears dry and crumbly with coarse texture, though moisture below the surface remains high due to good water retention in the root zone. No wilting, chlorosis, or scorch visible on any foliage. Two probe readings taken from left and right zones show close enough values to average, with differences explainable by watering patterns and plant size variation rather than conflicting soil conditions.",
+      "actions": "Continue monitoring surface drying as normal behavior for the coarse-textured top layer while root zone moisture remains adequate. No fertilizer required; fertility at 12% and salts at 115 mg/L are safe for seedlings with no signs of burn or stress. No pH amendments needed; averaged pH of 5.84 is acceptable for broccoli following correction of yesterday's alkaline spike to 8.24. Maintain full sun exposure with partly cloudy conditions providing excellent growing environment.",
+      "next_steps": "Monitor moisture daily as surface continues showing dry crumbly appearance despite adequate deeper moisture. Watch for any stress indicators during hot afternoon sun given the surface drying tendency. Continue observing left plant dominance and right plant stability as both seedlings progress through true leaf expansion stage. Track new sprout development as germination continues throughout the planter.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[Morning] Soil was extremely dry and crumbly; applied light watering to rehydrate the planter. Readings taken approximately 60 minutes after watering."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli section in window box showing left seedling with strong leaf expansion and visible new sprouts.",
+          "tags": "broccoli, seedlings, window-box, left-plant, sprouts"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right broccoli seedling smaller but stable with dry crumbly soil surface visible around base.",
+          "tags": "broccoli, seedlings, right-plant, dry-surface, soil-texture"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "2:00 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.24",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "57",
+        "moisture_mScm": "26.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "86.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings continue steady early growth with multiple true leaves forming. Several new sprouts are visible around the main plants. Soil surface is very dry and crusted in appearance, although moisture below the surface remains moderate. Both seedlings appear healthy and upright in direct sun despite the surface dryness.",
+      "actions": "Apply light shower to relieve surface dryness and prevent crust formation from inhibiting new sprouts. No fertilizer needed until pH stabilizes downward from today's elevated reading.",
+      "next_steps": "Continue monitoring moisture closely over the next 24 hours. Visual dryness on the surface may require occasional light showers even when probe readings remain moderate. Avoid fertilizing until pH drops below 7.5.",
+      "q_and_a_summary": "Clarified that surface drying can occur even with adequate deeper moisture, and that seedlings remain healthy and vigorous with new sprouts emerging around them.",
+      "follow_up": [
+        "[2:09 PM] Applied light shower to the broccoli area to relieve surface dryness."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli plants under direct sun with dry surface soil visible.",
+          "tags": "broccoli, seedlings, sunny, dry-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings showing healthy leaf growth and dry top layer of soil.",
+          "tags": "broccoli, seedlings, soil-surface, sunlight, container"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:40 AM",
+      "conditions": "Bright direct sun with moderate humidity and warm soil temperatures.",
+      "digital_probe": {
+        "ph": "6.43",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "32.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "75.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two distinct broccoli seedlings show different growth rates. The left plant displays healthy growth with strong leaf expansion and good color. The right plant is smaller with slower development due to drier, more acidic soil in its zone. Visual inspection matches probe differences: the right-side soil appears drier and slightly compacted. Both seedlings remain healthy overall with no signs of disease or pest damage.",
+      "actions": "Apply thorough, even watering across the entire planter and gently loosen soil around the right plant to rebalance moisture and pH. Avoid fertilizing until moisture equalizes between both zones.",
+      "next_steps": "Monitor both plants over the next 24 hours to confirm moisture equalization. Recheck pH and moisture tomorrow to ensure the right side rebounds. Continue avoiding fertilizer for now.",
+      "q_and_a_summary": "Discussed whether two separate readings should be combined into one log entry, explained the meaning of the large differences in pH and moisture between zones, and clarified that the plants share one tracking entry but require zone-specific interpretation today.",
+      "follow_up": [
+        "[11:52 AM] Applied even watering across both broccoli zones and gently loosened soil around the right plant."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left broccoli plant showing strong early vegetative growth.",
+          "tags": "broccoli, seedling, early-growth, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right broccoli plant, smaller seedling with slightly drier soil and slower leaf growth.",
+          "tags": "broccoli, seedling, dry-soil, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:36 PM",
+      "conditions": "Warm with bright sun and moderate humidity.",
+      "digital_probe": {
+        "ph": "6.19",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "50",
+        "moisture_mScm": "28.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear healthy with upright posture and expanding true leaves. Soil surface is slightly dry and crusty in spots but plants show no stress. pH and fertility are within ideal tolerances for young broccoli.",
+      "actions": "Plan moderate watering within the next 12–24 hours to bring moisture into the 40–50 range. Loosen the top layer of soil for improved aeration. Avoid fertilizing for now.",
+      "next_steps": "Water moderately within the next 12–24 hours to bring moisture into the 40–50 range. Avoid fertilizing for now. Monitor leaf turgor during hot afternoon sun.",
+      "q_and_a_summary": "Discussed interpretation of moisture and pH readings, confirmed seedlings are in good early-stage condition, and established a short-term watering plan.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings in window box planter showing healthy new growth.",
+          "tags": "broccoli, seedlings, window-box, soil-surface, sunlight"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:33 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.32",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "84.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings look healthy with continued expansion of true leaves. Soil moisture is moderate and pH is moving into an acceptable band. No signs of stress or yellowing, and leaf posture remains strong.",
+      "actions": "No watering or amendments applied to avoid disrupting stable moisture levels.",
+      "next_steps": "Continue monitoring moisture daily and maintain full sun exposure for strong early growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings showing stable growth and good leaf posture.",
+          "tags": "broccoli, seedlings, growth"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:49 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.96",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "111",
+        "moisture_mScm": "68.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "67.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings are upright and vigorous with expanding true leaves and evenly moist soil. Color is improving and no signs of wilting, yellowing, or pest damage are present.",
+      "actions": "No watering or fertilizer applied because moisture and fertility are in a good range for seedlings.",
+      "next_steps": "Recheck moisture the following day and continue full-sun exposure while stems thicken.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli seedlings in the center of the tray.",
+          "tags": "broccoli, seedlings"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close look at broccoli seedlings showing good color and leaf expansion.",
+          "tags": "broccoli, seedlings, growth"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:11 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.13",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "53.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings look healthy and upright, with leaf color brightening as pH and fertility move into ideal ranges. No signs of stress, wilting, or nutrient deficiency visible.",
+      "actions": "No watering or feeding applied; moisture levels are moderate with good drainage.",
+      "next_steps": "Continue monitoring moisture daily and watch for progressive leaf expansion over the next week.",
+      "q_and_a_summary": "Noted that the broccoli section now sits near optimal pH after earlier corrections.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center broccoli section with seedlings spaced on either side of the divider.",
+          "tags": "broccoli, center-section, tray"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:11 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.48",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "99",
+        "moisture_mScm": "59.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "61.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings are stable with uneven pH readings across the center section. One probe location showed acidic conditions while another briefly read alkaline, indicating localized soil variation rather than uniform imbalance. Seedlings appear healthy despite the pH differences.",
+      "actions": "No immediate amendments applied; allowing the mix to settle naturally and planning to monitor pH at multiple points before making corrections.",
+      "next_steps": "Track pH at multiple points over the next few days and adjust only if extremes persist across the entire zone.",
+      "q_and_a_summary": "Discussed interpreting multiple probe readings from different spots and the importance of avoiding overcorrection based on a single localized reading.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Broccoli center section with seedlings and surrounding chive zones visible.",
+          "tags": "broccoli, chives, overview"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:22 AM",
+      "conditions": "Cool, clear morning in the mid-60s°F with full sun.",
+      "digital_probe": {
+        "ph": "4.75",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "62",
+        "moisture_mScm": "37.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "64.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli seedlings are small and somewhat pale in appearance. Shared tray reading shows very acidic soil and modest moisture levels, likely contributing to slower color development.",
+      "actions": "No fertilizer or lime added yet, but planning to gently raise pH using dolomitic lime once moisture stabilizes.",
+      "next_steps": "Recheck pH after a couple of days and consider light lime application if readings remain this low. Continue monitoring seedling color and growth rate.",
+      "q_and_a_summary": "Discussed the risks of over-liming and the importance of gradual pH correction to avoid swinging soil chemistry too quickly.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Tray view showing young broccoli seedlings surrounded by bare chive sections.",
+          "tags": "broccoli, seedlings, tray-overview"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:09 AM",
+      "conditions": "Cool full-sun morning around 65°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (low)",
+        "moisture": "Red (dry)",
+        "ph": "8.0 (alkaline)"
+      },
+      "observations": "Broccoli section sits in a sand-heavy mix that tests dry and alkaline, with seedlings still small and vulnerable. Surrounding chive zones are marked but not yet planted.",
+      "actions": "Applied thorough soaking to the tray and replaced the top 2 inches of mix with richer potting soil to support the broccoli and future chive plantings.",
+      "next_steps": "Observe how moisture retention improves with potting mix in place and delay any fertilizer until seedlings recover from transplant stress.",
+      "q_and_a_summary": "Noted that both broccoli and chives would benefit from more organic matter and better moisture retention in the sand-heavy base layer.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Tray after soil replacement showing darker mix around broccoli center section.",
+          "tags": "broccoli, soil-amendment, tray"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:45 PM",
+      "conditions": "Mild sunny afternoon around the mid-60s°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A few broccoli seedlings are emerging in a shallow, sand-heavy tray with chive zones marked but not yet established. Soil structure appears lean and fast-draining.",
+      "actions": "No amendments applied yet; seedlings were simply labeled and observed in full sun.",
+      "next_steps": "Plan to adjust soil and moisture once early growth and drying behavior are better understood. Monitor for signs that richer organic matter is needed.",
+      "q_and_a_summary": "Discussed the plan to enrich the sand/soil mix and improve conditions for both broccoli and chives as they develop.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First image of tray showing young broccoli seedlings in the center.",
+          "tags": "broccoli, initial-setup, seedlings"
+        }
+      ]
+    }
+  ]
+}

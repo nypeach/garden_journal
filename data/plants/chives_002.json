@@ -1,0 +1,784 @@
+{
+  "id": "chives_002",
+  "status": "Active",
+  "plant": "Chives (Right)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 13",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
+  "origin_history": [
+    "Seeded on Nov 13, 2025 as a ring around the broccoli tray.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" right",
+    "Added potting mix on top of sand-heavy layer for better moisture and pH balance.",
+    "Reseeded chives after soil improvement to support proper germination."
+  ],
+  "whats_been_logged": "The chives progressed from reseeding and soil correction into steady early development, with the improved mix supporting proper moisture retention. Moisture and pH stabilized enough for healthy emergence. Early excess moisture eased, and the new sprouts appeared vigorous as they established across the right band.",
+  "current_stage": "Germination begins",
+  "current_state": "Several chive sprouts have emerged, confirming steady germination. Moisture remains elevated in deeper layers but surface drying creates favorable conditions for continued seedling development. The section shows vigorous early growth with more sprouts appearing daily.",
+  "timeline": [
+    {
+      "stage": "Germination begins",
+      "date_range": "Nov 20 - Dec 2, 2025"
+    },
+    {
+      "stage": "Emerging seedlings",
+      "date_range": "Dec 2 - Dec 12, 2025"
+    },
+    {
+      "stage": "Early growth and strengthening",
+      "date_range": "Dec 12, 2025 - Jan 8, 2026"
+    },
+    {
+      "stage": "First light harvest",
+      "date_range": "Jan 18 - Jan 30, 2026"
+    },
+    {
+      "stage": "Full cut-and-regrow cycle",
+      "date_range": "Feb 1 - May 1, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:24 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.27",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "25",
+        "moisture_mScm": "30.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "66.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings remain healthy with upright green blades and natural early-stage leaning. The soil surface shows clear improvement after loosening and adding Miracle-Gro Moisture Control Potting Mix, reducing the compaction seen in the original topsoil and sand blend. The probe reading reflects markedly better soil contact, with pH returning to a realistic range and moisture in a moderate dry-down. No signs of damping-off, discoloration, or stress are present.",
+      "actions": "Do not water today as rain is expected and current moisture is sufficient. Avoid further disturbance of the soil so seedlings can anchor securely.",
+      "next_steps": "Recheck moisture after rainfall to ensure levels stay below saturation. Continue monitoring seedling posture as roots deepen, and expect additional sprouts over the next several days as the improved soil texture supports more even germination.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings showing healthy green growth after soil loosening and the addition of potting mix.",
+          "tags": "chives, seedlings, soil-improvement"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:34 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.20",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "70",
+        "moisture_mScm": "50.00",
+        "light": "89",
+        "rh_percent": "55",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings appear healthy, upright, and slightly taller than the previous day. Color remains vibrant with no signs of wilt or discoloration. Soil surface is evenly moist following recent weather, and sprouts show normal early-stage leaning as roots establish more deeply. The elevated pH value reflects partial probe contact rather than true soil alkalinity.",
+      "actions": "No watering or amendments applied today as moisture is ideal and rain is expected later.",
+      "next_steps": "Recheck moisture after tonight's rainfall and allow natural dry-down if readings rise above the mid-70s. Continue monitoring seedling uprightness as roots anchor more firmly.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings with healthy upright blades across an evenly moist soil surface.",
+          "tags": "chives, seedlings, moist-soil"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:11 PM",
+      "conditions": "Mostly sunny with a high near 86°F dropping to 64°F overnight. Patchy fog early, calm wind becoming south 5–8 mph.",
+      "digital_probe": {
+        "ph": "9.95",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "36.00",
+        "light": "90",
+        "rh_percent": "48",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "82.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear upright, green, and evenly progressing with no signs of water stress such as collapse, wilt, or discoloration. The soil surface is dry in the upper layer, but the overall moisture reading indicates adequate hydration in the deeper root zone. Extremely high pH values and very low EC and salt readings reflect limited probe contact with moist soil rather than true soil chemistry, as the mix was dry in spots prior to insertion. Seedlings remain healthy with good turgor, and the bark-heavy mix continues to dry unevenly without negatively affecting growth.",
+      "actions": "Do not water today based on sufficient moisture levels in the active root zone.",
+      "next_steps": "Do not water until moisture drops below the mid-20s range or seedlings display clear wilt. Allow the soil to continue its natural dry-down cycle and avoid adding water while the deeper layer remains adequately moist.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings upright and well-colored across a partially dry soil surface.",
+          "tags": "chives, seedlings, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional view of chive sprouts showing healthy elongation and no signs of drought stress.",
+          "tags": "chives, sprouts, growth"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:11 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.00",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "144",
+        "moisture_mScm": "90.00",
+        "light": "23",
+        "rh_percent": "55",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain upright and healthy with clear early growth, showing elongation and strong green color. The soil was bone dry earlier in the afternoon, preventing any probe readings, but after watering and allowing time for moisture redistribution the sensor registered normally. Some sprouts lean slightly due to earlier dryness and wind, but no signs of wilt, yellowing, or damping-off are present. The added soil continues to stabilize the surface. A small soil-dwelling bug was visible in the close-up image; its size and movement pattern suggest a harmless springtail or similar microarthropod common in organic mixes.",
+      "actions": "Watered earlier in the afternoon to restore moisture after the soil became too dry for readings.",
+      "next_steps": "Do not water again tonight. Monitor the upper soil layer and irrigate lightly once it turns dry-gray. Continue filling probe voids as needed and avoid overwatering while the deeper soil remains saturated.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings showing healthy elongation after rehydration of the previously dry soil.",
+          "tags": "chives, seedlings, rehydrated"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "View of chive sprouts across a moist soil surface following watering.",
+          "tags": "chives, sprouts, moist-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of seedlings and soil texture with visible organic bark components.",
+          "tags": "chives, seedlings, soil-texture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up image showing a small soil-dwelling insect consistent with harmless springtail activity.",
+          "tags": "insect, soil-bug, springtail"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:20 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "24",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "98.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear upright and healthy, showing continued early growth with no signs of stress, collapse, or discoloration. The soil surface is visibly dry and crumbly, especially in the upper layer, while deeper layers appear slightly darker and more hydrated. The probe readings returned zeros for pH and moisture and unusually low nutrient values, consistent with insufficient soil contact and the bark-heavy mix creating air gaps around the sensor. This reflects a measurement failure due to dryness at contact points rather than an actual zero-moisture soil state.",
+      "actions": "No watering was recorded at this time.",
+      "next_steps": "Apply a light surface watering to rehydrate the upper layer without saturating the deeper soil. Continue filling probe voids with soil to maintain stable surface structure.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings standing upright with visible early growth across a dry soil surface.",
+          "tags": "chives, seedlings, dry-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of chive sprouts growing through a bark-heavy mix with dry upper-layer texture.",
+          "tags": "chives, sprouts, soil"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:09 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.51",
+        "salt_mg_L": "256",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "56",
+        "fertility_percent": "30.7",
+        "soil_temp_f": "74.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings show continued elongation with healthy green color and no signs of collapse or foliar stress. Soil is fully saturated, likely from retained moisture rather than recent watering. Some leaning is present due to gusty conditions, but overall growth remains stable.",
+      "actions": "Do not water today given saturated soil conditions.",
+      "next_steps": "Allow soil to dry slightly over the next 24 hours before considering additional watering. Avoid disturbing the upper layer until moisture levels decline from saturation.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings showing healthy elongation across a saturated soil surface.",
+          "tags": "chives, seedlings, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of chive sprouts leaning slightly due to wind but maintaining good color.",
+          "tags": "chives, sprouts, wind"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "2:10 PM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight. Rain expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "5.18",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "55.00",
+        "light": "98",
+        "rh_percent": "68",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings continue healthy elongation with stronger vertical growth and good green color. Soil stability has improved since adding mix to fill probe holes, and seedlings are better anchored. Slight leaning due to wind is normal at this stage. No indicators of stress, wilt, or disease.",
+      "actions": "Do not water today.",
+      "next_steps": "Do not water before evening rain. Allow storm moisture to naturally settle the newly added soil. Avoid additional probe insertions until soil stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Healthy chive seedlings showing upright early growth across improved soil surface.",
+          "tags": "chives, seedlings, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of sprouts with soil leveled from previous probe voids.",
+          "tags": "chives, sprouts, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:26 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected later in the day.",
+      "digital_probe": {
+        "ph": "5.18",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings show continued upright early growth with strong green color. Soil surface appears uneven but improving as newly added soil fills pockets created by the wide probe. Moisture level is moderate and appropriate for this stage. No signs of stress, fungal issues, or nutrient imbalance.",
+      "actions": "Do not water today.",
+      "next_steps": "Avoid watering before thunderstorms arrive. Let rainfall hydrate and settle the soil naturally. Continue gentle soil leveling if probe holes reopen.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings upright in moderate moisture conditions before forecasted storms.",
+          "tags": "chives, seedlings, cloudy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface showing improvement as added mix fills probe-created gaps.",
+          "tags": "soil, seedlings, probe-hole"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:17 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "4.97",
+        "ec_mScm": "0.38",
+        "salt_mg_L": "190",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "22.0",
+        "soil_temp_f": "83.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear healthy and clearly taller than the previous day, entering a stronger elongation phase. Soil surface is dry but deeper moisture is present, consistent with the elevated probe moisture reading. Seedlings show no bending from drought and no discoloration, indicating adequate hydration despite surface dryness.",
+      "actions": "Watered earlier at 2:33 PM due to very dry upper soil conditions.",
+      "next_steps": "Allow soil to dry gently before the next watering. Avoid overwatering while deeper moisture remains high.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings showing continued elongation on a dry surface layer.",
+          "tags": "chives, seedlings, dry-surface"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Sprouts upright with healthy coloration despite uneven soil drying.",
+          "tags": "chives, sprouts, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:24 PM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.17",
+        "ec_mScm": "0.50",
+        "salt_mg_L": "254",
+        "moisture_mScm": "90.00",
+        "light": "97",
+        "rh_percent": "54",
+        "fertility_percent": "30.0",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "More sprouts are visible across the right section, with early seedlings standing taller and showing healthy color. Soil surface is dry despite high moisture readings, indicating deeper wet pockets below a drying top layer. No stress signals, mold, or compaction present.",
+      "actions": "Light watering was done earlier in the morning to rehydrate a dry and crumbly surface.",
+      "next_steps": "Allow the upper layer to dry slightly before the next watering, maintaining moderate moisture throughout the root zone.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Emerging chive seedlings showing upright early growth following surface watering.",
+          "tags": "chives, seedlings, emergence"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of sprouts emerging through a bark-heavy potting mix.",
+          "tags": "chives, sprouts, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "2:07 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "4.52",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "210",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "24.7",
+        "soil_temp_f": "85.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A larger number of chive sprouts are now visible across the right section, showing healthy bright-green emergence. The soil surface appears dry despite the high moisture reading, suggesting deeper moisture pockets below a drying top layer. Seedlings look strong with no signs of mold, algae, or stress.",
+      "actions": "No watering applied at this time to allow surface layer to continue drying while deeper moisture supports roots.",
+      "next_steps": "Light surface watering may be needed if the top layer continues to dry while deeper moisture remains high. Continue monitoring moisture distribution and seedling uprightness over the next 24–48 hours.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive section showing multiple new sprouts emerging through a dry surface layer.",
+          "tags": "chives, sprouts, emergence"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of emerging chive seedlings among bark-heavy soil.",
+          "tags": "chives, seedlings, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional sprouts visible despite the dry upper layer, indicating uneven moisture distribution.",
+          "tags": "chives, germination, surface-dry"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:42 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "5.12",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "124",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Multiple definite chive sprouts have emerged, marking the transition from pre-germination into early germination. Soil is currently very wet, which poses a risk for damping-off, but seedlings appear healthy with no signs of mold or surface crusting. pH remains slightly acidic but within a tolerable range for newly germinated chives.",
+      "actions": "No watering applied to avoid further saturating the germination zone. Photos taken to document emergence.",
+      "next_steps": "Allow soil moisture to drop toward 50–60 mS/cm before watering again. Monitor sprouts over the next 48 hours to ensure they remain upright and free of damping-off symptoms.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing newly emerged chive sprouts near the soil surface.",
+          "tags": "chives, sprouts, germination"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Early chive seedlings emerging between soil particles under filtered light.",
+          "tags": "chives, seedlings, emergence"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wider view of the chive section showing multiple germination points.",
+          "tags": "chives, germination, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:37 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.38",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "125",
+        "moisture_mScm": "53.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "13.3",
+        "soil_temp_f": "80.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture has stabilized into the ideal mid-range for germination, and pH continues trending upward from previous lows, supporting healthier conditions for chive sprouts. No emergence is visible yet, which remains normal at day eight following reseeding. The soil surface appears loose enough for germination, with no signs of mold, pests, or crusting.",
+      "actions": "No watering applied to maintain proper germination moisture. Continued full-sun exposure.",
+      "next_steps": "Monitor moisture closely and avoid watering until the upper layer begins to dry. Expect possible first emergence within the coming week as pH and moisture stabilize.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chives soil surface with no visible sprouts yet and good sun exposure.",
+          "tags": "chives, soil, pre-germination"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:34 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.95",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "113",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "83.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains moist and well-mixed with organic material visible at the surface. No sprouts are visible yet but the moisture level is adequate for germination. pH remains slightly acidic but within an acceptable short-term range.",
+      "actions": "No watering or adjustments made to avoid over-saturating the germination zone.",
+      "next_steps": "Allow the soil to dry slightly before the next watering and continue monitoring for first emergence.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chives area showing moist soil and stable surface texture.",
+          "tags": "chives, right-section, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:51 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.74",
+        "ec_mScm": "0.72",
+        "salt_mg_L": "363",
+        "moisture_mScm": "93.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "44.7",
+        "soil_temp_f": "67.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is extremely moist and nutrient-rich but still structurally sound with no obvious pooling. No chive sprouts are visible yet, which is still consistent with the early germination period. The higher fertility and salt values indicate this side received more nutrient-dense material during amendment.",
+      "actions": "No watering or fertilizing applied to avoid further saturation and nutrient buildup.",
+      "next_steps": "Allow moisture levels to fall naturally before watering again and continue watching for first emergence over the next week.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chives soil surface showing high moisture and no visible sprouts.",
+          "tags": "chives, moisture, pre-germination"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:11 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.28",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "73",
+        "moisture_mScm": "46.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "63.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts are visible in the right chive band, but the soil appears moderately moist with good texture and aeration. pH is still slightly acidic but trending upward compared with earlier readings. No surface mold, algae, or pest activity is evident.",
+      "actions": "No watering or amendments applied in order to keep conditions steady.",
+      "next_steps": "Recheck pH and moisture within 24 hours and continue monitoring for the first emergence of seedlings.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right chive section with stable moisture and no emergence yet.",
+          "tags": "chives, right-section, germination"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:11 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.98",
+        "ec_mScm": "0.40",
+        "salt_mg_L": "204",
+        "moisture_mScm": "100.00",
+        "light": "93",
+        "rh_percent": "61",
+        "fertility_percent": "23.3",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Right chive section is very wet with high salt and fertility readings, yet the soil still appears structurally intact. No visible germination has occurred, which remains normal at this early stage. The higher nutrient and moisture levels distinguish this side from the rest of the planter.",
+      "actions": "No water or fertilizer added to prevent further oversaturation.",
+      "next_steps": "Allow moisture to decline toward more moderate levels before watering again and watch for germination as pH and salts normalize.",
+      "q_and_a_summary": "Noted that the right side is wetter and more nutrient-rich, requiring time to dry somewhat before additional watering.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right chive edge showing dark, saturated soil and no sprouts.",
+          "tags": "chives, wet-soil, pre-germination"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:22 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.75",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "62",
+        "moisture_mScm": "37.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "64.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The right chive band remains unsprouted with slightly moist soil following recent amendments. pH is still quite low, which could limit early germination if not gradually corrected. Soil texture looks improved compared with the original sand-heavy mix.",
+      "actions": "No direct lime application made yet; readings taken to guide future pH adjustment.",
+      "next_steps": "Plan a very light lime application once moisture stabilizes and recheck pH within 48–72 hours.",
+      "q_and_a_summary": "Reviewed that chives prefer a more neutral pH and that current acidity is being monitored before correcting.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Tray overview including right chive band prior to any visible germination.",
+          "tags": "chives, tray, ph"
+        }
+      ]
+    },
+    {
+      "date": "11/14/2025",
+      "time": "11:00 AM",
+      "conditions": "Mild fall day with partial sun and comfortable temperatures.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Right chive section has been freshly reseeded across the amended soil edge, matching the left side. The surface is moist and leveled, with no signs of crusting or disturbance.",
+      "actions": "Reseeded chives evenly across the right edge of the planter into the improved soil layer.",
+      "next_steps": "Maintain consistent moisture at the surface and avoid disturbing this section while germination begins over the coming weeks.",
+      "q_and_a_summary": "Confirmed that this reseeding date also applies to the right chive band around the broccoli.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right edge of the planter after chive reseeding.",
+          "tags": "chives, reseeding, right-section"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:09 AM",
+      "conditions": "Cool, mostly sunny fall day with light breeze.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (low to moderate)",
+        "moisture": "Red (dry)",
+        "ph": "8.0 (alkaline)"
+      },
+      "observations": "Right chive edge is still unseeded, showing the same dry, sand-heavy conditions as the rest of the tray. The soil appears light and quick to dry, with low fertility and an alkaline pH that is not ideal for chive seeds.",
+      "actions": "Participated in the overall tray amendment where about two inches of the sand/soil mix were removed and replaced with potting mix, followed by thorough watering.",
+      "next_steps": "Allow the new soil layer to settle and stabilize before sowing chive seed in this section.",
+      "q_and_a_summary": "Discussed the limitations of the original sand/soil blend and the need for richer potting mix before planting.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Planter edge on the right prior to chive seeding, showing light, dry soil.",
+          "tags": "soil, amendment, right-section"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:45 PM",
+      "conditions": "Cool, bright afternoon with full sun on the planter.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Right chive edge appears as bare soil around the broccoli row with no visible germination from the earlier sowing attempt. The sand/soil blend is only lightly damp and seems nutritionally poor.",
+      "actions": "No specific action taken on the right band yet; conditions documented to guide later soil improvements and reseeding.",
+      "next_steps": "Plan to amend the soil with potting mix and prepare this band for a fresh, more successful chive sowing.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Initial tray view showing broccoli center and bare right edge where chives will be reseeded.",
+          "tags": "chives, tray, initial"
+        }
+      ]
+    }
+  ]
+}

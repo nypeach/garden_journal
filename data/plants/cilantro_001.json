@@ -1,0 +1,721 @@
+{
+  "id": "cilantro_001",
+  "status": "Active",
+  "plant": "Cilantro",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 11",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix, Sand/Soil",
+  "origin_history": [
+    "Seeds purchased and planted on Oct 8, 2025.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" right",
+    "Shares window planter with Arugula"
+  ],
+  "whats_been_logged": "The plant transitioned from a lean sand-based soil to a more supportive mix with improved moisture retention and structure. Early stress from dryness and high alkalinity resolved as pH stabilized and seedlings showed consistent upright growth. Fertility remains modest but adequate for early stages, and leaf color has steadily improved. The plant has responded reliably to adjustments and is progressing toward fuller true-leaf development.",
+  "current_stage": "Early True Leaf Development",
+  "current_state": "The seedlings are stable, upright, and expanding their true leaves with healthy green coloration. Soil conditions are balanced and appropriate for continued growth, with no visible signs of stress. The plant is well positioned to enter denser foliage expansion over the next several days.",
+  "timeline": [
+    {
+      "stage": "Full true leaves",
+      "date_range": "Nov 20 - Nov 23, 2025"
+    },
+    {
+      "stage": "Leaf mass expansion",
+      "date_range": "Nov 24 - Dec 2, 2025"
+    },
+    {
+      "stage": "First harvestable stems",
+      "date_range": "Dec 3 - Dec 10, 2025"
+    },
+    {
+      "stage": "Peak lush growth",
+      "date_range": "Dec 10 - Dec 27, 2025"
+    },
+    {
+      "stage": "Probable bolting window",
+      "date_range": "Feb 1 - Mar 31, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:03 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.69",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "66.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro foliage is upright, vibrant, and continuing steady leaf mass expansion under cool favorable conditions. Soil moisture has normalized following yesterday’s saturation, with readings showing an ideal mid-range value and improved surface structure. The probe hole was filled, the top layer gently fluffed, and a small amount of Miracle-Gro Moisture Control Potting Mix was incorporated into the surface, resulting in more even aeration and hydration across the planter. No signs of wilt, nutrient stress, or disease were observed.",
+      "actions": "Do not water this morning, as moisture is ideal. Avoid fertilizing today as nutrient levels remain appropriate. Maintain current placement with exposure to mixed sun and clouds.",
+      "next_steps": "Recheck moisture this afternoon if sun becomes strong; water only if moisture falls below 30 mS/cm. Expect noticeable leaf thickening over the next 48 hours due to excellent temperature and hydration balance.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro clusters showing healthy upright leaf expansion after soil adjustment.",
+          "tags": "cilantro, true-leaves, leaf-mass-expansion, container-garden"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface with improved structure after filling the probe hole and lightly fluffing the top layer.",
+          "tags": "cilantro, soil-structure, moisture-control, potting-mix"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of vibrant cilantro foliage in cool morning conditions.",
+          "tags": "cilantro, foliage, close-up, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:11 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.65",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "106",
+        "moisture_mScm": "80.00",
+        "light": "84",
+        "rh_percent": "63",
+        "fertility_percent": "10.7",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro foliage is lush, upright, and bright green, with continued expansion of true leaves across the main clusters. The soil is fully saturated from rain, consistent with the high moisture reading. No signs of stress, wilt, or nutrient issues were observed despite elevated moisture. Leaf mass is progressing well toward first harvestable stems.",
+      "actions": "Do not water today as the soil is fully saturated. Leave the planter in its current position and avoid fertilizing while moisture remains high.",
+      "next_steps": "Recheck moisture tomorrow midday as conditions clear. If moisture stays above 70 mS/cm, lightly aerate only the top half inch of soil to improve airflow without disturbing roots. Monitor for continued leaf thickening as the plant approaches early harvest stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro showing vigorous true leaf expansion and bright green foliage following overnight rain.",
+          "tags": "cilantro, true-leaves, lush-growth, container-garden"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface visibly saturated after rainfall, matching the high moisture reading.",
+          "tags": "cilantro, saturated-soil, rainfall, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of dense cilantro foliage with strong upright posture.",
+          "tags": "cilantro, foliage, close-up, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:57 PM",
+      "conditions": "Patchy fog early, becoming sunny with a high near 86°F. Light breeze with dry air contributing to faster surface evaporation. Overnight low expected around 66°F.",
+      "digital_probe": {
+        "ph": "6.03",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "49",
+        "moisture_mScm": "43.00",
+        "light": "97",
+        "rh_percent": "50",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "85.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro is healthy and vigorous with bright, full foliage consistent with active Leaf Mass Expansion.",
+      "actions": "A moderate watering was needed to rehydrate the upper soil layers and stabilize moisture levels for ongoing leaf mass development.",
+      "next_steps": "Monitor moisture again tomorrow midday.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:00 PM] Watered lightly to rehydrate the upper soil zone after dry midday conditions."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital sensor readings on 12/07 showing moderate moisture, ideal pH, and low salts under warm sunny conditions.",
+          "tags": "cilantro, digital-probe, soil-moisture, sunny-day, sensor-readings"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro tray on 12/07 with dense, bright green foliage in active Leaf Mass Expansion.",
+          "tags": "cilantro, leaf-mass-expansion, container-garden, foliage, soil-surface-dryness"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:28 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "9.66",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "49",
+        "moisture_mScm": "26.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "86.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro continues vigorous growth and today marks the transition into Leaf Mass Expansion.",
+      "actions": "Light watering recommended after reading to correct dry upper soil.",
+      "next_steps": "Monitor moisture and avoid allowing top layers to fully dry during expansion stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro canopy showing thickening structure consistent with early Leaf Mass Expansion on 12/03.",
+          "tags": "cilantro, leaf-mass-expansion, growth-stage, container-garden"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital readings on 12/03 showing low moisture and temporary pH spike due to dry soil.",
+          "tags": "cilantro, digital-probe, moisture, soil-conditions"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:54 AM",
+      "conditions": "Mostly cloudy with temperatures reaching 84°F and dropping to 67°F overnight. Wind gusts up to 19 mph with intermittent full sun.",
+      "digital_probe": {
+        "ph": "5.89",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "90",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "72.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro thriving with dense true-leaf growth; moisture is ideal for mid-morning despite recent sunny conditions.",
+      "actions": "No watering performed at time of reading.",
+      "next_steps": "Recheck moisture late afternoon; water only if below 30.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital readings for cilantro on 12/02 showing ideal hydration and balanced nutrients.",
+          "tags": "cilantro, sensor, moisture, fertility"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings under partly sunny conditions with strong foliar development.",
+          "tags": "cilantro, sunlight, growth, container-garden"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:21 PM",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s°F and elevated humidity. Slight chance of evening showers.",
+      "digital_probe": {
+        "ph": "6.14",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "100.00",
+        "light": "47",
+        "rh_percent": "77",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro lush and deeply hydrated with strong true-leaf density; soil fully saturated due to recent watering and low evaporation.",
+      "actions": "No watering performed due to fully saturated soil.",
+      "next_steps": "Skip watering next morning; recheck midday.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital readings on 12/01 showing full saturation and high humidity.",
+          "tags": "cilantro, digital-probe, saturated-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro canopy fully hydrated with strong foliar growth.",
+          "tags": "cilantro, hydrated, true-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of cilantro foliage expansion on 12/01.",
+          "tags": "cilantro, foliage, close-up"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:59 AM",
+      "conditions": "Cloudy with a high of 72°F and a low of 57°F.",
+      "digital_probe": {
+        "ph": "13.15",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "61.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings vigorous; pH reading clearly a sensor error due to cold soil and moderate moisture.",
+      "actions": "No watering performed.",
+      "next_steps": "Check moisture in afternoon; water only if below 25.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital readings on 11/28 with known false-high pH spike.",
+          "tags": "cilantro, probe-error, soil-temperature"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings expanding true leaves under cool cloudy weather.",
+          "tags": "cilantro, true-leaves, cool-weather"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "1:48 PM",
+      "conditions": "Cloudy with a high of 81°F and rain expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "6.21",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "103",
+        "moisture_mScm": "90.00",
+        "light": "94",
+        "rh_percent": "61",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "82.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro reached the Full True Leaf stage today with dense mature foliage and excellent hydration.",
+      "actions": "No watering due to fully saturated soil and incoming rain.",
+      "next_steps": "Monitor drainage and avoid watering until moisture falls.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Sensor readings on 11/27 showing high moisture and peak nutrition.",
+          "tags": "cilantro, true-leaf-stage, hydration"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro foliage on 11/27 reaching official Full True Leaf Development.",
+          "tags": "cilantro, growth-stage, foliage"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:06 PM",
+      "conditions": "Partly cloudy with a high of 81°F and low of 61°F. Soil was very dry in the morning.",
+      "digital_probe": {
+        "ph": "7.09",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "25",
+        "moisture_mScm": "26.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings improved significantly after soil fluffing and rehydration.",
+      "actions": "Light morning watering performed before readings.",
+      "next_steps": "Continue monitoring dryness; water when moisture falls below 25–30.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:23 AM] Gave it a good soaking",
+        "[11:24 AM] Fluffed soil gently where gaps were visible"
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Sensor readings on 11/24 showing low moisture after morning dryness.",
+          "tags": "cilantro, sensor-readings, dry-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings recovering well after hydration and soil aeration.",
+          "tags": "cilantro, seedlings, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:49 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.26",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "90",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "85.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings continue to improve following the prior day's hydration recovery. Soil moisture is ideal and evenly distributed, with no crusting or dryness visible. True leaves are expanding with bright, healthy green coloration across both the denser right cluster and the improving left cluster. Fertility at 9.0% indicates soluble nutrients are now accessible after rehydration. pH readings remain excellent. Seedlings show no signs of stress despite full sun and warm soil temperature.",
+      "actions": "No watering or fertilizing performed at the time of this reading.",
+      "next_steps": "Optionally give a light watering in the evening depending on moisture levels. Continue twice-daily watering on sunny days until midday moisture remains above 25–30 mS/cm. Avoid fertilizing for now, as current fertility is adequate. Monitor leaf expansion over the next 24–48 hours for transition into the Full True Leaves stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings displaying hydrated soil, expanding true leaves, and healthy green coloration under full sun.",
+          "tags": "cilantro, seedlings, true-leaves, hydrated-soil, sunny-conditions"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:14 AM",
+      "conditions": "Cool, sunny morning around 72–73°F with RH near 42%.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "19",
+        "moisture_mScm": "0.00",
+        "light": "96",
+        "rh_percent": "42",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings remain upright with good color, but the soil is critically dry. Moisture has dropped to zero again, preventing the probe from registering pH and indicating dryness throughout the root zone. Fertility, EC, and salt values are extremely low due to the lack of moisture. Soil surface appears crusted and pale, consistent with rapid evaporation from the sand/topsoil mix. Seedlings show no stress yet, but they are at the threshold where dehydration would quickly impact growth if not corrected.",
+      "actions": "Apply slow, thorough soak to rehydrate both the surface layer and root zone, ideally in two passes to allow the sand/topsoil mix to absorb water evenly. Gently fluff soil in areas with visible gaps, without disturbing roots, to improve moisture penetration and reduce surface crusting.",
+      "next_steps": "Recheck moisture within 20–30 minutes after watering to confirm hydration has reached depth. Continue with twice-daily watering while conditions are warm and the soil retains moisture poorly. Avoid fertilizing until moisture stabilizes for at least 24–48 hours. Monitor for any signs of wilt or leaf curl in the afternoon.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:23 AM] Applied thorough soaking to rehydrate the sand/topsoil mix.",
+        "[11:24 AM] Gently fluffed soil in areas with visible gaps to improve moisture penetration and reduce surface crusting."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings upright and healthy despite extremely dry soil conditions on the morning of 11/22.",
+          "tags": "cilantro, seedlings, dry-soil, container-garden, morning-conditions"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:30 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "24.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings appear healthy, upright, and expanding their early true leaves with consistent bright green color. Moisture has improved significantly since the previous day's critically low reading but remains on the drier side for seedlings, especially given warm afternoon temperatures. Fertility is still very low, though appropriate for this stage as long as feeding is timed carefully. pH is slightly higher than recent days but still acceptable, and soil temperature reflects typical afternoon heating. No signs of stress, wilting, pests, or nutrient deficiency are visible.",
+      "actions": "No watering or fertilizing performed at the time of the reading. Allow the soil to cool and stabilize through the evening, and plan watering based on morning moisture levels.",
+      "next_steps": "Recheck moisture tomorrow morning to ensure the planter does not drift back toward dryness. Plan a very light fertilizer application in 2–3 days once soil moisture is consistently stable. Continue ensuring the planter is protected if overnight temperatures drop to 45°F or below.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings displaying healthy upright growth and expanding true leaves in afternoon sunlight.",
+          "tags": "cilantro, seedlings, true-leaves, container-garden, sunny"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:26 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.85",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "24",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "54",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain upright with expanding true leaves and healthy green color, but the soil is critically dry and outer seedlings show slowed growth. Fertility readings remain very low, though pH is stable and ideal. No signs of pests, disease, or stress besides dryness.",
+      "actions": "Apply thorough watering to restore moisture throughout the root zone. Do not fertilize today due to dry soil conditions.",
+      "next_steps": "Recheck moisture tomorrow morning to ensure it returns to an adequate range. Plan a light fertilizer application in 2–3 days once the soil is evenly moist. Continue protecting the planter from overnight temperatures below 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings in full sun with visibly dry soil surface.",
+          "tags": "cilantro, seedlings, dry-soil, container-garden"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:40 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.98",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "48",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "70.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings are upright with healthy green foliage and expanding true leaves. Soil moisture is moderate, and slightly low fertility has not yet affected vigor.",
+      "actions": "No watering or fertilizing applied today because moisture is still adequate and seedlings are too young for stronger feeding.",
+      "next_steps": "Check soil moisture again within 24 hours and plan a light fertilizer application in 3–5 days if growth stays strong. Continue night protection if temperatures drop below 45°F.",
+      "q_and_a_summary": "Reviewed that pH is near neutral, fertility is modest but acceptable, and that delaying fertilizer a few days will avoid stressing young seedlings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings under full sun exposure.",
+          "tags": "cilantro, seedlings, container-garden"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:05 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.28",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "63.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings show steady early growth with bright green leaves and upright posture. Soil appears evenly moist with slightly low but adequate fertility.",
+      "actions": "No watering or fertilizer applied today since moisture remained adequate and plants are still young and responding well to existing nutrients.",
+      "next_steps": "Recheck soil moisture within 24 hours and consider a very light feeding in 3–5 days if growth remains strong and fertility readings stay in the lower range.",
+      "q_and_a_summary": "Confirmed that current moisture and fertility levels are acceptable for this stage and that it is better to delay fertilizing slightly until seedlings are a bit larger.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings with expanding true leaves.",
+          "tags": "cilantro, true-leaves, seedlings, container-garden"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:05 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.79",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "94",
+        "moisture_mScm": "55.00",
+        "light": "98",
+        "rh_percent": "60",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "61.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings look healthy and upright with light green foliage and a uniform stand. Soil moisture and pH are within acceptable ranges for continued growth.",
+      "actions": "No watering or fertilizing applied today because digital readings showed adequate moisture and moderate fertility.",
+      "next_steps": "Recheck soil moisture within 24 hours and continue monitoring pH as it moves toward the 6.0–6.8 ideal range. Protect the planter from cold nights below 45°F.",
+      "q_and_a_summary": "Reviewed that digital readings indicated conditions were acceptable and that no corrective action was needed beyond routine monitoring.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings in the window box showing dense, even growth.",
+          "tags": "cilantro, seedlings, window-box, container-garden"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:24 AM",
+      "conditions": "67°F in morning shade transitioning to sun within about 20 minutes.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Green (just into range)",
+        "moisture": "5 (green, ideal)",
+        "ph": "6 (green, ideal)"
+      },
+      "observations": "Cilantro seedlings are upright and evenly distributed with improved green color and well-formed first true leaves. Soil now appears evenly moist.",
+      "actions": "No direct actions taken today because moisture and pH are in the ideal range and fertility has just entered the green zone.",
+      "next_steps": "Recheck moisture later today or tomorrow morning and continue protecting the planter from cold nights at or below 45°F while monitoring that pH remains near 6.",
+      "q_and_a_summary": "Confirmed that the previous day's soil amendment and watering successfully improved moisture, fertility, and pH without stressing the seedlings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings showing improved color and early true leaf development.",
+          "tags": "cilantro, true-leaves, seedlings, container"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:05 AM",
+      "conditions": "Cool, sunny morning around 65°F in full sun.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (low)",
+        "moisture": "Red (dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "Seedlings remain upright and evenly spaced but soil is quite dry at depth with low fertility and alkaline pH.",
+      "actions": "Applied deep soaking, gently broke up the sand/soil with a fork, added potting mix between seedlings, and watered again to help moisture penetrate.",
+      "next_steps": "Recheck moisture within a few hours to ensure deeper soil has hydrated, then monitor pH over the next day and plan a mild acidifying rinse if it stays around 8.",
+      "q_and_a_summary": "Discussed that dry soil and high pH were limiting early growth and that amendment plus deep watering would help correct structure and moisture retention.",
+      "follow_up": [
+        "[10:30 AM] Planned to recheck moisture and probe readings after the deep watering and soil amendment."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings after soil aeration and addition of potting mix.",
+          "tags": "cilantro, soil-amendment, seedlings, container"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:00 PM",
+      "conditions": "Cool, mostly sunny day in the mid-60s°F; container brought indoors overnight for cold and returned to full sun.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Dense stand of young cilantro seedlings in sand/soil mix, bright green and upright with moist soil and no stress signs.",
+      "actions": "Container was brought indoors overnight for low temperatures and watered to ensure soil was evenly moist.",
+      "next_steps": "Keep soil slightly moist but not waterlogged and bring indoors or cover when night temperatures fall to 45°F or below.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings in sand and soil mix after watering.",
+          "tags": "cilantro, seedlings, container, sand-soil-mix"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "id": "cilantro_002",
+  "status": "Active",
+  "plant": "Cilantro (Herb Box)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 12",
+  "container": "5 Herb Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Part of mixed Herb Planter seeded on Nov 12, 2025.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" left back",
+    "Shares planter with Thai Basil, Parsley, Oregano, and Thyme."
+  ],
+  "whats_been_logged": "The planting began with very dry, alkaline soil that was rehydrated and pH-corrected with lime. Germination progressed steadily once moisture stabilized, with the first cilantro sprouts emerging cleanly alongside a few basil volunteers. Seedlings have expanded their cotyledons and developed deeper green coloration as soil moisture and pH conditions improved, showing healthy upright growth throughout.",
+  "current_stage": "In Germination Window",
+  "current_state": "Seeds just beginning germination process; soil better hydrated and pH trending down from 8.",
+  "timeline": [
+    {
+      "stage": "Germination",
+      "date_range": "Nov 19 - Nov 23, 2025"
+    },
+    {
+      "stage": "True leaves",
+      "date_range": "Dec 1 - Dec 10, 2025"
+    },
+    {
+      "stage": "First harvestable leaves",
+      "date_range": "Dec 10 - Dec 17, 2025"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:07 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.06",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "98",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "65.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro shows vigorous, healthy vegetative growth with upright, bright green, well-formed true leaves. Moisture has settled into an ideal mid-range following recent rain, and all readings appear stable and balanced. A cutworm was discovered near the cilantro zone during soil fluffing, indicating possible risk of stem or crown chewing, though no visible damage is present on foliage or stems.",
+      "actions": "Do not water today as current moisture at 48 mS/cm is ideal. Lightly disturb the top layer of soil around the cilantro to expose any remaining cutworms. Apply a targeted biological insect control if needed to protect stems from potential nighttime feeding.",
+      "next_steps": "Recheck moisture tomorrow or the next afternoon after expected rain. Monitor stems closely for any signs of overnight chewing or clipping. If any new cutworm activity appears, repeat a light soil-level biological treatment after 48 hours. Continue observing spacing and density as cilantro foliage expands.",
+      "q_and_a_summary": "Discussed identification of the soil-dwelling larva as a likely cutworm and confirmed that Captain Jack's DeadBug (spinosad) is safe for all herbs in the shared window box when applied lightly at soil level.",
+      "follow_up": [
+        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cutworm discovered in the cilantro zone while loosening soil, curled in typical defensive posture.",
+          "tags": "cilantro, cutworm, soil-pest, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro patch showing strong vegetative growth with bright green serrated leaves and no visible chewing damage.",
+          "tags": "cilantro, healthy-growth, true-leaves, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:16 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.73",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "158",
+        "moisture_mScm": "62.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "75.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro shows vigorous vegetative growth with upright, bright green, deeply serrated leaves and excellent turgor. Moisture is higher today but foliage shows no signs of overwatering stress. Leaf spacing remains healthy with good airflow throughout the patch. Overnight humidity and incoming showers explain the higher moisture and slight salt increase, neither of which are causing visible stress.",
+      "actions": "Do not water today as moisture is already high and storms are expected. Leave soil undisturbed and avoid amendments or fertilizer at this time.",
+      "next_steps": "Recheck moisture tomorrow afternoon once conditions begin drying. Resume watering only if moisture drops below 30 mS/cm. Watch for increasing density over the coming week and prepare for future thinning once leaf mass expands further.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro patch with upright, vibrant true leaves showing strong vegetative expansion under morning sun.",
+          "tags": "cilantro, herb-box, vegetative-growth, healthy"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:58 PM",
+      "conditions": "Patchy fog before 8:00 AM, otherwise sunny with a high near 86°F. Calm wind becoming south 5 to 8 mph in the morning. Overnight low around 66°F with patchy fog after 3:00 AM. Sunday brings 20 percent chance of showers after 1:00 PM with patchy fog before 9:00 AM.",
+      "digital_probe": {
+        "ph": "4.95",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "116",
+        "moisture_mScm": "29.00",
+        "light": "97",
+        "rh_percent": "51",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "84.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro plants display excellent turgor with no drooping, curling, or dulling of leaf surfaces. Color remains vigorous and even throughout canopy. Leaves show excellent turgor despite warm 86°F conditions and soil temperature at 84.4°F. Moisture at 29 mS/cm sits right in ideal band for cilantro at current vegetative stage, indicating root zone holds enough moisture without oversaturation risk. No heat stress symptoms visible despite warm soil temperature.",
+      "actions": "Do not water today; current moisture at 29 mS/cm is right in ideal moisture band for cilantro at vegetative stage and watering would risk oversaturation, shallow rooting, slowed vegetative expansion, and root zone oxygen loss. Calm wind conditions and overnight fog provide additional ambient moisture support.",
+      "next_steps": "Monitor moisture tomorrow or Monday morning; water only if readings drop below 25–30 mS/cm. Watch for continued leaf expansion and serration development. Continue monitoring for heat stress indicators during warm sunny periods, though none currently visible. Allow natural moisture cycling to support deep root development.",
+      "q_and_a_summary": "Discussed whether watering was needed given probe readings showing 29 mS/cm moisture and warm 86°F weather conditions. Confirmed no watering required as moisture remains in ideal band and plant shows excellent turgor with no stress indicators.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro canopy showing vigorous vegetative growth with excellent leaf turgor and even coloring under sunny warm conditions.",
+          "tags": "cilantro, herb-box, vegetative-growth, healthy, warm-weather"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:26 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.68",
+        "ec_mScm": "0.39",
+        "salt_mg_L": "199",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "22.7",
+        "soil_temp_f": "89.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro plants appear strong, lush, and vigorous with well-developed true leaves showing clear serration patterns. Center growth displays dense and symmetrical vegetative progress with leaf color remaining uniformly deep green showing no chlorosis, tip burn, or mottling. Leaf turgor remains excellent with no signs of water stress despite rising temperatures. Soil texture appears loose and evenly moist with no compaction or pooling around stems. Basil volunteers remain near bottom but are not interfering with growth. True leaves have taken on full rounded lobes with serrated edges indicating healthy development. Plants now firmly established in vigorous vegetative growth phase showing zero stress indicators from high moisture including no wilting, dampness-induced stem thinning, or fungal spots. pH remains very stable indicating earlier lime distribution has evened out successfully.",
+      "actions": "Do not water today; soil moisture at 80 mS/cm is already very high and warm temperatures make overwatering risky for root stress. Allow natural evaporation through afternoon sun. Begin observing for crowding as plants become denser; thinning will be appropriate soon once every plant has at least 2–3 full true leaves. No foliar sprays or soil amendments needed as plants show no signs of insect, fungal, or nutritional issues.",
+      "next_steps": "Expect rapid expansion of true leaves over next 24–48 hours with deeper green coloring as chlorophyll density increases and slight upward cupping in leaves during hot hours which is normal behavior. Evaluate moisture before any irrigation tomorrow morning as soil may still be saturated. Monitor for appropriate thinning timing as leaf size increases and spacing becomes visually clearer.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:03 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "4.93",
+        "ec_mScm": "0.49",
+        "salt_mg_L": "245",
+        "moisture_mScm": "70.00",
+        "light": "94",
+        "rh_percent": "55",
+        "fertility_percent": "29.3",
+        "soil_temp_f": "72.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro plants now solidly in vegetative stage with multiple plants showing 2–4 true leaves displaying strong leaf shape and compact, dense centers. Leaf color remains excellent bright medium green with no chlorosis or scorch. Leaf margins appear crisp with no fungal spotting or insect chew marks. Growth tightens upward rather than sprawling, indicating good root development and proper moisture balance. Wind gusts up to 19 mph have not caused any leaning or lodging as stems are thicker now and well anchored. Soil surface appears hydrated but not waterlogged with good texture and no compaction around stems. Plants show no symptoms of overwatering including no droop, no pale color, no thinning stems, no leaf spot, and no fungal sheen despite high moisture readings. Structural development demonstrates strength to handle wind gusts without stress.",
+      "actions": "Do not water today or tomorrow morning given high moisture at 70 mS/cm. Avoid disturbing soil around roots today. No wind protection needed as plants remain stable. No pest, fungal, or nutrient interventions required as plants show no deficiency signs.",
+      "next_steps": "Check if soil surface dries enough by tomorrow afternoon or following day to resume normal watering rhythm. Expect widening of true leaves, deepening serrations, and spacing to become visually clearer for future thinning decisions over next 24–48 hours. Monitor moisture persistence due to cloud cover.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro plants in vegetative stage showing dense true leaf development with strong serration patterns and bright green coloring.",
+          "tags": "cilantro, herb-box, vegetative-stage, true-leaves, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "2:21 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1:00 PM. Wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "5.69",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "186",
+        "moisture_mScm": "61.00",
+        "light": "99",
+        "rh_percent": "54",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings appear healthy, upright, and vigorous with true leaves expanding well and several plants now showing second and third true leaves beginning to develop. Leaf shape is becoming distinctly cilantro-like with excellent bright green coloration showing no yellowing or nutrient deficiency indicators. Seedlings stand firm despite 15 mph wind gusts, demonstrating good early structural strength. Soil surface appears properly hydrated after morning watering at 9:40 AM with no pooling, crusting, or softness around stems visible. Seed husks remaining on a few seedlings are normal and will continue falling off as true leaves enlarge. Probe reading taken approximately 4.5 hours after watering shows most stable and ideal pH reading this zone has achieved so far.",
+      "actions": "Do not water again today; soil moisture at 61 mS/cm is already high from morning irrigation and will remain stable through afternoon. Continue filling probe holes with soil after each reading to maintain even surface and prevent pockets that could destabilize seedlings. No wind protection needed as 15 mph gusts are mild to moderate and actually encourage stronger stem development.",
+      "next_steps": "Expect visible widening and deepening of first and second true leaves over next 24–48 hours. Consider thinning once leaf size makes spacing clearer. Check moisture tomorrow morning; water gently only if reading drops below 25 mS/cm, otherwise wait for natural dry-down cycle to continue.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[9:40 AM] Applied water to rehydrate soil. Filled probe holes with loose soil and added material to level surface."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings showing multi-leaf expansion with second and third true leaves developing and excellent bright green coloration.",
+          "tags": "cilantro, seedlings, true-leaves, herb-box, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "11:01 AM",
+      "conditions": "Cloudy with a high of 72°F and an overnight low of 57°F. Clear conditions expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "4.95",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "44",
+        "moisture_mScm": "25.00",
+        "light": "95",
+        "rh_percent": "51",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "61.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings are upright and healthy with clear true leaf development and strong green coloration. Soil moisture is well balanced and the cooler temperatures favor compact early vegetative growth.",
+      "actions": "Do not water at this time. Allow the soil to warm and dry slightly as conditions clear later in the day.",
+      "next_steps": "Check moisture tomorrow morning before sun exposure and continue filling probe holes to prevent pockets.",
+      "q_and_a_summary": "User took one shared reading between Thai Basil and Cilantro due to spacing concerns and requested an assessment only of cilantro.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading on 11/28 showing balanced moisture and stabilized pH in cool morning conditions.",
+          "tags": "cilantro, probe-reading, herb-box, 11-28"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings on 11/28 with strong true leaf expansion and healthy spacing.",
+          "tags": "cilantro, seedlings, true-leaves, herb-box, 11-28"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "1:54 PM",
+      "conditions": "Cloudy with a high of 81°F and an overnight low of 65°F. Rain expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "4.47",
+        "ec_mScm": "0.47",
+        "salt_mg_L": "236",
+        "moisture_mScm": "80.00",
+        "light": "95",
+        "rh_percent": "64",
+        "fertility_percent": "28.0",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings show strong early true leaf development with healthy coloration and no signs of stress. Soil is saturated from recent rain but seedlings remain stable with intact cotyledons and properly emerging true leaves.",
+      "actions": "Do not water today. Allow soil to drain naturally ahead of this evening's rain.",
+      "next_steps": "Check soil and seedlings tomorrow morning for pooling, buried stems, or debris after the rain.",
+      "q_and_a_summary": "User noted adding soil to fill probe holes and level areas under the seedlings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading on 11/27 showing high moisture and elevated EC after recent rain.",
+          "tags": "cilantro, probe-reading, herb-box, 11-27"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings on 11/27 showing emerging true leaves and well-hydrated soil.",
+          "tags": "cilantro, seedlings, true-leaves, herb-box, 11-27"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:17 PM",
+      "conditions": "Mostly cloudy with a high of 84°F and an overnight low of 67°F. Thunderstorms expected around 4:00 PM.",
+      "digital_probe": {
+        "ph": "4.63",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "150",
+        "moisture_mScm": "22.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "16.7",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear vigorous with early true leaf development beginning to appear. Soil moisture is moderate and seedlings show no signs of stress or damage from prior wet conditions.",
+      "actions": "Do not water. Allow soil to remain at its current moisture level ahead of incoming storms.",
+      "next_steps": "Inspect seedlings the following morning for any storm-related debris or pooling around stems.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading on 11/26 showing moderate moisture ahead of expected thunderstorms.",
+          "tags": "cilantro, probe-reading, herb-box, 11-26"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings on 11/26 with visible first true leaf tips forming.",
+          "tags": "cilantro, seedlings, true-leaf-stage, herb-box, 11-26"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:11 PM",
+      "conditions": "Sunny with a high of 84°F and an overnight low of 65°F. Readings taken 1.5 hours after watering.",
+      "digital_probe": {
+        "ph": "5.86",
+        "ec_mScm": "0.44",
+        "salt_mg_L": "223",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "26.0",
+        "soil_temp_f": "84.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings are healthy with expanding cotyledons and early true leaf primordia. Soil is saturated after recent watering but seedlings show no signs of stress.",
+      "actions": "Allow soil to dry naturally for the rest of the day. Avoid further watering.",
+      "next_steps": "Monitor moisture the next morning and watch for continued true leaf development.",
+      "q_and_a_summary": "User asked about seed husks remaining attached; confirmed they will fall off naturally.",
+      "follow_up": [
+        "[2:33 PM] Watered lightly due to missed morning watering."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading on 11/25 showing high moisture and increased EC after watering.",
+          "tags": "cilantro, probe-reading, herb-box, 11-25"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings on 11/25 with seed husks still attached and early true leaf development beginning.",
+          "tags": "cilantro, seedlings, seed-husks, herb-box, 11-25"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of cilantro seedlings on 11/25 showing attached seed husks and strong cotyledons.",
+          "tags": "cilantro, close-up, seed-husks, herb-box, 11-25"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:18 PM",
+      "conditions": "Partly cloudy with a high of 81°F and an overnight low of 61°F.",
+      "digital_probe": {
+        "ph": "5.22",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "116",
+        "moisture_mScm": "58.00",
+        "light": "98",
+        "rh_percent": "55",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "81.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings are vigorous with fully expanded cotyledons and the earliest signs of true leaf formation. Soil is rehydrated evenly after morning dryness with no stress visible.",
+      "actions": "No further watering needed after the morning irrigation. Allow soil to dry gradually.",
+      "next_steps": "Monitor moisture the next morning and check for first true leaf emergence.",
+      "q_and_a_summary": "User noted the soil was dry that morning and watered lightly about an hour before readings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading on 11/24 showing elevated moisture and an improving pH after light watering.",
+          "tags": "cilantro, probe-reading, herb-box, 11-24"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings on 11/24 with vigorous cotyledons and early true leaf beginnings.",
+          "tags": "cilantro, seedlings, early-true-leaves"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:56 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "4.41",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "185",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "96.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings show continued healthy development with larger, flatter cotyledons and a deeper green tone compared to previous days. Soil is notably more hydrated than the day before, consistent with probe moisture readings, and seedlings show no signs of damping-off or stress. A few basil volunteers remain present but are small and not impacting cilantro growth. Soil surface remains loose with no crusting, despite high moisture and warm conditions. pH is stable and still acidic, reflecting slow lime adjustment.",
+      "actions": "No watering today due to already high soil moisture. Allow natural evaporation through the afternoon and avoid disturbing seedlings.",
+      "next_steps": "Recheck soil moisture tomorrow morning. Watch for first signs of true leaf emergence between 11/24–11/26. Monitor seedlings for any stem softness if high soil moisture persists.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings with expanded cotyledons and moist soil surface under full sun.",
+          "tags": "cilantro, seedlings, herb-box, 11-23"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:26 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "4.40",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "70",
+        "moisture_mScm": "17.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "85.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings continue expanding their cotyledons with healthy green coloration. Basil volunteers remain present but small and non-interfering. Soil surface appears loose and evenly hydrated with no crusting or signs of stress. pH remains acidic and slightly lower than the day before, consistent with the gradual lime adjustment curve. Moisture is appropriate and the seedlings show no heat or dryness stress.",
+      "actions": "No intentional watering planned due to adequate moisture, but light surface wetting occurred incidentally during watering of adjacent Thai basil.",
+      "next_steps": "Monitor moisture tomorrow morning and avoid additional watering unless the upper layer becomes dry. Watch for early signs of true leaf emergence over the coming days.",
+      "q_and_a_summary": "Noted that cilantro received incidental light watering while adjacent Thai basil was watered.",
+      "follow_up": [
+        "[11:34 AM] Surface received light splash incidentally while watering the Thai Basil zone."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings with widening cotyledons and a few basil volunteers in the shared herb planter.",
+          "tags": "cilantro, seedlings, basil-volunteers, herb-box, 11-22"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:31 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "4.72",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "52",
+        "moisture_mScm": "15.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "85.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings are emerging cleanly with long, narrow cotyledons, while a few basil volunteers with rounded cotyledons are also present in the bed. Soil moisture appears adequate and properly hydrated compared to the previous day's poor probe contact. The seedbed surface remains loose and aerated, with no crusting or dryness that would impede further germination. pH remains on the acidic side but consistent with recent herb-box readings following lime application.",
+      "actions": "No watering at this time. Allow the surface to continue drying naturally through the afternoon sun. Avoid disturbing seedlings, and continue monitoring pH as lime slowly adjusts the zone.",
+      "next_steps": "Recheck moisture either this evening or tomorrow morning using the finger test. Watch for cilantro seedlings to expand cotyledons and begin early true leaf development over the next several days.",
+      "q_and_a_summary": "Confirmed some basil is visible in the photo and that the long seedlings are cilantro.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro seedlings emerging with slender cotyledons alongside a few round-leafed basil volunteers in the herb planter.",
+          "tags": "cilantro, seedlings, basil-volunteers, herb-box, 11-21"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:29 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.54",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "64",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "93.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro seedlings are now clearly visible with slender green cotyledons in bright midday sun. Probe reports zero moisture, likely from poor contact in the loose seedbed, while the surface shows some drying but not extreme crusting.",
+      "actions": "Do not soak the bed at midday; instead, plan a light, targeted watering line along the cilantro row only if the surface feels very dry later in the day. Avoid disturbing the emerging seedlings.",
+      "next_steps": "Check the cilantro zone again within 12–24 hours using finger-test depth; if it is dry below the surface, give a gentle watering. Expect more sprouts to appear and fill in over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of emerging cilantro seedlings in the herb planter under strong midday sun.",
+          "tags": "cilantro, herb-box, sprouts, 11-20"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:43 AM",
+      "conditions": "Clear with full sun and a temperature of 70.5°F.",
+      "digital_probe": {
+        "ph": "4.91",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "78",
+        "moisture_mScm": "45.00",
+        "light": "97",
+        "rh_percent": "66",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "70.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A few very small cilantro sprouts are beginning to emerge with slender cotyledons. Soil moisture is moderate and pH remains acidic but improving. No signs of damping-off, mold, or pest activity.",
+      "actions": "No watering today to maintain current moisture levels.",
+      "next_steps": "More sprouts expected over next 48–72 hours as conditions remain favorable. Continue monitoring moisture and pH stability.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:07 PM] Applied lime across herb box. Soil was very dry two knuckles down, so light surface watering was provided to re-moisten the upper layer without washing lime deeper."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First Cilantro sprouts emerging.",
+          "tags": "cilantro, sprouts"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Herb box after lime application on the afternoon of 11/19.",
+          "tags": "herb-box, lime, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:06 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "4.58",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "65.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro zone soil appears darker and properly hydrated. No clear cilantro sprouts yet, but seedbed looks ready for germination.",
+      "actions": "No watering required. Maintain current light and temperature conditions.",
+      "next_steps": "Watch for first cilantro sprouts over the coming days as moisture and pH continue to stabilize.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro herb box section with evenly moist soil.",
+          "tags": "cilantro, herb-box, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:06 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.98",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "138",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "61.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No cilantro sprouts are visible yet. Soil moisture is good, but acidity is still higher than ideal for optimal germination.",
+      "actions": "Apply a light sprinkling of lime shared with the rest of the planter. Avoid disturbing the seedbed.",
+      "next_steps": "Check again in a couple of days for early cilantro germination as pH gradually improves.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro zone with moist soil and no visible sprouts yet.",
+          "tags": "cilantro, herb-box, overview"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:35 AM",
+      "conditions": "Clear with morning shade transitioning to sun and a temperature of 67°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "between 2–3",
+        "ph": "around 7"
+      },
+      "observations": "Soil is still on the dry side but improving compared to the previous day. No sprouts visible in this section yet as seeds continue early water uptake.",
+      "actions": "Applied gentle watering to keep the top layer evenly moist. No fertilizer needed at this stage.",
+      "next_steps": "Recheck moisture the next morning and continue watching for first signs of germination over the coming days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Herb planter surface showing moistening soil and no sprouts yet.",
+          "tags": "herb-box, soil, pre-germination"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:09 AM",
+      "conditions": "Clear with full sun and a temperature of 65°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "red (very dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "Initial reading shows very dry soil and alkaline pH across the planter. No seedlings present; seeds are likely just beginning water uptake after sowing.",
+      "actions": "Applied thorough soaking to correct dryness, taking care not to displace seeds. No fertilizer at this stage.",
+      "next_steps": "Expect slow pH change over the coming days. Recheck moisture and pH with follow-up readings as germination window begins.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First-day view of the herb planter with dry soil before rehydration.",
+          "tags": "herb-box, dry-soil, day-1"
+        }
+      ]
+    }
+  ]
+}

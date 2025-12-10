@@ -1,0 +1,162 @@
+{
+  "id": "zucchini_001",
+  "status": "Inactive",
+  "plant": "Zucchini (Left)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 16-18",
+  "container": "Raised Bed (Stake 2)",
+  "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
+  "origin_history": [
+    "Zucchini seeds purchased on Oct 8, 2025 and direct-sown in left mound.",
+    "Planted in brown raised bed 2' × 6' × 10\" at second stake.",
+    "Terminated Nov 19, 2025 to make room for Green Beans."
+  ],
+  "whats_been_logged": "This zucchini seedling germinated and produced early cotyledons and a true leaf but showed limited vigor, pest nicks, and slow development while sharing a tight planting space with newly emerging Green Beans at Stake 2. After evaluating growth competition, plant spacing, and overall garden productivity, the decision was made to terminate the zucchini and allow the beans full use of the stake and root zone.",
+  "current_stage": "Terminated",
+  "current_state": "The plant was removed at soil line to prevent competition with neighboring Green Beans. No further growth will occur.",
+  "timeline": [],
+  "journal": [
+    {
+      "date": "11/19/2025",
+      "time": "9:52 AM",
+      "conditions": "Partly shaded morning transitioning to sun later with temperatures in the upper 60s°F and calm weather.",
+      "digital_probe": {
+        "ph": "5.80",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "47.00",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "5.5",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini seedling was upright with minor pest marks, stable soil around its base, and steady but modest growth. True leaves were present but development lagged behind expectations. Probe placement was careful to avoid disturbing nearby bean roots which shared the planting area.",
+      "actions": "Remove Zucchini (Left) by cutting at the soil line to avoid disturbing Green Bean roots. Leave roots in place to decompose naturally.",
+      "next_steps": "No further actions for this plant since growth is terminated. Maintain soil stability for the Green Beans now occupying the space.",
+      "q_and_a_summary": "Discussed whether keeping this zucchini was worthwhile and whether cutting was safer than pulling. Confirmed removal was the correct choice and cutting would protect bean roots.",
+      "follow_up": [
+        "[3:30 PM] Removed Zucchini (Left) by cutting at the soil line so the Green Beans could fully occupy the stake and root zone with minimal root disturbance."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Zucchini (Left) seedling with probe placed safely away from stem for root-zone reading.",
+          "tags": "zucchini, probe-placement, seedling"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of Zucchini (Left) foliage and soil structure prior to removal.",
+          "tags": "zucchini, foliage, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:14 AM",
+      "conditions": "Cool morning in the upper 60s°F with shade shifting to sun and calm weather.",
+      "digital_probe": {
+        "ph": "11.65",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "25",
+        "moisture_mScm": "21.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "67.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedling upright with expanding true leaves and minor insect blemishes. Soil moist and recently amended with additional potting mix. Extremely high pH reading was identified as a probe interference error rather than true soil pH.",
+      "actions": "No watering or fertilizer needed. Maintain sunlight. No pH correction initiated.",
+      "next_steps": "Monitor moisture levels and evaluate readiness for first fertilizer once plant matures further.",
+      "q_and_a_summary": "Discussed probe placement safety and seed coat removal on neighboring bean seedlings. Confirmed correct technique and that seed coat detachment was normal.",
+      "follow_up": [
+        "[4:02 PM] Added organic potting mix underneath and around the base for stability and moisture retention, then applied approximately 1/2 cup water to settle the soil."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil and seedling orientation with bean sprouts nearby.",
+          "tags": "zucchini, green-beans, bed-layout"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Zucchini base after potting mix addition during follow-up.",
+          "tags": "zucchini, follow-up, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:14 AM",
+      "conditions": "Full morning sun with temperatures in the mid-60s°F and light air movement.",
+      "digital_probe": {
+        "ph": "6.49",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "4.00",
+        "light": "98",
+        "rh_percent": "61",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini seedling upright with expanding true leaves and normal leaf color. Minor chewing noted on older leaf but no active pests. Soil was dry at surface with loose texture.",
+      "actions": "Apply light watering due to low moisture reading. No fertilizer or pH adjustments performed.",
+      "next_steps": "Monitor moisture and prepare for first fertilizer once plant grows larger.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Early Zucchini (Left) seedling posture and soil dryness on 11/17.",
+          "tags": "zucchini, seedling, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "3:35 PM",
+      "conditions": "Sunny afternoon around the upper 60s°F with steady breeze.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedling upright with firm cotyledons. True leaf beginning to expand. Soil slightly dry but stable from earlier watering. No visible stress.",
+      "actions": "No additional watering required. Left uncovered for afternoon sun.",
+      "next_steps": "Evening check suggested for soil moisture and leaf condition.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Zucchini (Left) seedling during midday check on 11/11.",
+          "tags": "zucchini, seedling, afternoon"
+        }
+      ]
+    }
+  ]
+}

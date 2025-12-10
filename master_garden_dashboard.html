@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Master Garden Dashboard – Nov 13, 2025</title>
+  <style>
+
+    /*  New Garden Colors  */
+    :root {
+      --bg-main: #fffdf7;
+      --bg-card: #ffffff;
+      --border-subtle: #d8cbb6;
+      --text-main: #2e2a24;
+      --text-muted: #6a6457;
+      --accent: #22642f;
+      --card-color: #C83F49;
+      --accent-soft: #d8e9dc;
+      --radius-lg: 12px;
+      --radius-md: 8px;
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+        -system-ui, sans-serif;
+      background: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto 48px;
+      padding: 32px 24px 32px;
+      /* normal top padding */
+    }
+
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 600;
+      color: var(--text-main);
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 0.4rem;
+      color: var(--accent)
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 1.3rem;
+      margin-bottom: 0.25rem;
+    }
+
+    p {
+      margin: 0.25rem 0 0.5rem;
+    }
+
+    .muted {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      padding: 3px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 14px 16px;
+      margin-top: 10px;
+      box-shadow: 0 1px 2px rgba(27, 31, 35, 0.04);
+    }
+
+    .field-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      /* color: var(--text-muted); */
+      color: var(--card-color);
+      margin-top: 0.3rem;
+      margin-bottom: 0.15rem;
+    }
+
+    ul {
+      margin: 0.15rem 0 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin: 0.1rem 0;
+    }
+
+    .timeline-list li {
+      font-size: 0.92rem;
+    }
+
+    .plant-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .plant-name {
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    /* New Garden Colors */
+    .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg-main);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+    .sticky-header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px 24px 12px;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .nav-link {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      /* border: 1px solid transparent; */
+      border: 1px solid var(--border-subtle);
+      background: #ffffff;
+      color: var(--text-main);
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+
+    .nav-link:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .nav-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-right: 4px;
+    }
+
+    section {
+      scroll-margin-top: 200px;
+      /* so anchors aren't hidden behind sticky header */
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 32px 16px 24px;
+      }
+
+
+      .card {
+        padding: 12px 13px;
+      }
+
+      .sticky-header-inner {
+        padding: 12px 16px 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Single sticky header with title + nav chips -->
+  <header class="sticky-header" id="top-nav">
+    <div class="sticky-header-inner">
+      <h1>🌿 Master Garden Dashboard</h1>
+      <p class="muted">
+        Snapshot as of <strong>November 13, 2025</strong> — origin, logged history,
+        current state, and projected timelines for each plant in your garden.
+      </p>
+      <div class="chip-row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a class="nav-link" href="#strawberries">🍓 Strawberries</a><a class="nav-link" href="#broccoli">🥦
+          Broccoli</a><a class="nav-link" href="#green-beans">🫛 Green Beans</a><a class="nav-link" href="#peppers">🌶️
+          Peppers</a><a class="nav-link" href="#tomato">🍅 Tomatoes</a><a class="nav-link" href="#zucchini">🥒
+          Zucchini</a><a class="nav-link" href="#shallots">🧅 Shallots</a><a class="nav-link" href="#garlic">🧄
+          Garlic</a><a class="nav-link" href="#scallions">🌱 Scallions</a><a class="nav-link" href="#chamomile">🌼
+          Chamomile</a><a class="nav-link" href="#lavender">🪻 Lavender</a><a class="nav-link" href="#herbs">🌿 Herbs
+          &amp; Greens</a>
+      </div>
+    </div>
+  </header>
+  <div class="page">
+    <!-- STRAWBERRIES -->
+
+    <!-- TOMATO -->
+
+    <!-- BASIL -->
+
+    <!-- ZUCCHINI -->
+
+
+    <!-- BROCCOLI -->
+
+    <!-- PEPPER BOX -->
+
+    <!-- HERBS & GREENS -->
+
+    <!-- GARLIC -->
+
+    <!-- SHALLOTS -->
+
+    <!-- SCALLIONS -->
+
+    <!-- CHAMOMILE -->
+
+    <!-- LAVENDER -->
+
+    <section id="strawberries">
+      <h2>🍓 Strawberries</h2>
+
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Strawberry (Left)</div>
+          <span class="pill"><span class="pill-dot"></span> Stabilizing &amp; Blooming</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>New strawberry purchased after the original plant.</li>
+          <li>Transplanted into fresh potting mix.</li>
+          <li>Brought indoors for one cold night for protection.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 12, 8:39 AM</strong>:
+            <ul>
+              <li>Healthy, upright plant with a vibrant flower.</li>
+              <li>Small brown spots on one lower leaf (likely transplant or sun stress).</li>
+              <li>JQ001: Fertility = <strong>Yellow (LOW)</strong>, Moisture = <strong>3 (green)</strong>, pH =
+                <strong>6.5</strong>.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Stabilizing well with good color and active bloom; minor cosmetic spotting only.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Stabilization complete: <strong>Nov 20–23, 2025</strong>.</li>
+          <li>New foliage flush: <strong>Nov 27 – Dec 3, 2025</strong>.</li>
+          <li>Next flower wave: <strong>Dec 10–24, 2025</strong>.</li>
+          <li>Fruit swell: <strong>Dec 17–31, 2025</strong>.</li>
+          <li>First real harvest from this plant: <strong>Jan 1–15, 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Strawberry (Right)</div>
+          <span class="pill"><span class="pill-dot"></span> Fruiting &amp; Flowering</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Bought at Lowe’s on <strong>Oct 8, 2025</strong> (25 oz strawberry container).</li>
+          <li>Transplanted to current pot/bed shortly afterward (early October).</li>
+          <li>Located where it receives the earliest and strongest sun.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Actively flowering and fruiting in sand/topsoil mix.</li>
+          <li>Ongoing cycles of blossoms and developing berries.</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Established, mature plant that is flowering and fruiting on and off with no major stress noted.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Ongoing flowers: every <strong>7–14 days</strong>.</li>
+          <li>Current fruit filling: <strong>Nov 20 – Dec 5, 2025</strong>.</li>
+          <li>Next main harvest wave: <strong>Dec 1–15, 2025</strong>.</li>
+          <li>Then rolling harvests through winter as weather allows.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="broccoli">
+      <h2>🥦 Broccoli</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Broccoli</div>
+          <span class="pill"><span class="pill-dot"></span> Seedling Stage</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Broccoli seedlings started in tray, surrounded by chive planting zones.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Young, pale but healthy seedlings with good light exposure.</li>
+          <li>Soil moisture steady and not waterlogged.</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>In early seedling stage with true leaves forming; ready to thicken up before transplanting later on.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>True leaves expanding: <strong>Nov 18–20, 2025</strong>.</li>
+          <li>Stronger stems / thicker foliage: <strong>Nov 20 – Dec 1, 2025</strong>.</li>
+          <li>Transplant-ready height: <strong>Dec 5–15, 2025</strong>.</li>
+          <li>Central head formation: <strong>Jan 20 – Feb 10, 2026</strong>.</li>
+          <li>Harvest main heads: <strong>Feb 10 – March 1, 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="green-beans">
+      <h2>🫛 Green Beans</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Green Beans (Bush Jade)</div>
+          <span class="pill"><span class="pill-dot"></span> New Seedling</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Variety: <strong>Bush Jade Bean</strong> (Seeds of Change, USDA Organic).</li>
+          <li>Planted in the <strong>raised bed</strong>, sharing <strong>Stake 2</strong> with the direct-sown
+            zucchini.
+          </li>
+          <li>Seeds sown in early November 2025 (warm-season planting for Loxahatchee).</li>
+          <li>First sprout observed on <strong>Nov 16, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 16, 2025</strong>:
+            <ul>
+              <li>One healthy Bush Jade seedling emerged near Stake 2.</li>
+              <li>Cotyledons open, bright green; no yellowing or damage.</li>
+              <li>Soil lightly moist, raised-bed mulch around the base, full-sun position.</li>
+              <li>No signs of pest chewing or damping-off.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>
+          Freshly germinated <strong>bush bean</strong> seedling at cotyledon stage. Root system is just
+          establishing; plant is compact now but will form a short, upright bush (≈15" tall)
+          rather than climbing the stake.
+        </p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>First true leaves: <strong>Nov 20–24, 2025</strong>.</li>
+          <li>Full seedling stage, several leaf sets: <strong>Nov 25 – Dec 2, 2025</strong>.</li>
+          <li>Bushy plant structure forming: <strong>Dec 1–10, 2025</strong>.</li>
+          <li>Flower buds appearing: <strong>Dec 18–25, 2025</strong>.</li>
+          <li>Active flowering: <strong>Dec 22, 2025 – Jan 2, 2026</strong>.</li>
+          <li>First pods setting: <strong>Dec 28, 2025 – Jan 6, 2026</strong>.</li>
+          <li><strong>First harvest window:</strong> <strong>Jan 10–20, 2026</strong>.</li>
+          <li>Main &amp; continuous harvests (pick every 2–3 days): <strong>Jan 20 – Feb 2026</strong>
+            (until plants naturally slow or heat/pests intervene).</li>
+        </ul>
+      </div>
+    </section>
+    <section id="peppers">
+      <h2>🌶️ Peppers</h2>
+
+
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Scotch Bonnet</div>
+          <span class="pill"><span class="pill-dot"></span> Fresh Seed Sow</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Part of the Pepper Box layout defined on <strong>Nov 9, 2025</strong>.</li>
+          <li>Seeds planted on <strong>Nov 12, 2025</strong> in the left section.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Freshly sown; soil more evenly moist after initial dry reading and pH correction in shared box.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 27 – Dec 11, 2025</strong>.</li>
+          <li>First true leaves: ~<strong>1–2 weeks after sprouting</strong>.</li>
+          <li>Vigorous vegetative stage: <strong>Dec 2025 – Jan 2026</strong>.</li>
+          <li>Flowering: <strong>Feb–March 2026</strong>.</li>
+          <li>Harvest window: <strong>April–May 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Orange Cal Wonder</div>
+          <span class="pill"><span class="pill-dot"></span> Fresh Seed Sow</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seeded in the center of Pepper Box on <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 12, 9:22 AM</strong>:
+            <ul>
+              <li>JQ001: Fertility = <strong>Yellow (LOW)</strong>, Moisture = <strong>Red (DRY)</strong>, pH =
+                <strong>8 (ALKALINE)</strong>.
+              </li>
+              <li>Watered with mild vinegar solution (1.5 tsp per ½ gal) to begin lowering pH.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Freshly planted; moisture improved and soil pH beginning to trend downward from 8. No sprouts yet (normal).
+        </p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 22–27, 2025</strong>.</li>
+          <li>First true leaves: ~<strong>1–2 weeks after sprouting</strong>.</li>
+          <li>Vegetative stage: <strong>Dec 2025 – Jan 2026</strong>.</li>
+          <li>Flowering: <strong>Feb–March 2026</strong>.</li>
+          <li>Harvest window: <strong>March–April 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Jalapeño</div>
+          <span class="pill"><span class="pill-dot"></span> Fresh Seed Sow</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seeds planted on <strong>Nov 12, 2025</strong> in the right section of Pepper Box.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Freshly sown; sharing the same pH and moisture corrections as the other Pepper Box sections.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 19–27, 2025</strong>.</li>
+          <li>First true leaves: ~<strong>1–2 weeks after sprouting</strong>.</li>
+          <li>Vegetative stage: <strong>Dec 2025 – Jan 2026</strong>.</li>
+          <li>Flowering: <strong>Jan 15 – Feb 1, 2026</strong> (earliest).</li>
+          <li>Harvest window: <strong>Feb–March 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="tomato">
+      <h2>🍅 Tomatoes</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Tomato (Husky Cherry Red)</div>
+          <span class="pill"><span class="pill-dot"></span> Active Fruit Set / Early Fruiting</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Bought on <strong>Oct 8, 2025</strong> (2.32 qt container).</li>
+          <li>Transplanted into raised bed and staked.</li>
+          <li>Positioned to receive ~6 hours of full sun daily.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <p>
+          The plant has moved from early buds into active flowering and its first forming berries. Initial leaf-spot on older
+          foliage was controlled through selective pruning, leaving new growth healthy. Soil issues from the original sand/topsoil
+          layer were corrected with potting mix, improving moisture balance and aeration. With conditions stabilizing, flowers
+          have opened normally and early fruit development has progressed without significant new foliar problems.
+        </p>
+        <!-- <ul>
+          <li>Strong vegetative growth with early flowers present.</li>
+          <li>Lower pruning scars brown but dry and normal.</li>
+          <li>Soil slightly pulled back from stem base for airflow.</li>
+        </ul> -->
+        <div class="field-label">Current State</div>
+        <p>Healthy, actively growing, and in the flowering + fruit-setting stage. Plant shows clean stems, no active leaf-spot,
+        vigorous top growth, and rapidly sizing green fruit.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Early vegetative growth completed: <strong>Oct 15 - Nov 5, 2025</strong>.</li>
+          <li>Canopy expansion completed: <strong>Nov 5 - Nov 10, 2025</strong>.</li>
+          <li>Initial flowering completed: <strong>Nov 10 - Nov 14, 2025</strong>.</li>
+          <li>Early fruit set (first tomatoes): <strong>Nov 14 - Nov 17, 2025</strong>.</li>
+          <li>Flowering / early fruit set: <strong>Nov 19 - Dec 5, 2025</strong>.</li>
+          <li>First ripening: <strong>Dec 5 - Dec 18, 2025</strong>.</li>
+          <li>Regular cherry tomato harvests: <strong>Dec 18 - March 31, 2025</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="zucchini">
+      <h2>🥒 Zucchini</h2>
+
+
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Zucchini (Left)</div>
+          <span class="pill"><span class="pill-dot"></span> Early Seedling</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Zucchini seeds purchased on <strong>Oct 8, 2025</strong>.</li>
+          <li>Left mound direct-sown in the bed.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Strong cotyledons with one true leaf.</li>
+          <li>Soil kept evenly moist; gets good sun.</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>In the early seedling stage with true leaves emerging and healthy color.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>More true leaves (#2–3): <strong>Nov 18–20, 2025</strong>.</li>
+          <li>Rapid vegetative boom: <strong>Nov 20 – Dec 5, 2025</strong>.</li>
+          <li>First flower buds: <strong>Dec 15–22, 2025</strong>.</li>
+          <li>First blossoms: <strong>Dec 20–30, 2025</strong>.</li>
+          <li>First harvest: <strong>Jan 5–20, 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Zucchini (Center)</div>
+          <span class="pill"><span class="pill-dot"></span> Early Seedling</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Direct-sown (not transplanted) in the center mound.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Development similar to Left zucchini; early true leaves forming.</li>
+          <li>Good sun exposure and appropriate moisture.</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Healthy direct-sown seedling, on roughly the same schedule as Left Zucchini.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>More true leaves (#2–3): <strong>Nov 18–20, 2025</strong>.</li>
+          <li>Rapid vegetative boom: <strong>Nov 20 – Dec 5, 2025</strong>.</li>
+          <li>First flower buds: <strong>Dec 15–22, 2025</strong>.</li>
+          <li>First blossoms: <strong>Dec 20–30, 2025</strong>.</li>
+          <li>First harvest: <strong>Jan 5–20, 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Zucchini (Right)</div>
+          <span class="pill"><span class="pill-dot"></span> Recovering Transplant</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seed started elsewhere and later moved into the right mound.</li>
+          <li>Experienced transplant stress.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Outer leaves pale; new center growth emerging.</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>In recovery but improving. New center growth shows the plant has stabilized and is exiting transplant shock.
+        </p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Fully recovered / greener: <strong>Nov 20–23, 2025</strong>.</li>
+          <li>Rapid growth: <strong>Nov 25 – Dec 10, 2025</strong>.</li>
+          <li>First blooms: <strong>Dec 25 – Jan 5, 2026</strong>.</li>
+          <li>First harvest: <strong>Jan 10–25, 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="shallots">
+      <h2>🧅 Shallots</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Shallots</div>
+          <span class="pill"><span class="pill-dot"></span> Establishing</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Same containers and mix as garlic.</li>
+          <li>Bulbs planted 2" deep with tips slightly exposed, around <strong>Nov 9–10, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Bulbs are rooting and beginning internal growth; green tips may appear any day now.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Green shoots showing: <strong>Nov 18–24, 2025</strong>.</li>
+          <li>Strong leaf clumps: <strong>Dec 2025 – Jan 2026</strong>.</li>
+          <li>Bulb formation phase: <strong>Feb–March 2026</strong>.</li>
+          <li>Harvest: <strong>March–April 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="garlic">
+      <h2>🧄 Garlic</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Siberian Hardneck</div>
+          <span class="pill"><span class="pill-dot"></span> Rooting Underground</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Plan documented on <strong>Nov 7, 2025</strong>:
+            <ul>
+              <li>Black 23.5" × 6" window planters.</li>
+              <li>Miracle-Gro Moisture Control potting mix.</li>
+              <li>Cloves planted 2" deep, 4" apart, pointy side up.</li>
+            </ul>
+          </li>
+          <li>Garlic logged as planted in early November (~<strong>Nov 9–10, 2025</strong>).</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Cloves are rooting and establishing underground; shoots are either just emerging or about to break the
+          surface.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Shoots breaking surface: <strong>Nov 19–25, 2025</strong>.</li>
+          <li>Strong winter foliage: <strong>January 2026</strong>.</li>
+          <li>Scapes for cutting &amp; eating: <strong>March–May 2026</strong>.</li>
+          <li>Bulb harvest: <strong>May–June 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Music Hardneck</div>
+          <span class="pill"><span class="pill-dot"></span> Rooting Underground</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Plan documented on <strong>Nov 7, 2025</strong>:
+            <ul>
+              <li>Black 23.5" × 6" window planters.</li>
+              <li>Miracle-Gro Moisture Control potting mix.</li>
+              <li>Cloves planted 2" deep, 4" apart, pointy side up.</li>
+            </ul>
+          </li>
+          <li>Garlic logged as planted in early November (~<strong>Nov 9–10, 2025</strong>).</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Cloves are rooting and establishing underground; shoots are either just emerging or about to break the
+          surface.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Shoots breaking surface: <strong>Nov 19–25, 2025</strong>.</li>
+          <li>Strong winter foliage: <strong>January 2026</strong>.</li>
+          <li>Scapes for cutting &amp; eating: <strong>March–May 2026</strong>.</li>
+          <li>Bulb harvest: <strong>May–June 2026</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Chesnok Red Hardneck</div>
+          <span class="pill"><span class="pill-dot"></span> Rooting Underground</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Plan documented on <strong>Nov 7, 2025</strong>:
+            <ul>
+              <li>Black 23.5" × 6" window planters.</li>
+              <li>Miracle-Gro Moisture Control potting mix.</li>
+              <li>Cloves planted 2" deep, 4" apart, pointy side up.</li>
+            </ul>
+          </li>
+          <li>Garlic logged as planted in early November (~<strong>Nov 9–10, 2025</strong>).</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Cloves are rooting and establishing underground; shoots are either just emerging or about to break the
+          surface.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Shoots breaking surface: <strong>Nov 19–25, 2025</strong>.</li>
+          <li>Strong winter foliage: <strong>January 2026</strong>.</li>
+          <li>Scapes for cutting &amp; eating: <strong>March–May 2026</strong>.</li>
+          <li>Bulb harvest: <strong>May–June 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="scallions">
+      <h2>🌱 Scallions</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Scallions</div>
+          <span class="pill"><span class="pill-dot"></span> Seeded</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Scallions planted on <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Freshly seeded; soil is moist and warming under this mild weather.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 17–22, 2025</strong>.</li>
+          <li>Strong seedlings: <strong>Nov 25 – Dec 5, 2025</strong>.</li>
+          <li>First green-onion harvest: <strong>Jan 5–20, 2026</strong>.</li>
+          <li>Full-size scallions: <strong>Feb 1–20, 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="chamomile">
+      <h2>🌼 Chamomile</h2>
+
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Chamomile</div>
+          <span class="pill"><span class="pill-dot"></span> Freshly Sown</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Chamomile planted on <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Seeds are freshly sown, taking advantage of mild temperatures and good light for steady germination.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 16–25, 2025</strong>.</li>
+          <li>Feathery foliage: <strong>Nov 25 – Dec 5, 2025</strong>.</li>
+          <li>Bushy plant: <strong>Dec 5–20, 2025</strong>.</li>
+          <li>First flower buds: <strong>Jan 5–20, 2026</strong>.</li>
+          <li>First harvestable blooms: <strong>Jan 15–31, 2026</strong>.</li>
+          <li>Peak bloom: <strong>Feb–April 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="lavender">
+      <h2>🪻 Lavender</h2>
+
+      <!-- Lavender (Left) -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Lavender (Left)</div>
+          <span class="pill"><span class="pill-dot"></span> Pre-Germination</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Lavender seed pot placed at <strong>Panel 4</strong>.</li>
+          <li>Seeds scattered and lightly covered on <strong>Nov 9, 2025</strong>.</li>
+          <li>Soil mix: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio).</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 9</strong>: Lavender germination routine started:</li>
+          <ul>
+            <li>Keep surface evenly damp.</li>
+            <li>Bright light but no harsh direct heat until sprouting.</li>
+          </ul>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Day 4 from sowing. No sprouts expected yet; moisture and light levels appropriate.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 23 – Dec 5, 2025</strong>.</li>
+          <li>Tiny seedlings visible: <strong>Dec 10–20, 2025</strong>.</li>
+          <li>Transplantable small plants: <strong>Jan 10–25, 2026</strong>.</li>
+          <li>First light flowering: <strong>March–April 2026</strong>.</li>
+          <li>Peak flowering: <strong>June–August 2026</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Lavender (Right) -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Lavender (Right)</div>
+          <span class="pill"><span class="pill-dot"></span> Pre-Germination</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Lavender seed pot placed at <strong>Panel 5</strong>.</li>
+          <li>Seeds scattered and lightly covered on <strong>Nov 9, 2025</strong>.</li>
+          <li>Soil mix identical: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio).</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 9</strong>: Same lavender germination care instructions followed.</li>
+          <ul>
+            <li>Keep evenly moist but not soggy.</li>
+            <li>Avoid midday heat until sprouted.</li>
+          </ul>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Also Day 4 from sowing. Both lavender pots are on the same timeline and care schedule.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 23 – Dec 5, 2025</strong>.</li>
+          <li>Tiny seedlings visible: <strong>Dec 10–20, 2025</strong>.</li>
+          <li>Transplantable small plants: <strong>Jan 10–25, 2026</strong>.</li>
+          <li>First light flowering: <strong>March–April 2026</strong>.</li>
+          <li>Peak flowering: <strong>June–August 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="herbs">
+      <h2>🌿 Herbs &amp; Greens</h2>
+
+      <!-- Arugula -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Arugula</div>
+          <span class="pill"><span class="pill-dot"></span> Seedling &amp; Filling In</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seeds purchased on <strong>Oct 8, 2025</strong>.</li>
+          <li>Reseeded on <strong>Nov 5, 2025</strong> and topped with potting mix.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 11, 2:35 PM</strong>:
+            <ul>
+              <li>Brought indoors overnight for cold protection.</li>
+              <li>Top 1" soil bone dry with slight moisture below; watered lightly.</li>
+              <li>Lots of fresh, even sprouting observed.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Young but well-established seedlings, evenly filling the section and ready to move toward baby-leaf stage.
+        </p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Baby-leaf stage: <strong>Nov 18–20, 2025</strong>.</li>
+          <li>First full harvest: <strong>Dec 1–5, 2025</strong>.</li>
+          <li>Cut-and-come-again harvests: <strong>Dec 6, 2025 onward</strong>, every 4–6 days.</li>
+          <li>Full maturity: <strong>Dec 20–28, 2025</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Basil (Left) -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Basil (Left)</div>
+          <span class="pill"><span class="pill-dot"></span> Hard Reset Prune</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Basil plant bought on <strong>Oct 8, 2025</strong> (8" / 0.94 gal pot).</li>
+          <li>Maintained as “Basil – Left” in your layout.</li>
+          <li>Recently topped very short to reset height and encourage dense branching.</li>
+        </ul>
+
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Previously pruned and recovering with new growth starting.</li>
+          <li>Now cut back quite short, leaving lower leaf nodes for regrowth.</li>
+        </ul>
+
+        <div class="field-label">Current State</div>
+        <p>In a reset phase: stems are short, canopy reduced, but nodes are intact and ready to push fresh growth.</p>
+
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Visible new shoots from lower nodes: <strong>Nov 18–22, 2025</strong>.</li>
+          <li>Plant filling out and becoming bushier: <strong>Nov 25 – Dec 5, 2025</strong>.</li>
+          <li>First light harvest (small pinches): <strong>Dec 1–7, 2025</strong>.</li>
+          <li>Back to regular topping for kitchen use: <strong>mid–late Dec 2025 onward</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Basil (Right) -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Basil (Right)</div>
+          <span class="pill"><span class="pill-dot"></span> Hard Reset + Pest Check</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Basil plant bought on <strong>Oct 8, 2025</strong> (8" / 0.94 gal pot).</li>
+          <li>Maintained as “Basil – Right” in your layout.</li>
+          <li>Recently topped very short (same reset as Left).</li>
+        </ul>
+
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>Previously noted mild chewing damage; neem oil planned if needed.</li>
+          <li>Now also cut back short, with lower growth nodes preserved.</li>
+        </ul>
+
+        <div class="field-label">Current State</div>
+        <p>In reset mode like the left basil; foliage reduced but buds are ready to push new side branches. Pest damage
+          currently minor.</p>
+
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>New shoots visible: <strong>Nov 18–22, 2025</strong>.</li>
+          <li>Fuller, bushier plant: <strong>Nov 25 – Dec 5, 2025</strong>.</li>
+          <li>Light harvests from new growth: <strong>Dec 1–7, 2025</strong>.</li>
+          <li>Regular harvest cycle: <strong>mid–late Dec 2025 onward</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Chives (Left) -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Chives (Left)</div>
+          <span class="pill"><span class="pill-dot"></span> Freshly Seeded</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seeded on <strong>Nov 13, 2025</strong> as a ring around the broccoli tray.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Freshly sown; soil is moist from recent watering and weather, ideal for germination.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 20–27, 2025</strong>.</li>
+          <li>Strong seedlings: <strong>Dec 4–10, 2025</strong>.</li>
+          <li>First light harvest: <strong>Jan 15–30, 2026</strong>.</li>
+          <li>Full cut-and-regrow stage: <strong>Feb 2026 onward</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="plant-header">
+
+          <!-- Chives (Right) -->
+          <div class="plant-name">Chives (Right)</div>
+          <span class="pill"><span class="pill-dot"></span> Freshly Seeded</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seeded on <strong>Nov 13, 2025</strong> as a ring around the broccoli tray.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Freshly sown; soil is moist from recent watering and weather, ideal for germination.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 20–27, 2025</strong>.</li>
+          <li>Strong seedlings: <strong>Dec 4–10, 2025</strong>.</li>
+          <li>First light harvest: <strong>Jan 15–30, 2026</strong>.</li>
+          <li>Full cut-and-regrow stage: <strong>Feb 2026 onward</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Cilantro -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Cilantro</div>
+          <span class="pill"><span class="pill-dot"></span> Dense Seedlings</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Seeds purchased on <strong>Oct 8, 2025</strong>.</li>
+          <li>Dense stand from reseeding and soil adjustments in early November.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li><strong>Nov 11–12</strong>:
+            <ul>
+              <li>Originally in sand/soil mix only.</li>
+              <li>JQ001: Fertility low, moisture dry, pH ~8 (alkaline).</li>
+              <li>Soil aerated; potting mix added; watered deeply; seedlings upright with slight pallor.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Healthy, dense seedling stand. pH correction is in progress; fertility still low but no visible stress.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Full true leaves: <strong>Nov 20–23, 2025</strong>.</li>
+          <li>First harvestable stems: <strong>Dec 4–10, 2025</strong>.</li>
+          <li>Peak lush growth: <strong>Dec 10–27, 2025</strong>.</li>
+          <li>Probable bolting window: <strong>Feb–March 2026</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Cilantro (Herb Box) -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Cilantro (Herb Box)</div>
+          <span class="pill"><span class="pill-dot"></span> In Germination Window</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Second cilantro zone, separate from the window box, in the Herb Planter.</li>
+          <li>Seeded on <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Seeds just beginning germination process; soil now better hydrated, pH trending down from 8.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 19–23, 2025</strong>.</li>
+          <li>True leaves: <strong>early Dec 2025</strong>.</li>
+          <li>First harvestable leaves: <strong>Dec 10–17, 2025</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Oregano -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Oregano</div>
+          <span class="pill"><span class="pill-dot"></span> In Germination Window</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Oregano seed in the same Herb Planter, seeded <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Pre-germination; benefits from the same watering and pH adjustments as the other herbs.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 20–27, 2025</strong>.</li>
+          <li>True leaves: <strong>early–mid Dec 2025</strong>.</li>
+          <li>First harvestable sprigs: <strong>Jan 15–30, 2026</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Parsley -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Parsley</div>
+          <span class="pill"><span class="pill-dot"></span> Slow Germinator</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Part of mixed Herb Planter seeded on <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Seeds in place; parsley’s natural slow-germination behavior means a longer wait before seeing sprouts.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 26 – Dec 10, 2025</strong>.</li>
+          <li>True leaves: <strong>late Dec 2025</strong>.</li>
+          <li>First harvestable stems: <strong>Jan 10–25, 2026</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Thai Basil -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Thai Basil</div>
+          <span class="pill"><span class="pill-dot"></span> In Germination Window</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Part of mixed Herb Planter seeded on <strong>Nov 12, 2025</strong>.</li>
+          <li>Shares planter with cilantro, parsley, thyme, and oregano.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Seeds just starting water uptake; soil rehydrated after initial dry reading and pH ~8.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 17–22, 2025</strong>.</li>
+          <li>First true leaves: <strong>late Nov – early Dec 2025</strong>.</li>
+          <li>First harvestable sprigs: <strong>Dec 15–22, 2025</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Thyme -->
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">Thyme</div>
+          <span class="pill"><span class="pill-dot"></span> Tiny Seedling Phase Ahead</span>
+        </div>
+        <div class="field-label">Origin / History</div>
+        <ul>
+          <li>Thyme seed included in mixed Herb Planter, seeded <strong>Nov 12, 2025</strong>.</li>
+        </ul>
+        <div class="field-label">What’s Been Logged</div>
+        <ul>
+          <li>No Data</li>
+        </ul>
+        <div class="field-label">Current State</div>
+        <p>Pre-germination; soil prep complete, awaiting thyme’s tiny seedlings to appear.</p>
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          <li>Germination: <strong>Nov 23 – Dec 3, 2025</strong>.</li>
+          <li>True leaves: <strong>mid–late Dec 2025</strong>.</li>
+          <li>First light trimming for use: <strong>Jan 15–30, 2026</strong>.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

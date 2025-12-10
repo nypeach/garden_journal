@@ -1,0 +1,880 @@
+{
+  "id": "tomato_001",
+  "status": "Active",
+  "plant": "Tomato (Husky Cherry Red)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 16-18",
+  "container": "Raised bed 2' × 6' × 10\", brown (Stake 1)",
+  "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
+  "origin_history": [
+    "Bought on Oct 8, 2025 (2.32 qt container).",
+    "Transplanted into raised bed and staked.",
+    "Positioned to receive approximately 6 hours of full sun daily.",
+    "Compacted topsoil/sand layer removed on Dec 9, 2025.",
+    "Replaced with Miracle-Gro Potting Mix to improve aeration and root conditions."
+  ],
+  "whats_been_logged": "The plant has been progressing from early flowering into heavy fruit set while repeatedly balancing soil moisture and foliar health. Initial leaf-spot on older foliage was managed with selective pruning, but renewed spotting on mid-canopy leaves led to more extensive sanitation pruning and a temporary thinning of the canopy. Persistent probe and moisture issues traced to a compacted topsoil/sand layer were corrected on Dec 9, 2025 by replacing the upper root zone with potting mix, and current tracking focuses on canopy regrowth, disease recovery, and stable fruit development under improved soil conditions.",
+  "current_stage": "Active Fruit Set",
+  "current_state": "The plant is in active fruit set with multiple well-formed green clusters while recovering from significant foliar spotting and recent sanitation pruning. Lower and mid-canopy leaves with advanced lesions were removed, leaving a temporarily open lower stem and a concentrated upper canopy of healthy foliage and flowers. New growth at the top remains vigorous and well hydrated, and with improved soil aeration and moisture distribution the plant is poised to rebuild a fuller canopy while continuing to size fruit.",
+  "timeline": [
+    {
+      "stage": "Early vegetative growth – First fruit set",
+      "date_range": "Oct 15 - Nov 17, 2025"
+    },
+    {
+      "stage": "Flowering and fruit set building",
+      "date_range": "Nov 19 - Dec 8, 2025"
+    },
+    {
+      "stage": "Canopy regrowth & branching",
+      "date_range": "Dec 9 - Dec 16, 2025"
+    },
+    {
+      "stage": "First ripening (first blush color)",
+      "date_range": "Dec 18 - Dec 25, 2025"
+    },
+    {
+      "stage": "First full harvest (fully red clusters)",
+      "date_range": "Dec 22, 2025 - Jan 2, 2026"
+    },
+    {
+      "stage": "Ongoing flowering & fruiting continues",
+      "date_range": "Jan 2026 - Mar 31, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/8/2025",
+      "time": "11:35 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.24",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "47",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains on the dry side in the upper to mid root zone, shown by a moisture reading of 45 and slightly lowered pH consistent with dry pockets rather than true acidity shift. The tomato plant appears vigorous with strong fruit set at multiple nodes, dense foliage, and active flowering. Several leaves across the mid and lower canopy now show mild but expanding fungal-like spotting, with tan or brown speckles, slight yellowing, and localized edge necrosis. These patterns indicate early leaf-spot progression aggravated by recent low moisture and humid, cloudy conditions. Fruit clusters continue to develop normally with no cracking or discoloration.",
+      "actions": "Remove 3–4 of the most spotted leaves by cutting each one at the leaf stem junction to reduce disease pressure and improve airflow. Apply 0.5 gallon of water slowly around the base to reduce dryness stress since storms may arrive later in the day. Do not fertilize or apply fungicide today.",
+      "next_steps": "Recheck moisture tomorrow morning; storms overnight may provide partial hydration. Continue monitoring upper leaves for additional spotting, and consider a dusk copper spray later in the week if spotting continues to progress. Maintain good airflow around fruit clusters by removing any future leaves that develop heavy spotting.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading taken at midmorning showing slightly low moisture and pH influenced by surface dryness.",
+          "tags": "probe, soil, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-canopy leaves with new spotting consistent with early fungal leaf-spot progression.",
+          "tags": "tomato, leaf-spot, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing dense foliage and active fruit set at multiple nodes.",
+          "tags": "tomato, canopy, fruit"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of upper canopy with active flowering and healthy new growth.",
+          "tags": "tomato, flowers, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower fruit clusters developing normally with firm, evenly green tomatoes.",
+          "tags": "tomato, fruit, clusters"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:12 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "5.27",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "79.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Surface soil was too dry to obtain stable shallow-depth readings, and moisture had fallen into the lower range for a fruiting tomato. The low pH reading is consistent with dry pockets rather than a true soil shift. The plant itself appears vigorous, with dense green foliage, numerous active blossoms, and multiple firm fruit clusters developing at several nodes. Canopy posture remains upright and strong, and no new leaf-spotting, wilt, or discoloration is visible. Mulch appears slightly recessed around the stem, suggesting faster surface evaporation in recent sunny conditions.",
+      "actions": "Apply 0.5 gallon of water slowly around the base to rehydrate the root zone. If soil absorbs this quickly without puddling, apply an additional 0.5 gallon. Replace mulch around the watered area to help retain moisture. Do not fertilize today.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm how quickly the bed rebounds after watering. If storms do not arrive early, plan to recheck by midday and water again if moisture remains in the 40s. Continue monitoring fruit clusters as they increase in weight and add support ties if any stems begin to lean.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe inserted near base showing dry surface soil and mulch recession.",
+          "tags": "tomato, probe, soil-dryness"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing dense canopy and multiple developing fruit clusters.",
+          "tags": "tomato, canopy, fruit"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of fruit clusters along the mid-stem with healthy foliage.",
+          "tags": "tomato, fruit, stems"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower stem view showing firm fruit clusters and strong central support.",
+          "tags": "tomato, fruit, lower-stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the tomato canopy displaying active flowering and vigorous growth.",
+          "tags": "tomato, canopy, top-view"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:18 PM",
+      "conditions": "Mostly sunny with a high around 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.32",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "47",
+        "moisture_mScm": "52.00",
+        "light": "19",
+        "rh_percent": "55",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "75.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Husky Cherry tomato is vigorous and heavily loaded with fruit clusters from the lower trusses all the way up the vine. Foliage is mostly a healthy medium green, with only a few leaves showing chew damage and mild edge browning. Readings were taken around 5:19 PM after a watering at 2:00 PM, so soil is still nicely hydrated but has had time to drain. pH has drifted into a very comfortable tomato range around 6.3, and moisture in the low 50s suggests the root zone is evenly moist rather than soggy. Fertility and salts are both noticeably higher than earlier in the week, consistent with yesterday's Purived feeding, but still well below levels that usually cause burn. A small caterpillar was found on the foliage, confirming insect chewing as the cause of scattered holes and crinkled, browned leaf patches.",
+      "actions": "Water at about 2:00 PM to keep root zone evenly moist going into warm afternoon. Inspect foliage closely and remove small caterpillar by hand. Apply Captain Jack's Dead Bug to protect new and existing foliage from further chewing damage.",
+      "next_steps": "Continue daily quick inspections of leaves, especially near fruit clusters, for any new chewing or frass, and hand-pick any additional caterpillars found. Watch over next few days for slowdown in new chew marks following Dead Bug application; reapply only according to product label if fresh damage appears. Hold off on additional fertilizer for at least 7-10 days. Keep soil moisture in steady, moderate range. As fruit clusters continue to fill out and gain weight, keep eye on stems and ties and add extra support if any truss starts to sag or twist under load.",
+      "q_and_a_summary": "Discussed whether it was okay to cut off chewed, crinkly brown leaf and whether to spray Captain Jack's Dead Bug after finding caterpillar. Confirmed removing heavily damaged leaf is safe and helpful as long as canopy is not excessively thinned. Confirmed Dead Bug can be used as foliar spray, following label directions, applying in late afternoon or evening to avoid leaf burn and protect pollinators, and focusing on coating undersides of leaves and areas with visible chewing.",
+      "follow_up": [
+        "[5:30 PM] Sprayed Captain Jack's Dead Bug thoroughly over tomato foliage, paying special attention to chewed leaves and undersides near fruit clusters."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing fruit-heavy lower canopy and branch leaning.",
+          "tags": "tomato, canopy, fruit"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of fruit clusters forming along mid-stem.",
+          "tags": "tomato, fruit, clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chew marks visible on mature leaf indicating caterpillar activity.",
+          "tags": "tomato, leaf-damage, chewing"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Upper canopy showing new growth and healthy flowering.",
+          "tags": "tomato, flowers, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:11 AM",
+      "conditions": "Mostly cloudy with a high near 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "5.93",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "24",
+        "moisture_mScm": "32.00",
+        "light": "99",
+        "rh_percent": "56",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "76.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant showed a strong surge in fruit development, with cluster density increasing noticeably since prior reading. New chew holes were found on some mid-canopy leaves, consistent with caterpillar activity, though no widespread damage was observed. After trimming spotted and yellowing leaves earlier, no new diseased tissue appeared and overall foliage color remained strong across canopy. One major branch had begun to lean under weight of new fruit, and securing it with support ties immediately improved posture. Soil surface appeared evenly moist, supported by sensor's moderate moisture reading, and airflow around base remains clear due to earlier pruning.",
+      "actions": "Secure leaning branch using plant ties to stabilize developing fruit clusters. Continue close monitoring of chew damage to identify potential caterpillar presence. Do not water due to sufficient soil moisture.",
+      "next_steps": "Inspect foliage daily for caterpillars or eggs, especially along leaf veins and undersides of tender new leaves. Apply Dead Bug (spinosad) only if active chewing insects are confirmed. Maintain consistent branch support as fruit weight increases. Continue checking moisture each morning and water only when readings fall into low range.",
+      "q_and_a_summary": "Discussed whether Neem Oil could be applied at this stage and confirmed it is safe but should not overlap with spinosad on same day. Reviewed expectations for flower production and confirmed that increasing clusters is normal for this variety. Evaluated whether branch support was necessary and confirmed that early bracing prevents structural stress as fruit load increases.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing fruit-heavy lower canopy and branch leaning.",
+          "tags": "tomato, canopy, fruit"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of fruit clusters forming along the mid-stem.",
+          "tags": "tomato, fruit, clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chew marks visible on mature leaf indicating caterpillar activity.",
+          "tags": "tomato, leaf-damage, chewing"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Upper canopy showing new growth and healthy flowering.",
+          "tags": "tomato, flowers, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "3:07 PM",
+      "conditions": "Mostly sunny with a high near 77°F dropping to 66°F overnight. Light winds up to 15 mph.",
+      "digital_probe": {
+        "ph": "4.83",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "59.00",
+        "light": "6",
+        "rh_percent": "72",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "76.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant showed its first tight fruit clusters beginning to enlarge, with strong green coloring throughout the canopy. A few leaves displayed minor chewing damage along margins and between veins, though pattern remained isolated and not indicative of larger infestation. Soil appeared evenly moist but not waterlogged, consistent with moisture reading taken after morning watering. The canopy remained full and vigorously expanding, with steady flowering at upper nodes. No new yellowing or spotting was detected following most recent pruning. Light conditions changed during reading due to sun angle and fencing, resulting in lower-than-typical light value on sensor.",
+      "actions": "Perform morning watering at 9:40 AM. Fill in and level soil where probe created cavity to ensure accuracy in future readings. Continue general inspection for leaf damage and maintain current supports.",
+      "next_steps": "Monitor for additional chewing damage over next 48 hours to determine whether treatment with Dead Bug or Neem Oil is warranted. Continue watching moisture levels closely as temperatures fluctuate. Maintain current airflow around base and prune only if new diseased or heavily damaged leaves appear.",
+      "q_and_a_summary": "Reviewed expected flowering patterns and verified that plant is on schedule for its variety. Discussed whether more blossoms should be present and confirmed that current cluster rate is normal. Addressed early chewing marks and identified them as minor pest activity not yet requiring intervention.",
+      "follow_up": [
+        "[3:07 PM] Confirmed soil cavity caused by probe was filled and leveled for accurate readings."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of the tomato plant showing strong canopy development.",
+          "tags": "tomato, canopy, sunlight"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Leaf with early chew damage along interior veins.",
+          "tags": "tomato, leaf-damage, chewing"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Developing fruit cluster emerging from mid-stem node.",
+          "tags": "tomato, fruit, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing the clean lower stem and early fruit formation.",
+          "tags": "tomato, structure, fruit"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "1:05 PM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "26",
+        "moisture_mScm": "39.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "68.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The upper soil layer under the mulch was dry enough that the probe could not register pH or moisture at normal depth, so the sensor had to be pushed very deeply into the bed to get a stable reading. Even so, the reading showed moderate moisture in the deeper root zone rather than full dryness, suggesting the plant is drawing steadily from a deeper, still-hydrated layer while the surface dries quickly. The tomato itself continues to look vigorous, with firm fruit clusters, upright stems, and no new signs of wilt or systemic stress. Leaf-edge browning remains limited to older foliage and does not appear to be expanding rapidly.",
+      "actions": "Add about 0.5 gallons of water at the base later in the day to gently re-wet the upper root zone without saturating the cooler soil, so that future probe readings can be taken at a shallower depth and surface roots are not pushed into repeated dry-down cycles.",
+      "next_steps": "On next reading day, attempt a normal-depth probe insertion first; if it can no longer read pH and moisture at that depth, watering volume or frequency should be adjusted upward. Continue watching older leaves for any progression of edge crisping and keep eye on fruit clusters to ensure they remain firm and unblemished as temperatures stay cooler.",
+      "q_and_a_summary": "Explained that a moisture reading requiring deep probe insertion indicates a dry surface combined with still-hydrated deeper layer, and that the goal is to keep top several inches moist enough that normal-depth readings are possible. Reviewed how to use these readings to decide on watering volume without overcompensating in cool weather.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Deeply inserted probe showing how far into the bed the sensor had to go to obtain a stable moisture reading.",
+          "tags": "probe, soil, depth, measurement"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overall view of the tomato plant on a cool, cloudy day, with fruit clusters and foliage still appearing strong.",
+          "tags": "tomato, canopy, fruit, weather"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the soil surface after pulling back mulch, showing a dry upper layer above darker, moister soil beneath.",
+          "tags": "soil, mulch, dryness"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-canopy view of leaves and fruit, with only minor, stable edge browning on older foliage.",
+          "tags": "leaves, fruit, canopy, leaf-edges"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:32 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "6.87",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "43.50",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "2.8",
+        "soil_temp_f": "76.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Mulch surface was very dry, so it was temporarily pulled back to expose soil for two root-zone probe readings. Despite dry mulch layer, both readings showed that soil underneath was in ideal moisture range, with healthy pH, salt, and fertility levels. The tomato plant appears vigorous with strong stems, abundant fruit clusters, and vibrant green foliage. No signs of disease, wilting, or stress were observed. New chewing damage and a few small brown spots were visible on several leaves, most consistent with light caterpillar or similar insect feeding and minor environmental stress on older foliage.",
+      "actions": "Do not water today before afternoon thunderstorms; soil moisture is within ideal range based on current probe readings. Recommend dusk inspection with flashlight to look for caterpillars or other chewing insects on undersides of leaves and within canopy.",
+      "next_steps": "After storm, or following morning if conditions stay wet, recheck soil moisture before deciding on more water. Continue monitoring extent of chewing damage and leaf spotting, and only introduce neem or BT if chewing persists or insects are found on inspection. Watch top of plant for emerging flower clusters over coming days as tomato continues through active fruit set.",
+      "q_and_a_summary": "Reviewed whether watering was necessary given two probe readings (not needed). Confirmed that top-layer dryness with soil moisture still in range is normal. Evaluated leaf-edge discoloration and confirmed it as mild dryness necrosis rather than copper damage or disease. Discussed whether two probe readings were close enough to interpret together and explained why their differences are normal for front and back positions in real bed. Reviewed how and when to safely use Bonide Captain Jack's neem oil, emphasizing dusk applications on dry leaves and avoiding both strong sun and pre-storm spraying.",
+      "follow_up": [
+        "[2:30 PM] Talked through how and when to use Bonide Captain Jack's neem oil safely on this plant, emphasizing dusk applications on dry leaves and avoiding both strong sun and pre-storm spraying.",
+        "[3:07 PM] User asked whether more flowers should appear; confirmed that new flower clusters are expected within 3-6 days based on current growth stage, strong new growth, and plant health.",
+        "[4:13 PM] Noticed brown leaf-edge lines and slight crisping at leaf tips; assessed as mild leaf-edge necrosis caused by surface dryness and low humidity during active fruiting."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mulch pulled back showing dry surface material before today's readings.",
+          "tags": "mulch, soil, dry"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of fruit clusters and inner canopy structure showing healthy growth.",
+          "tags": "tomato, fruit, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing vigorous canopy and upright stems.",
+          "tags": "tomato, canopy, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing dense healthy foliage and new growth across the canopy.",
+          "tags": "tomato, foliage, top-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side canopy view with visible green fruit clusters developing normally.",
+          "tags": "tomato, fruit, clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Backlit leaf showing browning and curling.",
+          "tags": "leaf, lighting, inspection"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Fruit cluster with surrounding leaves; slight edge browning visible on a mid-canopy leaf.",
+          "tags": "tomato, fruit, leaf-edge"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of a leaf showing the brown margin line confirming mild dryness necrosis.",
+          "tags": "leaf, edge-browning, diagnosis"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:19 PM",
+      "conditions": "Sunny with a high of 84°F dropping to the mid-60s overnight.",
+      "digital_probe": {
+        "ph": "6.28",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "58",
+        "moisture_mScm": "58.50",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Readings were taken roughly an hour and a half after a mid-afternoon watering, again with one measurement behind the root zone and one in front. Moisture values in the 50s and 60s confirmed that the previous day's watering had brought the root zone into a comfortably moist state without oversaturation, and the soil surface under the mulch looked evenly dark and hydrated. The plant canopy appeared turgid and well supported, with expanding green fruit clusters and no signs of wilt or acute stress. Chewing damage and mild edge dryness were still present but had not suddenly worsened, suggesting that recent watering had stabilized the plant's overall condition.",
+      "actions": "Do not apply additional watering for rest of day since post-watering readings showed healthy, stable moisture and plant was holding itself upright without any midday droop.",
+      "next_steps": "Check moisture again following morning or midday to determine how quickly bed is drying under current temperatures and sun exposure. Water only when new readings drop into mid-40s or below, especially as fruit continues to size. Continue to watch chewing patterns; if damage begins to increase noticeably, consider evening scouting and, if necessary, targeted treatment for caterpillars.",
+      "q_and_a_summary": "Confirmed that front and back readings were close enough that they could be averaged for interpretation without losing meaningful detail, and explained why some variability is expected in real bed. Addressed concerns about whether more water was needed after 2:33 PM watering and reassured that moisture levels and plant posture both indicated that amount given was sufficient.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Post-watering probe reading behind the root showing moisture in the mid-60s and a healthy mid-6 pH.",
+          "tags": "probe, moisture, behind-root, post-watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading in front of the root showing slightly lower but still robust moisture levels.",
+          "tags": "probe, moisture, front-root"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Canopy view after watering with leaves held high and fruit clusters developing along the main stem.",
+          "tags": "tomato, canopy, fruit, hydration"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of a lower fruit cluster showing even sizing and firm, unblemished fruit.",
+          "tags": "fruit, cluster, development"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:02 AM",
+      "conditions": "Partly cloudy with a high around 82-84°F dropping to the mid-60s overnight.",
+      "digital_probe": {
+        "ph": "7.44",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "14",
+        "moisture_mScm": "17.50",
+        "light": "93",
+        "rh_percent": "49",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "77.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A late-morning probe reading taken after pulling back mulch showed that root-zone moisture had fallen to clearly dry level for fruiting tomato. Plant itself remained upright and flowering with active fruit clusters, but several leaves showed thin brown margins and slight tip crisping that matched earlier signs of mild leaf-edge dryness. There were no signs of systemic disease or nutrient deficiency; instead, pattern pointed to root zone simply not receiving enough water to keep up with transpiration and fruit development.",
+      "actions": "Water with 0.5 gallons applied slowly at base to rehydrate root zone without shocking plant. Additional 0.5 gallons confirmed as safe and appropriate when dryness still seemed significant.",
+      "next_steps": "Recheck soil moisture next day to see how quickly bed dries after receiving full gallon and use that information to refine watering interval. Continue to monitor leaf edges and tips; if browning stabilizes or recedes with improved watering, no further action needed, but if it worsens despite better moisture, other causes can be revisited.",
+      "q_and_a_summary": "Explained that moisture reading of 19 was low enough to warrant watering even though plant still appeared outwardly strong, and clarified that this level of dryness is sufficient to contribute to leaf-edge necrosis in fruiting tomato. Addressed concerns about whether second half-gallon was too much and reassured that, given starting dryness and plant's stage, full gallon split into two applications was reasonable and safe.",
+      "follow_up": [
+        "[11:15 AM] Applied 1/2 gallon of water at base as instructed to correct low moisture reading.",
+        "[11:30 AM] Applied additional 1/2 gallon of water after rechecking soil and confirming it still felt drier than desired for fruiting tomato."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading showing pH 7.44 and a low moisture value before watering.",
+          "tags": "probe, reading, low-moisture, ph"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe placement behind the root zone with dry, pale soil visible after moving mulch aside.",
+          "tags": "probe, soil, dryness"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Leaf close-up showing thin brown margins and slight tip crisping consistent with mild dryness stress.",
+          "tags": "leaf, edge-browning, dryness"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full-plant view before watering, with strong posture and multiple green fruit clusters despite the dry root reading.",
+          "tags": "tomato, canopy, fruit, pre-watering"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "2:15 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.21",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "30",
+        "moisture_mScm": "43.50",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "2.8",
+        "soil_temp_f": "77.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Mulch surface was very dry, so it was temporarily pulled back to expose the soil for two root-zone probe readings. Despite the dry mulch layer, both readings showed that the soil underneath was in the ideal moisture range, with healthy pH, salt, and fertility levels. The tomato plant appears vigorous with strong stems, abundant fruit clusters, and vibrant green foliage. No signs of disease, wilting, or stress were observed.",
+      "actions": "Do not water today; soil moisture is within the ideal range based on current probe readings.",
+      "next_steps": "Check moisture again tomorrow. Maintain vinegar deterrents until solar predator lights are installed. Plan to apply 4-5-5 fertilizer in 1-2 days if moisture remains stable. Continue monitoring for blossom drop or leaf spotting.",
+      "q_and_a_summary": "Reviewed whether watering was necessary given two probe readings (not needed). Confirmed that top-layer dryness with soil moisture still in range is normal. Evaluated leaf-edge discoloration and confirmed it as mild dryness necrosis rather than copper damage or disease. Reaffirmed that fruiting plants commonly divert water to fruit, making mid-canopy edges more sensitive.",
+      "follow_up": [
+        "[4:13 PM] Noticed brown leaf-edge lines and slight crisping at leaf tips; assessed as mild leaf-edge necrosis caused by surface dryness and low humidity during active fruiting. Not disease or copper damage."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mulch pulled back showing dry surface material before today's readings.",
+          "tags": "mulch, soil, dry"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of fruit clusters and inner canopy structure showing healthy growth.",
+          "tags": "tomato, fruit, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing vigorous canopy and upright stems.",
+          "tags": "tomato, canopy, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing dense healthy foliage and new growth across the canopy.",
+          "tags": "tomato, foliage, top-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side canopy view with visible green fruit clusters developing normally.",
+          "tags": "tomato, fruit, clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Backlit leaf showing browning and curling.",
+          "tags": "leaf, lighting, inspection"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Fruit cluster with surrounding leaves; slight edge browning visible on a mid-canopy leaf.",
+          "tags": "tomato, fruit, leaf-edge"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of a leaf showing the brown margin line confirming mild dryness necrosis.",
+          "tags": "leaf, edge-browning, diagnosis"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:49 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "7.13",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "29",
+        "moisture_mScm": "57.50",
+        "light": "97",
+        "rh_percent": "52",
+        "fertility_percent": "2.6",
+        "soil_temp_f": "81.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains vigorous with a strong, upright structure and dense but healthy canopy. New growth is bright green, and fruit clusters continue to increase in size. Raccoon deterrent measures remained effective overnight, with no disturbance to mulch or soil. Initial probe readings showed 0 moisture at two points, indicating soil dryness rather than pH problem. The high pH reading of 10.05 was identified as S-06 misread due to dry soil pockets. Three dropped flowers were found but present as normal blossom drop during active fruit set, not caused by prior copper application. After watering, post-watering readings confirmed soil is now in ideal moisture range with balanced pH and nutrient levels.",
+      "actions": "Perform multiple probe readings at root zone by temporarily moving mulch aside. Determine that soil requires watering based on 0 moisture readings and visual dryness. Add 1 gallon of water and replace mulch afterward. Confirm raccoon deterrents remain effective.",
+      "next_steps": "Monitor moisture level tomorrow morning to ensure soil remains evenly moist but not saturated. Keep vinegar-based deterrents in place until hardware cloth and predator lights are installed. Continue regular observation for any new leaf spotting and maintain airflow around stem. No fungicide needed today. Plan for next fertilizer application using 4-5-5 within 2-3 days.",
+      "q_and_a_summary": "Discussed whether dropped flowers were caused by copper fungicide (determined to be normal blossom drop), how to interpret zero moisture and fluctuating pH readings from S-06, correct method for moving mulch for water or readings, and confirmation that raccoon deterrent setup continues to function safely and effectively. Reviewed fertilizer options (4-5-5 vs 10-10-10) and clarified correct timing and product for plant's current fruiting stage.",
+      "follow_up": [
+        "[5:45 PM] Added containers with vinegar to deter raccoons.",
+        "[6:05 PM] Applied the fungicide carefully, avoiding flowers and fruit as much as possible.",
+        "[12:08 PM] Added 1 gallon of water and replaced mulch.",
+        "[12:39 PM] Took two post-watering readings (57-58 mS/cm) confirming soil is now evenly and optimally moist."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the plant showing healthy canopy expansion.",
+          "tags": "tomato, canopy, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting the upright posture and vigorous foliage.",
+          "tags": "tomato, foliage, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of lower canopy and stem structure showing healthy new growth.",
+          "tags": "tomato, stem, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-canopy view with developing fruit clusters.",
+          "tags": "tomato, fruit, clusters"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:38 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight. Light winds and dry foliage suitable for fungicide application.",
+      "digital_probe": {
+        "ph": "6.73",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "13",
+        "moisture_mScm": "8.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "77.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Tomato plant remains vigorous with strong upright growth, expanding canopy, and active fruit set. No signs of new fungal spotting, and all previously pruned areas are clean and dry. Soil beneath mulch is slightly dry, consistent with moisture readings. Multiple raccoon-dug holes were found around garden bed, including larger one near tomato, but stem and root system remain stable with no signs of displacement, stress, or wilting. Mulch is still properly mounded and airflow around stem is excellent.",
+      "actions": "Prepare to apply copper fungicide later in day once plant is fully dry. Vinegar deterrent containers installed in takeout trays around raised bed to temporarily reduce raccoon activity. Continue monitoring of soil moisture and plant structure.",
+      "next_steps": "Apply copper fungicide this evening once plant is fully dry and temperatures are below 85°F. Monitor lower canopy for any additional spotting. Recheck moisture and probe readings tomorrow morning. Install hardware cloth and predator-eye lights when available to prevent future raccoon digging.",
+      "q_and_a_summary": "Discussed safety and effectiveness of light copper fungicide application, including difficulty avoiding flowers and fruit in dense canopy. Reviewed safety of vinegar-based raccoon deterrents for all plants in bed and confirmed correct usage. Also addressed temporary measures to deter raccoons until predator lights, hardware cloth, and ultrasonic devices are installed. Confirmed that light fungicide misting is appropriate and that minor drift onto fruit or flowers is acceptable as long as application is not heavy.",
+      "follow_up": [
+        "[5:45 PM] Added containers with vinegar to deter raccoons.",
+        "[6:05 PM] Applied the fungicide carefully, avoiding flowers and fruit as much as possible."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Tomato plant in late afternoon sun showing strong foliage.",
+          "tags": "tomato, sunlight, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Healthy tomato plant structure with clean lower stem.",
+          "tags": "tomato, structure, stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of tomato with well-supported stalk and fruit clusters.",
+          "tags": "tomato, fruit, support"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Canopy view showing dense, healthy upper foliage.",
+          "tags": "tomato, canopy, growth"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:36 PM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.09",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "31.00",
+        "light": "89",
+        "rh_percent": "50",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "81.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong post-pruning recovery with vigorous upright growth and multiple fruit clusters developing at several nodes. Foliage is bright green with no active spotting, and all cuts from 11/19 are dry, clean, and healing normally. Lower stem structure is open and well-aired, with mulch replaced neatly around the base. Early fruit set is progressing quickly, with several tomatoes increasing in size. Overall health is excellent and growth rate remains strong.",
+      "actions": "Do not water at midday. Allow soil to dry slightly and water tomorrow morning. Postpone fungicide application until leaves are fully dry and late afternoon shade is present.",
+      "next_steps": "Water early tomorrow morning. Apply copper fungicide later in the day once the plant is shaded and fully dry. Continue monitoring for new leaf spotting and ensure airflow remains good around the lower stem.",
+      "q_and_a_summary": "Discussed whether fruit may ripen sooner; clarified fruit is developing quickly but typical ripening begins around early December.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full-plant view showing strong vertical growth and post-pruning structure.",
+          "tags": "tomato, full-plant, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of developing fruit cluster showing healthy green tomatoes.",
+          "tags": "tomato, fruit, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower stem view showing clean pruning cuts and improved airflow.",
+          "tags": "tomato, pruning, airflow"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-canopy foliage with active flowering and new fruit formation.",
+          "tags": "tomato, flowers, fruit-set"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle of plant showing canopy shape and sunlight exposure.",
+          "tags": "tomato, canopy, sunlight"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of the plant canopy showing dense but healthy leaf growth.",
+          "tags": "tomato, canopy, top-view"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:52 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.16",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "55.00",
+        "light": "94",
+        "rh_percent": "67",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "70.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong upright growth with multiple fruit clusters forming and new blossoms emerging. Moisture level is moderate and pH is within an acceptable range. Some branches showed fungal leaf-spot symptoms earlier, now removed. Post-pruning airflow through the canopy is significantly improved. The overall plant structure appears healthier with reduced disease pressure.",
+      "actions": "No additional watering or amendments needed at this time. Pruning completed to remove diseased foliage. Fungicide application planned for later once leaves are dry.",
+      "next_steps": "Apply copper fungicide this evening once the plant is fully dry and temperatures are below 85°F. Monitor lower canopy for any additional spotting. Recheck moisture and probe readings tomorrow morning.",
+      "q_and_a_summary": "Discussed which branches to prune, whether to remove the branch above the first fruit cluster, and timing for fungicide application.",
+      "follow_up": [
+        "[3:20 PM] Removed a total of 3 branches (two with spotting and one above the first fruit cluster) and cleaned up the broken branch from this morning; this improves airflow and reduces fungal pressure going forward."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cherry Tomato after morning assessment showing spotted leaves.",
+          "tags": "tomato, spots, disease"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Spotted leaf section - third level from bottom.",
+          "tags": "spots, leaf-damage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Worst spotted branch - first branch from bottom.",
+          "tags": "disease, fungal, lower-branch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Pruned area after removing diseased branches.",
+          "tags": "pruned, after-photo"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:13 AM",
+      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "7.91",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "9.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "66.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant structure remains upright and healthy with continued fruit development, including multiple small green tomatoes and newly forming clusters. Foliage is dense and mostly green, with several lower and mid-level leaves showing brown or black spotting consistent with early leaf-spot disease. These affected leaves are not near soil surface, as plant has approximately 6-8 inches of clear stem before any foliage begins. Mulch is present around root zone, and overall coverage is good but was initially on thin side before today's top-up. Overall posture is strong, with no wilting, and moisture readings earlier in day indicated very dry soil at root zone.",
+      "actions": "Add additional mulch to bring total mulch depth to approximately 2-3 inches while keeping it 1-2 inches away from stem. Water 1.5 gallons slowly at base today due to low moisture readings. No fertilizer and no neem oil today.",
+      "next_steps": "Recheck moisture within 24 hours. Monitor leaf spotting for upward progression. Copper fungicide may be used later if spotting spreads. Continue maintaining good airflow and consistent soil moisture.",
+      "q_and_a_summary": "Discussed whether neem oil was needed (not recommended today), whether pruning was necessary given leaf height above soil (no additional pruning needed), and whether mulch should be increased (yes—depth increased to 2-3 inches). User also confirmed that mulch had been temporarily pulled back only to show planting orientation.",
+      "follow_up": [
+        "[4:17 PM] Added 1 gallon water, replaced mulch, plant stable.",
+        "[7:12 PM] Checked moisture, surface still damp."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning full-plant view showing Cherry Tomato in raised bed.",
+          "tags": "plant, overview, garden"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of developing fruit cluster on mid-stem.",
+          "tags": "fruit, tomatoes, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-level leaf showing brown and black spotting.",
+          "tags": "leaf-spot, disease-signs"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:13 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "6.49",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "19",
+        "moisture_mScm": "19.00",
+        "light": "98",
+        "rh_percent": "61",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "66.2"
+      },
+      "analog_probe": {
+        "fertility": "yellow-green range",
+        "moisture": "2-3 (dry, red zone)",
+        "ph": "neutral, approximately 7 (green zone)"
+      },
+      "observations": "The plant is upright with strong central stems and evenly green foliage. Multiple flower clusters are present and blooming normally. Two developing fruits are round, firm, and evenly green with no visible defects. Lower stem remains clean and open for airflow following the 11/12/2025 pruning. Soil beneath mulch is slightly dry, consistent with moisture readings. No new spots, discoloration, or pests observed.",
+      "actions": "Water today with 1/2 gallon applied slowly at the base over the mulch. No fertilizer needed today. No pruning required. Do not adjust pH.",
+      "next_steps": "Recheck moisture within 24 hours. Prepare for the next fertilizer application between 11/20/2025 and 11/22/2025 using diluted 10-10-10. Maintain full sun exposure and protect the plant if nighttime temperatures drop to 45°F or below.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing upright structure and healthy foliage.",
+          "tags": "tomato, plant, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower stem with mulch and clear airflow zone.",
+          "tags": "stem, mulch, airflow"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Developing fruit cluster on mid-stem.",
+          "tags": "fruit, tomato, cluster"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Active flower clusters forming on upper canopy.",
+          "tags": "flowers, blooms, tomato"
+        }
+      ]
+    }
+  ]
+}

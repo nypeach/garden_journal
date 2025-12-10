@@ -1,65 +1,45 @@
+# 🌿 Master Garden Data Structure
+_Last Updated: December 8, 2025 6:39 PM_
+===============================================
 # Garden Journal Data Structure
 
-**VERSION: 13.1**
-**Last Updated: 2025-11-12**
+**VERSION:** 14
+**Last Updated: 2025-11-20**
 
 ---
 
 ## Overview
 
-The garden journal uses a single JSON file (`data/garden_data.json`) to store all garden data. Version 13 introduces comprehensive tracking for multiple daily observations, detailed actions, photo metadata, and temporary location changes. Version 13.1 adds the `summary` field for evolving plant assessments.
+The garden journal uses a single JSON file (`data/master_garden_data.json`) to store all garden data. Version 14 is a rework of the entire project.  It simplifies the data and html into a single object for each plant and a single web page with multiple sections.
 
 ## File Location
 
 ```
-data/garden_data.json
+data/master_garden_data.json
 ```
 
 ## Root Structure
 
 ```json
 {
-  "_schema_version": "13.1",
-  "_last_updated": "2025-11-12",
+  "_schema_version": "14",
+  "_last_updated": "2025-11-20",
   "metadata": { },
-  "plants": [ ],
-  "locations": { },
-  "daily_entries": [ ]
+  "products": [ ],
+  "containers": [ ],
+  "plants": [ ]
 }
 ```
 
 ---
 
-## What's New in Version 13.1
+## What's New in Version 14
 
 ### New in This Version
 
-**Plant Summary Field** - Each plant now has an optional `summary` field that contains your evolving assessment of the plant. This field:
-- Appears in Section 2 (Plant-by-Plant Summary) as the "Notes"
-- Can be updated when adding daily observations
-- Allows you to keep, update, or append to the summary as the plant evolves
-- Contains high-level notes about health, status, and care needs
-
-Example: `"Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F."`
 
 ---
 
-## What's New in Version 13
-
-### Major Enhancements
-
-1. **Multiple observations per plant per day** - Track morning, afternoon, and evening checks separately
-2. **Photo metadata system** - Tag photos as before/after, add captions, link to specific observations
-3. **Detailed action tracking** - Record amounts (cups, oz), products (Captain Jack's), methods (spray, hose)
-4. **Soil moisture descriptions** - "bone dry", "lightly moist", "very dry 1 inch down"
-5. **Temporary location tracking** - When plants go indoors, get covered, or move temporarily
-6. **Position in shared containers** - "left section", "edges", "center" for multi-plant containers
-7. **Upcoming actions** - Plan future tasks with target dates
-8. **Product/brand tracking** - Know exactly what you used
-9. **Container naming** - Group plants by container name (Pepper Box, Garlic Box, etc.)
-10. **Stake support** - Full support for staked containers (Pepper Box with 3 stakes, Raised Bed with 4)
-
----
 
 ## Metadata
 
@@ -71,7 +51,7 @@ Basic information about your garden.
     "garden_name": "Jodi's Garden Journal",
     "start_date": "20251008",
     "location": "Miami, Florida",
-    "garden_type": "Container/Fence Panel Garden"
+    "garden_type": "Campsite Fenced Front Yard Garden"
   }
 }
 ```
@@ -85,764 +65,223 @@ Basic information about your garden.
 
 ---
 
-## Plants Array
+## Products Array
 
-Each plant in your garden with complete history.
-
-### Plant Object Structure
+Each product in your garden with common_name to use in your journal.
 
 ```json
 {
-  "plant_id": "basil_001",
-  "common_name": "Basil - Left",
-  "variety": "Sweet Basil",
-  "purchase_date": "20251008",
-  "source": "Lowe's",
-  "status": "active",
-  "summary": "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F.",
-
-  "location_history": [ ],
-  "current_location": { },
-  "temporary_locations": [ ],
-  "care_history": [ ],
-  "growth_stages": [ ]
+  "product_name": "Miracle-Gro Organic Mulch",
+  "common_name": "Miracle-Gro Mulch"
 }
 ```
 
 ### Required Fields
 
-- `plant_id` (string) - Unique identifier: `{planttype}_{###}` (e.g., "basil_001")
-- `common_name` (string) - Display name (e.g., "Basil - Left")
-- `purchase_date` (string) - Date acquired (YYYYMMDD)
-- `status` (string) - "active", "removed", "died", "harvested"
-- `location_history` (array) - Complete movement history
-- `current_location` (object) - Current state
+- `product_name` (string) - Unique identifier
+- `common_name` (string) - Display name
 
-### Optional Fields
 
-- `variety` (string) - Plant variety (e.g., "Sweet Basil", "Husky Cherry Red")
-- `source` (string) - Where acquired (e.g., "Lowe's", "Garden Center")
-- `summary` (string) - **NEW IN 13.1** - Your evolving assessment of the plant's status, health, and care needs (appears in Section 2 as "Notes")
-- `temporary_locations` (array) - Temporary moves (indoors, covered, etc.)
-- `care_history` (array) - All care actions
-- `growth_stages` (array) - Growth milestones
+## Containers Array
 
----
-
-## Summary Field (NEW IN 13.1)
-
-The `summary` field contains your high-level, evolving assessment of each plant.
-
-### Purpose
-
-- Displays in Section 2 (Plant-by-Plant Summary) as the "Notes" field
-- Contains your current overall understanding of the plant
-- Updated manually when the plant's status changes significantly
-- Separate from daily observations (which are timestamped snapshots)
-
-### What to Include
-
-- Overall health status
-- Recent significant changes or milestones
-- Ongoing care patterns or harvest cycles
-- Temperature/environmental thresholds
-- Expected next phase
-- Any concerns or issues to monitor
-
-### Examples
-
-```
-"Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F."
-
-"Flowering strongly; weaker blooms trimmed Nov 2. Expect runners late Nov–Dec; prep extra pots for rooting."
-
-"First fruits forming! Pruned lower diseased branches Nov 11. Staked Oct 29; protect at ≤49°F with frost cloth."
-
-"Recovering from transplant; new center growth emerging. Pale leaf color shows still re-establishing roots."
-```
-
-### Updating the Summary
-
-When adding daily observations using `scripts/add_entry.py`, you'll see the current summary and can choose to:
-1. Keep the current summary unchanged
-2. Replace the summary with new text
-3. Append additional information to the existing summary
-
----
-
-## Location History
-
-**NEW IN V13:** Added `container_name`, `stake`, and `position` fields
-
-Tracks every location change for a plant, including moves between:
-- Physical locations (Picnic Table → Panel 14 → Panel 1)
-- Containers (transplanting to larger pots)
-- Stakes (moving within raised bed)
+Each container in your garden with common_name to use in your journal.
 
 ```json
 {
-  "location_history": [
+  "container_name": "Raised bed 2' × 6' × 10\", brown, Stake 1",
+  "common_name": "Raised Bed (Stake 1)"
+}
+```
+
+### Required Fields
+
+- `container_name` (string) - Unique identifier
+- `common_name` (string) - Display name
+
+
+## Plants Array
+
+Each plant in your garden with complete history.
+
+```json
+{
+  "_schema_version": "14",
+  "_last_updated": "2025-11-20",
+  "metadata": {
+    "garden_name": "Jodi's Garden Journal",
+    "start_date": "20251008",
+    "location": "Miami, Florida",
+    "garden_type": "Campsite Fenced Front Yard Garden"
+  },
+  "products": [
     {
-      "date": "20251008",
-      "location": "Picnic Table",
-      "container_name": "Basil Pot - Left",
-      "container_type": "8\" white round pot, 0.94 gal",
-      "stake": null,
-      "position": null,
-      "soil_mix": "Original nursery potting mix",
-      "reason": "Initial purchase"
+      "product_name": "Miracle-Gro Organic Mulch",
+      "common_name": "Miracle-Gro Mulch"
     },
     {
-      "date": "20251020",
-      "location": "Panel 1",
-      "container_name": "Basil Pot - Left",
-      "container_type": "8\" white round pot, 0.94 gal",
-      "stake": null,
-      "position": null,
-      "soil_mix": "Original nursery potting mix",
-      "reason": "Moved to first morning sun position"
-    }
-  ]
-}
-```
-
-### Fields
-
-- `date` (string) - Date of move (YYYYMMDD)
-- `location` (string) - Physical location (Picnic Table, Panel 1, Indoors, etc.)
-- `container_name` (string) - **NEW** Friendly container name for grouping
-- `container_type` (string) - Technical description with dimensions
-- `stake` (integer or null) - **NEW** Stake number if applicable (1, 2, 3, 4)
-- `position` (string or null) - **NEW** Position in shared container ("left section", "edges", "center")
-- `soil_mix` (string) - Soil composition
-- `reason` (string) - Why moved
-- `transplant_method` (string, optional) - Special notes (e.g., "Sideways planting")
-
----
-
-## Temporary Locations
-
-**NEW IN V13**
-
-Track when plants are temporarily moved for protection, then returned.
-
-```json
-{
-  "temporary_locations": [
-    {
-      "date": "20251110",
-      "time": "1800",
-      "temp_location": "Indoors",
-      "reason": "Cold protection - temps below 40°F",
-      "returned_date": "20251111",
-      "returned_time": "0900"
+      "product_name": "Miracle-Gro Moisture Control Potting Mix",
+      "common_name": "Miracle-Gro Potting Mix"
     },
     {
-      "date": "20251110",
-      "time": "1800",
-      "temp_location": "Covered with plastic tablecloth",
-      "reason": "Cold protection overnight",
-      "returned_date": "20251111",
-      "returned_time": "0800"
-    }
-  ]
-}
-```
-
-### Fields
-
-- `date` (string) - Date moved temporarily (YYYYMMDD)
-- `time` (string) - Time moved (HHMM)
-- `temp_location` (string) - Where it went ("Indoors", "Covered with blanket", "Garage")
-- `reason` (string) - Why moved
-- `returned_date` (string, optional) - When returned to normal location
-- `returned_time` (string, optional) - Time returned
-
----
-
-## Care History
-
-**ENHANCED IN V13**
-
-Detailed tracking of every action taken on a plant.
-
-```json
-{
-  "care_history": [
-    {
-      "date": "20251111",
-      "time": "1400",
-      "action_type": "watering",
-      "details": "Watered after being brought back outside from cold night",
-      "amount": "1½ cups",
-      "product": null,
-      "method": "Slowly and evenly over soil surface",
-      "notes": "Soil was very dry, plant was indoors overnight"
+      "product_name": "Miracle-Gro Organic Potting Mix",
+      "common_name": "Miracle-Gro Organic Potting Mix"
     },
     {
-      "date": "20251111",
-      "time": "1500",
-      "action_type": "pruning",
-      "details": "Removed all lower speckled branches",
-      "amount": "Multiple branches",
-      "product": null,
-      "method": "Clean scissors, cut at main stem",
-      "notes": "Early blight on lower leaves, no fruit on removed branches"
+      "product_name": "Bonide Captain Jack's Neem Oil",
+      "common_name": "Neem Oil"
     },
     {
-      "date": "20251111",
-      "time": "1520",
-      "action_type": "mulching",
-      "details": "Added organic mulch layer",
-      "amount": "1-1.5 inch layer",
-      "product": "Miracle-Gro Organic Choice",
-      "method": "Around base, not touching stem",
-      "notes": "To retain moisture and prevent soil splash"
+      "product_name": "BioAdvanced Insect Killer For Soil & Turf",
+      "common_name": "Grub & Insect Killer"
     },
     {
-      "date": "20251111",
-      "time": "1445",
-      "action_type": "treatment",
-      "details": "Applied neem oil spray",
-      "amount": "Light mist",
-      "product": "Captain Jack's Neem Oil",
-      "method": "Spray on tops and undersides of leaves",
-      "notes": "First neem treatment for this plant"
-    }
-  ]
-}
-```
-
-### Fields
-
-- `date` (string) - YYYYMMDD
-- `time` (string) - **NEW** HHMM - exact time action was taken
-- `action_type` (string) - Type of action (see valid types below)
-- `details` (string) - Description of what was done
-- `amount` (string, optional) - **NEW** Quantity ("1½ cups", "16 oz", "½ cup")
-- `product` (string, optional) - **NEW** Brand/product name
-- `method` (string, optional) - **NEW** How it was done
-- `notes` (string, optional) - Additional context
-
-### Valid Action Types
-
-- `watering` - Any watering activity
-- `pruning` - Removing leaves, branches, flowers
-- `treatment` - Neem oil, fungicides, pest control
-- `feeding` - Fertilizer application
-- `mulching` - Adding mulch
-- `transplanting` - Moving to new container
-- `seeding` - Planting seeds
-- `thinning` - Removing excess seedlings
-- `staking` - Adding stakes or support
-- `covering` - Adding frost protection
-- `observation` - Just observing, no action
-- `moving` - Changing location
-- `soil_amendment` - Adding soil, compost, etc.
-- `pest_control` - Hand-picking pests, barriers
-
----
-
-## Daily Entries
-
-**SIGNIFICANTLY ENHANCED IN V13**
-
-### Daily Entry Structure
-
-```json
-{
-  "date": "20251111",
-  "time_of_entry": "1400",
-
-  "weather": { },
-  "activities": [ ],
-  "observations": [ ],
-  "questions_and_answers": [ ],
-  "upcoming_actions": [ ],
-  "plant_observations": [ ]
-}
-```
-
----
-
-### Weather
-
-Same as before, tracks conditions for the day.
-
-```json
-{
-  "weather": {
-    "temp_high": 68,
-    "temp_low": 40,
-    "conditions": "Sunny and clear",
-    "sunrise": "0653",
-    "sunset": "1745",
-    "humidity": null,
-    "wind": "Light breeze",
-    "notes": "Cold night, brought several plants indoors"
-  }
-}
-```
-
----
-
-### Activities (Garden-Wide)
-
-Simple array of strings describing what you did that day.
-
-```json
-{
-  "activities": [
-    "Brought basil and strawberry plants back outside after cold night indoors",
-    "Watered multiple plants that were dry from overnight",
-    "Pruned tomato plant - removed diseased lower branches",
-    "Added mulch to tomato plant",
-    "Applied neem oil to several plants"
-  ]
-}
-```
-
----
-
-### Observations (Garden-Wide)
-
-General notes not specific to one plant.
-
-```json
-{
-  "observations": [
-    "All plants survived the cold night well",
-    "Tomato plant has first fruits forming!",
-    "Some fungal leaf spot issues on strawberry and tomato",
-    "Arugula showing excellent recovery after reseeding"
-  ]
-}
-```
-
----
-
-### Upcoming Actions
-
-**NEW IN V13**
-
-Plan future tasks with optional target dates.
-
-```json
-{
-  "upcoming_actions": [
-    {
-      "description": "Apply Captain Jack's neem oil to Strawberry - Right",
-      "target_date": "20251112",
-      "target_timeframe": "tomorrow morning",
-      "plants_affected": ["strawberry_002"]
+      "product_name": "JQ001 3-in-1 Soil Test Kit",
+      "common_name": "JQ001"
     },
     {
-      "description": "Add potting mix layer and reseed chives",
-      "target_date": null,
-      "target_timeframe": "in a few days",
-      "plants_affected": ["broccoli_001", "chives_001"]
-    }
-  ]
-}
-```
-
-### Fields
-
-- `description` (string) - What needs to be done
-- `target_date` (string or null) - Specific date if known (YYYYMMDD)
-- `target_timeframe` (string or null) - Relative timeframe ("tomorrow", "in a few days")
-- `plants_affected` (array) - List of plant_ids this affects
-
----
-
-### Plant Observations
-
-**SIGNIFICANTLY ENHANCED IN V13**
-
-Each observation now includes:
-- Exact timestamp
-- Soil moisture description
-- Detailed actions with amounts/products
-- Photo metadata with tags
-
-```json
-{
-  "plant_observations": [
-    {
-      "plant_id": "tomato_001",
-      "time": "1500",
-      "location": "Raised Bed - Panels 16-18",
-      "container_name": "Raised Bed",
-      "container_type": "2' x 6' x 10\" raised bed",
-      "stake": 1,
-      "position": null,
-      "soil_mix": "Topsoil/Sand mix",
-      "soil_moisture": "dry 1 inch down before watering",
-      "current_stage": "Fruiting",
-      "next_stage": "Fruit development",
-      "observations": "Plant vigorous with first fruits forming! Speckled lower leaves show early blight.",
-      "actions_taken": [
-        "Pruned all lower speckled branches",
-        "Deep watered at base",
-        "Added 1-1.5\" Miracle-Gro Organic Choice mulch",
-        "Watered mulch to settle"
-      ],
-      "notes": "Plant will fill out again in 1-2 weeks with new side shoots.",
-      "plant_qa": {
-        "question": "Will it fill out again after I chopped so much off?",
-        "answer": "Yes! New side shoots emerge in 5-7 days. Pruning strengthens the main stem."
-      },
-      "photos": [
-        {
-          "filename": "tomato_001_20251111_1445_1.jpg",
-          "timestamp": "1445",
-          "tags": ["before_pruning", "diseased_leaves"],
-          "caption": "Before pruning - showing speckled lower leaves"
-        },
-        {
-          "filename": "tomato_001_20251111_1530_1.jpg",
-          "timestamp": "1530",
-          "tags": ["after_pruning", "after_mulching"],
-          "caption": "After pruning and mulching - clean lower stem"
-        }
-      ]
-    }
-  ]
-}
-```
-
-### Plant Observation Fields
-
-#### Required Fields
-- `plant_id` (string) - References plant from plants array
-- `time` (string) - **NEW** When this observation was made (HHMM)
-- `location` (string) - Current location
-- `container_name` (string) - **NEW** Container friendly name
-- `container_type` (string) - Container description
-- `soil_mix` (string) - Soil composition
-- `current_stage` (string) - Current growth stage
-- `next_stage` (string) - Expected next stage
-- `observations` (string) - What you observed
-
-#### Optional Fields
-- `stake` (integer or null) - **NEW** Stake number (1, 2, 3, 4)
-- `position` (string or null) - **NEW** Position in shared container
-- `soil_moisture` (string or null) - **NEW** Moisture description
-- `actions_taken` (array) - **NEW** List of actions during this observation
-- `notes` (string) - Additional notes
-- `plant_qa` (object or null) - Plant-specific Q&A
-- `photos` (array) - **NEW** Photo metadata objects
-
----
-
-## Photo Metadata
-
-**NEW IN V13**
-
-Each photo now has rich metadata for better organization and display.
-
-```json
-{
-  "filename": "tomato_001_20251111_1445_1.jpg",
-  "timestamp": "1445",
-  "tags": ["before_pruning", "diseased_leaves"],
-  "caption": "Before pruning - showing speckled lower leaves"
-}
-```
-
-### Fields
-
-- `filename` (string) - Photo filename (follows naming convention)
-- `timestamp` (string) - When photo was taken (HHMM)
-- `tags` (array) - Descriptive tags for filtering/organizing
-- `caption` (string, optional) - Human-readable description
-
-### Common Photo Tags
-
-**Timing:**
-- `before_pruning`, `after_pruning`
-- `before_watering`, `after_watering`
-- `before_treatment`, `after_treatment`
-- `morning`, `afternoon`, `evening`
-
-**Content:**
-- `full_plant` - Whole plant visible
-- `closeup` - Close-up of specific feature
-- `soil_condition` - Showing soil state
-- `diseased_leaves` - Problem areas
-- `healthy_growth` - Good progress
-- `fruit_forming` - Fruits/flowers visible
-- `chew_marks` - Pest damage
-- `new_growth` - Fresh leaves/shoots
-
----
-
-## Soil Moisture Descriptions
-
-**NEW IN V13**
-
-Standard descriptions for soil moisture levels:
-
-- `"bone dry"` - Completely dry, powdery
-- `"very dry"` - Dry throughout
-- `"dry 1 inch down"` - Surface dry, moist below
-- `"lightly moist"` - Slightly damp
-- `"moist"` - Good moisture level
-- `"very moist"` - Quite wet but not soggy
-- `"soggy"` - Too much water
-- `"dry through and through"` - Dry at all levels
-
----
-
-## Container Names and Grouping
-
-**NEW IN V13**
-
-Container names help group plants that share containers.
-
-### Examples
-
-**Individual Containers:**
-- `"Basil Pot - Left"`
-- `"Basil Pot - Right"`
-- `"Strawberry Pot - Right"`
-
-**Shared Containers with Stakes:**
-- `"Pepper Box"` - 3 peppers at stakes 1, 2, 3
-- `"Raised Bed"` - Multiple veggies at stakes 1, 2, 3, 4
-
-**Shared Containers with Positions:**
-- `"Garlic & Scallion Box"` - Garlic in sections, scallions at edges
-- `"Arugula & Cilantro Box"` - Arugula left side, cilantro right side
-- `"5-Herb Box"` - 5 herbs in different sections
-- `"Broccoli & Chives Box"` - Broccoli center, chives edges
-
-### Display Logic
-
-When generating HTML:
-
-1. **Group by location + container_name**
-2. **If multiple plants have same container_name AND stakes:**
-   - Display container header once
-   - List plants by stake number (like Raised Bed)
-3. **If multiple plants have same container_name but NO stakes:**
-   - Display container header once
-   - List plants with their positions
-
----
-
-## Complete Examples
-
-### Example 1: Plant with Location History
-
-A basil plant that moved multiple times:
-
-```json
-{
-  "plant_id": "basil_001",
-  "common_name": "Basil - Left",
-  "variety": "Sweet Basil",
-  "purchase_date": "20251008",
-  "source": "Lowe's",
-  "status": "active",
-  "summary": "Healthy, compact growth; recovered after pruning; ongoing harvest cycle. Cover or bring indoors ≤49°F.",
-
-  "location_history": [
-    {
-      "date": "20251008",
-      "location": "Picnic Table",
-      "container_name": "Basil Pot - Left",
-      "container_type": "8\" white round pot, 0.94 gal",
-      "stake": null,
-      "position": null,
-      "soil_mix": "Original nursery potting mix",
-      "reason": "Initial purchase"
-    },
-    {
-      "date": "20251015",
-      "location": "Panel 14",
-      "container_name": "Basil Pot - Left",
-      "container_type": "8\" white round pot, 0.94 gal",
-      "stake": null,
-      "position": null,
-      "soil_mix": "Original nursery potting mix",
-      "reason": "Testing sun exposure"
-    },
-    {
-      "date": "20251020",
-      "location": "Panel 1",
-      "container_name": "Basil Pot - Left",
-      "container_type": "8\" white round pot, 0.94 gal",
-      "stake": null,
-      "position": null,
-      "soil_mix": "Original nursery potting mix",
-      "reason": "Moved to first morning sun position"
+      "product_name": "8 in 1 pH Moisture Meter Smart Soil Test Kit",
+      "common_name": "YINMIK"
     }
   ],
-
-  "temporary_locations": [
+  "containers": [
     {
-      "date": "20251110",
-      "time": "1800",
-      "temp_location": "Indoors",
-      "reason": "Cold protection - temps below 40°F",
-      "returned_date": "20251111",
-      "returned_time": "0900"
-    }
-  ]
-}
-```
-
-### Example 2: Staked Container (Peppers)
-
-Three peppers sharing a window planter with stakes:
-
-```json
-{
-  "plant_id": "pepper_001",
-  "common_name": "Scotch Bonnet",
-  "variety": "Scotch Bonnet",
-  "summary": "Vertical stake support added Nov 10; unplanted as of Nov 10.",
-  "current_location": {
-    "location": "Panel 7",
-    "container_name": "Pepper Box",
-    "container_type": "Window planter 23.5\" × 6\" (shared, 3 stakes)",
-    "stake": 1,
-    "position": null,
-    "soil_mix": "Potting mix"
-  }
-},
-{
-  "plant_id": "pepper_002",
-  "common_name": "Orange Cali Wonder",
-  "variety": "California Wonder",
-  "summary": "Same setup as Stake 1; unplanted as of Nov 10.",
-  "current_location": {
-    "location": "Panel 7",
-    "container_name": "Pepper Box",
-    "container_type": "Window planter 23.5\" × 6\" (shared, 3 stakes)",
-    "stake": 2,
-    "position": null,
-    "soil_mix": "Potting mix"
-  }
-},
-{
-  "plant_id": "pepper_003",
-  "common_name": "Jalapeño",
-  "variety": "Jalapeño",
-  "summary": "Staked for vertical training; unplanted as of Nov 10.",
-  "current_location": {
-    "location": "Panel 7",
-    "container_name": "Pepper Box",
-    "container_type": "Window planter 23.5\" × 6\" (shared, 3 stakes)",
-    "stake": 3,
-    "position": null,
-    "soil_mix": "Potting mix"
-  }
-}
-```
-
-**Display in HTML:**
-```
-Panel 7 — Pepper Box
-  Stake 1 — Scotch Bonnet
-  Stake 2 — Orange Cali Wonder
-  Stake 3 — Jalapeño
-```
-
-### Example 3: Shared Container with Positions (Garlic)
-
-Multiple plants sharing container, no stakes, using positions:
-
-```json
-{
-  "plant_id": "garlic_001",
-  "common_name": "Siberian Hardneck Garlic",
-  "summary": "Bulbs/clusters to be set pointy-side up, ~2\" deep; mulch lightly once shoots emerge.",
-  "current_location": {
-    "location": "Panel 8",
-    "container_name": "Garlic & Scallion Box",
-    "container_type": "Window planter 23.5\" × 6\" (shared)",
-    "stake": null,
-    "position": "left section",
-    "soil_mix": "Miracle-Gro Moisture Control"
-  }
-},
-{
-  "plant_id": "garlic_002",
-  "common_name": "Music Hardneck Garlic",
-  "current_location": {
-    "location": "Panel 8",
-    "container_name": "Garlic & Scallion Box",
-    "stake": null,
-    "position": "center section"
-  }
-},
-{
-  "plant_id": "scallions_001",
-  "common_name": "Scallions",
-  "current_location": {
-    "location": "Panel 8",
-    "container_name": "Garlic & Scallion Box",
-    "stake": null,
-    "position": "edges"
-  }
-}
-```
-
-**Display in HTML:**
-```
-Panel 8 — Garlic & Scallion Box
-
-Siberian Hardneck Garlic
-  • Position: Left section
-  • Container: Window planter 23.5" × 6" (shared)
-
-Music Hardneck Garlic
-  • Position: Center section
-
-Scallions
-  • Position: Edges
-```
-
-### Example 4: Multiple Observations Same Day
-
-Tomato observed multiple times on 11/11:
-
-```json
-{
-  "date": "20251111",
-  "plant_observations": [
-    {
-      "plant_id": "tomato_001",
-      "time": "0900",
-      "observations": "Morning check - plant still covered from overnight",
-      "actions_taken": ["Removed cover"],
-      "photos": []
+      "container_name": "Window planter 23.5\" × 6\", black (Stake 1)",
+      "common_name": "Pepper Window Box (Stake 1)"
     },
     {
-      "plant_id": "tomato_001",
-      "time": "1500",
-      "soil_moisture": "dry 1 inch down",
-      "observations": "Afternoon - noticed speckled leaves and first fruits!",
-      "actions_taken": [
-        "Pruned diseased branches",
-        "Watered deeply",
-        "Added mulch",
-        "Watered mulch"
+      "container_name": "Window planter 23.5\" × 6\", black (Stake 2)",
+      "common_name": "Pepper Window Box (Stake 2)"
+    },
+    {
+      "container_name": "Window planter 23.5\" × 6\", black (Stake 3)",
+      "common_name": "Pepper Window Box (Stake 3)"
+    },
+    {
+      "container_name": "Window planter 23.5\" × 6\", black (Garlic Box)",
+      "common_name": "Garlic Window Box"
+    },
+    {
+      "container_name": "Window planter 23.5\" × 6\", black (5 Herb Box)",
+      "common_name": "5 Herb Window Box"
+    },
+    {
+      "container_name": "Window planter 23.5\" × 6\", black",
+      "common_name": "Window Box"
+    },
+    {
+      "container_name": "Raised bed 2' × 6' × 10\", brown (Stake 1)",
+      "common_name": "Raised Bed (Stake 1)"
+    },
+    {
+      "container_name": "Raised bed 2' × 6' × 10\", brown (Stake 2)",
+      "common_name": "Raised Bed (Stake 2)"
+    },
+    {
+      "container_name": "Raised bed 2' × 6' × 10\", brown (Stake 3)",
+      "common_name": "Raised Bed (Stake 3)"
+    },
+    {
+      "container_name": "Raised bed 2' × 6' × 10\", brown (Stake 4)",
+      "common_name": "Raised Bed (Stake 4)"
+    },
+    {
+      "container_name": "Bonnie Plants Foodie Fresh Pot, 0.94 gal, white",
+      "common_name": "Round pot, 0.94 gal, white"
+    },
+    {
+      "container_name": "Bonnie Plants, 2.32 qt pot, black",
+      "common_name": "Round pot, 2.32 qt, black"
+    },
+    {
+      "container_name": "Bonnie Plants Foodie Fresh Pot, 25 oz pot, white",
+      "common_name": "Round pot, 25 oz, white"
+    },
+    {
+      "container_name": "Style Selections Round 6.0-in W x 6.0-in L Black Plastic Indoor/Outdoor Planter",
+      "common_name": "Round pot, 6\" 5 qt, black"
+    },
+    {
+      "container_name": "Style Selections Round 8.0-in W x 8.0-in L Black Plastic Indoor/Outdoor Planter",
+      "common_name": "Round pot, 8\" 1.5 gal, black"
+    }
+  ],
+  "plants": []
+}
+```
+
+
+====== SECTION ======
+# 🌿 Plant Data Schema
+
+The **Plant Data** includes:
+
+- The identity, origin, and status of the plant
+- A snapshot of the current development stage and state of the plant
+- A timeline of what the user can expect to see about the plant at various intervals
+- A journal of Daily Journal Entries which include:
+   - Time-stamped records of each observation session with environmental conditions
+   - Digital and analog probe measurements capturing soil health metrics
+   - Detailed observations of plant appearance, growth patterns, and any issues
+   - Actions taken and recommendations for future care
+   - Documentation of questions, answers, follow-up notes, and tagged photos
+
+
+Each **Plant Data** profile must follow this structure:
+
+```json
+{
+  "id": "plantname_001",
+  "status": "Active",
+  "plant": "Plant Name (Variety)",
+  "physical_location": "City, ST",
+  "garden_location": "Location Description",
+  "container": "Container Type",
+  "soil_mix": "Soil Product Name",
+  "origin_history": [
+    "Event on Date",
+    "Event on Date"
+  ],
+  "whats_been_logged": "Narrative summary paragraph",
+  "current_stage": "Growth Stage",
+  "current_state": "Visual description paragraph",
+  "timeline": [
+    {
+      "stage": "Observable milestone",
+      "date_range": "Mmm DD - Mmm DD, YYYY"
+    }
+  ],
+  "journal": [
+    {
+      "date": "M/D/YYYY",
+      "time": "H:MM AM/PM",
+      "conditions": "Weather narrative (High/Low/Condition)",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "139",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "85.5"
+      },
+      "analog_probe": {
+        "fertility": "Text description or empty",
+        "moisture": "Text description or empty",
+        "ph": "Text description or empty"
+      },
+      "observations": "What the plant looks like RIGHT NOW",
+      "actions": "What to do RIGHT NOW (present tense)",
+      "next_steps": "Monitoring and future care",
+      "q_and_a_summary": "Questions asked and answers given",
+      "follow_up": [
+        "[H:MM AM/PM] Narrative summary of action/observation"
       ],
       "photos": [
         {
-          "filename": "tomato_001_20251111_1445_1.jpg",
-          "timestamp": "1445",
-          "tags": ["before_pruning"],
-          "caption": "Before pruning"
-        },
-        {
-          "filename": "tomato_001_20251111_1530_1.jpg",
-          "timestamp": "1530",
-          "tags": ["after_pruning", "after_mulching"],
-          "caption": "After all work completed"
+          "file_name": "<<put filename here>>",
+          "caption": "Complete sentence description",
+          "tags": "comma, separated, keywords"
         }
       ]
     }
@@ -850,91 +289,366 @@ Tomato observed multiple times on 11/11:
 }
 ```
 
----
+___
 
-## Conventions
+## Plant Main Data Field Definitions
 
-### Dates
-Always use `YYYYMMDD` format (e.g., "20251111")
+Below are the field definitions for the **Plant Main Data**:
 
-### Times
-Always use 24-hour military time `HHMM` (e.g., "1400" for 2:00 PM)
+- `id` (string, required): Unique identifier for the plant entry. Must follow the pattern `plantname_###` (See "ID Rules" below)
+- `status`(string, required): "Active" or "Inactive" only
+- `plant` (string, required): Common name of the plant
+- `physical_location` (string, required): Geographic location where the plant is grown
+- `garden_location` (string, required): Specific location within the garden (e.g., "Fence Panel 11")
+- `container` (string, required): Type of container used for the plant
+- `soil_mix` (string, required): Description of the soil mixture composition
+- `origin_history` (array of strings, required): Chronological list of significant events in the plant's history (See "Origin History Rules" below)
+- `whats_been_logged` (string, required): Summary of what has been tracked and recorded
+- `current_stage` (string, required): Current growth stage of the plant
+- `current_state` (string, required): Detailed description of the plant's current condition
+- `timeline` (array of objects, required): Expected growth stages with projected date ranges (See "Timeline Rules" below)
+- `journal` (array of objects, required): Daily log entries following the structure in Section 5.1
 
-### Plant IDs
-Format: `{planttype}_{###}` with 3-digit numbers (e.g., "basil_001")
+___
 
-### Container Names
-Use friendly, descriptive names:
-- Individual: "Basil Pot - Left", "Tomato Pot"
-- Shared: "Pepper Box", "Garlic & Scallion Box", "5-Herb Box"
-- Large: "Raised Bed"
+## Plant Main Data Field Formatting
 
-### Stakes
-Number from 1 upward, restart at 1 for each container
+It is important to note that the field formatting is only for the aesthetics of how the field should be formatted. All rules related to the fields will be found in the **Plant Main Data Update Rules** _(ref 6.8)_ section.
 
-### Positions
-Use descriptive text:
-- "left section", "right section", "center section"
-- "edges", "corners"
-- "left side", "right side"
+The **Plant Main Data Field Formatting** section includes:
 
-### Temperatures
-Always use Fahrenheit (°F)
+- A. **ID** Field Formatting
+- B. **Status** Field Formatting
+- C. **Plant** Field Formatting
+- D. **Physical Location** Field Formatting
+- E. **Garden Location** Field Formatting
+- F. **Container** Field Formatting
+- G. **Soil Mix** Field Formatting
+- H. **Origin History** Formatting
+- I. **What's Been Logged** Formatting
+- J. **Current Stage** Formatting
+- K. **Timeline** Formatting
+- L. **String Field** Formatting
 
-### Amounts
-Use common measurements:
-- Cups: "½ cup", "1½ cups", "2 cups"
-- Ounces: "8 oz", "16 oz"
-- Tablespoons: "2 tbsp", "3 tbsp"
-- Layers: "1 inch layer", "thin layer"
+___
 
----
+### A. **ID** Field Formatting
 
-## Tips
+The Assistant must follow the formatting instructions below for the **ID** field:
 
-### Recording Multiple Observations
+- Format: `{plant_name}_{number}`
+- Plant name portion must be lowercase letters or underscores only
+- Number portion must be exactly 3 digits
+- Examples: "arugula_001", "cherry_tomato_042"
+- Each **ID** must be unique across all plant entries
 
-If you check a plant multiple times in one day:
-- Create separate observation entries with different times
-- Link photos to the correct time observation
-- Track actions separately for each check
+___
 
-### Photo Organization
+### B. **Status** Field Formatting
 
-- Use tags to categorize photos
-- Add captions for context
-- Link before/after photos with consistent tags
-- Maximum 4 photos displayed per observation in HTML
+The Assistant must follow the formatting instructions below for the **Status** field:
 
-### Shared Containers
+- Format: "Active" or "Inactive"
+- Only one of these two formats
 
-**With Stakes:**
-- Use stake numbers (1, 2, 3, 4)
-- Pepper Box, Raised Bed
+___
 
-**Without Stakes:**
-- Use position descriptions
-- Garlic Box, Herb Box, Arugula/Cilantro Box
+### C. **Plant** Field Formatting
 
-### Tracking Temporary Moves
+The Assistant must follow the formatting instructions below for the **Plant** field:
 
-Always record:
-- When it moved temporarily
-- Why (cold protection, pest treatment, etc.)
-- When it returned (if it did)
+- Format: `plant`
+- 2-3 words
+- No periods
+- Title Case
+- Descriptions should be in Parenthesis (ex: "Tomato (Husky Cherry Red)", "Zucchini (Center)")
+- Each `plant` value must be unique across all plant entries
 
-### Updating Plant Summaries
+___
 
-- Update the summary when significant changes occur
-- Keep summaries concise but informative
-- Include temperature thresholds and care reminders
-- Mention expected next phases or upcoming needs
+### D. **Physical Location** Field Formatting
 
----
+The Assistant must follow the formatting instructions below for the **physical_location** field:
 
-## See Also
+- Format: `{city}, {state}`
+- `{city}` should not be abbreviated
+- `{state}` should be the US two-letter state abbreviation
 
-- [Photo Naming Convention](photo-naming.md)
-- [Daily Workflow](workflow.md)
-- [Setup Instructions](setup.md)
-- `src/schema.py` - Python validation and data classes
+___
+
+### E. **Garden Location** Field Formatting
+
+The Assistant must follow the formatting instructions below for the **garden_location** field:
+
+- Format: `{Description of location in the garden}`
+- Clarifying descriptions should be in Parenthesis
+- Examples: "Picnic Table", "Fence Panel 3", "Fence Panels 16-18", "Raised Bed (Stake 1)", "Fence Panel 3 (Stake 3)"
+
+___
+
+### F. **Container** Field Formatting
+
+The Assistant must follow the formatting instructions below for the **container** field:
+
+- Format: `{Common Name of the Container}`
+- Clarifying descriptions should be in Parenthesis
+- Examples: "Window Planter", "Raised Bed (Stake 2)", "Round pot, 0.94 gal, white", "Herb Box (Front Left)"
+
+___
+
+### G. **Soil Mix** Field Formatting
+
+The Assistant must follow the formatting instructions below for the **soil_mix** field:
+
+- Format: `{Common Name of the Product}`
+- Examples: "Miracle-Gro Potting Mix", "Top Soil/Sand"
+
+___
+
+### H. **Origin History** Formatting
+
+The Assistant must follow the formatting instructions below for the **origin_history** array:
+
+- Array of string elements
+- Minimum 3 elements required
+- Example:
+
+```
+"origin_history": [
+  "Bought on Oct 8, 2025 (2.32 qt container)",
+  "Transplanted into raised bed and staked.",
+  "Positioned to receive ~6 hours of full sun daily."
+],
+```
+
+___
+
+### I. **What's Been Logged** Formatting
+
+The Assistant must follow the formatting instructions below for the **whats_been_logged** field:
+
+- Format: `{Paragraph describing what's been logged}`
+- Single Paragraph
+- 1-4 Sentences
+
+___
+
+### J. **Current Stage** Formatting
+
+The Assistant must follow the formatting instructions below for the **current_stage** field:
+
+- Format: `{Current Plant Stage for this Plant}`
+
+___
+
+### K. **Timeline** Formatting
+
+The Assistant must follow the formatting instructions below for the **timeline** array:
+
+- Array of object elements
+- Each timeline element must contain:
+
+   - `stage` (string, required): Description of Visual Stage
+   - `date_range` (string, required): Expected timeframe
+
+- The `date_range` can be formatted in one of two ways:
+
+   - `{Mmm} {DD}, {YYYY}` _This is for a single date_
+   - `{Mmm} {DD} - {Mmm} {DD}, {YYYY}` _This is for a range of dates_
+
+- No periods after the `{Mmm}`
+- Use natural language format (e.g., "Nov 20 - Nov 27, 2025" or "Dec 20, 2025")
+
+___
+
+### L. **String Field** Formatting
+
+The Assistant must follow the general formatting instructions below for all string fields:
+
+- All text fields should use complete sentences where appropriate
+- Empty strings `""` are acceptable for optional content but all required fields must have values
+- Use proper capitalization and punctuation
+
+___
+
+## Plant Journal Data Field Definitions
+
+Below are the field definitions for the **Plant Journal Data**:
+
+- `date` (string, required): Date of entry in `M/D/YYYY` format
+- `time` (string, required): Time of entry in `H:MM AM/PM` format
+- `conditions` (string, required): Weather and environmental conditions
+- `digital_probe` (object, required): Digital probe measurements
+
+   - `ph` (string, required): pH level reading
+   - `ec_mScm` (string, required): Electrical conductivity in mS/cm
+   - `salt_mg_L` (string, required): Salt concentration in mg/L
+   - `moisture_mScm` (string, required): Moisture reading in mS/cm
+   - `light` (string, required): Light intensity reading
+   - `rh_percent` (string, required): Relative humidity percentage
+   - `fertility_percent` (string, required): Fertility percentage
+   - `soil_temp_f` (string, required): Soil temperature in Fahrenheit
+
+- `analog_probe` (object, required): Analog probe measurements
+
+   - `fertility` (string, required): Fertility reading or description
+   - `moisture` (string, required): Moisture reading or description
+   - `ph` (string, required): pH reading or description
+
+- `observations` (string, required): Detailed observations about plant appearance, health, and conditions
+- `actions` (string, required): Actions taken during this entry (watering, fertilizing, etc.)
+- `next_steps` (string, required): Planned next steps or monitoring recommendations
+- `q_and_a_summary` (string, required): Summary of any questions asked and answers provided
+- `follow_up` (array of strings, required): Follow-up notes with timestamps
+- `photos` (array of objects, required): Photos taken during this entry
+
+   - `file_name` (string, required): Name of the photo file
+   - `caption` (string, required): Description of what the photo shows
+   - `tags` (string, required): Tags for categorizing the photo (minimum 1 tag)
+
+___
+
+## Plant Journal Data Field Formatting
+
+It is important to note that the field formatting is only for the aesthetics of how the field should be formatted. All rules related to the fields will be found in the **Plant Journal Data Update Rules** _(ref 6.9)_ section.
+
+The **Plant Journal Data Field Formatting** section includes:
+
+- A. **Date and Time** Formatting
+- B. **Conditions** Formatting
+- C. **Digital Probe** Formatting
+- D. **Analog Probe** Formatting
+- E. **Observations** Formatting
+- F. **Actions** Formatting
+- G. **Next Steps** Formatting
+- H. **Q&A Summary** Formatting
+- I. **Follow-up** Formatting
+- J. **Photos** Formatting
+
+___
+
+### A. **Date and Time** Formatting
+
+The Assistant must follow the formatting instructions below for the **date** and **time** fields:
+
+**Date Formatting**
+
+- Use `M/D/YYYY` format (e.g., "11/23/2025")
+- Month and day should be **only** 2 digits
+- Year must be 4 digits
+
+**Time Formatting**
+
+- Use `H:MM AM/PM` format (e.g., "1:49 PM" or "11:05 AM")
+- Hour can be 1 or 2 digits
+- Minutes must be 2 digits
+- Must include AM or PM designation
+
+___
+
+### B. **Conditions** Formatting
+
+The Assistant must follow the formatting instructions below for the **conditions** field:
+
+- Format: `{Paragraph describing conditions}`
+- Single Paragraph
+- 1-4 Sentences
+
+___
+
+### C. **Digital Probe** Formatting
+
+The Assistant must follow the formatting instructions below for the **digital_probe** fields:
+
+**Decimal Precision**
+
+- All readings are stored as strings, even numeric values
+- Use consistent decimal precision:
+
+   - `ph`: 2 decimal places (e.g., "6.50")
+   - `ec_mScm`: 2 decimal places (e.g., "0.02")
+   - `moisture_mScm`: 2 decimal places (e.g., "49.00")
+   - `fertility_percent`: 1 decimal place (e.g., "1.0")
+   - `soil_temp_f`: 1 decimal place (e.g., "85.5")
+
+- Use whole numbers for: `salt_mg_L`, `light`, `rh_percent`
+- Empty strings `""` indicate measurement was not taken
+
+___
+
+### D. **Analog Probe** Formatting
+
+The Assistant must follow the formatting instructions below for the **analog_probe** fields:
+
+- Values can be descriptive text (e.g., "Green (just into range)", "6 (green, ideal)", "6–7 (green, ideal)")
+- Empty strings `""` indicate measurement was not taken
+- Include color indicators and qualitative assessments when available
+
+___
+
+### E. **Observations** Formatting
+
+The Assistant must follow the formatting instructions below for the **observations** field:
+
+- Format: `{Paragraph describing conditions}`
+- Single Paragraph
+- 1-4 Sentences
+
+___
+
+### F. **Actions** Formatting
+
+The Assistant must follow the formatting instructions below for the **actions** field:
+
+- Format: `{Paragraph describing conditions}`
+- Single Paragraph
+- 1-4 Sentences
+
+___
+
+### G. **Next Steps** Formatting
+
+The Assistant must follow the formatting instructions below for the **next_steps** field:
+
+- Format: `{Paragraph describing conditions}`
+- Single Paragraph
+- 1-4 Sentences
+
+___
+
+### H. **Q&A Summary** Formatting
+
+The Assistant must follow the formatting instructions below for the **q_and_a_summary** field:
+
+- Format: `{Paragraph summarizing questions and answers}`
+- Single Paragraph
+- 1-4 Sentences
+- Use empty string `""` if no Q&A occurred
+
+___
+
+### I. **Follow-up** Formatting
+
+The Assistant must follow the formatting instructions below for the **follow_up** array:
+
+- Format: "[`{H:MM AM/PM}`] `{Paragraph summarizing the follow-up}`"
+- Array of string elements
+- Each entry should be a timestamped note in brackets
+- Example: `"[1:54 PM] Gave it a light shower"`
+- List entries in chronological order
+- Use empty array `[]` if no follow-ups
+
+___
+
+### J. **Photos** Formatting
+
+The Assistant must follow the formatting instructions below for the **photos** array:
+
+- Array of object elements
+- Each photo element must contain:
+
+   - `file_name`: "<<put filename here>>"
+   - `caption`: Complete sentence describing what the photo shows
+   - `tags`: String of lowercase, comma-separated, keywords
+
+- Minimum 1 tag required

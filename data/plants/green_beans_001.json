@@ -1,0 +1,919 @@
+{
+  "id": "green_beans_001",
+  "status": "Active",
+  "plant": "Green Beans (Bush Jade)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 16-18",
+  "container": "Raised Bed (Stake 2)",
+  "soil_mix": "Miracle-Gro Potting Mix, Soil/Sand",
+  "origin_history": [
+    "Bought on Oct 8, 2025 (2.32 qt container).",
+    "Transplanted into raised bed and staked.",
+    "Positioned to receive approximately 6 hours of full sun daily.",
+    "Compacted topsoil/sand layer removed on Dec 9, 2025.",
+    "Replaced with Miracle-Gro Potting Mix to improve aeration and root conditions."
+  ],
+  "whats_been_logged": "The plant has been progressing from early flowering into heavy fruit set while repeatedly balancing soil moisture and foliar health. Initial leaf-spot on older foliage was managed with selective pruning, but renewed spotting on mid-canopy leaves led to more extensive sanitation pruning and a temporary thinning of the canopy. Persistent probe and moisture issues traced to a compacted topsoil/sand layer were corrected on Dec 9, 2025 by replacing the upper root zone with potting mix, and current tracking focuses on canopy regrowth, disease recovery, and stable fruit development under improved soil conditions.",
+  "current_stage": "Active Fruit Set",
+  "current_state": "The plant is in active fruit set with multiple well-formed green clusters while recovering from significant foliar spotting and recent sanitation pruning. Lower and mid-canopy leaves with advanced lesions were removed, leaving a temporarily open lower stem and a concentrated upper canopy of healthy foliage and flowers. New growth at the top remains vigorous and well hydrated, and with improved soil aeration and moisture distribution the plant is poised to rebuild a fuller canopy while continuing to size fruit.",
+  "timeline": [
+    {
+      "stage": "Early vegetative growth completed",
+      "date_range": "Oct 15 - Nov 5, 2025"
+    },
+    {
+      "stage": "Canopy expansion completed",
+      "date_range": "Nov 5 - Nov 10, 2025"
+    },
+    {
+      "stage": "Initial flowering completed",
+      "date_range": "Nov 10 - Nov 14, 2025"
+    },
+    {
+      "stage": "Early fruit set (first tomatoes)",
+      "date_range": "Nov 14 - Nov 17, 2025"
+    },
+    {
+      "stage": "Flowering and fruit set building",
+      "date_range": "Nov 19 - Dec 8, 2025"
+    },
+    {
+      "stage": "Canopy regrowth and branching after disease pruning and soil correction",
+      "date_range": "Dec 9 - Dec 16, 2025"
+    },
+    {
+      "stage": "First ripening (first fruits showing blush color)",
+      "date_range": "Dec 18 - Dec 31, 2025"
+    },
+    {
+      "stage": "Regular cherry tomato harvests from successive clusters",
+      "date_range": "Dec 22, 2025 - Mar 31, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:49 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.09",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "26",
+        "moisture_mScm": "24.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "68.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The raised bed soil was initially tight and compacted due to the underlying sand and topsoil mix. After removing the restrictive layer around the bean plant while preserving the root ball, the soil structure became looser and more aerated. The plant remained upright and healthy throughout the process, showing no signs of shock, wilt, or stress. Leaves remain bright and turgid with continued new growth at the nodes. The 'after' reading showed extremely low moisture in the freshly added soil, which was expected since no watering had occurred yet.",
+      "actions": "Allow the new soil to settle naturally. Provide gentle watering only as needed once rainfall patterns stabilize. Avoid fertilizing today as the refreshed soil provides adequate nutrients for the current growth stage.",
+      "next_steps": "Recheck moisture the following morning after rainfall to confirm the new soil layer has hydrated into the proper range. Monitor the plant over the next 1–2 days for continued upright posture and steady leaf expansion. Expect rapid vegetative growth now that soil aeration and structure have improved.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:00 AM] Gave the plant a light shower to remove soil from the leaves and help the new soil settle.",
+        "[5:46 PM] Did not water because it rained today."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Before photo showing compacted topsoil and sand mixture around the bean plant prior to correction.",
+          "tags": "green-beans, soil-compaction, before"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "After photo showing loosened, aerated soil surrounding the base of the bean plant.",
+          "tags": "green-beans, soil-improvement, after"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of the bean stem and developing nodes following soil correction.",
+          "tags": "green-beans, nodes, stem"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:43 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.22",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "25",
+        "moisture_mScm": "22.00",
+        "light": "89",
+        "rh_percent": "57",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "76.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The bean seedling is upright with bright, healthy leaves and active new growth at multiple nodes. Leaf color is consistent and the plant shows early branching typical of Bush Jade beans. The soil is in a low moisture state but still within a safe dry-down range, especially with incoming rain expected later today.",
+      "actions": "Hold off on watering due to anticipated rainfall later today. Do not fertilize at this stage. Leave all developing nodes and new leaf clusters untouched as they are part of normal vegetative expansion.",
+      "next_steps": "Check moisture tomorrow after the rain to ensure it rises into the mid-range. Monitor node development as new trifoliate leaves unfold over the next several days. Expect early flower bud formation in the upcoming 10–14 days.",
+      "q_and_a_summary": "User asked whether the small green clusters on the stem were baby beans; confirmed they are new leaf nodes and early branching points, not bean pods.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean plant showing bright foliage and upright growth around the central stake.",
+          "tags": "green-beans, foliage, upright-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead perspective highlighting vigorous new leaf development.",
+          "tags": "green-beans, new-leaves, overhead"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the stem showing developing nodes forming future leaves and branches.",
+          "tags": "green-beans, nodes, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:16 PM",
+      "conditions": "Patchy morning fog followed by sun with a high near 86°F and an overnight low around 66°F. Forecast for the following day includes mostly sunny skies near 87°F with a 20% chance of showers after 1 PM.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.01",
+        "salt_mg_L": "9",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "0.5",
+        "soil_temp_f": "81.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant showed vigorous top growth with multiple stems and expanding trifoliate leaves. However, the soil at the probe depth was extremely dry, resulting in zeroed moisture and pH readings despite the plant still appearing relatively turgid. This reflects how quickly the raised bed dries under warm, sunny Florida conditions.",
+      "actions": "Insert the digital probe near the base at standard depth; soil was too dry for the device to register meaningful values. Provide a focused watering at the base later in the afternoon or early evening, applying enough to moisten the mound and the immediate root zone without flooding the entire bed.",
+      "next_steps": "Recheck moisture 60-90 minutes after watering to ensure readings return to the normal range. Given the rapid drying pattern, check soil earlier in the day and plan smaller, more frequent waterings focused at the root zone.",
+      "q_and_a_summary": "Explained that the all-zero readings are caused by extreme dryness and confirmed that, given the hot, sunny forecast, the plant should be watered even though it still appears outwardly healthy.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front view of the Green Bean plant showing vigorous leafy growth around the central stake.",
+          "tags": "green-beans, vigorous-growth, stake"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of lower stems and nodes where multiple shoots branch from the base.",
+          "tags": "green-beans, stem-nodes, branching"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view highlighting the dense canopy and lightly crusted, very dry soil surface.",
+          "tags": "green-beans, dry-soil, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wider shot showing the bean plant's position within the raised bed next to neighboring crops.",
+          "tags": "green-beans, raised-bed, garden-context"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:25 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.78",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "31",
+        "moisture_mScm": "19.00",
+        "light": "17",
+        "rh_percent": "56",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "77.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "At 2 PM the soil was so dry that the digital probe could not register a reading, consistent with the plant's exposure to full Florida sun. After watering, the plant remained upright with leaves fully extended, showing no significant stress or burn. Evening probe readings captured moderately low moisture, reflecting the recent rehydration of an otherwise dry root zone.",
+      "actions": "Attempt a reading at 2:00 PM but soil was too dry for conductivity. Water the plant thoroughly at the base, then wait over two hours before inserting the probe again and recording the new values.",
+      "next_steps": "Given the rapid drying pattern, check soil earlier in the day and plan smaller, more frequent waterings focused at the root zone. Avoid saturating beyond the mound to keep oxygen available to the roots.",
+      "q_and_a_summary": "Clarified how extreme surface dryness can prevent the probe from reading at all and confirmed that watering, then waiting before rechecking, is the right procedure.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the Green Bean plant after watering, with leaves spread around the central stake.",
+          "tags": "green-beans, watering, stake"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing upright stems and well-defined soil mound around the base.",
+          "tags": "green-beans, soil-mound, stem-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of lower stems illustrating new side shoots along the main stem.",
+          "tags": "green-beans, side-shoots, vegetative-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Evening shot of the plant in relation to the surrounding bed and neighboring crops.",
+          "tags": "green-beans, raised-bed, companion-planting"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "12:54 PM",
+      "conditions": "Mostly Sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.13",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "77",
+        "moisture_mScm": "39.00",
+        "light": "98",
+        "rh_percent": "64",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "78.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Bean plant maintained vigorous growth under bright mid-day sun with no wilting, and leaf color remained a healthy medium green. Moisture reading remained comfortably in the mid-range, indicating the root zone was still benefiting from prior rainfall and watering without signs of saturation.",
+      "actions": "Perform a mid-day digital probe reading without additional watering or soil amendments.",
+      "next_steps": "Continue monitoring daily; plan the next watering when moisture readings begin trending into the low range or when the top 1-2 inches of soil are dry to the touch.",
+      "q_and_a_summary": "Reinforced that consistent mid-range moisture readings suggest the current watering schedule is appropriate and that over-watering is not needed while the plant looks turgid and healthy.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading screen showing balanced moisture and pH values for the Green Bean bed.",
+          "tags": "green-beans, digital-probe, moisture-reading"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:12 AM",
+      "conditions": "Mostly Cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "6.63",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "43",
+        "moisture_mScm": "36.00",
+        "light": "89",
+        "rh_percent": "56",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "74.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant displayed strong upright growth with several sets of true leaves and light chewing damage but no major defoliation. Soil moisture registered in the mid-range, suggesting the previous rain and watering cycle were still supporting the root zone. Windier conditions caused some leaf movement but stems remained firm.",
+      "actions": "Take digital probe reading near the base of the plant without additional watering or amendments. Review on-hand garden products for possible future pest and nutrient management.",
+      "next_steps": "Hold off on watering until the top inch of soil feels dry, given the current moderate moisture value. Use Captain Jack's or neem only if chewing damage significantly increases and always apply in the evening to avoid leaf burn.",
+      "q_and_a_summary": "Provided an inventory-aware overview of available products (organic fertilizers, dolomite lime, and several insect control options) and discussed that no treatments were immediately required given the mild chewing and overall healthy growth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean plant with multiple true leaves and a well-defined soil mound.",
+          "tags": "green-beans, true-leaves, soil-mound"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of foliage showing minor chewing along some leaf edges.",
+          "tags": "green-beans, leaf-chewing, pest-monitoring"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle of the plant showing spacing between beans and neighboring crops.",
+          "tags": "green-beans, bed-layout, companion-planting"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down perspective of the plant highlighting even canopy development.",
+          "tags": "green-beans, canopy, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe device nearby ready for use in the Green Bean bed.",
+          "tags": "green-beans, digital-probe, monitoring"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:33 PM",
+      "conditions": "Partly cloudy and mild with temperatures in the upper 70s°F dropping to the mid 60s°F overnight. Earlier rain left the raised bed damp before the reading.",
+      "digital_probe": {
+        "ph": "9.44",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "63",
+        "moisture_mScm": "47.00",
+        "light": "5",
+        "rh_percent": "74",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant continued to gain height with several sets of true leaves and no major pest damage. Despite repeated attempts earlier in the day, the probe would not register until additional organic mix was added to the surface to improve contact. Once readings were obtained, moisture was in a moderate range though the pH reading appeared anomalously high compared to previous days.",
+      "actions": "Add more organic potting mix around the base and over the mound to improve probe contact where the soil surface had become uneven. No intentional watering done; moisture came from prior rainfall.",
+      "next_steps": "Recalibrate the digital probe before the next session to verify the high pH reading and continue monitoring moisture without adding more water until the surface begins to dry.",
+      "q_and_a_summary": "Discussed that difficulty getting readings was likely from poor probe contact rather than sudden soil changes and that unusual pH values should be cross-checked after calibration rather than acted on immediately.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Evening view of the Green Bean plant after additional soil was added around the stem.",
+          "tags": "green-beans, soil-adjustment, evening-light"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing the bean plant sharing the bed with nearby zucchini foliage.",
+          "tags": "green-beans, companion-planting, raised-bed"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer shot of foliage showing continued vertical growth and intact leaf surfaces.",
+          "tags": "green-beans, leaf-health, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view highlighting the soil mound built up around the main stem.",
+          "tags": "green-beans, soil-mound, probe-contact"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe device positioned near the bed used to check moisture and pH in the newly added soil.",
+          "tags": "green-beans, digital-probe, soil-testing"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "2:48 PM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "6.02",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "90",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "71.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Green Bean plant showed steady vegetative growth with multiple true leaves and no signs of wilting or stress. Soil around the base was evenly moist from the morning watering, and the raised mound remained slightly darker and looser than the surrounding bed. Probe insertion produced a stable reading after the hole from the previous day was filled in and leveled.",
+      "actions": "Give the plant a thorough watering at 9:40 AM focused at the base, then backfill the prior probe hole with soil and lightly level the mound to improve future probe contact.",
+      "next_steps": "Monitor moisture over the next 24 hours and hold off on additional watering until the top 1-2 inches begin to dry, given the current moderate moisture and mild temperatures.",
+      "q_and_a_summary": "Confirmed that watering earlier in the day was appropriate and that backfilling probe holes helps maintain consistent readings and root-zone structure.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean plant in the raised bed after morning watering with soil mound leveled.",
+          "tags": "green-beans, soil-mound, watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of foliage showing healthy, fully expanded true leaves.",
+          "tags": "green-beans, true-leaves, healthy-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle of the plant showing spacing to the stake and surrounding bed.",
+          "tags": "green-beans, stake, bed-layout"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "11:16 AM",
+      "conditions": "Cloudy with a high of 72°F and low of 57°F. Clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "6.75",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "23",
+        "moisture_mScm": "0.00",
+        "light": "97",
+        "rh_percent": "51",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "65.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant showing strong upward growth with healthy bright green leaves and a fully emerging new trifoliate. Older minor chew marks unchanged. Soil surface appears dry but lower soil remains moist. False-zero moisture reading due to dry top layer and cool soil temperature.",
+      "actions": "No watering recommended today due to sufficient moisture beneath the dry surface. No neem needed as no new chewing observed. No soil adjustments required.",
+      "next_steps": "Tomorrow, if the digital probe still reads zero moisture, perform a probe watering correction: add 1 cup of water directly at the probe site, wait 20-30 minutes, recheck moisture.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning reading showing seedling upright with bright green foliage.",
+          "tags": "green-beans, daily-reading, seedling"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing new trifoliate leaf emerging clean and healthy.",
+          "tags": "green-beans, growth, new-leaf"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing overall structural progress and stable soil mound.",
+          "tags": "green-beans, soil, structure"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "2:21 PM",
+      "conditions": "Cloudy with a high of 81°F and low of 65°F. Rain expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.69",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant upright with vigorous leaf expansion and active new growth. Light chewing observed but unchanged from prior day. Soil evenly moist throughout core layer.",
+      "actions": "No watering due to adequate moisture and incoming rain. Neem still not recommended due to plant age and limited chewing.",
+      "next_steps": "Monitor chewing daily but wait for the plant to establish more true leaves before applying neem.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead shot showing healthy new leaf development.",
+          "tags": "green-beans, leaf-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view with stable upright posture.",
+          "tags": "green-beans, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil profile showing good moisture retention.",
+          "tags": "green-beans, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:36 PM",
+      "conditions": "Mostly cloudy with a high of 84°F and low of 67°F. Thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "6.14",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "68",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Rapid growth with new leaves unfolding. Slight chewing on lower leaves but no worsening. Soil moisture stable and appropriate.",
+      "actions": "No watering due to approaching storms. No neem application recommended yet.",
+      "next_steps": "Check for chewing again after storms in case pests hide under moist conditions.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing expanding leaf set.",
+          "tags": "green-beans, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing strong stem structure.",
+          "tags": "green-beans, stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe placement verifying accurate reading zone.",
+          "tags": "green-beans, probe"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:23 PM",
+      "conditions": "Sunny with a high of 84°F and low of 65°F. Watered at 2:33 PM; readings taken 1.5 hours later.",
+      "digital_probe": {
+        "ph": "7.79",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "146",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "81.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Strong new growth and healthy color. Soil still wet from watering, producing elevated moisture and fertility readings.",
+      "actions": "No additional watering required. No pest treatment necessary.",
+      "next_steps": "Allow soil to dry back to normal range before next watering.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Bean seedling with healthy leaf spread.",
+          "tags": "green-beans, seedling"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing leaf arrangement.",
+          "tags": "green-beans, leaf"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close shot of true-leaf development.",
+          "tags": "green-beans, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil mound post-watering.",
+          "tags": "green-beans, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:06 AM",
+      "conditions": "Sunny with a high of 84°F and low of 60°F.",
+      "digital_probe": {
+        "ph": "6.39",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "60",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Healthy seedling with bright leaves, clean stem, and stable soil mound. Early true leaves expanding well. Probe placed carefully due to seedling fragility.",
+      "actions": "No watering required at the time of reading. No pest actions.",
+      "next_steps": "Continue monitoring moisture daily as soil settles.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe placement check confirming safe distance from stem.",
+          "tags": "green-beans, probe"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Healthy seedling with strong early growth.",
+          "tags": "green-beans, seedling"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "2:28 PM",
+      "conditions": "Sunny with a high of 84°F and overnight low around 63°F. Soil below and within the new organic mound was extremely dry at the time of the initial measurement.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.00",
+        "salt_mg_L": "0",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "0.0",
+        "soil_temp_f": "90.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Initial probe returned all-zero readings due to extreme dryness in both the organic mound and underlying sand-heavy soil, preventing proper electrical conductivity. Despite this, the Green Bean seedling remained upright and healthy with expanding true leaves. Spider webs present between the fence and stake were identified as beneficial predators and not harmful to plant growth.",
+      "actions": "Apply a targeted shower of water directly to the base and the organic mound, carefully avoiding the leaves, to rehydrate the soil profile enough for proper probe readings.",
+      "next_steps": "Allow 45-60 minutes for moisture to wick through the soil layers before taking a follow-up reading. Monitor the bed as it transitions away from the sand-dominant dryness and recalibrate the probe for accurate pH measurement.",
+      "q_and_a_summary": "Explained that all-zero readings were caused by extreme soil dryness preventing electrical contact. Confirmed spider webs were safe and beneficial natural pest control.",
+      "follow_up": [
+        "[4:04 PM] Follow-up reading after watering: pH 10.23, EC 0.05 mS/cm, Salt 27 mg/L, Moisture 26.00 mS/cm, Light 99, RH 40%, Fertility 2.5%, Soil Temp 82.6°F."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean seedling with dry soil before watering.",
+          "tags": "green-beans, dry-soil, seedling"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Post-watering view showing seedling and surrounding soil.",
+          "tags": "green-beans, watering, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the seedling showing true leaf development.",
+          "tags": "green-beans, true-leaves, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Spider webs visible between fence and stake near the seedling.",
+          "tags": "green-beans, spider-webs, beneficial-insects"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Follow-up probe placement beside the seedling at 4:04 PM.",
+          "tags": "green-beans, probe-placement, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "12:02 PM",
+      "conditions": "Mostly cloudy with a high of 84°F and overnight low around 67°F. Soil was amended with organic potting mix earlier today to improve moisture retention.",
+      "digital_probe": {
+        "ph": "8.33",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "30",
+        "moisture_mScm": "2.00",
+        "light": "97",
+        "rh_percent": "50",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "81.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Green Bean seedling remains upright with developing true leaves and a healthy mid-green color. The newly added organic potting mix has improved soil texture and moisture retention, correcting the previous dryness from the sand-heavy substrate. The temporary pH spike is attributed to the recent amendment and watering and does not reflect true soil conditions. Leaves show smooth texture and no signs of pests or stress.",
+      "actions": "Add a mound of organic potting mix to increase moisture retention and soil quality, followed by a small amount of water to settle the new soil.",
+      "next_steps": "Allow soil to equilibrate over the next 24-48 hours before rechecking pH. Monitor moisture and avoid additional watering until the top layer begins to dry. Begin fertilizer only when true leaves fully expand.",
+      "q_and_a_summary": "User asked whether the soil adjustment and subsequent readings were expected. Confirmed that pH spikes and moisture changes are normal following amendments and will stabilize soon.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean seedling after soil amendment with organic potting mix.",
+          "tags": "green-beans, soil-amendment, seedling"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing leaf color and true leaf development.",
+          "tags": "green-beans, true-leaves, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Freshly added organic potting mix around the seedling for moisture retention.",
+          "tags": "green-beans, soil, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Seedling posture and new soil mound viewed from the side.",
+          "tags": "green-beans, root-zone, bed-layout"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:40 PM",
+      "conditions": "Sunny afternoon with a high of 84°F and expected overnight low around 60°F.",
+      "digital_probe": {
+        "ph": "5.43",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "22",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Beans seedling is upright and stable with cotyledons open and early true leaves developing. Color appears healthy with no signs of scorch, pests, or disease. Soil surface is visibly dry, consistent with the probe reading of 0.00 moisture. Removal of the nearby zucchini has opened space around the root zone, improving airflow, light access, and reducing competition.",
+      "actions": "Apply 1/4-1/3 cup of water in a ring around the plant to rehydrate the root zone. No fertilizer added as true leaves are still forming.",
+      "next_steps": "Monitor moisture over the next 24 hours and continue gentle watering as the top layer dries. Begin considering first light fertilizer only when the first true leaves are fully open and sized up.",
+      "q_and_a_summary": "User noted that the zucchini is now removed and the beans now have their own space. Confirmed this benefits root-zone access, airflow, light, and growth rate.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean seedling upright with developing true leaves near the stake.",
+          "tags": "green-beans, seedling, true-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing leaf color and soil dryness around the seedling.",
+          "tags": "green-beans, soil, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing full seedling posture and cleared root zone after zucchini removal.",
+          "tags": "green-beans, root-zone, bed-layout"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:52 AM",
+      "conditions": "Partly shaded morning turning sunny later with temperatures in the upper 60s°F and calm weather.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "34.00",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "4.5",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two Bush Jade bean seedlings upright and stable near the stake with early cotyledon opening. Color consistent with healthy new sprouts, no scorch or pest damage. Soil moderately moist and recently amended. Probe placement was careful and away from fragile stems while still capturing the root-zone conditions.",
+      "actions": "No watering required. Zucchini (Left) that shared the root zone was removed by cutting at the soil line to prevent root disturbance and free the stake space for the beans.",
+      "next_steps": "Monitor for upright posture and continued leaf expansion. Recheck moisture before the next watering. Consider first fertilizer only after true leaves are established.",
+      "q_and_a_summary": "User asked if removing the zucchini was appropriate and whether cutting instead of pulling was safer. Confirmed cutting was the correct approach to protect bean roots.",
+      "follow_up": [
+        "[3:30 PM] Zucchini (Left) was removed by cutting at the soil line so the Green Beans could fully occupy the stake and root zone with minimal root disturbance."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Beans seedlings near the stake with careful probe placement.",
+          "tags": "green-beans, probe-placement, seedlings"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of cotyledons and soil structure on 11/19.",
+          "tags": "green-beans, cotyledons, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Stake area after Zucchini (Left) was removed.",
+          "tags": "green-beans, stake, bed-layout"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:16 AM",
+      "conditions": "Mostly shady morning with temperatures in the mid-60s°F, transitioning to full sun by late morning.",
+      "digital_probe": {
+        "ph": "5.53",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "13.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "66.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two bean sprouts upright and moist from overnight dew. The first sprout had just shed its seed coat. Cotyledons beginning to open with normal pale-green color. Soil moderately moist with loose structure. No signs of pest damage or stress.",
+      "actions": "No watering required. No fertilizer or neem needed. Allow seedlings to transition into full sun as conditions improve.",
+      "next_steps": "Recheck moisture within 24 hours. Begin fertilizer only after true leaves appear. Protect from temperatures below 49°F.",
+      "q_and_a_summary": "User asked if probe placement was safe and whether seed coat removal was normal. Confirmed both were appropriate.",
+      "follow_up": [
+        "[4:02 PM] Added organic potting mix around the shared area for stability and moisture retention, then applied approximately 1/2 cup water to settle soil."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading for Green Beans on 11/18.",
+          "tags": "green-beans, digital-probe, readings"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Green Bean sprouts beside Zucchini before removal.",
+          "tags": "green-beans, sprouts, stake"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil addition during 4:02 PM follow-up.",
+          "tags": "green-beans, soil, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:16 AM",
+      "conditions": "Full morning sun with temperatures in the mid-60s°F and light air movement.",
+      "digital_probe": {
+        "ph": "6.49",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "4.00",
+        "light": "98",
+        "rh_percent": "60",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "65.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two bean sprouts observed near the stake. One sprout was partially emerged with the seed coat still attached. Soil was dry and loose. No signs of rot or disease.",
+      "actions": "Apply light watering along with the nearby zucchini area. Mist the stuck seed coat to encourage natural release.",
+      "next_steps": "Monitor seed coat for loosening. Recheck soil moisture. Avoid fertilizer until true leaves appear.",
+      "q_and_a_summary": "User asked if the seed coat would fall off naturally and whether misting was appropriate. Confirmed both.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Early bean sprouts near stake on 11/17.",
+          "tags": "green-beans, sprouts, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:15 AM",
+      "conditions": "Clear morning sun with temperatures around 66°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "First bean sprout observed emerging to the right of the stake. Cotyledons still partially enclosed by seed coat. Soil slightly dry at surface but acceptable. Second sprout not yet visible.",
+      "actions": "Avoid watering to prevent moisture stress. Light mist approved for softening the stuck seed coat.",
+      "next_steps": "Monitor sprout over next 12-24 hours for cotyledon opening. Expect second sprout to emerge soon.",
+      "q_and_a_summary": "User asked whether the seed coat would come off on its own. Confirmed it would naturally loosen and fall.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First emergence of Green Bean sprout on 11/16.",
+          "tags": "green-beans, sprout, first-emergence"
+        }
+      ]
+    }
+  ]
+}

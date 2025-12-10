@@ -1,0 +1,707 @@
+{
+  "id": "oregano_001",
+  "status": "Active",
+  "plant": "Oregano",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 12",
+  "container": "5 Herb Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Part of mixed Herb Planter seeded on Nov 12, 2025.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" right front.",
+    "Shares planter with Basil, Cilantro, Parsley, and Thyme."
+  ],
+  "whats_been_logged": "The planting began with dry, alkaline conditions that were corrected with thorough watering and lime adjustments. The soil became more evenly moist and slightly more acidic while staying within a safe range for herbs. The oregano section warmed under sun with good drainage and the first seedlings emerged successfully, showing clear progression from sowing through early germination and healthy sprout establishment.",
+  "current_stage": "Germination (visible seedlings)",
+  "current_state": "Tiny oregano seedlings are emerging across the section, with small green points visible above warm, evenly moist soil. Conditions are stable with strong light and gentle fertility, and the seedlings appear healthy and on track for thicker sprout coverage. The planting is well positioned to move into the true-leaf stage with continued careful moisture management.",
+  "timeline": [
+    {
+      "stage": "Germination",
+      "date_range": "Nov 19 - Nov 27, 2025"
+    },
+    {
+      "stage": "True leaves",
+      "date_range": "Dec 1 - Dec 15, 2025"
+    },
+    {
+      "stage": "First harvestable sprigs",
+      "date_range": "Jan 15 - Jan 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:14 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.12",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "166",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "18.7",
+        "soil_temp_f": "65.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The oregano section shows a softer, more aerated surface after gentle fluffing and the addition of Miracle-Gro Moisture Control Potting Mix. The soil remains dark and moist from recent storms, but structure has improved and no compaction or algae is present. No oregano sprouts are visible yet, likely due to earlier wind burial and recent oversaturation.",
+      "actions": "Do not water today, as soil moisture remains high. Allow the planter to continue drying naturally. Avoid disturbing the soil further so any surviving seedlings can re-emerge as conditions improve.",
+      "next_steps": "Reassess moisture and the soil surface tomorrow morning. Look for signs of new sprouts or lifted soil as moisture falls into the 55–65 range. If no sprouts appear by December 11, plan to reseed the oregano zone.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for the 12/09 oregano reading showing high but decreasing moisture and excellent pH.",
+          "tags": "oregano, probe-reading, 12-09"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano section on 12/09 after gentle fluffing and added potting mix, showing improved surface structure but no visible sprouts.",
+          "tags": "oregano, soil, amended, 12-09"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:22 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.40",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "210",
+        "moisture_mScm": "90.00",
+        "light": "92",
+        "rh_percent": "61",
+        "fertility_percent": "24.7",
+        "soil_temp_f": "77.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The oregano section is fully saturated from recent rain, with the soil appearing dark, heavy, and compacted at the surface. The earlier wind-driven debris remains present, and no cotyledons are visible after the storms. Despite the oversaturated top layer, deeper moisture and fertility remain within safe ranges for seedlings, and no algae or mold is present.",
+      "actions": "Do not water today due to high soil moisture and continued storms. Allow the planter to drain naturally. Once the surface begins to dry slightly, gently loosen only the top 1/8–1/4 inch to break crusting and improve aeration without disturbing potential seedlings underneath.",
+      "next_steps": "Reassess tomorrow morning after the storms pass to check for surface drying and any signs of new seedlings pushing through. If no sprouts appear by midweek, plan to reseed the oregano section. Monitor moisture closely and avoid any additional watering until moisture falls below 60 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for the 12/08 oregano reading showing high moisture and stable pH after morning storms.",
+          "tags": "oregano, probe-reading, 12-08"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano section on 12/08 with a saturated surface and debris remaining from earlier wind disturbance.",
+          "tags": "oregano, soil, saturated, 12-08"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:02 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "5.21",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "54.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "87.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The oregano section shows an extremely dry, wind-disturbed surface with loose mulch fragments scattered across the emerging seedling zone. No cotyledons are clearly visible, suggesting that tiny sprouts were either buried or abraded by wind and drifting debris. Despite the harsh surface dryness, the deeper soil layer remains evenly moist and chemically balanced according to the probe reading.",
+      "actions": "Very gently loosen the top 1/4 inch of soil in the oregano section with fingertips or a soft tool to break crusting and lift debris without disturbing potential seedlings. After loosening, apply about 2 tablespoons of water as a soft surface shower to rehydrate only the top layer. If possible, reposition the planter slightly to reduce direct wind exposure to this corner.",
+      "next_steps": "Monitor the oregano section tomorrow morning to confirm that the surface remains lightly moist and stable before expected storms. Over the next two days, watch for fresh sprouts or buried seedlings re-emerging through the loosened soil. If no seedlings appear by midweek, plan to reseed the oregano area while maintaining careful moisture management.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for the 12/07 oregano reading showing valid lower-layer moisture despite extreme surface dryness.",
+          "tags": "oregano, probe-reading, 12-07"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano section on 12/07 showing a dry, wind-disturbed surface with debris covering the sprout zone.",
+          "tags": "oregano, soil, dry-surface, 12-07"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:24 PM",
+      "conditions": "Mostly sunny with a high of 82°F and an overnight low near 62°F.",
+      "digital_probe": {
+        "ph": "6.12",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "131",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "96.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano seedlings continue steady development with larger cotyledons, increasing cluster density, and healthy green coloration. Soil surface remains evenly moist without compaction or collapse, and seedlings show no signs of heat stress despite warm midday conditions.",
+      "actions": "No watering recommended due to adequate moisture.",
+      "next_steps": "Check the surface tomorrow morning and ensure it has not dried excessively under continued sun exposure.",
+      "q_and_a_summary": "Confirmed the seedlings are thriving, moisture is balanced, and care routine is appropriate for current weather.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for 12/03 oregano readings under bright midday sun.",
+          "tags": "oregano, probe-reading, 12-03"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano seedlings on 12/03 showing increased cotyledon size and strong central cluster development.",
+          "tags": "oregano, sprouts, soil, 12-03"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:06 AM",
+      "conditions": "Sunny with a high near 75°F and overnight low near 58°F. Light breeze with stable humidity.",
+      "digital_probe": {
+        "ph": "5.21",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "186",
+        "moisture_mScm": "60.00",
+        "light": "89",
+        "rh_percent": "57",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "74.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano seedlings show increased density and cotyledon size, with bright green coloration and healthy posture. Soil is evenly moist with no compaction. Seedlings remain vigorous and well-established within the early germination stage.",
+      "actions": "No watering needed due to adequate moisture.",
+      "next_steps": "Monitor tomorrow morning for surface drying under increased sun exposure.",
+      "q_and_a_summary": "Confirmed stable soil moisture and healthy germination progression.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for Oregano on 12/02 showing balanced moisture and moderate EC.",
+          "tags": "oregano, probe-reading, 12-02"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano seedlings on 12/02 showing increased sprout density and bright green cotyledons.",
+          "tags": "oregano, sprouts, soil, 12-02"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "11:08 AM",
+      "conditions": "Cloudy with a high of 72°F and an overnight low near 57°F. Clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.15",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "213",
+        "moisture_mScm": "100.00",
+        "light": "90",
+        "rh_percent": "52",
+        "fertility_percent": "24.7",
+        "soil_temp_f": "66.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings continue healthy early germination with increasing sprout density and slightly larger cotyledons. Soil remains evenly hydrated from recent rain with no pooling or surface compaction.",
+      "actions": "No watering recommended due to high moisture from prior rainfall.",
+      "next_steps": "Check the surface tomorrow morning in case clearing evening conditions begin to dry the top layer.",
+      "q_and_a_summary": "Confirmed that soil moisture remains sufficient after rainfall and no watering is needed today.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for 11/28 oregano readings taken on a cool, cloudy late morning.",
+          "tags": "oregano, probe-reading, 11-28"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano seedlings on 11/28 showing increased sprout density and well-hydrated soil.",
+          "tags": "oregano, sprouts, soil, 11-28"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "1:57 PM",
+      "conditions": "Cloudy with a high of 81°F and an overnight low near 65°F. Rain expected around 6 PM.",
+      "digital_probe": {
+        "ph": "3.73",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "140",
+        "moisture_mScm": "80.00",
+        "light": "91",
+        "rh_percent": "61",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings show continued early germination with expanding cotyledons and increasing sprout density. Soil surface is stable and evenly moist after leveling the probe hole areas, with no signs of collapse or oversaturation.",
+      "actions": "No watering recommended due to incoming evening rain.",
+      "next_steps": "Check tomorrow morning for possible surface compaction after rainfall and gently re-fluff if needed.",
+      "q_and_a_summary": "Confirmed soil stability improvements from filling probe holes and recommended avoiding watering ahead of incoming rain.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for the 11/27 oregano readings taken under cloudy midday conditions.",
+          "tags": "oregano, probe-reading, 11-27"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano seedlings on 11/27 showing increased sprout density and stable soil after backfilling probe holes.",
+          "tags": "oregano, sprouts, soil, 11-27"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:20 PM",
+      "conditions": "Mostly cloudy with a high of 84°F and an overnight low near 67°F. Thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "4.61",
+        "ec_mScm": "0.39",
+        "salt_mg_L": "196",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "22.7",
+        "soil_temp_f": "83.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano seedlings continue steady early germination with slightly larger cotyledons and upright posture. Soil surface remains evenly moist with no crusting or collapse, and seedlings show healthy green color.",
+      "actions": "No watering recommended due to expected thunderstorms later today.",
+      "next_steps": "Reassess soil surface tomorrow morning for compaction or oversaturation after the storm.",
+      "q_and_a_summary": "Confirmed that seedlings are stable and watering should be avoided ahead of incoming thunderstorms.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for 11/26 oregano readings showing midday conditions ahead of forecast storms.",
+          "tags": "oregano, probe-reading, 11-26"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone on 11/26 with moist, stable soil and healthy early-stage seedlings.",
+          "tags": "oregano, sprouts, soil, 11-26"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:14 PM",
+      "conditions": "Sunny with a high of 84°F and an overnight low near 65°F. Soil was watered at 2:33 PM and readings were taken about 1.5 hours later.",
+      "digital_probe": {
+        "ph": "4.40",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "150",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "16.7",
+        "soil_temp_f": "85.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano seedlings showed modest growth with slightly larger cotyledons and good green coloration. Soil remained evenly hydrated following the afternoon watering, and seedlings appeared supported and upright.",
+      "actions": "No additional watering needed at the time of measurement.",
+      "next_steps": "Monitor soil surface the next morning for drying due to prolonged sun exposure.",
+      "q_and_a_summary": "Confirmed that the watering earlier in the afternoon stabilized the soil surface and improved seedling posture.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for the 11/25 oregano readings taken about 1.5 hours after watering.",
+          "tags": "oregano, probe-reading, 11-25"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone on 11/25 showing seedlings upright with hydrated soil after the early afternoon watering.",
+          "tags": "oregano, sprouts, soil, 11-25"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:21 PM",
+      "conditions": "Partly cloudy with a high of 81°F and an overnight low near 61°F. Soil was very dry this morning and was lightly watered about an hour before readings.",
+      "digital_probe": {
+        "ph": "4.85",
+        "ec_mScm": "0.47",
+        "salt_mg_L": "235",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "28.0",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano seedlings remain in early germination, showing slightly larger and brighter cotyledons than previous days. The soil surface was extremely dry this morning but looks evenly rehydrated after light watering. Seedlings appear more upright and supported following the moisture correction.",
+      "actions": "No additional watering or adjustments needed at this time.",
+      "next_steps": "Monitor the top soil layer for drying, especially during sun exposure. Expect gradual increase in sprout size and continued stabilization over the next several days.",
+      "q_and_a_summary": "Confirmed that yesterday's and this morning's light watering improved surface moisture and seedling stability.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for the 11/24 oregano readings showing midday values after light watering.",
+          "tags": "oregano, probe-reading, 11-24"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone roughly an hour after watering on 11/24; surface appears rehydrated and seedlings are more upright.",
+          "tags": "oregano, sprouts, rehydrated, 11-24"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:58 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "4.35",
+        "ec_mScm": "0.41",
+        "salt_mg_L": "207",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "24.0",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appeared stressed due to a very dry top layer despite deeper moisture being adequate. Several tiny sprouts were leaning or collapsing due to unstable, dusty soil. The deeper moisture reading did not match surface conditions, indicating rapid drying from sun exposure and heat.",
+      "actions": "Apply gentle surface watering to rehydrate the top layer without disturbing seedlings.",
+      "next_steps": "Monitor surface moisture closely over the next 24 hours, especially during sunny periods. Expect the seedlings to stabilize and continue early growth now that the top layer has been rehydrated.",
+      "q_and_a_summary": "Confirmed that the top layer was critically dry and not matching the moisture probe depth. Gentle surface watering was executed to protect emerging oregano seedlings.",
+      "follow_up": [
+        "[2:12 PM] Applied light shower to the oregano section to rehydrate the dry surface layer."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone before watering, showing extremely dry and fragile soil surface with leaning seedlings.",
+          "tags": "oregano, sprouts, dry-soil, 11-23, pre-watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone immediately after the 2:12 PM light shower. Surface is visibly rehydrated, stabilized, and seedlings appear more supported.",
+          "tags": "oregano, sprouts, rehydrated, 11-23, post-watering"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:28 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "5.23",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "61",
+        "moisture_mScm": "28.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano sprouts are slightly larger and more numerous than the day before, confirming steady progress through early germination. Cotyledons are beginning to widen and brighten, with healthy spacing and no signs of damping-off. Soil is beginning to dry toward the lower end of the ideal moisture range, but remains aerated and supportive of continued sprout development.",
+      "actions": "Apply light surface watering to raise moisture back into the mid-range for seedlings. Avoid disturbing the soil surface around the tiny sprouts.",
+      "next_steps": "Monitor moisture through the afternoon as cloud cover reduces sun-driven drying. Expect ongoing expansion of cotyledons and increasing sprout density over the next several days.",
+      "q_and_a_summary": "Reviewed photos and readings confirming ongoing germination with an increasing number of visible sprouts. Recommended gentle surface watering due to decreased moisture.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the oregano zone showing multiple tiny green sprouts emerging through lightly drying soil.",
+          "tags": "oregano, sprouts, germination, 11-22, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:34 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "4.74",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Several tiny oregano sprouts are visible across the soil surface, showing healthy green points consistent with early germination. Soil remains evenly moist, warm, and well-aerated with no signs of algae, crusting, or compaction. Conditions continue to support active germination.",
+      "actions": "No watering or fertilizer required. Avoid disturbing the soil surface around the emerging seedlings.",
+      "next_steps": "Continue monitoring moisture as temperatures drop this evening. Expect sprout density to increase over the next several days.",
+      "q_and_a_summary": "Confirmed visible oregano sprouting and assessed soil conditions based on readings and photos.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone in late afternoon sun showing scattered tiny sprouts emerging above warm, evenly moist soil.",
+          "tags": "oregano, sprouts, germination, soil, 11-21"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:31 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.60",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "136",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "89.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano zone shows warm, moderately moist soil with very tiny, scattered green points that are likely early sprouts. Surface texture indicates good drainage with no pooling despite the high temperature.",
+      "actions": "No watering required immediately. Maintain current sun exposure and avoid disturbing the top layer so the small oregano seedlings can establish.",
+      "next_steps": "Watch for an increase in sprout density over the next several days. If the oregano area dries faster than neighboring zones, consider a light spot-watering rather than soaking the entire planter.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano section with warm, crumbly soil and the first tiny green sprouts beginning to appear.",
+          "tags": "oregano, sprouts, herb-box, 11-20"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:47 AM",
+      "conditions": "Clear with full sun and a temperature of 70°F.",
+      "digital_probe": {
+        "ph": "5.59",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "94",
+        "moisture_mScm": "49.00",
+        "light": "97",
+        "rh_percent": "65",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "70.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano shows first tiny bright sprouts scattered across surface. Soil moisture is moderate and pH is improving toward ideal range. No signs of damping-off, mold, or pest activity visible.",
+      "actions": "No watering needed. Maintain full sun exposure.",
+      "next_steps": "Expect increased density over next several days as more seeds germinate. Continue monitoring moisture and pH stability.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:07 PM] Applied lime across herb box. Soil was very dry two knuckles down, so light surface watering was provided to re-moisten the upper layer without washing lime deeper."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First tiny oregano sprouts emerging.",
+          "tags": "oregano, sprouts"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Herb box after lime application on the afternoon of 11/19.",
+          "tags": "herb-box, lime, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:09 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "4.67",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "19.3",
+        "soil_temp_f": "64.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Oregano zone soil remains moist and stable with no visible sprouting yet. Soil structure is healthy and well-aerated.",
+      "actions": "No watering necessary today to maintain stable moisture levels.",
+      "next_steps": "Expect first oregano sprouts in the coming days as moisture and temperature remain steady.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano zone with moist soil but no visible sprouts.",
+          "tags": "oregano, herb-box, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:07 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.58",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "54.00",
+        "light": "98",
+        "rh_percent": "61",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "60.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No oregano sprouts yet, but soil moisture and structure look good. Conditions are favorable for upcoming germination.",
+      "actions": "Include oregano zone within the same light lime adjustment as the rest of the planter.",
+      "next_steps": "Continue monitoring the surface for first oregano sprouts in the days ahead.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano area with moist soil and no visible sprouts.",
+          "tags": "oregano, herb-box, overview"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:35 AM",
+      "conditions": "Clear with morning shade transitioning to sun and a temperature of 67°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "between 2-3",
+        "ph": "around 7"
+      },
+      "observations": "Soil is still on the dry side but improving compared to the previous day. No sprouts visible in this section yet as seeds continue early water uptake.",
+      "actions": "Apply gentle watering to keep the top layer evenly moist. No fertilizer needed at this stage.",
+      "next_steps": "Recheck moisture the next morning and continue watching for first signs of germination over the coming days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Herb planter surface showing moistening soil and no sprouts yet.",
+          "tags": "herb-box, soil, pre-germination"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:09 AM",
+      "conditions": "Clear with full sun and a temperature of 65°F.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "red (very dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "Initial reading shows very dry soil and alkaline pH across the planter. No seedlings present; seeds are likely just beginning water uptake after sowing.",
+      "actions": "Apply thorough soaking to correct dryness, taking care not to displace seeds. No fertilizer at this stage.",
+      "next_steps": "Expect slow pH change over the coming days. Recheck moisture and pH with follow-up readings as germination window begins.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First-day view of the herb planter with dry soil before rehydration.",
+          "tags": "herb-box, dry-soil, day-1"
+        }
+      ]
+    }
+  ]
+}

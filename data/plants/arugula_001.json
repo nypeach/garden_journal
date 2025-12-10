@@ -1,0 +1,751 @@
+{
+  "id": "arugula_001",
+  "status": "Active",
+  "plant": "Arugula",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 11",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix, Sand/Soil",
+  "origin_history": [
+    "Seeds purchased and planted on Oct 8, 2025.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" left",
+    "Reseeded on Nov 5, 2025 and topped with potting mix.",
+    "Shares window planter with Cilantro"
+  ],
+  "whats_been_logged": "After thinning damage, the tray was reseeded and closely monitored for moisture, light, and pH. Early focus centered on dry topsoil and careful watering to re-establish even moisture while seedlings filled in. As the stand thickened, pH settled into an ideal range and moisture stayed consistently adequate without overwatering. The dense seedlings are now approaching baby-leaf stage with vigorous growth, while a small stable area of earlier stress remains cosmetic only.",
+  "current_stage": "Early baby-leaf stage",
+  "current_state": "Dense, vigorous seedlings are now beginning to show their first true leaves and are close to forming a continuous baby-leaf canopy. Moisture and pH are within an ideal range, and the tray is stable with only minor cosmetic stress where earlier thinning occurred. The planting is nearly ready for its first light baby-leaf harvests once leaves size up a bit more.",
+  "timeline": [
+    {
+      "stage": "Baby-leaf stage",
+      "date_range": "Nov 21 - Nov 25, 2025"
+    },
+    {
+      "stage": "First full harvest",
+      "date_range": "Dec 2 - Dec 6, 2025"
+    },
+    {
+      "stage": "Cut-and-come-again harvests (every 4–6 days)",
+      "date_range": "Dec 7 - Dec 31, 2025"
+    },
+    {
+      "stage": "Full maturity",
+      "date_range": "Dec 20 - Dec 28, 2025"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:02 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.79",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "66.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tray remains fully saturated from yesterday's corrective watering and the top layer now includes new Moisture Control mix, resulting in a dark, evenly textured surface. Seedlings show slightly improved firmness and color compared with the previous day, with no expansion of leaf spots and no signs of water-soaked or infectious lesions. Pale yellow-green foliage persists in the more crowded zones, while the taller right-hand cluster continues to look greener and stronger. No new damage is present, and the uneven canopy reflects recent dry stress rather than placement issues.",
+      "actions": "Do not water today, as the root zone is fully saturated. Avoid fertilizing until moisture decreases into the mid-range. Leave the planter in place and allow the tray to air out naturally. Remove only heavily blemished leaves if desired, and avoid thinning until seedlings fully stabilize.",
+      "next_steps": "Recheck moisture tomorrow to confirm the tray is drying from the 90 range toward normal levels. Monitor for new lesions on fresh growth, as existing spotting reflects older stress. Consider temporary rain protection later today if showers are heavy, since the soil is already saturated. Expect gradual color improvement as moisture normalizes.",
+      "q_and_a_summary": "Discussed whether the arugula should be transplanted into a larger or different container and confirmed that transplanting is not recommended for dense baby-leaf arugula, as it causes shock and delays harvest. Confirmed that the current planter is ideal for producing supermarket-style baby arugula. Also discussed choosing appropriate cutting scissors for harvesting and recommended lightweight garden scissors over heavy pruning shears for clean, even cuts and better regrowth.",
+      "follow_up": [
+        "[Morning] Filled the probe hole, fluffed the soil, and added Miracle-Gro Moisture Control Potting Mix to improve contact and leveling."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing greener upper leaves in the taller right-hand section and pale seedlings in the more crowded zones.",
+          "tags": "arugula, seedlings, uneven-growth, pale-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing saturated soil, static leaf spots, and slightly improved canopy turgor.",
+          "tags": "arugula, saturated-soil, baby-leaf, spotting"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "The right side of the tray displaying stronger leaf coloration and no new lesion development.",
+          "tags": "arugula, new-growth, healthy-leaves"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:08 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.86",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "70.00",
+        "light": "92",
+        "rh_percent": "59",
+        "fertility_percent": "19.3",
+        "soil_temp_f": "76.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tray shows better turgor and recovery compared to yesterday, with leaves standing more upright and no signs of wilt. Pale yellow-green coloration is still present across much of the canopy, but bronzing and purple veining have not expanded. The small circular leaf spots remain scattered and static, with no coalescing or water-soaked margins. Growth remains uneven with a taller, greener band on the right. Soil is deeply rehydrated and dark, consistent with the high moisture reading, while pH and EC remain in healthy ranges.",
+      "actions": "Do not apply neem or copper today. Allow the soil to dry back naturally from the high moisture level and avoid fertilizing until moisture returns to mid-range levels. Remove only the worst affected leaves if desired. Maintain normal sun exposure.",
+      "next_steps": "Monitor over the next 24–48 hours for any new lesions on new leaves or for rapid expansion of existing spots. Recheck moisture tomorrow and expect greening as moisture stabilizes. If disease characteristics emerge later, plan a copper treatment on a dry morning with no rain forecast for 24 hours.",
+      "q_and_a_summary": "Discussed whether to apply neem or copper fungicide for the leaf spots and confirmed that the current spotting pattern aligns with dryness-related stress and minor abrasion rather than active fungal disease. Recommended withholding treatment for now and monitoring for progression.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing uneven growth, pale coloration, and static leaf spotting after rehydration.",
+          "tags": "arugula, seedlings, pale-leaves, spotting"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-level view showing taller, greener growth on the right side contrasting with shorter pale seedlings.",
+          "tags": "arugula, uneven-growth, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the central area showing scattered static spots and pale leaves without signs of fungal spread.",
+          "tags": "arugula, leaf-spots, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:53 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "41",
+        "moisture_mScm": "38.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil surface is extremely dry, matching the difficulty you had inserting the probe and explaining the invalid pH reading. Moisture at depth is moderate, but the top layer is dusty and hydrophobic. Seedlings appear pale yellow-green across most of the tray, with some bronzing and purple veining where dryness has restricted nutrient uptake. Growth is uneven, with a taller, greener band on the right and shorter, paler seedlings elsewhere. Scattered leaf speckles are present but do not form a disease pattern.",
+      "actions": "Apply a moderate watering to rehydrate the upper 1–1.5 inches of soil. Avoid fertilizing today because roots cannot absorb nutrients evenly when the surface is this dry. Keep the planter in normal sun and water in the morning going forward to prevent midday dry-out.",
+      "next_steps": "Recheck moisture later this afternoon or tomorrow morning to track absorption. Only water again when moisture drops into the low 20s and the surface becomes pale and dusty. Monitor leaf color over the next 48–72 hours for improvement as moisture stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing pale seedlings, uneven growth, and a dry soil surface.",
+          "tags": "arugula, seedlings, dry-soil, pale-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up view of seedlings with pale color, bronzing, and scattered leaf speckles.",
+          "tags": "arugula, seedlings, leaf-speckling, dryness"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Dense seedling area displaying yellow-green foliage and mild purple veining.",
+          "tags": "arugula, seedlings, purple-veins, nutrient-stress"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:02 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "70.00",
+        "light": "45",
+        "rh_percent": "54",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula tray shows a dense canopy of seedlings with many true leaves, and the right-hand cluster is noticeably taller than the rest. Earlier in the afternoon the soil became bone dry in the sun and the probe could not get a reading, but after watering the surface now looks dark and fully rehydrated, consistent with the high moisture value. Some older leaves show scattered tan and gray spots and minor edge damage while newer growth remains cleaner and more uniform.",
+      "actions": "Do not water again today; moisture is already high and the root zone needs time to dry back toward the mid-range. Avoid fertilizing or using copper or neem products at this stage, and instead gently remove the worst spotted leaves with clean scissors if they bother you. Keep the tray in its usual sun exposure while avoiding overhead wetting of foliage late in the day.",
+      "next_steps": "Monitor the spotted leaves over the next several days and watch for any rapid increase in the number or size of lesions. Recheck moisture once the top inch of soil feels dry and only water again when probe readings fall into the 20–35 mS/cm range. If spotting begins to spread or lesions become dark and water-soaked, plan a light treatment with copper or neem on a calm, dry morning while continuing to protect new growth.",
+      "q_and_a_summary": "Discussed whether the small tan and gray spots and tiny holes on older leaves represented a serious leaf-spot problem. Explained that the pattern looks like mild early spotting and physical wear on crowded baby leaves rather than an aggressive disease, and recommended focusing on monitoring, removing the worst leaves, and reserving copper or neem treatments for clear progression.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the arugula tray showing dense seedlings, a taller cluster of true leaves on the right side, and moist, freshly watered soil.",
+          "tags": "arugula, tray, seedlings, true-leaves, moist-soil"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:29 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.11",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "26.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "88.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedlings form a continuous baby-leaf carpet with a distinct stand of taller plants on the right. Leaf color is mostly light to medium green with some purpling along stems and veins in the more crowded zones. Soil appears evenly moist but not saturated, matching the mid-range moisture reading, and there are no new major lesions or wilt despite strong midday sun.",
+      "actions": "Allow the tray to continue drying slightly and avoid watering immediately, as the moisture level is still serviceable for established seedlings in full sun. Hold off on any fertilizer adjustments while pH is near neutral and plants are maintaining steady growth. Keep the planter in its current light exposure and avoid disturbing roots while the canopy is this dense.",
+      "next_steps": "Check the soil by feel either later this evening or tomorrow morning and plan a light watering only once the top inch feels dry and moisture readings fall noticeably below the mid-20s. Continue to watch the more purple and pale leaves for any worsening pattern that might indicate nutrient stress, and plan a gentle feeding with your 4-5-5 product later in the week if color continues to wash out.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead photo of the arugula tray at midday showing a dense baby-leaf canopy and a taller patch of plants on the right side.",
+          "tags": "arugula, tray, baby-leaf, midday-sun"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:53 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight, with wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "5.73",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "69",
+        "moisture_mScm": "58.00",
+        "light": "89",
+        "rh_percent": "64",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "72.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tray is very full, with seedlings overlapping into a thick mat and larger true leaves becoming more prominent, especially on the right side. Leaf color is still on the pale side but generally uniform, with some purplish tones along stems and undersides in crowded areas. Soil looks dark and evenly moist, consistent with the high moisture reading and the recent pattern of regular watering.",
+      "actions": "Skip watering today; the root zone is already well hydrated and additional water would risk keeping the mix too wet under warm, breezy conditions. Hold off on any granular fertilizer applications until moisture drops closer to the mid-range, as nutrients are already adequate for baby-leaf growth. Maintain current light levels and continue protecting the tray from the strongest gusts so the shallow roots are not disturbed.",
+      "next_steps": "Recheck moisture in about 24 hours or sooner if the surface lightens significantly in color. Once readings fall into the 30–40 mS/cm range and the top inch feels dry, plan a moderate watering and consider a very light application of your 4-5-5 fertilizer along the outer edges of the tray. Continue to monitor leaf color and thickness as the stand moves fully into harvestable baby-leaf stage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the arugula tray with a dense, overlapping canopy of baby leaves and moist dark soil.",
+          "tags": "arugula, baby-leaf, dense-canopy, moist-soil"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:20 PM",
+      "conditions": "Mostly cloudy through the day with temperatures in the mid-70s°F, possible showers around 6:00 PM, and a low near 69°F overnight.",
+      "digital_probe": {
+        "ph": "5.68",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "54.00",
+        "light": "35",
+        "rh_percent": "70",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "By late afternoon the arugula stand presents a solid baby-leaf mat, with a cluster of taller, paddle-shaped leaves on the right and smaller, rounder leaves filling the rest of the tray. Many leaves are still a soft yellow-green with some purpling on stems and undersides, reflecting earlier stress and crowding, but overall turgor is good and there is no active wilt. Soil appears evenly moist and slightly dark, matching the mid-to-high moisture reading and the mostly cloudy, humid conditions.",
+      "actions": "Do not water again this evening; moisture is already comfortably high and showers are possible around sunset. Avoid fertilizing or applying any foliar products so close to potential rain and overnight humidity. Leave the tray in place to enjoy the mild temperatures and allow the root zone to stabilize at this current moisture level.",
+      "next_steps": "Check the tray again the following day during mid-morning sun to see how quickly the soil is drying and whether leaf color is holding steady. Plan to water only when probe readings slip toward the 30s and the top inch of mix feels dry. Continue to watch the contrast between the taller right-hand cluster and the shorter center for any signs that shading is limiting light to the smallest seedlings.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the arugula tray near evening, showing a dense baby-leaf canopy with taller leaves on the right and paler, crowded seedlings toward the center.",
+          "tags": "arugula, baby-leaf, evening, canopy"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "2:10 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight, with partly cloudy conditions around 1:00 PM and wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "5.99",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "92",
+        "moisture_mScm": "53.00",
+        "light": "88",
+        "rh_percent": "54",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "77.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The stand has thickened further, with many overlapping baby leaves and a clearly taller, lusher section on the right side of the tray. Leaf color is still fairly light overall with hints of purple along stems and undersides in some plants, but the canopy looks vigorous and upright. The soil had been watered at 9:40 AM and now appears evenly moist but not waterlogged, aligning with the mid-50s moisture reading under bright but variable sun.",
+      "actions": "Do not add more water today; the morning watering has brought the root zone into a comfortable range and the tray will continue to dry through the breezy afternoon. Avoid fertilizing again while salts are moderately elevated and plants are still recovering from earlier swings in moisture. Maintain full sun exposure so the dense canopy continues to thicken and the smaller seedlings can catch up.",
+      "next_steps": "Recheck moisture tomorrow late morning before the sun is at its peak and plan the next watering only when readings drift back toward the 30s and the surface lightens noticeably. Continue watching for any sections that consistently lag behind in growth or color, as these may benefit from slightly thinner spacing during your first harvest.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the arugula tray in early afternoon showing a dense canopy with a particularly vigorous patch of taller leaves on the right and evenly moist soil.",
+          "tags": "arugula, tray, baby-leaf, afternoon"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:48 AM",
+      "conditions": "Weather conditions for this day were not captured in the conversation; please fill this in from your original notes.",
+      "digital_probe": {
+        "ph": "6.56",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "40",
+        "moisture_mScm": "35.00",
+        "light": "96",
+        "rh_percent": "51",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "61.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula seedlings now form a nearly continuous mat with many cotyledons and a growing number of small true leaves. Leaf color is light green with noticeable red or purple coloration along veins and stems in several plants, especially in the densest patches. Soil looks moist but not saturated, consistent with a mid-30s moisture reading in cool conditions.",
+      "actions": "Hold off on watering for now; the moisture level is adequate and the plants are not showing signs of wilt. Do not adjust pH or apply fertilizer today, as readings and growth are both within a comfortable range for crowded baby arugula. Maintain the current light exposure while avoiding unnecessary disturbance of the root zone.",
+      "next_steps": "Monitor the red and purple veining over the next few days to confirm it remains a cosmetic color shift rather than a spreading deficiency pattern. Plan to water once the top inch of soil feels dry and probe readings fall closer to the mid-20s. Continue to track how quickly the soil dries on cool, bright mornings versus warmer afternoons.",
+      "q_and_a_summary": "Discussed whether the red and purple veins and undersides on some leaves were a cause for concern. Clarified that this type of color shift is common in dense, sun-exposed arugula seedlings and can reflect normal pigmentation and mild environmental stress rather than a severe nutrient problem, with a recommendation to monitor rather than treat immediately.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of arugula seedlings showing dense growth with light green leaves and noticeable red and purple veining on some foliage.",
+          "tags": "arugula, seedlings, red-veins, close-up"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "1:46 PM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight, with rainy conditions expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "5.77",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "42",
+        "moisture_mScm": "36.00",
+        "light": "86",
+        "rh_percent": "61",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain dense and upright with a mix of round cotyledons and emerging true leaves, and a slightly taller patch is becoming more prominent on the right. Leaf color is a soft green with a few paler and slightly discolored leaves scattered through the canopy, but there is no broad yellowing or wilt. The soil surface looks moderately moist, and you have begun refilling and leveling the probe holes with extra mix to prevent pockets from forming.",
+      "actions": "Skip additional watering for now; moisture is adequate and rain is expected later in the day, which will further hydrate the tray. Avoid fertilizing while conditions are cool and cloudy and the fertility reading is already comfortable for young arugula. Continue gently backfilling probe holes with fresh soil as you have been doing to keep the surface level and prevent roots from drying out in air gaps.",
+      "next_steps": "After the expected evening rain, check the tray the following day to ensure the soil has not become waterlogged, and only water again once readings slide back toward the low 30s. Continue watching for any expansion of the paler leaves in the center and plan to thin lightly once the first baby-leaf harvest window opens so light reaches seedlings that are currently shaded.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the arugula tray on a cloudy afternoon showing dense seedlings, a slightly taller patch on the right, and a leveled soil surface where probe holes have been filled.",
+          "tags": "arugula, seedlings, cloudy-day, probe-holes"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:05 PM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "7.46",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "32",
+        "moisture_mScm": "30.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula tray shows a very dense carpet of young seedlings with bright green cotyledons and early true leaves beginning to rise above the canopy. Earlier in the morning the soil was extremely dry and crumbly, but a light watering about 45 minutes before the reading has darkened the mix and brought moisture into a moderate range. Plants look perky with no wilt or obvious nutrient problems, though the quick dry-down pattern of the sandier mix is still evident.",
+      "actions": "Do not water again immediately since the light watering has already rehydrated the upper root zone and the moisture reading is now moderate. Hold off on any fertilizer or pH correction for the moment, as pH and fertility are acceptable for seedlings and there is no visible stress. Keep the tray in full sun and continue to insert the probe carefully to avoid creating deep pockets in the soft mix.",
+      "next_steps": "Check moisture again either later this afternoon or tomorrow morning to see how fast the tray is drying under partly cloudy skies, and plan a more thorough watering only if readings fall back toward the low 20s or the surface becomes crumbly again. Continue watching for any areas that fall behind in growth so they can be helped by light thinning once the first baby leaves size up.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead photo of the arugula tray around midday showing a dense stand of seedlings and soil that has recently been rehydrated after earlier dryness.",
+          "tags": "arugula, seedlings, midday, rehydrated-soil"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:49 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "14",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "85.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain vigorous, upright, and bright green with early true leaves expanding across the tray. Canopy density continues to improve and the previously stressed thinning area remains small and stable. Soil surface is extremely dry again, consistent with repeated readings of zero moisture and the fast-drying behavior of the sand-amended mix. Despite the dryness, seedlings show no wilt or stress.",
+      "actions": "A light to moderate watering is recommended to rehydrate the upper root zone without oversaturating the tray. No fertilizer or pH correction required due to ideal pH and low EC.",
+      "next_steps": "Monitor moisture again later today to ensure the watering absorbs evenly. Continue tracking moisture swings and watch for signs of heat-related dryness on sunny afternoons.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[1:54 PM] Applied light shower to rehydrate the tray."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray with dense seedlings, bright green color, and visibly dry soil surface under full sun.",
+          "tags": "arugula, seedlings, tray, dry-soil, growth, sun"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:10 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "6.25",
+        "ec_mScm": "0.01",
+        "salt_mg_L": "6",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "0.5",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain dense, bright, and upright with early true leaves continuing to develop. The canopy is noticeably fuller than the day before. The soil surface is extremely dry, matching the zero moisture reading and the difficulty inserting the probe. Despite the dryness, seedlings have not yet wilted, but the upper root zone is at risk of stress if not rehydrated. No yellowing, pests, or signs of nutrient deficiency are present.",
+      "actions": "A moderate watering is recommended to rehydrate the top 1–1.5 inches of soil without oversaturating the tray. No fertilizer or pH adjustment applied, as readings are ideal for seedlings.",
+      "next_steps": "Recheck moisture later today to ensure the watering hydrated the upper root zone evenly. Continue monitoring pH for stability and maintain full sun exposure while watching for heat-related drying.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:19 AM] Applied moderate watering according to recommendations."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray with dense seedlings under partial sun and visibly dry soil surface.",
+          "tags": "arugula, seedlings, tray, dry-soil, growth"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:29 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "7.66",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "48",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "81.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain dense, bright green, and vigorous with upright posture. Early true-leaf development is beginning and the canopy is filling evenly. No visible stress, wilting, or yellowing is present. The previously thin or stressed patch is now nearly indistinguishable as growth has thickened. Moisture level is moderate, and pH is slightly alkaline but not causing visible issues.",
+      "actions": "No watering or fertilizer applied because moisture is adequate and fertility is appropriate for seedlings. No pH correction applied while soil remains evenly moist.",
+      "next_steps": "Recheck moisture in the morning to track overnight drying. Continue full-sun exposure while monitoring for heat stress on warmer days. If pH remains in the mid–high 7s after the next irrigation cycle, consider a light acidifying watering.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray with dense, healthy seedlings under full sun and early true-leaf formation.",
+          "tags": "arugula, seedlings, tray, growth, sun"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:25 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "7.83",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "58",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "91.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain dense, bright green, and upright with the canopy approaching a full baby-leaf cover. Early true leaves are visible. Soil appears dry and loose, matching the probe reading indicating no measurable moisture. No yellowing, burn, or pest signs observed. The older thinning-stress patch is still present but stable.",
+      "actions": "Applied a controlled watering to rehydrate the full root zone, using two passes to ensure proper absorption. No fertilizer or pH correction applied due to current dryness levels and seedling growth stage.",
+      "next_steps": "Recheck moisture later in the afternoon and again tomorrow morning. Consider mild shade during peak heat if leaves show stress. Plan a pH recheck when soil is evenly moist.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray with dense seedlings and dry soil surface under bright midday sun.",
+          "tags": "arugula, seedlings, tray, sun"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:39 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.24",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "68",
+        "moisture_mScm": "57.00",
+        "light": "94",
+        "rh_percent": "69",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings are very dense and bright green with upright posture, and early true leaves are beginning to appear across the tray. Soil surface is visibly wet, matching the very high moisture reading, with no signs of wilting, yellowing, or pest damage. The small thinning-stress patch near the label remains stable and does not affect overall vigor.",
+      "actions": "No watering or fertilizer applied today because moisture is extremely high and plants look healthy. Tray is kept in full sun while avoiding further disturbance in the most crowded zones.",
+      "next_steps": "Recheck soil moisture later and only water again if levels drop into the 3–4 range. Continue normal sun exposure and provide cold protection if nighttime temperatures approach 45°F.",
+      "q_and_a_summary": "Discussed whether inserting a probe into the crowded seedlings would rip them. Explanation that a few seedlings might be disturbed but the overall tray would be fine, with recommendations to probe at edges, gaps, or shallow angles to minimize root disturbance.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray showing dense, vigorous seedlings.",
+          "tags": "arugula, seedlings, tray, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe being inserted into the Arugula tray, demonstrating tight spacing between seedlings.",
+          "tags": "arugula, probe, spacing, seedlings"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:02 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.57",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "15.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "64.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings are vigorous and evenly distributed with bright green cotyledons and upright growth. Canopy density has increased since earlier readings and the previous thinning-stress patch is less noticeable relative to the rest of the tray. Soil surface appears moist, consistent with the high moisture reading, and there are no signs of stress or pest issues.",
+      "actions": "No watering or fertilizer applied because moisture is still high and plants appear healthy. Tray is kept in full sun under mild temperatures.",
+      "next_steps": "Recheck soil moisture later in the day and water only if levels drop toward the 3–4 range. Retest pH within the next day to confirm stability and continue cold protection if temperatures drop near 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray with dense, healthy seedlings.",
+          "tags": "arugula, seedlings, growth, tray"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:05 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "9.93",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "25",
+        "moisture_mScm": "8.00",
+        "light": "98",
+        "rh_percent": "61",
+        "fertility_percent": "2.5",
+        "soil_temp_f": "62.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tray is densely filled with bright green seedlings that look upright and evenly distributed. A small pale patch near the label reflects earlier thinning stress but is stable and not spreading. Soil is fully moist from recent watering, and plant appearance does not show any symptoms of extremely high pH despite the probe reading.",
+      "actions": "No additional watering or fertilizer applied because soil is already saturated and plants appear healthy. No pH correction performed, as the reading is likely skewed by wet conditions or probe residue.",
+      "next_steps": "Allow the soil surface to dry slightly before the next watering and retest pH under less saturated conditions. Maintain full sun exposure and continue to protect from cold nights if temperatures approach 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray showing dense seedling growth.",
+          "tags": "arugula, seedlings, growth, tray"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:24 AM",
+      "conditions": "67°F, in shade but expected to be sunny within about 20 minutes.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Green (just into range)",
+        "moisture": "6 (green, ideal)",
+        "ph": "6–7 (green, ideal)"
+      },
+      "observations": "Seedlings are thickening nicely across the tray with bright, healthy green coloration and upright posture. The pale cluster near the label matches the earlier thinning-stress area but is not worsening. Soil appears evenly moist and well-aerated, with no signs of dryness, wilting, or pests.",
+      "actions": "No watering or fertilizer applied because analog readings and soil appearance indicate ideal conditions. Tray is left to move into full sun once the shade period ends.",
+      "next_steps": "Recheck moisture later in the day and water only if it drops toward the dry range. Maintain full sun exposure and continue providing cold protection when night temperatures are forecast near 45°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray with dense, evenly green seedlings.",
+          "tags": "arugula, seedlings, tray, growth"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:05 AM",
+      "conditions": "65°F, full sun.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (low)",
+        "moisture": "Red (dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "Tray is filled with young seedlings showing generally good color but growing in soil that is very dry at the surface. Analog readings indicate low fertility, dryness, and an alkaline pH, though plants are still standing upright. New growth from reseeding is visible and filling in previously thin areas.",
+      "actions": "Applied deep soaking after readings, and added additional water when the surface still appeared very dry. No fertilizer or pH correction applied yet, pending response to improved moisture.",
+      "next_steps": "Recheck moisture later the same day to ensure water has penetrated through the root zone and that the surface is no longer bone dry. Monitor pH in future readings and plan a light acidifying watering if alkaline readings persist once moisture is stable.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray after deep watering, with many young seedlings.",
+          "tags": "arugula, seedlings, watering, tray"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:35 PM",
+      "conditions": "Full sun in mid-afternoon; temperature not recorded, brought indoors the previous night for cold protection.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "Top inch bone dry with slight moisture just below",
+        "ph": ""
+      },
+      "observations": "Reseeded tray shows a lot of fresh, even new growth despite earlier thinning damage, with many small seedlings emerging across the surface. The top inch of soil is bone dry, with only a little moisture detectable slightly deeper. Plants do not yet show severe stress but are at risk of drying out if not re-watered.",
+      "actions": "Applied light watering to re-moisten the top layer of soil while preserving the new seedlings and avoiding over-saturation. Continued to protect the tray from cold by bringing it indoors overnight as needed.",
+      "next_steps": "Monitor moisture closely over the next day to ensure the top layer does not return to bone-dry conditions. Continue gentle watering as needed while seedlings establish and maintain cold protection on chilly nights.",
+      "q_and_a_summary": "Confirmed that reseeding and potting mix were added on November 5, 2025.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Arugula tray showing fresh new seedlings after reseeding.",
+          "tags": "arugula, seedlings, reseeding, tray"
+        }
+      ]
+    }
+  ]
+}

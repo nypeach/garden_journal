@@ -1,0 +1,420 @@
+{
+  "id": "scallions_001",
+  "status": "Active",
+  "plant": "Scallions",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 8",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Scallions planted on Nov 12, 2025 from grocery scallion bottoms.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" front and back.",
+    "Shared with Siberian Hardneck, Music Hardneck, Chesnok Red Hardneck."
+  ],
+  "whats_been_logged": "The focus has shifted from monitoring early upright clump formation and pH correction to tracking the first full cut-down harvest, improved soil aeration, and the beginning of the post-harvest regrowth cycle. Current attention is on the emergence of new shoots and maintaining balanced moisture as the planter transitions into repeat-harvest growth.",
+  "current_stage": "Post-harvest regrowth cycle",
+  "current_state": "The planter now contains freshly cut scallion bases with clean cut surfaces and healthy green centers already beginning to emerge. The soil surface has improved aeration after light fluffing and filling of probe holes, and the scallion clumps appear firm, hydrated, and poised for rapid regeneration.",
+  "timeline": [
+    {
+      "stage": "Rooting and sprout regrowth from planted bottoms",
+      "date_range": "Nov 12 - Nov 20, 2025"
+    },
+    {
+      "stage": "Established scallion clumps",
+      "date_range": "Nov 21 - Dec 8, 2025"
+    },
+    {
+      "stage": "First full cut-down harvest completed",
+      "date_range": "Dec 9, 2025"
+    },
+    {
+      "stage": "Post-harvest regrowth cycle (new shoots emerging)",
+      "date_range": "Dec 9 - Dec 20, 2025"
+    },
+    {
+      "stage": "Ongoing cut-and-come-again harvests",
+      "date_range": "Dec 21, 2025 - Mar 1, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:47 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.95",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "48.50",
+        "light": "91",
+        "rh_percent": "58",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "66.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The scallion bases remain healthy and firm following a full cut-down harvest. New centers are already visible in several clumps, indicating active regrowth. The added Miracle-Gro Moisture Control Potting Mix has noticeably improved soil aeration and texture, and probe readings are now stable and consistent. Cut surfaces show typical post-harvest appearance with clean edges and no signs of rot or fungal issues. Soil moisture is balanced, and no scallion bases appear stressed despite the reshaping of the topsoil.",
+      "actions": "Do not water today as moisture levels are ideal and rainfall is expected. Avoid fertilizer or lime while the scallions rebound from the full harvest and settle into the improved soil structure. Leave the scallion bases undisturbed to allow new shoots to develop.",
+      "next_steps": "Expect visible upward growth from new shoots within the next 24–48 hours. Recheck probe values tomorrow morning after the forecasted showers. Plan for the next light feeding only after new foliage reaches approximately 3 inches in height.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:30 AM] Fluffed compacted topsoil, filled probe holes, added Miracle-Gro Moisture Control Potting Mix, and cut all scallions down to their bases."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of freshly cut scallion bases showing clean cuts and new green centers beginning to emerge.",
+          "tags": "scallions, cut-regrowth, bases, new-shoots"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:54 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.73",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "135",
+        "moisture_mScm": "66.00",
+        "light": "97",
+        "rh_percent": "63",
+        "fertility_percent": "14.4",
+        "soil_temp_f": "76.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions show strong color and healthy bases throughout the shared planter. Moisture is now evenly restored following yesterday’s watering, and pH has stabilized in an ideal range for active regrowth. Several older leaves remain bent from previous dryness, but emerging inner shoots are upright and vigorous. No signs of disease, rot, or pest activity are visible, and overall the scallions appear balanced and resilient.",
+      "actions": "Do not water today as soil moisture is ideal and rain is expected. Avoid applying fertilizer or lime; nutrient availability is sufficient and pH is stable. Leave all foliage undisturbed, allowing new upright shoots to continue developing.",
+      "next_steps": "Recheck moisture tomorrow morning after rainfall. Expect continued upright growth from new shoots. Begin light cut-and-come-again harvesting once shoots reach 3–5 inches and feel firm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scallions showing upright new growth with older leaves still bent from previous dry conditions.",
+          "tags": "scallions, growth, planter, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:41 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "6.26",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "30.00",
+        "light": "97",
+        "rh_percent": "52",
+        "fertility_percent": "4.4",
+        "soil_temp_f": "89.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions in the shared window box show healthy color and firm bases, but several shoots are leaning outward or lying over the planter edge, reflecting uneven dryness in the soil. Two probe zones were too dry to register moisture, and pH variation indicates incomplete probe contact rather than true soil shifts. The foliage remains blue-green with no tip burn or yellowing, and overall the plants appear resilient despite the dry pockets.",
+      "actions": "Apply a light, even watering to rehydrate the scallion rows without saturating the garlic zones, using approximately 1/2 cup per scallion row section poured slowly to restore moisture balance. Do not apply fertilizer or lime today.",
+      "next_steps": "Recheck moisture tomorrow morning once the soil has rehydrated and stabilized. Watch for scallion leaves to regain upright posture within several hours. Allow tomorrow's expected showers to supplement today's light watering.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scallions showing outward-leaning foliage due to uneven soil dryness within the shared planter.",
+          "tags": "scallions, dryness, foliage, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:29 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.48",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133.7",
+        "moisture_mScm": "46.0",
+        "light": "97",
+        "rh_percent": "48",
+        "fertility_percent": "14.3",
+        "soil_temp_f": "91.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions throughout the garlic window box continue to show healthy upright regrowth. Moisture levels across the planter are well-balanced from yesterday's watering, and there are no signs of yellowing, wilt, or stress. Surface lime continues to cause occasional extreme probe readings, but the true soil pH is stabilizing near the mildly acidic to near-neutral range appropriate for scallions. One scallion shows a hooked or curled-over posture, but this is typical of regrowth from cut bases and will self-correct as the shoot elongates. Garlic companions remain vigorous and are not competing with scallions for space.",
+      "actions": "No watering or fertilizing today. Left the curled scallion undisturbed to allow natural correction.",
+      "next_steps": "Monitor moisture tomorrow morning and watch the curled scallion for natural upward correction. Begin light cut-and-come-again harvesting once shoots reach 3–5 inches and thicken later this week.",
+      "q_and_a_summary": "User asked whether a scallion curling into the soil required intervention; confirmed this is normal regrowth behavior and will self-correct without action.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overview of scallions and garlic across the window planter with visible lime residue and healthy vertical regrowth.",
+          "tags": "scallions, garlic, window-planter, overview, lime"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of curled scallion showing typical hooked regrowth posture that will self-correct as the shoot elongates.",
+          "tags": "scallions, regrowth, curled-shoot, closeup"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:57 AM",
+      "conditions": "Sunny with a high around 84°F and overnight low near 60°F.",
+      "digital_probe": {
+        "ph": "6.81",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "99.7",
+        "moisture_mScm": "22.7",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "10.6",
+        "soil_temp_f": "76.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions across the shared garlic planter continue steady and healthy regrowth with upright foliage and no signs of stress. Soil pH assessments show wide variation due to surface lime contact, but underlying conditions indicate an ongoing and expected upward correction from prior acidity. Moisture is lower than previous days but still adequate, and scallions show no wilt or dryness. Garlic companions remain vigorous, and the planter overall appears balanced and stable.",
+      "actions": "No fertilizer applied. Allowed lime to continue integrating. Watered the entire planter late morning to correct drying and support both scallions and garlic.",
+      "next_steps": "Recheck moisture tomorrow morning. Expect pH readings to stabilize further as surface lime dissolves. Light cut-and-come-again harvests may begin once shoots reach 3–5 inches and thicken over the coming week.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:11 AM] Watered the whole planter as directed in the garlic conversation."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overview of scallions and garlic in the window planter; residual lime visible across surface soil.",
+          "tags": "scallions, garlic, window-planter, lime, overview"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:27 PM",
+      "conditions": "Sunny with a high of 84°F and overnight low around 60°F.",
+      "digital_probe": {
+        "ph": "5.38",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "84",
+        "moisture_mScm": "33",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "8.4",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions across the shared garlic planter continue to show healthy upright regrowth with no signs of stress. Soil conditions have improved following lime application earlier in the week, with pH rising from highly acidic toward a more moderate range. Moisture levels remain adequate in warm sunny weather, and the scallion clumps coexist well with emerging Siberian, Music, and Chesnok Red garlic. No yellowing, wilt, or fungal issues are visible.",
+      "actions": "No watering or fertilizer applied today. Continue monitoring moisture in warm conditions and allow lime to keep integrating toward pH stability.",
+      "next_steps": "Recheck soil moisture tomorrow morning and expect further pH improvement over the next 24–48 hours. Begin light cut-and-come-again harvesting once scallion shoots reach 3–5 inches in height.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overview of scallions and garlic growing together in the window planter with lime visible on the soil surface.",
+          "tags": "scallions, garlic, window-planter, lime, overview"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "12:00 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions in the front and back of the window box continue to show even regrowth with upright green leaves and no visible stress following the prior day's lime application. Foliage color is strong and the shared space with garlic remains balanced without overcrowding from the remaining clumps.",
+      "actions": "No lime or fertilizer applied today. Water only if the top inch of soil begins to dry in the afternoon warmth, avoiding overwatering now that pH correction is underway.",
+      "next_steps": "Recheck soil moisture the following morning and continue monitoring foliage vigor. Plan for light cut-and-come-again harvests once shoots thicken and reach several inches of healthy growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overall view of scallions front and back of the garlic window box after pH correction began.",
+          "tags": "scallions, window-box, overview, garlic-companion"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "09:31 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.70",
+        "ec_mScm": "0.06-0.12",
+        "salt_mg_L": "31",
+        "moisture_mScm": "3-4",
+        "light": "97-99",
+        "rh_percent": "62",
+        "fertility_percent": "4",
+        "soil_temp_f": "72"
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "green",
+        "ph": "acidic"
+      },
+      "observations": "Scallions show strong regrowth with healthy green leaves and firm bases across the window box. One scallion is growing too close to a Chesnok Red garlic sprout, posing competition for bulb space, while the rest of the scallion clumps are well positioned and thriving in the shared planter.",
+      "actions": "Water lightly due to warming temperatures, apply garden lime to help correct acidic soil, and relocate the single scallion that is too close to the Chesnok Red garlic sprout to prevent crowding.",
+      "next_steps": "Recheck moisture in the afternoon and monitor foliage response to lime over the next 24 hours. Continue to ensure scallion clumps do not encroach on developing garlic bulbs.",
+      "q_and_a_summary": "User asked whether only one scallion needed to be moved away from Chesnok Red garlic; confirmed that a single scallion near the Chesnok sprout should be relocated.",
+      "follow_up": [
+        "[11:07 AM] Soil was watered unexpectedly; confirmed lime can still be applied safely to moist soil.",
+        "[3:04 PM] Lime was added to the planter."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Entire planter showing scallion distribution in front and back of the garlic rows.",
+          "tags": "scallions, box-overview, garlic-companion"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of scallion regrowth with upright green shoots.",
+          "tags": "scallions, shoots, regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scallion growing immediately beside a Chesnok Red garlic sprout that needs relocation.",
+          "tags": "scallions, garlic-proximity, crowding"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "08:55 AM",
+      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.18",
+        "ec_mScm": "0.15-0.22",
+        "salt_mg_L": "78",
+        "moisture_mScm": "34",
+        "light": "98-99",
+        "rh_percent": "60",
+        "fertility_percent": "12",
+        "soil_temp_f": "71"
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "green",
+        "ph": "acidic"
+      },
+      "observations": "Scallions across the planter show strong early regrowth with clear green centers emerging from the planted bottoms. Soil moisture is moderate and consistent despite warming daytime temperatures, and no pest or disease issues are visible in the foliage or soil surface.",
+      "actions": "Provide a light watering today due to warming conditions, avoiding overwatering, and do not fertilize yet while roots are still re-establishing and new foliage is forming.",
+      "next_steps": "Recheck moisture in the afternoon and expect continued shoot elongation and thickening within the next 24 hours as regrowth accelerates.",
+      "q_and_a_summary": "User asked whether grouped logs and photos were sufficient to track scallion progress; confirmed that the combined zone readings and images are enough for accurate logging.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scallion regrowth across the entire planter showing new green centers.",
+          "tags": "scallions, regrowth, allium"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:10 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.6-5.0",
+        "ec_mScm": "0.23-0.37",
+        "salt_mg_L": "117-185",
+        "moisture_mScm": "48-57",
+        "light": "97-99",
+        "rh_percent": "60-61",
+        "fertility_percent": "12-21",
+        "soil_temp_f": "61"
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "green",
+        "ph": "acidic"
+      },
+      "observations": "Scallions are firmly rooted and actively producing new central shoots from the planted bottoms. Growth points are bright green with no signs of rot, wilt, or tip burn, and soil moisture appears even and well distributed throughout the shared garlic planter.",
+      "actions": "Apply dolomitic lime across the entire planter to begin correcting the acidic pH, and avoid applying fertilizer at this early regrowth stage. Do not add additional water immediately after lime since soil moisture is already adequate.",
+      "next_steps": "Expect visible shoot elongation within 24–48 hours as regrowth continues. Recheck both pH and moisture the following morning and plan to introduce fertilizer only after shoots reach 2–3 inches in height.",
+      "q_and_a_summary": "User asked how the scallions looked alongside the garlic; confirmed that they appear healthy and are regrowing normally from the planted bottoms.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scallions showing new growth from planted grocery-store bottoms at the front of the box.",
+          "tags": "scallions, regrowth, front-row"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "9:38 AM",
+      "conditions": "Cool, full sun morning around 63°F with likely upper-50s overnight lows.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "red (wet after watering)",
+        "ph": "8 alkaline"
+      },
+      "observations": "Scallion bottoms from the grocery store were newly planted in the front and back of the garlic window box. At planting time there was no green regrowth yet, soil initially tested very dry at the surface, and pH registered in the alkaline range before adjustments.",
+      "actions": "After planting, the bed was soaked thoroughly to bring moisture up from very dry toward evenly moist conditions. No fertilizer or pH amendments were added at this first planting step.",
+      "next_steps": "Recheck moisture later in the day to ensure the soil is not waterlogged and begin watching for the first signs of new green growth over the coming days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Newly planted scallion bottoms in the front of the garlic window box.",
+          "tags": "scallions, planting, front-row"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Whole planter view showing garlic positions with scallions in front and back rows.",
+          "tags": "scallions, garlic, window-box, layout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "id": "garlic_003",
+  "status": "Active",
+  "plant": "Chesnok Red Hardneck",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 8",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Vernalized the garlic for 6 weeks prior to planting.",
+    "Planted in mid-November 2025 in black planter 23.5\" × 7.85\" × 6\" right section",
+    "Shared with Siberian Hardneck, Music Hardneck, and Scallions."
+  ],
+  "whats_been_logged": "Early Chesnok Red emergence showed strong shoot growth in moist soil with low but improving pH. Lime application helped correct acidity, and a competing scallion near one sprout was identified for relocation to prevent crowding. Multiple shoots have emerged vigorously with upright green leaves as moisture and pH conditions stabilized.",
+  "current_stage": "Early top growth (shoots 1–3 inches above soil)",
+  "current_state": "Multiple Chesnok Red shoots are up and growing strongly with upright green leaves and only mild soil acidity remaining after planned lime application and careful watering. A competing scallion near one sprout has been identified for relocation to prevent crowding.",
+  "timeline": [
+    {
+      "stage": "Vernalization complete (6+ weeks in fridge)",
+      "date_range": "Sep 21 - Nov 15, 2025"
+    },
+    {
+      "stage": "Early top growth (shoots 1–3 inches)",
+      "date_range": "Nov 17 - Nov 23, 2025"
+    },
+    {
+      "stage": "Strong winter foliage established",
+      "date_range": "Jan 1 - Jan 31, 2026"
+    },
+    {
+      "stage": "Scapes for cutting and eating",
+      "date_range": "Mar 1 - May 1, 2026"
+    },
+    {
+      "stage": "Bulb harvest window",
+      "date_range": "May 20 - Jun 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:52 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.89",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "87",
+        "moisture_mScm": "51.00",
+        "light": "99",
+        "rh_percent": "57",
+        "fertility_percent": "8.5",
+        "soil_temp_f": "66.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows upright, turgid, and uniformly green blades with no symptoms of alkaline stress despite an outlier pH reading of 8.89. Soil structure appears improved after fluffing and adding Miracle-Gro Moisture Control Potting Mix, reducing compaction and smoothing the probe hole. The moisture level is moderate and stable, and all other readings fall within normal safe ranges. The elevated pH is most consistent with probe contact on a lime pocket or freshly amended soil rather than true root-zone alkalinity.",
+      "actions": "Do not adjust pH or fertilize today. Avoid disturbing the soil further and allow the newly added potting mix to settle naturally. Do not water, as incoming rain will maintain adequate moisture.",
+      "next_steps": "Recheck moisture and pH tomorrow midday once the soil equilibrates after rain and the amendment settles. Expect pH to normalize into the typical range. Monitor leaf posture for any unexpected softening or discoloration.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red garlic with firm upright blades and freshly loosened soil after adding Miracle-Gro Moisture Control Potting Mix.",
+          "tags": "garlic, chesnok_red, soil_amendment, vegetative_growth"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:56 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.76",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "153",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "16.7",
+        "soil_temp_f": "76.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows vigorous, upright growth with firm green blades and no signs of stress. The soil is evenly moist, matching the mid-range moisture reading. A slight rise in salt and fertility levels is expected following rehydration and remains well within a safe range. Leaf posture indicates ideal hydration with no signs of overwatering or nutrient imbalance.",
+      "actions": "Do not water today. Avoid fertilizing or adjusting pH. Allow incoming rain and natural evaporation to manage moisture levels.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon once rains pass. Water only when moisture readings fall below ~40 mS/cm and leaf firmness softens.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red garlic showing upright, turgid blades and evenly moist soil following rehydration.",
+          "tags": "garlic, chesnok_red, shoots, vegetative_growth, container_gardening"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:44 PM",
+      "conditions": "Patchy morning fog followed by sunny conditions with a high near 86°F. Light south wind 5–8 mph. Overnight low expected around 66°F.",
+      "digital_probe": {
+        "ph": "6.36",
+        "ec_mScm": "0.01",
+        "salt_mg_L": "6",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "0.5",
+        "soil_temp_f": "88.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Garlic shows strong upright growth with firm, green leaves and no signs of drought stress, despite the probe reading 0 moisture. The S-06 reading reflects a dry surface layer rather than true root-zone dryness. Plant posture indicates adequate hydration.",
+      "actions": "Do not water today. Moisture at the root zone remains sufficient. No fertilizer, pH adjustment, or treatments needed.",
+      "next_steps": "Check moisture again tomorrow late morning. Water only when mid-day moisture readings fall into the low 40s or below, or if plant posture begins to soften.",
+      "q_and_a_summary": "User asked whether watering was needed given probe dryness and warm, sunny weather. Confirmed that watering is not needed because the reading reflects surface dryness only and the plant shows no signs of dehydration.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with upright, healthy leaves and no sign of drought stress even as the topsoil appears dry.",
+          "tags": "garlic, chesnok_red, shoots, vegetative_growth, container_gardening"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "4:54 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight. Soil was bone-dry by 2:00 PM; user watered and took readings approximately 2 hours later.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "129",
+        "moisture_mScm": "100.00",
+        "light": "66",
+        "rh_percent": "53",
+        "fertility_percent": "13.3",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows vigorous upright growth with deep green leaves and strong posture. The earlier bone-dry conditions were corrected by watering, and the post-watering probe reading reflects localized saturation rather than overall soil waterlogging. No signs of stress, disease, or nutrient imbalance are visible.",
+      "actions": "Do not water again today. Allow the soil to redistribute moisture naturally overnight. No fertilizer, pH adjustment, or treatments needed.",
+      "next_steps": "Expect moisture to settle into the mid-range by tomorrow morning. Continue monitoring leaf firmness and growth direction. Water next when mid-day moisture readings fall below ~40–45 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with upright, healthy foliage after rehydrating previously bone-dry soil.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, container_gardening"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:34 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.60",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "19",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "88.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic displays strong upright leaves and healthy top growth. The probe reported 0 moisture due to a dry surface layer, but plant posture shows no drought stress. Soil is visibly dry on top but not depleted at root depth.",
+      "actions": "Water lightly today with 1/2 cup total for the garlic section to rehydrate the root zone without oversaturating. Continue filling probe holes after readings.",
+      "next_steps": "Expect moisture to rise into the moderate range by tomorrow morning. No fertilizer, pH adjustment, or treatments needed.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with upright, healthy leaves despite a dry top layer of soil.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, container_gardening"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:50 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "5.18",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "162",
+        "moisture_mScm": "56.00",
+        "light": "97",
+        "rh_percent": "64",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "73.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck continues to display vigorous early vegetative growth with upright leaves and no signs of stress. Moisture is at a healthy mid-range level following recent weather.",
+      "actions": "Do not water today. Avoid fertilizer and pH adjustments. No treatments needed.",
+      "next_steps": "Recheck moisture tomorrow morning and continue monitoring leaf firmness and color.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with tall, upright leaves showing strong vegetative growth in partly cloudy weather.",
+          "tags": "garlic, chesnok_red, shoots, vegetative_growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:15 PM",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s°F through the afternoon, dropping to 69°F overnight. Possible light showers around 6 PM.",
+      "digital_probe": {
+        "ph": "5.34",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "149",
+        "moisture_mScm": "80.00",
+        "light": "61",
+        "rh_percent": "77",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "79.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows strong upright growth with healthy green leaves and no signs of stress. Soil moisture remains elevated due to humidity and cloud cover but is not excessive.",
+      "actions": "Do not water today. No fertilizer, pH adjustments, or treatments needed.",
+      "next_steps": "Allow soil to dry naturally overnight and reassess moisture in the morning.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Healthy upright Chesnok Red Hardneck shoots with strong green foliage in late-day light.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "1:50 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "5.40",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "186",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "77.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck continues to develop strong early vegetative growth with upright leaves. Moisture is elevated due to watering earlier in the morning. Plants show no signs of stress.",
+      "actions": "No further watering today. No fertilizer or treatment required.",
+      "next_steps": "Monitor moisture tomorrow morning; expect readings to fall toward moderate levels.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with upright vegetative growth and healthy foliage in bright afternoon light.",
+          "tags": "garlic, chesnok_red, shoots, vigorous_growth"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:37 AM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.47",
+        "ec_mScm": "0.53",
+        "salt_mg_L": "267",
+        "moisture_mScm": "60.00",
+        "light": "87",
+        "rh_percent": "51",
+        "fertility_percent": "32.0",
+        "soil_temp_f": "62.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows vigorous early top growth with upright, healthy green leaves and no signs of stress. Soil moisture is moderately high following recent weather, and fertility readings are temporarily elevated from mineral concentration as the soil dries.",
+      "actions": "Do not water today. Avoid trimming leaves, as all current growth is normal foliage and essential for energy production.",
+      "next_steps": "Recheck moisture tomorrow as conditions continue to dry. Continue monitoring leaf firmness and color.",
+      "q_and_a_summary": "User asked whether large leaves should be trimmed and whether scapes were forming. Confirmed the leaves should not be trimmed and that no scapes are present.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic displaying strong upright leaves and healthy early vegetative growth.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, alliums"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of foliage showing normal flat garlic leaves with no sign of scape formation.",
+          "tags": "garlic, chesnok_red, leaf_structure, vegetative_growth"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "11:25 AM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight. Rain expected around 6 PM. A light rain occurred shortly after the reading.",
+      "digital_probe": {
+        "ph": "5.16",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "212",
+        "moisture_mScm": "100.00",
+        "light": "96",
+        "rh_percent": "67",
+        "fertility_percent": "24.7",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows healthy early top growth with upright green shoots and no signs of stress. Soil was fully saturated from recent rainfall, and minor soil depression from probe use was corrected by adding fresh soil around the plants.",
+      "actions": "Do not water today. Allow natural rainfall and current moisture levels to carry the plant through the evening.",
+      "next_steps": "Expect elevated moisture levels tomorrow. Continue checking soil structure and leaf firmness as conditions dry.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with firm upright shoots and freshly leveled soil around the plants.",
+          "tags": "garlic, chesnok_red, shoots, soil_adjustment, alliums"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of soil leveling after filling probe-created pockets to support root structure.",
+          "tags": "garlic, chesnok_red, soil_structure, container_gardening"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:51 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4 PM. A light rain occurred shortly after the reading.",
+      "digital_probe": {
+        "ph": "5.11",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "91",
+        "moisture_mScm": "54.00",
+        "light": "88",
+        "rh_percent": "60",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "79.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck displays healthy early top growth with upright green shoots and no signs of stress. Soil moisture is moderately high and appropriate given conditions, with a light rain adding to the natural hydration shortly after the reading.",
+      "actions": "Do not water or fertilize today. Allow incoming rainfall to supply moisture and leave the soil undisturbed.",
+      "next_steps": "Expect elevated moisture levels tomorrow after projected thunderstorms. Continue monitoring shoot elongation and leaf firmness.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with strong upright shoots and healthy coloration before incoming storms.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:03 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 65°F overnight. Soil was watered at 2:33 PM; reading taken 1.5 hours later.",
+      "digital_probe": {
+        "ph": "5.29",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "87",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "8.5",
+        "soil_temp_f": "83.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows healthy early top growth with upright green shoots and no signs of stress. Soil moisture is elevated from the 2:33 PM watering but remains within a normal range for post-watering conditions.",
+      "actions": "No additional watering is needed today. Do not fertilize or adjust pH.",
+      "next_steps": "Recheck moisture tomorrow as the soil naturally dries. Continue monitoring shoot elongation.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with upright leaves and healthy early top growth under full sun.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:32 AM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "158",
+        "moisture_mScm": "80.00",
+        "light": "89",
+        "rh_percent": "56",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "79.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows healthy early top growth with upright, firm, green shoots and no signs of stress. Soil was very dry this morning and appears properly rehydrated after a light watering. Elevated salt and fertility readings are expected due to minerals dissolving into solution shortly after watering.",
+      "actions": "No further watering needed today. Do not fertilize or adjust pH. Allow soil to dry naturally.",
+      "next_steps": "Recheck moisture tomorrow as the soil equilibrates. Continue monitoring shoot elongation and overall vigor.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic displaying strong upright shoots and healthy coloration after morning watering.",
+          "tags": "garlic, chesnok_red, shoots, early_growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:29 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "10.17",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "107",
+        "moisture_mScm": "50.00",
+        "light": "94",
+        "rh_percent": "49",
+        "fertility_percent": "10.7",
+        "soil_temp_f": "89.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic continues to show vigorous early top growth with tall, upright, green shoots and no signs of stress. Soil is fully saturated from recent watering, causing darker coloration and the elevated moisture reading. The extremely high pH reading of 10.17 is almost certainly a probe anomaly caused by contact with a lime pocket or oversaturated soil, as the plant shows no symptoms consistent with alkaline stress. Salt, EC, and fertility values are elevated due to recent water dissolving surface lime and minerals into solution, but remain non-harmful. Overall plant health remains excellent.",
+      "actions": "Do not adjust pH or fertilize. Allow soil to dry slightly before the next watering. Continue to provide full sun exposure.",
+      "next_steps": "Recheck moisture and pH tomorrow once the soil has partially dried. Continue monitoring shoot elongation and overall vigor.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic showing upright healthy shoots and vigorous early top growth under sunny conditions.",
+          "tags": "garlic, chesnok-red, shoots, early-growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:56 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "5.93",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "47",
+        "moisture_mScm": "5.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows strong and healthy early top growth with upright green leaves and no signs of stress or nutrient deficiency. Soil moisture is extremely low today, consistent with the dry weather and container exposure, but the plant has not yet begun to wilt. pH continues to improve toward the ideal range after earlier lime applications.",
+      "actions": "Apply ½ cup of water distributed gently around the shoots. Do not fertilize or adjust soil chemistry today. Maintain normal sunlight exposure.",
+      "next_steps": "Recheck moisture tomorrow to confirm recovery into the ideal slightly-dry range. Continue monitoring shoot elongation and overall vigor as pH stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:04 AM] Applied ½ cup of water to rehydrate the Chesnok Red zone."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic showing multiple upright shoots with healthy early growth under mostly cloudy conditions.",
+          "tags": "garlic, chesnok-red, shoots, early-growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:27 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.77",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "22.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck shows strong early top growth with upright green blades, firm stems, and no signs of stress. Soil remains slightly acidic but improving steadily after lime applications. Moisture is moderate and appropriate for garlic at this stage, and the plant shows healthy coloration with no yellowing or tip burn.",
+      "actions": "No watering required today. Leave soil chemistry unchanged and continue full sunlight exposure. Maintain normal monitoring.",
+      "next_steps": "Recheck moisture tomorrow to confirm it remains in the ideal slightly-dry range. Continue observing leaf elongation and overall vigor as pH stabilizes toward the target range.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic with multiple upright green shoots showing vigorous, healthy early growth.",
+          "tags": "garlic, chesnok-red, shoots, early-growth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "12:25 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "59",
+        "moisture_mScm": "15.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows strong, upright, vigorous green shoots with healthy coloration and no signs of stress. Soil surface appears normal with typical perlite and lime residue. Moisture level is very low, while pH and nutrient levels are ideal for garlic at this stage.",
+      "actions": "Apply light watering with approximately 1/2 cup distributed around the shoots. Do not fertilize. Leave pH and nutrients unchanged. Maintain full sunlight exposure.",
+      "next_steps": "Recheck moisture within 24 hours to ensure it returns to the optimal range. No cover needed tonight. Continue monitoring leaf growth and soil dryness.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red Hardneck garlic showing multiple healthy green shoots emerging with firm stems and proper spacing.",
+          "tags": "garlic, chesnok-red, healthy-shoots, seedling-stage, raised-bed"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:34 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.89",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "55",
+        "moisture_mScm": "7.00",
+        "light": "97",
+        "rh_percent": "61",
+        "fertility_percent": "6.8",
+        "soil_temp_f": "72.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red continues to show strong early growth with upright green shoots. One scallion is growing too close to a garlic sprout and could compete for space.",
+      "actions": "Apply garden lime today to help raise pH and gently relocate the single scallion that is crowding the Chesnok Red sprout.",
+      "next_steps": "Monitor shoot elongation over the next 24 hours and confirm that the relocated scallion and Chesnok sprout both resume normal growth.",
+      "q_and_a_summary": "Confirmed that only the one scallion crowding the Chesnok sprout needs to be relocated.",
+      "follow_up": [
+        "[11:07 AM] Soil was watered unexpectedly; confirmed lime can still be applied safely to moist soil.",
+        "[3:04 PM] Applied lime evenly across the garlic and scallions planter; soil surface is dusted but not clumped."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red garlic sprouts with strong upright leaves.",
+          "tags": "garlic, chesnok-red, shoots, alliums"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scallion planted too close to a Chesnok Red sprout before relocation.",
+          "tags": "garlic, chesnok-red, scallion-proximity"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:59 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.30",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "78",
+        "moisture_mScm": "38.00",
+        "light": "98",
+        "rh_percent": "59",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "71.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red shows excellent early sprouting with multiple upright green shoots and healthy soil moisture.",
+      "actions": "Apply light watering to keep moisture even while pH continues to improve. Do not fertilize at this stage.",
+      "next_steps": "Monitor sprout elongation over the next day and continue checking pH as lime works through the soil profile.",
+      "q_and_a_summary": "Confirmed that photos can be assigned based on the labeled markers.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red sprouts with healthy early top growth.",
+          "tags": "garlic, chesnok-red, sprouts, allium"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:03 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.02",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "127",
+        "moisture_mScm": "55.00",
+        "light": "97",
+        "rh_percent": "60",
+        "fertility_percent": "13.3",
+        "soil_temp_f": "61.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red is already showing multiple strong early shoots with upright, green leaves and well-structured moist soil.",
+      "actions": "Apply a top-dress of dolomitic lime to continue raising the soil pH while keeping moisture steady.",
+      "next_steps": "Expect continued elongation of emerging blades over the next 48 hours and recheck pH after lime application begins to act.",
+      "q_and_a_summary": "Confirmed that the visible shoots on this side are true Chesnok Red garlic leaves.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red garlic sprouts emerging strongly from moist soil.",
+          "tags": "garlic, chesnok-red, sprouts, alliums"
+        }
+      ]
+    }
+  ]
+}

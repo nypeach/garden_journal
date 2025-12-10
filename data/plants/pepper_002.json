@@ -1,0 +1,669 @@
+{
+  "id": "pepper_002",
+  "status": "Active",
+  "plant": "Orange Cal Wonder",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 7",
+  "container": "Pepper Window Box (Stake 2)",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Seeds planted on Nov 12, 2025 in the left section.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" left.",
+    "Shares the window box with Scotch Bonnet and Jalapeño."
+  ],
+  "whats_been_logged": "The plant is now in an active early-seedling phase with expanding true leaves, steady moisture conditions, and well-aerated soil following recent adjustments. The plant has shown consistent daily growth, healthy leaf development, and stable soil chemistry, while monitoring has centered on moisture behavior through rain cycles and early preventive pest management across the shared container.",
+  "current_stage": "First true leaves",
+  "current_state": "Seedlings show steady early growth with widening true leaves, bright even coloration, and upright posture. The soil surface is loose and aerated after light adjustment, and there are no signs of stress, damping-off, or nutrient imbalance.",
+  "timeline": [
+    {
+      "stage": "Seeds in soil (no visible activity yet)",
+      "date_range": "Nov 12 - Nov 20, 2025"
+    },
+    {
+      "stage": "Seedlings emerge",
+      "date_range": "Nov 21 - Nov 30, 2025"
+    },
+    {
+      "stage": "First true leaves",
+      "date_range": "Dec 1 - Dec 12, 2025"
+    },
+    {
+      "stage": "Stem thickening and new leaf growth",
+      "date_range": "Dec 13, 2025 - Jan 10, 2026"
+    },
+    {
+      "stage": "Bushy vegetative stage, no buds yet",
+      "date_range": "Jan 11 - Feb 5, 2026"
+    },
+    {
+      "stage": "First blossoms appear",
+      "date_range": "Feb 6 - Feb 25, 2026"
+    },
+    {
+      "stage": "Tiny green peppers form",
+      "date_range": "Feb 26 - Mar 20, 2026"
+    },
+    {
+      "stage": "Full-sized green peppers",
+      "date_range": "Mar 21 - Apr 10, 2026"
+    },
+    {
+      "stage": "Color change begins",
+      "date_range": "Apr 11 - Apr 25, 2026"
+    },
+    {
+      "stage": "Ripe Orange Cal Wonder peppers",
+      "date_range": "Apr 26 - May 15, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/8/2025",
+      "time": "10:53 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.91",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "157",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "77.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear vigorous with widening true leaves and bright, even coloration. Leaf surfaces show healthy sheen consistent with elevated humidity. Soil is evenly damp but not waterlogged, matching the 90.00 mS/cm moisture reading. No signs of wilt, rot, fungal spotting, or damping-off. Growth is steady and well supported by warm temperatures and strong ambient light.",
+      "actions": "Do not water today. Keep soil surface loose around, but not against, the seedling stems. Maintain current sun exposure.",
+      "next_steps": "Recheck moisture tomorrow morning after the rain system passes. Water only if moisture falls below around 40 mS/cm. Continue monitoring leaf thickness and color as true leaves mature.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe screenshot showing 12/08 soil readings for Orange Cal Wonder.",
+          "tags": "probe, soil-readings, orange-cal-wonder"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Seedlings with bright expanding true leaves and evenly moist soil.",
+          "tags": "orange-cal-wonder, seedlings, planter, growth"
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "12/07/2025",
+      "time": "12:37 PM",
+      "conditions": "Sunny with a high near 86°F, patchy morning fog, light south winds 5–8 mph. Tonight partly cloudy with a low around 66°F. Tomorrow mostly sunny with a high near 87°F and a slight chance of showers.",
+      "digital_probe": {
+        "ph": "5.39",
+        "ec_mScm": "0.40",
+        "salt_mg_L": "200",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "23.3",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Seedlings show strong, healthy growth with well-developed cotyledons and expanding true leaves. Color remains bright green with no signs of stress, wilt, or nutrient deficiency. Soil moisture at 80 mS/cm reflects a comfortably moist profile following warm sunny conditions, and the soil appears evenly hydrated without pooling or anaerobic patches.",
+      "actions": "Do not water today. Current moisture level is appropriate and above the threshold for seedling watering.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture falls below 40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe screenshot showing 12/07 soil readings for Orange Cal Wonder.",
+          "tags": [
+            "probe",
+            "soil-readings",
+            "orange-cal-wonder"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Photo showing healthy seedlings with expanding true leaves under sunny midday conditions.",
+          "tags": [
+            "orange-cal-wonder",
+            "seedlings",
+            "planter",
+            "growth"
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "12/04/2025",
+      "time": "4:49 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight. Soil was fully dried out by early afternoon before watering.",
+      "digital_probe": {
+        "ph": "5.71",
+        "ec_mScm": "0.39",
+        "salt_mg_L": "199",
+        "moisture_mScm": "100.00",
+        "light": "68",
+        "rh_percent": "52",
+        "fertility_percent": "22.7",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Seedlings remain vigorous with expanding cotyledons and developing true leaves. Leaf color is bright and even. Soil was bone dry earlier in the day due to strong sun exposure, but after watering, moisture readings reflect rehydration, not waterlogging.",
+      "actions": "No additional watering today. Allow soil to oxygenate overnight.",
+      "next_steps": "Check moisture tomorrow morning; water only if moisture falls below ~40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[5:35 PM] Applied Captain Jack's Dead Bug due to flea beetle bites appearing on other pepper plants in the same window planter."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe screenshot showing 12/04 soil readings for Orange Cal Wonder.",
+          "tags": [
+            "probe",
+            "soil-readings",
+            "orange-cal-wonder"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Photo showing healthy Orange Cal Wonder seedlings after rehydration, with developing true leaves.",
+          "tags": [
+            "orange-cal-wonder",
+            "seedlings",
+            "planter",
+            "growth"
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "12/03/2025",
+      "time": "1:40 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.21",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "37.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Seedlings show healthy growth with enlarging cotyledons and emerging true leaves. Soil has transitioned out of the saturated phase and is now drying appropriately.",
+      "actions": "Water today due to moisture reading of 37 mS/cm. Apply 1/4 cup of water.",
+      "next_steps": "Recheck moisture tomorrow morning for stability in the 45–60 range.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[1:50 PM] Added 1/4 cup of water due to low moisture reading."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe screenshot showing 12/03 soil readings.",
+          "tags": [
+            "probe",
+            "soil-readings",
+            "orange-cal-wonder"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Seedlings with early true leaves after watering.",
+          "tags": [
+            "orange-cal-wonder",
+            "seedlings",
+            "planter",
+            "growth"
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "11/28/2025",
+      "time": "10:31 AM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.03",
+        "ec_mScm": "0.50",
+        "salt_mg_L": "254",
+        "moisture_mScm": "100.00",
+        "light": "91",
+        "rh_percent": "52",
+        "fertility_percent": "30.0",
+        "soil_temp_f": "64.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Seedlings remain healthy despite saturated soil from recent weather. pH is slightly low due to cool, wet conditions but still safe.",
+      "actions": "Do not water. Allow natural drying as conditions clear.",
+      "next_steps": "Recheck moisture tomorrow morning; maintain sun exposure.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot showing 11/28 readings.",
+          "tags": [
+            "probe",
+            "soil-readings",
+            "orange-cal-wonder"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Seedlings in saturated but draining soil.",
+          "tags": [
+            "pepper-box",
+            "planter",
+            "orange-cal-wonder",
+            "seedlings"
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "11/27/2025",
+      "time": "11:06 AM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F. Rainy conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.29",
+        "ec_mScm": "0.44",
+        "salt_mg_L": "220",
+        "moisture_mScm": "90.00",
+        "light": "98",
+        "rh_percent": "68",
+        "fertility_percent": "26.0",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Seedlings upright and green with early true-leaf development. Soil is moist from recent rain but draining well.",
+      "actions": "Do not water today. Protect from direct heavy rainfall if possible.",
+      "next_steps": "Recheck after storms pass.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe screenshot for 11/27.",
+          "tags": [
+            "probe",
+            "soil-readings",
+            "orange-cal-wonder"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Seedlings healthy after rain.",
+          "tags": [
+            "pepper-box",
+            "seedlings",
+            "orange-cal-wonder"
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "11/26/2025",
+      "time": "10:47 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "5.61",
+        "ec_mScm": "0.57",
+        "salt_mg_L": "288",
+        "moisture_mScm": "70.00",
+        "light": "95",
+        "rh_percent": "57",
+        "fertility_percent": "34.7",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Multiple seedlings emerging with bright green cotyledons. Soil moist but not oversaturated despite recent rain.",
+      "actions": "Do not water; prepare for thunderstorms by reducing direct exposure.",
+      "next_steps": "Recheck moisture after storm cycle.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot 11/26.",
+          "tags": [
+            "probe",
+            "soil-readings"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Photo showing multiple healthy new seedlings.",
+          "tags": [
+            "seedlings",
+            "orange-cal-wonder"
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Orange Cal Wonder",
+      "date": "11/24/2025",
+      "time": "10:44 AM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.93",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "162",
+        "moisture_mScm": "44.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "71.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observation": "Multiple seedlings newly emerged with bright green cotyledons. Soil moisture ideal.",
+      "actions": "No amendments or fertilizer. Avoid disturbing young seedlings.",
+      "next_steps": "Monitor moisture daily.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe screenshot for 11/24.",
+          "tags": [
+            "probe",
+            "soil-readings"
+          ]
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Photo of newly emerged seedlings.",
+          "tags": [
+            "seedlings",
+            "orange-cal-wonder"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:24 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.45",
+        "ec_mScm": "0.52",
+        "salt_mg_L": "261",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "31.3",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains in ideal germination range with stable pH at 6.45, moderate moisture at 57 mS/cm, and warm soil temperature of 82°F. Nutrients are balanced with low salt levels, and the soil surface in the photo appears even, moist but not saturated, and free of crusting or fungus. No sprouts are visible yet, but conditions are the most germination-ready recorded so far.",
+      "actions": "No actions needed. Do not water or amend today.",
+      "next_steps": "Check moisture in 24 hours and water lightly only if it drops below 40 mS/cm. Continue full sun exposure. Watch for soil lifting as a sign of imminent sprouting.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Afternoon photo of the Orange Cal Wonder planter with level, moist soil under full sun.",
+          "tags": "pepper-box, planter, orange-cal-wonder, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "12:08 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.78",
+        "salt_mg_L": "394",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "48.7",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil moisture at 60.00 mS/cm is ideal for pepper germination. pH at 6.20 is within optimal range. EC and salt are mildly elevated but still safe. Fertility has increased as nutrients redistributed following earlier overwatering. Soil surface appears even, moist but not saturated, and free of compaction. Photos show stable surface texture and intact seed placement area. Soil temperature around 82°F is highly favorable for germination.",
+      "actions": "No actions needed today. Do not water or amend. Maintain full sun exposure to support soil warmth.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Water lightly only if moisture falls below 40 mS/cm. Continue full sun exposure. Expect possible sprouting within the next 3–7 days if soil temperatures remain above 75°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Midday photo of the Orange Cal Wonder center section in the pepper box with moist, level soil under full sun.",
+          "tags": "pepper-box, planter, orange-cal-wonder, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:24 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.93",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "186",
+        "moisture_mScm": "43.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "70.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil moisture has decreased to 43.00 mS/cm, indicating moderate dryness. pH at 5.93 is slightly acidic but within acceptable range for germination. EC and salt remain low. Fertility has dropped, consistent with a nutrient-light early stage. Soil surface appears slightly drier but not compacted. Temperature is favorable for germination.",
+      "actions": "No watering or amendments needed. Allow soil to continue drying slightly before watering. Do not fertilize until sprouts appear.",
+      "next_steps": "Recheck moisture in 24 hours; water lightly if moisture falls below 35 mS/cm. Maintain full sun exposure and avoid fertilizer until seedlings have true leaves.",
+      "q_and_a_summary": "User asked if more lime should be added after accidental overwatering; guidance was to avoid adding lime, allow the soil to drain, and recheck moisture and pH the next day.",
+      "follow_up": [
+        "[2:52 PM] Grandson over-watered entire pepper box; soil became saturated and most lime in adjacent sections washed away. No additional lime should be added to the Orange Cal Wonder section; allow soil to drain naturally and recheck moisture and pH tomorrow."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning photo of the Orange Cal Wonder soil surface showing moderate dryness before the overwatering event.",
+          "tags": "soil, morning, orange-cal-wonder"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Follow-up photo of the Orange Cal Wonder section after accidental overwatering, with saturated soil and reduced visible lime in neighboring sections.",
+          "tags": "orange-cal-wonder, follow-up, overwatering, pepper-box"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:46 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.85",
+        "ec_mScm": "0.50",
+        "salt_mg_L": "250",
+        "moisture_mScm": "62.00",
+        "light": "91",
+        "rh_percent": "65",
+        "fertility_percent": "30.0",
+        "soil_temp_f": "63.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil remains moderately moist with a moisture reading of 62.00 mS/cm. pH at 6.85 is close to ideal. EC and salt levels remain low. Fertility is low but acceptable for pre-germination. Soil surface is even and undisturbed. Lime in neighboring areas is not affecting the center section.",
+      "actions": "No actions needed today. Do not water or amend.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Expect germination once soil consistently reaches 70–75°F.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Pepper box planter showing the Orange Cal Wonder center section with lime-treated Scotch Bonnet and Jalapeño sections on either side.",
+          "tags": "pepper-box, planter, orange-cal-wonder, scotch-bonnet, jalapeno"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:00 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "7.49",
+        "ec_mScm": "0.66",
+        "salt_mg_L": "332",
+        "moisture_mScm": "68.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "40.7",
+        "soil_temp_f": "61.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No sprouts visible. Soil remains evenly moist with a moisture reading of 68.00 mS/cm. pH has rebounded from a prior acidic reading to slightly alkaline. EC and salt levels are within safe ranges. Soil temperature remains cool for peppers. Soil surface shows no compaction.",
+      "actions": "No actions needed today.",
+      "next_steps": "Recheck moisture and pH within 24 hours.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:17 AM",
+      "conditions": "Partly sunny with afternoon temperatures around 73°F and an expected overnight low in the upper 50s°F.",
+      "digital_probe": {
+        "ph": "4.30",
+        "ec_mScm": "0.61",
+        "salt_mg_L": "309",
+        "moisture_mScm": "59.00",
+        "light": "94",
+        "rh_percent": "54",
+        "fertility_percent": "37.3",
+        "soil_temp_f": "72.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Digital probe reading shows very acidic soil at pH 4.30 with moderate moisture and light nutrient levels. Conditions are too acidic for peppers but otherwise stable.",
+      "actions": "Apply a small amount of baking-soda water to gently raise pH; do not add lime.",
+      "next_steps": "Recheck pH and moisture within 24 hours.",
+      "q_and_a_summary": "User asked whether baking-soda water should be used only for the center section and lime for the left section; confirmed.",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:13 AM",
+      "conditions": "Mostly sunny with morning temperature near 67°F, rising to about 74°F by noon and cooling to 57°F overnight.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "End of Yellow toward Green",
+        "moisture": "6–7 (green)",
+        "ph": "6 (green)"
+      },
+      "observations": "No sprouts visible. Analog readings show moisture in the ideal 6–7 range, fertility moving upward, and pH around 6. The soil surface looks evenly moist without compaction.",
+      "actions": "Added about one-third quart of diluted fertilizer to boost nutrients.",
+      "next_steps": "Monitor moisture and avoid more fertilizer until after germination.",
+      "q_and_a_summary": "User asked for notes; guidance emphasized avoiding further fertilizer and watching moisture.",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "11/12/2025",
+      "time": "9:22 AM",
+      "conditions": "Cool clear morning around 62°F with full sun.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (LOW)",
+        "moisture": "Red (DRY)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "Seeds were sown at roughly ¼ inch depth in dry, alkaline soil with low fertility. Soil appeared dry and slightly coarse before watering.",
+      "actions": "Moistened the entire box with mild vinegar water to begin lowering pH.",
+      "next_steps": "Recheck soil pH and moisture within 24–48 hours.",
+      "q_and_a_summary": "User asked whether more steps were needed; guidance was to wait and monitor.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Seed packet for Orange Cal Wonder pepper photographed before planting.",
+          "tags": "seed-packet, orange-cal-wonder, planting-day"
+        }
+      ]
+    }
+  ]
+}

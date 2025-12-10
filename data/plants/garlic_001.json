@@ -1,0 +1,749 @@
+{
+  "id": "garlic_001",
+  "status": "Active",
+  "plant": "Siberian Hardneck",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 8",
+  "container": "Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Vernalized the garlic for 6 weeks prior to planting.",
+    "Planted in mid-November 2025 in black planter 23.5\" × 7.85\" × 6\" left section",
+    "Shared with Music Hardneck, Chesnok Red Hardneck, and Scallions."
+  ],
+  "whats_been_logged": "The cloves transitioned from newly emerged shoots in acidic but evenly moist soil to vigorous, upright foliage as moisture fluctuated and garden lime was introduced for pH correction. Early lime application helped stabilize pH into a healthier range. One nearby scallion was relocated to protect garlic spacing. Shoots have strengthened steadily as soil moisture stabilized and pH continued rising into the ideal range.",
+  "current_stage": "Early top growth (shoots 1–3 inches)",
+  "current_state": "Shoots are upright, green, and strengthening as soil moisture has stabilized and pH continues to rise into a healthier range. Early foliage shows no stress despite earlier fluctuations in moisture, and the plants are now benefiting from steady sun and improved soil balance. Conditions are favorable for continued leaf elongation as the planter settles into consistent hydration and buffering.",
+  "timeline": [
+    {
+      "stage": "Vernalization complete",
+      "date_range": "Sep 21 - Nov 15, 2025"
+    },
+    {
+      "stage": "Early top growth (shoots 1–3 inches)",
+      "date_range": "Nov 15 - Nov 22, 2025"
+    },
+    {
+      "stage": "Strong winter foliage",
+      "date_range": "Jan 1 - Jan 31, 2026"
+    },
+    {
+      "stage": "Spring rapid growth",
+      "date_range": "Feb 15 - Mar 15, 2026"
+    },
+    {
+      "stage": "Scapes for cutting and eating",
+      "date_range": "Mar 15 - May 1, 2026"
+    },
+    {
+      "stage": "Bulb harvest",
+      "date_range": "May 25 - Jun 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:47 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.97",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "67",
+        "moisture_mScm": "51.00",
+        "light": "83",
+        "rh_percent": "56",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Garlic shoots remain upright and vigorous with healthy, glossy new leaves emerging from each clove. Older leaves show minor tearing and browned tips consistent with mechanical damage from earlier handling, soil abrasion, or wind, but no signs of disease or nutrient imbalance are present. Soil structure has improved noticeably after adding Miracle-Gro Moisture Control Potting Mix, resulting in better aeration and more reliable probe contact. Moisture sits at an ideal mid-range level following recent rain.",
+      "actions": "Do not water today, as moisture is ideal and additional showers are expected. Leave all foliage intact and allow the amended soil to settle naturally without further disturbance.",
+      "next_steps": "Recheck moisture tomorrow once rainfall has passed. Resume watering only when readings fall toward 40 mS/cm. Continue monitoring for steady center-leaf elongation and strengthening of the plant bases over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing ideal pH, moderate moisture, and stable nutrient levels following minor soil amendment.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Planter view with upright garlic foliage and improved soil aeration after adding Moisture Control potting mix.",
+          "tags": "garlic, siberian-hardneck, planter, soil-aeration"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing healthy new leaves alongside older mechanically damaged leaf tips.",
+          "tags": "garlic, siberian-hardneck, foliage, leaf-tip"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of developing garlic shoots with firm central growth and freshly loosened soil.",
+          "tags": "garlic, siberian-hardneck, new-growth, soil-condition"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:54 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.76",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "62.00",
+        "light": "94",
+        "rh_percent": "63",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "77.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Garlic shoots remain upright, green, and actively elongating with healthy new foliage emerging from each plant. Several leaves display minor tip browning consistent with earlier dry-to-wet swings and normal mechanical wear, but the central growth points are strong and vibrant. Soil structure appears well-aerated with moderate moisture following prior hydration, and no signs of disease, wilt, or nutrient stress are present.",
+      "actions": "Do not water today, as incoming rainfall will supply additional moisture. Leave all foliage intact and avoid lime or fertilizer at this time.",
+      "next_steps": "Recheck moisture after rainfall passes tomorrow. Resume watering only when moisture readings decline toward 40–50 mS/cm. Continue monitoring for steady leaf emergence and overall shoot thickening.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing stable pH, moderate moisture, and healthy nutrient levels before expected rainfall.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Mid-planter view showing upright garlic foliage and minor tip browning consistent with normal early growth.",
+          "tags": "garlic, siberian-hardneck, foliage, early-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of a garlic plant with mild tip browning and healthy central leaf emergence.",
+          "tags": "garlic, siberian-hardneck, leaf-tip, early-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of actively growing garlic foliage with green, firm new leaves emerging from the center.",
+          "tags": "garlic, siberian-hardneck, new-growth, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:41 PM",
+      "conditions": "Sunny with a high near 86°F, patchy fog early, calm to light south wind. Overnight low around 66°F.",
+      "digital_probe": {
+        "ph": "5.77",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "90.00",
+        "light": "94",
+        "rh_percent": "52",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "92.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is very moist, confirmed both by probe moisture of 90 mS/cm and visual inspection showing uniformly dark, hydrated soil with no signs of crusting. Shoots are upright, turgid, and healthy, including the younger leaf clusters. No indicators of dehydration or nutrient imbalance. Soil texture appears stable after recent watering, and the new growth remains vibrant.",
+      "actions": "Do not water today. Soil moisture is significantly above the safe hydration threshold, and additional water would risk oversaturation.",
+      "next_steps": "Recheck moisture tomorrow morning or the following day. Resume watering only when moisture levels fall back toward 40 mS/cm. Continue monitoring shoot growth and soil drying rate under sunny conditions.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading after soil hydration showing elevated moisture and stable pH.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Planter view showing moist soil and healthy upright garlic foliage in strong midday sun.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil-condition"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of young garlic shoot developing well in fully hydrated soil.",
+          "tags": "garlic, siberian-hardneck, new-shoot, sprout"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing overall foliage vigor and wet soil surface after watering.",
+          "tags": "garlic, siberian-hardneck, foliage, soil-moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "4:52 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.77",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "57.00",
+        "light": "58",
+        "rh_percent": "52",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "After the soil became bone dry earlier in the afternoon, hydration restored the planter to a stable and healthy condition. Shoots remain upright and vigorous with deep green coloration. The newly emerging shoot continues to grow normally, and the previously curled leaf shows improved straightening. Soil appears evenly moist without pooling, and overall plant health is excellent.",
+      "actions": "No watering or amendments needed for the remainder of the day.",
+      "next_steps": "Recheck moisture tomorrow and resume watering once values fall back near 40 mS/cm. Continue monitoring shoot growth and hydration stability.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:05 PM] Watered due to extremely dry soil preventing probe readings."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing stable pH and rehydrated soil following mid-afternoon watering.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Garlic shoots displaying strong upright growth and well-hydrated soil after earlier dryness.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of young garlic shoot continuing normal development in freshly rehydrated soil.",
+          "tags": "garlic, siberian-hardneck, new-shoot, sprout"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing foliage health and improved soil moisture distribution.",
+          "tags": "garlic, siberian-hardneck, foliage, soil-condition"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:36 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.83",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "74",
+        "moisture_mScm": "39.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "90.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots remain upright, green, and healthy with no signs of wilt despite the soil being noticeably dry. The previously curled leaf continues to relax, and the newest small shoot is growing normally. Soil texture and color indicate substantial drying since the last watering.",
+      "actions": "Apply 1/4 cup of water around the base of each garlic shoot, poured slowly to prevent channeling. Do not add any amendments.",
+      "next_steps": "Recheck moisture and pH tomorrow; values should normalize after today's light irrigation. Continue monitoring shoot growth and soil hydration.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[1:50 PM] Added 1/4 cup of water around each garlic shoot as instructed."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading indicating low moisture and a temporarily elevated pH due to dry soil conditions.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Garlic shoots showing strong upright growth under sunny conditions with visibly dry soil.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the newest garlic shoot developing well despite drier soil.",
+          "tags": "garlic, siberian-hardneck, new-shoot, sprout"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:47 AM",
+      "conditions": "Partly sunny with temperatures in the mid 70s°F and overnight lows near 69°F.",
+      "digital_probe": {
+        "ph": "6.17",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "156",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "75.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots remain upright and vigorous with steady elongation and healthy green color. The newly emerging shoot is developing normally, and the soil appears evenly moist and well-aerated. No signs of stress, yellowing, or deformation are present.",
+      "actions": "Do not water today; moisture remains elevated. No amendments are needed.",
+      "next_steps": "Recheck moisture tomorrow and resume watering when values fall below roughly 40 mS/cm. Continue monitoring new shoot development and overall foliage stability.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing stable pH and elevated moisture after recent hydration.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Garlic shoots displaying strong upright growth with healthy color in well-aerated soil.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the young newly emerged garlic shoot developing normally beside older foliage.",
+          "tags": "garlic, siberian-hardneck, new-shoot, sprout"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:34 AM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "5.12",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "102",
+        "moisture_mScm": "48.00",
+        "light": "97",
+        "rh_percent": "52",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots remain upright and vigorous with healthy color and consistent elongation. Soil is evenly moist and well-aerated following recent rain, with no signs of stress or compaction. All foliage, including the previously curled leaf, continues stable development.",
+      "actions": "Do not water today. No amendments are needed.",
+      "next_steps": "Recheck moisture tomorrow and plan the next watering once values fall below approximately 40 mS/cm. Continue monitoring shoot height and overall stability.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing ideal moisture and stable pH in cool morning conditions.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck shoots displaying healthy vertical growth and evenly hydrated soil.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "11:18 AM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight. Rain expected around 6:00 PM.",
+      "digital_probe": {
+        "ph": "5.17",
+        "ec_mScm": "0.56",
+        "salt_mg_L": "281",
+        "moisture_mScm": "66.00",
+        "light": "98",
+        "rh_percent": "67",
+        "fertility_percent": "34.0",
+        "soil_temp_f": "80.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots remain upright, vigorous, and well-colored with a newly emerged sprout showing healthy development. Soil is well-hydrated and evenly textured after recent storms and added mix, with no pooling or compaction issues. Overall plant condition is strong with stable early top growth.",
+      "actions": "Do not water today. No amendments are needed.",
+      "next_steps": "Allow incoming rain to provide natural hydration. Recheck moisture tomorrow and plan the next watering once values fall below approximately 40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing ideal pH and elevated moisture following recent rainfall and soil adjustments.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck shoots showing strong vertical growth and healthy color in well-aerated soil.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of a newly emerged garlic shoot indicating ongoing active growth.",
+          "tags": "garlic, siberian-hardneck, new-shoot, sprout"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:50 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4:00 PM.",
+      "digital_probe": {
+        "ph": "5.37",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "151",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "16.7",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots are upright, elongated, and stable with no signs of stress. Soil is well-hydrated from yesterday's watering and this morning's light rain, and texture remains airy and well-draining. Foliage color and structure are healthy, including the curved leaf which continues to relax naturally.",
+      "actions": "Do not water today. Do not add any amendments.",
+      "next_steps": "Allow incoming storms to provide natural hydration. Recheck moisture tomorrow and resume watering only after levels fall below approximately 40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading taken before midday rain showing stable pH and elevated moisture.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck shoots showing strong upright growth and evenly hydrated soil.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:00 PM",
+      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.44",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "176",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "84.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots are upright, vigorous, and elongating well with no signs of stress. Soil is fully hydrated after the afternoon watering and remains well-aerated. Foliage color and structure appear stable and healthy.",
+      "actions": "No further watering or amendments needed today.",
+      "next_steps": "Recheck moisture and pH tomorrow as the soil settles after watering. Continue monitoring early foliage growth.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:33 PM] Watered lightly due to missing the morning watering window."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading taken 1.5 hours after watering, showing ideal pH and expected elevated moisture.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck shoots with strong upright growth and evenly hydrated soil.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:31 AM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "7.73",
+        "ec_mScm": "0.41",
+        "salt_mg_L": "209",
+        "moisture_mScm": "66.00",
+        "light": "93",
+        "rh_percent": "57",
+        "fertility_percent": "24.0",
+        "soil_temp_f": "79.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shoots remained upright and hydrated with no stress despite the temporary pH spike. Soil texture was healthy and aerated following the watering, and foliage condition was stable.",
+      "actions": "No amendments needed. Allow the soil pH and moisture to redistribute naturally.",
+      "next_steps": "Recheck moisture and pH the following day to monitor settling after watering.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:00 AM] Lightly watered due to very dry and crumbly soil."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading taken shortly after watering, showing a temporary elevated pH and increased moisture.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck shoots standing firm with healthy hydration and stable leaf structure.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:27 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.28",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "33.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "92.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Siberian Hardneck shoots remain strong, upright, and well-hydrated, with continued elongation of the central shoot and stable growth from all cloves. Soil pH has stabilized in the ideal garlic range at 6.28, indicating successful lime buffering throughout the planter depth. Soil surface dryness aligns with the moisture reading of 33 mS/cm, showing the planter is ready for light watering. No signs of stress, tip burn, yellowing, or fungal issues are present, and overall plant vigor is excellent.",
+      "actions": "Apply a light watering of approximately 1/4 cup around the base to maintain even moisture. Do not add lime or fertilizer today.",
+      "next_steps": "Recheck moisture and pH tomorrow to confirm stable soil hydration and continued healthy pH levels. Continue monitoring shoot elongation and early foliage development.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[1:33 PM] Added 1/4 cup of water around the base to maintain even moisture."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck sprouts with upright, strengthening foliage and drier surface soil indicating readiness for light watering.",
+          "tags": "garlic, siberian-hardneck, sprouts, planter, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:50 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "4.85",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "41.00",
+        "light": "98",
+        "rh_percent": "50",
+        "fertility_percent": "19.3",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Siberian Hardneck shoots remain upright, plump, and healthy with no signs of stress. Soil moisture is stable and well-balanced, and surface dryness does not reflect the strong internal moisture reading. The pH dip to 4.85 is consistent with lime dissolving unevenly through soil layers and does not indicate a true setback. Lime residue remains visible on the surface, confirming ongoing buffering. Overall growth is steady, and the shoot in the upper-right corner appears consistent with Music Hardneck rather than Siberian based on thickness and position.",
+      "actions": "Do not water today, as moisture levels are ideal. Do not add lime, as buffering is still in progress. Avoid fertilizing until shoots reach 6–8 inches.",
+      "next_steps": "Recheck pH and moisture in 24 hours to confirm continued buffering. Monitor ongoing shoot elongation and foliage development. Resume watering only when moisture drops below approximately 30 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck row with upright shoots and visible lime dissolving on the soil surface.",
+          "tags": "garlic, siberian-hardneck, sprouts, lime, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:26 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.33",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "129",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "13.3",
+        "soil_temp_f": "80.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Siberian Hardneck shoots appear healthy, upright, and strengthening, with several sprouts showing continued elongation. Soil moisture is now in an optimal range compared to earlier dryness, and remaining visible lime on the surface indicates ongoing pH buffering. The pH trend shows consistent improvement from the low 4s to 5.33, confirming that the lime is dissolving effectively. No signs of stress, discoloration, or deformity are present. Light exposure is excellent and the planter conditions are stable.",
+      "actions": "No watering needed at this moment as moisture is well-balanced. Do not apply any more lime today since pH is rising steadily. Maintain full sun exposure and avoid fertilizer at this early growth stage.",
+      "next_steps": "Recheck pH and moisture in 24 hours to confirm continued upward pH movement. Monitor for additional shoot emergence and early foliage extension. Hold off on fertilizing until shoots reach the 6–8 inch stage to avoid early nutrient burn.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck shoots standing firm with visible lime dissolving on the soil surface.",
+          "tags": "garlic, siberian-hardneck, sprouts, lime, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "12:23 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.65",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "104",
+        "moisture_mScm": "8.00",
+        "light": "91",
+        "rh_percent": "65",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "85.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Multiple healthy garlic shoots are present, including a new sprout emerging from the lower-left area of the box. Early growth appears strong with green, firm shoots. Soil is very dry at 8.0 mS/cm, and surface texture shows loose, dry conditions with visible lime still dissolving. The scallion relocation improved spacing and did not disturb the garlic. pH is low at 4.65, but existing lime is still dissolving and gradually buffering the soil. No signs of disease or stress.",
+      "actions": "Apply a light, even watering to rehydrate the upper soil layer and help dissolve remaining lime. Do not add more lime today. No fertilizer needed at this stage. Maintain full sun exposure.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Monitor additional shoots emerging over the next week. If pH remains below 5.5 after lime dissolves and soil rehydrates, apply a small follow-up lime dose. Continue avoiding fertilizer until leaves reach 6–8 inches.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "New Siberian Hardneck shoot emerging with very dry soil surface and visible lime residue.",
+          "tags": "garlic, hardneck, siberian-hardneck, sprouting, lime, soil-moisture-low"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:29 AM",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.48",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "13",
+        "moisture_mScm": "0.00",
+        "light": "98",
+        "rh_percent": "65",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "71.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Early Siberian Hardneck shoots remain upright, green, and vigorous despite low pH and very low measured moisture at probe depth. Surface soil looks drier but plants do not show wilting or tip burn.",
+      "actions": "Apply a measured top-dress of garden lime across the planter section for pH correction and water lightly afterward to help it begin dissolving.",
+      "next_steps": "Recheck pH and moisture the following morning and continue monitoring shoot elongation and any signs of stress as pH slowly rises.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[11:07 AM] Soil was watered unexpectedly; confirmed lime can still be applied safely to moist soil as long as it is not piled directly against stems.",
+        "[3:04 PM] Applied lime across the garlic and scallion planter after earlier watering to begin raising soil pH."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck row with healthy green shoots on the left side of the planter.",
+          "tags": "garlic, siberian-hardneck, shoots, planter"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Whole planter after lime application across Siberian Hardneck, Music, Chesnok Red, and scallions.",
+          "tags": "garlic, scallions, lime, planter, ph-correction"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:52 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.19",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "30.00",
+        "light": "98",
+        "rh_percent": "63",
+        "fertility_percent": "7.2",
+        "soil_temp_f": "69.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Siberian Hardneck shows early sprout development with upright green tips just above the soil line. Leaf color is healthy and the planter soil is moderately moist with no compaction or crusting.",
+      "actions": "Apply light watering in the morning to offset the warming day while avoiding waterlogging. Hold fertilizer and additional amendments until pH correction is underway.",
+      "next_steps": "Recheck soil moisture later in the day and continue monitoring sprout height and color over the next 24–48 hours.",
+      "q_and_a_summary": "Confirmed that future logs can be generated directly from photos and screenshots and that this workflow would continue to work.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of Siberian Hardneck sprouts emerging from the soil surface.",
+          "tags": "garlic, siberian-hardneck, sprouts, allium"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:01 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.92",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "117",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "60.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Early garlic shoots are emerging with upright pale-green growth tips. Shoots appear healthy with no bending, discoloration, or tip burn and the soil is evenly moist after recent planting.",
+      "actions": "Apply a top-dress of dolomitic or garden lime to the Siberian Hardneck section and the rest of the planter to begin raising the strongly acidic soil pH.",
+      "next_steps": "Recheck pH and moisture within 24 hours and continue watching for additional shoots breaking the surface.",
+      "q_and_a_summary": "Confirmed that early garlic shoots look healthy and stable for this stage.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Siberian Hardneck sprouts emerging from moist potting mix near the left label.",
+          "tags": "garlic, siberian-hardneck, sprouts, alliums"
+        }
+      ]
+    }
+  ]
+}

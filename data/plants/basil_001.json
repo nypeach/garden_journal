@@ -1,0 +1,1145 @@
+{
+  "id": "basil_001",
+  "status": "Active",
+  "plant": "Basil (Left)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 1",
+  "container": "Round pot, 0.94 gal, white",
+  "soil_mix": "Nursery Potting Mix",
+  "origin_history": [
+    "Bought on Oct 8, 2025 and kept in the original nursery container.",
+    "Moved from the picnic table to Panel 15 and then to Panel 1 to improve sunlight exposure.",
+    "Recently topped very short to reset height and encourage dense branching."
+  ],
+  "whats_been_logged": "The plant has moved from tall, leggy growth through a hard reset prune into clustered regrowth with multiple shoots emerging along the stems. Early issues with uneven moisture and soil disturbance were corrected, improving stability and airflow around the base. Damaged leaves were removed and the canopy has been rebuilding cleanly, with new growth becoming dense, healthy, and vigorous.",
+  "current_stage": "Clustered Regrowth Phase",
+  "current_state": "Healthy, vigorous regrowth with dense new shoots and clean foliage, showing stable recovery and balanced moisture conditions.",
+  "timeline": [
+    {
+      "stage": "Stabilization after hard prune",
+      "date_range": "Nov 20 - Nov 25, 2025"
+    },
+    {
+      "stage": "New node swelling (first visible bumps)",
+      "date_range": "Nov 25 - Nov 30, 2025"
+    },
+    {
+      "stage": "First true shoot emergence from lower nodes",
+      "date_range": "Nov 30 - Dec 5, 2025"
+    },
+    {
+      "stage": "Small clusters of new leaves forming",
+      "date_range": "Dec 5 - Dec 12, 2025"
+    },
+    {
+      "stage": "Early bushy regrowth begins",
+      "date_range": "Dec 12 - Dec 20, 2025"
+    },
+    {
+      "stage": "First light harvest (tiny pinches only)",
+      "date_range": "Dec 20 - Dec 28, 2025"
+    },
+    {
+      "stage": "Normal basil growth resumes; regular topping possible",
+      "date_range": "Dec 28, 2025 - Jan 10, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:21 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "9.14",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "45.00",
+        "light": "35",
+        "rh_percent": "54",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "67.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil appears vigorous with upright stems, healthy leaf coloration, and balanced canopy development across all clusters. The soil remains evenly hydrated from previous watering. The elevated pH reading is consistent with newly added potting mix and dry surface pockets rather than true root-zone alkalinity. No signs of stress, nutrient imbalance, or leaf damage are present.",
+      "actions": "Lightly hydrate only the top surface of the soil using a gentle shower for about 10 seconds to help the newly added potting mix integrate and eliminate dry alkaline pockets. Avoid all pH-correcting treatments. Keep the plant in its current outdoor light conditions.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm it remains within the ideal mid-range. Expect pH to normalize as the surface layer fully hydrates. Continue monitoring stem elongation and canopy expansion while holding off on fertilizer during this phase.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:21 AM] Filled in the probe hole, fluffed the soil surface, and added a layer of Miracle-Gro Moisture Control Potting Mix."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing vibrant foliage and even canopy growth following soil adjustments.",
+          "tags": "basil, top-view, healthy-growth, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle displaying upright stems and strong leaf posture.",
+          "tags": "basil, side-view, stems, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Another angle highlighting the fullness and balanced structure of the basil clusters.",
+          "tags": "basil, clusters, foliage, vigorous"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:40 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.39",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "119",
+        "moisture_mScm": "52.00",
+        "light": "96",
+        "rh_percent": "62",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "72.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil shows strong, vigorous growth with firm leaves, bright coloration, and excellent canopy development across all clusters. No signs of wilt, stress, or nutrient imbalance are visible. Soil appears evenly hydrated following yesterday’s rehydration, and the surface texture is consistent with healthy moisture retention. The elevated pH reading is likely due to surface alkalinity after dry-to-wet cycling and is not reflected in the plant’s appearance, which remains robust and balanced.",
+      "actions": "Do not water today, as the moisture level is ideal and rain is possible later. Avoid all pH adjustments, as the plant shows no alkaline stress. Keep the basil in its current sun exposure, which is supporting strong vegetative growth. Do not fertilize at this time.",
+      "next_steps": "Recheck moisture tomorrow morning or after any rainfall to confirm values stay within the ideal mid-range. Expect pH to drift downward naturally as the soil equilibrates. Continue monitoring canopy expansion and hold off on fertilizing until the plant reaches a more developed stage of growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing vigorous, healthy growth and evenly hydrated soil surface.",
+          "tags": "basil, top-view, healthy-growth, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting firm leaves and well-structured stems with balanced canopy spread.",
+          "tags": "basil, side-view, canopy, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing cluster density and consistent coloration across all foliage.",
+          "tags": "basil, clusters, foliage, vigorous"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:22 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "7.26",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "34",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "86.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears vigorous and healthy with bright, turgid foliage and strong vegetative expansion across all clusters. Despite the excellent canopy condition, the soil surface shows pronounced dryness and slight crusting, resulting in poor probe contact and a 0.00 moisture reading. No signs of wilt, stress, or nutrient imbalance are visible, and the plant is performing well in today's warm, sunny conditions.",
+      "actions": "Rehydrate the soil thoroughly using the small-shower hose setting for 20–25 seconds total, applied in several short pulses to avoid runoff and help re-wet hydrophobic areas. Do not fertilize today. Keep the plant in full sun as it is responding well to current light conditions.",
+      "next_steps": "Recheck moisture tomorrow morning and confirm that readings rise into the 30–45 mS/cm range. Expect pH to drift slightly downward after rehydration. Monitor weather for tomorrow's potential showers and avoid additional watering if significant rainfall occurs.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing vigorous green growth and a notably dry soil surface.",
+          "tags": "basil, top-view, dry-soil, vigorous-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting balanced canopy expansion and strong stem posture.",
+          "tags": "basil, side-view, canopy, healthy-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing dense leaf clusters and bright, healthy coloration.",
+          "tags": "basil, leaf-clusters, healthy-color, regrowth"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "4:25 PM",
+      "conditions": "Partly cloudy with a high of 79°F dropping to 64°F overnight. Mild conditions favorable for continued growth with no extreme heat or cold stress expected.",
+      "digital_probe": {
+        "ph": "5.82",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "83",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows a dramatic leap in canopy development since yesterday, with leaf size increasing noticeably across all clusters. Several shoots now display large, fully expanded leaves, and the taller stems are beginning to form secondary branching. Lower clusters remain dense and compact with vibrant green coloration. No pest damage is visible, and all new growth appears firm, healthy, and well hydrated. The soil surface looks evenly moist and well structured. The plant is transitioning rapidly from early regrowth into bushy canopy rebuild.",
+      "actions": "Do not water today, as moisture remains ideal following yesterday's rehydration. Avoid fertilizing while the plant consolidates recovery growth. Continue monitoring canopy expansion and prepare for light structural shaping once shoots gain another 1–2 days of height.",
+      "next_steps": "Water tomorrow morning at 6:30 AM with a light shower using the small-shower hose setting for approximately 15-20 seconds to moisten the top 2-3 inches without flooding. Continue monitoring for pest activity, though none is visible today. Expect rapid canopy expansion to continue as temperatures remain mild and moisture stays stable. The front-left cluster is particularly vigorous and may need topping soon to encourage even bushier regrowth.",
+      "q_and_a_summary": "Discussed watering timing and approach, confirming that the 6:30 AM fixed schedule should be prioritized over afternoon checks. Clarified that hose-first instructions should be used exclusively rather than mixing with cup measurements to keep the process simple and field-ready.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close side view showing dramatically expanded leaf size and vigorous canopy development.",
+          "tags": "basil, side-view, leaf-expansion, vigorous-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled perspective highlighting dense lower clusters and developing upper branching.",
+          "tags": "basil, clusters, branching, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view capturing balanced regrowth and healthy posture across all stems.",
+          "tags": "basil, wide-view, balanced-growth, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing large, fully expanded leaves and vibrant green coloration.",
+          "tags": "basil, top-view, expanded-leaves, healthy-color"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead perspective emphasizing the rapid transition into bushy canopy rebuild.",
+          "tags": "basil, overhead, canopy-rebuild, rapid-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:53 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 66°F overnight. Strong afternoon sun and warm soil temperatures accelerated transpiration and dry-down throughout the day.",
+      "digital_probe": {
+        "ph": "5.97",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "15",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "86.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant displays continued strong regrowth with expanding leaf clusters across all stems and vibrant green coloration throughout new shoots. The soil surface is dry and loose, matching the 0.00 moisture reading—the driest level recorded in the plant's history. Despite complete soil dryness, no visible stress, wilt, or pest damage appears, confirming the plant's resilient root system and healthy canopy structure. Overall architecture continues improving with balanced cluster development and firm new growth.",
+      "actions": "Applied exactly 3 cups of water using the small-shower hose setting to rehydrate the completely dry root zone. Watering was done slowly and evenly across the soil surface to allow proper absorption. No fertilizer was applied, as fertility remains very low and the plant is still consolidating recovery growth. Avoided disturbing healthy foliage.",
+      "next_steps": "Water tomorrow morning at 6:30 AM with exactly 2 cups using the small-shower setting to maintain moisture through the forecast high of 84°F. Recheck moisture after watering to confirm it stabilizes in the 30s-40s range. Continue monitoring for new pest damage and reapply spinosad if fresh chewing appears. Expect rapid leaf expansion over the next 2-3 days as moisture stabilizes and temperatures moderate.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[5:30 PM] Watered per the instructions."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing vibrant regrowth clusters and completely dry soil surface.",
+          "tags": "basil, top-view, dry-soil, regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide outdoor view capturing balanced cluster development across the pot.",
+          "tags": "basil, wide-view, clusters, outdoor"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing expanding leaf sets and firm new growth.",
+          "tags": "basil, side-view, leaf-expansion, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Perspective highlighting dense lower shoots with healthy green coloration.",
+          "tags": "basil, lower-shoots, healthy-color, dense-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view showing vigorous canopy rebuild and strong stem structure.",
+          "tags": "basil, canopy-rebuild, stems, vigorous-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of expanding upper clusters with vibrant new leaves.",
+          "tags": "basil, upper-clusters, new-leaves, expansion"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle capturing overall recovery progress and balanced growth.",
+          "tags": "basil, recovery, balanced-growth, progress"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:37 AM",
+      "conditions": "Sunny morning with mild temperatures near 74°F and moderate humidity around 66%. Light exposure was strong, and the soil remained wet from previous irrigation and recent moisture retention. Airflow was steady with light gusts, providing supportive movement for developing stems.",
+      "digital_probe": {
+        "ph": "5.72",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "165",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "66",
+        "fertility_percent": "18.7",
+        "soil_temp_f": "73.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues to show improving regrowth momentum with bright new leaves and upright shoots forming across all clusters. Internode spacing is tightening, and several pruning points are pushing clean new nodes. The soil remains excessively wet, which is slowing the dry-down cycle and contributing to lingering yellowing on older leaves. Recent humidity and damp conditions have encouraged minor chewing damage on tender leaves, consistent with caterpillar or beetle activity. The newer foliage remains healthy and firm, indicating resilience despite moisture retention and minor pest pressure.",
+      "actions": "Do not water today, as the soil is fully saturated and needs time to dry. Remove only the most damaged or yellowed leaves by pinching at the petiole to improve airflow. Apply spinosad using a fine mist pattern, focusing lightly on the underside and top of the foliage. Avoid fertilizing while moisture and salt levels remain elevated, and hold off on pH correction until readings stabilize and drop below 5.5 consistently.",
+      "next_steps": "Recheck moisture tomorrow morning and wait to water until readings fall between 40 and 55 mS/cm. Monitor for new chewing damage over the next 24 hours to confirm spinosad effectiveness. Evaluate pH later in the week for possible mild lime adjustment. Continue watching for strengthening canopy formation as shoots elongate.",
+      "q_and_a_summary": "Discussed moisture retention and confirmed that high readings indicate a need to delay watering. Reviewed leaf removal technique and clarified that removing only the most damaged leaves will not hinder recovery. Explained that DeadBug should be applied sparingly with a fine mist to account for small leaf size and morning wind. Confirmed that fertilization and pH correction should be postponed until conditions improve.",
+      "follow_up": [
+        "[11:46 AM] Applied spinosad spray using fine-mist method according to instructions."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing bright new growth and saturated soil surface.",
+          "tags": "basil, top-view, new-growth, wet-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide outdoor view showing overall recovery across all stem clusters.",
+          "tags": "basil, wide-view, regrowth, clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle highlighting upright new shoots and remaining yellowed leaves at the base.",
+          "tags": "basil, shoots, yellowing, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side perspective showing firm new foliage emerging from clean pruning points.",
+          "tags": "basil, pruning-points, new-leaves, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "View capturing cluster development and leaf expansion across the pot.",
+          "tags": "basil, leaf-expansion, clusters, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view highlighting developing upper stems with healthy coloration.",
+          "tags": "basil, stems, healthy-color, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing compact regrowth and stabilized structure.",
+          "tags": "basil, compact-growth, structure, canopy"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:03 PM",
+      "conditions": "Warm and partly cloudy late afternoon with temperatures near 80°F and humidity around 77%. Light levels remained high despite intermittent cloud cover, and recent moisture from earlier weather contributed to softer soil and increased humidity. Moderate airflow with occasional gusts supported transpiration without causing major stress.",
+      "digital_probe": {
+        "ph": "5.85",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "158",
+        "moisture_mScm": "50.00",
+        "light": "99",
+        "rh_percent": "77",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is showing steady regrowth with expanding leaf clusters and tightening internodes, indicating healthy progression toward a bushier form. New shoots are firm and well hydrated, and the pruning points remain clean with no signs of collapse or rot. Older leaves on the taller stems display minor yellowing consistent with recent heat, variable sun, and slightly acidic conditions. Several leaves have small chew marks, suggesting minor pest presence, most likely small caterpillars or similar leaf-chewers that were active during the recent humid, cloudy window. Despite this, new growth remains vibrant and unaffected, and the overall structure shows continued improvement.",
+      "actions": "Do not water today because moisture levels are high and conditions remain humid. Remove only the most damaged leaves to improve airflow and reduce pest attraction while preserving healthy foliage. Do not reapply spinosad this evening, as earlier application remains effective and current weather increases wash-off risk. Hold off on fertilizing until conditions stabilize and fertility falls to a lower range. Delay any pH adjustments until the soil surface dries later in the week.",
+      "next_steps": "Check moisture tomorrow morning and plan to water only after readings drop below 15 mS/cm. Monitor for continued pest activity and reapply spinosad during a sunny, dry, low-wind period if new chewing appears. Reassess pH later in the week and add a small amount of dolomite lime if acidity continues trending downward. Continue observing canopy expansion as new leaf pairs mature.",
+      "q_and_a_summary": "Confirmed that the yellowing on older leaves aligns with heat, wind fluctuation, and mild pH variation rather than nutrient deficiency. Addressed concerns about chewing damage and identified small caterpillars as the most likely cause. Clarified that selective removal of damaged leaves is safe and beneficial. Discussed optimal timing for spinosad application and confirmed that no fertilizer or additional watering should be done today.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view showing minor chewing on older leaves with healthy new growth emerging nearby.",
+          "tags": "basil, leaf-damage, chewing, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view highlighting well-formed regrowth clusters and balanced canopy development.",
+          "tags": "basil, top-view, clusters, canopy-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view showing overall regrowth across multiple stems and stable posture.",
+          "tags": "basil, wide-view, regrowth, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle capturing the developing upper stems and dense lower shoots.",
+          "tags": "basil, side-view, stems, shoot-development"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle showing vibrant new leaves emerging from clean pruning points.",
+          "tags": "basil, new-leaves, pruning-points, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Perspective view with expanding leaf sets and consistent color across new growth.",
+          "tags": "basil, leaf-sets, healthy-growth, canopy"
+        }
+      ]
+    },
+    {
+      "date": "11/30/2025",
+      "time": "2:43 PM",
+      "conditions": "Mostly sunny with warm afternoon temperatures near 88°F and moderate wind gusts around 20 mph, contributing to increased transpiration and slight edge stress on tender foliage. Humidity was moderate at 57%, and soil temperature rose due to direct sun exposure on the container.",
+      "digital_probe": {
+        "ph": "7.28",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "136",
+        "moisture_mScm": "42.00",
+        "light": "87",
+        "rh_percent": "57",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "88.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues producing strong, compact new growth, with regrowth nodes thickening and forming well-structured leaf pairs. Lower clusters are expanding evenly, and the overall architecture shows increasing symmetry. Some older leaves on the taller stems display yellowing, which aligns with wind exposure, midday heat, and slight pH drift into the alkaline range. A few small chewing holes are visible on select leaves, consistent with minor insect feeding, likely from small caterpillars. Despite these issues, new shoots remain vibrant, firm, and well hydrated, indicating ongoing progress in early canopy rebuild.",
+      "actions": "Do not water today because the current moisture level is ideal. Avoid fertilizing, as fertility continues to rise naturally. Remove only the damaged or chewed leaves to improve airflow and reduce pest attraction. Apply a spinosad-based treatment such as Captain Jack’s DeadBug RTS at dusk to address likely caterpillar feeding. Hold off on pH correction for now; a small amount of dolomite lime can be added later in the week once the soil surface is dry.",
+      "next_steps": "Recheck moisture tomorrow morning and water only once readings drop below 15 mS/cm. Monitor pH over the next several days and consider adding a small pinch of dolomite lime if alkalinity continues trending upward. Continue evaluating for new pest activity and repeat treatment if necessary. Expect ongoing canopy expansion as temperatures moderate.",
+      "q_and_a_summary": "Discussed the causes of yellowing on larger leaves and confirmed they match heat, wind exposure, and mild alkalinity rather than nutrient deficiency. Reviewed pest damage patterns and identified caterpillars as the most likely cause based on leaf chewing. Clarified that removing damaged leaves is safe and helpful and confirmed that spinosad is the preferred treatment to apply at dusk. Covered pH drift and explained that mild correction with dolomite lime can be done later in the week.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view showing chewing damage on older leaves and healthy new regrowth nearby.",
+          "tags": "basil, leaf-damage, chewing, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down midday view showing expanding leaf clusters and canopy balance.",
+          "tags": "basil, top-view, canopy, cluster-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide outdoor view showing strong regrowth across multiple clusters.",
+          "tags": "basil, wide-view, regrowth, outdoor"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle highlighting the taller developing stems and compact lower growth.",
+          "tags": "basil, side-view, stems, developing-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Another angle showing multiple regrowth clusters and healthy leaf sets.",
+          "tags": "basil, clusters, leaf-sets, active-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Perspective capturing canopy shape and consistent color across new shoots.",
+          "tags": "basil, canopy, symmetry, shoot-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional side view showing bright new leaves and overall structural recovery.",
+          "tags": "basil, structure, side-view, recovery"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "1:16 PM",
+      "conditions": "Sunny midday conditions with temperatures near 76°F and moderate humidity around 52%. Winds reached approximately 15 mph with occasional gusts, providing beneficial airflow for developing stems. Soil surface remained evenly structured following recent top-offs.",
+      "digital_probe": {
+        "ph": "6.53",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "43.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "76.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is showing its strongest and most balanced recovery growth so far. Lower clusters are thickening noticeably, especially the front-left group, which now appears dense, compact, and well structured. The previously taller stems are beginning to form early side branches, signaling that the reset occurred at an optimal time. Leaf color has improved across the canopy, with the dominant top head showing clearer definition and stronger tone. Overall architecture is becoming more symmetrical as clusters expand at similar rates. Wind exposure around 15 mph has not stressed the plant and is helping strengthen the newly developing stems.",
+      "actions": "Do not water today, as moisture remains ideal for only a few hours after the prior irrigation. Avoid fertilizing because natural fertility levels continue to rise. Do not prune, since shoots are still forming secondary leaf pairs and require more height before shaping. Leave the plant outdoors and allow the light wind to continue strengthening the stems.",
+      "next_steps": "Expect accelerated growth over the next 48 hours as temperatures rise. Check moisture tomorrow morning and plan to water once readings fall below 15 mS/cm. Prepare for selective shaping cuts in roughly 4-5 days, once secondary leaf pairs reach the appropriate length.",
+      "q_and_a_summary": "Reviewed whether cooler temperatures, rising fertility, and full sun should alter today’s care plan. Confirmed that moisture, pruning, and fertilization decisions remain unchanged. Clarified that the growth surge and balanced structure indicate predictable, healthy progress through early canopy rebuild.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing strong cluster expansion and balanced canopy development.",
+          "tags": "basil, top-view, cluster-growth, canopy-development"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing compact lower shoots and emerging side branching on taller stems.",
+          "tags": "basil, side-view, branching, lower-clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle highlighting dense basal shoots with healthy coloration and firm structure.",
+          "tags": "basil, basal-growth, dense-shoots, healthy-color"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view showing vigorous regrowth and uniform cluster formation across the plant.",
+          "tags": "basil, wide-view, regrowth, uniform-clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down angle showing leaf expansion and developing canopy symmetry.",
+          "tags": "basil, leaf-expansion, symmetry, canopy-build"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side perspective capturing strong posture and healthy growth after a cool morning.",
+          "tags": "basil, posture, morning-growth, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing clustered new shoots and stable soil surface.",
+          "tags": "basil, shoots, soil-surface, stable-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:20 AM",
+      "conditions": "Cloudy with a high of 72°F and an overnight low of 57°F. Clear conditions are expected around 6 PM, and cooler morning soil temperatures were noted.",
+      "digital_probe": {
+        "ph": "7.56",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "142",
+        "moisture_mScm": "23.00",
+        "light": "98",
+        "rh_percent": "56",
+        "fertility_percent": "15.3",
+        "soil_temp_f": "62.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is showing its strongest growth surge of the recovery cycle, with all clusters displaying noticeably larger leaves since yesterday. The top canopy is expanding and beginning early branch formation, while the lower clusters remain dense, compact, and brightly colored. Stem bases are firm and stable, and the soil surface remains even and well structured after recent top-offs. No symptoms of oversaturation or nutrient stress are present, and slight yellowing on older leaves aligns with normal turnover as vigorous new growth takes priority.",
+      "actions": "Do not water today, as moisture remains ideal and the cooler temperatures will slow evaporation. Avoid fertilizing and postpone pruning because secondary leaf pairs are still developing, and early cuts would interrupt canopy formation. Keep the plant outdoors but provide wind protection if gusts exceed 20 mph.",
+      "next_steps": "Expect noticeable growth over the next 48 hours as daytime temperatures rise. Check moisture tomorrow morning, as watering will likely be needed once readings fall below 15 mS/cm. Prepare for shaping cuts once secondary pairs reach approximately 1 to 1.5 inches in length.",
+      "q_and_a_summary": "Guidance was requested regarding the cool conditions and expected clearing later in the day. Confirmed that moisture, fertilization, and pruning decisions remain unchanged and that the plant is responding normally for this stage of regrowth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing expanded leaf size across all developing clusters.",
+          "tags": "basil, top-view, growth-surge, leaf-expansion"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting the expanding top canopy and thickening stems.",
+          "tags": "basil, side-view, canopy-growth, stem-development"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view showing dense lower clusters with vibrant coloration.",
+          "tags": "basil, dense-growth, lower-shoots, healthy-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide perspective capturing vigorous multi-cluster regrowth and a stable soil surface.",
+          "tags": "basil, wide-shot, multi-cluster, regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Alternate view showing uniform node activity and expanding leaf sets.",
+          "tags": "basil, nodes, leaf-sets, active-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle capturing healthy canopy fill and sturdy posture after a cool morning.",
+          "tags": "basil, canopy, cool-temp-response, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing robust basal shoots and an even soil surface.",
+          "tags": "basil, basal-shoots, soil-structure, regrowth"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "10:41 AM",
+      "conditions": "Cloudy with a high of 81°F and an overnight low of 65°F. Rain is expected around 6 PM, and a light sun shower occurred yesterday. The soil surface was leveled after filling probe holes to prevent cavities.",
+      "digital_probe": {
+        "ph": "5.63",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "46.00",
+        "light": "87",
+        "rh_percent": "69",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is accelerating into an upward-bush regrowth phase, with noticeable expansion in both tall and short leaf clusters since yesterday. Taller stems remain stable and continue supporting new lateral growth, while dense lower shoots display compact leaf sets and strong coloration. The soil surface appears even and well aerated after cavity correction, with no signs of compaction or oversaturation. No indicators of stress, nutrient issues, or pests are present, and the plant is responding strongly to its ongoing recovery cycle.",
+      "actions": "Do not water today, as moisture is appropriate and more rain is expected later. Avoid fertilizing and postpone pruning until shoots develop additional height and secondary leaf pairs. Keep the plant outdoors to benefit from natural light and humidity.",
+      "next_steps": "Monitor moisture after the expected rain to ensure the soil does not become oversaturated. Allow shoots another 2-3 days to elongate before considering height-balancing cuts. Continue lightly topping off soil after probe use to prevent air pockets.",
+      "q_and_a_summary": "Questions focused on recent growth, soil leveling after probe use, and whether watering or pruning were needed. Confirmed that moisture is ideal, upcoming rain should be considered, and shaping should wait until shoots gain more vertical structure.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing expanded growth across both tall and compact clusters.",
+          "tags": "basil, top-view, regrowth, leaf-expansion"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting vertical development and dense shoot growth.",
+          "tags": "basil, side-view, vertical-growth, multi-stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing dense basal shoots with strong color and tight leaf spacing.",
+          "tags": "basil, close-up, basal-growth, healthy-leaves"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view showing balanced regrowth and an even soil surface after correction.",
+          "tags": "basil, full-pot, soil-correction, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Alternate view showing vigorous node activity and expanding lower shoots.",
+          "tags": "basil, nodes, shoot-activity, growth-phase"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down angle capturing developing canopy clusters and expanding shoots.",
+          "tags": "basil, top-view, canopy-rebuild, cluster-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side perspective emphasizing the dominant tall stem cluster and its new lateral growth.",
+          "tags": "basil, dominant-stem, lateral-growth, vertical-structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide outdoor view showing strong overall vigor and healthy environmental response.",
+          "tags": "basil, environment, outdoor, vigorous-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:38 AM",
+      "conditions": "Mostly cloudy with a high near 84°F and an overnight low around 67°F. Thunderstorms are expected around 4 PM, and a brief light sun-shower occurred shortly after the reading.",
+      "digital_probe": {
+        "ph": "6.86",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "78",
+        "moisture_mScm": "36.00",
+        "light": "97",
+        "rh_percent": "65",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "82.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows a strong burst of new growth since yesterday, with multiple stems now supporting clusters of true leaves and several shoots advancing beyond the early bud stage. New foliage displays healthy coloration and firm texture, and the taller stems remain stable as energy sources. Soil is well aerated and evenly dried into the ideal mid-30s range, showing no oversaturation despite yesterday’s watering and this morning’s light shower. Overall, the plant is progressing through vigorous regrowth with expanding shoots and balanced hydration ahead of the expected afternoon storms.",
+      "actions": "Do not water today, as moisture is ideal and additional rain is expected. Avoid fertilizing and postpone pruning until new shoots gain more height and structure. Keep the plant outdoors to benefit from natural light and rainfall.",
+      "next_steps": "Monitor moisture after the storm to ensure the soil does not become oversaturated. Allow shoots to elongate and stabilize over the next 2-3 days before considering structural pruning. Expect ongoing rapid leaf expansion as the plant rebuilds its canopy.",
+      "q_and_a_summary": "Guidance was requested regarding the morning shower and probe readings. Confirmed that moisture is ideal, upcoming rain will not be harmful, and pruning should wait until the new shoots have gained additional height and stability.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing expanding leaf clusters and widespread new growth.",
+          "tags": "basil, top-view, new-growth, leaf-clusters"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing strong leaf expansion on both young shoots and taller supporting stems.",
+          "tags": "basil, side-view, regrowth, shoot-expansion"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up view highlighting densely developing shoots with firm structure and rich color.",
+          "tags": "basil, shoots, node-growth, dense-regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled perspective showing balanced regrowth and firm stem bases after ideal dry-down.",
+          "tags": "basil, angled, stem-health, balanced-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view capturing vigorous multi-stem recovery and steady canopy development.",
+          "tags": "basil, full-pot, recovery, multi-stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Another angle showing rapid shoot formation and healthy leaf coloration across the plant.",
+          "tags": "basil, leaf-color, rapid-growth, canopy-rebuild"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "2:46 PM",
+      "conditions": "Sunny all day with a high near 84°F and an overnight low around 65°F.",
+      "digital_probe": {
+        "ph": "7.26",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "94.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is continuing rapid regrowth with multiple stems producing new leaf clusters and expanding true leaves. Shoots are gaining structure and stronger color, and the taller stems remain stable as energy sources for developing growth. Soil moisture is balanced following the recent irrigation, with no signs of oversaturation. The plant is progressing through a vigorous rebuild phase as the canopy widens.",
+      "actions": "No additional watering is needed after the earlier irrigation. Hold off on fertilizing and postpone pruning until new shoots develop further. Maintain full sun exposure.",
+      "next_steps": "Allow moisture to continue dropping gradually before the next watering. Monitor shoot expansion over the coming days as the plant approaches readiness for structural shaping.",
+      "q_and_a_summary": "Questions centered on interpreting probe values after watering. Confirmed that the readings are normal following irrigation and that the plant’s regrowth remains strong.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing vibrant new shoots and stable growth following irrigation.",
+          "tags": "basil, top-view, new-growth, post-watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view showing expanding true leaf clusters with supportive tall stems.",
+          "tags": "basil, side-view, leaf-clusters, growth-phase"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of densely packed new shoots emerging from pruned stems.",
+          "tags": "basil, shoots, node-growth, dense"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view capturing vigorous regrowth and balanced moisture after irrigation.",
+          "tags": "basil, regrowth, canopy, hydration"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cluster of stems with expanding true leaves and strong coloration.",
+          "tags": "basil, leaf-expansion, healthy-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Perspective showing uniform new growth emerging from lower nodes.",
+          "tags": "basil, node-activity, uniform-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "10:19 AM",
+      "conditions": "Partly cloudy with a high near 81°F and an overnight low around 61°F.",
+      "digital_probe": {
+        "ph": "7.45",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "93",
+        "moisture_mScm": "40.00",
+        "light": "98",
+        "rh_percent": "64",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "72.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is showing rapid and widespread new growth, with many stems now producing clusters of true leaves rather than early buds. Several lower shoots are stacking multiple leaf pairs, signaling a transition into vigorous canopy rebuilding. Taller stems remain stable and continue contributing energy to support the accelerated regrowth. Soil moisture is at an ideal level for root oxygenation, and the overall condition reflects strong recovery momentum.",
+      "actions": "Do not water today, as moisture is still appropriate for continued dry-down. Avoid fertilizing and postpone any shaping or pruning until the new shoots become more established. Maintain the current light exposure pattern.",
+      "next_steps": "Monitor moisture and allow it to fall slightly lower before the next watering. Continue watching for shoot expansion over the next few days as the plant approaches the point where structural pruning will be appropriate.",
+      "q_and_a_summary": "Questions focused on the rapid increase in new growth and whether pruning would help shape the plant at this stage. Confirmed that the plant is in a strong regrowth phase and that pruning now could slow development, so shaping is better delayed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing widespread new shoot formation across multiple stems.",
+          "tags": "basil, top-view, new-growth, regrowth, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing strong clusters of developing leaves on several stems.",
+          "tags": "basil, side-view, leaf-clusters, early-regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view highlighting multiple stems with stacked new leaf pairs forming.",
+          "tags": "basil, node-growth, leaf-pairs, vigorous"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled shot showing the mix of tall energy-supporting stems and rapidly expanding new shoots.",
+          "tags": "basil, recovery, shoots, mixed-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top perspective capturing the density and spread of new leaf formation across the plant.",
+          "tags": "basil, canopy-rebuild, new-growth, clustered"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "12:07 PM",
+      "conditions": "Sunny with a high near 84°F and an overnight low around 63°F.",
+      "digital_probe": {
+        "ph": "5.98",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "139",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "76.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is in a strong rebound phase with numerous new shoots emerging along multiple stems and several nodes already carrying true leaves, rebuilding the canopy ahead of schedule. Tall older stems remain firm and green, supplying energy to the developing shoots while the remaining yellow leaves thin out as fresh growth takes over. The soil shows a dry, aerated surface with moderate moisture below, supporting root oxygenation and steady regrowth. Readings show a slightly acidic pH with stable EC and salt levels, consistent with the plant’s transition from node swelling into early shoot formation.",
+      "actions": "Do not prune the taller stems yet, as they are still contributing energy to the new shoots. Wait until the new growth becomes more substantial before shaping. Do not water today; the dry top layer is ideal and root zone moisture is still sufficient. Avoid fertilization until new leaves are larger and more established.",
+      "next_steps": "Monitor moisture daily and wait to water until the meter reads in the mid-30s. Allow the new shoots 5–7 more days to grow before considering structural pruning. Expect the new growth to become more defined and greener as the plant advances into early canopy rebuild.",
+      "q_and_a_summary": "Reviewed whether taller stems should be cut down to match the height of the new shoots and confirmed that pruning now would reduce energy available for regrowth, so shaping is better delayed until new shoots are larger and more established. Also confirmed that a bone-dry top layer with moderate root-zone moisture is ideal and that watering should wait until the moisture reading falls into the mid-30s.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing bright new shoots emerging along multiple stems with a dry, aerated soil surface.",
+          "tags": "basil, top-view, new-growth, soil, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the pot showing active true leaf formation and strong early shoot development.",
+          "tags": "basil, side-view, emerging-leaves, early-regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of stems with multiple bright green new shoots emerging from lower nodes.",
+          "tags": "basil, node-growth, leaf-pairs, rebound"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cluster of regrowing stems displaying healthy green shoots and firm stem bases.",
+          "tags": "basil, shoots, early-growth, stem-health"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view emphasizing widespread new growth throughout the pot, confirming strong recovery.",
+          "tags": "basil, recovery-progress, new-growth, canopy-rebuild"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:04 AM",
+      "conditions": "Mostly cloudy with a high near 84°F and an overnight low around 67°F.",
+      "digital_probe": {
+        "ph": "7.05",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "109",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "69",
+        "fertility_percent": "10.7",
+        "soil_temp_f": "72.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues a steady recovery from the hard reset prune, with multiple stems now carrying early true leaves and clear progress beyond yesterday’s node swelling stage. Older yellow leaves are aging out naturally while new growth appears brighter and healthier, and the stems stay firm and pale green with no signs of collapse or rot. Soil moisture has dropped into a healthy mid-range with even dry-down across the surface, and probe readings show slightly above-neutral pH with gently declining EC and salt levels, indicating stable nutrients without excess. Cloudy conditions are providing gentle light that reduces stress on the emerging shoots.",
+      "actions": "Do not water today, as the moisture level is still comfortably above the dry threshold. Keep the plant in its current placement with gentle light. Avoid all fertilizers until new leaves become larger and more established.",
+      "next_steps": "Allow moisture to continue dropping toward the mid-30s before the next watering. Monitor daily for continued emergence of new leaf pairs over the next 2-3 days. Expect clearer shoot development as the plant transitions fully into early regrowth.",
+      "q_and_a_summary": "Discussed what today’s probe readings and photos indicate about the recovery and confirmed that early true leaf formation and stable soil conditions show the plant is progressing ahead of schedule into active regrowth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of The plant showing even soil dry-down and multiple stems producing small new leaves.",
+          "tags": "basil, top-view, new-growth, soil, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting early true leaf formation on several stems and improved overall plant stability.",
+          "tags": "basil, side-view, emerging-leaves, rebound"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cluster of stems showing bright green new growth around lower nodes with aging yellow leaves above.",
+          "tags": "basil, node-growth, yellowing, early-regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lower stem group displaying firm structure and small developing leaf pairs emerging from nodes.",
+          "tags": "basil, stems, leaf-pairs, node-activity"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angled view showing multiple early shoots across the pot, indicating forward progress in recovery.",
+          "tags": "basil, shoots, early-growth, recovery-progress"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:15 PM",
+      "conditions": "Sunny with a high near 84°F and an overnight low around 60°F.",
+      "digital_probe": {
+        "ph": "6.58",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "184",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "20.7",
+        "soil_temp_f": "100.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows the first meaningful rebound since the hard reset, with multiple lower nodes on several stems swelling and forming early shoots while the stems remain firm and pale green without signs of rot. Yellowed leaves are fewer and softer, matching the expected decline of older tissue, and the soil is moderately moist but no longer waterlogged, with a more aerated surface after previous fluffing. Probe readings place pH in the ideal range with stable EC and salt levels, and overall stress indicators appear reduced. Ambient sun and filtered afternoon light look appropriate, with no heat wilt visible despite a high radiant soil temperature reading.",
+      "actions": "Do not water today since the moisture level is still moderate. Keep the plant in morning sun with bright shade for the remainder of the day. Avoid fertilizer until vigorous new green leaves appear. Continue gentle soil management without disturbing fine roots.",
+      "next_steps": "Allow moisture to drift toward the mid-30s to low-40s before the next watering. Expect node swelling to continue and small new leaf pairs to begin emerging over the next several days. Maintain current light exposure and avoid nutritional amendments until growth becomes more substantial.",
+      "q_and_a_summary": "Reviewed what to expect from the logging system and confirmed that today’s readings and photos show a transition from post-prune stress into early regrowth with stable environmental and soil conditions.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overview of The plant showing multiple stems with early node swelling and remaining yellowed leaves after the hard prune.",
+          "tags": "basil, recovery, node-swelling, post-prune, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of lower stems displaying small developing shoots and pale green regrowth points.",
+          "tags": "basil, new-growth, stems, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cluster of stems near the center of the pot showing active bud formation and a more aerated soil surface.",
+          "tags": "basil, bud-formation, soil, center-cluster"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side stem group with pale new shoots emerging at the nodes following the heavy cutback.",
+          "tags": "basil, regrowth, right-side, node-activity"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down perspective highlighting even moisture distribution and early leaf development across the pot.",
+          "tags": "basil, top-view, moisture, emerging-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "9:50 AM",
+      "conditions": "Mostly sunny, around 78°F at mid-morning with a forecast high of 83°F and overnight low near 64°F.",
+      "digital_probe": {
+        "ph": "6.97",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "182",
+        "moisture_mScm": "80.00",
+        "light": "87",
+        "rh_percent": "63",
+        "fertility_percent": "20.7",
+        "soil_temp_f": "67.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant is still highly thinned with only a few small clusters of leaves on the remaining stems. Older leaves are yellow and delicate, and some drop when touched. The soil surface had formed a crusted, matted layer before being fluffed; after fluffing, the top looks looser but the probe reading shows overall moisture is high, reflecting yesterday’s shade and previous watering. pH is close to neutral and fertility has increased into a moderate range, and no obvious pests are visible.",
+      "actions": "Do not water today; the root zone is already quite moist. Keep the pot where it receives gentle morning sun and bright shade for the rest of the day. Lightly fluff the top layer as needed in the future to prevent crusting, but avoid aggressive disturbance now that fine roots have been exposed. Do not fertilize yet.",
+      "next_steps": "Recheck moisture and pH within about 24 hours. Allow the soil to dry down toward the mid-30s to 40s before the next watering. Watch for fresh, bright-green leaves emerging from the lower nodes over the next 1-2 weeks. Once the plant shows a solid flush of new growth, consider starting a very dilute fertilizer routine.",
+      "q_and_a_summary": "Reassessed today’s high moisture reading in light of recent shade, prior dryness, and the plant’s stress history and confirmed that the goal is to cycle slowly between moist and just-barely-dry while avoiding extremes. Also emphasized that the plant may look rough for a while after the hard reset but can still recover as long as the stem bases remain firm and alive.",
+      "follow_up": [
+        "[10:16 AM] Lightly fluffed the crusted surface layer, exposing very fine roots just below; confirmed this gentle disturbance is acceptable and that the added aeration will help the soil dry more evenly.",
+        "[3:13 PM] Follow-up check found the fluffed top layer very dry while soil at first-knuckle depth remained moist; confirmed this pattern is ideal and recommended continuing to withhold water until root-zone moisture drops further."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "The plant showing multiple pale stems with remaining yellowed leaves after hard pruning.",
+          "tags": "basil, recovery, post-prune, yellowing"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of remaining stems; small buds are visible near the lower nodes.",
+          "tags": "stems, buds, baseline-condition"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of the pot showing overall structure and spacing of stems following heavy cutback.",
+          "tags": "full-pot, structure, recovery-stage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Additional angle showing yellowing leaves and soil condition after a shade day.",
+          "tags": "leaf-drop, soil, color-change"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view highlighting remaining leaves and early bud regrowth.",
+          "tags": "top-view, buds, baseline"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "The plant after shade and surface fluffing, with moist soil, sparse foliage, and short pruned stems in the white pot.",
+          "tags": "basil, follow-up, soil fluffing, high moisture, recovery phase"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:12 AM",
+      "conditions": "Mild morning around 67°F with sun and a warm afternoon forecast near 80°F.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "49",
+        "moisture_mScm": "34.00",
+        "light": "88",
+        "rh_percent": "63",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "66.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant looks very weak, with sparse, pale foliage and some leaves that fall off with a light touch. Several stems are bare with only small leaves at the tips or lower nodes. Soil moisture has dropped into the mid-30s, showing that the root zone is beginning to dry out, and pH has moved back into a more comfortable slightly acidic to neutral range. Fertility is low, which is acceptable while the plant carries minimal foliage.",
+      "actions": "Give a light, careful watering to rehydrate the root zone without saturating it, focusing on moistening the top 2-3 inches rather than flooding the pot. Keep the plant in bright shade or gentle morning sun only to reduce stress. Do not fertilize and avoid any further pH adjustments.",
+      "next_steps": "Recheck moisture in roughly 24 hours and monitor for any signs of new leaf emergence at the lower nodes. If stems begin to brown and dry all the way to the base, those specific stems may not recover and can be removed later. Continue avoiding fertilizer until clear, vigorous new growth appears.",
+      "q_and_a_summary": "Addressed concern that the plant might be failing and explained that severe pruning plus earlier pH swings can cause dramatic temporary decline, but firm, greenish stem bases still support regrowth. Emphasized gentle watering, shade, and patience while the plant stabilizes.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "The plant with very sparse, pale foliage and short cut stems, showing overall decline but intact stem bases.",
+          "tags": "basil, decline, hard prune, low moisture"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:30 AM",
+      "conditions": "Cool, dewy morning around 63°F, mostly sunny day with a high near 80°F.",
+      "digital_probe": {
+        "ph": "7.64",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "164",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "63.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant remains heavily pruned with sparse, yellowing foliage and some black or brown spotting on older leaves. Stems are firm but show stress, and the soil is still moderately moist. pH has drifted high into the slightly alkaline range after the earlier baking-soda treatment, and overall vigor is low compared with the original full canopy. No signs of pests are visible.",
+      "actions": "Do not apply lime or any additional pH adjusters. No fertilizer today. Avoid watering until the moisture level falls further, as roots are still recovering. Keep the plant where it receives gentle morning sun and bright shade for the rest of the day to minimize additional stress.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Allow pH to drift back down naturally with normal watering. Continue to hold off on fertilizer until new, stronger green growth appears. If foliage continues to yellow heavily, be prepared for some stems to die back while the plant consolidates energy.",
+      "q_and_a_summary": "Clarified whether lime should be applied now that pH has risen and advised against it because the earlier baking-soda drench has already pushed pH high. Also noted that the plant was in a mature harvest stage before the reset and that its current rough appearance is typical for a strongly cut-back basil.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of The plant showing yellowing leaves and short, pruned stems after prior corrective work.",
+          "tags": "basil, yellowing, post-treatment, stress"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "8:53 AM",
+      "conditions": "Cool morning around 61°F, mostly sunny day forecast with a high near 80°F.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "177",
+        "moisture_mScm": "58.00",
+        "light": "96",
+        "rh_percent": "62",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "61.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant has been cut back hard, leaving short stumps with a few pale yellow-green leaves. Some leaves show spotting and damage and are beginning to drop. Soil is moderately moist and the pH has risen into a more neutral range after the earlier baking-soda correction. The plant appears stressed from the combination of heavy pruning and recent pH and moisture swings, but the lower nodes remain intact.",
+      "actions": "Do not apply any more baking soda or lime. Do not water today since moisture is still moderate. Keep the pot in bright light with partial shade during the hottest part of the day to reduce stress. Remove only leaves that fall off easily or are badly damaged and lightly close any large probe holes with loose soil rather than packing it tight.",
+      "next_steps": "Recheck moisture and pH in about 24 hours. Wait to water again until the top inch is dry or moisture drops below the mid-30s. Expect continued leaf drop for a few days while the plant redirects energy to lower nodes. Do not fertilize until strong new growth appears.",
+      "q_and_a_summary": "Compared YINMIK and analog meter readings and confirmed that the calibrated YINMIK probe is the primary reference. Reviewed the timing and effect of the diluted baking-soda drench and confirmed that no further pH-raising treatments should be used. Clarified that large probe holes can be gently filled with loose soil rather than left open.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "The plant in the original white pot after the hard reset prune, with short stumps and a few yellowing leaves remaining.",
+          "tags": "basil, hard prune, recovery, container"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "id": "thyme_001",
+  "status": "Active",
+  "plant": "Thyme",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 12",
+  "container": "5 Herb Window Box",
+  "soil_mix": "Miracle-Gro Potting Mix",
+  "origin_history": [
+    "Part of mixed Herb Planter seeded on Nov 12, 2025.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" right back.",
+    "Shares planter with Thai Basil, Cilantro, Oregano, and Parsley."
+  ],
+  "whats_been_logged": "The focus has been on tracking germination timing, seedling emergence patterns, and early moisture distribution as thyme progressed from seed to a dense carpet of tiny seedlings. Probe readings documented pH correction efforts using lime, moisture stability across the zone, and continued expansion of the seedling mat.",
+  "current_stage": "Seedling Carpet Establishment",
+  "current_state": "Thyme seedlings form a dense, bright green carpet across the zone with healthy cotyledons and no visible stress. Soil preparation is complete, and the seedlings continue expanding evenly with stable moisture at depth despite a drying surface layer.",
+  "timeline": [
+    {
+      "stage": "Germination",
+      "date_range": "Nov 17 - Nov 27, 2025"
+    },
+    {
+      "stage": "Seedling Carpet Establishment",
+      "date_range": "Nov 24 - Dec 10, 2025"
+    },
+    {
+      "stage": "First True Leaves",
+      "date_range": "Dec 5 - Dec 20, 2025"
+    },
+    {
+      "stage": "Early Mat Thickening / Structural Rooting",
+      "date_range": "Dec 15 - Dec 31, 2025"
+    },
+    {
+      "stage": "First Light Trimming for Use",
+      "date_range": "Jan 10 - Jan 25, 2026"
+    },
+    {
+      "stage": "Mature Herb Mat / Regular Harvest Cycle",
+      "date_range": "Feb 1 - Mar 15, 2026"
+    },
+    {
+      "stage": "Woody Base Formation (Perennial Shift)",
+      "date_range": "Apr 1 - May 15, 2026"
+    },
+    {
+      "stage": "Flowering Stage",
+      "date_range": "May 15 - Jun 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "8:13 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.76",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "56.00",
+        "light": "91",
+        "rh_percent": "58",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "65.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings appear bright, even, and vigorous with well-formed true leaves. The cluster is thickening and color is uniform across the zone. Soil structure looks improved after filling the probe hole and adding fresh potting mix, creating more even moisture retention. No wilting, fungal issues, or discoloration are present.",
+      "actions": "Do not water today. Allow the soil to continue settling after rainfall and soil adjustments. Avoid fertilizer or lime. Remove only large bark pieces that shade seedlings without disturbing the cluster.",
+      "next_steps": "Recheck moisture and pH tomorrow once rainfall distribution stabilizes. Expect continued mat thickening and steady true-leaf development over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning probe reading on 12/09 showing balanced moisture and improved pH.",
+          "tags": "thyme, probe-readings, moisture, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings on 12/09 showing dense growth and expanding true leaves.",
+          "tags": "thyme, seedlings, true-leaves, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of thyme cluster showing healthy coloration and strong early development.",
+          "tags": "thyme, seedlings, close-up, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:20 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "4.45",
+        "ec_mScm": "0.51",
+        "salt_mg_L": "257",
+        "moisture_mScm": "67.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "30.7",
+        "soil_temp_f": "77.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings appear healthy and upright with increasingly defined true leaves. Color remains bright with only minor cotyledon yellowing typical of early-stage transitions. Soil is well rehydrated from the morning storms, and seedlings show no signs of wilting or stress. EC and salt are elevated due to rapid wetting of previously dry soil but pose no visible concern.",
+      "actions": "Do not water today. Allow the soil to continue settling after rainfall. Avoid fertilizer or lime adjustments. Lightly crumble only the loosest surface bark pieces without disturbing seedlings.",
+      "next_steps": "Recheck moisture and pH tomorrow once soil redistribution stabilizes. Expect EC and salt values to normalize within 24–48 hours. Continue monitoring for mat thickening and expansion of true leaves.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading on 12/08 showing elevated EC and salt after soil rehydration.",
+          "tags": "thyme, probe-readings, moisture, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings showing healthy green growth and expanding true leaves on 12/08.",
+          "tags": "thyme, seedlings, true-leaves, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:01 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "4.95",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "31",
+        "moisture_mScm": "1.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "86.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings appear healthy and upright with early true leaves forming. Color remains bright green with no signs of wilting or stress. The soil surface is extremely dry, preventing reliable moisture readings, though the seedlings themselves are tolerating conditions well. No damping-off or discoloration observed.",
+      "actions": "Gently moisten the thyme zone with no more than 1/2 cup of water to restore surface hydration and improve probe contact. Avoid deep watering today. Loosen only the driest surface crust without disturbing seedlings.",
+      "next_steps": "Recheck moisture after tomorrow’s expected rainfall to confirm even hydration. Continue monitoring for mat thickening and early true leaf expansion. Avoid additional watering unless the surface becomes powder-dry.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe screenshot showing low moisture due to very dry soil surface on 12/07.",
+          "tags": "thyme, probe-readings, dry-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings developing early true leaves with healthy green coloration on 12/07.",
+          "tags": "thyme, seedlings, true-leaves, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:06 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "4.86",
+        "ec_mScm": "0.53",
+        "salt_mg_L": "269",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "60",
+        "fertility_percent": "32.0",
+        "soil_temp_f": "72.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings show vigorous growth with clearly emerging true leaves and expanded green coverage. Soil is highly saturated following recent moisture retention, and wind exposure is helping dry the surface without stressing the plants.",
+      "actions": "Do not water today. Rotate probe insertion points and lightly loosen the top soil layer only if crusting develops.",
+      "next_steps": "Monitor soil drying over the next 24 hours and begin watching for thinning timing as true leaves continue developing.",
+      "q_and_a_summary": "User shared available garden products for reference and noted soil leveling and probe management improvements.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading showing high soil moisture and stable pH on 12/02.",
+          "tags": "thyme, probe-readings, 12-02, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings with emerging true leaves and healthy green growth under morning sun.",
+          "tags": "thyme, seedlings, true-leaves, 12-02, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "11:06 AM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight; clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "120",
+        "moisture_mScm": "54.00",
+        "light": "86",
+        "rh_percent": "50",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings remain healthy with bright green cotyledons and gradual expansion across the leveled soil surface. A resolved probe depression has allowed more even distribution of new sprouts.",
+      "actions": "Do not water today. Continue filling the probe hole after each use and rotate probe locations to prevent new compaction.",
+      "next_steps": "Monitor soil surface later in the day; lightly fluff the top layer only if crusting appears.",
+      "q_and_a_summary": "User reported continued soil leveling and noted normal seedling expansion following improved soil structure.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading showing stable moisture and a temporary pH error on 11/28.",
+          "tags": "thyme, probe-readings, 11-28, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings in morning light showing healthy cotyledons and improved soil leveling.",
+          "tags": "thyme, seedlings, soil-leveling, 11-28, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "12:19 PM",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight; rain expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.20",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "51.00",
+        "light": "80",
+        "rh_percent": "61",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "81.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings remain healthy with bright green cotyledons and a stable, dense cluster toward the upper section. Soil leveling efforts have smoothed the probe depression and improved distribution without burying seedlings.",
+      "actions": "Do not water ahead of rainfall. Continue lightly filling the probe hole after each use to prevent sinking and maintain an even surface.",
+      "next_steps": "After tonight's rain, check for soil displacement and confirm that the surface remains level for even seedling growth.",
+      "q_and_a_summary": "User noted that probe width caused repeated depressions and they began filling the hole and leveling soil beneath the thyme.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading at midday showing stable moisture and moderate pH on 11/27.",
+          "tags": "thyme, probe-readings, 11-27, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedling cluster showing even green cotyledons and improved soil leveling beneath the plants.",
+          "tags": "thyme, seedlings, soil-leveling, 11-27, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:19 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "5.53",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "215",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "25.3",
+        "soil_temp_f": "80.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings remain healthy with bright green cotyledons and steady spread toward the upper planting area. A noticeable soil depression has formed from repeated probe placement, causing seedlings to cluster at the top.",
+      "actions": "Add a thin layer of loose potting mix to level the probe pocket before the storm. Do not water ahead of rainfall.",
+      "next_steps": "After the storm, inspect for soil displacement and ensure the surface remains level for even seedling distribution.",
+      "q_and_a_summary": "User asked whether the probe-made soil depression should be filled due to seedling clustering; confirmed that it should be topped up with loose mix.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading at midday showing rising pH and moderate soil moisture on 11/26.",
+          "tags": "thyme, probe-readings, 11-26, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings clustered toward the upper section due to a soil depression from repeated probe insertion.",
+          "tags": "thyme, seedlings, soil-depression, 11-26, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the probe pocket showing uneven soil level and seedling distribution.",
+          "tags": "thyme, soil, probe-pocket, 11-26, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wider view of thyme zone showing clustering and the need for gentle soil leveling.",
+          "tags": "thyme, seedlings, distribution, 11-26, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:13 PM",
+      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "4.38",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "210",
+        "moisture_mScm": "70.00",
+        "light": "87",
+        "rh_percent": "45",
+        "fertility_percent": "24.7",
+        "soil_temp_f": "85.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings continued to appear healthy with appropriate moisture following afternoon watering. No signs of stress were observed despite warm soil temperatures.",
+      "actions": "No additional watering needed after the 2:33 PM irrigation. Allow surface to dry slightly before the next irrigation.",
+      "next_steps": "Monitor moisture patterns and ensure soil does not become overly dry in the upper layers.",
+      "q_and_a_summary": "User noted that watering occurred at 2:33 PM as morning watering was missed.",
+      "follow_up": [],
+      "photos": []
+    },
+    {
+      "date": "11/24/2025",
+      "time": "12:20 PM",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.92",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "189",
+        "moisture_mScm": "65.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings appear healthy with bright green cotyledons and slightly expanded coverage. Soil has rehydrated well after the morning's light watering, and no stress indicators are present.",
+      "actions": "No immediate action needed. Allow soil to dry slightly at the surface before the next watering.",
+      "next_steps": "Continue monitoring surface dryness and seedling density as the carpet forms. Watch for first true leaves over the coming days.",
+      "q_and_a_summary": "User noted the soil was extremely dry and crumbly this morning and lightly watered before taking readings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Midday digital probe reading for thyme showing rehydrated soil and rising pH on 11/24.",
+          "tags": "thyme, probe-readings, 11-24, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedling cluster showing healthy green cotyledons and moist soil after a light watering on 11/24.",
+          "tags": "thyme, seedlings, sprouts, 11-24, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:57 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "4.28",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "113",
+        "moisture_mScm": "36.00",
+        "light": "97",
+        "rh_percent": "46",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "89.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings continue expanding evenly across the thyme zone with healthy bright green cotyledons. No stress indicators present despite warm soil temperatures. Surface soil shows moderate dryness but is not crusted, and moisture at depth remains stable.",
+      "actions": "Do not water now. Recheck surface dryness around sunset and provide a gentle shallow watering only if the top layer becomes excessively dry.",
+      "next_steps": "Monitor for continued expansion of the seedling carpet and watch for the arrival of the first true leaves over the next 1-2 weeks.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedlings expanding across the zone in bright sun on 11/23.",
+          "tags": "thyme, seedlings, sprouts, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:27 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "4.15",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "90",
+        "moisture_mScm": "23.00",
+        "light": "97",
+        "rh_percent": "49",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "83.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings continue forming a healthy, bright green carpet with slightly increased density compared to the previous day. Soil surface appears moderately dry but seedlings show no stress symptoms. pH remains acidic but stable within the expected lime-buffering range.",
+      "actions": "Check surface dryness mid-afternoon. Provide a gentle, shallow watering only if the top layer becomes powder-dry or crusted. No fertilizer or pH adjustments today.",
+      "next_steps": "Monitor moisture trends to prevent excessive drying during seedling establishment. Watch for the first true leaves over the next 1-2 weeks as the carpet continues to thicken.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Thyme seedling cluster expanding slightly under mostly cloudy late-morning conditions on 11/22.",
+          "tags": "thyme, seedlings, sprouts, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:33 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "4.76",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "163",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "81.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings are expanding into a denser carpet and appear healthy under bright afternoon sun. Soil moisture is strong at depth despite a drying surface, and pH remains acidic but trending upward after lime application. No signs of wilting, bleaching, or damping off.",
+      "actions": "Do not water at peak heat; soil moisture at depth is sufficient. Optionally mist lightly near sunset only if the surface becomes extremely dry and crusted.",
+      "next_steps": "Monitor pH over the next 48 hours as lime continues to buffer acidity. Watch for continued thickening of the seedling carpet and ensure surface dryness does not reach a powdery state.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Bright and expanding cluster of thyme seedlings in full afternoon sun on 11/21.",
+          "tags": "thyme, seedlings, sprouts, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:31 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.33",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "63",
+        "moisture_mScm": "6.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "88.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings form a dense, bright green carpet and appear healthy despite the hot afternoon conditions. Moisture reading is low, showing that the surface is drying out compared to previous days.",
+      "actions": "Hold off on immediate watering at peak heat but plan to give a gentle, even watering over the thyme zone later if seedlings begin to wilt or the top layer becomes very dry.",
+      "next_steps": "Over the next 24 hours, monitor for signs of wilting or yellowing in the dense thyme mat. Plan for future thinning once seedlings are larger and the stand stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Dense carpet of thyme seedlings in full sun on 11/20 with drying surface soil.",
+          "tags": "thyme, sprouts, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:45 AM",
+      "conditions": "Cool morning around 69.1°F in full sun with clear weather.",
+      "digital_probe": {
+        "ph": "4.20",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "46.00",
+        "light": "93",
+        "rh_percent": "63",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "69.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Dense healthy thyme germination with bright green clustered seedlings.",
+      "actions": "Do not water. Allow slight drying.",
+      "next_steps": "Monitor density for thinning later.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:07 PM] Lime added across herb box; soil very dry two knuckles down—light surface watering recommended to re-moisten the upper layer without washing lime deeper."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Dense thyme sprout cluster on 11/19.",
+          "tags": "thyme, sprouts"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Herb box after lime application on the afternoon of 11/19.",
+          "tags": "herb-box, lime, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:08 AM",
+      "conditions": "Cool morning around 64.6°F in full sun with partly cloudy weather, high 82°F, low 65°F.",
+      "digital_probe": {
+        "ph": "5.42",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "98",
+        "moisture_mScm": "51.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "64.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "First tiny thyme sprouts beginning to emerge across the section. Seedlings are very small but bright and evenly distributed.",
+      "actions": "Do not water today. Allow the surface to remain slightly on the dry side to prevent damping off.",
+      "next_steps": "Monitor thyme sprouts closely and watch for expansion of the seedling carpet.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First tiny thyme sprouts visible in the thyme zone on 11/18.",
+          "tags": "thyme, sprouts, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:07 AM",
+      "conditions": "Cool morning around 60.6°F in full sun with mostly sunny weather, high 81°F, low 61°F.",
+      "digital_probe": {
+        "ph": "4.58",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "54.00",
+        "light": "98",
+        "rh_percent": "61",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "60.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "First thyme sprouts are visible as tiny green specks across the thyme zone. Soil moisture is good; pH is still on the acidic side but seedlings look healthy.",
+      "actions": "Avoid additional watering today and do not disturb emerging thyme seedlings.",
+      "next_steps": "Monitor thyme sprout expansion over the next 2-3 days. Recheck moisture if the surface begins to dry.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of first thyme sprouts appearing on 11/17.",
+          "tags": "thyme, sprouts, herb-box"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:35 AM",
+      "conditions": "Cool morning around 67°F in morning shade then sun with clear weather.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "between 2-3",
+        "ph": "around 7"
+      },
+      "observations": "Soil is still on the dry side but improving compared to the previous day. No sprouts visible in this section yet.",
+      "actions": "Provide a gentle watering to keep the top layer evenly moist. No fertilizer.",
+      "next_steps": "Recheck moisture the next morning and continue watching for first signs of germination.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Herb planter surface on 11/13 showing moistening soil and no sprouts yet.",
+          "tags": "herb-box, soil, pre-germination"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:09 AM",
+      "conditions": "Cool morning around 65°F in full sun with clear weather.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "yellow",
+        "moisture": "red (very dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "Initial reading shows very dry soil and alkaline pH across the planter. No seedlings present; seeds are likely just beginning water uptake after sowing.",
+      "actions": "Thoroughly soak the soil to correct dryness, taking care not to displace seeds. No fertilizer at this stage.",
+      "next_steps": "Expect slow pH change over the coming days. Recheck moisture and pH with follow-up readings.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First-day view of the herb planter on 11/12 with dry soil before rehydration.",
+          "tags": "herb-box, dry-soil, day-1"
+        }
+      ]
+    }
+  ]
+}

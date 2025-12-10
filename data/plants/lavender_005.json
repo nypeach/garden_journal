@@ -1,0 +1,601 @@
+{
+  "id": "lavender_005",
+  "status": "Active",
+  "plant": "Lavender (Right)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 6",
+  "container": "Round pot, 25 oz, white",
+  "soil_mix": "Miracle-Gro Potting Soil + Skoon pebbles (1:3)",
+  "origin_history": [
+    "Lavender seed pot placed at Panel 5.",
+    "Seeds scattered and lightly covered on Nov 9, 2025.",
+    "Soil mix: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio)."
+  ],
+  "whats_been_logged": "The pot has been monitored daily since sowing with moisture, pH, and environmental readings documented. Several days showed dry soil requiring light watering. pH fluctuations were observed, including a drop to 4.71 corrected by a 1/4 teaspoon dolomitic lime top-dress. Soil texture, drainage, and exposure have been consistently stable. Lime additions, light watering, and full-sun placement have been the primary interventions as the germination window begins.",
+  "current_stage": "Pre-Germination",
+  "current_state": "Seeds sown Nov 9, 2025; soil remains dry to moderately moist with stable sunlight exposure. pH correction applied Nov 20 due to acidic drift. No sprouts observed as of the latest entry.",
+  "timeline": [
+    {
+      "stage": "Germination window begins",
+      "date_range": "Nov 23 - Dec 5, 2025"
+    },
+    {
+      "stage": "Tiny seedlings visible",
+      "date_range": "Dec 10 - Dec 20, 2025"
+    },
+    {
+      "stage": "Transplantable small plants",
+      "date_range": "Jan 10 - Jan 25, 2026"
+    },
+    {
+      "stage": "First light flowering",
+      "date_range": "Mar 1 - Apr 30, 2026"
+    },
+    {
+      "stage": "Peak flowering",
+      "date_range": "Jun 1 - Aug 31, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:42 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.77",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "156",
+        "moisture_mScm": "53.00",
+        "light": "97",
+        "rh_percent": "57",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "64.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains wetter than ideal for lavender germination, with moisture at 53.00 mS/cm. The surface appears dark and cohesive, though fluffing and a light top-off of fresh potting mix have improved aeration. pH and salt levels remain stable and safe. No sprouts are visible.",
+      "actions": "Keep the pot protected from today's expected showers to prevent further saturation. Do not water. Maintain full sun and airflow to support gradual dry-down.",
+      "next_steps": "Recheck moisture tomorrow. Resume very light hydration only when moisture falls into 15–25 mS/cm. Continue monitoring daily for first signs of sprouting.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:42 AM] Filled the probe hole, fluffed the soil surface, and added a small amount of Miracle-Gro Moisture Control Potting Mix."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of Lavender (Right) showing dark, moist soil with improved surface aeration after fluffing.",
+          "tags": "lavender, soil, moisture, aeration, container"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:49 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.68",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "153",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "16.7",
+        "soil_temp_f": "77.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is darker and freshly wet, with moisture at 56.00 mS/cm—above the ideal germination range for lavender. pH and salt levels remain stable and safe for seeds. The surface appears dense and saturated, and no sprouting is visible yet.",
+      "actions": "Keep the pot fully protected from incoming rain to prevent further saturation. Do not water today. Maintain full sun and airflow to support natural dry-down toward the ideal range.",
+      "next_steps": "Recheck moisture tomorrow or once the surface lightens. Resume very light hydration only when moisture falls into 15–25 mS/cm. Continue daily visual monitoring for first sprout emergence.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of Lavender (Right) showing dark, wet soil surface with no visible sprouting.",
+          "tags": "lavender, soil, moisture, container"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "4:48 PM",
+      "conditions": "Mostly sunny with a high of 84°F and an overnight low of 64°F. Soil was bone dry earlier in the afternoon before watering.",
+      "digital_probe": {
+        "ph": "5.41",
+        "ec_mScm": "0.72",
+        "salt_mg_L": "363",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "44.7",
+        "soil_temp_f": "78.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil was completely dry at 2:00 PM in full sun, preventing a reading. After watering, the probe shows high moisture and elevated salts, which is expected when rehydrating very dry soil. pH remains acceptable for lavender germination. No sprouts visible. Soil structure appears dark and moist with consistent rewetting.",
+      "actions": "Do not water again until moisture drops below approximately 20 mS/cm. Allow natural dry-down in sun and breeze. Avoid lime, fertilizer, or sprays due to elevated salts. Protect from rain to prevent renewed saturation.",
+      "next_steps": "Recheck moisture and pH once the surface dries again, likely within 24-48 hours. Continue monitoring for germination and maintain stable dry-down and wet-up cycles.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender Right soil after rewetting, showing evenly moist texture following watering.",
+          "tags": "lavender, soil, watering, moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "1:43 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.83",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "149",
+        "moisture_mScm": "42.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "91.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture has decreased substantially from prior saturated readings, indicating good recovery after recent wet conditions. Salt and EC levels have dropped sharply, confirming improved drainage and normalization of the soil environment. pH is within an acceptable range for lavender germination. The soil surface appears loose, evenly moist, and not compacted, with no sprouting yet observed.",
+      "actions": "Do not water today. Keep the pot in sun and wind to encourage continued dry-down toward the ideal germination moisture range. Avoid lime or fertilizer application.",
+      "next_steps": "Recheck moisture and pH within 24 hours. Continue allowing natural dry-down until moisture reaches 15-25 mS/cm, then resume light hydration cycles appropriate for germination.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender Right soil surface showing improved drying and healthy texture under full sun.",
+          "tags": "lavender, soil, sunlight, dry-down"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "10:45 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "5.42",
+        "ec_mScm": "1.13",
+        "salt_mg_L": "568",
+        "moisture_mScm": "70.00",
+        "light": "97",
+        "rh_percent": "69",
+        "fertility_percent": "58.3",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains overly wet with high moisture and elevated salt levels, likely due to recent rain exposure and slow dry-down. pH is slightly acidic but within an acceptable range. No sprouting is visible and conditions are currently unfavorable for germination due to sustained saturation.",
+      "actions": "Avoid watering today. Keep the pot in sun and wind to promote gradual dry-down. Do not apply lime or fertilizer. Protect from further rain to allow moisture levels to normalize.",
+      "next_steps": "Recheck moisture and salt levels once the soil has dried significantly. Maintain full sun and airflow until readings fall into the ideal germination range.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender Right moisture and pH readings showing saturated soil conditions.",
+          "tags": "lavender, probe, wet-soil, readings"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "3:47 PM",
+      "conditions": "Sunny with a high near 80°F and dry conditions. Pot remained on the picnic table to avoid yesterday's expected rain.",
+      "digital_probe": {
+        "ph": "7.82",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "31",
+        "moisture_mScm": "0.00",
+        "light": "94",
+        "rh_percent": "40",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "79.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is completely dry following recent top-off with fresh potting mix, leading to artificially high pH readings and zero measurable moisture. Conditions are unsuitable for seed germination until moisture is restored. Visual inspection shows loose, dry soil with no sprouting activity.",
+      "actions": "Rehydrate the soil gently using misting or slow, controlled watering to avoid runoff and restore suitable germination moisture.",
+      "next_steps": "Check moisture and pH again once the soil has absorbed water. Maintain moderate, consistent moisture and continue visual monitoring for signs of germination.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:58 PM] Watered it per the instructions."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender Right pot after topping off with fresh soil showing completely dry surface.",
+          "tags": "lavender, soil, dry, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing zero moisture and elevated pH due to dry soil conditions.",
+          "tags": "lavender, probe, readings, dry-soil"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:44 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping down to 67°F overnight, with thunderstorms expected around 4 PM. A light rain occurred shortly after the readings at 11:15 AM.",
+      "digital_probe": {
+        "ph": "5.18",
+        "ec_mScm": "0.56",
+        "salt_mg_L": "280",
+        "moisture_mScm": "70.00",
+        "light": "87",
+        "rh_percent": "63",
+        "fertility_percent": "34.0",
+        "soil_temp_f": "81.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture is significantly above the ideal range following recent watering and light rain, resulting in saturated conditions that can slow germination. pH has drifted acidic again, though not severely, and salt levels have risen due to dissolution in the wet soil. No sprouting is visible, and the soil structure remains loose but heavily wet.",
+      "actions": "Avoid lime or additional watering today. Protect the pot from incoming thunderstorms to prevent further saturation and allow dry-down to resume naturally.",
+      "next_steps": "Recheck pH and moisture once the soil has dried closer to ideal levels. Maintain full sun exposure when possible and continue monitoring for early germination signs over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[4:06 PM] Moved the lavender to the picnic table."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Probe reading showing high moisture and acidic pH following early rain.",
+          "tags": "lavender, probe, moisture, ph, rain"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Right) pot with saturated soil and visible lime fragments under cloudy light.",
+          "tags": "lavender, soil, lime, moisture, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of the lavender pot showing soil condition before storms later in the day.",
+          "tags": "lavender, soil, weather, outdoors, container"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "2:54 PM",
+      "conditions": "Sunny all day with a high of 84°F dropping down to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.89",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "47",
+        "moisture_mScm": "6.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "85.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil pH has risen into a favorable range for germination and moisture remains low but safe after the recent watering. Salt and EC levels are low, and soil appears loose with good airflow under strong sun. No visible sprouting yet, but conditions are generally supportive of germination.",
+      "actions": "No lime needed today. Avoid additional watering and maintain full sun to support proper dry-down cycles.",
+      "next_steps": "Recheck moisture and pH within 24 hours. Continue twice-daily visual checks for the first signs of germination.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:33 PM] Watered lightly as part of the day's routine."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading showing near-ideal pH and low moisture after midday watering.",
+          "tags": "lavender, probe, readings, ph, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Right) pot under strong afternoon sun with surface lime dispersing and soil drying evenly.",
+          "tags": "lavender, soil, lime, sunlight, container"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "10:38 AM",
+      "conditions": "Partly cloudy with a high of 81°F dropping down to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.93",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "98",
+        "moisture_mScm": "18.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "81.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Moisture is within the ideal range for lavender germination while pH has drifted acidic again, falling below the target range. Soil appears loose and evenly moist with surface lime still present and partially dissolved. Light and temperature conditions remain favorable for germination.",
+      "actions": "Apply a small lime correction using a light surface top-dress and activate it gently with misting. Do not mix the soil. Avoid full watering to maintain favorable moisture levels.",
+      "next_steps": "Recheck moisture and pH within 24 hours. Continue monitoring for germination signs and maintain full sun exposure with careful moisture control.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:47 AM] Added 1/8 tsp lime and misted."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Digital probe reading showing acidic pH and ideal moisture conditions for Lavender (Right).",
+          "tags": "lavender, probe, readings, low-ph, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender (Right) pot with surface lime visible and soil evenly moist under morning sun.",
+          "tags": "lavender, soil, lime, moisture, container"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:12 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.07",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "114",
+        "moisture_mScm": "32.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "11.3",
+        "soil_temp_f": "92.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture has decreased from the day before and is now moderately moist at 32.00 mS/cm, slightly above ideal but still safe for germination. pH has risen to 6.07, entering the optimal range for lavender seed sprouting after previous acidic drift. Salt levels have come down significantly from 189 to 114 mg/L, indicating stabilization following lime dissolution. Soil appears clean and well-aerated with lime still present on the surface. No sprouts are visible yet, but conditions now align with the germination window beginning today.",
+      "actions": "Do not water today. Allow soil to continue drying into the ideal range. No lime or amendments needed. Maintain full sun exposure and monitor soil surface for the first signs of germination.",
+      "next_steps": "Recheck moisture and pH within 24 hours. Begin twice-daily visual checks for sprout emergence between 11/26 and 11/29. Keep conditions lightly moist but avoid oversaturation during this germination window.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender pot showing stabilized soil surface with dispersed lime and moderate moisture.",
+          "tags": "lavender, soil, lime, moisture, container"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "10:37 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "4.78",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "189",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "57",
+        "fertility_percent": "21.3",
+        "soil_temp_f": "81.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is more saturated than ideal for lavender germination, with moisture at 47.00 mS/cm. pH has dropped sharply again to 4.78, indicating ongoing acidic drift despite previous lime application. Salts continue to rise due to lime dissolution but remain within a tolerable range. No sprouts are visible and the soil appears clean, with lime still present on the surface. Current readings may be partially influenced by probe depth, as the pot is small and the sensor touches the bottom, increasing acidity and moisture values.",
+      "actions": "Avoid watering today to allow moisture to drop into the ideal range. Apply a very light surface-only dose of dolomitic lime (1/8 teaspoon) without mixing into the soil. Keep in bright light and protect from rain saturation.",
+      "next_steps": "Recheck moisture and pH within 24 hours using a shallower angled probe insertion. Expect pH to rise slightly with today's lime application. Maintain lightly moist—not wet—conditions as the germination window begins.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:43 AM] Added 1/8 teaspoon dolomitic lime to soil surface; left unmixed to avoid pH hotspots in small pot."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender pot showing moist soil and surface lime from previous correction.",
+          "tags": "lavender, soil, lime, moisture, container"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:22 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.76",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "157",
+        "moisture_mScm": "22.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "17.3",
+        "soil_temp_f": "82.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture is lightly moist at 22.00 mS/cm, ideal for lavender germination. pH has risen to 5.76, showing a stable correction from the previous day's acidic drift. Salt levels increased due to lime dissolution but remain safe. Soil temperature at 82.9°F supports germination. No sprouts visible in the soil surface, which remains clean, loose, and free of mold or pests. Conditions align well with the germination window expected to begin 11/23.",
+      "actions": "No watering or soil amendments needed today. Maintain full sun exposure and monitor moisture as humidity is lower and soil may dry faster.",
+      "next_steps": "Recheck moisture within 24 hours. Watch for the first signs of germination between 11/23 and 12/05. Avoid additional lime or fertilizer unless pH drifts downward again.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender soil surface with visible lime top-dress and light moisture.",
+          "tags": "lavender, soil, lime, moisture, pot"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "11:16 AM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.71",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "52",
+        "moisture_mScm": "2.00",
+        "light": "99",
+        "rh_percent": "57",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "86.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil remains dry with a moisture reading of 2.00 mS/cm. No sprouts visible. Soil is loose, well-drained, and free of pests or mold. pH at 4.71 is more acidic than ideal and may slow germination. Soil temperature elevated due to full sun.",
+      "actions": "Apply 1-2 tablespoons of water to lightly moisten the soil surface. Add very light top-dress of dolomitic lime (1/4 teaspoon) to correct acidic pH.",
+      "next_steps": "Recheck moisture within 24 hours. Maintain full sun. Delay further pH adjustments until a new reading confirms continued acidity.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[12:36 PM] Applied very light watering and added 1/4 teaspoon dolomitic lime; soil shows even lime coverage and light moisture without saturation."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender pot with YINMIK probe inserted in full sun.",
+          "tags": "lavender, pot, probe, sunlight"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Follow-up: lime added to soil surface after pH correction.",
+          "tags": "lavender, lime, ph-correction, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:21 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.02",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "34",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "70.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is completely dry with a moisture reading of 0.00 mS/cm. No sprouts visible. Soil surface appears loose and free of mold or pests. pH at 5.02 is slightly acidic but still within a tolerable range for pre-sprouting lavender. Fertility and salts remain low and safe for germination.",
+      "actions": "Apply 1-2 tablespoons of water to lightly re-moisten the surface. No fertilizer or amendments needed.",
+      "next_steps": "Recheck moisture in 24 hours. Maintain full sun exposure. Monitor pH for further decline before applying any lime.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender container in morning light with dry soil surface visible.",
+          "tags": "lavender, container, morning-light, soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing dryness and perlite distribution.",
+          "tags": "lavender, soil, topview, dryness"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "8:43 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "7.09",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "31",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "67.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil surface is completely dry. No sprouts visible. pH increased to 7.09, within ideal germination range. Soil remains loose and free of pests or mold.",
+      "actions": "Apply 2 tablespoons of water to lightly re-moisten the top layer.",
+      "next_steps": "Recheck moisture in 24 hours. Maintain full sun. Do not fertilize.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender pot showing dry soil texture.",
+          "tags": "lavender, soil, dryness"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of dry soil surface.",
+          "tags": "lavender, topview, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "8:58 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.11",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "73",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "62.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture moderate with no oversaturation. No sprouts present. Soil clean, loose, and well-lit. pH slightly acidic but safe for germination.",
+      "actions": "No watering or amendments needed today.",
+      "next_steps": "Recheck moisture in 24 hours. Maintain full sun. Do not adjust pH until after sprouting.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": []
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "id": "shallots_001",
+  "status": "Active",
+  "plant": "Shallots",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Panel 8",
+  "container": "Window Box",
+  "soil_mix": "Same as garlic planters",
+  "origin_history": [
+    "Bulbs planted 2\" deep around Nov 9-10, 2025.",
+    "Planted in window planter with Chamomile."
+  ],
+  "whats_been_logged": "The focus has been on moisture distribution across the three planting zones, pH correction from strongly acidic conditions using dolomitic lime, and tracking the first emergence. Early entries documented uneven moisture requiring targeted watering to dry pockets, followed by successful lime integration that brought pH from the 4.5-5.5 range into the ideal band for Allium growth. After internal development beneath the surface, the first green shoot emerged, confirming establishment.",
+  "current_stage": "Active Vegetative Growth",
+  "current_state": "The main shallot shows vigorous upright foliage with multiple mature leaves and a new daughter sprout emerging from the bulb. Growth is strong and balanced, with well-aerated soil and stable moisture and pH. No signs of stress, disease, or compaction are present.",
+  "timeline": [
+    {
+      "stage": "Green shoots showing",
+      "date_range": "Nov 20 - Nov 30, 2025"
+    },
+    {
+      "stage": "Strong leaf clumps",
+      "date_range": "Dec 5, 2025 - Feb 15, 2026"
+    },
+    {
+      "stage": "Bulb formation phase",
+      "date_range": "Feb 15 - Apr 1, 2026"
+    },
+    {
+      "stage": "Harvest",
+      "date_range": "Apr 1 - Apr 30, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "7:58 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.38",
+        "salt_mg_L": "185",
+        "moisture_mScm": "67.67",
+        "light": "97",
+        "rh_percent": "59",
+        "fertility_percent": "19.1",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The main shallot plant shows upright, vigorous growth with tall, firm shoots. A new shallot sprout is emerging normally from the papery skin. Soil appears improved after light fluffing and the addition of potting mix, with no compaction. Readings are stable with no signs of stress.",
+      "actions": "Leave all shoots intact as their height is normal. Lightly backfill around the new sprout to support its base. Do not water today, as moisture levels remain high and rain is expected.",
+      "next_steps": "Check moisture again after the upcoming rain to ensure levels do not stay elevated. Monitor the new sprout for elongation over the next 48–72 hours. Recheck probe readings in 1–2 days depending on weather conditions.",
+      "q_and_a_summary": "Confirmed that tall shoots are normal and should not be trimmed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of newly emerging shallot sprout pushing through papery bulb skin.",
+          "tags": "shallots, sprout, emergence"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Main shallot plant showing tall, upright, healthy foliage.",
+          "tags": "shallots, foliage, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface after fluffing and adding Moisture Control Potting Mix.",
+          "tags": "soil, amendment, planter"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "10:59 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.80",
+        "ec_mScm": "0.41",
+        "salt_mg_L": "207",
+        "moisture_mScm": "83.33",
+        "light": "96",
+        "rh_percent": "63",
+        "fertility_percent": "24.0",
+        "soil_temp_f": "75.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The main shallot plant stands upright and vigorous with firm blue-green leaves. The newly emerging sprout remains healthy but shows partial exposure as the surrounding soil shifted during recent wet conditions. Soil across all three measurement zones is heavily saturated, with moisture readings ranging from 60 to 100 mS/cm. pH remains well within the ideal allium range, and fertility is elevated but stable. Bark pieces and surface texture appear displaced from rain, though aeration remains adequate and no signs of rot or stress are present.",
+      "actions": "Do not water today due to already saturated soil and incoming showers. Lightly cover the emerging sprout with 1/4 to 1/2 inch of soil to protect it and support upright growth. Gently smooth and reconnect loose bark-heavy areas to promote even drying. Avoid fertilizer as current fertility is high.",
+      "next_steps": "Recheck moisture tomorrow afternoon once rain has passed and the planter begins to dry. Monitor the new sprout for upward elongation over the next 48 to 72 hours. Watch for pH drift after this wet cycle, adjusting only if values fall below 5.0.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left-side probe reading showing saturated soil conditions and balanced pH.",
+          "tags": "shallots, probe-left, saturated-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center probe reading with elevated moisture and stable fertility levels.",
+          "tags": "shallots, probe-center, moisture-high"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side probe reading indicating very high moisture with strong pH stability.",
+          "tags": "shallots, probe-right, wet-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of main shallot plant showing strong upright growth after rainfall.",
+          "tags": "shallots, main-plant, upright-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of emerging sprout partially exposed by soil movement, with healthy green tip.",
+          "tags": "shallots, new-sprout, emergence"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "12:47 PM",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "5.64",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "168",
+        "moisture_mScm": "64.33",
+        "light": "91",
+        "rh_percent": "52",
+        "fertility_percent": "18.7",
+        "soil_temp_f": "84.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The established shallot sprout stands upright with firm, healthy foliage and no signs of stress. A new baby sprout is emerging, visible as a bright green tip breaking through the papery bulb tunic. Soil was very dry in multiple zones before readings, resulting in lighter probe contact, but overall pH and fertility remain excellent for allium growth. Surface structure is loose and aerated with scattered bark pieces but no compaction or rot.",
+      "actions": "Apply 1 to 1.5 cups of water evenly along the shallot trench to reset moisture after dry readings. Lightly crumble and level the chunky bark areas on the surface without disturbing the bulbs. Do not add lime or fertilizer today.",
+      "next_steps": "Recheck moisture tomorrow morning before incoming rain. Monitor the new sprout for rapid elongation over the next 24–48 hours. Expect additional emergence across the row as moisture stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left-side shallot reading showing dry soil contact and balanced pH.",
+          "tags": "shallots, probe-left, dry-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center shallot reading with elevated moisture retention and stable pH.",
+          "tags": "shallots, probe-center, moisture-high"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side shallot reading showing moderate moisture and ideal pH.",
+          "tags": "shallots, probe-right, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of the shallot row showing the established sprout and soil structure.",
+          "tags": "shallots, planter, established-sprout"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of newly emerging baby shallot sprout pushing through bulb tunic.",
+          "tags": "shallots, new-sprout, emergence"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:00 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "5.27",
+        "ec_mScm": "0.50",
+        "salt_mg_L": "255",
+        "moisture_mScm": "72.67",
+        "light": "51",
+        "rh_percent": "53",
+        "fertility_percent": "30.2",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Right-side shallot sprout continues expanding with thickening leaves lifting cleanly from the soil. Center and left bulbs remain below surface but soil structure is stable and well-aerated. Top layer is now darker from watering with no signs of rot or compaction. Chamomile seedlings are present in shared planter but ignored for shallot assessment.",
+      "actions": "Do not water again today; soil was fully dry in sun at 2:00 PM and was watered before taking 5:00 PM readings. Allow planter to dry naturally before next irrigation.",
+      "next_steps": "Recheck moisture tomorrow to confirm gradual dry-down. Continue monitoring right-side sprout growth and watch for additional emergence from center and left zones over next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of shallot and chamomile shared planter showing soil texture, aeration, and early chamomile growth.",
+          "tags": "shallots, planter, chamomile, garden-overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of shallot planting row with healthy soil structure and visible sprout on right side.",
+          "tags": "shallots, soil-surface, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:22 PM",
+      "conditions": "Mostly cloudy throughout the day in Loxahatchee, temperatures in mid-70s°F with stable conditions.",
+      "digital_probe": {
+        "ph": "5.28",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "163",
+        "moisture_mScm": "70.33",
+        "light": "55",
+        "rh_percent": "74",
+        "fertility_percent": "18.4",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Right-side shallot shows confirmed new sprout emerging with healthy green growth. Center and left bulbs remain below soil but show no signs of rot, and soil has been leveled after probe holes were filled. Chamomile seedlings surrounding front and back rows remain active but were ignored for this assessment. Lime added on 11/29 has now been weathered in and partially covered by working the soil.",
+      "actions": "Do not water; soil moisture is elevated across all zones after morning watering at 9:40 AM. Continue monitoring sprout development without disturbing soil.",
+      "next_steps": "Monitor newly emerged right sprout over next 48 hours for consistent upright growth. Do not add more lime; pH response is exactly on track. Avoid watering until moisture drops below approximately 40 mS/cm in center row. Lightly brush aside chamomile where it touches shallot sprouts.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallot planter on 12/1 showing newly emerged sprout on right side with chamomile seedlings surrounding.",
+          "tags": "shallots, sprout, emergence, chamomile"
+        }
+      ]
+    },
+    {
+      "date": "11/29/2025",
+      "time": "1:56 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy expected around 1 PM; wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "5.22",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "161",
+        "moisture_mScm": "55.00",
+        "light": "98",
+        "rh_percent": "52",
+        "fertility_percent": "17.8",
+        "soil_temp_f": "75.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Moisture across shallot planter is moderate and relatively even following morning watering at 9:40 AM. pH remains mildly acidic but has improved compared to earlier readings. Soil surface is level and well-supported after filling probe holes. No shallot shoots are visible yet, but conditions are favorable for emergence.",
+      "actions": "Do not water again today. Continue filling probe holes after each use to maintain even soil surface and support.",
+      "next_steps": "Monitor for first green shoots over next several days. Recheck moisture tomorrow and water only if readings fall significantly or surface becomes very dry.",
+      "q_and_a_summary": "User noted watering at 9:40 AM and ongoing soil leveling after probe removal.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallot planter on 11/29 showing leveled soil surface after probe hole filling with stable moisture distribution.",
+          "tags": "shallots, soil-leveling, moisture, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/28/2025",
+      "time": "10:58 AM",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight; clear conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "5.28",
+        "ec_mScm": "0.38",
+        "salt_mg_L": "193",
+        "moisture_mScm": "71.67",
+        "light": "87",
+        "rh_percent": "52",
+        "fertility_percent": "22.2",
+        "soil_temp_f": "64.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "One shallot sprout is present and healthy. Chamomile seedlings are visible along front row. Soil surface appears aerated but loose where probe has been inserted. No visible pest damage or rot. Moisture is elevated following recent watering.",
+      "actions": "Hold watering until moisture drops below approximately 40 mS/cm in center zone. Do not water right side despite higher moisture reading. Gently firm soil only around newest probe holes so bulbs remain covered by consistent 1 inch of soil.",
+      "next_steps": "Continue watching for additional sprouts over next 5-7 days. Monitor moisture distribution and recheck when soil has dried back toward mid-range.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:57 AM] Sprinkled 1.5 tsp dolomitic lime evenly across entire planter."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left-side shallot reading showing moderate moisture and mildly acidic pH.",
+          "tags": "shallots, probe-left, soil-reading"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center shallot reading reflecting elevated moisture and consistent pH.",
+          "tags": "shallots, probe-center, soil-reading"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side shallot reading showing high moisture and fertility.",
+          "tags": "shallots, probe-right, soil-reading"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of shallot and chamomile shared planter showing soil texture and early chamomile growth.",
+          "tags": "shallots, planter, chamomile, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of shallot planting row with healthy soil structure and visible sprout.",
+          "tags": "shallots, soil-surface, sprout"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "10:55 AM",
+      "conditions": "Mostly cloudy with a high of 84°F and overnight low of 67°F. Brief sun shower at 11:15 AM. Thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "4.90",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "105",
+        "moisture_mScm": "49.33",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "10.7",
+        "soil_temp_f": "79.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Moisture across the shallot planter is even and moderate following last night's irrigation and a short mid-morning sun shower. With thunderstorms expected later today, the soil is in a good position to receive natural rainfall and does not require any additional watering. pH is slightly acidic at around 4.9 across all zones but stable. The shared chamomile seedlings are visible and healthy, and there is no sign of stress or compaction in the shallot trench.",
+      "actions": "Do not water today. Allow incoming thunderstorms to supplement soil moisture naturally.",
+      "next_steps": "Recheck moisture the morning after the thunderstorms to determine if the right side requires targeted hydration. Continue monitoring for emerging shallot shoots and chamomile volunteers.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left-side shallot probe reading showing moderate moisture and mildly acidic pH under cloudy morning conditions.",
+          "tags": "shallots, probe-left, soil-reading"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center shallot probe reading reflecting slightly higher moisture and consistent pH relative to the other zones.",
+          "tags": "shallots, probe-center, soil-reading"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side shallot probe reading showing moderate moisture and the highest fertility reading of the three zones.",
+          "tags": "shallots, probe-right, soil-reading"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of the shallot and chamomile shared planter showing soil texture, aeration, and early chamomile volunteer growth.",
+          "tags": "shallots, planter, chamomile, garden-overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view of the shallot planting row with healthy soil structure and no visible stress on emerging sprouts.",
+          "tags": "shallots, soil-surface, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:07 PM",
+      "conditions": "Sunny all day with a high of 84°F and an overnight low of 65°F. Watered at 2:33 PM; readings taken 1.5 hours later.",
+      "digital_probe": {
+        "ph": "5.26",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "154",
+        "moisture_mScm": "57.67",
+        "light": "95",
+        "rh_percent": "44",
+        "fertility_percent": "17.1",
+        "soil_temp_f": "83.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Moisture is moderately high after the afternoon watering, with the center zone retaining the most water and the right side running slightly drier as usual. pH leans mildly acidic but remains acceptable for shallots at this stage. The visible sprout looks healthy and upright with no signs of stress.",
+      "actions": "Do not water again today; readings taken shortly after 2:33 PM irrigation. Allow planter to dry naturally before next watering.",
+      "next_steps": "Check moisture distribution tomorrow morning to determine whether the right side requires targeted watering. Continue monitoring for new sprout emergence.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left-side probe reading showing moderate moisture and slightly acidic pH shortly after watering.",
+          "tags": "shallots, probe-left, moisture, post-watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center probe reading with higher moisture and salt levels due to water retention in the middle of the planter.",
+          "tags": "shallots, probe-center, moisture-high"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side probe reading showing slightly lower moisture consistent with the planter's persistent dry zone.",
+          "tags": "shallots, probe-right, dry-zone"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full planter view on 11/25 showing healthy growth and sunlight exposure.",
+          "tags": "shallots, planter, sunlight"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the main shallot sprout showing upright growth and healthy coloration.",
+          "tags": "shallots, sprout, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:58 AM",
+      "conditions": "Partly cloudy with a high of 81°F and an overnight low of 61°F.",
+      "digital_probe": {
+        "ph": "5.63",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "122",
+        "moisture_mScm": "59.50",
+        "light": "90",
+        "rh_percent": "57",
+        "fertility_percent": "13.1",
+        "soil_temp_f": "81.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Average moisture is moderately high following this morning's light watering, and pH remains within a workable range for early growth. The right side continues to run significantly drier than the rest of the planter, while the visible sprout appears healthy and upright. Soil texture is loose and aerated with no surface issues.",
+      "actions": "Do not water entire planter. Apply targeted watering to right side only to address persistent dry zone.",
+      "next_steps": "Monitor moisture distribution and recheck tomorrow. Continue targeted watering on the consistently dry right side when needed.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[12:30 PM] Watered right side per instructions."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Left-side probe reading taken after a light watering, showing moderate moisture and stable pH.",
+          "tags": "shallots, probe-left, moisture, post-watering"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center-left probe reading showing elevated moisture due to recent watering and slightly acidic pH.",
+          "tags": "shallots, probe-center-left, moisture-high"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center-right probe reading displaying moderate moisture and balanced salt levels.",
+          "tags": "shallots, probe-center-right, moisture"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Right-side probe reading showing significantly lower moisture, consistent with the planter's known dry zone.",
+          "tags": "shallots, probe-right, dry-zone"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallot planter on 11/24 with the main sprout elongating and soil showing fresh surface wetting.",
+          "tags": "shallots, sprout, planter, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "1:42 PM",
+      "conditions": "Sunny with a high of 84°F and an overnight low of 63°F.",
+      "digital_probe": {
+        "ph": "6.57",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "83",
+        "moisture_mScm": "27.67",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "8.2",
+        "soil_temp_f": "87.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Moisture distribution continues to vary significantly across the planter, with the right side registering a completely dry pocket while the left and center zones remain within ideal to slightly-wet ranges. pH has stabilized across all zones and now sits well within the ideal band for shallots, indicating successful lime integration. The main sprout has elongated and shows healthy coloration with no signs of stress, while surrounding soil remains free of compaction, algae, or fungal issues.",
+      "actions": "Add 1/4 cup of water directly to the right-side dryness zone to correct localized dryness without oversaturating the evenly moist left and center areas.",
+      "next_steps": "Recheck moisture distribution tomorrow to confirm the dry zone has equalized. Monitor for additional sprouts over the next several days as conditions are now ideal for continued emergence.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[1:14 PM] Added 1/4 cup of water to right-side dryness zone."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallot planter on 11/23 with the main sprout elongating and soil showing natural settling across the row.",
+          "tags": "shallots, sprout, early-emergence, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "11:07 AM",
+      "conditions": "Mostly cloudy with a high of 84°F and an overnight low of 67°F.",
+      "digital_probe": {
+        "ph": "4.80",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "139",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "15.5",
+        "soil_temp_f": "73.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Moisture levels remain high across all zones, with the left and right sides significantly wetter than the center. pH has drifted acidic again but is likely influenced by current moisture saturation and incomplete lime distribution. The first shallot sprout appears healthy and stable with bright coloration and no signs of stress. Soil surface shows normal unevenness from early emergence and no evidence of fungal growth, algae, or compaction issues.",
+      "actions": "No watering needed today. Allow planter to dry naturally before any adjustments. Do not add lime while the soil is this moist. Maintain current placement and monitor for additional sprouts along the row.",
+      "next_steps": "Recheck moisture and pH tomorrow when the soil has had time to dry slightly. Expect additional sprouts to appear over the next 1-3 days. Resume pH adjustments only when moisture stabilizes closer to the mid-range.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallot planter on 11/22 with early emergence visible and moist soil across the row.",
+          "tags": "shallots, sprout, emergence, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:28 PM",
+      "conditions": "Sunny with a high of 84°F and an overnight low of 60°F.",
+      "digital_probe": {
+        "ph": "6.37",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "52",
+        "moisture_mScm": "18.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The first shallot sprout has emerged, standing upright and bright green, showing healthy early growth. Soil surface is slightly dry but well-aerated with no compaction or crusting. pH has stabilized in the ideal range following lime correction, and overall conditions are favorable for continued emergence over the next several days.",
+      "actions": "No watering required at this moment. Maintain sunlight exposure and monitor soil moisture as sprouts continue to appear. Hold fertilizer until more shoots establish.",
+      "next_steps": "Expect more shoots within 2-5 days. Recheck moisture later today and tomorrow morning to maintain consistent but not wet soil. Continue monitoring for uniform emergence along the row.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "First shallot sprout emerging from the soil on 11/21, with bright green growth and well-aerated soil surface.",
+          "tags": "shallots, sprout, emergence, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "12:00 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No shallot shoots are visible yet. Soil surface remains evenly moist from the prior lime activation watering, with no crusting or compaction. Perlite is visible and drainage appears good. No signs of pests, rot, or algae are present in the planting zone.",
+      "actions": "No watering needed at midday. Hold fertilizer. Allow planter to remain in mostly sunny conditions to warm the soil and support internal shoot development.",
+      "next_steps": "Recheck surface moisture by evening and again the following morning. Continue monitoring for first green shoots emerging from the planted rows.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallots planting zone on 11/20 with moist, settled surface after lime activation watering.",
+          "tags": "shallots, soil, planter, post-lime"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "9:34 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "4.50",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "102",
+        "moisture_mScm": "36.00",
+        "light": "88",
+        "rh_percent": "65",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "69.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No shallot sprouts are visible. Soil appears moderately moist but trending drier, with lighter color toward the surface. Structure remains loose with visible perlite and no compaction. pH is strongly acidic and below the ideal range for shallot growth, though there are still no signs of rot or pest damage.",
+      "actions": "Apply 1/2 to 1 tablespoon (2-3 teaspoons) of dolomitic lime evenly across the soil surface of the window planter. Do not mix into the soil. Water lightly after application to activate the lime.",
+      "next_steps": "Monitor soil response over the next 24-72 hours as lime begins to buffer acidity. Watch for emerging shoots later in the week once pH stabilizes and moisture is kept even.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:07 PM] Lime applied successfully. Soil very dry two knuckles deep; watered lightly (1 cup max) to activate lime and restore surface moisture."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallots planter on 11/19 showing dry surface prior to lime activation watering.",
+          "tags": "shallots, dry-soil, lime, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/18/2025",
+      "time": "9:01 AM",
+      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.45",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "65.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No shallot shoots are visible yet. Soil surface appears evenly moist with dark coloration and good crumb structure. Perlite is visible and there is no crusting or pooling. pH has improved compared to prior alkaline conditions but remains slightly more acidic than ideal for shallots.",
+      "actions": "No watering needed at this time. Hold fertilizer. Plan for future lime application to fine-tune pH into the optimal range.",
+      "next_steps": "Recheck moisture later in the day once the planter receives full sun. Continue monitoring pH and watch for first signs of emergence in the coming days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallots planting row on 11/18 with evenly moist, well-aerated soil.",
+          "tags": "shallots, moist-soil, planter"
+        }
+      ]
+    },
+    {
+      "date": "11/17/2025",
+      "time": "9:04 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "digital_probe": {
+        "ph": "4.81",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "178",
+        "moisture_mScm": "64.00",
+        "light": "94",
+        "rh_percent": "61",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "61.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No shallot germination is visible. Soil is evenly moist and slightly on the wetter side, with perlite providing good aeration and no surface crusting. pH is acidic and not yet corrected, but bulbs show no signs of heaving, rot, or pest disturbance.",
+      "actions": "No watering needed today. Hold fertilizer. Plan to address acidic pH with dolomitic lime once available while maintaining moderate moisture.",
+      "next_steps": "Expect earliest shoot emergence within several days if moisture and temperature stay consistent. Continue monitoring moisture and pH without disturbing the planting rows.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallots planting section on 11/17 with moist, settled soil and no visible shoots yet.",
+          "tags": "shallots, pre-sprout, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:18 AM",
+      "conditions": "Mild, mostly sunny morning around 68.5°F with strong light on the front edge of the planter and some interior soil still in light shade.",
+      "digital_probe": {
+        "ph": "4.57",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "170",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "19.3",
+        "soil_temp_f": "68.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No shallot shoots have emerged. Soil is moderately moist with good light exposure on the front of the planter. pH is distinctly acidic, which is below the ideal range for shallots. There is no evidence of waterlogging, surface algae, or pests.",
+      "actions": "No immediate watering required. Begin planning for lime correction to moderate the low pH while maintaining even moisture across the shallot planting area.",
+      "next_steps": "Recheck moisture and pH over the next 24 hours. Continue monitoring for first signs of emergence and ensure the planter receives consistent sun.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shared planter on 11/16 showing moist soil and strong light on the front edge where shallots are planted.",
+          "tags": "shallots, shared-planter, light, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:24 AM",
+      "conditions": "Cool, partly shaded morning around 67°F, with sun expected to reach the planter within minutes under dry, mild weather.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (low)",
+        "moisture": "4 (green, ideal lower range)",
+        "ph": "Between 6-7"
+      },
+      "observations": "No shallot sprouts are visible. Analog readings show soil fertility in the low range, moisture at a moderate ideal level, and pH in a near-neutral band compared to earlier alkaline conditions. Soil surface appears even and lightly moist, with no crusting or standing water.",
+      "actions": "No watering or fertilizing needed at this time. Maintain the planter position so it receives direct sun shortly.",
+      "next_steps": "Recheck soil moisture after the planter has been in full sun for several hours. Continue monitoring for early sprout emergence in the coming days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallots planter on 11/13 showing even, lightly moist surface before sun reaches the box.",
+          "tags": "shallots, analog-readings, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "9:48 AM",
+      "conditions": "Cool morning around 63°F in full shade, expected to warm into the upper 60s°F later with dry, mild weather.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "Yellow (low)",
+        "moisture": "Red (dry)",
+        "ph": "8 (alkaline)"
+      },
+      "observations": "No shallot growth is visible. Analog readings show dry, alkaline soil with low fertility in the shared planter. The surface appears dry and slightly compacted before thorough watering.",
+      "actions": "Soaked the planter after readings to begin rehydrating the soil, then added additional water when it still appeared very dry to ensure the bulbs and scattered chamomile seed had adequate moisture contact.",
+      "next_steps": "Allow excess water to drain and recheck moisture later the same day. Aim to keep soil lightly moist while avoiding waterlogging as rooting continues.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Window planter on 11/12 before rehydration, with shallots planted and chamomile newly scattered.",
+          "tags": "shallots, dry-soil, shared-planter"
+        }
+      ]
+    },
+    {
+      "date": "11/11/2025",
+      "time": "2:00 PM",
+      "conditions": "Mild afternoon around mid-60s°F with full sun and clear skies after a cool night outdoors.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Shallot bulbs are newly planted in the window box with no top growth yet. Soil is lightly moist and evenly textured after spending the night outside in the cold, with no visible frost damage or surface cracking. The planting layout is stable and undisturbed.",
+      "actions": "No watering needed today because the soil is still lightly moist. Left the planter in a sunny position to gently warm the soil.",
+      "next_steps": "Check moisture in 1-2 days or sooner if the top inch dries. Maintain light, consistent moisture while bulbs begin rooting.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Shallots and chamomile window planter on 11/11 after a cold night outdoors, soil lightly moist.",
+          "tags": "shallots, shared-planter, lightly-moist, post-cold-night"
+        }
+      ]
+    }
+  ]
+}

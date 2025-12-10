@@ -1,0 +1,116 @@
+{
+  "id": "mum_001",
+  "status": "Active",
+  "plant": "Yellow Chrysanthemum (Left)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Firepit",
+  "container": "Round pot, 2 gal, black",
+  "soil_mix": "Original Nursery Mix",
+  "origin_history": [
+    "Found dying plant by a dumpster on December 7, 2025.",
+    "Hard Pruned to 8\""
+  ],
+  "whats_been_logged": "The focus has been on reviving a severely stressed, discarded chrysanthemum through hard pruning, correcting extreme soil alkalinity, breaking up a dense surface root mat, and monitoring early shoot emergence as the plant begins recovery.",
+  "current_stage": "Early Shoot Recovery",
+  "current_state": "The plant is in early recovery after a hard prune, with multiple new shoots emerging along the stems and healthy green foliage beginning to return. The stems are firm with no signs of rot, and the surface soil shows a dense mat of fine roots typical of a root-bound chrysanthemum.",
+  "timeline": [
+    {
+      "stage": "Early shoot recovery",
+      "date_range": "Dec 8 - Dec 22, 2025"
+    },
+    {
+      "stage": "Vegetative refill and canopy rebuilding",
+      "date_range": "Dec 23, 2025 - Jan 20, 2026"
+    },
+    {
+      "stage": "First post-rescue bud initiation",
+      "date_range": "Jan 21 - Feb 15, 2026"
+    }
+  ],
+  "journal": [
+    {
+      "date": "12/9/2025",
+      "time": "9:44 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.57",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "51",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "68.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows active recovery with fresh shoots expanding along the stems and improved leaf color. The soil beneath the hardened surface layer contained dense roots and intact slow-release fertilizer pellets, which were exposed during loosening. Moisture distribution is now more even, and the overall structure appears healthier following the addition of fresh potting mix. No signs of rot or disease are visible.",
+      "actions": "Leave the exposed slow-release pellets in place. Do not fertilize today, as nutrient levels remain adequate. Avoid further soil disturbance to allow roots to settle from the deep loosening. Do not water, since moisture is ideal and conditions are humid with rain likely.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm stable hydration. Monitor pH over the next several days as the loosened soil and existing pellets equilibrate. Watch for rapid shoot expansion and fuller leaf development as the plant continues its recovery.",
+      "q_and_a_summary": "Confirmed that the metallic green balls uncovered in the soil are slow-release fertilizer pellets and are safe to leave in place.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of loosened soil showing slow-release fertilizer pellets and fine root mat.",
+          "tags": "chrysanthemum, soil, fertilizer pellets, roots"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of the recovering chrysanthemum showing new shoot growth after soil loosening.",
+          "tags": "chrysanthemum, regrowth, shoots, pruning recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Detailed view of emerging foliage and healthy green shoots developing along pruned stems.",
+          "tags": "chrysanthemum, new growth, stems, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "12:43 PM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.39",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "42",
+        "moisture_mScm": "47.00",
+        "light": "89",
+        "rh_percent": "53",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "75.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong recovery potential with fresh green shoots emerging along the stems after a hard prune. The remaining foliage is soft but viable, and stems appear healthy with no signs of rot. The probe encountered difficulty entering the top layer due to a dense mat of surface roots, which is typical of a severely root-bound chrysanthemum. Soil pH is highly alkaline at 8.39, which may limit nutrient uptake.",
+      "actions": "Gently loosen the top half inch of soil to break the dense root crust and improve air and water movement. Apply a light quarter-inch layer of Miracle-Gro Organic Potting Mix across the surface to introduce organic matter and help buffer pH downward. Do not water today, as moisture is ideal and expected rainfall will supply hydration.",
+      "next_steps": "Recheck soil readings tomorrow after the rain to evaluate pH movement and moisture changes. Monitor new shoot development and avoid fertilizing until pH moves closer to neutral. Maintain bright light exposure but avoid harsh afternoon sun until fuller leaf regrowth occurs.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Before photo showing the chrysanthemum with extensive browning and spent blooms prior to pruning.",
+          "tags": "chrysanthemum, before, browning, wilted blooms"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "After photo showing the plant post-pruning with visible new green shoots emerging.",
+          "tags": "chrysanthemum, after, pruning, new growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "After photo highlighting the remaining stems and early shoot development from the crown.",
+          "tags": "chrysanthemum, after, regrowth, stems"
+        }
+      ]
+    }
+  ]
+}
