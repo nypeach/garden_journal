@@ -9,16 +9,11 @@ env/
 ENV/
 
 # Garden Journal specific
-# data/garden_data.json
-data/backups/
 photos/*.jpg
-output/*.html
-chatGPT_conversations/
-templates/samples/
-docs/temp/
+photos/*.png
+static/images/plants/*
+!static/images/plants/.gitkeep
 
-# Keep example files
-!data/garden_data.example.json
 
 # IDE
 .vscode/

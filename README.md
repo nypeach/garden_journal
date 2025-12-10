@@ -73,6 +73,7 @@ garden_journal/
 │   │   ├── plant2.json
 │   │   └── ...
 │   ├── containers.json  # Container inventory
+│   ├── meta.json        # Garden metadata
 │   └── products.json    # Product catalog
 ├── docs/
 │   ├── schema.md        # Data schema documentation
@@ -134,7 +135,12 @@ Navigate to the home page to see your master dashboard with all plants displayed
 Click the "Add Plant" button on the dashboard to open the form, fill in the details, and submit.
 
 ### Managing Data
-All data is stored as JSON files in the `data/plants/` directory. You can manually edit these files or use the web interface.
+All data is stored as JSON files:
+- **Individual plant files:** `data/plants/*.json` - One file per plant with complete history
+- **Shared resources:** `data/containers.json`, `data/products.json`
+- **Metadata:** `data/meta.json` - Garden-wide settings and information
+
+You can manually edit these files or use the web interface once it's built.
 
 ## 🗺️ Development Roadmap
 
@@ -153,46 +159,22 @@ This project is being developed in phases. Check the Features section above to s
 
 ---
 
-## 🚀 Getting Started
+## 🤖 ChatGPT Plant Channels
 
-### Prerequisites
+This project includes integration with ChatGPT for plant-specific horticultural guidance. The `chatgpt/` folder contains templates and tools for creating dedicated plant channels where you can get expert advice tailored to each plant.
 
-- Python 3.8 or higher
-- pip (Python package manager)
+**What's included:**
+- `master_garden_ai_guide.md` - Complete guide for the ChatGPT assistant
+- `master_garden_ai_prompt.md` - Plant channel prompt template
+- `master_garden_ai_prompt_generator.py` - Script to generate channel prompts for all plants
 
-### Installation
+**How to use:**
+Run the generator script to create customized ChatGPT prompts for each plant in your garden:
+```bash
+python chatgpt/master_garden_ai_prompt_generator.py
+```
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/garden_journal.git
-   cd garden_journal
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**
-   ```bash
-   python webserver.py
-   ```
-
-4. **Open your browser**
-   ```
-   http://127.0.0.1:5000
-   ```
-
-## 🎯 Usage
-
-### Viewing Your Garden
-Navigate to the home page to see your master dashboard with all plants displayed.
-
-### Adding Plants
-Click the "Add Plant" button on the dashboard to open the form, fill in the details, and submit.
-
-### Managing Data
-All data is stored as JSON files in the `data/plants/` directory. You can manually edit these files or use the web interface.
+This will create individual channel files in `docs/temp/` that you can use to start dedicated ChatGPT conversations for each plant.
 
 ## 🛠️ Development
 
@@ -207,7 +189,7 @@ See `docs/schema.md` for detailed information about the JSON data schema.
 
 ## 📝 License
 
-This project is licensed under the terms specified in the LICENSE file.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
