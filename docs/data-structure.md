@@ -334,8 +334,6 @@ ___
 
 ### A. **ID** Field Formatting
 
-The Assistant must follow the formatting instructions below for the **ID** field:
-
 - Format: `{plant_name}_{number}`
 - Plant name portion must be lowercase letters or underscores only
 - Number portion must be exactly 3 digits
@@ -346,16 +344,12 @@ ___
 
 ### B. **Status** Field Formatting
 
-The Assistant must follow the formatting instructions below for the **Status** field:
-
 - Format: "Active" or "Inactive"
 - Only one of these two formats
 
 ___
 
 ### C. **Plant** Field Formatting
-
-The Assistant must follow the formatting instructions below for the **Plant** field:
 
 - Format: `plant`
 - 2-3 words
@@ -368,8 +362,6 @@ ___
 
 ### D. **Physical Location** Field Formatting
 
-The Assistant must follow the formatting instructions below for the **physical_location** field:
-
 - Format: `{city}, {state}`
 - `{city}` should not be abbreviated
 - `{state}` should be the US two-letter state abbreviation
@@ -377,8 +369,6 @@ The Assistant must follow the formatting instructions below for the **physical_l
 ___
 
 ### E. **Garden Location** Field Formatting
-
-The Assistant must follow the formatting instructions below for the **garden_location** field:
 
 - Format: `{Description of location in the garden}`
 - Clarifying descriptions should be in Parenthesis
@@ -388,8 +378,6 @@ ___
 
 ### F. **Container** Field Formatting
 
-The Assistant must follow the formatting instructions below for the **container** field:
-
 - Format: `{Common Name of the Container}`
 - Clarifying descriptions should be in Parenthesis
 - Examples: "Window Planter", "Raised Bed (Stake 2)", "Round pot, 0.94 gal, white", "Herb Box (Front Left)"
@@ -398,16 +386,12 @@ ___
 
 ### G. **Soil Mix** Field Formatting
 
-The Assistant must follow the formatting instructions below for the **soil_mix** field:
-
 - Format: `{Common Name of the Product}`
 - Examples: "Miracle-Gro Potting Mix", "Top Soil/Sand"
 
 ___
 
 ### H. **Origin History** Formatting
-
-The Assistant must follow the formatting instructions below for the **origin_history** array:
 
 - Array of string elements
 - Minimum 3 elements required
@@ -425,8 +409,6 @@ ___
 
 ### I. **What's Been Logged** Formatting
 
-The Assistant must follow the formatting instructions below for the **whats_been_logged** field:
-
 - Format: `{Paragraph describing what's been logged}`
 - Single Paragraph
 - 1-4 Sentences
@@ -435,15 +417,11 @@ ___
 
 ### J. **Current Stage** Formatting
 
-The Assistant must follow the formatting instructions below for the **current_stage** field:
-
 - Format: `{Current Plant Stage for this Plant}`
 
 ___
 
 ### K. **Timeline** Formatting
-
-The Assistant must follow the formatting instructions below for the **timeline** array:
 
 - Array of object elements
 - Each timeline element must contain:
@@ -462,8 +440,6 @@ The Assistant must follow the formatting instructions below for the **timeline**
 ___
 
 ### L. **String Field** Formatting
-
-The Assistant must follow the general formatting instructions below for all string fields:
 
 - All text fields should use complete sentences where appropriate
 - Empty strings `""` are acceptable for optional content but all required fields must have values
@@ -529,8 +505,6 @@ ___
 
 ### A. **Date and Time** Formatting
 
-The Assistant must follow the formatting instructions below for the **date** and **time** fields:
-
 **Date Formatting**
 
 - Use `M/D/YYYY` format (e.g., "11/23/2025")
@@ -548,8 +522,6 @@ ___
 
 ### B. **Conditions** Formatting
 
-The Assistant must follow the formatting instructions below for the **conditions** field:
-
 - Format: `{Paragraph describing conditions}`
 - Single Paragraph
 - 1-4 Sentences
@@ -557,8 +529,6 @@ The Assistant must follow the formatting instructions below for the **conditions
 ___
 
 ### C. **Digital Probe** Formatting
-
-The Assistant must follow the formatting instructions below for the **digital_probe** fields:
 
 **Decimal Precision**
 
@@ -578,8 +548,6 @@ ___
 
 ### D. **Analog Probe** Formatting
 
-The Assistant must follow the formatting instructions below for the **analog_probe** fields:
-
 - Values can be descriptive text (e.g., "Green (just into range)", "6 (green, ideal)", "6–7 (green, ideal)")
 - Empty strings `""` indicate measurement was not taken
 - Include color indicators and qualitative assessments when available
@@ -587,8 +555,6 @@ The Assistant must follow the formatting instructions below for the **analog_pro
 ___
 
 ### E. **Observations** Formatting
-
-The Assistant must follow the formatting instructions below for the **observations** field:
 
 - Format: `{Paragraph describing conditions}`
 - Single Paragraph
@@ -598,8 +564,6 @@ ___
 
 ### F. **Actions** Formatting
 
-The Assistant must follow the formatting instructions below for the **actions** field:
-
 - Format: `{Paragraph describing conditions}`
 - Single Paragraph
 - 1-4 Sentences
@@ -607,8 +571,6 @@ The Assistant must follow the formatting instructions below for the **actions** 
 ___
 
 ### G. **Next Steps** Formatting
-
-The Assistant must follow the formatting instructions below for the **next_steps** field:
 
 - Format: `{Paragraph describing conditions}`
 - Single Paragraph
@@ -618,8 +580,6 @@ ___
 
 ### H. **Q&A Summary** Formatting
 
-The Assistant must follow the formatting instructions below for the **q_and_a_summary** field:
-
 - Format: `{Paragraph summarizing questions and answers}`
 - Single Paragraph
 - 1-4 Sentences
@@ -628,8 +588,6 @@ The Assistant must follow the formatting instructions below for the **q_and_a_su
 ___
 
 ### I. **Follow-up** Formatting
-
-The Assistant must follow the formatting instructions below for the **follow_up** array:
 
 - Format: "[`{H:MM AM/PM}`] `{Paragraph summarizing the follow-up}`"
 - Array of string elements
@@ -641,8 +599,6 @@ The Assistant must follow the formatting instructions below for the **follow_up*
 ___
 
 ### J. **Photos** Formatting
-
-The Assistant must follow the formatting instructions below for the **photos** array:
 
 - Array of object elements
 - Each photo element must contain:
