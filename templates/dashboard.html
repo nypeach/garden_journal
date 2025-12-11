@@ -12,7 +12,7 @@
   <header class="sticky-header" id="top-nav">
     <div class="sticky-header-inner">
       <h1>🌿 {{ garden_name }}</h1>
-      <p class="muted">
+      <p class="dashboard-subtitle">
         Snapshot as of <strong>{{ current_date }}</strong> — origin, logged history,
         current state, and projected timelines for each plant in your garden.
       </p>
@@ -33,7 +33,12 @@
       <div class="card">
         <div class="plant-header">
           <div class="plant-name">{{ plant.plant }}</div>
-          <span class="pill"><span class="pill-dot"></span> {{ plant.current_stage }}</span>
+          <div class="plant-header-right">
+            <span class="pill"><span class="pill-dot"></span> {{ plant.current_stage }}</span>
+            <a href="#" class="journal-link" data-open-modal data-plant-id="{{ plant.id }}">
+              📓 View Journal
+            </a>
+          </div>
         </div>
 
         <div class="field-label">Origin / History</div>
@@ -60,6 +65,17 @@
     </section>
     {% endfor %}
   </div>
+
+  <!-- Journal Modal -->
+  <div class="modal-backdrop modal-hidden" id="journal-modal">
+    <div class="modal-panel">
+      <div class="modal-body">
+        <iframe id="journal-iframe" src="" title="Plant Journal"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/modal.js"></script>
 </body>
 
 </html>

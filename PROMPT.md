@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 10, 2025 9:07 PM_
+_Last Updated: December 11, 2025 1:15 PM_
 ===============================================
 
 ## Purpose
@@ -61,10 +61,12 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - **Image Processing:** PIL/Pillow (for photo compression)
 
 ### Key Files
-- `app.py` - Flask server
+- `app.py` - Flask server with dashboard and journal routes
 - `data_manager.py` - JSON read/write operations
-- `static/style.css` - Single CSS file for all pages
-- `templates/*.html` - All HTML templates
+- `static/style.css` - Single unified CSS file for all pages
+- `static/modal.js` - Modal interaction JavaScript
+- `templates/dashboard.html` - Master garden dashboard template
+- `templates/journal.html` - Dynamic plant journal template
 - `data/` - JSON data files (plants, containers, products, dashboard_order)
 - `docs/schema.md` - Complete data schema documentation
 
@@ -72,7 +74,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Phase 3 - Plant Detail Modal
+**Current Phase:** Phase 3 - Plant Detail Modal ✅ **COMPLETE**
 
 ### ✅ Completed
 - Phase 1: Foundation Setup (complete)
@@ -80,14 +82,22 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - Bonus: Category grouping with dashboard_order.json
   - Bonus: Navigation chips with emojis
   - Bonus: Parent category ordering
+- **Phase 3: Plant Detail Modal (complete)**
+  - Modal overlay with iframe for journal display
+  - Dynamic journal template with plant-specific data
+  - Journal header with pill and current state
+  - Complete journal entry display (probes, observations, actions, photos)
+  - Modal interaction (ESC to close, click backdrop to close)
+  - Photo grid with consistent sizing and captions
 
 ### 🚧 In Progress
-- Phase 3: Plant Detail Modal (not started)
+- None (ready for Phase 4)
 
 ### 📋 Next Up
-- Create modal overlay component
-- Display plant details and journal entries
-- Add modal interaction controls
+- Phase 4: GPT Integration Forms
+  - Update Plant Data Form
+  - Add Containers Form
+  - Add Products Form
 
 ---
 
@@ -108,16 +118,20 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [x] Category grouping (dashboard_order.json)
 - [x] Navigation with emojis
 
-### Phase 3: Plant Detail Modal
-- [ ] Create modal overlay component
-- [ ] Click plant tile to open modal
-- [ ] Display plant main data
-- [ ] Display journal entries
-- [ ] Show probe readings and observations
-- [ ] Modal close functionality
+### Phase 3: Plant Detail Modal (COMPLETE)
+- [x] Create modal overlay component
+- [x] Click plant tile to open modal
+- [x] Display plant main data (current_stage, current_state)
+- [x] Display journal entries in chronological order
+- [x] Show probe readings (digital and analog)
+- [x] Show observations, actions, next steps, Q&A, follow-ups
+- [x] Display photo placeholders and actual photos
+- [x] Modal close functionality (ESC key, backdrop click)
+- [x] Dynamic journal route (`/journal/<plant_id>`)
+- [x] Unified CSS styling across dashboard and journal
 
 ### Phase 4: GPT Integration Forms
-- [ ] Update Plant Data Form
+- [ ] Update Plant Data Form (journal entries, fragments, complete data)
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
@@ -142,7 +156,8 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - Flask routes in `app.py`
 - Data operations in `data_manager.py`
 - Templates use Jinja2 for dynamic content
-- Single `style.css` for all pages
+- Single `style.css` for all pages (unified styling)
+- Modal JavaScript in `static/modal.js`
 - ChatGPT-related files in `chatgpt/` folder
 
 ### Data Structure
@@ -159,7 +174,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 ### File Artifacts
 - Always create code artifacts for files the user will copy
-- Use appropriate language tags (markdown, json, python, html, css)
+- Use appropriate language tags (markdown, json, python, html, css, javascript)
 - Never use document artifacts for code/configuration files
 
 ### Markdown File Headers
@@ -229,28 +244,29 @@ Follow the **Conventional Commits** standard:
 
 **Examples:**
 ```bash
-git add -A && git commit -m "feat: Add Flask webserver with basic routes
+git add -A && git commit -m "feat: Add plant journal modal with dynamic content
 
-- Set up Flask app in app.py
-- Add home route for dashboard
-- Add route for plant detail modal
-- Configure template and static directories"
+- Create journal.html template with Jinja2
+- Add /journal/<plant_id> route to app.py
+- Implement modal overlay with iframe
+- Add modal.js for interaction handling
+- Display journal entries with probes and photos"
 ```
 
 ```bash
-git add -A && git commit -m "docs: Update README with Phase 2 progress
+git add -A && git commit -m "docs: Update PROMPT.md and README.md for Phase 3 completion
 
-- Mark dashboard tasks as complete
+- Mark Phase 3 tasks as complete
 - Update current phase status
-- Add next steps for Phase 3"
+- Add next steps for Phase 4"
 ```
 
 ```bash
-git add -A && git commit -m "fix: Correct JSON parsing in data_manager
+git add -A && git commit -m "style: Refine journal header and photo grid styling
 
-- Handle empty plant files gracefully
-- Add error logging for malformed JSON
-- Return empty dict instead of None"
+- Add negative margins for compact header layout
+- Update photo grid padding and caption sizing
+- Adjust journal entry horizontal padding"
 ```
 
 ### Commit Command Template

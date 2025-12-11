@@ -1,0 +1,15 @@
+{
+  "id": "lavender_001",
+  "status": "Inactive",
+  "plant": "Lavender (Left)",
+  "physical_location": "Loxahatchee, FL",
+  "garden_location": "Picnic Table",
+  "container": "Round pot, 25 oz, white",
+  "soil_mix": "Nursery Potting Mix",
+  "origin_history": [
+    "Lavender bought at Lowes on 10/08/2025.",
+    "Terminated on 10/20/2025"
+  ],
+  "whats_been_logged": "Rain caused wet soil that didn't drain fast enough. The roots were sitting in water and began to rot, cutting off water and nutrient flow.  So heavy rain → wet soil → warm humid air = fungal root collapse. This plant was not salvageable",
+  "current_stage": "Terminated"
+}

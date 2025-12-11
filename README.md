@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden Dashboard
-_Last Updated: December 10, 2025 9:07 PM_
+_Last Updated: December 11, 2025 1:15 PM_
 ===============================================
 
 A simple, self-hosted Flask web application for managing your personal garden. Track your plants, products, and garden data through an intuitive dashboard interface with dynamic categorization and detailed plant histories.
@@ -25,19 +25,23 @@ Built with simplicity in mind, the dashboard uses file-based JSON storage (no da
 
 ## Features
 
-### ✅ Completed (Phase 1 & 2)
+### ✅ Completed (Phase 1, 2 & 3)
 - **Dynamic plant dashboard** with real-time data from JSON files
 - **Category-based organization** with custom emoji navigation
-- **Responsive design** with unified CSS styling
+- **Plant journal modal** - Click any plant to view complete journal history
+- **Comprehensive journal entries** - Date/time, conditions, probe readings, observations, actions, photos
+- **Digital & analog probe data** - pH, EC, moisture, fertility, temperature tracking
+- **Photo management** - Display photo placeholders and actual images with captions
+- **Responsive modal overlay** - ESC key and backdrop click to close
+- **Unified CSS styling** - Single stylesheet for dashboard and journal
 - **Flexible data structure** supporting unlimited plants
 - **Easy data management** through JSON files
 - **Fast and lightweight** - no database overhead
 - **Self-hosted** - complete control over your data
 
 ### 🚧 In Development
-- **Plant detail modals** with complete journal history
 - **Data entry forms** for adding/updating plants
-- **Photo management system** with compression and tagging
+- **Photo upload interface** with compression
 - **ChatGPT integration** for plant-specific horticultural guidance
 
 ## Project Structure
@@ -47,11 +51,13 @@ garden_journal/
 ├── chatgpt/
 │   ├── master_garden_ai_guide.md
 │   ├── master_garden_ai_prompt.md
+│   ├── master_garden_dashboard.html    # Sample static files
+│   ├── strawberry_left_journal.html
 │   └── master_garden_ai_prompt_generator.py
 ├── data/
 │   ├── plants/
-│   │   ├── plant1.json
-│   │   ├── plant2.json
+│   │   ├── strawberry_001.json
+│   │   ├── basil_001.json
 │   │   └── ...
 │   ├── containers.json      # Container inventory
 │   ├── dashboard_order.json # Dashboard category ordering
@@ -61,12 +67,13 @@ garden_journal/
 │   ├── schema.md            # Data schema documentation
 │   └── ...
 ├── static/
-│   ├── images/              # Plant photos (optional)
-│   │   └── ...
-│   └── style.css            # Unified CSS styling
+│   ├── images/              # Plant photos
+│   │   └── plants/          # Organized by plant
+│   ├── style.css            # Unified CSS styling
+│   └── modal.js             # Modal interaction JavaScript
 ├── templates/
 │   ├── dashboard.html       # Master garden dashboard
-│   └── ...
+│   └── journal.html         # Plant journal template
 ├── .gitignore               # Git ignore rules
 ├── LICENSE                  # Project license
 ├── PROMPT.md                # AI conversation continuity
@@ -111,85 +118,34 @@ garden_journal/
 
 Navigate to `http://localhost:3000` to see your master dashboard with all plants displayed and organized by categories (Fruit, Vegetables, Herbs & Greens, etc.).
 
-### Managing Plant Data
+### Viewing Plant Journals
 
-All data is stored as JSON files in the `data/` directory:
+Click the "📓 View Journal" link on any plant card to open a modal overlay showing:
+- Complete journal history (newest to oldest)
+- Digital probe readings (pH, EC, moisture, fertility, temperature)
+- Analog probe readings (fertility, moisture, pH descriptions)
+- Observations and actions taken
+- Follow-up notes with timestamps
+- Photo placeholders and actual images with captions
 
-**Individual plant files:** `data/plants/*.json`
-```json
-{
-  "id": "basil_001",
-  "status": "Active",
-  "plant": "Basil (Left)",
-  "current_stage": "Clustered Regrowth Phase",
-  "timeline": [...],
-  "journal": [...]
-}
-```
+### Closing the Journal
 
-**Category ordering:** `data/dashboard_order.json`
-```json
-{
-  "categories": [
-    {
-      "name": "Herbs & Greens",
-      "emoji": "🌿",
-      "plants": ["basil_001", "cilantro_001", ...]
-    }
-  ]
-}
-```
-
-You can manually edit these files or use the web interface once forms are built (Phase 4).
-
-### Adding New Plants
-
-1. Create a new JSON file in `data/plants/` following the schema in `docs/schema.md`
-2. Add the plant ID to the appropriate category in `data/dashboard_order.json`
-3. Refresh the dashboard
+- Press **ESC** key
+- Click outside the modal (on the dark backdrop)
 
 ## Configuration
 
-### Dashboard Ordering
+### Changing the Port
 
-Edit `data/dashboard_order.json` to customize category grouping, display order, and navigation emojis:
-
-```json
-{
-  "categories": [
-    {
-      "parent_order": 1,
-      "parent": "Vegetables",
-      "name": "Tomatoes",
-      "emoji": "🍅",
-      "anchor": "tomatoes",
-      "plants": ["tomato_001", "tomato_002"]
-    }
-  ]
-}
-```
-
-### Garden Metadata
-
-Configure garden-wide settings in `data/meta.json`:
-
-```json
-{
-  "metadata": {
-    "garden_name": "My Garden",
-    "location": "City, State",
-    "garden_type": "Container Garden"
-  }
-}
-```
-
-### Server Configuration
-
-The Flask server runs on port 3000 by default. To change this, edit `app.py`:
+The application runs on port 3000 by default. To change this, edit `app.py`:
 
 ```python
 app.run(host='0.0.0.0', port=YOUR_PORT, debug=True)
 ```
+
+### Adding Plants
+
+Add new plant JSON files to the `data/plants/` directory following the schema in `docs/schema.md`. Update `data/dashboard_order.json` to include the new plant in your desired category.
 
 ## Roadmap
 
@@ -204,21 +160,25 @@ app.run(host='0.0.0.0', port=YOUR_PORT, debug=True)
 - [x] Category grouping with `dashboard_order.json`
 - [x] Navigation chips with emojis
 
-### Phase 3: Plant Detail Modal
-- [ ] Create modal overlay component
-- [ ] Display plant main data and origin history
-- [ ] Show journal entries with probe readings
-- [ ] Modal interaction controls (close, keyboard support)
+### ✅ Phase 3: Plant Detail Modal (COMPLETE)
+- [x] Create modal overlay component
+- [x] Display plant journal with current state and stage
+- [x] Show complete journal entries with all data fields
+- [x] Display probe readings (digital and analog)
+- [x] Show observations, actions, follow-ups
+- [x] Display photo grid with captions
+- [x] Modal interaction controls (ESC, backdrop click)
+- [x] Dynamic journal route (`/journal/<plant_id>`)
 
 ### Phase 4: GPT Integration Forms
-- [ ] Update Plant Data Form
+- [ ] Update Plant Data Form (journal entries, fragments, complete data)
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
 ### Phase 5: Photo Management System
 - [ ] Photo upload interface
 - [ ] Image compression using PIL/Pillow
-- [ ] Photo display in journal with lightbox
+- [ ] Photo display in journal with actual images
 
 ## Contributing
 

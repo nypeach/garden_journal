@@ -17,6 +17,36 @@ app.config['SECRET_KEY'] = 'your-secret-key-here'  # Change this in production
 data_dir = Path(__file__).parent / 'data'
 data_manager = DataManager(data_dir)
 
+# Emoji mapping for plant categories
+PLANT_EMOJIS = {
+    'strawberry': '🍓',
+    'broccoli': '🥦',
+    'green_bean': '🫛',
+    'pepper': '🌶️',
+    'tomato': '🍅',
+    'zucchini': '🥒',
+    'shallot': '🧅',
+    'garlic': '🧄',
+    'scallion': '🌱',
+    'chamomile': '🌼',
+    'lavender': '🪻',
+    'arugula': '🌿',
+    'basil': '🌿',
+    'chives': '🌿',
+    'cilantro': '🌿',
+    'oregano': '🌿',
+    'parsley': '🌿',
+    'parlsey': '🌿',  # Handle typo in data
+    'thyme': '🌿',
+    'mum': '🌸'
+}
+
+def get_plant_emoji(plant_id):
+    """Get emoji for a plant based on its ID"""
+    # Extract plant type from ID (e.g., 'strawberry_001' -> 'strawberry')
+    plant_type = plant_id.rsplit('_', 1)[0]
+    return PLANT_EMOJIS.get(plant_type, '🌱')
+
 @app.route('/')
 def index():
     """
@@ -42,6 +72,38 @@ def index():
         )
     except Exception as e:
         return f"Error loading dashboard: {str(e)}", 500
+
+
+@app.route('/journal/<plant_id>')
+def journal(plant_id):
+    """
+    Journal route - Display plant journal with all entries
+    """
+    try:
+        # Load full plant data
+        plant = data_manager.get_plant(plant_id)
+
+        if not plant:
+            return f"Plant {plant_id} not found", 404
+
+        # Extract data for template
+        plant_name = plant.get('plant', 'Unknown Plant')
+        plant_emoji = get_plant_emoji(plant_id)
+        journal_entries = plant.get('journal', [])
+        current_state = plant.get('current_state', '')
+        current_stage = plant.get('current_stage', '')
+
+        return render_template(
+            'journal.html',
+            plant_name=plant_name,
+            plant_emoji=plant_emoji,
+            journal=journal_entries,
+            plant_id=plant_id,
+            current_state=current_state,
+            current_stage=current_stage
+        )
+    except Exception as e:
+        return f"Error loading journal: {str(e)}", 500
 
 
 @app.route('/api/plant/<plant_id>')
@@ -79,43 +141,10 @@ def health_check():
     Health check endpoint
     Returns OK if server is running
     """
-    return jsonify({'status': 'ok', 'message': 'Master Garden Dashboard is running'})
-
-
-def verify_directories():
-    """
-    Verify that all required directories exist
-    Creates them if they don't exist
-    """
-    base_dir = Path(__file__).parent
-    required_dirs = [
-        base_dir / 'data' / 'plants',
-        base_dir / 'static',
-        base_dir / 'templates'
-    ]
-
-    for directory in required_dirs:
-        if not directory.exists():
-            directory.mkdir(parents=True, exist_ok=True)
-            print(f"✓ Created directory: {directory}")
-        else:
-            print(f"✓ Directory exists: {directory}")
+    return jsonify({'status': 'OK'})
 
 
 if __name__ == '__main__':
-    print("=" * 60)
-    print("🌿 Master Garden Dashboard")
-    print("=" * 60)
-
-    # Verify directories exist
-    print("\nVerifying directory structure...")
-    verify_directories()
-
-    # Display startup info
-    print("\n" + "=" * 60)
-    print("Server starting on http://localhost:3000")
-    print("Press CTRL+C to stop the server")
-    print("=" * 60 + "\n")
-
     # Run the Flask development server
+    # Access at http://localhost:3000
     app.run(host='0.0.0.0', port=3000, debug=True)

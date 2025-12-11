@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>{{ plant_emoji }} {{ plant_name }} – Journal</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <!-- Sticky header for the Journal -->
+  <header class="sticky-header" id="top-nav">
+    <div class="sticky-header-inner">
+      <div class="journal-header">
+        <div class="journal-header-top">
+          <h1>{{ plant_emoji }} {{ plant_name }} Journal</h1>
+          <span class="pill"><span class="pill-dot"></span> {{ current_stage }}</span>
+        </div>
+        <div class="journal-current-state">{{ current_state }}</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    <!-- DAILY ENTRIES (NEWEST → OLDEST) -->
+    {% for entry in journal %}
+    <section class="journal-entry" id="entry-{{ entry.date.replace('/', '-') }}">
+      <h2>{{ entry.date }}</h2>
+      <div class="card">
+        <div class="plant-header">
+          <div>
+            <div class="plant-name">{{ plant_name }}</div>
+            <div class="journal-meta">
+              <span><strong>{{ entry.time }}</strong></span>
+              <span>Conditions: {{ entry.conditions }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Digital Probe (only show if any values exist) -->
+        {% if entry.digital_probe.ph or entry.digital_probe.ec_mScm or entry.digital_probe.moisture_mScm or
+        entry.digital_probe.fertility_percent %}
+        <div class="field-label">Digital Probe</div>
+        <ul class="probe-grid">
+          {% if entry.digital_probe.ph %}<li><strong>pH:</strong> {{ entry.digital_probe.ph }}</li>{% endif %}
+          {% if entry.digital_probe.ec_mScm %}<li><strong>EC:</strong> {{ entry.digital_probe.ec_mScm }} mS/cm</li>{%
+          endif %}
+          {% if entry.digital_probe.salt_mg_L %}<li><strong>Salt:</strong> {{ entry.digital_probe.salt_mg_L }} mg/L</li>
+          {% endif %}
+          {% if entry.digital_probe.moisture_mScm %}<li><strong>Moisture:</strong> {{ entry.digital_probe.moisture_mScm
+            }} mS/cm</li>{% endif %}
+          {% if entry.digital_probe.light %}<li><strong>Light:</strong> {{ entry.digital_probe.light }}</li>{% endif %}
+          {% if entry.digital_probe.rh_percent %}<li><strong>RH:</strong> {{ entry.digital_probe.rh_percent }}%</li>{%
+          endif %}
+          {% if entry.digital_probe.fertility_percent %}<li><strong>Fertility:</strong> {{
+            entry.digital_probe.fertility_percent }}%</li>{% endif %}
+          {% if entry.digital_probe.soil_temp_f %}<li><strong>Soil Temp:</strong> {{ entry.digital_probe.soil_temp_f
+            }}°F</li>{% endif %}
+        </ul>
+        {% endif %}
+
+        <!-- Analog Probe (only show if any values exist) -->
+        {% if entry.analog_probe.fertility or entry.analog_probe.moisture or entry.analog_probe.ph %}
+        <div class="field-label">Analog Probe</div>
+        <ul class="probe-grid">
+          {% if entry.analog_probe.fertility %}<li><strong>Fertility:</strong> {{ entry.analog_probe.fertility }}</li>{%
+          endif %}
+          {% if entry.analog_probe.moisture %}<li><strong>Moisture:</strong> {{ entry.analog_probe.moisture }}</li>{%
+          endif %}
+          {% if entry.analog_probe.ph %}<li><strong>pH:</strong> {{ entry.analog_probe.ph }}</li>{% endif %}
+        </ul>
+        {% endif %}
+
+        <!-- Observations -->
+        {% if entry.observations %}
+        <div class="field-label">Observations</div>
+        <p>{{ entry.observations }}</p>
+        {% endif %}
+
+        <!-- Actions -->
+        {% if entry.actions %}
+        <div class="field-label">Actions</div>
+        <p>{{ entry.actions }}</p>
+        {% endif %}
+
+        <!-- Next Steps -->
+        {% if entry.next_steps %}
+        <div class="field-label">Next Steps</div>
+        <p>{{ entry.next_steps }}</p>
+        {% endif %}
+
+        <!-- Q&A Summary -->
+        {% if entry.q_and_a_summary %}
+        <div class="field-label">Q&A Summary</div>
+        <p>{{ entry.q_and_a_summary }}</p>
+        {% endif %}
+
+        <!-- Follow-Up Log -->
+        {% if entry.follow_up %}
+        <div class="field-label">Follow-Up Log</div>
+        <ul>
+          {% for followup in entry.follow_up %}
+          <li>{{ followup }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        <!-- Photos -->
+        {% if entry.photos %}
+        <div class="field-label">Photos</div>
+        <div class="photo-grid">
+          {% for photo in entry.photos %}
+          <figure class="photo-item">
+            {% if photo.file_name == "<<put filename here>>" %}
+              <div class="photo-placeholder">Photo placeholder</div>
+              {% else %}
+              <img src="/static/images/plants/{{ photo.file_name }}" alt="{{ photo.caption }}">
+              {% endif %}
+              <figcaption class="photo-caption">{{ photo.caption }}</figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</body>
+
+</html>

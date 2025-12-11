@@ -12,7 +12,6 @@
   --radius-md: 8px;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -28,12 +27,10 @@ body {
 }
 
 .page {
-  max-width: 960px;
+  max-width: 1140px;
   margin: 0 auto 48px;
-  padding: 32px 24px 32px;
-  /* normal top padding */
+  padding: 2px 24px 32px;
 }
-
 
 h1,
 h2,
@@ -106,9 +103,8 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  /* color: var(--text-muted); */
   color: var(--card-color);
-  margin-top: 0.3rem;
+  margin-top: 0.15rem;
   margin-bottom: 0.15rem;
 }
 
@@ -128,14 +124,39 @@ li {
 .plant-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.plant-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
 }
 
 .plant-name {
   font-size: 1.05rem;
   font-weight: 600;
+}
+
+.journal-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-style: italic;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding-top: 2px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+.journal-link:hover {
+  color: var(--card-color);
 }
 
 .note {
@@ -144,7 +165,6 @@ li {
   margin-top: 0.15rem;
 }
 
-/* New Garden Colors */
 .sticky-header {
   position: sticky;
   top: 0;
@@ -155,9 +175,18 @@ li {
 }
 
 .sticky-header-inner {
-  max-width: 960px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 16px 24px 12px;
+}
+
+.dashboard-subtitle {
+  margin-top: 0.3rem;
+  margin-left: 2px;
+  margin-bottom: 14px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 .chip-row {
@@ -171,7 +200,6 @@ li {
   font-size: 0.8rem;
   padding: 4px 10px;
   border-radius: 999px;
-  /* border: 1px solid transparent; */
   border: 1px solid var(--border-subtle);
   background: #ffffff;
   color: var(--text-main);
@@ -196,7 +224,162 @@ li {
 
 section {
   scroll-margin-top: 200px;
-  /* so anchors aren't hidden behind sticky header */
+}
+
+/* Journal-specific styles */
+.journal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.journal-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.journal-header h1 {
+  margin-top: -0.75rem;
+}
+
+.journal-current-state {
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  width: 100%;
+}
+
+.journal-summary {
+  margin-top: 0.25rem;
+}
+
+.journal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.journal-meta span {
+  white-space: nowrap;
+}
+
+.journal-entry {
+  padding: 0 2rem;
+}
+
+.journal-entry h2 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.4rem;
+}
+
+.probe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.15rem 1.25rem;
+  padding-left: 0;
+  list-style: none;
+  margin: 0.15rem 0 0.4rem;
+}
+
+.probe-grid li {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 180px));
+  gap: 24px 20px;
+  margin-top: 10px;
+  padding: 5px 40px;
+  justify-content: space-between;
+}
+
+.photo-item {
+  margin: 0;
+}
+
+.photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-md);
+  background: var(--bg-main);
+  border: 1px dashed var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  opacity: 0.8;
+}
+
+.photo-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  display: block;
+}
+
+.photo-caption {
+  margin-top: 2px;
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Modal Styles */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.modal-hidden {
+  display: none;
+}
+
+.modal-panel {
+  background: var(--bg-main);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  max-width: 1024px;
+  width: 96%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35);
+  overflow: hidden;
+  position: relative;
+}
+
+.modal-body {
+  flex: 1;
+}
+
+.modal-body iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 @media (max-width: 720px) {
@@ -204,12 +387,16 @@ section {
     padding: 32px 16px 24px;
   }
 
-
   .card {
     padding: 12px 13px;
   }
 
   .sticky-header-inner {
     padding: 12px 16px 10px;
+  }
+
+  .modal-panel {
+    height: 92vh;
+    width: 98%;
   }
 }
