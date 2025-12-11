@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 11, 2025 1:15 PM_
+_Last Updated: December 11, 2025 5:20 PM_
 ===============================================
 
 ## Purpose
@@ -69,12 +69,13 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - `templates/journal.html` - Dynamic plant journal template
 - `data/` - JSON data files (plants, containers, products, dashboard_order)
 - `docs/schema.md` - Complete data schema documentation
+- `docs/photo_requirements.md` - Photo handling system requirements and workflow
 
 ---
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Phase 3 - Plant Detail Modal ✅ **COMPLETE**
+**Current Phase:** Phase 5 - Photo Management System 🚧 **IN PROGRESS**
 
 ### ✅ Completed
 - Phase 1: Foundation Setup (complete)
@@ -91,10 +92,14 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - Photo grid with consistent sizing and captions
 
 ### 🚧 In Progress
-- None (ready for Phase 4)
+- **Phase 5: Photo Management System**
+  - Photo Prep Tool (Version 1)
+  - Google Drive integration for photo serving
+  - Placeholder photo upload (Version 2)
+  - Photo lightbox modal (Version 2)
 
 ### 📋 Next Up
-- Phase 4: GPT Integration Forms
+- Phase 4: GPT Integration Forms (deferred)
   - Update Plant Data Form
   - Add Containers Form
   - Add Products Form
@@ -130,17 +135,40 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [x] Dynamic journal route (`/journal/<plant_id>`)
 - [x] Unified CSS styling across dashboard and journal
 
-### Phase 4: GPT Integration Forms
+### Phase 4: GPT Integration Forms (DEFERRED)
 - [ ] Update Plant Data Form (journal entries, fragments, complete data)
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
-### Phase 5: Photo Management System
-- [ ] Photo upload interface
-- [ ] Image compression and storage
-- [ ] Photo display in journal
+### Phase 5: Photo Management System (IN PROGRESS)
+- [ ] **Photo Prep Tool (Version 1 - Priority)**
+  - [ ] Create `/photo-prep` route and form
+  - [ ] File upload handling (multiple files)
+  - [ ] PIL/Pillow image compression (~85% quality)
+  - [ ] Automated file renaming: `{plant_id}-{YYYYMMDD}-{##}.jpeg`
+  - [ ] Subfolder organization by plant_id
+  - [ ] Generate formatted ChatGPT message with filenames
+  - [ ] Display output in copyable code block
+- [ ] **Google Drive Photo Integration**
+  - [ ] Create `/photos/<plant_id>/<filename>` route
+  - [ ] Serve photos from Google Drive folder
+  - [ ] Update journal template to use new photo route
+  - [ ] Photos organized in plant-specific subfolders
+- [ ] **Placeholder Photo Upload (Version 2)**
+  - [ ] Make placeholder boxes clickable
+  - [ ] Single photo upload on click
+  - [ ] Auto-determine filename from context
+  - [ ] Compress and move to correct subfolder
+  - [ ] Update JSON with actual filename
+  - [ ] Refresh display to show photo
+- [ ] **Photo Lightbox Modal (Version 2)**
+  - [ ] Create lightbox modal component
+  - [ ] Make thumbnails clickable
+  - [ ] Display full-size image
+  - [ ] Navigation controls (keyboard, arrows)
+  - [ ] Show caption below image
 
-**See README.md for complete phase details and sub-tasks.**
+**See `docs/photo_requirements.md` for complete specifications.**
 
 ---
 

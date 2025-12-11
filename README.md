@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden Dashboard
-_Last Updated: December 11, 2025 1:15 PM_
+_Last Updated: December 11, 2025 5:20 PM_
 ===============================================
 
 A simple, self-hosted Flask web application for managing your personal garden. Track your plants, products, and garden data through an intuitive dashboard interface with dynamic categorization and detailed plant histories.
@@ -39,10 +39,12 @@ Built with simplicity in mind, the dashboard uses file-based JSON storage (no da
 - **Fast and lightweight** - no database overhead
 - **Self-hosted** - complete control over your data
 
-### 🚧 In Development
-- **Data entry forms** for adding/updating plants
-- **Photo upload interface** with compression
-- **ChatGPT integration** for plant-specific horticultural guidance
+### 🚧 In Development (Phase 5)
+- **Photo Prep Tool** - Automated photo renaming, compression, and organization
+- **ChatGPT Integration** - Workflow for generating journal entries with accurate photo metadata
+- **Placeholder Photo Upload** - Backfill photos for past journal entries
+- **Photo Lightbox Modal** - Click thumbnails to view full-size images
+- **Google Drive Integration** - Photos stored and organized in Google Drive, synced across devices
 
 ## Project Structure
 
@@ -64,7 +66,8 @@ garden_journal/
 │   ├── meta.json            # Garden metadata
 │   └── products.json        # Product catalog
 ├── docs/
-│   ├── schema.md            # Data schema documentation
+│   ├── schema.md                # Data schema documentation
+│   ├── photo_requirements.md    # Photo handling system requirements
 │   └── ...
 ├── static/
 │   ├── images/              # Plant photos
@@ -175,10 +178,25 @@ Add new plant JSON files to the `data/plants/` directory following the schema in
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
-### Phase 5: Photo Management System
-- [ ] Photo upload interface
-- [ ] Image compression using PIL/Pillow
-- [ ] Photo display in journal with actual images
+### Phase 5: Photo Management System (IN PROGRESS)
+- [ ] **Photo Prep Tool** - Web form for batch photo processing
+  - [ ] Upload multiple photos
+  - [ ] Automated renaming with plant_id-date-number pattern
+  - [ ] Image compression (PIL/Pillow, ~85% quality)
+  - [ ] Organized subfolder structure by plant
+  - [ ] Generate ChatGPT message with filename list
+- [ ] **Google Drive Integration**
+  - [ ] Serve photos from Google Drive folder
+  - [ ] Photos organized in plant-specific subfolders
+  - [ ] Sync across devices
+- [ ] **Placeholder Photo Upload (Version 2)**
+  - [ ] Click placeholder to upload photo
+  - [ ] Automatic naming and organization
+  - [ ] JSON auto-update with filename
+- [ ] **Photo Lightbox Modal (Version 2)**
+  - [ ] Click thumbnails to view full-size
+  - [ ] Navigation controls
+  - [ ] Keyboard support (ESC, arrows)
 
 ## Contributing
 
