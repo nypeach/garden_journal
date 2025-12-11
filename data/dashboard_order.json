@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "parent_order": 1,
+      "parent": "Fruit",
+      "name": "Strawberries",
+      "emoji": "🍓",
+      "anchor": "strawberries",
+      "plants": [
+        "strawberry_001",
+        "strawberry_002"
+      ]
+    },
+    {
+      "parent_order": 2,
+      "parent": "Vegetables",
+      "name": "Broccoli",
+      "emoji": "🥦",
+      "anchor": "broccoli",
+      "plants": [
+        "broccoli_001"
+      ]
+    },
+    {
+      "parent_order": 2,
+      "parent": "Vegetables",
+      "name": "Green Beans",
+      "emoji": "🫛",
+      "anchor": "green-beans",
+      "plants": [
+        "green_beans_001"
+      ]
+    },
+    {
+      "parent_order": 2,
+      "parent": "Vegetables",
+      "name": "Peppers",
+      "emoji": "🌶️",
+      "anchor": "peppers",
+      "plants": [
+        "pepper_001",
+        "pepper_002",
+        "pepper_003"
+      ]
+    },
+    {
+      "parent_order": 2,
+      "parent": "Vegetables",
+      "name": "Tomatoes",
+      "emoji": "🍅",
+      "anchor": "tomatoes",
+      "plants": [
+        "tomato_001"
+      ]
+    },
+    {
+      "parent_order": 2,
+      "parent": "Vegetables",
+      "name": "Zucchini",
+      "emoji": "🥒",
+      "anchor": "zucchini",
+      "plants": [
+        "zucchini_002",
+        "zucchini_003"
+      ]
+    },
+    {
+      "parent_order": 3,
+      "parent": "Bulbs & Alliums",
+      "name": "Garlic",
+      "emoji": "🧄",
+      "anchor": "garlic",
+      "plants": [
+        "garlic_001",
+        "garlic_002",
+        "garlic_003"
+      ]
+    },
+    {
+      "parent_order": 3,
+      "parent": "Bulbs & Alliums",
+      "name": "Shallots",
+      "emoji": "🧅",
+      "anchor": "shallots",
+      "plants": [
+        "shallots_001"
+      ]
+    },
+    {
+      "parent_order": 3,
+      "parent": "Bulbs & Alliums",
+      "name": "Scallions",
+      "emoji": "🌱",
+      "anchor": "scallions",
+      "plants": [
+        "scallions_001"
+      ]
+    },
+    {
+      "parent_order": 4,
+      "parent": "Medicinals",
+      "name": "Chamomile",
+      "emoji": "🌼",
+      "anchor": "chamomile",
+      "plants": [
+        "chamomile_001"
+      ]
+    },
+    {
+      "parent_order": 4,
+      "parent": "Medicinals",
+      "name": "Lavender",
+      "emoji": "🪻",
+      "anchor": "lavender",
+      "plants": [
+        "lavender_004",
+        "lavender_005"
+      ]
+    },
+    {
+      "parent_order": 5,
+      "parent": "Herbs & Greens",
+      "name": "Herbs & Greens",
+      "emoji": "🌿",
+      "anchor": "herbs",
+      "plants": [
+        "arugula_001",
+        "basil_001",
+        "basil_002",
+        "basil_003",
+        "chives_001",
+        "chives_002",
+        "cilantro_001",
+        "cilantro_002",
+        "oregano_001",
+        "parlsey_001",
+        "thyme_001"
+      ]
+    },
+    {
+      "parent_order": 6,
+      "parent": "Flowers",
+      "name": "Flowers",
+      "emoji": "🌸",
+      "anchor": "flowers",
+      "plants": [
+        "mum_001",
+        "mum_002"
+      ]
+    },
+    {
+      "parent_order": 7,
+      "parent": "Inactive",
+      "name": "Inactive",
+      "emoji": "💀",
+      "anchor": "inactive",
+      "plants": [
+        "lavender_001",
+        "lavender_002",
+        "lavender_003",
+        "zucchini_001"
+      ]
+    }
+  ]
+}

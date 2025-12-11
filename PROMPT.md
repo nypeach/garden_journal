@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 10, 2025 3:05 PM_
+_Last Updated: December 10, 2025 9:07 PM_
 ===============================================
 
 ## Purpose
@@ -23,6 +23,29 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 **CRITICAL:** When creating or updating files (markdown, JSON, or any code), ALWAYS use a **code artifact** with appropriate language tag (application/vnd.ant.code with language="markdown", "json", etc.), NOT a document artifact. The code artifact must appear in the sidebar as a persistent artifact. The user needs to copy raw code, not a rendered preview. If the content appears as formatted/styled text instead of a code block in the sidebar, regenerate it as a code artifact.
 
+### Accessing Project Files
+
+**IMPORTANT:** In Claude Projects, repository files are NOT accessible via traditional file system paths like `/mnt/user-data/uploads`. Instead, use the `project_knowledge_search` tool to access synced repository content.
+
+**How to access files:**
+```
+<invoke name="project_knowledge_search">
+<parameter name="query">data plants JSON arugula basil</parameter>
+</invoke>
+```
+
+**What this returns:**
+- File contents from the synced repository
+- Multiple relevant files and sections
+- Actual data you can work with
+
+**Don't panic if:**
+- Files don't appear in `/mnt/user-data/uploads`
+- Traditional file system commands show empty directories
+- The project seems "not synced"
+
+**The files ARE there** - just access them via `project_knowledge_search` instead of file system paths.
+
 ---
 
 ## 📁 Project Overview
@@ -38,64 +61,70 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - **Image Processing:** PIL/Pillow (for photo compression)
 
 ### Key Files
-- `webserver.py` - Flask server (NOT app.py)
+- `app.py` - Flask server
 - `data_manager.py` - JSON read/write operations
 - `static/style.css` - Single CSS file for all pages
 - `templates/*.html` - All HTML templates
-- `data/` - JSON data files (plants, containers, products)
+- `data/` - JSON data files (plants, containers, products, dashboard_order)
 - `docs/schema.md` - Complete data schema documentation
 
 ---
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Phase 1 - Foundation Setup
+**Current Phase:** Phase 3 - Plant Detail Modal
 
 ### ✅ Completed
-- Repository structure defined
-- README.md created with full feature roadmap
-- PROMPT.md created (this file)
-- Project documentation established
+- Phase 1: Foundation Setup (complete)
+- Phase 2: Dynamic Master Dashboard (complete)
+  - Bonus: Category grouping with dashboard_order.json
+  - Bonus: Navigation chips with emojis
+  - Bonus: Parent category ordering
 
 ### 🚧 In Progress
-- Flask webserver setup
-- data_manager.py implementation
-- Base CSS creation
+- Phase 3: Plant Detail Modal (not started)
 
 ### 📋 Next Up
-- Phase 2: Dynamic Master Dashboard
+- Create modal overlay component
+- Display plant details and journal entries
+- Add modal interaction controls
 
 ---
 
 ## 🗺️ Development Phases
 
-### Phase 1: Foundation Setup
+### Phase 1: Foundation Setup (COMPLETE)
 - [x] Repo structure
-- [ ] Flask webserver
-- [ ] Data manager
-- [ ] Base CSS
+- [x] Flask webserver (`app.py`)
+- [x] Data manager (`data_manager.py`)
+- [x] Base CSS (`style.css`)
+- [x] Requirements file
 
-### Phase 2: Dynamic Master Dashboard
-- Load plant data from JSON files
-- Display plants as tiles
-- Show basic plant info
-- Apply unified CSS
+### Phase 2: Dynamic Master Dashboard (COMPLETE)
+- [x] Load plant data from JSON files
+- [x] Display plants as tiles
+- [x] Show basic plant info
+- [x] Apply unified CSS
+- [x] Category grouping (dashboard_order.json)
+- [x] Navigation with emojis
 
 ### Phase 3: Plant Detail Modal
-- Click plant tile → modal overlay
-- Display plant main data
-- Display journal entries
-- Show probe readings and observations
+- [ ] Create modal overlay component
+- [ ] Click plant tile to open modal
+- [ ] Display plant main data
+- [ ] Display journal entries
+- [ ] Show probe readings and observations
+- [ ] Modal close functionality
 
 ### Phase 4: GPT Integration Forms
-- Update Plant Data Form (journal entries, fragments, complete data)
-- Add Containers Form
-- Add Products Form
+- [ ] Update Plant Data Form
+- [ ] Add Containers Form
+- [ ] Add Products Form
 
 ### Phase 5: Photo Management System
-- Photo upload interface
-- Image compression and storage
-- Photo display in journal
+- [ ] Photo upload interface
+- [ ] Image compression and storage
+- [ ] Photo display in journal
 
 **See README.md for complete phase details and sub-tasks.**
 
@@ -104,13 +133,13 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 ## 🔑 Key Project Conventions
 
 ### Naming Conventions
-- Use `webserver.py` (not `app.py`) for the Flask server
+- Use `app.py` for the Flask server
 - Keep Python utility files in root (e.g., `data_manager.py`)
 - Use descriptive, snake_case for Python files
 - Use kebab-case for HTML files
 
 ### Code Organization
-- Flask routes in `webserver.py`
+- Flask routes in `app.py`
 - Data operations in `data_manager.py`
 - Templates use Jinja2 for dynamic content
 - Single `style.css` for all pages
@@ -119,18 +148,46 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 ### Data Structure
 - Individual plant files: `data/plants/*.json`
 - Shared data: `data/containers.json`, `data/products.json`, `data/meta.json`
+- Dashboard ordering: `data/dashboard_order.json`
 - See `docs/schema.md` for complete data schema
 - All dates: `M/D/YYYY` format
 - All times: `H:MM AM/PM` format
+
+### Python Commands
+- Always use `python3` instead of `python` for all commands
+- Example: `python3 app.py` NOT `python app.py`
 
 ### File Artifacts
 - Always create code artifacts for files the user will copy
 - Use appropriate language tags (markdown, json, python, html, css)
 - Never use document artifacts for code/configuration files
 
+### Markdown File Headers
+All markdown files must use this structure at the top:
+
+```markdown
+===============================================
+# 🌿 Master Garden {Topic}
+_Last Updated: {current date and time}_
+===============================================
+```
+
+Example topics:
+- Master Garden Dashboard (README.md)
+- Master Garden AI Assistant Prompt (PROMPT.md)
+- Master Garden Data Schema (schema.md)
+
 ---
 
 ## 📝 Git Commit Guidelines
+
+### Pre-Commit Review Process
+
+**CRITICAL:** Before every commit, ALWAYS review and update:
+1. **PROMPT.md** - Update status, phases, and timestamp
+2. **README.md** - Update progress, features, and timestamp
+
+This ensures documentation stays in sync with code changes.
 
 ### When to Suggest a Commit
 
@@ -174,7 +231,7 @@ Follow the **Conventional Commits** standard:
 ```bash
 git add -A && git commit -m "feat: Add Flask webserver with basic routes
 
-- Set up Flask app in webserver.py
+- Set up Flask app in app.py
 - Add home route for dashboard
 - Add route for plant detail modal
 - Configure template and static directories"
@@ -239,7 +296,8 @@ When significant progress is made:
 1. Update "Current Development Status" section
 2. Check off completed tasks in "Development Phases"
 3. Update the "Last Updated" timestamp at the top
-4. Commit the changes
+4. Review and update any relevant conventions or guidelines
+5. Commit the changes with proper documentation updates
 
 ---
 

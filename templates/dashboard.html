@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>{{ garden_name }} – {{ current_date }}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <!-- Single sticky header with title + nav chips -->
+  <header class="sticky-header" id="top-nav">
+    <div class="sticky-header-inner">
+      <h1>🌿 {{ garden_name }}</h1>
+      <p class="muted">
+        Snapshot as of <strong>{{ current_date }}</strong> — origin, logged history,
+        current state, and projected timelines for each plant in your garden.
+      </p>
+      <div class="chip-row">
+        {% for category in categories %}
+        <a class="nav-link" href="#{{ category.anchor }}">{{ category.emoji }} {{ category.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    {% for category in categories %}
+    <section id="{{ category.anchor }}">
+      <h2>{{ category.emoji }} {{ category.name }}</h2>
+
+      {% for plant in category.plants %}
+      <div class="card">
+        <div class="plant-header">
+          <div class="plant-name">{{ plant.plant }}</div>
+          <span class="pill"><span class="pill-dot"></span> {{ plant.current_stage }}</span>
+        </div>
+
+        <div class="field-label">Origin / History</div>
+        <ul>
+          {% for history_item in plant.origin_history %}
+          <li>{{ history_item }}</li>
+          {% endfor %}
+        </ul>
+
+        <div class="field-label">What's Been Logged</div>
+        <p>{{ plant.whats_been_logged }}</p>
+
+        <div class="field-label">Current State</div>
+        <p>{{ plant.current_state }}</p>
+
+        <div class="field-label">Timeline</div>
+        <ul class="timeline-list">
+          {% for timeline_item in plant.timeline %}
+          <li><strong>{{ timeline_item.stage }}</strong>: {{ timeline_item.date_range }}.</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </div>
+</body>
+
+</html>

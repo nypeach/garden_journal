@@ -6,7 +6,6 @@
   <meta charset="utf-8" />
   <title>Master Garden Dashboard – Nov 13, 2025</title>
   <style>
-
     /*  New Garden Colors  */
     :root {
       --bg-main: #fffdf7;
@@ -70,6 +69,9 @@
       margin-top: 1.3rem;
       margin-bottom: 0.25rem;
     }
+    .card h3 {
+  margin-top: 0.35rem;   /* tighten spacing ONLY inside plant cards */
+}
 
     p {
       margin: 0.25rem 0 0.5rem;
@@ -110,6 +112,7 @@
       box-shadow: 0 1px 2px rgba(27, 31, 35, 0.04);
     }
 
+
     .field-label {
       font-size: 0.8rem;
       font-weight: 600;
@@ -137,9 +140,39 @@
     .plant-header {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: flex-start;
+      /* TOP-align name and pill */
       flex-wrap: wrap;
       gap: 0.35rem;
+    }
+
+    .plant-header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+
+
+
+    .journal-link {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: var(--text-muted);
+      font-style: italic;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding-top: 2px;
+      padding-right: 12px;
+      /* push link left a little */
+      cursor: pointer;
+    }
+
+
+    .journal-link:hover {
+      color: var(--card-color);
+      /* optional: red on hover */
     }
 
     .plant-name {
@@ -155,13 +188,13 @@
 
     /* New Garden Colors */
     .sticky-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: var(--bg-main);
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid var(--border-subtle);
-}
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-main);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
 
     .sticky-header-inner {
       max-width: 960px;
@@ -220,6 +253,104 @@
 
       .sticky-header-inner {
         padding: 12px 16px 10px;
+      }
+    }
+
+    .secondary-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      background: #ffffff;
+      color: var(--text-main);
+      font-size: 0.8rem;
+      cursor: pointer;
+      white-space: nowrap;
+      gap: 0.25rem;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
+    }
+
+    .secondary-btn:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .secondary-btn:active {
+      transform: translateY(1px);
+    }
+
+    .secondary-btn-icon {
+      font-size: 0.9rem;
+    }
+
+    /* Modal */
+
+    /* Journal modal */
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+    }
+
+    .modal-hidden {
+      display: none;
+    }
+
+    .modal-panel {
+      background: var(--bg-main);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      max-width: 1024px;
+      width: 96%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .modal-body {
+      flex: 1;
+    }
+
+    .modal-body iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .modal-close-floating {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      background: #ffffff;
+      font-size: 0.8rem;
+      padding: 3px 9px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .modal-close-floating:hover {
+      background: var(--accent-soft);
+    }
+
+    /* optional: tweak modal on small screens */
+    @media (max-width: 720px) {
+      .modal-panel {
+        height: 92vh;
+        width: 98%;
       }
     }
   </style>
@@ -291,8 +422,15 @@
       <div class="card">
         <div class="plant-header">
           <div class="plant-name">Strawberry (Left)</div>
-          <span class="pill"><span class="pill-dot"></span> Stabilizing &amp; Blooming</span>
+          <div class="plant-header-right">
+            <span class="pill"><span class="pill-dot"></span> Stabilizing &amp; Blooming</span>
+            <a href="#" class="journal-link" id="open-strawberry-left-journal">
+              📓 View Journal
+            </a>
+          </div>
         </div>
+
+
         <div class="field-label">Origin / History</div>
         <ul>
           <li>New strawberry purchased after the original plant.</li>
@@ -529,9 +667,12 @@
         </ul>
         <div class="field-label">What’s Been Logged</div>
         <p>
-          The plant has moved from early buds into active flowering and its first forming berries. Initial leaf-spot on older
-          foliage was controlled through selective pruning, leaving new growth healthy. Soil issues from the original sand/topsoil
-          layer were corrected with potting mix, improving moisture balance and aeration. With conditions stabilizing, flowers
+          The plant has moved from early buds into active flowering and its first forming berries. Initial leaf-spot on
+          older
+          foliage was controlled through selective pruning, leaving new growth healthy. Soil issues from the original
+          sand/topsoil
+          layer were corrected with potting mix, improving moisture balance and aeration. With conditions stabilizing,
+          flowers
           have opened normally and early fruit development has progressed without significant new foliar problems.
         </p>
         <!-- <ul>
@@ -540,8 +681,9 @@
           <li>Soil slightly pulled back from stem base for airflow.</li>
         </ul> -->
         <div class="field-label">Current State</div>
-        <p>Healthy, actively growing, and in the flowering + fruit-setting stage. Plant shows clean stems, no active leaf-spot,
-        vigorous top growth, and rapidly sizing green fruit.</p>
+        <p>Healthy, actively growing, and in the flowering + fruit-setting stage. Plant shows clean stems, no active
+          leaf-spot,
+          vigorous top growth, and rapidly sizing green fruit.</p>
         <div class="field-label">Timeline</div>
         <ul class="timeline-list">
           <li>Early vegetative growth completed: <strong>Oct 15 - Nov 5, 2025</strong>.</li>
@@ -1188,6 +1330,95 @@
       </div>
     </section>
   </div>
+  <!-- Strawberry (Left) Journal Modal -->
+  <div class="modal-backdrop modal-hidden" id="strawberry-left-journal-modal">
+    <div class="modal-panel">
+      <button class="modal-close-floating" type="button" data-close-modal>
+        ✕ <span class="muted">Close</span>
+      </button>
+      <div class="modal-body">
+        <iframe src="strawberry_left_journal.html" title="Strawberry (Left) Journal"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var openBtn = document.getElementById('open-strawberry-left-journal');
+      var modal = document.getElementById('strawberry-left-journal-modal');
+      if (!openBtn || !modal) return;
+
+      function closeModal() {
+        modal.classList.add('modal-hidden');
+        document.body.style.overflow = '';
+      }
+
+      function openModal() {
+        modal.classList.remove('modal-hidden');
+        document.body.style.overflow = 'hidden';
+      }
+
+      openBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        openModal();
+      });
+
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+
+      modal.querySelectorAll('[data-close-modal]').forEach(function (btn) {
+        btn.addEventListener('click', closeModal);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !modal.classList.contains('modal-hidden')) {
+          closeModal();
+        }
+      });
+    });
+  </script>
+
+  document.addEventListener('DOMContentLoaded', function () {
+  var openBtn = document.getElementById('open-strawberry-left-journal');
+  var modal = document.getElementById('strawberry-left-journal-modal');
+  if (!openBtn || !modal) return;
+
+  function closeModal() {
+  modal.classList.add('modal-hidden');
+  document.body.style.overflow = '';
+  }
+
+  function openModal() {
+  modal.classList.remove('modal-hidden');
+  document.body.style.overflow = 'hidden';
+  }
+
+  openBtn.addEventListener('click', function (e) {
+  e.preventDefault();
+  openModal();
+  });
+
+  modal.addEventListener('click', function (e) {
+  if (e.target === modal) {
+  closeModal();
+  }
+  });
+
+  modal.querySelectorAll('[data-close-modal]').forEach(function (btn) {
+  btn.addEventListener('click', closeModal);
+  });
+
+  document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && !modal.classList.contains('modal-hidden')) {
+  closeModal();
+  }
+  });
+  });
+  </script>
+
 </body>
 
 </html>

@@ -1,65 +1,46 @@
 ===============================================
 # 🌿 Master Garden Dashboard
-_Last Updated: December 10, 2025 3:05 PM_
+_Last Updated: December 10, 2025 9:07 PM_
 ===============================================
 
-A simple, self-hosted Flask web application for managing your personal garden. Track your plants, products, and garden data through an intuitive dashboard interface.
+A simple, self-hosted Flask web application for managing your personal garden. Track your plants, products, and garden data through an intuitive dashboard interface with dynamic categorization and detailed plant histories.
 
-## 📋 Features
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-### ✅ Phase 1: Foundation Setup
-- [x] Repo structure
-- [ ] Flask webserver
-- [ ] Data manager for JSON operations
-- [ ] Base CSS styling
+## Overview
 
-### Phase 2: Dynamic Master Dashboard
-- [ ] Load all plant data from JSON files
-- [ ] Display plants as interactive tiles
-- [ ] Show basic plant info (name, status, current stage)
-- [ ] Apply unified CSS styling across dashboard
+Master Garden Dashboard is a personal garden management system designed for gardeners who code. It provides a clean, organized way to track plant origins, monitor growth stages, log journal entries with environmental data, and maintain a complete history of your garden.
 
-### Phase 3: Plant Detail Modal
-- [ ] Click plant tile to open modal overlay
-- [ ] Display plant main data (origin, location, container, soil)
-- [ ] Display journal entries in chronological order
-- [ ] Show probe readings, observations, and actions
-- [ ] Modal close functionality
+Built with simplicity in mind, the dashboard uses file-based JSON storage (no database required) and displays your plants in an intuitive, category-organized layout. Whether you're managing herbs, vegetables, flowers, or fruit plants, everything is accessible through a beautiful web interface.
 
-### Phase 4: GPT Integration Forms
-- [ ] **Update Plant Data Form**
-  - Dropdown to select plant
-  - Input for new journal entry (prepends to journal array)
-  - Input for fragment update (updates specific main data fields)
-  - Input for complete main data (replaces all main data fields)
-  - Save functionality with feedback
-- [ ] **Add Containers Form**
-  - Form with container_name and common_name fields
-  - Save to data/containers.json
-  - Duplicate validation
-- [ ] **Add Products Form**
-  - Form with product_name and common_name fields
-  - Save to data/products.json
-  - Duplicate validation
+## Features
 
-### Phase 5: Photo Management System
-- [ ] **Photo Upload Interface**
-  - "Manage Photos" button in journal entries
-  - List all photo placeholders with captions and tags
-  - File upload button for each placeholder
-  - Drag-and-drop zone support
-  - Upload status indicators
-- [ ] **Photo Processing**
-  - Image compression using PIL/Pillow
-  - Organized storage in static/images/plants/
-  - JSON filename updates
-- [ ] **Photo Display**
-  - Replace placeholders with actual images
-  - Thumbnail tiles in journal view
-  - Click to view full size (lightbox/modal)
-  - Display captions and tags
+### ✅ Completed (Phase 1 & 2)
+- **Dynamic plant dashboard** with real-time data from JSON files
+- **Category-based organization** with custom emoji navigation
+- **Responsive design** with unified CSS styling
+- **Flexible data structure** supporting unlimited plants
+- **Easy data management** through JSON files
+- **Fast and lightweight** - no database overhead
+- **Self-hosted** - complete control over your data
 
-## 📁 Project Structure
+### 🚧 In Development
+- **Plant detail modals** with complete journal history
+- **Data entry forms** for adding/updating plants
+- **Photo management system** with compression and tagging
+- **ChatGPT integration** for plant-specific horticultural guidance
+
+## Project Structure
 
 ```
 garden_journal/
@@ -72,38 +53,36 @@ garden_journal/
 │   │   ├── plant1.json
 │   │   ├── plant2.json
 │   │   └── ...
-│   ├── containers.json  # Container inventory
-│   ├── meta.json        # Garden metadata
-│   └── products.json    # Product catalog
+│   ├── containers.json      # Container inventory
+│   ├── dashboard_order.json # Dashboard category ordering
+│   ├── meta.json            # Garden metadata
+│   └── products.json        # Product catalog
 ├── docs/
-│   ├── schema.md        # Data schema documentation
+│   ├── schema.md            # Data schema documentation
 │   └── ...
 ├── static/
-│   ├── images/          # Plant photos (optional)
+│   ├── images/              # Plant photos (optional)
 │   │   └── ...
-│   └── style.css        # Unified CSS styling
+│   └── style.css            # Unified CSS styling
 ├── templates/
-│   ├── add_plant.html   # Add plant form
-│   ├── add_product.html # Add product form
-│   ├── dashboard.html   # Master garden dashboard
+│   ├── dashboard.html       # Master garden dashboard
 │   └── ...
-├── .gitignore           # Git ignore rules
-├── LICENSE              # Project license
-├── PROMPT.md            # AI conversation continuity
-├── README.md            # This file
-├── data_manager.py      # JSON operations
-├── requirements.txt     # Python dependencies
-└── webserver.py         # Flask server
+├── .gitignore               # Git ignore rules
+├── LICENSE                  # Project license
+├── PROMPT.md                # AI conversation continuity
+├── README.md                # This file
+├── app.py                   # Flask server
+├── data_manager.py          # JSON operations
+└── requirements.txt         # Python dependencies
 ```
 
-## 🚀 Getting Started
+## Installation
 
 ### Prerequisites
-
 - Python 3.8 or higher
 - pip (Python package manager)
 
-### Installation
+### From Source
 
 1. **Clone the repository**
    ```bash
@@ -118,86 +97,159 @@ garden_journal/
 
 3. **Run the application**
    ```bash
-   python webserver.py
+   python3 app.py
    ```
 
 4. **Open your browser**
    ```
-   http://127.0.0.1:5000
+   http://localhost:3000
    ```
 
-## 🎯 Usage
+## Usage
 
 ### Viewing Your Garden
-Navigate to the home page to see your master dashboard with all plants displayed.
 
-### Adding Plants
-Click the "Add Plant" button on the dashboard to open the form, fill in the details, and submit.
+Navigate to `http://localhost:3000` to see your master dashboard with all plants displayed and organized by categories (Fruit, Vegetables, Herbs & Greens, etc.).
 
-### Managing Data
-All data is stored as JSON files:
-- **Individual plant files:** `data/plants/*.json` - One file per plant with complete history
-- **Shared resources:** `data/containers.json`, `data/products.json`
-- **Metadata:** `data/meta.json` - Garden-wide settings and information
+### Managing Plant Data
 
-You can manually edit these files or use the web interface once it's built.
+All data is stored as JSON files in the `data/` directory:
 
-## 🗺️ Development Roadmap
-
-This project is being developed in phases. Check the Features section above to see current progress.
-
-**Current Phase:** Phase 1 - Foundation Setup
-
-**Completed:**
-- ✅ Repository structure defined
-- ✅ Documentation created
-
-**Next Steps:**
-- Set up Flask webserver
-- Create data_manager.py
-- Implement base CSS
-
----
-
-## 🤖 ChatGPT Plant Channels
-
-This project includes integration with ChatGPT for plant-specific horticultural guidance. The `chatgpt/` folder contains templates and tools for creating dedicated plant channels where you can get expert advice tailored to each plant.
-
-**What's included:**
-- `master_garden_ai_guide.md` - Complete guide for the ChatGPT assistant
-- `master_garden_ai_prompt.md` - Plant channel prompt template
-- `master_garden_ai_prompt_generator.py` - Script to generate channel prompts for all plants
-
-**How to use:**
-Run the generator script to create customized ChatGPT prompts for each plant in your garden:
-```bash
-python chatgpt/master_garden_ai_prompt_generator.py
+**Individual plant files:** `data/plants/*.json`
+```json
+{
+  "id": "basil_001",
+  "status": "Active",
+  "plant": "Basil (Left)",
+  "current_stage": "Clustered Regrowth Phase",
+  "timeline": [...],
+  "journal": [...]
+}
 ```
 
-This will create individual channel files in `docs/temp/` that you can use to start dedicated ChatGPT conversations for each plant.
+**Category ordering:** `data/dashboard_order.json`
+```json
+{
+  "categories": [
+    {
+      "name": "Herbs & Greens",
+      "emoji": "🌿",
+      "plants": ["basil_001", "cilantro_001", ...]
+    }
+  ]
+}
+```
 
-## 🛠️ Development
+You can manually edit these files or use the web interface once forms are built (Phase 4).
 
-### Data Structure
-See `docs/schema.md` for detailed information about the JSON data schema.
+### Adding New Plants
 
-### Adding New Features
-1. Create new routes in `webserver.py`
-2. Add corresponding HTML templates in `templates/`
-3. Update `data_manager.py` for data operations
-4. Styling automatically applies via `static/style.css`
+1. Create a new JSON file in `data/plants/` following the schema in `docs/schema.md`
+2. Add the plant ID to the appropriate category in `data/dashboard_order.json`
+3. Refresh the dashboard
 
-## 📝 License
+## Configuration
+
+### Dashboard Ordering
+
+Edit `data/dashboard_order.json` to customize category grouping, display order, and navigation emojis:
+
+```json
+{
+  "categories": [
+    {
+      "parent_order": 1,
+      "parent": "Vegetables",
+      "name": "Tomatoes",
+      "emoji": "🍅",
+      "anchor": "tomatoes",
+      "plants": ["tomato_001", "tomato_002"]
+    }
+  ]
+}
+```
+
+### Garden Metadata
+
+Configure garden-wide settings in `data/meta.json`:
+
+```json
+{
+  "metadata": {
+    "garden_name": "My Garden",
+    "location": "City, State",
+    "garden_type": "Container Garden"
+  }
+}
+```
+
+### Server Configuration
+
+The Flask server runs on port 3000 by default. To change this, edit `app.py`:
+
+```python
+app.run(host='0.0.0.0', port=YOUR_PORT, debug=True)
+```
+
+## Roadmap
+
+### ✅ Phase 1: Foundation Setup (COMPLETE)
+- [x] Flask webserver (`app.py`)
+- [x] Data manager for JSON operations (`data_manager.py`)
+- [x] Base CSS styling (`style.css`)
+
+### ✅ Phase 2: Dynamic Master Dashboard (COMPLETE)
+- [x] Load all plant data from JSON files
+- [x] Display plants as interactive tiles
+- [x] Category grouping with `dashboard_order.json`
+- [x] Navigation chips with emojis
+
+### Phase 3: Plant Detail Modal
+- [ ] Create modal overlay component
+- [ ] Display plant main data and origin history
+- [ ] Show journal entries with probe readings
+- [ ] Modal interaction controls (close, keyboard support)
+
+### Phase 4: GPT Integration Forms
+- [ ] Update Plant Data Form
+- [ ] Add Containers Form
+- [ ] Add Products Form
+
+### Phase 5: Photo Management System
+- [ ] Photo upload interface
+- [ ] Image compression using PIL/Pillow
+- [ ] Photo display in journal with lightbox
+
+## Contributing
+
+This is a personal project, but contributions are welcome! Feel free to:
+- Fork the repository
+- Submit issues for bugs or feature requests
+- Create pull requests with improvements
+
+### Development Guidelines
+- Keep it simple and lean
+- Follow the existing code structure
+- Test thoroughly before submitting PRs
+- Update documentation for new features
+
+### Development Setup
+```bash
+git clone https://github.com/yourusername/garden_journal.git
+cd garden_journal
+pip install -r requirements.txt
+python3 app.py
+```
+
+## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## Acknowledgements
 
-This is a personal project, but feel free to fork and adapt it for your own garden management needs!
-
-## 💡 About PROMPT.md
-
-The `PROMPT.md` file maintains conversation context for AI assistants. If development spans multiple sessions, this file helps new AI instances understand the project's current state and continue seamlessly.
+- **Flask** - Lightweight and powerful Python web framework
+- **ChatGPT** - AI integration for plant-specific horticultural guidance
+- **Open-source community** - For tools, libraries, and inspiration
 
 ---
 
