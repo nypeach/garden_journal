@@ -114,7 +114,7 @@
             {% if photo.file_name == "<<put filename here>>" %}
               <div class="photo-placeholder">Photo placeholder</div>
               {% else %}
-              <img src="/static/images/plants/{{ photo.file_name }}" alt="{{ photo.caption }}">
+              <img src="/photos/{{ plant_id }}/{{ photo.file_name }}" alt="{{ photo.caption }}">
               {% endif %}
               <figcaption class="photo-caption">{{ photo.caption }}</figcaption>
           </figure>

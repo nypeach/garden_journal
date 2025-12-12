@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 11, 2025 5:20 PM_
+_Last Updated: December 11, 2025 7:45 PM_
 ===============================================
 
 ## Purpose
@@ -75,7 +75,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Phase 5 - Photo Management System 🚧 **IN PROGRESS**
+**Current Phase:** Phase 5 - Photo Management System 🚧 **IN PROGRESS** (5A & 5B Complete)
 
 ### ✅ Completed
 - Phase 1: Foundation Setup (complete)
@@ -90,13 +90,20 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - Complete journal entry display (probes, observations, actions, photos)
   - Modal interaction (ESC to close, click backdrop to close)
   - Photo grid with consistent sizing and captions
+- **Phase 5A: Photo Prep Tool (complete)**
+  - Drag & drop photo upload (HEIC, JPEG, PNG)
+  - Automatic compression (85% quality, ~200KB-4MB files)
+  - Sequential renaming: plant_id-YYYYMMDD-##.jpeg
+  - Google Drive subfolder organization
+  - ChatGPT message generation with probe warnings
+- **Phase 5B: Google Drive Photo Serving (complete)**
+  - Flask route: /photos/<plant_id>/<filename>
+  - Journal displays photos from Google Drive
+  - Photos sync across devices
 
 ### 🚧 In Progress
-- **Phase 5: Photo Management System**
-  - Photo Prep Tool (Version 1)
-  - Google Drive integration for photo serving
-  - Placeholder photo upload (Version 2)
-  - Photo lightbox modal (Version 2)
+- **Phase 5C: Placeholder Photo Upload (Version 2)**
+- **Phase 5D: Photo Lightbox Modal (Version 2)**
 
 ### 📋 Next Up
 - Phase 4: GPT Integration Forms (deferred)
@@ -140,20 +147,23 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
-### Phase 5: Photo Management System (IN PROGRESS)
-- [ ] **Photo Prep Tool (Version 1 - Priority)**
-  - [ ] Create `/photo-prep` route and form
-  - [ ] File upload handling (multiple files)
-  - [ ] PIL/Pillow image compression (~85% quality)
-  - [ ] Automated file renaming: `{plant_id}-{YYYYMMDD}-{##}.jpeg`
-  - [ ] Subfolder organization by plant_id
-  - [ ] Generate formatted ChatGPT message with filenames
-  - [ ] Display output in copyable code block
-- [ ] **Google Drive Photo Integration**
-  - [ ] Create `/photos/<plant_id>/<filename>` route
-  - [ ] Serve photos from Google Drive folder
-  - [ ] Update journal template to use new photo route
-  - [ ] Photos organized in plant-specific subfolders
+### Phase 5: Photo Management System (IN PROGRESS - 5A & 5B COMPLETE)
+- [x] **Photo Prep Tool (Version 1 - COMPLETE)**
+  - [x] Create `/photo-prep` route and form
+  - [x] File upload handling (multiple files, drag & drop)
+  - [x] PIL/Pillow image compression (85% quality)
+  - [x] HEIC format support (pillow-heif)
+  - [x] Automated file renaming: `{plant_id}-{YYYYMMDD}-{##}.jpeg`
+  - [x] Subfolder organization by plant_id
+  - [x] Generate formatted ChatGPT message with filenames
+  - [x] Probe reading warning for -01 photos
+  - [x] Display output in copyable code block
+- [x] **Google Drive Photo Integration (COMPLETE)**
+  - [x] Create `/photos/<plant_id>/<filename>` route
+  - [x] Serve photos from Google Drive folder
+  - [x] Update journal template to use new photo route
+  - [x] Photos organized in plant-specific subfolders
+  - [x] Handle missing files gracefully (404)
 - [ ] **Placeholder Photo Upload (Version 2)**
   - [ ] Make placeholder boxes clickable
   - [ ] Single photo upload on click

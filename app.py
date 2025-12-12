@@ -3,15 +3,30 @@ Master Garden Dashboard - Flask Application
 Simple, self-hosted web application for garden management
 """
 
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request, flash, redirect, url_for
 import os
 from pathlib import Path
 from datetime import datetime
 from data_manager import DataManager
+from PIL import Image
+import io
+
+# Register HEIC support
+try:
+    from pillow_heif import register_heif_opener
+    register_heif_opener()
+except ImportError:
+    print("Warning: pillow-heif not installed. HEIC files will not be supported.")
+    print("Install with: pip3 install pillow-heif")
 
 # Initialize Flask app
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-here'  # Change this in production
+app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50MB max file size
+
+# Photo storage configuration
+PHOTO_BASE_PATH = Path('/Users/jodisilverman/Library/CloudStorage/GoogleDrive-jodimsilverman@gmail.com/My Drive/Garden Photos')
+COMPRESSION_QUALITY = 85  # JPEG quality percentage
 
 # Initialize data manager
 data_dir = Path(__file__).parent / 'data'
@@ -133,6 +148,159 @@ def get_all_plants():
         return jsonify(plants)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/photo-prep', methods=['GET', 'POST'])
+def photo_prep():
+    """
+    Photo Prep Tool - Prepare photos for ChatGPT plant channels
+    Handles photo upload, compression, renaming, and organization
+    """
+    if request.method == 'GET':
+        # Show the form
+        return render_template('photo_prep.html', current_date=datetime.now().strftime('%Y-%m-%d'))
+
+    # POST - Process photos
+    try:
+        # Get form data
+        plant_id = request.form.get('plant_id', '').strip()
+        date_str = request.form.get('date', '')
+        starting_number = request.form.get('starting_number', '').strip()
+        context = request.form.get('context', 'Initial')
+        message = request.form.get('message', '').strip()
+        files = request.files.getlist('photos')
+
+        # Validation
+        if not plant_id:
+            flash('Plant ID is required', 'error')
+            return redirect(url_for('photo_prep'))
+
+        if not files or files[0].filename == '':
+            flash('At least one photo is required', 'error')
+            return redirect(url_for('photo_prep'))
+
+        if not date_str:
+            flash('Date is required', 'error')
+            return redirect(url_for('photo_prep'))
+
+        # Parse date and create filename date format (YYYYMMDD)
+        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+        date_filename = date_obj.strftime('%Y%m%d')
+
+        # Determine starting number
+        start_num = 1
+        if starting_number:
+            try:
+                start_num = int(starting_number)
+            except ValueError:
+                flash('Starting number must be a valid number', 'error')
+                return redirect(url_for('photo_prep'))
+
+        # Create plant subfolder if it doesn't exist
+        plant_folder = PHOTO_BASE_PATH / plant_id
+        plant_folder.mkdir(parents=True, exist_ok=True)
+
+        # Process each photo
+        processed_files = []
+        current_num = start_num
+
+        for file in files:
+            if file.filename:
+                try:
+                    # Generate new filename
+                    new_filename = f"{plant_id}-{date_filename}-{current_num:02d}.jpeg"
+                    file_path = plant_folder / new_filename
+
+                    # Save uploaded file to temporary location first
+                    temp_path = plant_folder / f"temp_{file.filename}"
+                    file.save(temp_path)
+
+                    # Open and compress image
+                    img = Image.open(temp_path)
+
+                    # Convert RGBA to RGB if necessary (for PNG with transparency)
+                    if img.mode in ('RGBA', 'LA', 'P'):
+                        background = Image.new('RGB', img.size, (255, 255, 255))
+                        if img.mode == 'P':
+                            img = img.convert('RGBA')
+                        background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+                        img = background
+                    elif img.mode != 'RGB':
+                        img = img.convert('RGB')
+
+                    # Save with compression
+                    img.save(
+                        file_path,
+                        'JPEG',
+                        quality=COMPRESSION_QUALITY,
+                        optimize=True,
+                        progressive=True
+                    )
+
+                    # Delete temporary file
+                    temp_path.unlink()
+
+                    processed_files.append(new_filename)
+                    current_num += 1
+
+                except Exception as img_error:
+                    print(f"Error processing {file.filename}: {str(img_error)}")
+                    print(f"File type: {type(file)}, Stream type: {type(file.stream)}")
+                    import traceback
+                    traceback.print_exc()
+                    # Clean up temp file if it exists
+                    if 'temp_path' in locals() and temp_path.exists():
+                        temp_path.unlink()
+                    raise
+
+        # Generate output message
+        output_lines = []
+        if message:
+            output_lines.append(message)
+            output_lines.append('')  # Blank line
+
+        # Add instruction block
+        output_lines.append('Also, instead of the "<<put filename here>>" literal, please use these photo names instead. I\'ve numbered them according to how I uploaded them. Never save probe reading photos.')
+        output_lines.append('')  # Blank line
+
+        output_lines.append('Here are the photo names:')
+        for idx, filename in enumerate(processed_files, 1):
+            # Add probe warning only for first photo if it ends in -01
+            if idx == 1 and filename.endswith('-01.jpeg'):
+                output_lines.append(f'{idx}. {filename}  **Do not import if probe reading**')
+            else:
+                output_lines.append(f'{idx}. {filename}')
+
+        output_message = '\n'.join(output_lines)
+
+        # Render success page with output
+        return render_template(
+            'photo_prep.html',
+            success=True,
+            output_message=output_message,
+            processed_count=len(processed_files),
+            plant_folder=str(plant_folder),
+            current_date=datetime.now().strftime('%Y-%m-%d')
+        )
+
+    except Exception as e:
+        flash(f'Error processing photos: {str(e)}', 'error')
+        return redirect(url_for('photo_prep'))
+
+
+@app.route('/photos/<plant_id>/<filename>')
+def serve_photo(plant_id, filename):
+    """
+    Serve photos from Google Drive folder
+    Photos are organized in plant-specific subfolders
+    """
+    try:
+        from flask import send_from_directory
+        photo_folder = PHOTO_BASE_PATH / plant_id
+        return send_from_directory(photo_folder, filename)
+    except Exception as e:
+        # Return 404 if photo not found
+        return f"Photo not found: {filename}", 404
 
 
 @app.route('/health')

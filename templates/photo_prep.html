@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Photo Prep Tool – Master Garden Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <!-- Sticky header matching dashboard style -->
+  <header class="sticky-header">
+    <div class="sticky-header-inner">
+      <h1>📸 Photo Prep Tool</h1>
+      <p class="dashboard-subtitle">
+        Prepare photos for your ChatGPT plant channels
+      </p>
+      <div class="chip-row">
+        <a href="/" class="nav-link">← Back to Dashboard</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+      {% for category, message in messages %}
+      <div class="flash-message flash-{{ category }}">
+        {{ message }}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    {% if not success %}
+    <!-- Form Card -->
+    <div class="card">
+      <form method="POST" enctype="multipart/form-data" id="photoForm">
+        <!-- File Upload Zone -->
+        <div class="upload-zone" id="uploadZone">
+          <div class="upload-icon">📷</div>
+          <div class="upload-text">Click to select photos or drag & drop</div>
+          <div class="upload-subtext">Upload 1-20+ photos from your iPhone or Photos app</div>
+          <input type="file" name="photos" id="fileInput" class="file-input" multiple
+            accept="image/jpeg,image/jpg,image/png,image/heic">
+        </div>
+
+        <div id="selectedFiles" class="selected-files" style="display: none;">
+          <strong>Selected files:</strong>
+          <ul id="filesList" class="selected-files-list"></ul>
+        </div>
+
+        <!-- Form Fields -->
+        <div class="field-label">Plant ID *</div>
+        <input type="text" id="plant_id" name="plant_id" class="form-input" required
+          placeholder="e.g., basil_001, strawberry_002">
+        <div class="form-hint">Format: plant_type_###</div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <div class="field-label">Date *</div>
+            <input type="date" id="date" name="date" class="form-input" value="{{ current_date }}" required>
+          </div>
+
+          <div class="form-group">
+            <div class="field-label">Starting Photo #</div>
+            <input type="number" id="starting_number" name="starting_number" class="form-input" min="1"
+              placeholder="Leave blank for 01">
+            <div class="form-hint">Optional - defaults to 01</div>
+          </div>
+        </div>
+
+        <div class="field-label">Context *</div>
+        <select id="context" name="context" class="form-select" required>
+          <option value="Initial">Initial</option>
+          <option value="Follow-Up">Follow-Up</option>
+        </select>
+
+        <div class="field-label">Message *</div>
+        <textarea id="message" name="message" class="form-textarea" required
+          placeholder="Enter weather conditions, observations, and any questions for ChatGPT..."></textarea>
+        <div class="form-hint">This text will appear above the photo filename list</div>
+
+        <button type="submit" class="submit-btn">📤 Process Photos</button>
+      </form>
+    </div>
+    {% endif %}
+
+    {% if success %}
+    <!-- Success Card -->
+    <div class="card">
+      <div class="output-header">
+        <span class="success-icon">✅</span>
+        <h2>Photos Processed Successfully!</h2>
+      </div>
+
+      <div class="output-info">
+        <strong>{{ processed_count }}</strong> photo(s) compressed and saved to:<br>
+        <code>{{ plant_folder }}</code>
+      </div>
+
+      <div class="field-label">Copy this message and paste it into ChatGPT:</div>
+
+      <div class="output-code" id="outputCode">{{ output_message }}<button class="copy-btn"
+          onclick="copyToClipboard()">Copy</button>
+      </div>
+
+      <p style="margin-top: 24px;">
+        <a href="/photo-prep" class="nav-link">← Process More Photos</a>
+      </p>
+    </div>
+    {% endif %}
+  </div>
+
+  <script>
+    // Drag and drop functionality
+    const uploadZone = document.getElementById('uploadZone');
+    const fileInput = document.getElementById('fileInput');
+    const selectedFiles = document.getElementById('selectedFiles');
+    const filesList = document.getElementById('filesList');
+
+    // Click to upload
+    uploadZone.addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    // Prevent default drag behaviors
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+      uploadZone.addEventListener(eventName, preventDefaults, false);
+      document.body.addEventListener(eventName, preventDefaults, false);
+    });
+
+    function preventDefaults(e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    // Highlight drop zone when dragging over
+    ['dragenter', 'dragover'].forEach(eventName => {
+      uploadZone.addEventListener(eventName, () => {
+        uploadZone.classList.add('dragover');
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      uploadZone.addEventListener(eventName, () => {
+        uploadZone.classList.remove('dragover');
+      }, false);
+    });
+
+    // Handle dropped files
+    uploadZone.addEventListener('drop', (e) => {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+      fileInput.files = files;
+      updateFileList(files);
+    }, false);
+
+    // Handle selected files
+    fileInput.addEventListener('change', (e) => {
+      updateFileList(e.target.files);
+    });
+
+    function updateFileList(files) {
+      if (files.length > 0) {
+        selectedFiles.style.display = 'block';
+        filesList.innerHTML = '';
+        for (let i = 0; i < files.length; i++) {
+          const li = document.createElement('li');
+          li.textContent = `${i + 1}. ${files[i].name}`;
+          filesList.appendChild(li);
+        }
+      } else {
+        selectedFiles.style.display = 'none';
+      }
+    }
+
+    // Copy to clipboard function
+    function copyToClipboard() {
+      const codeElement = document.getElementById('outputCode');
+      const text = codeElement.textContent.replace('Copy', '').trim();
+
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = codeElement.querySelector('.copy-btn');
+        btn.textContent = 'Copied!';
+        setTimeout(() => {
+          btn.textContent = 'Copy';
+        }, 2000);
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -58,6 +58,76 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "5:07 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "9.00",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "31.00",
+        "light": "15",
+        "rh_percent": "52",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "72.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong overall growth with vigorous new leaves emerging from the crown and multiple male blossoms opening today. The first developing fruit continues to elongate with healthy skin coloration and no signs of rot. The pruning cut from earlier has dried cleanly and shows normal healing. Soil surface remains dry despite light showers, consistent with improved but still quick-draining bed conditions.",
+      "actions": "Remove spent blossoms from soil surface to reduce moisture retention and insect attraction. No watering is needed this evening. Continue supporting the developing fruit with light mulch until upgraded support is needed. No fertilizer required today.",
+      "next_steps": "Recheck moisture tomorrow morning and upgrade fruit support in 1–2 days as it lengthens. Monitor crown for additional female buds and confirm pruning stub continues to dry and seal. Watch overnight temperatures, though current forecast remains safe for growth.",
+      "q_and_a_summary": "Discussed whether low overnight temperatures in the low 50s were concerning; confirmed these are safe for zucchini. Confirmed presence of early female buds forming within the crown. Clarified that the pruning cut was correct and that adding a light mulch pad under the developing fruit was acceptable.",
+      "follow_up": [
+        "[7:42 AM] Confirmed the leaf was cut correctly at the proper petiole position.",
+        "[8:02 AM] Added a small layer of mulch beneath the developing fruit for gentle support."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251211-02.jpeg",
+          "caption": "Overhead view showing male blossoms and a widening canopy.",
+          "tags": "zucchini, canopy, male flowers"
+        },
+        {
+          "file_name": "zucchini_002-20251211-03.jpeg",
+          "caption": "Close view of the crown showing the clean pruning cut and active new growth.",
+          "tags": "zucchini, crown, pruning"
+        },
+        {
+          "file_name": "zucchini_002-20251211-04.jpeg",
+          "caption": "Side view of the developing zucchini fruit positioned above the soil surface.",
+          "tags": "zucchini, developing fruit, soil contact"
+        },
+        {
+          "file_name": "zucchini_002-20251211-05.jpeg",
+          "caption": "Developing zucchini fruit showing healthy elongation and firm color.",
+          "tags": "zucchini, fruit growth"
+        },
+        {
+          "file_name": "zucchini_002-20251211-06.jpeg",
+          "caption": "Spent male blossoms removed from the soil surface to reduce moisture trapping.",
+          "tags": "zucchini, spent blossoms, soil cleanliness"
+        },
+        {
+          "file_name": "zucchini_002-20251211-07.jpeg",
+          "caption": "Interior crown view showing multiple forming female buds.",
+          "tags": "zucchini, female buds, crown development"
+        },
+        {
+          "file_name": "zucchini_002-20251211-08.jpeg",
+          "caption": "Healing pruning cut drying cleanly with no moisture pooling.",
+          "tags": "zucchini, pruning cut, healing"
+        },
+        {
+          "file_name": "zucchini_002-20251211-09.jpeg",
+          "caption": "Healthy fruit-to-stem junction showing no rot or lesions.",
+          "tags": "zucchini, fruit junction, stem health"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:59 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
