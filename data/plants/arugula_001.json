@@ -35,6 +35,43 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "5:01 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "147",
+        "moisture_mScm": "80.00",
+        "light": "83",
+        "rh_percent": "51",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "72.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tray remains on the wet side with moisture at 80, though the seedlings do not appear waterlogged. The canopy continues to recover, with the right-hand section showing strong upright leaves and the center and left areas gradually greening. No new leaf spotting is present, and all older blemishes remain static. Cooler evening temperatures pose no risk and should help tighten leaf growth and deepen color.",
+      "actions": "Do not water today, as the tray needs additional dry-down. Hold fertilizing until moisture stabilizes in the mid-range. If desired, lightly lift the very top layer of soil in the densest patch to improve airflow, avoiding any root disturbance.",
+      "next_steps": "Expect moisture to fall into the 50–60 range by tomorrow afternoon with sunny, breezy conditions. Continue monitoring for color improvement and upward growth. Plan for micro-thinning once moisture normalizes. First baby-leaf harvest remains approximately 2–4 days away.",
+      "q_and_a_summary": "Discussed whether the forecasted overnight low of 53°F posed a risk and confirmed that arugula thrives in cool temperatures, with no protection needed. Reviewed that the plant continues to recover from prior dryness and oversaturation phases.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251211-02.jpeg",
+          "caption": "Overhead view showing gradual greening and improved turgor across the canopy.",
+          "tags": "arugula, canopy, recovery"
+        },
+        {
+          "file_name": "arugula_001-20251211-03.jpeg",
+          "caption": "Close-up of the right-hand section displaying upright, healthy leaves and no new spotting.",
+          "tags": "arugula, leaf-health, new-growth"
+        }
+      ]
+    },
+    {
       "date": "12/10/2025",
       "time": "8:52 AM",
       "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",

@@ -131,7 +131,58 @@
     {% endfor %}
   </div>
 
+  <!-- Photo Lightbox Modal -->
+  <div class="modal-backdrop modal-hidden" id="photo-lightbox">
+    <div class="lightbox-wrapper">
+      <img id="lightbox-image" src="" alt="">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
   <script>
+    // Photo lightbox functionality
+    document.addEventListener('DOMContentLoaded', function () {
+      const lightbox = document.getElementById('photo-lightbox');
+      const lightboxImage = document.getElementById('lightbox-image');
+      const lightboxCaption = document.getElementById('lightbox-caption');
+
+      function openLightbox(imgSrc, caption) {
+        lightboxImage.src = imgSrc;
+        lightboxCaption.textContent = caption || '';
+        lightbox.classList.remove('modal-hidden');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLightbox() {
+        lightbox.classList.add('modal-hidden');
+        document.body.style.overflow = '';
+        lightboxImage.src = '';
+      }
+
+      // Add single-click handler to all journal photos (not placeholders)
+      document.querySelectorAll('.photo-item img').forEach(function (img) {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', function () {
+          const caption = this.alt || '';
+          openLightbox(this.src, caption);
+        });
+      });
+
+      // Close on backdrop click
+      lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      // Close on ESC key
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !lightbox.classList.contains('modal-hidden')) {
+          closeLightbox();
+        }
+      });
+    });
+
     // Placeholder photo upload functionality
     document.addEventListener('DOMContentLoaded', function () {
       const placeholders = document.querySelectorAll('.placeholder-upload');

@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 11, 2025 8:55 PM_
+_Last Updated: December 11, 2025 9:30 PM_
 ===============================================
 
 ## Purpose
@@ -75,7 +75,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Phase 5 - Photo Management System 🚧 **IN PROGRESS** (5A, 5B & 5C Complete)
+**Current Phase:** Phase 5 - Photo Management System ✅ **COMPLETE**
 
 ### ✅ Completed
 - Phase 1: Foundation Setup (complete)
@@ -109,15 +109,21 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - Compression and EXIF correction
   - JSON auto-update
   - Immediate display refresh
+- **Phase 5D: Photo Lightbox Modal (complete)**
+  - Single-click photo to view full-size
+  - Caption footer attached to image
+  - Proper aspect ratio (portrait and landscape)
+  - Close with ESC or backdrop click
 
 ### 🚧 In Progress
-- **Phase 5D: Photo Lightbox Modal (Version 2)**
+- None (Phase 5 complete!)
 
 ### 📋 Next Up
-- Phase 4: GPT Integration Forms (deferred)
-  - Update Plant Data Form
-  - Add Containers Form
-  - Add Products Form
+- Phase 4: GPT Integration Forms
+  - New journal entry workflow from dashboard
+  - JSON input for journal entries
+  - Update plant main data form
+  - Containers and Products forms
 
 ---
 
@@ -151,9 +157,102 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [x] Unified CSS styling across dashboard and journal
 
 ### Phase 4: GPT Integration Forms (DEFERRED)
+
+**New Journal Entry Workflow:**
+- [ ] Add "➕ Add New Journal Entry" button to plant tiles on dashboard
+  - [ ] Button opens Photo Prep Tool with plant_id pre-filled
+  - [ ] Streamlined workflow from dashboard → photos → ChatGPT → journal
+- [ ] Add journal entry submission to Photo Prep success page
+  - [ ] Button: "📝 Add Journal Entry" (appears after photo processing)
+  - [ ] Opens textarea for full JSON input from ChatGPT
+  - [ ] Validates JSON structure
+  - [ ] Prepends entry to plant's journal array
+  - [ ] Saves to plant JSON file
+  - [ ] Shows success confirmation
+- [ ] Add "Update Plant Main Data" button to Photo Prep success page
+  - [ ] Opens form for updating plant metadata
+  - [ ] Fields: current_stage, current_state, timeline updates
+  - [ ] Saves to plant JSON file
+
+**Data Entry Forms:**
 - [ ] Update Plant Data Form (journal entries, fragments, complete data)
 - [ ] Add Containers Form
 - [ ] Add Products Form
+
+**See workflow requirements below for detailed implementation.**
+
+---
+
+**Phase 4 Workflow Requirements - New Journal Entry:**
+
+1. **Dashboard Plant Tile Button**
+   - Location: Add to plant-header-right section (below "View Journal" link)
+   - Button text: "➕ Add New Journal Entry"
+   - Styling: Small button matching nav-link style
+   - Behavior: Opens `/photo-prep?plant_id={plant_id}` in same window
+   - Pre-fills: Plant ID field in Photo Prep Tool
+
+2. **Photo Prep Tool Enhancements**
+   - If plant_id query parameter present, pre-fill plant ID field
+   - After successful photo processing, show two additional buttons:
+     * "📝 Add Journal Entry" (primary action)
+     * "📊 Update Plant Main Data" (secondary action)
+   - Both buttons appear below "Process Another Plant" buttons
+
+3. **Add Journal Entry Form**
+   - Triggered by: "📝 Add Journal Entry" button on Photo Prep success page
+   - Modal or inline expansion showing:
+     * Large textarea for JSON input (from ChatGPT)
+     * "Validate JSON" button (checks structure before saving)
+     * "Save Entry" button (prepends to journal array)
+     * "Cancel" button
+   - Validation requirements:
+     * Must be valid JSON
+     * Must contain required fields: date, time, conditions
+     * Should contain at least one of: digital_probe, observations, photos
+   - Success behavior:
+     * Parse JSON
+     * Load plant file
+     * Prepend entry to journal array (newest first)
+     * Save plant file
+     * Show success message with link to view journal
+     * Option to process another plant
+
+4. **Update Plant Main Data Form**
+   - Triggered by: "📊 Update Plant Main Data" button
+   - Modal or inline expansion showing fields:
+     * current_stage (text input)
+     * current_state (textarea)
+     * Timeline updates (dynamic list of stage/date-range pairs)
+   - Pre-fills with current values from plant JSON
+   - Save behavior:
+     * Updates plant metadata only (not journal)
+     * Saves to plant JSON file
+     * Shows success message
+     * Returns to Photo Prep or Dashboard
+
+5. **Complete Workflow Example**
+   - User clicks "➕ Add New Journal Entry" on Zucchini tile
+   - Opens Photo Prep with plant_id=zucchini_002
+   - User uploads photos, fills message, processes
+   - Photos compressed, renamed, saved to Google Drive
+   - ChatGPT message generated with filenames
+   - User copies message, goes to ChatGPT, uploads photos
+   - ChatGPT analyzes, generates JSON journal entry
+   - User returns, clicks "📝 Add Journal Entry"
+   - Pastes JSON, validates, saves
+   - Entry prepended to zucchini_002.json
+   - Optional: Update plant stage/state if needed
+   - User views journal to confirm entry appears
+
+**Technical Notes:**
+- Use Flask flash messages for success/error feedback
+- Validate JSON server-side (not just client-side)
+- Backup plant file before saving (or use atomic writes)
+- Consider adding "Preview Entry" before final save
+- Log all data modifications for debugging
+
+---
 
 ### Phase 5: Photo Management System (IN PROGRESS - 5A, 5B & 5C COMPLETE)
 - [x] **Photo Prep Tool (Version 1 - COMPLETE)**
@@ -183,12 +282,14 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - [x] Move to correct subfolder
   - [x] Update JSON with actual filename
   - [x] Refresh display to show photo immediately
-- [ ] **Photo Lightbox Modal (Version 2)**
-  - [ ] Create lightbox modal component
-  - [ ] Make thumbnails clickable
-  - [ ] Display full-size image
-  - [ ] Navigation controls (keyboard, arrows)
-  - [ ] Show caption below image
+- [x] **Photo Lightbox Modal (Version 2 - COMPLETE)**
+  - [x] Create lightbox modal component
+  - [x] Make photos clickable (single click)
+  - [x] Display full-size image with proper aspect ratio
+  - [x] Caption as footer attached to image (matches journal caption style)
+  - [x] Close with ESC or backdrop click
+  - [x] EXIF orientation preserved
+  - [x] Works for both portrait and landscape photos
 
 **See `docs/photo_requirements.md` for complete specifications.**
 

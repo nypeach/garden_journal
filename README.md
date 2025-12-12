@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden Dashboard
-_Last Updated: December 11, 2025 8:55 PM_
+_Last Updated: December 11, 2025 9:30 PM_
 ===============================================
 
 A simple, self-hosted Flask web application for managing your personal garden. Track your plants, products, and garden data through an intuitive dashboard interface with dynamic categorization and detailed plant histories.
@@ -25,7 +25,7 @@ Built with simplicity in mind, the dashboard uses file-based JSON storage (no da
 
 ## Features
 
-### ✅ Completed (Phase 1, 2, 3 & 5A/B/C)
+### ✅ Completed (Phase 1, 2, 3 & 5 - Complete!)
 - **Dynamic plant dashboard** with real-time data from JSON files
 - **Category-based organization** with custom emoji navigation
 - **Plant journal modal** - Click any plant to view complete journal history
@@ -38,6 +38,7 @@ Built with simplicity in mind, the dashboard uses file-based JSON storage (no da
 - **Google Drive integration** - Photos served from organized subfolders
 - **ChatGPT workflow** - Automated filename generation for accurate journal entries
 - **Placeholder photo upload** - Click or drag to backfill photos in past entries
+- **Photo lightbox** - Single-click to view full-size with caption footer
 - **Auto-JSON updates** - Placeholder uploads automatically update plant files
 - **Photo display in journals** - Compressed images with captions
 - **Responsive modal overlay** - ESC key and backdrop click to close
@@ -47,8 +48,10 @@ Built with simplicity in mind, the dashboard uses file-based JSON storage (no da
 - **Fast and lightweight** - no database overhead
 - **Self-hosted** - complete control over your data
 
-### 🚧 In Development (Phase 5D)
-- **Photo Lightbox Modal** - Click thumbnails to view full-size images with navigation
+### 🚧 In Development (Phase 4)
+- **New Journal Entry Workflow** - Add journal entries directly from dashboard through Photo Prep
+- **JSON Input Form** - Paste ChatGPT journal JSON and save to plant files
+- **Update Plant Data** - Edit plant metadata (stage, state, timeline)
 
 ## Project Structure
 
@@ -182,7 +185,7 @@ Add new plant JSON files to the `data/plants/` directory following the schema in
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
-### Phase 5: Photo Management System (IN PROGRESS)
+### ✅ Phase 5: Photo Management System (COMPLETE)
 - [x] **Photo Prep Tool** - Web form for batch photo processing
   - [x] Upload multiple photos (drag & drop or click)
   - [x] Automated renaming with plant_id-date-number pattern
@@ -199,16 +202,17 @@ Add new plant JSON files to the `data/plants/` directory following the schema in
   - [x] Photos organized in plant-specific subfolders
   - [x] Sync across devices
   - [x] Update journal template to use photo route
-- [x] **Placeholder Photo Upload (Version 2)**
+- [x] **Placeholder Photo Upload**
   - [x] Click or drag & drop to upload photo
   - [x] Automatic naming and organization
   - [x] JSON auto-update with filename
   - [x] EXIF orientation correction
   - [x] Immediate display update
-- [ ] **Photo Lightbox Modal (Version 2)**
-  - [ ] Click thumbnails to view full-size
-  - [ ] Navigation controls
-  - [ ] Keyboard support (ESC, arrows)
+- [x] **Photo Lightbox Modal**
+  - [x] Single-click to view full-size
+  - [x] Caption footer attached to image (matches journal style)
+  - [x] Proper aspect ratio for portrait and landscape
+  - [x] Close with ESC or backdrop click
 
 ## Contributing
 
