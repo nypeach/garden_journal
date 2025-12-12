@@ -30,6 +30,38 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "9:00 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "7.40",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "63.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The oregano section remains very wet, with the soil appearing dark, heavy, and saturated from recent rains. There is no visible crusting or algae, but no oregano sprouts are present anywhere in the zone. The persistently high moisture and lack of emergence strongly suggest that the original sowing has suffered a germination setback after burial and prolonged oversaturation, even though fertility and salts remain within a safe range for herbs.",
+      "actions": "Do not water today. Allow the planter to continue drying naturally under the mostly sunny, breezy conditions. Avoid disturbing the soil surface further so any remaining viable seeds or hidden seedlings have the best chance to recover as oxygen returns to the upper layer.",
+      "next_steps": "Recheck moisture and the soil surface tomorrow morning. If moisture begins to fall toward the 55–65 range and still no new green growth appears, plan to reseed the oregano section once the top layer is moist but not saturated. Continue to monitor for any late-emerging seedlings before reseeding to avoid overcrowding.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Oregano section on 12/10 with dark, saturated soil and no visible sprouts following repeated rain events.",
+          "tags": "oregano, soil, saturated, 12-10"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:14 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

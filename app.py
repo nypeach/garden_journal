@@ -157,8 +157,16 @@ def photo_prep():
     Handles photo upload, compression, renaming, and organization
     """
     if request.method == 'GET':
+        # Get list of available plants for reference
+        all_plants = data_manager.get_all_plants()
+        available_plant_ids = sorted([p.get('id') for p in all_plants if p.get('id')])
+
         # Show the form
-        return render_template('photo_prep.html', current_date=datetime.now().strftime('%Y-%m-%d'))
+        return render_template(
+            'photo_prep.html',
+            current_date=datetime.now().strftime('%Y-%m-%d'),
+            available_plants=available_plant_ids
+        )
 
     # POST - Process photos
     try:
@@ -167,6 +175,7 @@ def photo_prep():
         date_str = request.form.get('date', '')
         starting_number = request.form.get('starting_number', '').strip()
         context = request.form.get('context', 'Initial')
+        channel_type = request.form.get('channel_type', 'existing')  # 'existing' or 'new'
         global_message = request.form.get('global_message', '').strip()
         plant_message = request.form.get('plant_message', '').strip()
         files = request.files.getlist('photos')
@@ -174,6 +183,12 @@ def photo_prep():
         # Validation
         if not plant_id:
             flash('Plant ID is required', 'error')
+            return redirect(url_for('photo_prep'))
+
+        # Verify plant exists
+        plant = data_manager.get_plant(plant_id)
+        if not plant:
+            flash(f'Plant not found: {plant_id}. Please check the Plant ID and try again.', 'error')
             return redirect(url_for('photo_prep'))
 
         if not files or files[0].filename == '':
@@ -275,9 +290,10 @@ def photo_prep():
             output_lines.append('\n\n'.join(combined_message))
             output_lines.append('')  # Blank line
 
-        # Add instruction block
-        output_lines.append('Also, instead of the "<<put filename here>>" literal, please use these photo names instead. I\'ve numbered them according to how I uploaded them. Never save probe reading photos.')
-        output_lines.append('')  # Blank line
+        # Add instruction block ONLY for existing channels
+        if channel_type == 'existing':
+            output_lines.append('Also, instead of the "<<put filename here>>" literal, please use these photo names instead. I\'ve numbered them according to how I uploaded them. Never save probe reading photos.')
+            output_lines.append('')  # Blank line
 
         output_lines.append('Here are the photo names:')
         for idx, filename in enumerate(processed_files, 1):

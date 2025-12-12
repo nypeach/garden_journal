@@ -42,6 +42,100 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:39 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "8.70",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears vigorous and well-balanced with broad, healthy green leaves and a stable, exposed crown. One berry is actively ripening with good color development while a second pale berry is enlarging normally. Flowers and spent petals at the crown are consistent with an active flowering and fruiting cycle. Mulch remains correctly positioned beneath fruit, and no new leaf-spot activity is visible on current foliage.",
+      "actions": "Take no action today. Do not water or fertilize as soil moisture and plant condition are ideal. Maintain current placement and mulch configuration.",
+      "next_steps": "Continue monitoring berry color and firmness over the next several days as ripening progresses. Recheck moisture tomorrow or the following morning and water only if readings drop well below mid-range. Observe foliage for any signs of cold stress if overnight temperatures approach the mid-40s.",
+      "q_and_a_summary": "Discussed whether an overnight low of 53°F posed a risk to the strawberry. Confirmed this temperature is well within tolerance and beneficial for fruit quality, with no protective action needed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251211-02.jpeg",
+          "caption": "Overhead view showing evenly green foliage, healthy crown exposure, and correct mulch placement beneath developing fruit.",
+          "tags": "strawberry, overhead, foliage, crown, mulch"
+        },
+        {
+          "file_name": "strawberry_001-20251211-03.jpeg",
+          "caption": "Side view highlighting one ripening red berry and a second pale berry developing normally above the mulch layer.",
+          "tags": "strawberry, berries, ripening, side-view"
+        },
+        {
+          "file_name": "strawberry_001-20251211-04.jpeg",
+          "caption": "Front angle showing active flowering at the crown with spent petals and healthy leaf structure.",
+          "tags": "strawberry, flowering, crown, foliage"
+        },
+        {
+          "file_name": "strawberry_001-20251211-05.jpeg",
+          "caption": "Alternate side view capturing overall plant posture, fruit position, and clean separation between mulch and crown.",
+          "tags": "strawberry, plant-posture, fruit, mulch"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:14 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "7.90",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "103",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "62.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows vigorous, well-hydrated foliage with no signs of active leaf-spot progression. Mulch is correctly positioned away from the crown and supporting the young fruits, which are ripening normally. Flowers are opening cleanly, and new growth remains healthy and firm.",
+      "actions": "Do not water as moisture is ideal. Leave mulch placement unchanged. Avoid fertilizing today to prevent further pH rise. Monitor older leaves for any spreading spots.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if it drops toward 20–25 mS/cm. Watch pH over the next several days; plan gentle acidification only if readings stay above 7.8. Expect berries to deepen in color over the next 48–72 hours.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning view showing foliage and dew with mulch supporting developing berries.",
+          "tags": "strawberry, foliage, fruit, morning"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting ripening berries resting cleanly on mulch.",
+          "tags": "strawberry, fruit, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wider pot view showing overall plant posture and healthy leaf spread.",
+          "tags": "strawberry, pot, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead photo showing hydrated foliage and even canopy.",
+          "tags": "strawberry, overhead, foliage"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:26 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
@@ -70,28 +164,48 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Top-down view showing open blossom, healthy canopy, and newly added mulch ring.",
-          "tags": "strawberry, canopy, mulch"
+          "caption": "Overhead view showing the plant after soil fluffing and added mulch around the base.",
+          "tags": "strawberry, mulch, overhead"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Overhead shot highlighting multiple new berries resting safely on mulch.",
-          "tags": "strawberry, developing-berries, mulch"
+          "caption": "Side view with red flower and mulch ring visible around the stem area.",
+          "tags": "strawberry, flower, mulch"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Side view showing plant posture and proper mulch placement away from the crown.",
-          "tags": "strawberry, crown, side-view"
+          "caption": "Full-pot shot highlighting berries hanging over the rim and resting on the mulch layer.",
+          "tags": "strawberry, fruit, pot"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Underside view of crown area confirming clear airflow and healthy new growth.",
-          "tags": "strawberry, crown, close-up"
+          "caption": "Overhead angle showing even distribution of foliage and the labeled Strawberry Left tag.",
+          "tags": "strawberry, foliage, label"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Close-up showing leaf spot remaining stable on older foliage with no spread to new leaves.",
-          "tags": "strawberry, leaf-spot, foliage"
+          "caption": "Close view of two pale berries resting on mulch as they begin to ripen.",
+          "tags": "strawberry, berries, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle focusing on the berries and the height of the mulch layer in the pot.",
+          "tags": "strawberry, fruit, side view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Low angle shot at crown level showing stems emerging cleanly above the soil and mulch.",
+          "tags": "strawberry, crown, stems"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Alternate low angle highlighting crown structure and clearance between mulch and crown.",
+          "tags": "strawberry, crown, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of the pot in the yard showing placement relative to the fence and surrounding groundcover.",
+          "tags": "strawberry, pot, environment"
         }
       ]
     },

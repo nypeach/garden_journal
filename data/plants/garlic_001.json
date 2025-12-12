@@ -42,6 +42,90 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:54 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.44",
+        "salt_mg_L": "222",
+        "moisture_mScm": "80.00",
+        "light": "96",
+        "rh_percent": "50",
+        "fertility_percent": "26.0",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Garlic plants remain upright with actively elongating center leaves and healthy green coloration. Older leaves continue to show stable tip browning from earlier stress, with no progression or signs of disease. Soil is very moist and cohesive following recent rain and amendment, explaining the elevated moisture, EC, and salt readings. Overall plant condition remains strong with no visual indicators of rot, wilt, or decline.",
+      "actions": "Do not water or fertilize. Allow the soil to dry naturally and avoid disturbing the amended surface.",
+      "next_steps": "Monitor moisture over the next 24–48 hours as it dries back toward the mid-range. Resume watering only once moisture approaches 40–45 mS/cm. Continue watching center-leaf posture and elongation for signs of steady growth.",
+      "q_and_a_summary": "Discussed whether current temperatures pose a risk; confirmed that short-term daytime warmth with cool nights is safe for garlic and not a cause for concern.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251211-02.jpeg",
+          "caption": "Overhead view showing upright garlic shoots and evenly moist soil following recent rainfall.",
+          "tags": "garlic, siberian-hardneck, overhead, soil-moisture"
+        },
+        {
+          "file_name": "garlic_001-20251211-03.jpeg",
+          "caption": "Side view highlighting healthy center-leaf growth and stable older leaf tip browning.",
+          "tags": "garlic, siberian-hardneck, foliage, leaf-tips"
+        },
+        {
+          "file_name": "garlic_001-20251211-04.jpeg",
+          "caption": "Planter edge view showing cohesive, wet soil and intact garlic bases with no signs of rot.",
+          "tags": "garlic, siberian-hardneck, soil-condition, plant-base"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:45 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "56.00",
+        "light": "83",
+        "rh_percent": "64",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "63.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Garlic shoots remain upright and vigorous with bright green new leaves emerging cleanly from each clove. Older, previously damaged leaves show stable tip browning and tearing consistent with earlier mechanical stress, but no signs of disease or nutrient imbalance. Soil structure appears noticeably improved from yesterday’s amendment, showing better aeration and consistent moisture retention. Overall plant condition is strong with continued top growth and healthy color.",
+      "actions": "Do not water today as moisture is ideal and weather conditions are mild. Leave all foliage intact and allow the amended soil to continue settling without further disturbance.",
+      "next_steps": "Recheck moisture tomorrow morning as the soil gradually dries. Resume watering once levels fall toward 40 mS/cm. Continue monitoring for increasing leaf height and base thickening over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning probe reading showing ideal pH and moderate moisture following improved soil aeration.",
+          "tags": "garlic, siberian-hardneck, probe, soil-data"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Planter view with upright garlic foliage and amended soil displaying improved structure.",
+          "tags": "garlic, siberian-hardneck, foliage, soil-condition"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle showing stable older leaf damage and healthy emerging center growth.",
+          "tags": "garlic, siberian-hardneck, leaf-tip, early-growth"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:47 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

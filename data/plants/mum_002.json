@@ -11,7 +11,7 @@
     "Hard Pruned to 8\""
   ],
   "whats_been_logged": "The focus has been on reviving a severely stressed, discarded chrysanthemum through hard pruning, correcting extreme soil alkalinity, breaking up a dense surface root mat, and monitoring early shoot emergence as the plant begins recovery.",
-  "current_stage": "Early Shoot Recovery",
+  "current_stage": "Early shoot recovery",
   "current_state": "The plant is in early recovery after a hard prune, with multiple new shoots emerging along the stems and healthy green foliage beginning to return. The stems are firm with no signs of rot, and the surface soil shows a dense mat of fine roots typical of a root-bound chrysanthemum.",
   "timeline": [
     {
@@ -28,6 +28,90 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/11/2025",
+      "time": "4:46 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 78°F.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "10",
+        "moisture_percent": "0",
+        "light_percent": "99",
+        "rh_percent": "48",
+        "fertility_percent": "1",
+        "soil_temp_f": "73.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues strong post-rescue recovery with firm, upright stems and ongoing leaf expansion across the canopy. Multiple bud clusters are clearly forming at stem nodes. No wilting, collapse, or discoloration is present. The soil surface appears slightly dry but structurally healthy; the 0% moisture reading is attributed to probe contact with an air pocket following recent soil loosening rather than true root-zone dryness. Soil pH remains stable and ideal.",
+      "actions": "Watered gently to re-seat loosened soil around the root zone and improve probe contact, stopping once light drainage began. No lime applied. No fertilizer applied today.",
+      "next_steps": "Allow soil to settle overnight after watering. Plan to fertilize within the next 24 hours now that pH is stable and active bud formation is underway. Recheck probe readings tomorrow morning after watering has equilibrated.",
+      "q_and_a_summary": "Confirmed that current temperatures are not a concern; cool nights in the low 50s are beneficial for chrysanthemums and support healthy growth and future bud development.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251211-02.jpeg",
+          "caption": "Top-down view showing expanded foliage, active crown growth, and improved soil structure.",
+          "tags": "chrysanthemum, regrowth, canopy"
+        },
+        {
+          "file_name": "mum_002-20251211-03.jpeg",
+          "caption": "Side view highlighting firm stems and multiple forming bud clusters at the nodes.",
+          "tags": "chrysanthemum, buds, stems"
+        },
+        {
+          "file_name": "mum_002-20251211-04.jpeg",
+          "caption": "Angled view showing evenly distributed new growth following earlier hard pruning.",
+          "tags": "chrysanthemum, pruning, recovery"
+        },
+        {
+          "file_name": "mum_002-20251211-05.jpeg",
+          "caption": "Close view of lower growth and soil surface after gentle watering to re-seat loosened media.",
+          "tags": "chrysanthemum, soil, roots"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:07 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "37",
+        "moisture_mScm": "36.00",
+        "light": "97",
+        "rh_percent": "66",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "64.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows noticeable fresh leaf expansion compared to the previous day, with firm stems and healthy green new growth emerging along the pruned framework. Bud clusters are present and beginning to swell. Soil texture is markedly improved following earlier loosening and the addition of fresh potting mix, with even hydration and good aeration. The soil pH now falls within an ideal chrysanthemum range, and moisture has settled into a healthy morning dry-down.",
+      "actions": "Do not water today. Do not apply any lime, as the current pH is ideal. Begin preparing to fertilize in 1–2 days using 2 teaspoons Purived 4-5-5 mixed into 2 cups of water, to be applied once moisture conditions are appropriate.",
+      "next_steps": "Recheck moisture levels tomorrow morning. If moisture remains above 25 mS/cm, plan to fertilize tomorrow. Monitor for accelerated leaf expansion over the next several days as the plant moves through active vegetative refill.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of the chrysanthemum showing expanding foliage and improved soil texture following earlier soil loosening.",
+          "tags": "chrysanthemum, foliage, regrowth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side-angle view highlighting swelling bud clusters and firm green stems after the hard prune.",
+          "tags": "chrysanthemum, buds, stems"
+        }
+      ]
+    },
     {
       "date": "12/9/2025",
       "time": "9:39 AM",
@@ -47,30 +131,25 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The soil surface shows a dense mat of fine roots typical of a root-bound chrysanthemum, and loosening the top layer has greatly improved aeration. Several spent slow-release fertilizer prills are visible within the soil, consistent with the original nursery media. The plant exhibits fresh, bright green new growth along stems and at the crown, with stems remaining firm and upright following the prior hard prune. Moisture is ideal, and pH has begun to rise slightly following the lime application.",
-      "actions": "Do not apply additional lime today, as yesterday’s application is still dissolving through the soil. Hold off on fertilizing until pH improves further. Lightly stabilize the loosened topsoil by gently firming the top half inch without compressing it.",
+      "observations": "The soil surface shows a dense mat of fine roots typical of a root-bound chrysanthemum, and loosening the top layer has greatly improved aeration. Several slow-release fertilizer prills are visible within the soil, consistent with the original nursery media. The plant exhibits fresh, bright green new growth along stems and at the crown, with stems remaining firm and upright following the prior hard prune. Moisture is ideal, and pH has begun to rise slightly following soil loosening and the addition of fresh potting mix, even without any lime applied.",
+      "actions": "Do not apply lime today, as the pH is already moving upward after soil loosening and the addition of fresh potting mix. Hold off on fertilizing until pH improves further. Lightly stabilize the loosened topsoil by gently firming the top half inch without compressing it.",
       "next_steps": "Recheck probe readings tomorrow morning. Expect pH to continue increasing gradually over the next several days. Plan for a light fertilizer application in 5–7 days once pH approaches the mid-5 range. Monitor for continued leaf expansion and fresh shoot growth.",
-      "q_and_a_summary": "Confirmed that the metallic green balls in the soil are slow-release fertilizer prills. Explained the dense root mat as typical of heavily root-bound nursery chrysanthemums and affirmed that loosening the soil was beneficial.",
+      "q_and_a_summary": "Confirmed that the metallic green balls in the soil are slow-release fertilizer prills. Explained the dense root mat as typical of heavily root-bound nursery chrysanthemums and affirmed that loosening the soil and adding potting mix were beneficial.",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Close-up of the soil showing loosened structure, perlite, and visible slow-release fertilizer prills.",
+          "caption": "Close-up of the soil showing loosened structure, fine roots, perlite, and visible slow-release fertilizer prills.",
           "tags": "chrysanthemum, soil, fertilizer, roots"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe reading screenshot taken at 9:39 AM showing improved pH and stable moisture.",
-          "tags": "probe, readings, soil"
+          "caption": "Top view of the pruned plant showing emerging leaf clusters and improved soil aeration.",
+          "tags": "chrysanthemum, pruning, regrowth"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Top view of the plant showing new leaf clusters emerging after the hard prune.",
-          "tags": "chrysanthemum, regrowth, pruning"
-        },
-        {
-          "file_name": "<<put filename here>>",
-          "caption": "Side view showing healthy green shoots developing along the stems.",
+          "caption": "Side view showing healthy green shoots developing along the stems after soil loosening.",
           "tags": "chrysanthemum, shoots, regrowth"
         }
       ]
@@ -94,30 +173,25 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant shows clear signs of having passed its bloom cycle, with spent flowers and browned petals common for chrysanthemums at this stage. After pruning, the plant structure appears clean with firm stems and emerging new leaf buds. The soil surface is densely matted with old feeder roots typical of a root-bound nursery mum. Probe reading indicates strongly acidic soil, which could impede nutrient uptake despite the plant showing early signs of rebound.",
-      "actions": "Apply 1 tablespoon of dolomite lime evenly across the soil surface to begin correcting severe acidity. Do not water, allowing the expected rain to naturally pull the amendment into the soil. Hold off on applying fertilizer until pH begins to improve.",
-      "next_steps": "Recheck probe readings in 24–48 hours after rainfall. Begin light fertilization in 5–7 days once pH has risen. Monitor for fresh green growth at leaf tips as a sign of recovery, and avoid watering unless moisture drops below 25 mS/cm.",
+      "observations": "The plant shows clear signs of having passed its bloom cycle, with spent flowers and browned petals common for chrysanthemums at this stage. After pruning, the plant structure appears clean with firm stems and emerging new leaf buds. The soil surface is densely matted with old feeder roots typical of a root-bound nursery mum, making probe insertion difficult. Probe readings indicate strongly acidic soil that could impede nutrient uptake despite early signs of rebound.",
+      "actions": "Apply 1 tablespoon of dolomite lime evenly across the soil surface to begin correcting severe acidity if lime is available. Avoid watering immediately afterward in favor of allowing rainfall or a later light watering to draw the amendment into the soil. Hold off on applying fertilizer until pH begins to improve.",
+      "next_steps": "Recheck probe readings in 24–48 hours after natural rainfall or a light watering. Begin light fertilization in 5–7 days once pH has risen toward the chrysanthemum-preferred range. Monitor for fresh green growth at leaf tips as a sign of recovery, and avoid watering unless moisture drops below 25 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Original plant condition showing spent blooms and heavily declined flower heads.",
+          "caption": "Original plant condition showing dense masses of spent yellow blooms and heavily declined flower heads before pruning.",
           "tags": "chrysanthemum, flowers, decline"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe reading screenshot recorded at 12:44 PM showing acidic soil and moderate moisture.",
-          "tags": "probe, readings, soil"
+          "caption": "Top-down view of the plant after a hard prune, showing multiple cut stems and emerging new buds.",
+          "tags": "chrysanthemum, pruning, crown"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Top-down view of the pruned plant showing new leaf buds and improved structure.",
-          "tags": "chrysanthemum, pruning, regrowth"
-        },
-        {
-          "file_name": "<<put filename here>>",
-          "caption": "Side view of the pruned chrysanthemum displaying healthy stem framework and emerging foliage.",
+          "caption": "Side view of the pruned chrysanthemum displaying the remaining stem framework and early green regrowth.",
           "tags": "chrysanthemum, stems, regrowth"
         }
       ]

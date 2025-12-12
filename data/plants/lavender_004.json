@@ -38,6 +38,85 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:43 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "55",
+        "moisture_mScm": "26.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "70.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling remains upright and stable with evenly colored true leaves and no signs of stress. Leaf posture is open and flat, indicating adequate hydration without saturation. The soil surface shows continued dry-down since the previous day, especially toward the outer edges, with good aeration and no compaction. Overall appearance reflects healthy early seedling establishment.",
+      "actions": "Do not water tonight, as current moisture is sufficient through morning. Keep the pot under cover overnight to limit radiational cooling and prevent dew accumulation. Resume full morning sun exposure tomorrow to support continued drying and steady growth.",
+      "next_steps": "Check moisture tomorrow morning and apply a light watering only if readings fall below 20 mS/cm. Continue monitoring overnight lows, noting that temperatures above 50°F remain safe for lavender seedlings. Watch for continued leaf expansion as the plant progresses through early seedling development.",
+      "q_and_a_summary": "Discussed whether the overnight low of 53°F posed a risk; confirmed it is safe for lavender seedlings when soil is not saturated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "lavender_004-20251211-02.jpeg",
+          "caption": "Overhead view showing healthy lavender seedling with evenly colored true leaves and drying soil surface.",
+          "tags": "lavender, seedling, overhead, soil-surface"
+        },
+        {
+          "file_name": "lavender_004-20251211-03.jpeg",
+          "caption": "Side view of the lavender pot illustrating upright growth and good soil structure after dry-down.",
+          "tags": "lavender, seedling, container, side-view"
+        },
+        {
+          "file_name": "lavender_004-20251211-04.jpeg",
+          "caption": "Angled close-up highlighting stable leaf posture and absence of stress or damping-off.",
+          "tags": "lavender, seedling, leaves, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:29 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "149",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "62.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling appears strong and upright with expanding true leaves showing healthy green coloration. No signs of damping-off or stress are visible. The soil surface is darker and wetter than yesterday, reflecting the very high moisture reading. Cooler overnight temperatures have slowed evaporation, and the potting mix is holding more water than ideal for young lavender.",
+      "actions": "Avoid watering today, as moisture is far above the seedling's safe range. Move the pot into bright indirect light for several hours to encourage gentle surface drying. Loosen only the outer ring of the upper quarter inch of soil to promote aeration while keeping the area near the seedling undisturbed. Keep the pot under cover tonight to prevent additional cooling of already-wet soil.",
+      "next_steps": "Recheck moisture tomorrow morning aiming for a gradual return to 35–50 mS/cm. Continue providing morning sun and afternoon protection as the seedling strengthens. Delay fertilizer until further leaf expansion occurs. If moisture remains elevated, consider small adjustments to improve surface drying.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Lavender seedling with widening true leaves and a noticeably wet soil surface after a cool night.",
+          "tags": "lavender, seedling, soil-surface, container"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the lavender pot showing saturated upper soil and upright early leaf development.",
+          "tags": "lavender, seedling, moist-soil, container"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:39 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

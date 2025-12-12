@@ -50,6 +50,48 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "8:59 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "136",
+        "moisture_mScm": "70",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "15",
+        "soil_temp_f": "63.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings show their strongest growth to date, with vibrant color and clearly expanding true leaves. The main cluster is thickening and stems are upright and sturdy. Satellite seedlings remain healthy and are gradually increasing in size. Soil is evenly hydrated from recent moisture, and no signs of wilting, spotting, or pest impact are present.",
+      "actions": "Do not water today; moisture is excellent. Avoid disturbing the soil surface. No fertilizer or amendments are needed at this stage. Optionally remove any very large bark pieces shading small seedlings.",
+      "next_steps": "Recheck moisture tomorrow midday as the surface begins drying. Monitor for continued mat thickening and the next tier of true leaves as the seedlings transition toward early mat development.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning thyme photo on 12/10 showing vigorous growth and expanding true leaves.",
+          "tags": "thyme, seedlings, true-leaves, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wider view of the thyme zone on 12/10 showing healthy density and balanced hydration.",
+          "tags": "thyme, seedlings, moisture, herb-box"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of individual thyme seedlings showing bright color and strong leaf formation.",
+          "tags": "thyme, seedlings, close-up, herb-box"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:13 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

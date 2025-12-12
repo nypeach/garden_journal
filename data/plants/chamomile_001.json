@@ -42,6 +42,50 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "8:50 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.42",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "184",
+        "moisture_mScm": "78.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "21.7",
+        "soil_temp_f": "63.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile seedlings appear bright, upright, and vigorous with lush feathery foliage. Despite healthy plant appearance, soil readings show pronounced moisture imbalance, with the left and right planting bands fully saturated and the central zone moderately moist. Salt and EC levels are elevated only in the oversaturated areas, consistent with pooling in the deeper layers of the original topsoil/sand mix. The recently added potting mix has improved the upper texture but deeper layers remain uneven in drainage. No signs of stress, wilt, or damping-off were seen in any seedling clusters.",
+      "actions": "Do not water today. Aerate the saturated edges by loosening only the top half-inch of soil between chamomile clusters to restore airflow and help trapped moisture release. Avoid disturbing the center zone and refrain from adding fertilizer or lime. Allow the soil layers to continue rebalancing naturally.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm that aeration reduced the saturated zones. If the center zone remains above 25 mS/cm, do not water; if it drops further, apply a minimal targeted drizzle only as needed. Continue monitoring plant posture for any signs of oxygen stress and expect improved moisture distribution as the potting mix integrates deeper.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[12:54 PM] Lightly aerated the saturated left and right planting bands, loosening the upper soil surface to release trapped moisture and improve root-zone oxygen flow."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chamomile clusters along the left edge showing vigorous growth despite soil saturation beneath.",
+          "tags": "chamomile, seedlings, left-zone, saturated-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Center and right zones displaying uneven moisture distribution with healthy seedling growth.",
+          "tags": "chamomile, seedlings, center-zone, right-zone, moisture-imbalance"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of feathery chamomile foliage with bright green coloration following cool morning conditions.",
+          "tags": "chamomile, seedlings, foliage, healthy-growth"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:55 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

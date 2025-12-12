@@ -38,6 +38,70 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:55 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "93",
+        "moisture_mScm": "51.00",
+        "light": "96",
+        "rh_percent": "50",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows healthy, flexible vegetative growth with long green blades and no signs of stress. Leaf arching reflects normal expansion rather than wilting. Soil moisture is balanced and stable, and overall plant posture remains firm. A slight upward drift in pH is observed but shows no associated visual symptoms and is consistent with recent soil disturbance and amendment integration.",
+      "actions": "Do not water today. Do not adjust pH or add amendments. Leave foliage intact and allow the soil to continue settling naturally under current conditions.",
+      "next_steps": "Recheck moisture and pH in 1–2 days, ideally mid-morning. Expect moisture to drift toward the mid-40s as temperatures remain mild. Continue monitoring leaf firmness and growth pattern.",
+      "q_and_a_summary": "User asked whether current temperatures were concerning; confirmed that daytime highs in the 70s with overnight lows in the low 50s are ideal for winter garlic and not a cause for concern.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251211-02.jpeg",
+          "caption": "Chesnok Red garlic with long, flexible green blades showing normal vegetative expansion in late afternoon light.",
+          "tags": "garlic, chesnok_red, vegetative_growth, leaf_expansion"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:48 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "110",
+        "moisture_mScm": "58.00",
+        "light": "97",
+        "rh_percent": "64",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows strong upright growth with turgid, evenly green leaves and no signs of stress. Soil moisture is moderately high and stable after recent cool weather, and pH has returned to the normal range after yesterday’s temporary spike caused by contact with an amendment pocket. The soil appears well-aerated and evenly textured, reflecting the improvements from prior loosening and mixing. Overall, the plant is in excellent early winter condition.",
+      "actions": "Do not water today. Avoid fertilizer or soil amendments. Maintain current sunlight exposure and allow the soil to dry gradually under the mild temperatures.",
+      "next_steps": "Recheck moisture in 1–2 days as temperatures remain cool. Water only when readings fall below ~40 mS/cm and leaf firmness begins to soften. Continue monitoring foliage density and overall vigor as winter growth strengthens.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chesnok Red garlic with upright, healthy leaves under cool morning sunlight, showing even moisture levels and a well-aerated soil surface.",
+          "tags": "garlic, chesnok_red, vegetative_growth, morning_sun"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:52 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

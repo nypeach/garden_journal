@@ -30,6 +30,38 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "8:59 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "138",
+        "moisture_mScm": "59.00",
+        "light": "88",
+        "rh_percent": "64",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Parsley shows vigorous, upright early true leaf growth with excellent hydration following last night's rain. Leaf color is uniformly bright and healthy across the stand, and the canopy appears denser and more layered than the previous day. Soil surface is evenly moist without puddling, and no signs of pest damage or stress are visible.",
+      "actions": "No watering required. Do not fertilize or apply lime today as soil and pH conditions are ideal.",
+      "next_steps": "Recheck moisture tomorrow mid-morning as sunny conditions may promote steady dry-down. Continue monitoring canopy expansion and anticipate early massing stage development over the next few days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Parsley on 12/10 showing lush, hydrated foliage with uniform color and upright posture following recent rainfall.",
+          "tags": "parsley, true-leaves, seedlings, 12-10"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:10 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

@@ -54,6 +54,90 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:53 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "153",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "72.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedlings are upright and stable with expanding true leaves and no visible wilting. A few leaves show small chew marks that appear older, with no obvious fresh feeding patterns visible in today’s photos. Overall color is a lighter green but growth posture remains strong and consistent.",
+      "actions": "Do not water today. Continue to inspect leaves closely for any new chew marks. No additional pest treatment is needed unless fresh damage appears.",
+      "next_steps": "Check again tomorrow morning for any new chew marks or stem damage. Recheck moisture at the next morning window and only consider watering if moisture drops below 40.00.",
+      "q_and_a_summary": "Discussed whether tonight’s low temperature is concerning; confirmed 53°F is cool but not dangerous for jalapeño seedlings and may only slow growth slightly overnight.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251211-02.jpeg",
+          "caption": "Wide view of the jalapeño seedlings in the planter showing overall posture and soil surface condition.",
+          "tags": "jalapeno, seedlings, wide-view, planter"
+        },
+        {
+          "file_name": "pepper_003-20251211-03.jpeg",
+          "caption": "Closer view of the seedling cluster showing leaf color, structure, and minor chew marks on a few leaves.",
+          "tags": "jalapeno, seedlings, leaves, chew-marks"
+        },
+        {
+          "file_name": "pepper_003-20251211-04.jpeg",
+          "caption": "Overhead view showing canopy density and general leaf condition across the cluster.",
+          "tags": "jalapeno, seedlings, overhead, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:37 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "187",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "21.0",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear vibrant and healthy with bright green, upright foliage and expanding true leaves. Dew is present on the leaf surfaces and soil but shows no sign of splash or damage. Soil moisture is finally trending downward toward a healthier mid-range. A small chewing mark is visible on one older leaf, consistent with past minor pest activity, but no new damage is evident across the cluster.",
+      "actions": "Do not water today. No pest control is needed at this time. Monitor leaf surfaces again tomorrow for any new chewing marks.",
+      "next_steps": "Recheck the cluster tomorrow morning for any fresh chew marks or new signs of pest activity. Continue monitoring moisture as the soil dries naturally under sunny conditions.",
+      "q_and_a_summary": "Discussed monitoring an old chewing mark and confirmed that we will check for any new damage tomorrow.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning view of Jalapeño seedlings with dew-covered leaves showing bright color and upright growth.",
+          "tags": "jalapeno, seedlings, dew, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the seedling cluster showing healthy posture and true leaf expansion.",
+          "tags": "jalapeno, seedlings, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of the Jalapeño seedlings with consistent color and no new visible pest damage.",
+          "tags": "jalapeno, seedlings, top-view"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:45 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

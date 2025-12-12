@@ -38,6 +38,90 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:54 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight. Clear overnight; tomorrow Sunny with a high of 78°F.",
+      "digital_probe": {
+        "ph_range": "6.2–6.6 (one localized 7.2 reading)",
+        "ec_mScm_range": "0.18–0.44",
+        "salt_mg_L_range": "93–222",
+        "moisture_percent_range": "51–80",
+        "light_percent_range": "96–99",
+        "rh_percent": "50",
+        "fertility_percent_range": "9–26",
+        "soil_temp_f": "72–73"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Clear post-harvest regrowth is now visible across multiple scallion bases, with fresh green shoots emerging directly from the hollow centers of the cut stems. Several plants show rapid vertical elongation, including one taller leaf bending outward as it seeks light. Cut surfaces remain clean and hydrated with no signs of rot, collapse, or fungal activity. Soil structure appears stable following earlier fluffing, and probe readings are consistent with healthy moisture and nutrient availability.",
+      "actions": "No watering performed; moisture remains within ideal range. No fertilizer applied, as regrowth is still in early emergence phase. Soil left undisturbed.",
+      "next_steps": "Continue daily visual monitoring of new shoot emergence and elongation. Recheck probe readings in the morning. Plan for first light feeding only after new shoots reach approximately 3 inches in height.",
+      "q_and_a_summary": "User asked whether current temperatures posed a risk to regrowth. Answer: No—daytime highs in the low-to-upper 70s and nighttime lows in the low 50s are ideal for scallion post-harvest regrowth and will encourage strong root and leaf development.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251211-04.jpeg",
+          "caption": "Freshly cut scallion bases showing early regrowth emerging from the hollow centers one day after harvest.",
+          "tags": "scallions, post-harvest, regrowth"
+        },
+        {
+          "file_name": "scallions_001-20251211-05.jpeg",
+          "caption": "Multiple scallion clumps displaying new shoots and healthy hydration under full sun.",
+          "tags": "scallions, regrowth, cut-and-come-again"
+        },
+        {
+          "file_name": "scallions_001-20251211-06.jpeg",
+          "caption": "Tall regrowing scallion leaf bending outward during rapid elongation phase.",
+          "tags": "scallions, active-growth, regrowth"
+        },
+        {
+          "file_name": "scallions_001-20251211-07.jpeg",
+          "caption": "Close-up of scallion crown with clean cut surface and multiple new shoots forming.",
+          "tags": "scallions, crown-regrowth"
+        },
+        {
+          "file_name": "scallions_001-20251211-08.jpeg",
+          "caption": "Wide view of planter showing uniform post-harvest recovery across scallion clumps.",
+          "tags": "scallions, planter-overview, regrowth"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:45 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.3",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "56.0",
+        "light": "88",
+        "rh_percent": "64",
+        "fertility_percent": "10",
+        "soil_temp_f": "63.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion bases remain firm, hydrated, and healthy following the full cut-down harvest. The cut surfaces are clean with no signs of rot or fungal activity. Several bases already show the beginning of new shoot emergence from the centers of the hollow cut stems, which is exactly the expected regrowth pattern. Soil aeration appears significantly improved after fluffing yesterday, and probe readings are now consistent with ideal post-harvest conditions.",
+      "actions": "Do not water today; moisture levels are ideal. Avoid fertilizing until new shoots reach approximately 3 inches. Leave soil undisturbed to allow roots to stabilize after the recent fluffing and cut-down harvest.",
+      "next_steps": "Expect visible new growth emerging through the hollow centers of the cut stems over the next 24–48 hours. Recheck probe values tomorrow morning. Plan for first light feeding only once new shoots are 3 inches tall.",
+      "q_and_a_summary": "User asked whether new shoots would emerge through the holes left after the cut. Answer: Yes, scallions regrow from the internal crown tissue, and the new shoots will push upward through the hollow, cut openings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Freshly cut scallion bases showing healthy hydration and early signs of new shoot formation in ideal morning light.",
+          "tags": "scallions, regrowth, cut-harvest, new-shoots"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:47 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

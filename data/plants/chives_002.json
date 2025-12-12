@@ -39,6 +39,38 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "9:07 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.9",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "64",
+        "moisture_mScm": "56.00",
+        "light": "91",
+        "rh_percent": "66",
+        "fertility_percent": "6",
+        "soil_temp_f": "64.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings continue healthy early growth with an increase in visible blades and steady upright posture. The soil surface shows improved texture and even moisture distribution following recent amendments. No signs of damping-off, discoloration, or stress are present. The realistic pH reading confirms strong probe contact and balanced soil conditions.",
+      "actions": "No watering or amendments applied today as moisture is ideal. Lightly stabilize any leaning seedlings with a small pinch of loose potting mix if needed.",
+      "next_steps": "Recheck moisture tomorrow morning as the cooler, sunny forecast may create a moderate dry-down. Water only when moisture falls below 30 mS/cm. Continue monitoring for new sprouts as the improved soil structure supports increased germination.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings showing fuller early growth across an evenly moist, aerated soil surface.",
+          "tags": "chives, seedlings, growth"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:24 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

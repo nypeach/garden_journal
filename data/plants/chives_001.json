@@ -39,6 +39,38 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "9:04 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "43",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "5",
+        "soil_temp_f": "64.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive seedlings show visible improvement with several blades standing taller and straighter compared with previous days. The surface soil appears evenly moist, cohesive, and well-integrated with the recently added potting mix, indicating that the amendment has now settled. Seedlings are bright green with no signs of damping-off, tip burn, or moisture stress. The pH reading of 6.4 aligns well with ideal chive conditions, confirming that the temporary alkalinity observed yesterday has resolved as the soil layers equilibrated.",
+      "actions": "Do not water today as the moisture level is ideal at 43 mS/cm and cool weather will slow evaporation. Avoid disturbing the soil so it can continue stabilizing after amendment. Gently nudge aside any bark pieces that may be leaning on seedlings, but do not compress the surface.",
+      "next_steps": "Monitor seedling posture through the warmer afternoon and check moisture again tomorrow morning. Expect continued strengthening under tomorrow's sunny and mild weather. No amendments are needed unless future readings deviate from current stable conditions.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Chive seedlings standing more upright in a stabilized, evenly moist soil surface after recent amendment.",
+          "tags": "chives, seedlings, moist-soil, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:15 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

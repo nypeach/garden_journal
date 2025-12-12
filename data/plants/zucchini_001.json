@@ -1,111 +1,829 @@
 {
   "id": "zucchini_001",
-  "status": "Inactive",
-  "plant": "Zucchini (Left)",
+  "status": "Active",
+  "plant": "Zucchini (Right)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 16-18",
-  "container": "Raised Bed (Stake 2)",
+  "container": "Raised Bed (Stake 4)",
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
-    "Zucchini seeds purchased on Oct 8, 2025 and direct-sown in left mound.",
-    "Planted in brown raised bed 2' × 6' × 10\" at second stake.",
-    "Terminated Nov 19, 2025 to make room for Green Beans."
+    "Seed started in black window planter 23.5\" × 7.85\" × 6\".",
+    "Moved to brown raised bed 2' × 6' × 10\" at the fourth stake.",
+    "Experienced transplant stress."
   ],
-  "whats_been_logged": "This zucchini seedling germinated and produced early cotyledons and a true leaf but showed limited vigor, pest nicks, and slow development while sharing a tight planting space with newly emerging Green Beans at Stake 2. After evaluating growth competition, plant spacing, and overall garden productivity, the decision was made to terminate the zucchini and allow the beans full use of the stake and root zone.",
-  "current_stage": "Terminated",
-  "current_state": "The plant was removed at soil line to prevent competition with neighboring Green Beans. No further growth will occur.",
-  "timeline": [],
+  "whats_been_logged": "The focus has been on recovery from transplant stress while tracking moisture patterns, pH fluctuation from high to stabilized levels, and emergence of new center growth. Early logs documented pale outer leaves from shock and high-pH nutrient lockout, followed by gradual greening and the appearance of a male blossom. Soil adjustments with potting mix improved structure and stability.",
+  "current_stage": "Recovering Transplant",
+  "current_state": "The plant is in recovery but improving. New center growth is emerging, showing the plant has stabilized and is exiting transplant shock. Outer leaves remain pale with evidence of earlier stress, but the crown is actively producing new foliage.",
+  "timeline": [
+    {
+      "stage": "Fully recovered / greener",
+      "date_range": "Nov 20 - Nov 24, 2025"
+    },
+    {
+      "stage": "More true leaves",
+      "date_range": "Nov 25 - Dec 5, 2025"
+    },
+    {
+      "stage": "Rapid vegetative boom",
+      "date_range": "Dec 6 - Dec 25, 2025"
+    },
+    {
+      "stage": "First flower buds (female)",
+      "date_range": "Dec 26, 2025 - Jan 5, 2026"
+    },
+    {
+      "stage": "First blossoms (female bloom phase)",
+      "date_range": "Jan 6 - Jan 15, 2026"
+    },
+    {
+      "stage": "First harvest",
+      "date_range": "Feb 1 - Feb 28, 2026"
+    }
+  ],
   "journal": [
     {
-      "date": "11/19/2025",
-      "time": "9:52 AM",
-      "conditions": "Partly shaded morning transitioning to sun later with temperatures in the upper 60s°F and calm weather.",
+      "date": "12/10/2025",
+      "time": "7:37 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
       "digital_probe": {
-        "ph": "5.80",
-        "ec_mScm": "",
-        "salt_mg_L": "",
-        "moisture_mScm": "47.00",
-        "light": "",
-        "rh_percent": "",
-        "fertility_percent": "5.5",
-        "soil_temp_f": ""
+        "ph": "6.20",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "63",
+        "moisture_mScm": "38.00",
+        "light": "49",
+        "rh_percent": "66",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "65.8"
       },
       "analog_probe": {
         "fertility": "",
         "moisture": "",
         "ph": ""
       },
-      "observations": "Zucchini seedling was upright with minor pest marks, stable soil around its base, and steady but modest growth. True leaves were present but development lagged behind expectations. Probe placement was careful to avoid disturbing nearby bean roots which shared the planting area.",
-      "actions": "Remove Zucchini (Left) by cutting at the soil line to avoid disturbing Green Bean roots. Leave roots in place to decompose naturally.",
-      "next_steps": "No further actions for this plant since growth is terminated. Maintain soil stability for the Green Beans now occupying the space.",
-      "q_and_a_summary": "Discussed whether keeping this zucchini was worthwhile and whether cutting was safer than pulling. Confirmed removal was the correct choice and cutting would protect bean roots.",
+      "observations": "The plant shows stable posture with several developing buds and new growth forming at the crown. Leaf color remains pale but not worsening. Soil appears healthier and more organic after previous corrections. The stem is slightly exposed but structurally sound, and the plant would benefit from gentle soil mounding for stability. Moisture is moderate and pH remains ideal for nutrient uptake.",
+      "actions": "Add 1/2–1 inch of potting mix around the stem base without covering any leaf stems, then lightly water to settle the soil. Do not fertilize or prune today.",
+      "next_steps": "Monitor moisture tomorrow morning, especially after cooler overnight temperatures. Watch for gradual greening in new crown leaves. Maintain full sun exposure.",
+      "q_and_a_summary": "",
       "follow_up": [
-        "[3:30 PM] Removed Zucchini (Left) by cutting at the soil line so the Green Beans could fully occupy the stake and root zone with minimal root disturbance."
+        "[7:48 AM] Added a light mound of fresh potting mix around the base of the stem to improve stability and encourage new root growth. Leaf stems were kept fully exposed and the soil was shaped gently to avoid compacting it against the crown. Gave the plant a light rinse to remove soil from the leaves."
       ],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Zucchini (Left) seedling with probe placed safely away from stem for root-zone reading.",
-          "tags": "zucchini, probe-placement, seedling"
+          "caption": "Side view showing upright buds, pale but stable foliage, and exposed stem base before mounding.",
+          "tags": "zucchini, side-view, buds, stem-base"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Closer view of Zucchini (Left) foliage and soil structure prior to removal.",
-          "tags": "zucchini, foliage, soil"
+          "caption": "Overhead view highlighting crown growth and overall leaf condition before soil mounding.",
+          "tags": "zucchini, overhead, crown, pale-leaves"
+        }
+      ]
+    },
+    {
+      "date": "12/9/2025",
+      "time": "9:05 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.97",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "37",
+        "moisture_mScm": "34.00",
+        "light": "93",
+        "rh_percent": "61",
+        "fertility_percent": "3.5",
+        "soil_temp_f": "68.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two readings were taken today due to corrective soil work. The initial reading showed stable pH at 6.97 and moisture of 34 mS/cm, indicating a slightly dry but functional root zone. After carefully removing the compacted topsoil/sand layer without disturbing the root ball, a second reading showed pH at 7.43 and moisture dropping to 23 mS/cm. This shift reflects exposure of deeper, previously inaccessible dry soil layers rather than a decline in plant condition. The plant continues to produce new growth at the crown, with several intact developing buds. Overall leaf color remains pale but not worsening, and older damage from previous stress is unchanged. Soil texture now appears looser, better-aerated, and more capable of holding moisture evenly.",
+      "actions": "Provide 1–2 cups of slow, gentle watering to rehydrate the newly exposed lower soil layers. Do not add fertilizer or prune any leaves today. Keep the support stake in place to prevent root movement.",
+      "next_steps": "Recheck soil moisture after expected rainfall or within 24 hours if rain is light. Monitor new crown leaves for gradual greening as hydration stabilizes. Delay fertilization until consistent color improvement is seen across new growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing pale leaves, developing buds, and newly loosened soil after removal of compacted sand.",
+          "tags": "zucchini, overhead, soil-correction, buds"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting stable crown growth, intact buds, and improved soil texture around the base.",
+          "tags": "zucchini, side-view, new-growth, soil"
+        }
+      ]
+    },
+    {
+      "date": "12/8/2025",
+      "time": "11:50 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.69",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "58",
+        "moisture_mScm": "48.00",
+        "light": "84",
+        "rh_percent": "57",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "77.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil is now well hydrated, allowing full probe contact and producing a stable pH of 6.69—ideal for zucchini nutrient uptake. Moisture at 48 mS/cm is in the optimal recovery range. The plant remains pale overall but shows slight improvement in the new central leaves, which appear firmer and marginally greener than yesterday. Older leaves retain previous stress spotting and mild chewing, but no progression is visible. The developing bud remains intact, and the crown is producing new tissue, indicating continued recovery.",
+      "actions": "Do not water today as soil moisture is ideal and rain is likely. Avoid fertilizer to prevent additional stress while the plant stabilizes. Leave all leaves intact and maintain full sun exposure.",
+      "next_steps": "Recheck soil moisture tomorrow, especially if rain is light or scattered. Monitor the newest central leaves for deepening green over the next 1–2 days. Delay fertilizing until growth and color show clearer improvement.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead photo showing pale older leaves, slight greening in the crown, and evenly moist soil.",
+          "tags": "zucchini, overhead, pale-leaves, moist-soil, crown-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting new crown growth, a developing bud, and stable leaf posture.",
+          "tags": "zucchini, side-view, new-growth, bud"
+        }
+      ]
+    },
+    {
+      "date": "12/7/2025",
+      "time": "1:22 PM",
+      "conditions": "Patchy morning fog giving way to sun with a high near 86°F and a low around 66°F. Light south breeze 5-8 mph and mostly sunny overall, with only a slight chance of showers the following afternoon.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "42",
+        "moisture_mScm": "36.00",
+        "light": "82",
+        "rh_percent": "51",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "80.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Before watering, the soil was again extremely dry, making it difficult to get stable readings. After some rehydration, moisture registered at 36 mS/cm—on the dry end of acceptable for zucchini in full Florida sun. Fertility and salt levels have drifted downward into a mild, safe range. The plant remains small and stressed but continues to push new buds and maintain a core of healthy foliage.",
+      "actions": "Advise a slow, deep watering to bring moisture back into the mid-range and protect the plant from further drought stress under the 86°F sun. No fertilizer, lime, or fungicide applied today.",
+      "next_steps": "Perform finger checks down 2-3 inches each late morning and water whenever that zone feels dry, especially on hot, sunny days. Maintain current fertility level without additional feeding until the root system shows more vigorous top growth. Continue sanitation pruning of any new necrotic leaves and monitor buds for progression toward healthy female flowers.",
+      "q_and_a_summary": "Asked whether watering was needed given the latest readings and warm, sunny forecast, expressing concern that the plant was 'hanging on by a thread.' Confirmed that moisture was indeed too low for comfort and recommended a thorough watering to stabilize the plant.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view of Zucchini 003 showing compact but persistent foliage and several developing buds.",
+          "tags": "zucchini, compact-plant, buds, drought-stress"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle with the support stake and sunlit leaves, highlighting the plant's ongoing recovery despite stress.",
+          "tags": "zucchini, recovery, stake, sunlight"
+        }
+      ]
+    },
+    {
+      "date": "12/4/2025",
+      "time": "5:29 PM",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "100.00",
+        "light": "7",
+        "rh_percent": "56",
+        "fertility_percent": "8.5",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Earlier in the afternoon the bed was bone dry and would not give a usable reading. After watering, moisture reached saturation and the pH reading dropped out (0.00), indicating the probe could not accurately sense pH in extremely wet soil. The plant, though stressed, continues to produce buds and holds several healthy leaves.",
+      "actions": "Perform a deep watering in the afternoon after the soil became completely dry, then take readings around 5:29 PM. No additional fertilizer or fungicide applied today.",
+      "next_steps": "Allow the soil to drain and dry back down to the mid-range before the next watering. Resume pH monitoring once moisture is back below approximately 70 mS/cm. Continue to watch older leaves for disease progression and be ready to apply copper fungicide in the evening on a dry day.",
+      "q_and_a_summary": "Noted that the probe had shown 0.00 pH and asked if this meant something was wrong with the soil. Clarified that the saturated conditions were interfering with the sensor and that pH readings would return once moisture normalized.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Evening view of Zucchini 003 with one large bud and compact foliage after a deep watering.",
+          "tags": "zucchini, bud, evening, saturated-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view emphasizing the central bud and surviving leaves following earlier pruning and stress.",
+          "tags": "zucchini, central-bud, pruning, stress-recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/3/2025",
+      "time": "12:48 PM",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.23",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "63",
+        "moisture_mScm": "46.00",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "83.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "pH has shifted up into the ideal 6.0-6.5 range after the dolomite lime application, and salt plus fertility levels have moderated. Moisture is in the mid range, and the plant shows a strong central bud plus small new leaves. Older diseased leaves remain but new growth appears cleaner and greener.",
+      "actions": "No additional lime or fertilizer applied, as EC and fertility are now in a healthy range. Hold off on watering until moisture falls toward the low 30s, and plan copper fungicide in the evening if new spots appear.",
+      "next_steps": "Let the top inch of soil dry slightly between waterings while keeping root zone moisture stable. Continue sanitation pruning of badly spotted leaves and apply copper fungicide at dusk on a dry evening if disease symptoms spread to newer foliage.",
+      "q_and_a_summary": "Asked for an updated expert assessment after the lime and fertilizer were finally applied. Explained that the improved pH and moderate fertility are positive signs and that the focus should now be on consistent moisture and disease management.",
+      "follow_up": [
+        "[1:15 PM] Pruned off two heavily necrotic, spotted leaves as part of sanitation pruning to reduce disease pressure."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing cleaner new foliage at the crown with remaining damaged leaves toward the edges.",
+          "tags": "zucchini, new-growth, pruning, leaf-spot"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle of the plant with a prominent new bud and improved color following lime and fertilizer.",
+          "tags": "zucchini, bud, lime-response, fertilizer-response"
+        }
+      ]
+    },
+    {
+      "date": "12/2/2025",
+      "time": "11:15 AM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "digital_probe": {
+        "ph": "5.91",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "76",
+        "moisture_mScm": "53.00",
+        "light": "99",
+        "rh_percent": "56",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture is moderate and temperatures are comfortable. pH is still on the acidic side of the ideal range for zucchini, and leaf lesions on older foliage are consistent with a mild fungal or bacterial leaf spot. New growth at the crown remains vigorous with several buds forming.",
+      "actions": "Top-dress with a light ring of dolomite lime around the drip line (not against the stem), followed by a light application of Purived 4-5-5 organic fertilizer, then water to dissolve and move these amendments into the root zone. Apply copper fungicide in the evening or under overcast skies to protect new foliage from further spotting.",
+      "next_steps": "Allow 24-48 hours after lime and fertilizer for pH and fertility to shift, then recheck readings. Monitor leaves for any new lesions; if they appear, begin a copper fungicide program on a 7-10 day interval, applied only in low sun conditions. Avoid additional lime unless pH remains below approximately 6.0.",
+      "q_and_a_summary": "Asked whether soil amendments should go on before or after lime, and the correct sequence for watering and copper fungicide. Clarified: apply and lightly scratch in dolomite lime first, then the organic fertilizer, then water thoroughly, and only after that (and only in the evening) apply copper fungicide to foliage.",
+      "follow_up": [
+        "[5:00 PM] Applied dolomite lime and Purived 4-5-5 as directed and watered thoroughly. Deferred copper fungicide because sunlight was still too strong."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Daytime view of the plant showing several leaves with necrotic patches and a healthy cluster of buds in the center.",
+          "tags": "zucchini, necrotic-leaves, buds, soil-amendment"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle view highlighting older diseased leaves near the soil surface and healthier new growth above.",
+          "tags": "zucchini, disease, new-growth, canopy"
+        }
+      ]
+    },
+    {
+      "date": "12/1/2025",
+      "time": "5:36 PM",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
+      "digital_probe": {
+        "ph": "5.89",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "56.00",
+        "light": "4",
+        "rh_percent": "73",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "78.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Probe readings finally stabilized after the user backfilled the probe hole and leveled the soil. Moisture and fertility are moderate. Plant shows both healthy new leaves and a few older leaves with necrotic, grayish lesions and yellowing, suggesting early fungal issues or past stress damage. Crown growth and bud formation continue.",
+      "actions": "Water at about 9:40 AM to rehydrate the bed evenly. Fill in the previous probe hole and add a small amount of soil to level the surface and improve probe contact. No fertilizer or fungicide applied yet.",
+      "next_steps": "Because pH is trending slightly acidic and leaf spotting is increasing, plan to buffer pH with dolomite lime and support recovery with a mild organic fertilizer on the next suitable day. Begin planning a fungicide program if spots expand or spread to newer foliage.",
+      "q_and_a_summary": "Described difficulty getting reliable probe readings until they refilled the probe hole with soil. Confirmed that backfilling and lightly firming the soil is the correct way to restore good sensor contact and avoid false moisture or EC readings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Evening view of Zucchini 003 with mixed healthy and spotted foliage after morning watering.",
+          "tags": "zucchini, leaves, spotting, evening"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close view highlighting necrotic lesions and yellowing on older leaves while new leaves remain greener.",
+          "tags": "zucchini, necrosis, leaf-spot, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/27/2025",
+      "time": "2:24 PM",
+      "conditions": "Cloudy with a high of 81°F dropping down to 65°F overnight. Rainy conditions expected around 6 PM.",
+      "digital_probe": {
+        "ph": "6.02",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "146",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil is fully saturated following recent watering and rain. EC, salt, and fertility readings are significantly elevated, likely reflecting concentrated nutrients in very wet soil rather than an actual overdose. Some older leaves look tired and one blossom has dropped, both typical responses to heavy moisture. New growth at the crown remains active.",
+      "actions": "No additional watering or fertilizer applied. Allow the bed to drain naturally and avoid disturbing waterlogged soil around the roots.",
+      "next_steps": "Let the soil dry back down into the 30-60 mS/cm moisture range before watering again. Monitor leaves for yellowing between veins or burned edges, which would indicate real nutrient or salt stress. Recheck readings once moisture falls below 70 mS/cm.",
+      "q_and_a_summary": "User later sent an additional image set from the same time but requested that only the first set of readings be logged. Confirmed that the saturated readings were expected after rain and not a cause for immediate intervention.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing saturated soil and slightly droopy older leaves with a dropped blossom nearby.",
+          "tags": "zucchini, saturated-soil, blossom-drop"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of the plant base illustrating active new growth at the crown despite very wet conditions.",
+          "tags": "zucchini, crown, wet-soil, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/26/2025",
+      "time": "12:39 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping down to 67°F overnight, with thunderstorms expected around 4 PM.",
+      "digital_probe": {
+        "ph": "6.73",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "53.00",
+        "light": "99",
+        "rh_percent": "56",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil moisture is comfortably moist and cooler than previous days. Plant shows more leaf area and multiple buds forming. Some new chewing damage is visible on older leaves but no severe defoliation. No powdery mildew present. Overall vigor is slowly improving.",
+      "actions": "Skip watering due to adequate soil moisture and expected afternoon storms. Perform a visual inspection for caterpillars and beetles and manually remove any found. Defer neem oil because foliage is still tender and overall pest pressure appears light.",
+      "next_steps": "Continue daily pest checks, especially on leaf undersides and near buds. Consider a light neem or insecticidal treatment only if chewing damage accelerates or more pests are seen. Recheck moisture after the forecast storms before watering again.",
+      "q_and_a_summary": "Asked whether to start neem treatments in response to light chewing damage. Advised to hold off for now, focus on scouting and hand removal, and keep neem in reserve unless damage worsens.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing expanding leaf area, several buds, and moderate chewing on older foliage.",
+          "tags": "zucchini, leaves, chewing, buds"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer angle on the plant base and buds with evenly moist soil surface.",
+          "tags": "zucchini, buds, soil, moisture"
+        }
+      ]
+    },
+    {
+      "date": "11/25/2025",
+      "time": "3:27 PM",
+      "conditions": "Sunny all day with a high of 84°F dropping down to 65°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "58",
+        "moisture_mScm": "44.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant continues modest recovery with several healthy leaves and developing buds. Foliage remains a bit pale but turgid. Soil was very dry earlier in the day and required watering; by reading time, moisture had evened out and there were no signs of wilting. No obvious pests or fungal lesions beyond a few old stress spots.",
+      "actions": "Water thoroughly at about 2:33 PM to rehydrate the root zone, allowing water to soak in slowly rather than all at once. No fertilizer or fungicide applied.",
+      "next_steps": "Allow the soil surface to dry slightly before the next watering but avoid letting the bed go bone dry again. Recheck with the digital probe the next afternoon and monitor leaf color; expect gradual darkening of new growth if roots continue recovering.",
+      "q_and_a_summary": "Asked whether watering in mid-afternoon after missing the morning window was acceptable and if the readings taken 1.5 hours later were valid. Confirmed this timing was fine and that the moisture and EC values accurately reflected the rehydrated soil.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of Zucchini (Right) after watering, showing upright crown and evenly moist soil.",
+          "tags": "zucchini, overhead, soil-moisture, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of plant with developing flower buds and slightly pale but turgid leaves.",
+          "tags": "zucchini, buds, foliage, side-view"
+        }
+      ]
+    },
+    {
+      "date": "11/24/2025",
+      "time": "11:21 AM",
+      "conditions": "Partly cloudy with a high of 81°F dropping down to 61°F overnight.",
+      "digital_probe": {
+        "ph": "6.68",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "37",
+        "moisture_mScm": "43.00",
+        "light": "98",
+        "rh_percent": "59",
+        "fertility_percent": "3.5",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows positive recovery with the crown upright and producing new leaves. Leaf color is slightly deeper than 2-3 days ago, with full-sized and turgid foliage. Soil is evenly moist beneath the surface with no pests or mildew visible. Blossom development is behaving normally with one male blossom appearing broken off, which is natural as male flowers fall off easily after 1-2 mornings. The plant remains more compact and slightly pale compared with the same-aged Zucchini (Center), and the stem remains a bit unstable with settling soil beneath it. Older leaf edges show slight stress, which is normal for a recovering plant. Probe readings are finally clean and consistent, showing the soil is settling and conductivity is improving.",
+      "actions": "Add organic potting mix up to 1/2-1 inch below where the stem splits into branches to anchor the plant, help root formation along the buried stem, buffer moisture retention, and improve probe contact. Do not bury any leaf stems or cover the crown. Shape a gentle mound if needed. No watering required at this time as moisture is ideal at 43 mS/cm. No fertilizer applied.",
+      "next_steps": "Monitor the plant for improved stability after adding soil. Continue watching for deeper green color in new growth. Recheck probe readings tomorrow to confirm consistency improves with the added potting mix. Avoid watering unless moisture drops below 20 mS/cm.",
+      "q_and_a_summary": "Discussed whether the broken squash blossom was a concern; confirmed it is a male blossom that naturally falls off easily after 1-2 mornings and has zero effect on plant health or productivity. Asked about adding more organic potting mix up to where the stem splits; confirmed this is recommended for stem stability, moisture retention, and better probe contact, and should be filled to 1/2-1 inch below the stem split without burying leaf stems or the crown.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up view showing the plant's crown with new leaves and soil surface around the base.",
+          "tags": "zucchini, crown, soil, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing leaf color, size, and overall plant structure with mulch visible around the bed.",
+          "tags": "zucchini, overhead, leaves, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide view of Zucchini (Right) showing full plant layout with open male blossoms and mulched bed surface.",
+          "tags": "zucchini, plant, male-blossom, mulch"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle view showing male blossoms including one that has naturally fallen off, soil texture, and leaf arrangement.",
+          "tags": "zucchini, male-blossom, petal-drop, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/23/2025",
+      "time": "2:28 PM",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.00",
+        "salt_mg_L": "0",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "0.0",
+        "soil_temp_f": "90.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Initial probe readings showed complete contact failure (all zero values) caused by very dry new potting mix and uneven underlying sandy soil. The plant appeared slightly dry with a bit of leaf edge curl on older leaves, but the crown remained strong and structurally healthy. The blossom continued to fade normally, and new leaves at the crown were emerging. White spots appeared on several leaves but were sharply defined, bright white, and superficial—consistent with dried water droplets, mineral flecks from the soil backfill, or small sun-scalded points—not disease. The plant overall remains stable and in recovery with healthy new growth.",
+      "actions": "Water the crown mound and base thoroughly (without touching leaves) to rehydrate the newly added potting mix and deeper soil layers. No fertilizer or amendments applied.",
+      "next_steps": "Allow soil to settle for several hours after watering before taking new readings. Continue monitoring leaf turgor and emerging new leaves. Avoid additional watering until moisture falls below 15-20 mS/cm. Probe later or tomorrow at a slight angle to reach deeper established soil beneath the new fluffy potting mix.",
+      "q_and_a_summary": "Discussed why all probe readings were zero and whether watering was needed; explained that new dry potting mix and uneven underlying soil prevented probe contact, and watering the crown mound was correct. Asked when to take a follow-up reading; advised 60-90 minutes after watering for stable moisture distribution. Asked about increasing white spots; explained they are harmless dried droplets, minerals, or tiny sun-scorched points—not mildew or disease—and provided visual reasoning based on close-ups.",
+      "follow_up": [
+        "[4:19 PM] Follow-up probe reading taken after watering, showing improved moisture and partial pH stabilization."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Initial plant view showing slight dryness on older leaves and fading male blossom.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Initial close-up showing leaf color and early white flecks consistent with dried droplets or mineral debris.",
+          "tags": "zucchini, leaves, white-spots"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Follow-up view of leaf surfaces with harmless white flecks, not consistent with disease.",
+          "tags": "zucchini, leaves, white-spots"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of white spot showing droplet-like border, confirming it is superficial and non-pathogenic.",
+          "tags": "zucchini, leaf, close-up"
+        }
+      ]
+    },
+    {
+      "date": "11/22/2025",
+      "time": "12:15 PM",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "digital_probe": {
+        "ph": "9.28",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "40.00",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "4.5",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows stronger posture and continued recovery with greener new growth at the crown. The older leaves remain pale and lightly freckled from earlier high-pH stress and transplant shock. Soil was backfilled yesterday with fresh organic potting mix, which has stabilized the tall thin stem. Moisture in the root zone remains healthy at 40 mS/cm despite the dry surface appearance. The pH reading of 9.28 is invalid due to poor probe contact in newly added fluffy potting mix and uneven deeper soil layers. Multiple small white spots appeared on upper leaf surfaces, but they have sharp edges and resemble dried water droplets or tiny soil/mineral flecks, not disease. A new male blossom bud is forming normally at the crown.",
+      "actions": "Add organic potting mix around the stem up to as high as safely possible and water lightly to set the soil. No fertilizer or pruning performed. No watering today due to adequate deep moisture.",
+      "next_steps": "Avoid watering until moisture drops below 15-20 mS/cm. Expect soil to settle over the next 2-3 days which will improve probe contact. Monitor new male blossom and emerging leaves. Recheck pH and moisture tomorrow or Monday with the probe inserted at a slight angle to reach established soil below the new potting mix layer.",
+      "q_and_a_summary": "Discussed why the plant still looks dry despite adequate moisture readings and whether watering was needed; advised that surface dryness is normal and the root zone is well hydrated. Also asked if white spots were concerning and if a new blossom was forming; confirmed the spots are harmless and a second male blossom is emerging.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of Zucchini (Right) showing stabilized stem and healthy new crown growth.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view highlighting new male blossom forming and improved leaf posture.",
+          "tags": "zucchini, blossom, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Angle view showing leaf coloration and the recently added potting mix around the base.",
+          "tags": "zucchini, soil, crown"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down close-up showing harmless white flecks on leaves consistent with dried droplets or debris.",
+          "tags": "zucchini, leaves, white-spots"
+        }
+      ]
+    },
+    {
+      "date": "11/21/2025",
+      "time": "3:44 PM",
+      "conditions": "Sunny with a high of 84°F dropping to around 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.04",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued recovery with healthy new green growth forming at the crown. The male blossom is developing normally. Older lower leaves remain pale and marked from previous high-pH stress and transplant shock, which is expected. Soil pH is excellent at 6.04, fertility has risen significantly, and moisture is strong in the tested pocket. The main stem appears tall and thin due to early stretching and settling soil, but it remains structurally sound. The surrounding soil is drying and compacting unevenly due to the sand-heavy mix, contributing to inconsistent probe contact and the need for multiple readings.",
+      "actions": "Do not add water or amendments other than recommending backfilling the base with 1-2 inches of potting mix to stabilize the stem and improve probe contact. No fertilizer or pruning performed.",
+      "next_steps": "Backfill around the base with potting mix up to just below the lowest leaf node and lightly water to settle the soil. Avoid heavy watering today since moisture is already adequate. Continue monitoring new growth and probe readings. Expect more consistency once the potting mix stabilizes the root zone.",
+      "q_and_a_summary": "Discussed whether the tall thin stalk should be supported by adding potting soil beneath or around it, and expressed concern about hard, dry topsoil causing inconsistent probe readings. Explained that adding potting mix around the stem—not under the root ball—is safe and recommended to stabilize the plant and improve sensor readings.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing overall growth, pale older leaves, and sunny bed conditions.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of crown growth and developing male blossom.",
+          "tags": "zucchini, crown, blossom"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of main stem showing thin elongated growth and soil settling around the base.",
+          "tags": "zucchini, stem, soil"
+        }
+      ]
+    },
+    {
+      "date": "11/20/2025",
+      "time": "1:44 PM",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "10.41",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "8.50",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "1.5",
+        "soil_temp_f": "80.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two probe readings were taken due to difficulty inserting the probe into compacted sandy soil. The first reading showed 0.00 moisture and very low fertility, indicating a dry pocket. The second reading showed improved soil contact and a more realistic moisture reading of 17 mS/cm with fertility at 2.5%. The extremely high pH value of 13.49 is invalid and caused by poor soil contact. Plant growth continues with a healthy developing male blossom. Newer leaves are greener while older lower leaves continue to decline from earlier high-pH stress. No signs of pests or new leaf damage.",
+      "actions": "No watering or amendments applied today. Soil left undisturbed to avoid further compaction. No pruning performed.",
+      "next_steps": "Recheck moisture tomorrow. Water only if moisture falls below 10-15 mS/cm. Insert the probe slowly and at an angle to reduce soil resistance and to improve sensor contact. Monitor male blossom development and new leaf formation.",
+      "q_and_a_summary": "Discussed why the soil is difficult for the probe and why pH readings were inconsistent. Explained that sandy, compacted soil causes poor probe contact and invalid pH values.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing overall health and soil condition.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top view showing unfurling new leaves and healthy crown growth.",
+          "tags": "zucchini, crown, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of developing male blossom emerging from the stem.",
+          "tags": "zucchini, male-blossom, bud"
+        }
+      ]
+    },
+    {
+      "date": "11/19/2025",
+      "time": "10:06 AM",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "digital_probe": {
+        "ph": "6.09",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "42",
+        "moisture_mScm": "39.50",
+        "light": "95",
+        "rh_percent": "64",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "70.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two digital probe readings were taken due to inconsistent contact with coarse sandy soil. The 0.00 and 12.18 pH readings are invalid and reflect poor soil contact, not true pH. Moisture is significantly improved at 37-42 mS/cm after recent watering. Fertility increased to 4%, indicating improved nutrient availability. Plant shows new developing male blossom, which is normal and expected even while still small. New growth is green and healthy; older leaves remain yellow with necrotic spotting from earlier stress. No pests observed. Overall condition continues to improve.",
+      "actions": "No watering, fertilizer, or pH treatments applied today. No pruning performed. Plant left to continue recovery.",
+      "next_steps": "Recheck pH and moisture tomorrow with stable probe insertion. Avoid watering unless moisture falls below 10-15 mS/cm. Monitor the developing blossom and new leaf formation. Hold fertilizer until the next stable moisture cycle.",
+      "q_and_a_summary": "Discussed whether the emerging structure was a squash blossom; confirmed it is a normal early male blossom.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Plant view showing new growth and soil moisture distribution.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of leaf structure and crown development.",
+          "tags": "zucchini, leaves, crown"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of developing male blossom bud emerging from the crown.",
+          "tags": "zucchini, blossom, male-bud"
         }
       ]
     },
     {
       "date": "11/18/2025",
-      "time": "9:14 AM",
-      "conditions": "Cool morning in the upper 60s°F with shade shifting to sun and calm weather.",
+      "time": "9:19 AM",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
       "digital_probe": {
-        "ph": "11.65",
-        "ec_mScm": "0.05",
-        "salt_mg_L": "25",
-        "moisture_mScm": "21.00",
+        "ph": "6.38",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "13",
+        "moisture_mScm": "0.00",
         "light": "99",
-        "rh_percent": "64",
-        "fertility_percent": "2.5",
-        "soil_temp_f": "67.1"
+        "rh_percent": "65",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "66.4"
       },
       "analog_probe": {
         "fertility": "",
         "moisture": "",
         "ph": ""
       },
-      "observations": "Seedling upright with expanding true leaves and minor insect blemishes. Soil moist and recently amended with additional potting mix. Extremely high pH reading was identified as a probe interference error rather than true soil pH.",
-      "actions": "No watering or fertilizer needed. Maintain sunlight. No pH correction initiated.",
-      "next_steps": "Monitor moisture levels and evaluate readiness for first fertilizer once plant matures further.",
-      "q_and_a_summary": "Discussed probe placement safety and seed coat removal on neighboring bean seedlings. Confirmed correct technique and that seed coat detachment was normal.",
-      "follow_up": [
-        "[4:02 PM] Added organic potting mix underneath and around the base for stability and moisture retention, then applied approximately 1/2 cup water to settle the soil."
-      ],
+      "observations": "The plant shows continued improvement with greener new growth forming at the crown. Older lower leaves still display yellowing and brown necrotic spotting from earlier transplant stress and prior high-pH conditions, but damage is confined to these older leaves. Leaf posture is upright and hydrated with no new pest damage visible. Stem appears firm and new leaf clusters are emerging. Soil surface looks dry and sandy, explaining the very low moisture reading.",
+      "actions": "Apply 1 quart (32 oz) of plain water slowly around the base to rehydrate the lower sandy root zone. No fertilizer, pruning, or pH amendments applied today.",
+      "next_steps": "Recheck moisture in 24 hours. Avoid additional watering until moisture rises above 10 mS/cm. Continue to monitor new crown growth for deepening green color. Hold all fertilizer until soil moisture stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Soil and seedling orientation with bean sprouts nearby.",
-          "tags": "zucchini, green-beans, bed-layout"
+          "caption": "Full plant view with the digital probe positioned in the root zone.",
+          "tags": "zucchini, plant, overview"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Zucchini base after potting mix addition during follow-up.",
-          "tags": "zucchini, follow-up, soil"
+          "caption": "Side view showing leaf posture and stem strength.",
+          "tags": "zucchini, leaves, stem"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the crown showing new leaf development.",
+          "tags": "zucchini, crown, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view displaying full leaf arrangement and one older damaged leaf.",
+          "tags": "zucchini, overhead, leaf-spot"
         }
       ]
     },
     {
       "date": "11/17/2025",
-      "time": "9:14 AM",
-      "conditions": "Full morning sun with temperatures in the mid-60s°F and light air movement.",
+      "time": "9:19 AM",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
       "digital_probe": {
-        "ph": "6.49",
-        "ec_mScm": "0.03",
-        "salt_mg_L": "17",
-        "moisture_mScm": "4.00",
-        "light": "98",
+        "ph": "6.93",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "8",
+        "moisture_mScm": "0.00",
+        "light": "99",
         "rh_percent": "61",
-        "fertility_percent": "1.5",
+        "fertility_percent": "0.8",
+        "soil_temp_f": "64.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows gradual greening compared to previous days with healthier new leaves forming at the crown. Older lower leaves remain yellowed with brown necrotic areas due to earlier transplant stress and high pH nutrient lockout. No new lesions are present. Leaf posture is upright with good turgor. Soil appears dry and sandy, leading to uneven pH readings between moist potting mix pockets and drier native soil pockets. No pests are observed. Overall condition is improving following the prior acidifying treatment.",
+      "actions": "Apply 1 quart (32 oz) of plain water in two slow stages to rehydrate the lower sandy root zone and improve probe contact. No fertilizer, pruning, or additional pH amendments applied.",
+      "next_steps": "Recheck moisture and pH the following morning. Do not water again unless moisture reads below 10 mS/cm. Continue to monitor crown growth for deepening green color and wait several days before removing older damaged leaves.",
+      "q_and_a_summary": "Discussed how much water to apply given the mixed pH readings. Recommendation was to apply 1 quart of plain water, split into two slow pours, and to avoid additional acidifying water unless future pH readings in the root zone rise above 7.2.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view on 11/17/2025 showing upright posture and yellowed lower leaves.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view of the plant with a mix of older damaged leaves and greener new growth.",
+          "tags": "zucchini, leaves, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of crown area where new leaves are emerging.",
+          "tags": "zucchini, crown, transplant-recovery"
+        }
+      ]
+    },
+    {
+      "date": "11/16/2025",
+      "time": "10:25 AM",
+      "conditions": "Cool and mostly sunny with a daytime high in the mid-60s°F and a cooler night near 60°F.",
+      "digital_probe": {
+        "ph": "8.03",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "21",
+        "moisture_mScm": "13.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "2.0",
         "soil_temp_f": "65.7"
       },
       "analog_probe": {
@@ -113,23 +831,122 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Zucchini seedling upright with expanding true leaves and normal leaf color. Minor chewing noted on older leaf but no active pests. Soil was dry at surface with loose texture.",
-      "actions": "Apply light watering due to low moisture reading. No fertilizer or pH adjustments performed.",
-      "next_steps": "Monitor moisture and prepare for first fertilizer once plant grows larger.",
-      "q_and_a_summary": "",
+      "observations": "The plant shows pale foliage with notable yellowing on older leaves and brown lesions beginning to appear at the edges. New growth is present at the crown but still light green, indicating nutrient uptake limitations. Digital probe reading shows strongly alkaline pH around 8.0 with very low EC, salt, and fertility values, consistent with nutrient lockout in a sandy, low-organic soil. Soil is lightly moist but dries quickly due to the sand and limited potting mix.",
+      "actions": "Prepare and apply an acidifying watering using a vinegar solution diluted into water (scaled to pint/quart volumes) around the root zone to begin lowering soil pH toward the 6.0-6.8 range. No additional fertilizer or neem oil applied on this date.",
+      "next_steps": "Recheck pH and moisture within 24-48 hours to confirm that pH begins to fall toward the mid-6 range. Avoid further acidifying treatments until new readings are taken. Monitor the plant for signs of greening in new leaves and avoid pruning older leaves until new growth strengthens.",
+      "q_and_a_summary": "Discussed whether a full gallon of acidifying water was needed and requested pint/quart equivalents; guidance given on safe vinegar rates per pint and quart and instructions to target the root zone without overwatering.",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Early Zucchini (Left) seedling posture and soil dryness on 11/17.",
-          "tags": "zucchini, seedling, early-growth"
+          "caption": "Full plant view illustrating pale foliage and transplant stress symptoms.",
+          "tags": "zucchini, plant, transplant-stress"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of crown and mid leaves with light green coloration.",
+          "tags": "zucchini, crown, light-green"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Leaf close-up showing early brown spotting along edges.",
+          "tags": "zucchini, leaf-spot, stress"
+        }
+      ]
+    },
+    {
+      "date": "11/13/2025",
+      "time": "9:52 AM",
+      "conditions": "Cool morning around 68°F with mostly shade turning sunny within about 40 minutes.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "solid green",
+        "moisture": "6 in the green zone",
+        "ph": "5-6 (good, slightly acidic to neutral)"
+      },
+      "observations": "The plant shows modest greening compared with prior days with several healthy leaves at the crown. A few tiny bright white spots are present on upper leaves, but they are sharply bordered and not expanding, consistent with mild sun scald or previous neem sensitivity rather than active disease. Lower leaves remain paler and show residual stress from earlier conditions. Soil appears evenly moist after the previous root mound addition and watering.",
+      "actions": "No neem oil or fertilizer applied. Plant left to adjust in the improving soil conditions. Continue normal monitoring for spread of white spots and changes in leaf color.",
+      "next_steps": "Watch white spots over the next 3-4 days for any spreading or fuzzy growth; if they remain stable and small, no treatment is needed. Water only when the top 1-2 inches of soil begin to dry. Delay further neem applications until foliage thickens and greens up.",
+      "q_and_a_summary": "Expressed concern about a new tiny white spot on another leaf; reassurance provided that the pattern matched mild sun scald or prior neem sensitivity and not fungal disease, with instructions to monitor rather than treat.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view on 11/13/2025 showing improved posture and overall color.",
+          "tags": "zucchini, plant, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer view of mid and upper leaves with small white specks.",
+          "tags": "zucchini, leaves, white-spot"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the crown showing compact new growth and healthy structure.",
+          "tags": "zucchini, crown, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "11/12/2025",
+      "time": "10:34 AM",
+      "conditions": "Cool morning around 67°F, mostly shade with sun beginning later, light breeze.",
+      "digital_probe": {
+        "ph": "",
+        "ec_mScm": "",
+        "salt_mg_L": "",
+        "moisture_mScm": "",
+        "light": "",
+        "rh_percent": "",
+        "fertility_percent": "",
+        "soil_temp_f": ""
+      },
+      "analog_probe": {
+        "fertility": "just touching the edge of green from yellow",
+        "moisture": "4 in the green toward the left (moderately moist)",
+        "ph": "6 solid in the neutral zone"
+      },
+      "observations": "The plant is in transplant recovery with several pale yellow-green leaves but an active center crown. Soil is a soil/sand mix with a small root mound of potting mix recently added under the main root. A new bright white spot has appeared on one upper leaf, likely from minor sun exposure or prior neem residue on a tender leaf. No widespread spotting or mildew is seen. Posture is upright and growth point looks healthy.",
+      "actions": "Add a mound of potting mix beneath the main root to improve aeration and nutrient retention. Water under the leaves around the potting mix mound to settle the soil and ensure the root zone is moist. No neem oil or fertilizer applied on this date.",
+      "next_steps": "Monitor the bright white spot for 3-4 days; if it remains small and does not spread, no action is required. Continue watering only when the top 1-2 inches of soil feel dry. Delay any further neem applications until foliage thickens and overall color improves.",
+      "q_and_a_summary": "Discussed the sudden bright white spot on a leaf after adding potting mix under the root; explanation given that it is most likely minor sun scald or residue and not disease, and guidance provided to monitor rather than treat.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view on 11/12/2025 with soil mound around the base.",
+          "tags": "zucchini, plant, soil-mound"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing leaf arrangement and overall color.",
+          "tags": "zucchini, leaves, overview"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of the crown and new leaves emerging from the center.",
+          "tags": "zucchini, crown, new-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of an upper leaf with a small bright white spot.",
+          "tags": "zucchini, leaf, white-spot"
         }
       ]
     },
     {
       "date": "11/11/2025",
-      "time": "3:35 PM",
-      "conditions": "Sunny afternoon around the upper 60s°F with steady breeze.",
+      "time": "2:45 PM",
+      "conditions": "Mostly sunny with temperatures in the mid-60s°F and light breeze.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -142,19 +959,24 @@
       },
       "analog_probe": {
         "fertility": "",
-        "moisture": "",
+        "moisture": "barely moist soil in a soil/sand mix",
         "ph": ""
       },
-      "observations": "Seedling upright with firm cotyledons. True leaf beginning to expand. Soil slightly dry but stable from earlier watering. No visible stress.",
-      "actions": "No additional watering required. Left uncovered for afternoon sun.",
-      "next_steps": "Evening check suggested for soil moisture and leaf condition.",
-      "q_and_a_summary": "",
+      "observations": "Recently transplanted plant staked at the right side of the raised bed. Leaves are pale yellow-green but structurally sound, indicating transplant shock rather than disease. Soil is a soil/sand mix that drains quickly and is only barely moist around the root zone. No pests or chewing damage are visible. The plant is wrapped gently to the stake for support.",
+      "actions": "Provide a light watering (approximately half to three-quarters of a cup) to moisten the top couple of inches of soil. Recommend preventive neem oil treatment using Captain Jack's premixed spray, to be applied lightly in the late afternoon, coating tops and undersides of leaves without soaking the soil.",
+      "next_steps": "Monitor the plant over the next several days for deeper green color in new growth as it exits transplant shock. Reapply neem oil every 7-10 days or after heavy rain once the plant has adjusted. Continue light, consistent watering as the soil dries.",
+      "q_and_a_summary": "Discussed whether neem oil should be applied to the newly transplanted Zucchini (Right); recommendation was to use Captain Jack's neem spray as a light preventive treatment in late afternoon along with a small watering.",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Zucchini (Left) seedling during midday check on 11/11.",
-          "tags": "zucchini, seedling, afternoon"
+          "caption": "Initial view of Zucchini (Right) newly transplanted and wrapped to the stake.",
+          "tags": "zucchini, transplant, stake"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Closer overhead view showing pale leaves and soil/sand mix around the base.",
+          "tags": "zucchini, leaves, soil-sand"
         }
       ]
     }

@@ -58,6 +58,80 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:51 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "167",
+        "moisture_mScm": "65.00",
+        "light": "83",
+        "rh_percent": "48",
+        "fertility_percent": "19",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears healthy and stable with expanding true leaves that are beginning to lay flatter as growth shifts from vertical to lateral development. Leaf color remains evenly pepper-green with firm structure and upright stems. Soil surface is settled and well-aerated with no signs of crusting, collapse, or excess moisture. No visual indicators of cold stress, wilting, or nutrient imbalance are present.",
+      "actions": "Do not water today. Maintain full sun exposure to continue strengthening stems and supporting leaf expansion.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 40 mS/cm. Continue monitoring overnight temperatures and early leaf progression.",
+      "q_and_a_summary": "Discussed whether overnight temperatures in the low 50s°F are a concern; confirmed these conditions are safe for pepper seedlings and do not require intervention.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251211-02.jpeg",
+          "caption": "Afternoon view showing healthy seedlings with expanding true leaves and stable posture.",
+          "tags": "orange-cal-wonder, seedlings, true-leaves, growth"
+        },
+        {
+          "file_name": "pepper_002-20251211-03.jpeg",
+          "caption": "Overhead view of evenly spaced seedlings and settled, well-aerated soil surface.",
+          "tags": "orange-cal-wonder, seedlings, soil, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:36 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "109",
+        "moisture_mScm": "80.00",
+        "light": "88",
+        "rh_percent": "64",
+        "fertility_percent": "11",
+        "soil_temp_f": "63.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings appear vigorous with upright posture and expanding true leaves showing bright, even coloration. Dew from the cool morning has not caused stress, and the soil remains loose and aerated. Moisture at 80.00 mS/cm is ideal for early root development, with no signs of damping-off, nutrient imbalance, or overwatering.",
+      "actions": "Do not water today. Maintain full sun exposure to support leaf thickening and healthy stem development.",
+      "next_steps": "Recheck moisture tomorrow morning as warming conditions may increase evaporation. Water only if moisture drops below 40 mS/cm. Continue monitoring early leaf progression and soil aeration.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning photo showing vigorous seedlings with upright growth and dew-kissed leaves.",
+          "tags": "orange-cal-wonder, seedlings, morning, growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view of expanding true leaves and well-aerated soil.",
+          "tags": "orange-cal-wonder, seedlings, leaves, soil"
+        }
+      ]
+    },
+    {
       "date": "12/8/2025",
       "time": "10:53 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

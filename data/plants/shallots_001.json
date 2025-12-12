@@ -33,6 +33,95 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:59 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.75",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "153",
+        "moisture_mScm": "64.50",
+        "light": "89",
+        "rh_percent": "50",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The main shallot displays upright, firm leaves with healthy blue-green coloration. A new daughter sprout is emerging cleanly from the soil without distortion. Soil remains evenly moist and well-aerated with no pooling or surface crusting. Chamomile presence in the shared planter remains non-competitive.",
+      "actions": "Do not water today. Leave all shoots intact. Do not apply fertilizer or lime.",
+      "next_steps": "Check moisture again tomorrow morning. Water only if moisture drops below approximately 40 mS/cm. Monitor the emerging sprout for continued elongation over the next 48 hours.",
+      "q_and_a_summary": "Discussed whether today’s temperatures pose a risk; confirmed conditions are ideal for shallot growth with no cold stress concerns.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251211-02.jpeg",
+          "caption": "Wide view of the shallot planter showing the main plant with upright leaves and surrounding soil structure.",
+          "tags": "shallots, planter, vegetative-growth"
+        },
+        {
+          "file_name": "shallots_001-20251211-03.jpeg",
+          "caption": "Close-up of a newly emerging shallot sprout pushing cleanly through the soil surface.",
+          "tags": "shallots, sprout, emergence"
+        },
+        {
+          "file_name": "shallots_001-20251211-04.jpeg",
+          "caption": "Right-side view of the planter showing soil texture and moisture consistency.",
+          "tags": "shallots, soil, moisture"
+        },
+        {
+          "file_name": "shallots_001-20251211-05.jpeg",
+          "caption": "Main shallot plant with firm, upright foliage and healthy coloration.",
+          "tags": "shallots, foliage, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:50 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "184",
+        "moisture_mScm": "78.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "21.7",
+        "soil_temp_f": "63.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The main shallot plant stands tall with multiple upright leaves showing strong vegetative growth. A daughter sprout has increased in size since yesterday and is emerging clearly from its papery sheath. Soil remains well-aerated and evenly saturated after recent rain, with no pooling or compaction visible.",
+      "actions": "Avoid watering today as moisture is elevated from rain. Lightly support the new sprout by backfilling a small amount of soil around its base without burying the tip. Leave mature shoots intact, as their height is normal and beneficial. Remove chamomile seedlings that encroach within 2–3 inches of the shallot base.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm levels return toward the ideal range. Monitor the daughter sprout for continued elongation over the next 48 hours. Maintain current soil structure and light exposure as growth accelerates.",
+      "q_and_a_summary": "Confirmed that tall shoots are normal and should remain untrimmed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Main shallot displaying tall, upright vegetative growth.",
+          "tags": "shallots, foliage, vegetative growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of daughter sprout emerging from the bulb wrapper.",
+          "tags": "shallots, sprout, emergence"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Soil surface after rain showing even saturation and good aeration.",
+          "tags": "soil, moisture, planter"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:58 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

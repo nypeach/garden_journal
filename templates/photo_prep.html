@@ -55,8 +55,27 @@
         <!-- Form Fields -->
         <div class="field-label">Plant ID *</div>
         <input type="text" id="plant_id" name="plant_id" class="form-input" required
-          placeholder="e.g., basil_001, strawberry_002">
-        <div class="form-hint">Format: plant_type_###</div>
+          placeholder="e.g., basil_001, strawberry_002" list="plant-ids">
+        <datalist id="plant-ids">
+          {% for plant_id in available_plants %}
+          <option value="{{ plant_id }}">
+            {% endfor %}
+        </datalist>
+        <div class="form-hint">Select or type a plant ID from your garden</div>
+
+        <div class="field-label">Channel Type *</div>
+        <div class="form-row">
+          <label class="radio-label">
+            <input type="radio" name="channel_type" value="existing" checked>
+            <span>Existing Channel (has journal history)</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="channel_type" value="new">
+            <span>New Channel (first entry ever)</span>
+          </label>
+        </div>
+        <div class="form-hint">Select "Existing" if this plant already has journal entries, "New" if this is the first
+          entry</div>
 
         <div class="form-row">
           <div class="form-group">

@@ -30,6 +30,38 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "8:57 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "79",
+        "moisture_mScm": "53.00",
+        "light": "87",
+        "rh_percent": "64",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "63.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro shows vigorous, healthy vegetative growth with bright green serrated leaves and excellent turgor following mild overnight temperatures. Dew across the foliage is clean with no fungal sheen or spotting. Moisture has settled into an ideal mid-range after recent rainfall and the soil surface appears evenly textured. No signs of cutworm damage are present, with stems upright and intact and no fresh soil disturbance seen after last night's treatment window.",
+      "actions": "Do not water today as current moisture at 53 mS/cm is ideal for cilantro in cool weather. Close the probe hole to maintain even surface moisture. No pest treatments or fertilizers are required at this time.",
+      "next_steps": "Recheck moisture tomorrow morning and continue monitoring stems for any signs of nighttime chewing over the next 48 hours. Plan for selective thinning later this week as foliage density increases. Allow cilantro to take advantage of the cool weather for continued leaf expansion.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro patch after a cool night, showing hydrated, bright green foliage with clean dew and no signs of pest damage.",
+          "tags": "cilantro, healthy-growth, dew, morning"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:07 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

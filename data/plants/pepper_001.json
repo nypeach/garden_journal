@@ -54,6 +54,70 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:51 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "156",
+        "moisture_mScm": "90.00",
+        "light": "97",
+        "rh_percent": "48",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "73.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings remain upright with intact cotyledons and developing true leaves. Leaf color is healthy and uniform, and stems show no signs of collapse, pinching, or translucence. Soil appears dark, compacted, and oversaturated, consistent with the high moisture reading, but the plant itself does not show visible stress.",
+      "actions": "Do not water. Leave the container in full sun to promote evaporation and soil dry-down. Avoid fertilizer or additional amendments while moisture remains high.",
+      "next_steps": "Recheck moisture tomorrow morning. Do not water unless moisture drops below approximately 50 mS/cm. Monitor stems closely for any softening, which would indicate excess moisture stress.",
+      "q_and_a_summary": "Discussed whether the overnight low temperature of 53°F was concerning; confirmed it is above the danger threshold for Scotch Bonnet seedlings and not a current risk.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251211-02.jpeg",
+          "caption": "Scotch Bonnet seedlings showing upright growth with healthy cotyledons and early true leaves in saturated soil conditions.",
+          "tags": "Scotch-Bonnet, seedling, moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:34 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "139",
+        "moisture_mScm": "59.00",
+        "light": "91",
+        "rh_percent": "63",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "63.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings are upright and vigorous, with firm cotyledons and well-defined true leaves beginning to spread. Leaf coloration is bright and healthy, and stems show no signs of damping-off. Soil finally reflects an ideal moisture level with improved surface drying consistent with the 59.00 mS/cm reading. No pests or discoloration are present.",
+      "actions": "Do not water. Keep the planter in full sun throughout the day. No fertilizer or amendments needed. Optionally place the container near a wall tonight to buffer against the low temperature of 52°F.",
+      "next_steps": "Recheck moisture tomorrow morning. Do not water unless moisture falls below approximately 45–50 mS/cm. Monitor the continued development of the true leaves as the seedlings stabilize in the early seedling phase.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Scotch Bonnet seedlings showing upright growth with vivid cotyledons and widening true leaves in improved soil moisture conditions.",
+          "tags": "seedling, Scotch-Bonnet, soil"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:43 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

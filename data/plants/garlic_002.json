@@ -38,6 +38,75 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:55 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "104",
+        "moisture_mScm": "56",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "10",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The initial garlic leaf has fully collapsed and is entering normal senescence following earlier moisture stress and soil disturbance. The plant base remains intact and firm with no signs of rot, darkening, or disease. Soil appears evenly moist, aerated, and structurally improved after recent amendments, providing a stable environment for new central growth.",
+      "actions": "Do not water today as soil moisture remains slightly on the high end of ideal. Leave the collapsed leaf attached and allow it to yellow and detach naturally. Avoid additional probing or soil disturbance to allow the root zone to settle.",
+      "next_steps": "Monitor for emergence of a new green shoot from the center over the next 2–4 days. Expect moisture levels to gradually drift downward into the low-40 mS/cm range. Continue taking readings during cooler morning or late-afternoon periods only.",
+      "q_and_a_summary": "Discussed whether current temperatures are concerning; confirmed that warm days with cool nights are ideal for garlic and not a cause for stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251211-02.jpeg",
+          "caption": "Collapsed first garlic leaf showing normal senescence after earlier stress, with intact and healthy plant base.",
+          "tags": "garlic, Music Hardneck, leaf senescence, recovery"
+        },
+        {
+          "file_name": "garlic_002-20251211-03.jpeg",
+          "caption": "Soil surface showing improved structure and aeration following potting mix amendment.",
+          "tags": "garlic, soil structure, amendment, aeration"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:47 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "73",
+        "moisture_mScm": "52",
+        "light": "83",
+        "rh_percent": "64",
+        "fertility_percent": "7",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Music Hardneck shoot shows normal dehydration-related tip browning from the earlier dry-down event, but the base of the plant is firm, green, and actively growing. The newest leaf tissue appears healthy and upright with no signs of fungal lesions or rot. Soil structure remains improved following yesterday’s amendment, appearing evenly moist and aerated with stable probe contact.",
+      "actions": "Do not water today as soil moisture is ideal. Leave the browned tips attached and avoid disturbing the plant base. Do not fertilize or amend the soil further.",
+      "next_steps": "Expect fresh green leaf tissue to extend over the next 48–72 hours. Recheck moisture tomorrow, anticipating continued drift within the ideal 35–55 mS/cm range. Continue monitoring tip condition and watch for steady new growth.",
+      "q_and_a_summary": "Confirmed that the brown tips are expected dehydration-related dieback and not a sign of disease.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Music Hardneck shoot with dehydration-related tip browning but healthy green tissue emerging from the base.",
+          "tags": "garlic, Music Hardneck, leaf tip, dehydration, new growth"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:50 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

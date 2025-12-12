@@ -29,6 +29,100 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:45 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.5",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "75",
+        "moisture_percent": "45",
+        "light_percent": "99",
+        "rh_percent": "48",
+        "fertility_percent": "8",
+        "soil_temp_f": "69.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues strong early shoot recovery with thicker, more structured new growth across all stems. Leaf shape is becoming more defined, and growth is evenly distributed throughout the pot. Bud primordia are visible but not advancing, which is appropriate for this stage. Soil structure remains stable with no signs of compaction returning.",
+      "actions": "No watering required as moisture levels are ideal. No fertilization applied; slow-release pellets remain active. Soil left undisturbed to allow continued root establishment. Pot rotated slightly for even light exposure.",
+      "next_steps": "Continue daily visual monitoring. Recheck moisture tomorrow morning. Watch for paired leaf expansion on multiple shoots as the indicator of approaching transition into vegetative refill.",
+      "q_and_a_summary": "Confirmed that current temperatures are ideal for chrysanthemum recovery and not a concern.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251211-02.jpeg",
+          "caption": "Top-down view showing even early shoot recovery across the pot.",
+          "tags": "chrysanthemum, recovery, new growth"
+        },
+        {
+          "file_name": "mum_001-20251211-03.jpeg",
+          "caption": "Side view highlighting thickening stems and emerging leaf structure.",
+          "tags": "chrysanthemum, stems, foliage"
+        },
+        {
+          "file_name": "mum_001-20251211-04.jpeg",
+          "caption": "Alternate angle showing uniform growth and stable soil surface.",
+          "tags": "chrysanthemum, structure, soil"
+        },
+        {
+          "file_name": "mum_001-20251211-05.jpeg",
+          "caption": "Close view of developing leaves and early bud sites.",
+          "tags": "chrysanthemum, leaves, buds"
+        },
+        {
+          "file_name": "mum_001-20251211-06.jpeg",
+          "caption": "Full pot view showing balanced regrowth after pruning.",
+          "tags": "chrysanthemum, pot, recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:05 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "74",
+        "moisture_mScm": "48.00",
+        "light": "68",
+        "rh_percent": "64",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "63.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong early shoot recovery with multiple stems pushing new foliage and buds. Leaf color is brighter and more uniform than previous days, and the center crown is now activating with new shoots. The soil surface has improved structure from the loosened root layer and added potting mix, allowing deeper probe contact. No signs of wilt, rot, or fungal issues are present.",
+      "actions": "Do not water today as moisture is ideal for cool conditions. Avoid fertilizing, since nutrient availability remains sufficient from the existing slow-release pellets. Leave the soil undisturbed to allow the root zone to stabilize. Rotate the pot slightly to promote even light exposure across emerging shoots.",
+      "next_steps": "Recheck soil moisture tomorrow morning. Monitor new shoots for leaf-pair development, which will signal the transition toward vegetative refill. Expect noticeable canopy thickening over the next few days under the favorable cool and sunny weather pattern.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning probe reading showing balanced pH, moisture, and nutrient levels.",
+          "tags": "chrysanthemum, probe, readings"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Top-down view showing active early shoot recovery and brightened foliage.",
+          "tags": "chrysanthemum, new growth, recovery"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side angle view with multiple stems producing new shoots and improved leaf color.",
+          "tags": "chrysanthemum, stems, leaf growth"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "9:44 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

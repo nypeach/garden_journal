@@ -14,35 +14,169 @@
     "Replaced with Miracle-Gro Potting Mix to improve aeration and root conditions."
   ],
   "whats_been_logged": "The plant has been progressing from early flowering into heavy fruit set while repeatedly balancing soil moisture and foliar health. Initial leaf-spot on older foliage was managed with selective pruning, but renewed spotting on mid-canopy leaves led to more extensive sanitation pruning and a temporary thinning of the canopy. Persistent probe and moisture issues traced to a compacted topsoil/sand layer were corrected on Dec 9, 2025 by replacing the upper root zone with potting mix, and current tracking focuses on canopy regrowth, disease recovery, and stable fruit development under improved soil conditions.",
-  "current_stage": "Active Fruit Set",
-  "current_state": "The plant is in active fruit set with multiple well-formed green clusters while recovering from significant foliar spotting and recent sanitation pruning. Lower and mid-canopy leaves with advanced lesions were removed, leaving a temporarily open lower stem and a concentrated upper canopy of healthy foliage and flowers. New growth at the top remains vigorous and well hydrated, and with improved soil aeration and moisture distribution the plant is poised to rebuild a fuller canopy while continuing to size fruit.",
-  "timeline": [
-    {
-      "stage": "Early vegetative growth – First fruit set",
-      "date_range": "Oct 15 - Nov 17, 2025"
-    },
-    {
-      "stage": "Flowering and fruit set building",
-      "date_range": "Nov 19 - Dec 8, 2025"
-    },
-    {
-      "stage": "Canopy regrowth & branching",
-      "date_range": "Dec 9 - Dec 16, 2025"
-    },
-    {
-      "stage": "First ripening (first blush color)",
-      "date_range": "Dec 18 - Dec 25, 2025"
-    },
-    {
-      "stage": "First full harvest (fully red clusters)",
-      "date_range": "Dec 22, 2025 - Jan 2, 2026"
-    },
-    {
-      "stage": "Ongoing flowering & fruiting continues",
-      "date_range": "Jan 2026 - Mar 31, 2026"
-    }
-  ],
+    "current_stage": "Early Ripening (First Blush)",
+    "current_state": "The plant is actively transitioning from fruit set into early ripening, with at least one lower fruit showing clear first-blush coloration while surrounding clusters remain firm and green. The canopy is healthy and well-aerated following prior sanitation pruning, and the central stem is upright and stable under increasing fruit weight. Ongoing flowering continues in the upper canopy, indicating the plant is simultaneously supporting ripening fruit and new production without visible stress.",
+    "timeline": [
+      {
+        "stage": "Early vegetative growth – First fruit set",
+        "date_range": "Oct 15 - Nov 17, 2025"
+      },
+      {
+        "stage": "Flowering and fruit set building",
+        "date_range": "Nov 19 - Dec 8, 2025"
+      },
+      {
+        "stage": "Canopy regrowth & branching",
+        "date_range": "Dec 9 - Dec 16, 2025"
+      },
+      {
+        "stage": "First ripening (first blush color)",
+        "date_range": "Dec 11 - Dec 18, 2025"
+      },
+      {
+        "stage": "First full harvest (fully red clusters)",
+        "date_range": "Dec 15 - Dec 28, 2025"
+      },
+      {
+        "stage": "Ongoing flowering & fruiting continues",
+        "date_range": "Jan 2026 - Mar 31, 2026"
+      }
+    ],
   "journal": [
+    {
+      "date": "12/11/2025",
+      "time": "5:04 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "39",
+        "moisture_mScm": "36.00",
+        "light": "66",
+        "rh_percent": "52",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "70.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant remains upright and vigorous with a heavy fruit load supported along the central stem. One lower fruit shows clear first-blush coloration, shifting from green to a pale yellow tone, indicating the onset of ripening. Remaining fruits are firm, evenly sized, and green. Foliage is healthy with good turgor and no signs of active disease or pest pressure. Overall structure remains stable, and the plant is confidently supporting both ripening fruit and ongoing flowering.",
+      "actions": "Do not water this evening. Do not harvest blushing fruit yet. Check support ties and adjust slightly if any are tightening as fruit weight increases.",
+      "next_steps": "Recheck moisture tomorrow morning and water if readings fall into the low 30s. Plan a light feeding with 4-5-5 fertilizer after the next watering to support continued fruit fill. Monitor blushing fruit daily and harvest once fully red to encourage remaining fruit to ripen.",
+      "q_and_a_summary": "Discussed whether overnight temperatures in the low 50s were a concern and confirmed they are safe and beneficial. Confirmed that pale yellow coloration on a lower fruit represents true first-blush ripening.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251211-02.jpeg",
+          "caption": "Full plant view in late afternoon light showing upright structure and multiple fruit clusters.",
+          "tags": "tomato, canopy, fruit, structure"
+        },
+        {
+          "file_name": "tomato_001-20251211-03.jpeg",
+          "caption": "Close-up of lower fruit cluster showing one tomato entering first blush with pale yellow coloration.",
+          "tags": "tomato, fruit, ripening, first-blush"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "7:50 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "5.30",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "108",
+        "moisture_mScm": "51.00",
+        "light": "51",
+        "rh_percent": "63",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "64.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant is vigorous and upright with a heavy but well-supported fruit load across the lower and mid stem. Fruit clusters are evenly sized, firm, and developing normally with no cracking or blossom-end rot. Foliage is a healthy green with good turgor, and prior sanitation pruning has resulted in excellent airflow through the lower stem and canopy. A light speckled residue is visible on some leaf surfaces, consistent with dried moisture or mineral residue rather than pest or disease activity. Upper canopy shows active flowering and continued vegetative growth.",
+      "actions": "Do not water today as root-zone moisture is ideal. Do not prune or apply any sprays. Check existing support ties and loosen or reposition any that are becoming tight under increasing fruit weight.",
+      "next_steps": "Recheck soil moisture over the next 24–48 hours. Plan a light feeding with 4-5-5 fertilizer once moisture readings fall into the low-40s. Continue monitoring leaf surfaces and fruit development, and add additional support ties as clusters gain weight.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251210-02.jpeg",
+          "caption": "Side view of the tomato showing upright structure and multiple heavy green fruit clusters along the lower and mid stem.",
+          "tags": "tomato, fruit, structure, support"
+        },
+        {
+          "file_name": "tomato_001-20251210-03.jpeg",
+          "caption": "Closer view of mid-stem fruit clusters showing even sizing, firm fruit, and healthy surrounding foliage.",
+          "tags": "tomato, fruit, clusters, development"
+        },
+        {
+          "file_name": "tomato_001-20251210-04.jpeg",
+          "caption": "Top-down view of the canopy showing healthy green foliage, active flowering, and good airflow after prior pruning.",
+          "tags": "tomato, canopy, flowers, airflow"
+        }
+      ]
+    },
+    {
+      "date": "12/9/2025",
+      "time": "8:28 AM",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.31",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "99",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "9.5",
+        "soil_temp_f": "69.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Replacing the compacted topsoil and sand mixture with fresh potting mix allowed the probe to make proper soil contact and revealed stable, accurate readings for the first time. Moisture is now moderate, and fertility and EC levels are appropriate for a fruiting tomato. The plant shows improved posture and hydration, with vigorous new growth and strong fruit clusters. Several lower and mid-canopy leaves show advanced spotting consistent with early fungal leaf-spot progression, likely exacerbated by the prior hydrophobic soil layer and recent humidity. Removing the sand layer exposed previously stressed feeder roots, which will now recover in the looser, better-aerated medium. Overall the plant appears strong and responsive to the soil correction.",
+      "actions": "Remove all heavily spotted leaves, especially those yellowing or touching other foliage, to reduce disease pressure and improve airflow. Apply 0.5 gallon of water slowly to help settle the new soil and support the root system. Do not apply fertilizer or copper fungicide today due to expected rain.",
+      "next_steps": "Monitor for stabilizing leaf health over the next 24–48 hours as the root system adjusts to improved soil conditions. Recheck moisture tomorrow morning after overnight showers. Consider a copper application later in the week if spotting continues moving upward and weather provides a dry evening window.",
+      "q_and_a_summary": "",
+        "follow_up": [
+          "[10:15 AM] Lightly watered to rinse soil from leaves and help the new soil settle around the root zone.",
+          "[11:00 AM] Removed all heavily spotted leaves; no leaves supporting fruit were taken off."
+        ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Initial reading in compacted topsoil and sand showing probe contact failure and extremely low moisture.",
+          "tags": "tomato, probe, compacted-soil"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Exposed feeder roots and hydrophobic sand layer after removing the compacted soil.",
+          "tags": "tomato, soil, root-zone"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Fresh potting mix added around the base, replacing the sand-heavy layer.",
+          "tags": "tomato, soil-replacement, potting-mix"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Updated probe reading showing stable, accurate soil conditions in the new medium.",
+          "tags": "tomato, probe, improved-readings"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Full plant view showing vigorous fruit clusters and hydrated new foliage after soil correction.",
+          "tags": "tomato, canopy, fruit"
+        }
+      ]
+    },
     {
       "date": "12/8/2025",
       "time": "11:35 AM",

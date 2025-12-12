@@ -38,6 +38,85 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "5:02 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "40.00",
+        "light": "68",
+        "rh_percent": "51",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "72.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro shows dense, upright growth with bright green, turgid leaves and no signs of stress or yellowing. Soil structure appears improved after filling the probe hole, light fluffing, and incorporating fresh Miracle-Gro Moisture Control Potting Mix, with even surface moisture and good root-zone contact.",
+      "actions": "Do not water today. Maintain current placement and allow the container to continue a gentle dry-down.",
+      "next_steps": "Recheck moisture in 1–2 days. Begin selective harvesting once stems reach 4–5 inches tall. Monitor nighttime temperatures but no protection is needed above 45°F.",
+      "q_and_a_summary": "Discussed whether overnight temperatures in the low 50s were a concern; confirmed they are safe and beneficial for cilantro, helping slow bolting and support leaf quality.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251211-02.jpeg",
+          "caption": "Overhead view showing dense, evenly colored cilantro growth following soil adjustment.",
+          "tags": "cilantro, overhead, healthy foliage"
+        },
+        {
+          "file_name": "cilantro_001-20251211-03.jpeg",
+          "caption": "Close-up of leaf structure and moisture beads indicating good hydration and turgor.",
+          "tags": "cilantro, leaves, moisture, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:55 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "59.00",
+        "light": "87",
+        "rh_percent": "66",
+        "fertility_percent": "10",
+        "soil_temp_f": "64.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro foliage is dense, upright, and expanding quickly under ideal cool morning conditions. Leaf clusters show increased thickness and healthy bright green coloration, indicating strong hydration and airflow. Soil appears evenly structured with consistent moisture distribution after the prior day's adjustments. No signs of overwatering, nutrient stress, pest activity, or disease were observed.",
+      "actions": "Do not water this morning, as moisture levels are ideal. Avoid fertilizing today, and maintain the planter in full sun as temperatures are favorable.",
+      "next_steps": "Recheck moisture tomorrow midday and water only if readings fall below 30 mS/cm. Expect continued leaf expansion over the next 48 hours as conditions remain cool and sunny.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Cilantro clusters showing dense upright growth and vibrant coloration on a cool morning.",
+          "tags": "cilantro, foliage, true-leaves, healthy-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view of cilantro foliage revealing strong hydration and well-balanced soil structure.",
+          "tags": "cilantro, container-garden, soil, foliage"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of leaf mass showing active expansion and excellent plant vigor.",
+          "tags": "cilantro, close-up, leaf-expansion, healthy"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:03 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

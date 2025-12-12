@@ -46,6 +46,115 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:41 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "151",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "79.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is in strong active fruiting condition with dense, healthy foliage and multiple berries simultaneously sizing and coloring. Leaves are broad, firm, and matte green with no wilt, scorch, or disease spotting. Several berries are resting cleanly on mulch with no signs of rot or collapse. The crown remains elevated, open, and well-ventilated. Open blossoms are upright and well-formed, indicating good metabolic comfort despite cooler nighttime temperatures.",
+      "actions": "Do not water today, as soil moisture is in the ideal upper range. Do not fertilize; EC and salt levels are appropriate for fruiting. Maintain current mulch placement and pot position.",
+      "next_steps": "Allow berries to continue coloring naturally over the next several days. Harvest fruit once fully red and slightly soft at the tip. Recheck moisture tomorrow afternoon and water only if readings fall below approximately 30 mS/cm. Continue rotating the pot every 2–3 days for even light exposure.",
+      "q_and_a_summary": "Asked whether the overnight low temperature of 53°F is a concern; confirmed that this temperature is safe for strawberries and can improve fruit quality, sweetness, and firmness rather than cause stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251211-02.jpeg",
+          "caption": "Overhead view showing dense healthy foliage with multiple berries at early color stage.",
+          "tags": "strawberry, overhead, foliage, early-ripening"
+        },
+        {
+          "file_name": "strawberry_002-20251211-03.jpeg",
+          "caption": "Full pot view displaying multiple developing and coloring berries supported by mulch.",
+          "tags": "strawberry, pot-view, berries, mulch"
+        },
+        {
+          "file_name": "strawberry_002-20251211-04.jpeg",
+          "caption": "Close-up of a berry entering color change with healthy surrounding foliage.",
+          "tags": "strawberry, berry, color-change, close-up"
+        },
+        {
+          "file_name": "strawberry_002-20251211-05.jpeg",
+          "caption": "Side view showing berries resting cleanly on mulch with good airflow.",
+          "tags": "strawberry, side-view, mulch, airflow"
+        },
+        {
+          "file_name": "strawberry_002-20251211-06.jpeg",
+          "caption": "Wide view of the plant showing active fruiting and strong leaf structure.",
+          "tags": "strawberry, whole-plant, active-fruiting"
+        },
+        {
+          "file_name": "strawberry_002-20251211-07.jpeg",
+          "caption": "Close view of open red blossoms and developing fruit near the crown.",
+          "tags": "strawberry, blossoms, crown, fruit-set"
+        },
+        {
+          "file_name": "strawberry_002-20251211-08.jpeg",
+          "caption": "Hand-held close-up showing developing berries beneath the canopy with healthy leaf texture.",
+          "tags": "strawberry, berries, canopy, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:21 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.4",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "75",
+        "moisture_mScm": "55",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "8",
+        "soil_temp_f": "62.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows excellent hydration and vigor this morning. Leaves are deep green, glossy, and fully turgid with no wilt or stress. Multiple berries are ripening simultaneously, with additional blossoms transitioning into cleanly forming young fruit. Mulch is supporting berry development well and preventing soil contact. The crown remains clean and open with strong airflow. Recent rain and soil updates have produced stable, even moisture across the root zone.",
+      "actions": "Do not water today, as moisture is ideal. Do not fertilize, since current EC and salt levels indicate balanced nutrition. Leave malformed berries in place; they are not causing issues and will self-select. Rotate the pot every 2–3 days to help ripen fruit evenly.",
+      "next_steps": "Expect slightly slower ripening from tonight’s cool temperatures but improved sweetness. Monitor for new blossoms over the next few days. Watch for eventual runner formation as energy continues building. Keep mulch in its current position and ensure airflow around the crown remains unobstructed.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing hydrated foliage and ripening central berry.",
+          "tags": "strawberry, foliage, ripening, overhead"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Side view capturing dew-covered leaves and ripening fruit supported by mulch.",
+          "tags": "strawberry, dew, fruit, mulch, side-view"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up showing a clean crown and blossoms transitioning into new berry formation.",
+          "tags": "strawberry, crown, blossoms, berry-development, close-up"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Wide shot of the plant in full active fruiting, with multiple berries visible.",
+          "tags": "strawberry, active-fruiting, berries, whole-plant"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:30 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
