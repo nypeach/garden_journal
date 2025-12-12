@@ -7,50 +7,101 @@
   "container": "Raised Bed (Stake 2)",
   "soil_mix": "Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
-    "Bought on Oct 8, 2025 (2.32 qt container).",
-    "Transplanted into raised bed and staked.",
-    "Positioned to receive approximately 6 hours of full sun daily.",
-    "Compacted topsoil/sand layer removed on Dec 9, 2025.",
-    "Replaced with Miracle-Gro Potting Mix to improve aeration and root conditions."
+    "Planted in brown raised bed 2' × 6' × 10\" in early November 2025.",
+    "Originally shared Stake 2 with Zucchini (removed Nov 19, 2025).",
+    "Compacted topsoil/sand layer removed.",
+    "Replaced with Miracle-Gro Potting Mix to improve aeration."
   ],
-  "whats_been_logged": "The plant has been progressing from early flowering into heavy fruit set while repeatedly balancing soil moisture and foliar health. Initial leaf-spot on older foliage was managed with selective pruning, but renewed spotting on mid-canopy leaves led to more extensive sanitation pruning and a temporary thinning of the canopy. Persistent probe and moisture issues traced to a compacted topsoil/sand layer were corrected on Dec 9, 2025 by replacing the upper root zone with potting mix, and current tracking focuses on canopy regrowth, disease recovery, and stable fruit development under improved soil conditions.",
-  "current_stage": "Active Fruit Set",
-  "current_state": "The plant is in active fruit set with multiple well-formed green clusters while recovering from significant foliar spotting and recent sanitation pruning. Lower and mid-canopy leaves with advanced lesions were removed, leaving a temporarily open lower stem and a concentrated upper canopy of healthy foliage and flowers. New growth at the top remains vigorous and well hydrated, and with improved soil aeration and moisture distribution the plant is poised to rebuild a fuller canopy while continuing to size fruit.",
+  "whats_been_logged": "The plant is growing vigorously after improvements to soil aeration and moisture retention, and current attention is on its early vegetative expansion and developing branch structure.",
+  "current_stage": "Early Vegetative Growth",
+  "current_state": "Upright, branching bush bean with expanding trifoliate leaves; mild chewing on lower leaves but no progressing damage; soil structure improved after amendment.",
   "timeline": [
     {
-      "stage": "Early vegetative growth completed",
-      "date_range": "Oct 15 - Nov 5, 2025"
+      "stage": "First true leaves",
+      "date_range": "Nov 20 - Nov 24, 2025"
     },
     {
-      "stage": "Canopy expansion completed",
-      "date_range": "Nov 5 - Nov 10, 2025"
+      "stage": "Full seedling stage, several leaf sets",
+      "date_range": "Nov 25 - Dec 2, 2025"
     },
     {
-      "stage": "Initial flowering completed",
-      "date_range": "Nov 10 - Nov 14, 2025"
+      "stage": "Bushy plant structure forming",
+      "date_range": "Dec 1 - Dec 10, 2025"
     },
     {
-      "stage": "Early fruit set (first tomatoes)",
-      "date_range": "Nov 14 - Nov 17, 2025"
+      "stage": "Flower buds appearing",
+      "date_range": "Dec 18 - Dec 25, 2025"
     },
     {
-      "stage": "Flowering and fruit set building",
-      "date_range": "Nov 19 - Dec 8, 2025"
+      "stage": "Active flowering",
+      "date_range": "Dec 22, 2025 - Jan 2, 2026"
     },
     {
-      "stage": "Canopy regrowth and branching after disease pruning and soil correction",
-      "date_range": "Dec 9 - Dec 16, 2025"
+      "stage": "First pods setting",
+      "date_range": "Dec 28, 2025 - Jan 6, 2026"
     },
     {
-      "stage": "First ripening (first fruits showing blush color)",
-      "date_range": "Dec 18 - Dec 31, 2025"
+      "stage": "First harvest window",
+      "date_range": "Jan 10 - Jan 20, 2026"
     },
     {
-      "stage": "Regular cherry tomato harvests from successive clusters",
-      "date_range": "Dec 22, 2025 - Mar 31, 2026"
+      "stage": "Continuous (pick every 2-3 days)",
+      "date_range": "Jan 20 - Feb 28, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/11/2025",
+      "time": "5:04 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "22",
+        "moisture_mScm": "21.00",
+        "light": "59",
+        "rh_percent": "52",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "72.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows stable, healthy early vegetative growth with firm posture and expanding trifoliate leaves. Lower, older leaves display chewing damage consistent with small beetles or caterpillars, but new growth remains clean and unaffected. Soil appears well-aerated and settled after recent correction, and no signs of wilt or stress are present. Current environmental temperatures fall well within the plant’s comfort range.",
+      "actions": "Apply a light watering of 1 cup around the dripline to support moisture stability overnight. Do not apply any pesticide at this time, as chewing is limited to older leaves and does not affect new growth. Adjust nearby zucchini leaf shading if needed to provide more consistent morning light.",
+      "next_steps": "Recheck moisture tomorrow morning to confirm hydration stability. Monitor the newest trifoliate leaves for chewing damage; intervene only if new growth becomes affected. Expect accelerated vegetative expansion over the next several days with ideal temperatures and improved soil conditions.",
+      "q_and_a_summary": "Discussed whether forecast temperatures pose a risk and confirmed they remain well within safe limits for bush beans.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251211-02.jpeg",
+          "caption": "Overhead view showing the plant’s expanding leaf canopy and overall healthy structure.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251211-03.jpeg",
+          "caption": "Close view of lower leaf displaying chewing damage limited to older foliage.",
+          "tags": "green-beans, leaf-damage, chewing"
+        },
+        {
+          "file_name": "green_beans_001-20251211-04.jpeg",
+          "caption": "Detailed look at holes and edge bites on the lower leaf surface.",
+          "tags": "green-beans, pest-signs, lower-leaf"
+        },
+        {
+          "file_name": "green_beans_001-20251211-05.jpeg",
+          "caption": "Side angle showing lower leaves with cosmetic chewing while new growth remains intact.",
+          "tags": "green-beans, growth, lower-leaves"
+        },
+        {
+          "file_name": "green_beans_001-20251211-06.jpeg",
+          "caption": "Another close-up of the lower foliage, highlighting minor chewing without spread to new leaves.",
+          "tags": "green-beans, closeup, chewing-damage"
+        }
+      ]
+    },
     {
       "date": "12/9/2025",
       "time": "8:49 AM",

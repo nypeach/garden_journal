@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 11, 2025 7:45 PM_
+_Last Updated: December 11, 2025 8:55 PM_
 ===============================================
 
 ## Purpose
@@ -75,7 +75,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Phase 5 - Photo Management System 🚧 **IN PROGRESS** (5A & 5B Complete)
+**Current Phase:** Phase 5 - Photo Management System 🚧 **IN PROGRESS** (5A, 5B & 5C Complete)
 
 ### ✅ Completed
 - Phase 1: Foundation Setup (complete)
@@ -96,13 +96,21 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - Sequential renaming: plant_id-YYYYMMDD-##.jpeg
   - Google Drive subfolder organization
   - ChatGPT message generation with probe warnings
+  - EXIF orientation correction (photos display right-side up)
+  - Smart message system (global weather + plant-specific)
+  - Intelligent reset buttons (process another plant vs start fresh)
 - **Phase 5B: Google Drive Photo Serving (complete)**
   - Flask route: /photos/<plant_id>/<filename>
   - Journal displays photos from Google Drive
   - Photos sync across devices
+- **Phase 5C: Placeholder Photo Upload (complete)**
+  - Click or drag & drop to upload single photo
+  - Auto-naming from journal context
+  - Compression and EXIF correction
+  - JSON auto-update
+  - Immediate display refresh
 
 ### 🚧 In Progress
-- **Phase 5C: Placeholder Photo Upload (Version 2)**
 - **Phase 5D: Photo Lightbox Modal (Version 2)**
 
 ### 📋 Next Up
@@ -147,16 +155,19 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [ ] Add Containers Form
 - [ ] Add Products Form
 
-### Phase 5: Photo Management System (IN PROGRESS - 5A & 5B COMPLETE)
+### Phase 5: Photo Management System (IN PROGRESS - 5A, 5B & 5C COMPLETE)
 - [x] **Photo Prep Tool (Version 1 - COMPLETE)**
   - [x] Create `/photo-prep` route and form
   - [x] File upload handling (multiple files, drag & drop)
   - [x] PIL/Pillow image compression (85% quality)
   - [x] HEIC format support (pillow-heif)
+  - [x] EXIF orientation correction (ImageOps.exif_transpose)
   - [x] Automated file renaming: `{plant_id}-{YYYYMMDD}-{##}.jpeg`
   - [x] Subfolder organization by plant_id
   - [x] Generate formatted ChatGPT message with filenames
   - [x] Probe reading warning for -01 photos
+  - [x] Smart message system (global + plant-specific)
+  - [x] Intelligent reset buttons (process another vs start fresh)
   - [x] Display output in copyable code block
 - [x] **Google Drive Photo Integration (COMPLETE)**
   - [x] Create `/photos/<plant_id>/<filename>` route
@@ -164,13 +175,14 @@ This file maintains context for AI assistants working on the **Garden Journal** 
   - [x] Update journal template to use new photo route
   - [x] Photos organized in plant-specific subfolders
   - [x] Handle missing files gracefully (404)
-- [ ] **Placeholder Photo Upload (Version 2)**
-  - [ ] Make placeholder boxes clickable
-  - [ ] Single photo upload on click
-  - [ ] Auto-determine filename from context
-  - [ ] Compress and move to correct subfolder
-  - [ ] Update JSON with actual filename
-  - [ ] Refresh display to show photo
+- [x] **Placeholder Photo Upload (Version 2 - COMPLETE)**
+  - [x] Make placeholder boxes clickable and drag & drop enabled
+  - [x] Single photo upload on click or drop
+  - [x] Auto-determine filename from context (plant_id, date, index)
+  - [x] Compress with EXIF orientation correction
+  - [x] Move to correct subfolder
+  - [x] Update JSON with actual filename
+  - [x] Refresh display to show photo immediately
 - [ ] **Photo Lightbox Modal (Version 2)**
   - [ ] Create lightbox modal component
   - [ ] Make thumbnails clickable

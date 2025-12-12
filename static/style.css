@@ -327,6 +327,24 @@ section {
   opacity: 0.8;
 }
 
+.placeholder-upload {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.placeholder-upload:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  opacity: 1;
+}
+
+.placeholder-file-input {
+  display: none;
+}
+
 .photo-item img {
   width: 100%;
   aspect-ratio: 4 / 3;

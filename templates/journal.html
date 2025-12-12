@@ -112,7 +112,12 @@
           {% for photo in entry.photos %}
           <figure class="photo-item">
             {% if photo.file_name == "<<put filename here>>" %}
-              <div class="photo-placeholder">Photo placeholder</div>
+              <div class="photo-placeholder placeholder-upload" data-plant-id="{{ plant_id }}"
+                data-date="{{ entry.date }}" data-photo-index="{{ loop.index }}">
+                📷 Click or Drop Photo Here
+                <input type="file" class="placeholder-file-input" accept="image/jpeg,image/jpg,image/png,image/heic"
+                  style="display: none;">
+              </div>
               {% else %}
               <img src="/photos/{{ plant_id }}/{{ photo.file_name }}" alt="{{ photo.caption }}">
               {% endif %}
@@ -125,6 +130,113 @@
     </section>
     {% endfor %}
   </div>
+
+  <script>
+    // Placeholder photo upload functionality
+    document.addEventListener('DOMContentLoaded', function () {
+      const placeholders = document.querySelectorAll('.placeholder-upload');
+
+      placeholders.forEach(function (placeholder) {
+        const fileInput = placeholder.querySelector('.placeholder-file-input');
+
+        // Click placeholder to open file picker
+        placeholder.addEventListener('click', function (e) {
+          // Don't trigger if dropping
+          if (!placeholder.classList.contains('dropping')) {
+            fileInput.click();
+          }
+        });
+
+        // Drag and drop functionality
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+          placeholder.addEventListener(eventName, function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+          }, false);
+        });
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+          placeholder.addEventListener(eventName, function () {
+            placeholder.classList.add('dropping');
+            placeholder.style.borderColor = 'var(--accent)';
+            placeholder.style.background = 'var(--accent-soft)';
+          }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+          placeholder.addEventListener(eventName, function () {
+            placeholder.classList.remove('dropping');
+            placeholder.style.borderColor = '';
+            placeholder.style.background = '';
+          }, false);
+        });
+
+        // Handle dropped files
+        placeholder.addEventListener('drop', function (e) {
+          const dt = e.dataTransfer;
+          const files = dt.files;
+
+          if (files.length > 0) {
+            // Create a new FileList-like object
+            const dataTransfer = new DataTransfer();
+            dataTransfer.items.add(files[0]); // Only take first file
+            fileInput.files = dataTransfer.files;
+
+            // Trigger the change event
+            const event = new Event('change', { bubbles: true });
+            fileInput.dispatchEvent(event);
+          }
+        }, false);
+
+        // Handle file selection (both click and drop)
+        fileInput.addEventListener('change', function (e) {
+          const file = e.target.files[0];
+          if (!file) return;
+
+          const plantId = placeholder.getAttribute('data-plant-id');
+          const date = placeholder.getAttribute('data-date');
+          const photoIndex = placeholder.getAttribute('data-photo-index');
+
+          // Show loading state
+          placeholder.innerHTML = '⏳ Uploading...';
+          placeholder.style.cursor = 'wait';
+
+          // Create form data
+          const formData = new FormData();
+          formData.append('photo', file);
+          formData.append('plant_id', plantId);
+          formData.append('date', date);
+          formData.append('photo_index', photoIndex);
+
+          // Upload photo
+          fetch('/upload-placeholder-photo', {
+            method: 'POST',
+            body: formData
+          })
+            .then(response => response.json())
+            .then(data => {
+              if (data.success) {
+                // Replace placeholder with actual image
+                const img = document.createElement('img');
+                img.src = data.photo_url;
+                img.alt = 'Uploaded photo';
+                placeholder.parentElement.querySelector('.photo-placeholder').replaceWith(img);
+              } else {
+                alert('Error uploading photo: ' + (data.error || 'Unknown error'));
+                placeholder.innerHTML = '📷 Click or Drop Photo Here';
+                placeholder.style.cursor = 'pointer';
+              }
+            })
+            .catch(error => {
+              console.error('Upload error:', error);
+              alert('Error uploading photo: ' + error);
+              placeholder.innerHTML = '📷 Click or Drop Photo Here';
+              placeholder.style.cursor = 'pointer';
+            });
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>

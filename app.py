@@ -167,7 +167,8 @@ def photo_prep():
         date_str = request.form.get('date', '')
         starting_number = request.form.get('starting_number', '').strip()
         context = request.form.get('context', 'Initial')
-        message = request.form.get('message', '').strip()
+        global_message = request.form.get('global_message', '').strip()
+        plant_message = request.form.get('plant_message', '').strip()
         files = request.files.getlist('photos')
 
         # Validation
@@ -215,8 +216,15 @@ def photo_prep():
                     temp_path = plant_folder / f"temp_{file.filename}"
                     file.save(temp_path)
 
-                    # Open and compress image
+                    # Open and apply EXIF orientation
                     img = Image.open(temp_path)
+
+                    # Fix orientation based on EXIF data
+                    try:
+                        from PIL import ImageOps
+                        img = ImageOps.exif_transpose(img)
+                    except Exception as exif_error:
+                        print(f"Could not apply EXIF orientation: {exif_error}")
 
                     # Convert RGBA to RGB if necessary (for PNG with transparency)
                     if img.mode in ('RGBA', 'LA', 'P'):
@@ -255,8 +263,16 @@ def photo_prep():
 
         # Generate output message
         output_lines = []
-        if message:
-            output_lines.append(message)
+
+        # Combine global and plant-specific messages
+        combined_message = []
+        if global_message:
+            combined_message.append(global_message)
+        if plant_message:
+            combined_message.append(plant_message)
+
+        if combined_message:
+            output_lines.append('\n\n'.join(combined_message))
             output_lines.append('')  # Blank line
 
         # Add instruction block
@@ -280,12 +296,114 @@ def photo_prep():
             output_message=output_message,
             processed_count=len(processed_files),
             plant_folder=str(plant_folder),
-            current_date=datetime.now().strftime('%Y-%m-%d')
+            current_date=datetime.now().strftime('%Y-%m-%d'),
+            global_message=global_message
         )
 
     except Exception as e:
         flash(f'Error processing photos: {str(e)}', 'error')
         return redirect(url_for('photo_prep'))
+
+
+@app.route('/upload-placeholder-photo', methods=['POST'])
+def upload_placeholder_photo():
+    """
+    Handle single photo upload for placeholder replacement
+    Automatically determines filename from context
+    """
+    try:
+        # Get form data
+        plant_id = request.form.get('plant_id', '').strip()
+        date_str = request.form.get('date', '').strip()  # Format: M/D/YYYY
+        photo_index = request.form.get('photo_index', '').strip()
+        file = request.files.get('photo')
+
+        # Validation
+        if not plant_id or not date_str or not photo_index or not file:
+            return jsonify({'error': 'Missing required fields'}), 400
+
+        # Parse date and create filename date format (YYYYMMDD)
+        from datetime import datetime
+        date_obj = datetime.strptime(date_str, '%m/%d/%Y')
+        date_filename = date_obj.strftime('%Y%m%d')
+
+        # Generate filename
+        new_filename = f"{plant_id}-{date_filename}-{photo_index.zfill(2)}.jpeg"
+
+        # Create plant subfolder if it doesn't exist
+        plant_folder = PHOTO_BASE_PATH / plant_id
+        plant_folder.mkdir(parents=True, exist_ok=True)
+        file_path = plant_folder / new_filename
+
+        # Save uploaded file to temporary location first
+        temp_path = plant_folder / f"temp_{file.filename}"
+        file.save(temp_path)
+
+        # Open and apply EXIF orientation
+        img = Image.open(temp_path)
+
+        # Fix orientation based on EXIF data
+        try:
+            from PIL import ImageOps
+            img = ImageOps.exif_transpose(img)
+        except Exception as exif_error:
+            print(f"Could not apply EXIF orientation: {exif_error}")
+
+        # Convert RGBA to RGB if necessary (for PNG with transparency)
+        if img.mode in ('RGBA', 'LA', 'P'):
+            background = Image.new('RGB', img.size, (255, 255, 255))
+            if img.mode == 'P':
+                img = img.convert('RGBA')
+            background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+            img = background
+        elif img.mode != 'RGB':
+            img = img.convert('RGB')
+
+        # Save with compression
+        img.save(
+            file_path,
+            'JPEG',
+            quality=COMPRESSION_QUALITY,
+            optimize=True,
+            progressive=True
+        )
+
+        # Delete temporary file
+        temp_path.unlink()
+
+        # Update JSON file
+        plant = data_manager.get_plant(plant_id)
+        if not plant:
+            return jsonify({'error': 'Plant not found'}), 404
+
+        # Find the journal entry and update the photo filename
+        updated = False
+        for entry in plant.get('journal', []):
+            if entry.get('date') == date_str:
+                for photo in entry.get('photos', []):
+                    if photo.get('file_name') == '<<put filename here>>':
+                        photo['file_name'] = new_filename
+                        updated = True
+                        break
+                if updated:
+                    break
+
+        if updated:
+            # Save updated plant data
+            data_manager.save_plant(plant_id, plant)
+            return jsonify({
+                'success': True,
+                'filename': new_filename,
+                'photo_url': f'/photos/{plant_id}/{new_filename}'
+            })
+        else:
+            return jsonify({'error': 'Could not find placeholder to update'}), 404
+
+    except Exception as e:
+        print(f"Error uploading placeholder photo: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/photos/<plant_id>/<filename>')

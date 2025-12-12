@@ -46,6 +46,99 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:36 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "7.8",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "52",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "11",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil shows strong upright growth, full canopy development, and bright leaf coloration. No signs of dehydration, nutrient imbalance, or environmental stress. Surface soil is evenly hydrated and well-integrated following recent adjustments. Slightly elevated pH is consistent with topsoil fluctuations seen in late afternoon readings and not reflective of root stress.",
+      "actions": "No watering required this afternoon. Allow natural dry-down to continue. No fertilizer recommended at this time.",
+      "next_steps": "Continue monitoring moisture each morning. Expect pH to settle near neutral as soil remains consistently hydrated. Temperatures in the mid-50s overnight remain safe; no protective measures are necessary until forecasted lows fall below 48°F.",
+      "q_and_a_summary": "User asked whether tonight’s low temperature of 53°F is concerning; confirmed that this range is safe for basil with no interventions required.",
+      "follow_up": [
+        "[4:36 PM] Observed strong growth and stable soil behavior under full sun conditions."
+      ],
+      "photos": [
+        {
+          "file_name": "basil_001-20251211-02.jpeg",
+          "caption": "Top view showing strong leaf expansion and healthy canopy structure.",
+          "tags": "basil, top-view, canopy"
+        },
+        {
+          "file_name": "basil_001-20251211-03.jpeg",
+          "caption": "Side view highlighting upright growth across all clusters.",
+          "tags": "basil, side-view, stems"
+        },
+        {
+          "file_name": "basil_001-20251211-04.jpeg",
+          "caption": "Angled perspective showing balanced foliage density and healthy leaf posture.",
+          "tags": "basil, foliage, structure"
+        },
+        {
+          "file_name": "basil_001-20251211-05.jpeg",
+          "caption": "Close overhead view capturing bright leaf color and new growth.",
+          "tags": "basil, top-view, new-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:10 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "7.0",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "93",
+        "moisture_mScm": "56",
+        "light": "88",
+        "rh_percent": "65",
+        "fertility_percent": "9",
+        "soil_temp_f": "62.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil appears vigorous with bright, even leaf coloration and strong new growth. Canopy is fuller and stems are developing well. Yesterday’s added potting mix has integrated and no longer impacts pH readings. Surface hydration is uniform. No signs of nutrient deficiency, stress, or disease.",
+      "actions": "No watering needed this morning as moisture is ideal. Allow natural dry-down toward the mid-40s before the next watering. No fertilizer at this time.",
+      "next_steps": "Continue monitoring moisture daily. Expect stable pH going forward. Delay fertilization until fertility consistently drops below 7% and the plant enters another rapid growth phase.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[8:10 AM] Plant thriving this morning with corrected pH and excellent sun exposure."
+      ],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Morning side view showing vigorous upright stems and full canopy.",
+          "tags": "basil, side-view, healthy-growth"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Front angle capturing the expanding foliage and uniform structure.",
+          "tags": "basil, foliage, structure"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view with vibrant leaf color and healthy cluster development.",
+          "tags": "basil, top-view, clusters"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:21 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",

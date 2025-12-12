@@ -78,10 +78,15 @@
           <option value="Follow-Up">Follow-Up</option>
         </select>
 
-        <div class="field-label">Message *</div>
-        <textarea id="message" name="message" class="form-textarea" required
-          placeholder="Enter weather conditions, observations, and any questions for ChatGPT..."></textarea>
-        <div class="form-hint">This text will appear above the photo filename list</div>
+        <div class="field-label">Global Message (Weather)</div>
+        <textarea id="global_message" name="global_message" class="form-textarea"
+          placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight..."></textarea>
+        <div class="form-hint">Weather conditions - this will be saved for the next plant</div>
+
+        <div class="field-label">Plant-Specific Message</div>
+        <textarea id="plant_message" name="plant_message" class="form-textarea"
+          placeholder="Plant observations, questions, follow-ups..."></textarea>
+        <div class="form-hint">Observations for this specific plant</div>
 
         <button type="submit" class="submit-btn">📤 Process Photos</button>
       </form>
@@ -107,14 +112,51 @@
           onclick="copyToClipboard()">Copy</button>
       </div>
 
-      <p style="margin-top: 24px;">
-        <a href="/photo-prep" class="nav-link">← Process More Photos</a>
-      </p>
+      <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+        <button onclick="processAnotherPlant()" class="submit-btn">🌱 Process Another Plant</button>
+        <button onclick="startFresh()" class="submit-btn" style="background: var(--text-muted);">🔄 Start Fresh</button>
+      </div>
+
+      <script>
+        // Save global message to localStorage
+        const globalMessage = `{{ global_message if global_message else '' }}`;
+        if (globalMessage) {
+          localStorage.setItem('garden_global_message', globalMessage);
+        }
+
+        function processAnotherPlant() {
+          // Keep global message, clear everything else
+          const saved = localStorage.getItem('garden_global_message') || '';
+          window.location.href = '/photo-prep?global_message=' + encodeURIComponent(saved);
+        }
+
+        function startFresh() {
+          // Clear everything including global message
+          localStorage.removeItem('garden_global_message');
+          window.location.href = '/photo-prep';
+        }
+      </script>
     </div>
     {% endif %}
   </div>
 
   <script>
+    // Pre-fill global message from localStorage or URL parameter
+    document.addEventListener('DOMContentLoaded', function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const globalMsg = urlParams.get('global_message') || localStorage.getItem('garden_global_message') || '';
+
+      if (globalMsg) {
+        document.getElementById('global_message').value = globalMsg;
+      }
+
+      // Save global message to localStorage when typing
+      const globalInput = document.getElementById('global_message');
+      globalInput.addEventListener('input', function () {
+        localStorage.setItem('garden_global_message', this.value);
+      });
+    });
+
     // Drag and drop functionality
     const uploadZone = document.getElementById('uploadZone');
     const fileInput = document.getElementById('fileInput');

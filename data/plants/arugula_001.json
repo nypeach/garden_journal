@@ -35,6 +35,43 @@
   ],
   "journal": [
     {
+      "date": "12/10/2025",
+      "time": "8:52 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "78",
+        "moisture_mScm": "53.00",
+        "light": "93",
+        "rh_percent": "64",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "63.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tray shows clear improvement with seedlings appearing more lifted, hydrated, and less stressed compared with yesterday. Color is shifting from pale yellow to a healthier light green, especially along the right side which shows strong leaf expansion. No new spotting or lesions are present, and existing marks remain dry and unchanged. The soil surface appears evenly moist rather than saturated, and the canopy overall shows signs of active recovery and renewed growth.",
+      "actions": "Do not water today, as moisture is in the ideal mid-range for arugula. Hold off on fertilizing and thinning for now while the tray continues stabilizing. Optionally rotate the planter 180 degrees to balance light exposure across the canopy.",
+      "next_steps": "Recheck moisture tomorrow to ensure continued mid-range stability. Monitor for continued greening and upward growth, which should accelerate with today's ideal temperatures. Plan for a possible micro-thinning once the canopy evens out. Expect the first baby-leaf harvest window in 3–5 days if growth continues at this pace.",
+      "q_and_a_summary": "Discussed whether the arugula should be transplanted into a larger container and confirmed that moving to a new container is not recommended for baby-leaf production, as the current planter is ideal and transplanting would cause growth setbacks. Also reviewed which scissors are best for harvesting, confirming that lightweight garden scissors are better suited than heavy pruning shears for clean cuts and healthy regrowth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Overhead view showing healthier leaf color and renewed upward growth across the tray.",
+          "tags": "arugula, baby-greens, recovery, canopy"
+        },
+        {
+          "file_name": "<<put filename here>>",
+          "caption": "Close-up of improved seedling turgor with no new spotting or lesions.",
+          "tags": "arugula, seedling-health, leaf-color"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "8:02 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
@@ -62,17 +99,17 @@
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "arugula_001-20251209-02.jpeg",
           "caption": "Close-up showing greener upper leaves in the taller right-hand section and pale seedlings in the more crowded zones.",
           "tags": "arugula, seedlings, uneven-growth, pale-leaves"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "arugula_001-20251209-03.jpeg",
           "caption": "Overhead view showing saturated soil, static leaf spots, and slightly improved canopy turgor.",
           "tags": "arugula, saturated-soil, baby-leaf, spotting"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "arugula_001-20251209-04.jpeg",
           "caption": "The right side of the tray displaying stronger leaf coloration and no new lesion development.",
           "tags": "arugula, new-growth, healthy-leaves"
         }

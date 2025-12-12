@@ -34,6 +34,105 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:38 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "7.4",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "81",
+        "moisture_mScm": "47",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "8",
+        "soil_temp_f": "73.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil foliage remains structurally strong with no wilting or collapse despite cooler temperatures. The yellowing present on the right-most stems remains visible, but the photos show slight deepening of color compared to yesterday. New growth tips appear healthy and green. Moisture has naturally settled back into the ideal 40–55% range, and salt has dropped significantly from 156 mg/L to 81 mg/L, confirming a healthy leaching effect from recent rainfall. The plant shows no signs of cold stress, fungal issues, pest activity, or nutrient burn. Slight mottling remains on older leaves but is not progressing.",
+      "actions": "No watering or fertilizing today. Continue allowing natural dry-down. Rotate the container slightly to balance light exposure among the clusters. Avoid pruning the pale stems until color stabilizes.",
+      "next_steps": "Overnight lows near the low 50s are safe for basil but close to its lower comfort limit—expect slowed growth for 24 hours. Protect the plant only if temperatures fall below 45°F. Continue monitoring the chlorotic stems for greening as moisture and salt remain stable.",
+      "q_and_a_summary": "User asked if tonight’s ~53°F temperature should be a concern. Explained that this is within basil’s safe range and should not cause damage.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251211-02.jpeg",
+          "caption": "Overhead view showing basil canopy with mild chlorosis on the right-side stems.",
+          "tags": "basil, overhead, chlorosis"
+        },
+        {
+          "file_name": "basil_002-20251211-03.jpeg",
+          "caption": "Side-angle showing healthy structure and even leaf posture.",
+          "tags": "basil, side-view, foliage"
+        },
+        {
+          "file_name": "basil_002-20251211-04.jpeg",
+          "caption": "Container view with balanced growth across stem clusters.",
+          "tags": "basil, container, growth"
+        },
+        {
+          "file_name": "basil_002-20251211-05.jpeg",
+          "caption": "Angle capturing leaf coloration and improved moisture balance.",
+          "tags": "basil, foliage, moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/10/2025",
+      "time": "8:12 AM",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "digital_probe": {
+        "ph": "6.8",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "156",
+        "moisture_mScm": "80",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "17",
+        "soil_temp_f": "63.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil shows overall healthy structure, upright stems, and active new growth, but the right-side stems have pronounced yellowing and mottling, noticeably more than yesterday. This is consistent with a temporary chlorotic response triggered by the earlier extreme dryness, followed by rehydration and soil disturbance. The leaf texture remains firm, which indicates this is not nutrient burn or disease. Soil moisture is high (80%), consistent with recent rain. Salt has risen to 156 mg/L — still safe, but nearing the threshold where basil can show minor stress coloration. The cooler soil temperature this morning has slightly slowed color recovery of chlorotic leaves.",
+      "actions": "Do not water or fertilize today. Allow the soil to dry down naturally toward the 45–55 range. Gently rotate the pot so that the yellowing stems receive more morning sun to accelerate chlorophyll recovery. Do not prune the pale stems yet — they are still viable and producing new leaf tissue.",
+      "next_steps": "Expect the yellowed leaves to deepen in color over the next 48–72 hours as moisture stabilizes. If salt continues to rise above ~170 mg/L, plan a controlled flush this weekend. If the pale canopy segment begins producing normally green new leaves, the stress event is fully resolved.",
+      "q_and_a_summary": "User provided updated photos showing increased yellowing on one side. Explained that this is peak chlorosis related to earlier drought and soil disturbance, not ongoing decline.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Side view showing right-side chlorosis and overall healthy posture.",
+          "tags": "basil, chlorosis, side-view"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Angle capturing contrast between vigorous green stems and the recovering pale stem group.",
+          "tags": "basil, color-variation, recovery"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Overhead shot documenting distribution of yellowing versus healthy foliage.",
+          "tags": "basil, overhead, chlorosis"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Container-wide view showing even soil moisture and healthy structure.",
+          "tags": "basil, container, structure"
+        },
+        {
+          "file_name": "<<insert_filename_here>>",
+          "caption": "Close-up of pale leaf cluster showing firm texture and normal veins.",
+          "tags": "basil, close-up, leaf-health"
+        }
+      ]
+    },
+    {
       "date": "12/9/2025",
       "time": "7:23 AM",
       "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
