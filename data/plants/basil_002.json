@@ -34,6 +34,53 @@
   ],
   "journal": [
     {
+      "date": "12/12/2025",
+      "time": "1:05 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.30",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "71.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil appears vigorous with broad, turgid leaves and dense lateral branching. Soil moisture is very high, and the soil surface is developing a tight \"carpet\" consistent with a surface root mat forming a thin skin. The canopy shows no wilting, pest activity, or structural stress.",
+      "actions": "Do not water today. Lightly rough up the top 1/4 inch of soil in several spots to break the surface root mat skin without disturbing deeper roots. Top-dress with 1/4 inch of fresh potting mix to keep the surface from sealing over again and to improve even wetting on the next watering. Do not fertilize or apply pH adjustments.",
+      "next_steps": "Allow the pot to dry down naturally over the next 24–48 hours. Recheck moisture tomorrow and avoid watering until readings fall below 55 mS/cm. Watch for water beading or runoff at the next watering; if it occurs, pause and water in small passes to re-wet evenly.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251212-02.jpeg",
+          "caption": "Overhead view showing dense basil canopy with healthy leaf posture and uniform structure.",
+          "tags": "basil, overhead, canopy, healthy-growth"
+        },
+        {
+          "file_name": "basil_002-20251212-03.jpeg",
+          "caption": "Side view capturing broad leaves and strong stems with no wilting despite saturated soil.",
+          "tags": "basil, side-view, foliage, vigor"
+        },
+        {
+          "file_name": "basil_002-20251212-04.jpeg",
+          "caption": "Angled view of the container showing lush growth and a moisture-heavy soil surface.",
+          "tags": "basil, container, moist-soil, growth"
+        },
+        {
+          "file_name": "basil_002-20251212-05.jpeg",
+          "caption": "Lower-angle view highlighting leaf size and density with no visible pest damage.",
+          "tags": "basil, foliage, leaf-size, healthy"
+        }
+      ]
+    },
+    {
       "date": "12/11/2025",
       "time": "4:38 PM",
       "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",

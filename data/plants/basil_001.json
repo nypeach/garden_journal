@@ -46,6 +46,48 @@
   ],
   "journal": [
     {
+      "date": "12/12/2025",
+      "time": "1:04 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.40",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "124",
+        "moisture_mScm": "60.00",
+        "light": "98",
+        "rh_percent": "47",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "69.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil is full and upright with multiple healthy stems and vibrant green leaves. Leaf surfaces look clean with no obvious spotting, mildew, or chewing damage. The soil surface appears dark and evenly moist.",
+      "actions": "Do not water today; allow the pot to dry down slightly between waterings. Avoid adding any lime or alkaline amendments while pH is running high. Keep the pot in strong light and rotate it slightly to keep growth even.",
+      "next_steps": "Recheck moisture tomorrow morning and only water if the top 1 inch is dry and the moisture reading has clearly dropped from today’s level. Watch new growth for any paling or slowed growth that could indicate the high pH is limiting nutrient uptake. If pH stays above ~7.2 for several days, share the next reading and photo so adjustments can be timed safely around weather.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251212-02.jpeg",
+          "caption": "Overhead view showing a dense cluster of basil stems with healthy, bright green foliage and good overall structure.",
+          "tags": "basil, overhead, canopy, leaf-color, vigor"
+        },
+        {
+          "file_name": "basil_001-20251212-03.jpeg",
+          "caption": "Side view showing multiple stems standing upright with broad leaves and no obvious wilting or discoloration.",
+          "tags": "basil, side-view, stems, leaf-turgor, growth"
+        },
+        {
+          "file_name": "basil_001-20251212-04.jpeg",
+          "caption": "Angled view showing overall plant size and spacing in the pot, with evenly moist soil and healthy leaf texture.",
+          "tags": "basil, container, soil-surface, structure, healthy"
+        }
+      ]
+    },
+    {
       "date": "12/11/2025",
       "time": "4:36 PM",
       "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",

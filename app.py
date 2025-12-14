@@ -161,10 +161,14 @@ def photo_prep():
         all_plants = data_manager.get_all_plants()
         available_plant_ids = sorted([p.get('id') for p in all_plants if p.get('id')])
 
+        # Get date from URL parameter or use today
+        date_param = request.args.get('date', '')
+        current_date = date_param if date_param else datetime.now().strftime('%Y-%m-%d')
+
         # Show the form
         return render_template(
             'photo_prep.html',
-            current_date=datetime.now().strftime('%Y-%m-%d'),
+            current_date=current_date,
             available_plants=available_plant_ids
         )
 
@@ -175,7 +179,6 @@ def photo_prep():
         date_str = request.form.get('date', '')
         starting_number = request.form.get('starting_number', '').strip()
         context = request.form.get('context', 'Initial')
-        channel_type = request.form.get('channel_type', 'existing')  # 'existing' or 'new'
         global_message = request.form.get('global_message', '').strip()
         plant_message = request.form.get('plant_message', '').strip()
         files = request.files.getlist('photos')
@@ -290,16 +293,12 @@ def photo_prep():
             output_lines.append('\n\n'.join(combined_message))
             output_lines.append('')  # Blank line
 
-        # Add instruction block ONLY for existing channels
-        if channel_type == 'existing':
-            output_lines.append('Also, instead of the "<<put filename here>>" literal, please use these photo names instead. I\'ve numbered them according to how I uploaded them. Never save probe reading photos.')
-            output_lines.append('')  # Blank line
-
         output_lines.append('Here are the photo names:')
         for idx, filename in enumerate(processed_files, 1):
-            # Add probe warning only for first photo if it ends in -01
-            if idx == 1 and filename.endswith('-01.jpeg'):
-                output_lines.append(f'{idx}. {filename}  **Do not import if probe reading**')
+            # Check if this photo was marked as probe reading
+            probe_checkbox = request.form.get(f'probe_reading_{idx-1}')
+            if probe_checkbox:
+                output_lines.append(f'{idx}. {filename}  ← (probe reading)')
             else:
                 output_lines.append(f'{idx}. {filename}')
 
@@ -312,7 +311,7 @@ def photo_prep():
             output_message=output_message,
             processed_count=len(processed_files),
             plant_folder=str(plant_folder),
-            current_date=datetime.now().strftime('%Y-%m-%d'),
+            current_date=date_str,  # Use the date from the form, not today
             global_message=global_message
         )
 

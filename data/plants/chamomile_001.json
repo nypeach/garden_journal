@@ -42,6 +42,43 @@
   ],
   "journal": [
     {
+      "date": "12/11/2025",
+      "time": "4:58 PM",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "73",
+        "moisture_mScm": "43.50",
+        "light": "89",
+        "rh_percent": "49",
+        "fertility_percent": "7.5",
+        "soil_temp_f": "72.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows healthy feathery foliage with upright stems and bright green color. Established clusters are spreading low and outward along the planting band, with open bare-soil areas between clusters. The soil surface appears dark and evenly moist with no visible crusting, algae, or pooling.",
+      "actions": "Do not water today. Do not fertilize. Maintain current placement and leave the soil surface undisturbed around the chamomile crowns.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 30.00 mS/cm. Continue monitoring foliage posture after cooler nights; no cold protection is needed at an overnight low of 53°F.",
+      "q_and_a_summary": "Discussed whether tonight’s low of 53°F is concerning; confirmed it is safe for chamomile and should not cause damage. Confirmed no watering is needed with moisture in the mid-40s and no fertilizer is recommended at current fertility levels.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251211-03.jpeg",
+          "caption": "Angled view of chamomile clusters showing dense, feathery foliage with upright growth over evenly moist soil.",
+          "tags": "chamomile, feathery-foliage, clusters, healthy, moist-soil"
+        },
+        {
+          "file_name": "chamomile_001-20251211-04.jpeg",
+          "caption": "Wider view of the window box showing multiple chamomile clusters with bare-soil gaps and a uniformly moist soil surface.",
+          "tags": "chamomile, window-box, spacing, clusters, moist-soil"
+        }
+      ]
+    },
+    {
       "date": "12/10/2025",
       "time": "8:50 AM",
       "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",

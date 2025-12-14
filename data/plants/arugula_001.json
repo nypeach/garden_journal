@@ -35,6 +35,48 @@
   ],
   "journal": [
     {
+      "date": "12/12/2025",
+      "time": "1:24 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "43",
+        "moisture_mScm": "32.00",
+        "light": "92",
+        "rh_percent": "35",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula tray is stable and vigorous with clear progression into harvestable baby-leaf size, especially on the right-hand side where leaves are longer and deeper green. Central and left sections remain dense with lighter cotyledons typical of crowding rather than stress. No new spotting, wilting, or pest damage is visible, and soil moisture appears evenly distributed.",
+      "actions": "Do not water today, as moisture is in an ideal dry-down range. Do not fertilize at this stage. Maintain current sun exposure and airflow. Optional preparation for first light baby-leaf harvest may begin within the next 24–48 hours.",
+      "next_steps": "Monitor moisture over the next 1–2 days and plan the next watering once readings fall into the mid-20s. After the first light harvest, expect improved airflow and more even leaf coloration across the tray. Recheck probe readings after harvest to guide regrowth care.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251212-02.jpeg",
+          "caption": "Overhead view of the full window box showing dense baby-leaf arugula with a stronger, larger-leaf cluster on the right and tighter, paler growth through the center and left.",
+          "tags": "arugula, baby-leaf, overhead, canopy"
+        },
+        {
+          "file_name": "arugula_001-20251212-03.jpeg",
+          "caption": "Angled close-up of the right-hand section displaying elongated baby leaves with healthy green color and thicker blades, indicating readiness for a first light harvest.",
+          "tags": "arugula, baby-leaf, harvest-ready, right-side"
+        },
+        {
+          "file_name": "arugula_001-20251212-04.jpeg",
+          "caption": "Left-side section of the planter showing tightly packed younger seedlings with mild sun-related coloration and compact growth consistent with crowding.",
+          "tags": "arugula, seedlings, left-side, sun-exposure"
+        }
+      ]
+    },
+    {
       "date": "12/11/2025",
       "time": "5:01 PM",
       "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",

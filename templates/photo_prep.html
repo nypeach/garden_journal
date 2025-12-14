@@ -49,7 +49,9 @@
 
         <div id="selectedFiles" class="selected-files" style="display: none;">
           <strong>Selected files:</strong>
-          <ul id="filesList" class="selected-files-list"></ul>
+          <div class="form-hint" style="margin: 8px 0;">Check the box if a photo is a probe reading (it will be excluded
+            from the photos list)</div>
+          <div id="filesList" class="selected-files-list"></div>
         </div>
 
         <!-- Form Fields -->
@@ -62,20 +64,6 @@
             {% endfor %}
         </datalist>
         <div class="form-hint">Select or type a plant ID from your garden</div>
-
-        <div class="field-label">Channel Type *</div>
-        <div class="form-row">
-          <label class="radio-label">
-            <input type="radio" name="channel_type" value="existing" checked>
-            <span>Existing Channel (has journal history)</span>
-          </label>
-          <label class="radio-label">
-            <input type="radio" name="channel_type" value="new">
-            <span>New Channel (first entry ever)</span>
-          </label>
-        </div>
-        <div class="form-hint">Select "Existing" if this plant already has journal entries, "New" if this is the first
-          entry</div>
 
         <div class="form-row">
           <div class="form-group">
@@ -137,16 +125,28 @@
       </div>
 
       <script>
-        // Save global message to localStorage
+        // Save global message and date to localStorage
         const globalMessage = `{{ global_message if global_message else '' }}`;
+        const currentDate = `{{ current_date if current_date else '' }}`;
         if (globalMessage) {
           localStorage.setItem('garden_global_message', globalMessage);
         }
 
         function processAnotherPlant() {
-          // Keep global message, clear everything else
-          const saved = localStorage.getItem('garden_global_message') || '';
-          window.location.href = '/photo-prep?global_message=' + encodeURIComponent(saved);
+          // Keep global message and date, clear everything else
+          const savedMessage = localStorage.getItem('garden_global_message') || '';
+          // Use currentDate from success page if available, otherwise try form input
+          const dateToKeep = (typeof currentDate !== 'undefined' && currentDate) ? currentDate : (document.querySelector('input[name="date"]')?.value || '');
+
+          let url = '/photo-prep?';
+          if (savedMessage) {
+            url += 'global_message=' + encodeURIComponent(savedMessage);
+          }
+          if (dateToKeep) {
+            url += (savedMessage ? '&' : '') + 'date=' + encodeURIComponent(dateToKeep);
+          }
+
+          window.location.href = url;
         }
 
         function startFresh() {
@@ -229,9 +229,34 @@
         selectedFiles.style.display = 'block';
         filesList.innerHTML = '';
         for (let i = 0; i < files.length; i++) {
-          const li = document.createElement('li');
-          li.textContent = `${i + 1}. ${files[i].name}`;
-          filesList.appendChild(li);
+          const div = document.createElement('div');
+          div.style.cssText = 'display: flex; align-items: center; gap: 8px; padding: 4px 0;';
+
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.id = `probe_${i}`;
+          checkbox.name = `probe_reading_${i}`;
+          checkbox.style.cursor = 'pointer';
+
+          const label = document.createElement('label');
+          label.htmlFor = `probe_${i}`;
+          label.textContent = `${i + 1}. ${files[i].name}`;
+          label.style.cursor = 'pointer';
+          label.style.flex = '1';
+
+          const probeLabel = document.createElement('span');
+          probeLabel.textContent = '(probe reading)';
+          probeLabel.style.cssText = 'font-size: 0.85em; color: var(--text-muted); font-style: italic;';
+          probeLabel.style.display = 'none';
+
+          checkbox.addEventListener('change', () => {
+            probeLabel.style.display = checkbox.checked ? 'inline' : 'none';
+          });
+
+          div.appendChild(checkbox);
+          div.appendChild(label);
+          div.appendChild(probeLabel);
+          filesList.appendChild(div);
         }
       } else {
         selectedFiles.style.display = 'none';
