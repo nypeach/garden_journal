@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden Dashboard
-_Last Updated: December 11, 2025 9:30 PM_
+_Last Updated: December 13, 2025 8:36 PM_
 ===============================================
 
 A simple, self-hosted Flask web application for managing your personal garden. Track your plants, products, and garden data through an intuitive dashboard interface with dynamic categorization and detailed plant histories.
@@ -32,14 +32,17 @@ Built with simplicity in mind, the dashboard uses file-based JSON storage (no da
 - **Comprehensive journal entries** - Date/time, conditions, probe readings, observations, actions, photos
 - **Digital & analog probe data** - pH, EC, moisture, fertility, temperature tracking
 - **Photo prep tool** - Drag & drop upload, compression, renaming, organization
+- **Probe reading identification** - User-selectable checkboxes to mark probe screenshots
 - **HEIC support** - Direct upload from iPhone Photos app
 - **EXIF orientation correction** - Photos display right-side up automatically
 - **Smart message system** - Global weather + plant-specific messages with intelligent reset
+- **Date persistence** - Process multiple plants on same date without re-entering
 - **Google Drive integration** - Photos served from organized subfolders
-- **ChatGPT workflow** - Automated filename generation for accurate journal entries
+- **ChatGPT workflow** - Automated filename generation with probe reading markers
 - **Placeholder photo upload** - Click or drag to backfill photos in past entries
 - **Photo lightbox** - Single-click to view full-size with caption footer
 - **Auto-JSON updates** - Placeholder uploads automatically update plant files
+- **Plant ID validation** - Autocomplete dropdown with existing plants
 - **Photo display in journals** - Compressed images with captions
 - **Responsive modal overlay** - ESC key and backdrop click to close
 - **Unified CSS styling** - Single stylesheet for dashboard and journal
