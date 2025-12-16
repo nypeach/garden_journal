@@ -338,20 +338,20 @@ ___
 
 #### F. **Attributes Advanced Without Lock-In Pauses**
 
-   **IF**
-   The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one
+**IF**
+The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one
 
-   **THEN**
-   Stop. Do not resume from any intermediate point.
+**THEN**
+Stop. Do not resume from any intermediate point.
 
-   First give me just the bulleted list of attributes for what needs changing.
-   Then ask "Ready to go one-by-one?"
+First give me just the bulleted list of attributes for what needs changing.
+Then ask "Ready to go one-by-one?"
 
-   Then one-by-one for each attribute...
-   - Present the CURRENT attribute only
-   - restate why it needs updating
-   - restate the proposed updated wording (no code block)
-   Then wait for the user to explicitly confirm or revise it before proceeding.
+Then one-by-one for each attribute...
+- Present the CURRENT attribute only
+- restate why it needs updating
+- restate the proposed updated wording (no code block)
+Then wait for the user to explicitly confirm or revise it before proceeding.
 
 ___
 

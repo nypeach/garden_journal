@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2025-12-16",
+  "corrections": [
+    {
+      "id": "DW-INITIAL-001",
+      "title": "Initial Actions/Observations Incorrectly Logged as Follow-Up",
+      "category": "Daily Workflow",
+      "sub_category": "Follow-up vs initial entry",
+      "trigger_if": "The assistant adds user-provided actions or observations from the initial daily message (the same message that includes weather, photos, and probe readings) into the follow_up array",
+      "response_then": "Remove those entries from follow_up.\nUser actions and observations provided with the initial probe readings must be incorporated into the main Daily Journal Entry observation attribute summary, not logged as follow-ups.\nThe follow_up array is used ONLY for messages sent AFTER the initial daily entry.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "follow-up",
+        "workflow",
+        "initial-entry"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Adding initial message content to follow_up array",
+        "Logging same-message observations as follow-ups"
+      ]
+    },
+    {
+      "id": "DW-ASSESSMENT-001",
+      "title": "No Expert Assessment Provided",
+      "category": "Daily Workflow",
+      "sub_category": "Assessment order & depth",
+      "trigger_if": "The assistant gives me Plant Daily Journal Entry Data JSON before providing an Expert Assessment",
+      "response_then": "Stop — give me your Expert Assessment FIRST (natural, conversational), then immediately re-send the Daily Journal Entry JSON.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "assessment",
+        "json",
+        "workflow-order"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Providing JSON code block before any assessment text",
+        "Jumping straight to structured output"
+      ]
+    },
+    {
+      "id": "DW-ASSESSMENT-002",
+      "title": "Insufficient Expert Assessment Depth",
+      "category": "Daily Workflow",
+      "sub_category": "Assessment order & depth",
+      "trigger_if": "The assistant provides a brief, shallow, or abbreviated assessment instead of a full Expert Horticulturist Assessment",
+      "response_then": "Please provide a full Expert Horticulturist Assessment before the JSON, comparable in depth to an in-person plant inspection. Do not shorten the assessment.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "assessment",
+        "depth",
+        "quality"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Two sentence assessment followed by JSON",
+        "Bullet points instead of detailed analysis"
+      ]
+    },
+    {
+      "id": "DW-JSON-001",
+      "title": "No Daily Journal Entry JSON After Assessment",
+      "category": "Daily Workflow",
+      "sub_category": "Workflow gating / unnecessary confirmation",
+      "trigger_if": "The assistant does not output the Daily Journal Entry JSON immediately after the Expert Assessment (or asks for confirmation first)",
+      "response_then": "Please present the Daily Journal Entry JSON immediately after your assessment (no confirmation step). Then continue the workflow.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "json",
+        "confirmation",
+        "workflow"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Asking 'Ready to log?' before JSON",
+        "Waiting for permission to output JSON"
+      ]
+    },
+    {
+      "id": "DW-VOICE-001",
+      "title": "Robotic / Procedural Assessment Voice",
+      "category": "Daily Workflow",
+      "sub_category": "Voice / tone",
+      "trigger_if": "The assistant's Expert Assessment turns into a step-by-step explanation of the guide or workflow",
+      "response_then": "Stay in horticulturist voice. Do not explain the guide or workflow—just assess the plant and give recommendations.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "voice",
+        "tone",
+        "assessment"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Explaining workflow steps during assessment",
+        "Meta-commentary about the guide"
+      ]
+    },
+    {
+      "id": "DW-FORMAT-001",
+      "title": "Improper Use of Code Blocks",
+      "category": "Daily Workflow",
+      "sub_category": "Code block / formatting violations",
+      "trigger_if": "The assistant outputs any code block that is not JSON or uses code blocks during the assessment",
+      "response_then": "No code blocks except JSON outputs. Rewrite the assessment in normal conversation, then provide the JSON.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "formatting",
+        "code-blocks",
+        "assessment"
+      ],
+      "applies_when": [
+        "New Day",
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Using code blocks for probe readings summary",
+        "Formatting assessment text as code"
+      ]
+    },
+    {
+      "id": "JSON-SCHEMA-001",
+      "title": "Incorrect Daily Journal Entry Schema",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Schema / field names",
+      "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
+      "response_then": "Regenerate the Daily Journal Entry JSON using the exact schema and field names from the guide—no added or renamed fields.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "json",
+        "schema",
+        "field-names"
+      ],
+      "applies_when": [
+        "New Day",
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Adding custom fields not in schema",
+        "Renaming standard fields"
+      ]
+    },
+    {
+      "id": "JSON-VALID-001",
+      "title": "Invalid or Poorly Formatted JSON",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Validity / formatting",
+      "trigger_if": "The assistant outputs invalid JSON (formatting errors, missing quotes, wrong commas, incorrect precision)",
+      "response_then": "Regenerate the JSON as valid JSON only, matching the guide's formatting and precision rules exactly.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "json",
+        "validity",
+        "formatting"
+      ],
+      "applies_when": [
+        "New Day",
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Missing commas or quotes",
+        "Wrong decimal precision"
+      ]
+    },
+    {
+      "id": "PHOTO-FILE-001",
+      "title": "Incorrect Photo Filenames or Order",
+      "category": "Photos & Evidence Handling",
+      "sub_category": "Filename / order preservation",
+      "trigger_if": "The assistant includes probe screenshots in the photos array, uses placeholder names, changes filename order, or assigns captions that do not match the actual plant photos",
+      "response_then": "Rebuild the photos array using ONLY filenames that correspond to actual plant photos (exclude all probe screenshots), preserve the exact filenames and order I provided, and write captions that accurately describe each specific photo.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "photos",
+        "filenames",
+        "probe-screenshots"
+      ],
+      "applies_when": [
+        "New Day",
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Including probe screenshots in photos array",
+        "Reordering user-provided filenames",
+        "Using placeholder filenames"
+      ]
+    },
+    {
+      "id": "PHOTO-HALLU-001",
+      "title": "Invented Data or Hallucinations",
+      "category": "Photos & Evidence Handling",
+      "sub_category": "Hallucinated / external content",
+      "trigger_if": "The assistant introduces stock images, example photos, external visuals, or descriptions that did not come from my uploaded files and presents them as if they were my photos, readings, conditions, or observations",
+      "response_then": "Remove all invented or external content and regenerate the assessment and JSON using ONLY my provided photos, filenames, probe readings, weather, and observations.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "hallucination",
+        "photos",
+        "data-integrity"
+      ],
+      "applies_when": [
+        "New Day",
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Referencing images user didn't upload",
+        "Inventing conditions or observations"
+      ]
+    },
+    {
+      "id": "DW-INPUT-001",
+      "title": "Missing Required Inputs for a New Day",
+      "category": "Daily Workflow",
+      "sub_category": "Missing required inputs",
+      "trigger_if": "The assistant proceeds with a new-day assessment without required inputs (probe, weather, photo)",
+      "response_then": "Before assessing, ask me for any missing required inputs for a new day: probe reading(s), weather, and at least one plant photo.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "workflow",
+        "inputs",
+        "validation"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Proceeding without probe readings",
+        "Skipping weather requirement"
+      ]
+    },
+    {
+      "id": "PROBE-MULTI-001",
+      "title": "Incorrect Handling of Multiple Probe Screenshots",
+      "category": "Probe Readings",
+      "sub_category": "Multiple screenshots logic",
+      "trigger_if": "The assistant does not correctly process multiple probe screenshots (dates, averaging, outliers, timestamps)",
+      "response_then": "Reprocess the probe screenshots per the guide: verify dates and IDs, average valid readings, exclude outliers with a note in observations, and use the earliest timestamp.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "probe",
+        "averaging",
+        "outliers"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Not averaging multiple readings",
+        "Including outliers without noting them"
+      ]
+    },
+    {
+      "id": "DW-CORRECT-001",
+      "title": "Correction Acknowledged but Not Applied",
+      "category": "Daily Workflow",
+      "sub_category": "Workflow gating / unnecessary confirmation",
+      "trigger_if": "The assistant acknowledges a correction, preference, or rule but does not immediately re-do the corrected step and continue the workflow",
+      "response_then": "Stop.\nAcknowledge the correction with one brief sentence, then immediately apply it by redoing the corrected step and continuing the workflow as my professional horticulturist.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "correction",
+        "workflow",
+        "follow-through"
+      ],
+      "applies_when": [
+        "New Day",
+        "Follow-up",
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Saying 'I'll fix that' without fixing it",
+        "Acknowledging but not redoing the step"
+      ]
+    },
+    {
+      "id": "PMD-REVIEW-001",
+      "title": "Plant Main Data Review Not Performed",
+      "category": "Plant Main Data",
+      "sub_category": "Review workflow",
+      "trigger_if": "After presenting the Daily Journal Entry JSON, the assistant does not silently perform the Plant Main Data Review and either confirm no updates are needed or identify outdated attributes",
+      "response_then": "Perform the Plant Main Data Review now (silently) using the 'When to suggest update' rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why.",
+      "count": 5,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "review",
+        "workflow"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Skipping the review entirely",
+        "Asking if user wants a review"
+      ]
+    }
+  ]
+}

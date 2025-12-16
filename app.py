@@ -445,6 +445,67 @@ def health_check():
     return jsonify({'status': 'OK'})
 
 
+@app.route('/assist-corrections')
+def assist_corrections():
+    """
+    Assist Corrections - IF/THEN correction management
+    Browse, search, and copy corrections for ChatGPT plant channels
+    """
+    try:
+        # Load corrections from JSON
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        corrections = corrections_data.get('corrections', [])
+
+        # Get unique categories and sub_categories for filters
+        categories = sorted(set(c.get('category') for c in corrections if c.get('category')))
+
+        # Get top 5 most used
+        top_corrections = sorted(corrections, key=lambda x: x.get('count', 0), reverse=True)[:5]
+
+        return render_template(
+            'assist_corrections.html',
+            corrections=corrections,
+            categories=categories,
+            top_corrections=top_corrections,
+            schema_version=corrections_data.get('schema_version'),
+            last_updated=corrections_data.get('last_updated')
+        )
+
+    except Exception as e:
+        return f"Error loading corrections: {str(e)}", 500
+
+
+@app.route('/api/correction/copy/<correction_id>', methods=['POST'])
+def copy_correction(correction_id):
+    """
+    Increment count when correction is copied
+    """
+    try:
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        # Find and increment count
+        for correction in corrections_data['corrections']:
+            if correction['id'] == correction_id:
+                correction['count'] = correction.get('count', 0) + 1
+                break
+
+        # Save updated data
+        with open(corrections_file, 'w', encoding='utf-8') as f:
+            json.dump(corrections_data, f, indent=2, ensure_ascii=False)
+
+        return jsonify({'success': True, 'new_count': correction.get('count', 0)})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 if __name__ == '__main__':
     # Run the Flask development server
     # Access at http://localhost:3000
