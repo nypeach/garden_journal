@@ -16,43 +16,117 @@
   "current_state": "The seedlings are vigorous and upright, with bright green foliage and expanding true leaves that show strong early growth. Soil texture is improved and well-aerated following recent adjustments, and no new pest damage is visible. Overall growth appears stable and robust as the plants enter early vegetative development.",
   "timeline": [
     {
-      "stage": "Expected germination window",
+      "what_i_should_see": "Expected germination window",
       "date_range": "Nov 19 - Nov 27, 2025"
     },
     {
-      "stage": "Seedling emergence with cotyledons",
+      "what_i_should_see": "Seedling emergence with cotyledons",
       "date_range": "Nov 20 - Dec 2, 2025"
     },
     {
-      "stage": "First true leaves form",
+      "what_i_should_see": "First true leaves form",
       "date_range": "Dec 5 - Dec 15, 2025"
     },
     {
-      "stage": "Early vegetative growth (stem thickening and new leaf production)",
+      "what_i_should_see": "Early vegetative growth (stem thickening and new leaf production)",
       "date_range": "Dec 15, 2025 - Jan 10, 2026"
     },
     {
-      "stage": "Bushier canopy develops (no buds yet)",
+      "what_i_should_see": "Bushier canopy develops (no buds yet)",
       "date_range": "Jan 10 - Jan 25, 2026"
     },
     {
-      "stage": "First flower buds appear",
+      "what_i_should_see": "First flower buds appear",
       "date_range": "Jan 25 - Feb 10, 2026"
     },
     {
-      "stage": "Early fruit set (tiny green jalapeños)",
+      "what_i_should_see": "Early fruit set (tiny green jalapeños)",
       "date_range": "Feb 10 - Feb 25, 2026"
     },
     {
-      "stage": "Full-sized green jalapeños",
+      "what_i_should_see": "Full-sized green jalapeños",
       "date_range": "Feb 25 - Mar 15, 2026"
     },
     {
-      "stage": "Ripening window (color shift from green to red)",
+      "what_i_should_see": "Ripening window (color shift from green to red)",
       "date_range": "Mar 15 - Apr 10, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:35 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "211",
+        "moisture_mScm": "80.00",
+        "light": "94",
+        "rh_percent": "52",
+        "fertility_percent": "25.0",
+        "soil_temp_f": "84.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño seedlings show clear vegetative momentum with larger, well-spread leaves and upright posture across the cluster. Foliage color is healthy and uniform with no visible pest damage or stress. Soil is visibly saturated from recent weather but drainage appears adequate and the plants are responding positively.",
+      "actions": "Do not water today. Allow excess moisture to dissipate naturally through drainage and evaporation.",
+      "next_steps": "Recheck moisture after tomorrow’s cooler, drier conditions. Resume watering only if moisture drops below 45.00. Continue monitoring canopy density as growth accelerates.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251214-02.jpeg",
+          "caption": "Wide view of the jalapeño cluster showing increased leaf size, upright posture, and dense early vegetative growth.",
+          "tags": "jalapeno, seedlings, vegetative-growth, planter"
+        },
+        {
+          "file_name": "pepper_003-20251214-03.jpeg",
+          "caption": "Closer view of the jalapeño foliage showing healthy green coloration, smooth leaf surfaces, and active expansion.",
+          "tags": "jalapeno, leaves, foliage, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:16 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight. Tonight: Partly cloudy. Tomorrow: Clouds and sunshine with a high of 81°F.",
+      "digital_probe": {
+        "ph": "8.4",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "81",
+        "moisture_mScm": "51.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedlings are still vigorous, with bright green foliage and expanding true leaves. No visible pest damage. Soil moisture is moderate, and the plant's posture remains strong and healthy.",
+      "actions": "Do not water today. Continue to inspect leaves closely for any new chew marks. No additional pest treatment is needed unless fresh damage appears.",
+      "next_steps": "Check again tomorrow morning for any new chew marks or stem damage. Recheck moisture at the next morning window and only consider watering if moisture drops below 40.00.",
+      "q_and_a_summary": "Discussed whether tonight’s low temperature is concerning; confirmed 53°F is cool but not dangerous for jalapeño seedlings and may only slow growth slightly overnight.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251212-02.jpeg",
+          "caption": "Wide view of the jalapeño seedlings in the planter showing overall posture and soil surface condition.",
+          "tags": "jalapeno, seedlings, wide-view, planter"
+        },
+        {
+          "file_name": "pepper_003-20251212-03.jpeg",
+          "caption": "Closer view of the seedling cluster showing leaf color, structure, and minor chew marks on a few leaves.",
+          "tags": "jalapeno, seedlings, leaves, chew-marks"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:53 PM",

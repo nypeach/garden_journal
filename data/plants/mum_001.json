@@ -15,19 +15,56 @@
   "current_state": "The plant is in early recovery after a hard prune, with multiple new shoots emerging along the stems and healthy green foliage beginning to return. The stems are firm with no signs of rot, and the surface soil shows a dense mat of fine roots typical of a root-bound chrysanthemum.",
   "timeline": [
     {
-      "stage": "Early shoot recovery",
+      "what_i_should_see": "Early Shoot Recovery",
       "date_range": "Dec 8 - Dec 22, 2025"
     },
     {
-      "stage": "Vegetative refill and canopy rebuilding",
+      "what_i_should_see": "Vegetative Refill and Canopy Rebuilding",
       "date_range": "Dec 23, 2025 - Jan 20, 2026"
     },
     {
-      "stage": "First post-rescue bud initiation",
+      "what_i_should_see": "First post-rescue bud initiation",
       "date_range": "Jan 21 - Feb 15, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/12/2025",
+      "time": "1:03 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.3",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "19",
+        "soil_temp_f": "71.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows healthy shoot recovery with some continued expansion and increased leaf definition. The stems remain firm, and the plant appears stable. There's even growth across the pot, but some areas at the base are still a bit slower to recover. Soil moisture is high, but no signs of stress yet.",
+      "actions": "No watering required today. Avoid further fertilization due to adequate slow-release nutrients. Maintain current light exposure. Pot rotation is still advised for even growth distribution.",
+      "next_steps": "Monitor moisture tomorrow morning. Watch for continued expansion and leaf development, particularly from the slower areas at the base. Maintain current care plan.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251212-02.jpeg",
+          "caption": "Top-down view showing even recovery and new growth across the pot.",
+          "tags": "chrysanthemum, recovery, new growth"
+        },
+        {
+          "file_name": "mum_001-20251212-03.jpeg",
+          "caption": "Side view highlighting thickening stems and improved foliage.",
+          "tags": "chrysanthemum, stems, foliage"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:45 PM",

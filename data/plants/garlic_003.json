@@ -16,27 +16,111 @@
   "current_state": "Multiple Chesnok Red shoots are up and growing strongly with upright green leaves and only mild soil acidity remaining after planned lime application and careful watering. A competing scallion near one sprout has been identified for relocation to prevent crowding.",
   "timeline": [
     {
-      "stage": "Vernalization complete (6+ weeks in fridge)",
+      "what_i_should_see": "Vernalization Complete",
       "date_range": "Sep 21 - Nov 15, 2025"
     },
     {
-      "stage": "Early top growth (shoots 1–3 inches)",
-      "date_range": "Nov 17 - Nov 23, 2025"
+      "what_i_should_see": "First Green Tips Breaking Soil",
+      "date_range": "Nov 16 - Nov 19, 2025"
     },
     {
-      "stage": "Strong winter foliage established",
-      "date_range": "Jan 1 - Jan 31, 2026"
+      "what_i_should_see": "Upright Shoots & Elongating Leaves",
+      "date_range": "Nov 20 - Dec 6, 2025"
     },
     {
-      "stage": "Scapes for cutting and eating",
-      "date_range": "Mar 1 - May 1, 2026"
+      "what_i_should_see": "Multiple Leaves Emerging",
+      "date_range": "Dec 7 - Dec 18, 2025"
     },
     {
-      "stage": "Bulb harvest window",
-      "date_range": "May 20 - Jun 30, 2026"
+      "what_i_should_see": "Tall Foliage & Dense Clumps",
+      "date_range": "Dec 19, 2025 - Jan 10, 2026"
+    },
+    {
+      "what_i_should_see": "Strap-Like Leaves Developing",
+      "date_range": "Jan 11 - Feb 10, 2026"
+    },
+    {
+      "what_i_should_see": "Tall Plants With Clustered Leaves",
+      "date_range": "Feb 11 - Mar 10, 2026"
+    },
+    {
+      "what_i_should_see": "Scapes Emerging & Curling",
+      "date_range": "Mar 11 - May 1, 2026"
+    },
+    {
+      "what_i_should_see": "Harvestable Scapes",
+      "date_range": "May 10 - May 25, 2026"
+    },
+    {
+      "what_i_should_see": "Ready to Harvest",
+      "date_range": "May 26 - Jun 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:38 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "160",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "82.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows long, flexible, strap-like green leaves with strong bases and no signs of stress. Soil is evenly dark and fully saturated following recent watering and rainfall, with no visible pooling or stem softening.",
+      "actions": "Do not water today or tomorrow. Do not fertilize or adjust pH. Allow the soil to dry naturally under current weather conditions.",
+      "next_steps": "Recheck moisture in 2–3 days once rain passes. Resume watering only when readings fall below 40.00 mS/cm and the soil surface lightens in color.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251214-02.jpeg",
+          "caption": "Chesnok Red garlic with long, strap-like leaves and strong bases growing in evenly saturated soil after recent watering and rainfall.",
+          "tags": "garlic, chesnok_red, strap_like_leaves, vegetative_growth, window_box"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:20 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "62",
+        "moisture_mScm": "32.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "79.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows healthy, upright, flexible green blades with normal arching from leaf elongation and no visible stress. The soil surface appears genuinely dry, matching the low moisture reading taken today.",
+      "actions": "Do not water again today. Do not fertilize or adjust pH. Leave all foliage intact and allow moisture to redistribute through the root zone naturally.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture remains below 40.00 mS/cm or leaf firmness begins to soften. Continue watching for steady new blade extension over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251212-02.jpeg",
+          "caption": "Overhead view of Chesnok Red garlic showing multiple healthy, elongated green blades with normal arching and a visibly dry soil surface.",
+          "tags": "garlic, chesnok_red, vegetative_growth, window_box, dry_down, foliage"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:55 PM",

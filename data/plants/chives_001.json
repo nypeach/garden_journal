@@ -17,27 +17,104 @@
   "current_state": "Several chive sprouts have now emerged, confirming steady germination. Moisture and pH remain stable and supportive of continued seedling development. Conditions are favorable for additional sprouts to appear over the coming days.",
   "timeline": [
     {
-      "stage": "Germination begins",
-      "date_range": "Nov 20 - Nov 30, 2025"
+      "what_i_should_see": "Initial shoots breaking through the soil",
+      "date_range": "Nov 20 – Nov 25, 2025"
     },
     {
-      "stage": "Emerging seedlings",
-      "date_range": "Dec 1 - Dec 10, 2025"
+      "what_i_should_see": "Multiple thin green shoots standing upright",
+      "date_range": "Nov 26 – Dec 5, 2025"
     },
     {
-      "stage": "Early growth and strengthening",
-      "date_range": "Dec 10, 2025 - Jan 5, 2026"
+      "what_i_should_see": "Shoots visibly thickening, forming a defined cluster",
+      "date_range": "Dec 6 – Dec 15, 2025"
     },
     {
-      "stage": "First light harvest",
-      "date_range": "Jan 15 - Jan 30, 2026"
+      "what_i_should_see": "Clump visibly growing with thicker, denser blades",
+      "date_range": "Dec 16 – Dec 23, 2025"
     },
     {
-      "stage": "Full cut-and-regrow cycle",
-      "date_range": "Feb 1 - May 1, 2026"
+      "what_i_should_see": "Chives reaching 6–8 inches tall, ready for first harvest",
+      "date_range": "Dec 24, 2025 – Jan 5, 2026"
+    },
+    {
+      "what_i_should_see": "Ongoing regrowth and repeatable harvests",
+      "date_range": "Jan 6 – Jan 15, 2026"
+    },
+    {
+      "what_i_should_see": "Chives fully mature, robust and thickened",
+      "date_range": "Jan 16 – Feb 10, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:45 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "176",
+        "moisture_mScm": "80.00",
+        "light": "97",
+        "rh_percent": "50",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Multiple thin, grass-like chive shoots remain visible across the left section of the window box, with several blades longer and more upright than previously observed. The soil is evenly saturated following fertilization, and seedlings remain turgid with no signs of collapse or damping-off. The entire shared window box was fertilized with diluted Purived 4-5-5, and broccoli leaves that were creating a canopy over the chives were cut back, restoring direct overhead light to the chive planting area.",
+      "actions": "Do not water as soil moisture is already high. Do not apply additional fertilizer. Maintain the reduced broccoli canopy to preserve light access for the chives.",
+      "next_steps": "Allow the soil to dry naturally over the next several days. Monitor for thicker, more upright chive blades rather than increased height. Recheck probe readings once moisture drops below 40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251214-02.jpeg",
+          "caption": "Overhead view of the chive section after broccoli leaves were trimmed back, showing improved light access and evenly moist soil surface.",
+          "tags": "chives, seedlings, window-box, overhead, light-exposure"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:37 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "74.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Multiple chive seedlings are visible with thin, upright shoots emerging across the left section of the window box. Growth is early but healthy, with no signs of wilting or discoloration. Nearby broccoli foliage is extending over the chive area and beginning to cast shade.",
+      "actions": "Reduce shading by repositioning the broccoli or trimming 1–2 outer broccoli leaves that overhang the chive area. Do not water today as soil moisture is ideal. Do not fertilize at this stage.",
+      "next_steps": "Monitor light exposure over the next several days to ensure the chives receive at least 4–6 hours of direct sun. Recheck probe readings tomorrow or the next morning. Watch for thicker, more upright chive blades as light improves.",
+      "q_and_a_summary": "Asked whether broccoli shading the chives is acceptable and if the chives should be moved; advised to manage broccoli shading instead and avoid transplanting chives at this stage.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251212-02.jpeg",
+          "caption": "Overhead view of the window box showing young chive seedlings emerging in the left section with broccoli foliage encroaching from the right.",
+          "tags": "chives, seedlings, window-box, overhead, shade-competition"
+        },
+        {
+          "file_name": "chives_001-20251212-03.jpeg",
+          "caption": "Closer view of the chive planting area showing thin, upright shoots emerging from moist, well-structured soil.",
+          "tags": "chives, seedlings, early-growth, soil-surface"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "9:04 AM",

@@ -113,8 +113,7 @@
       "emoji": "🪻",
       "anchor": "lavender",
       "plants": [
-        "lavender_004",
-        "lavender_005"
+        "lavender_004"
       ]
     },
     {
@@ -158,6 +157,7 @@
         "lavender_001",
         "lavender_002",
         "lavender_003",
+        "lavender_005",
         "zucchini_003"
       ]
     }

@@ -16,27 +16,119 @@
   "current_state": "Seedlings are in a stable seedling phase with multiple true leaves unfolding and color improving toward a healthy light green. Moisture and pH are now within an acceptable range, and the plants are responding well to full sun in the window planter. They are not yet transplant-ready but are progressing toward thicker stems and a sturdier root system.",
   "timeline": [
     {
-      "stage": "True leaves expanding",
-      "date_range": "Nov 18 - Nov 30, 2025"
+      "what_i_should_see": "Seedling Emergence with First True Leaves",
+      "date_range": "Nov 18 – Nov 24, 2025"
     },
     {
-      "stage": "Stronger stems and thicker foliage",
-      "date_range": "Dec 1 - Dec 20, 2025"
+      "what_i_should_see": "Leaves Expand, Canopy Widening",
+      "date_range": "Nov 25 – Dec 3, 2025"
     },
     {
-      "stage": "Transplant-ready height",
-      "date_range": "Dec 20, 2025 - Jan 10, 2026"
+      "what_i_should_see": "Leaves Lengthen, Shading Chives",
+      "date_range": "Dec 4 – Dec 10, 2025"
     },
     {
-      "stage": "Central head formation",
-      "date_range": "Mar 1 - Mar 25, 2026"
+      "what_i_should_see": "Crown Thickens, Plant Becomes Sturdy",
+      "date_range": "Dec 11 – Dec 16, 2025"
     },
     {
-      "stage": "Harvest main heads",
-      "date_range": "Mar 25 - Apr 15, 2026"
+      "what_i_should_see": "Dense Foliage, Soil Mostly Covered",
+      "date_range": "Dec 17 – Dec 28, 2025"
+    },
+    {
+      "what_i_should_see": "Central Head Forms at Crown",
+      "date_range": "Mar 1 – Mar 25, 2026"
+    },
+    {
+      "what_i_should_see": "Heads Enlarge, Ready to Harvest",
+      "date_range": "Mar 25 – Apr 15, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:46 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "158",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli plants show vigorous vegetative growth with large, firm leaves, thickening upright stems, and healthy blue-green coloration. The entire window box was fertilized with diluted Purived 4-5-5 prior to this reading, resulting in elevated but safe fertility and EC levels. Lower broccoli leaves that were shading the chives were selectively pruned, opening the canopy while preserving the central growing points. Soil is evenly hydrated following feeding, and the shared planter shows balanced growth between broccoli and chives.",
+      "actions": "Do not water today as moisture is very high and rain is expected. Do not apply additional fertilizer. Leave plants undisturbed to allow nutrients to distribute evenly through the root zone.",
+      "next_steps": "Recheck probe readings in 2–3 days once moisture drops into the moderate range. Monitor for continued stem thickening and crown development. Avoid further pruning unless leaves are damaged or diseased.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251214-02.jpeg",
+          "caption": "Side view of the window box showing broccoli with upright stems, large healthy leaves, and improved light penetration after selective pruning.",
+          "tags": "broccoli, vegetative-growth, pruning, window-box"
+        },
+        {
+          "file_name": "broccoli_001-20251214-03.jpeg",
+          "caption": "Overhead view showing expanded broccoli canopy with clear spacing and exposed soil surface following fertilization.",
+          "tags": "broccoli, canopy, overhead, fertilized"
+        },
+        {
+          "file_name": "broccoli_001-20251214-04.jpeg",
+          "caption": "Closer view of the broccoli plants displaying firm leaf structure, healthy coloration, and thickening stems.",
+          "tags": "broccoli, stems, healthy-leaves, growth"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:36 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "77",
+        "moisture_mScm": "36.00",
+        "light": "97",
+        "rh_percent": "33",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli plants show strong vegetative growth with upright posture, firm stems, and broad healthy leaves. The center broccoli remains dominant with a fuller canopy, while both side plants remain smaller but stable and vigorous. Leaf color is healthy light-to-medium green with no signs of heat stress, wilting, or nutrient deficiency. Soil appears evenly moist and well structured, supporting continued root expansion across the shared planter with chives.",
+      "actions": "No fertilizer or watering applied this afternoon. Allow soil to continue drying slightly overnight in preparation for morning feeding.",
+      "next_steps": "Tomorrow morning, prune first by removing up to two of the lowest outer broccoli leaves that are directly shading the chives, cutting cleanly at the stem base and avoiding the central growing tip. After pruning, water and fertilize together. Mix exactly 1 capful of Purived 4-5-5 into 1 gallon of water, then apply exactly 1 quart (4 cups) of this solution evenly across the entire 23.5\" × 6\" window planter, feeding both the center broccoli and the chives on each side. Pour slowly to allow even infiltration and avoid runoff. Do not apply additional plain water afterward unless soil surface remains dry. Recheck probe readings in 2–3 days to confirm fertility rebound and moisture stabilization.",
+      "q_and_a_summary": "Discussed whether broccoli leaves shading the chives could be pruned. Confirmed that selectively removing the lowest outer broccoli leaves is safe and beneficial when limited in number and avoiding the central growing point.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251212-02.jpeg",
+          "caption": "Left side of the window planter showing vigorous broccoli growth with broad leaves and upright posture.",
+          "tags": "broccoli, vegetative-growth, canopy, healthy-leaves"
+        },
+        {
+          "file_name": "broccoli_001-20251212-03.jpeg",
+          "caption": "Center broccoli plant with strong stems and active leaf expansion, flanked by smaller companion plants.",
+          "tags": "broccoli, center-plant, upright-growth, window-box"
+        },
+        {
+          "file_name": "chives_001-20251212-02.jpeg",
+          "caption": "Chives growing along the edge of the shared window planter, partially shaded by overlapping broccoli leaves.",
+          "tags": "chives, shared-container, shading, light-competition"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "9:06 AM",

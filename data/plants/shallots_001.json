@@ -15,23 +15,102 @@
   "current_state": "The main shallot shows vigorous upright foliage with multiple mature leaves and a new daughter sprout emerging from the bulb. Growth is strong and balanced, with well-aerated soil and stable moisture and pH. No signs of stress, disease, or compaction are present.",
   "timeline": [
     {
-      "stage": "Green shoots showing",
+      "what_i_should_see": "Green shoots showing",
       "date_range": "Nov 20 - Nov 30, 2025"
     },
     {
-      "stage": "Strong leaf clumps",
+      "what_i_should_see": "Strong leaf clumps",
       "date_range": "Dec 5, 2025 - Feb 15, 2026"
     },
     {
-      "stage": "Bulb formation phase",
+      "what_i_should_see": "Bulb formation phase",
       "date_range": "Feb 15 - Apr 1, 2026"
     },
     {
-      "stage": "Harvest",
+      "what_i_should_see": "Harvest",
       "date_range": "Apr 1 - Apr 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:41 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.85",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "174",
+        "moisture_mScm": "64.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "19.5",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The shallots show strong, upright vegetative growth with firm blue-green leaves and clear clump expansion. A newer shoot is emerging cleanly nearby, indicating active bulb development below the surface. Soil remains well-aerated and crumbly despite elevated moisture, with no signs of rot, compaction, or foliar stress.",
+      "actions": "Do not water today. Leave all foliage intact. Do not apply fertilizer or lime while moisture remains elevated.",
+      "next_steps": "Recheck moisture after the rain cycle passes. Resume watering only if moisture drops below approximately 40 mS/cm. Monitor the newer shoot for continued elongation over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251214-03.jpeg",
+          "caption": "Main shallot clump showing tall, upright foliage with healthy coloration and strong structure.",
+          "tags": "shallots, foliage, vegetative-growth"
+        },
+        {
+          "file_name": "shallots_001-20251214-04.jpeg",
+          "caption": "Close-up of a younger shallot shoot emerging cleanly from the soil surface.",
+          "tags": "shallots, new-shoot, emergence"
+        },
+        {
+          "file_name": "shallots_001-20251214-05.jpeg",
+          "caption": "Side view of the planter showing soil texture, moisture condition, and spacing between plants.",
+          "tags": "shallots, soil, planter, moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:22 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight. Tonight: Partly cloudy. Tomorrow: Clouds and sunshine with a high of 81°F.",
+      "digital_probe": {
+        "ph": "6.3",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "147",
+        "moisture_mScm": "54.00",
+        "light": "89",
+        "rh_percent": "37",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The shallot plant is showing vigorous growth with multiple upright leaves and an emerging daughter sprout. The soil is evenly moist and aerated, with no signs of stress or disease. The moisture level is optimal, and the plant is receiving good light exposure.",
+      "actions": "No watering needed today. Leave all shoots intact and avoid applying fertilizer. Continue monitoring the emerging sprout for elongation.",
+      "next_steps": "Recheck moisture tomorrow. Water only if moisture drops below 40 mS/cm. Monitor the sprout over the next 48 hours for continued elongation.",
+      "q_and_a_summary": "Discussed ideal conditions for shallot growth with no concerns for stress or cold damage.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251212-02.jpeg",
+          "caption": "Wide view of the shallot planter showing the main plant with upright leaves.",
+          "tags": "shallots, planter, vegetative-growth"
+        },
+        {
+          "file_name": "shallots_001-20251212-04.jpeg",
+          "caption": "Close-up of the newly emerging shallot sprout.",
+          "tags": "shallots, sprout, emergence"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:59 PM",

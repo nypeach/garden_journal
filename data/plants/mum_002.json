@@ -15,19 +15,56 @@
   "current_state": "The plant is in early recovery after a hard prune, with multiple new shoots emerging along the stems and healthy green foliage beginning to return. The stems are firm with no signs of rot, and the surface soil shows a dense mat of fine roots typical of a root-bound chrysanthemum.",
   "timeline": [
     {
-      "stage": "Early shoot recovery",
+      "what_i_should_see": "Early shoot recovery",
       "date_range": "Dec 8 - Dec 22, 2025"
     },
     {
-      "stage": "Vegetative refill and canopy rebuilding",
+      "what_i_should_see": "Vegetative refill and canopy rebuilding",
       "date_range": "Dec 23, 2025 - Jan 20, 2026"
     },
     {
-      "stage": "First post-rescue bud initiation",
+      "what_i_should_see": "First post-rescue bud initiation",
       "date_range": "Jan 21 - Feb 15, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/12/2025",
+      "time": "1:03 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "53",
+        "moisture_mScm": "54.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "67.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues its recovery, with new shoots and green foliage filling out the canopy. The soil is slightly dry on the surface, but this is likely due to the previous loosening and not an issue with moisture. The stems are firm, with no signs of stress or rot.",
+      "actions": "Water gently to ensure the soil stays well hydrated, but avoid over-watering. Ensure good probe contact with the soil when measuring.",
+      "next_steps": "Monitor moisture levels over the next few days. Prepare to fertilize in a couple of days when the soil conditions stabilize.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251212-02.jpeg",
+          "caption": "Top view of the chrysanthemum showing foliage expansion and new growth.",
+          "tags": "chrysanthemum, regrowth, foliage"
+        },
+        {
+          "file_name": "mum_002-20251212-03.jpeg",
+          "caption": "Side view of the plant, highlighting firm stems and emerging shoots.",
+          "tags": "chrysanthemum, stems, shoots, recovery"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:46 PM",

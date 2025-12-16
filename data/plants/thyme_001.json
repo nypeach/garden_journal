@@ -12,43 +12,112 @@
     "Shares planter with Thai Basil, Cilantro, Oregano, and Parsley."
   ],
   "whats_been_logged": "The focus has been on tracking germination timing, seedling emergence patterns, and early moisture distribution as thyme progressed from seed to a dense carpet of tiny seedlings. Probe readings documented pH correction efforts using lime, moisture stability across the zone, and continued expansion of the seedling mat.",
-  "current_stage": "Seedling Carpet Establishment",
-  "current_state": "Thyme seedlings form a dense, bright green carpet across the zone with healthy cotyledons and no visible stress. Soil preparation is complete, and the seedlings continue expanding evenly with stable moisture at depth despite a drying surface layer.",
+  "current_stage": "Vegetative Growth",
+  "current_state": "Thyme plants show healthy vegetative growth with multiple true leaves, upright stems, and expanding lateral spread across the zone. Foliage is evenly green with no visible spotting, wilting, or burn. The crown areas appear clean and stable, and the plants are well anchored despite recent wet soil conditions.",
   "timeline": [
     {
-      "stage": "Germination",
+      "what_i_should_see": "Germination",
       "date_range": "Nov 17 - Nov 27, 2025"
     },
     {
-      "stage": "Seedling Carpet Establishment",
+      "what_i_should_see": "Seedling Carpet Establishment",
       "date_range": "Nov 24 - Dec 10, 2025"
     },
     {
-      "stage": "First True Leaves",
+      "what_i_should_see": "First True Leaves",
       "date_range": "Dec 5 - Dec 20, 2025"
     },
     {
-      "stage": "Early Mat Thickening / Structural Rooting",
+      "what_i_should_see": "Early Mat Thickening / Structural Rooting",
       "date_range": "Dec 15 - Dec 31, 2025"
     },
     {
-      "stage": "First Light Trimming for Use",
+      "what_i_should_see": "First Light Trimming for Use",
       "date_range": "Jan 10 - Jan 25, 2026"
     },
     {
-      "stage": "Mature Herb Mat / Regular Harvest Cycle",
+      "what_i_should_see": "Mature Herb Mat / Regular Harvest Cycle",
       "date_range": "Feb 1 - Mar 15, 2026"
     },
     {
-      "stage": "Woody Base Formation (Perennial Shift)",
+      "what_i_should_see": "Woody Base Formation (Perennial Shift)",
       "date_range": "Apr 1 - May 15, 2026"
     },
     {
-      "stage": "Flowering Stage",
+      "what_i_should_see": "Flowering Stage",
       "date_range": "May 15 - Jun 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:51 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.80",
+        "ec_mScm": "0.60",
+        "salt_mg_L": "301",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "37.0",
+        "soil_temp_f": "81.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme shows stable, healthy growth with upright stems and green leaves, with no visible burn, spotting, or collapse. The soil is visibly moist from rain, and the entire herb box was fertilized with 4 cups of diluted Purived 4-5-5, which aligns with today’s elevated EC, salt, and fertility readings.",
+      "actions": "Do not water today or tomorrow unless the soil dries unexpectedly. Do not fertilize again for 14–21 days. Allow the planter to dry down naturally and avoid disturbing the soil surface while nutrient and salt levels redistribute.",
+      "next_steps": "Recheck probe readings after 48–72 hours of drying and expect EC/salt/fertility to trend down as moisture normalizes. Watch thyme for leaf paling, curling, or slowed growth; if readings remain elevated after a dry-down, plan a controlled dilution watering later.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251214-02.jpeg",
+          "caption": "Overhead view showing thyme with healthy green leaves and upright stems in moist soil conditions.",
+          "tags": "thyme, herb-box, foliage, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:33 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "33",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "77.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme seedlings form a healthy green carpet with strong stems and evenly hydrated soil. No signs of wilting, discoloration, or pests. The seedlings are gradually expanding as they develop true leaves.",
+      "actions": "No watering needed today; moisture is ideal. Optionally remove large bark pieces to allow better light access to smaller seedlings.",
+      "next_steps": "Monitor moisture tomorrow and watch for continued leaf development. Ensure surface doesn’t dry out too much over the next few days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251212-02.jpeg",
+          "caption": "Wider view of thyme seedlings on 12/12, showing healthy growth and expanding true leaves.",
+          "tags": "thyme, seedlings, true-leaves, herb-box"
+        },
+        {
+          "file_name": "thyme_001-20251212-03.jpeg",
+          "caption": "Close-up of thyme seedlings, showing vibrant green color and healthy leaf formation on 12/12.",
+          "tags": "thyme, seedlings, close-up, herb-box"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "8:59 AM",

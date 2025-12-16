@@ -17,27 +17,96 @@
   "current_state": "Several chive sprouts have emerged, confirming steady germination. Moisture remains elevated in deeper layers but surface drying creates favorable conditions for continued seedling development. The section shows vigorous early growth with more sprouts appearing daily.",
   "timeline": [
     {
-      "stage": "Germination begins",
+      "what_i_should_see": "Germination begins",
       "date_range": "Nov 20 - Dec 2, 2025"
     },
     {
-      "stage": "Emerging seedlings",
+      "what_i_should_see": "Emerging seedlings",
       "date_range": "Dec 2 - Dec 12, 2025"
     },
     {
-      "stage": "Early growth and strengthening",
+      "what_i_should_see": "Early growth and strengthening",
       "date_range": "Dec 12, 2025 - Jan 8, 2026"
     },
     {
-      "stage": "First light harvest",
+      "what_i_should_see": "First light harvest",
       "date_range": "Jan 18 - Jan 30, 2026"
     },
     {
-      "stage": "Full cut-and-regrow cycle",
+      "what_i_should_see": "Full cut-and-regrow cycle",
       "date_range": "Feb 1 - May 1, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:47 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "177",
+        "moisture_mScm": "70.00",
+        "light": "89",
+        "rh_percent": "50",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "80.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings show multiple thin green blades with mild leaning, consistent with elevated moisture and warm soil following a full window box fertilization using diluted Purived 4-5-5. Color remains healthy and uniformly green with no yellowing, collapse, or damping-off. Broccoli leaves that had been shading the chive section were cut back, improving light penetration across the planter and reducing canopy pressure on the chives.",
+      "actions": "Do not water or fertilize. Allow soil moisture and nutrient levels to stabilize naturally following feeding.",
+      "next_steps": "Monitor moisture over the next 48–72 hours and wait to water until readings drop below 40 mS/cm. Observe blade posture as increased light encourages more upright growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251214-02.jpeg",
+          "caption": "Chive seedlings showing thin green blades with mild leaning after fertilization and improved light from broccoli pruning.",
+          "tags": "chives, seedlings, post-fertilization, light-improvement"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:39 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "78",
+        "moisture_mScm": "55.00",
+        "light": "95",
+        "rh_percent": "35",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "74.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings are well established with multiple thin, upright green blades emerging across the right band. Growth appears uniform with no signs of stretch, discoloration, or damping-off. Partial shade from adjacent broccoli provides intermittent cover without suppressing development.",
+      "actions": "Do not water or disturb the seedlings. Leave broccoli canopy intact, as current shading is acceptable and protective at this stage.",
+      "next_steps": "Monitor blade thickness and posture over the next 7–10 days. Reassess light competition only if chives become pale or excessively floppy. Recheck moisture tomorrow morning.",
+      "q_and_a_summary": "Discussed whether shading from broccoli is harmful; confirmed partial shade is acceptable and moving chives is not recommended at this stage.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251212-02.jpeg",
+          "caption": "Close view of chive seedlings showing thin, upright green blades emerging across the right section.",
+          "tags": "chives, seedlings, early-growth"
+        },
+        {
+          "file_name": "chives_002-20251212-03.jpeg",
+          "caption": "Wider view showing chive section partially shaded by adjacent broccoli leaves.",
+          "tags": "chives, broccoli, partial-shade, companion-planting"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "9:07 AM",

@@ -16,43 +16,117 @@
   "current_state": "The seedlings are fully emerged with bright, firm cotyledons and clearly developing true leaves. Growth is upright and vigorous with healthy coloration, and there are no signs of damping-off or stress. Despite the soil being oversaturated, the plants remain stable and continue to develop normally.",
   "timeline": [
     {
-      "stage": "Seedlings emerge",
+      "what_i_should_see": "Seedlings emerge",
       "date_range": "Nov 24 - Dec 12, 2025"
     },
     {
-      "stage": "First true leaves",
+      "what_i_should_see": "First true leaves",
       "date_range": "Dec 13 - Dec 31, 2025"
     },
     {
-      "stage": "Stem thickening and new leaves",
+      "what_i_should_see": "Stem thickening and new leaves",
       "date_range": "Jan 1 - Jan 31, 2026"
     },
     {
-      "stage": "Bushy plant, no buds yet",
+      "what_i_should_see": "Bushy plant, no buds yet",
       "date_range": "Feb 1 - Mar 10, 2026"
     },
     {
-      "stage": "First blossoms",
+      "what_i_should_see": "First blossoms",
       "date_range": "Mar 11 - Apr 5, 2026"
     },
     {
-      "stage": "Tiny green pods",
+      "what_i_should_see": "Tiny green pods",
       "date_range": "Apr 6 - Apr 25, 2026"
     },
     {
-      "stage": "Full-sized green peppers",
+      "what_i_should_see": "Full-sized green peppers",
       "date_range": "Apr 26 - May 31, 2026"
     },
     {
-      "stage": "Color change begins",
+      "what_i_should_see": "Color change begins",
       "date_range": "Jun 1 - Jun 15, 2026"
     },
     {
-      "stage": "Ripe Scotch Bonnet peppers",
+      "what_i_should_see": "Ripe Scotch Bonnet peppers",
       "date_range": "Jun 16 - Aug 15, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:33 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "139",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "85.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling is upright and stable with expanding true leaves and healthy leaf shape. Coloration is appropriate for the early seedling stage, and the stem remains firm with no signs of damping-off or water stress. Soil is visibly wet and consistent with the high moisture reading, but the plant shows no adverse response.",
+      "actions": "Do not water. Keep the planter in full sun when rain breaks to promote evaporation. Avoid fertilizer or amendments while soil moisture remains high.",
+      "next_steps": "Recheck moisture after rain subsides. Resume watering only when moisture drops below approximately 50 mS/cm. Continue monitoring leaf expansion and stem thickening as the plant advances through early vegetative development.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251214-02.jpeg",
+          "caption": "Scotch Bonnet seedling with upright posture and expanding true leaves growing in moist soil conditions.",
+          "tags": "scotch-bonnet, seedling, true-leaves"
+        },
+        {
+          "file_name": "pepper_001-20251214-03.jpeg",
+          "caption": "Close-up view showing healthy leaf shape, firm stem, and stable early vegetative growth.",
+          "tags": "scotch-bonnet, seedling, leaf-development"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:14 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "129",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "88.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Seedlings are upright with bright, firm cotyledons and developing true leaves. The plant is growing vigorously, with no visible signs of stress. Soil moisture is quite high at 80%, but no overwatering symptoms are observed yet. The soil is wet, but the seedlings remain stable and healthy.",
+      "actions": "Do not water today. Leave the container in full sun to promote evaporation and soil dry-down. Avoid fertilizer or additional amendments while moisture remains high.",
+      "next_steps": "Recheck moisture tomorrow morning. Do not water unless moisture drops below approximately 50 mS/cm. Monitor stems closely for any softening, which would indicate excess moisture stress.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251212-02.jpeg",
+          "caption": "Scotch Bonnet seedlings showing upright growth with healthy cotyledons and developing true leaves in saturated soil conditions.",
+          "tags": "Scotch-Bonnet, seedling, moisture"
+        },
+        {
+          "file_name": "pepper_001-20251212-03.jpeg",
+          "caption": "Scotch Bonnet seedlings in the planter, displaying early leaf development and healthy growth.",
+          "tags": "Scotch-Bonnet, seedling, early-growth"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:51 PM",

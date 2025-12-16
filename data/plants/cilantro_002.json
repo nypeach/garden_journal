@@ -16,19 +16,101 @@
   "current_state": "Seeds just beginning germination process; soil better hydrated and pH trending down from 8.",
   "timeline": [
     {
-      "stage": "Germination",
-      "date_range": "Nov 19 - Nov 23, 2025"
+      "what_i_should_see": "Thin Green Shoots Breaking The Soil Surface",
+      "date_range": "Nov 19 - Nov 21, 2025"
     },
     {
-      "stage": "True leaves",
-      "date_range": "Dec 1 - Dec 10, 2025"
+      "what_i_should_see": "Cotyledons Fully Open And Flattening",
+      "date_range": "Nov 21 - Nov 24, 2025"
     },
     {
-      "stage": "First harvestable leaves",
-      "date_range": "Dec 10 - Dec 17, 2025"
+      "what_i_should_see": "First Serrated True Leaves Between Cotyledons",
+      "date_range": "Nov 24 - Nov 29, 2025"
+    },
+    {
+      "what_i_should_see": "Multiple True Leaves Per Plant With Widening Lobes",
+      "date_range": "Nov 29 - Dec 5, 2025"
+    },
+    {
+      "what_i_should_see": "Dense Leafy Canopy Forming With Overlapping Leaves",
+      "date_range": "Dec 5 - Dec 12, 2025"
+    },
+    {
+      "what_i_should_see": "Outer Leaves Large Enough To Harvest Individually",
+      "date_range": "Dec 10 - Dec 18, 2025"
+    },
+    {
+      "what_i_should_see": "Center Growth Rising Faster Than Outer Leaves",
+      "date_range": "Late Dec - Early Jan"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:48 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro shows a dense, healthy canopy with broad, flat, well-serrated leaves and uniform green coloration. Foliage remains upright and turgid with no visible wilting, yellowing, or disease symptoms. Soil is fully saturated following rainfall and fertilizer application, but the plant has not yet shown any stress response.",
+      "actions": "Do not water or fertilize. Allow soil to dry naturally and ensure the planter drains freely with no standing water beneath.",
+      "next_steps": "Recheck moisture in 24–48 hours and wait until readings drop below 40 mS/cm before considering any irrigation. Monitor foliage for any signs of drooping, yellowing, or soft stems as the soil dries.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[Earlier today] Fertilized the entire shared herb box with 4 cups of diluted Purived 4-5-5."
+      ],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251214-02.jpeg",
+          "caption": "Overhead view of cilantro canopy showing dense, healthy leaf growth with broad serrated leaves and no visible stress despite saturated soil conditions.",
+          "tags": "cilantro, herb-box, saturated-soil, healthy-canopy"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:31 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "131",
+        "moisture_mScm": "50.00",
+        "light": "99",
+        "rh_percent": "34",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "75.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro shows dense, vigorous vegetative growth with broad, well-serrated leaves and uniform healthy green coloration. Leaves are flat and turgid with upright posture, and stems appear strong with no signs of pest damage, spotting, or stress. The canopy is filling in evenly, indicating the plant has moved into a robust harvest-capable vegetative phase.",
+      "actions": "Do not water today as soil moisture is ideal. Do not apply fertilizer. Maintain current placement and allow continued vegetative expansion.",
+      "next_steps": "Recheck moisture in 1–2 days and water only if readings fall below 25–30 mS/cm. Monitor density over the next several days and begin selective outer-leaf harvesting if desired to improve airflow and extend the harvest window.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251212-02.jpeg",
+          "caption": "Dense cilantro canopy showing broad, serrated leaves with uniform green coloration and upright, healthy growth under midday sun.",
+          "tags": "cilantro, herb-box, vegetative-growth, healthy-canopy"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "8:57 AM",

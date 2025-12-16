@@ -12,35 +12,118 @@
     "Planted in the same Window planter as the Shallots."
   ],
   "whats_been_logged": "The planting began in dry, lean soil along the planter edges with initially poor germination conditions. Once soil moisture was stabilized, the first seedlings emerged where surface light and airflow were strongest, forming a fine mat of bright green cotyledons. Soil acidity was corrected with dolomitic lime, supporting continued sprouting and healthier early development. Sprouts have remained upright, evenly colored, and free of damping-off, showing steady expansion as moisture and pH consistency improved.",
-  "current_stage": "Early Germination",
-  "current_state": "Multiple chamomile sprouts emerging along the front and back planter edges; soil pH correction in progress via dolomitic lime.",
-  "timeline": [
+    "current_stage": "Full Feathery Leaf Clusters",
+    "current_state": "The chamomile displays dense, healthy feathery foliage with strong lateral spread and compact growth. Multiple clusters are well established with bright green coloration, stable crowns, and no visible signs of stress, disease, or discoloration. Growth is uniform and transitioning toward early canopy formation.",
+    "timeline": [
     {
-      "stage": "Germination",
+      "what_i_should_see": "First Sprouts Emerging",
       "date_range": "Nov 17 - Nov 23, 2025"
     },
     {
-      "stage": "Feathery foliage",
+      "what_i_should_see": "Fine Feathery Leaves Develop",
       "date_range": "Nov 24 - Dec 5, 2025"
     },
     {
-      "stage": "Bushy plant",
-      "date_range": "Dec 6 - Dec 20, 2025"
+      "what_i_should_see": "Full Feathery Leaf Clusters",
+      "date_range": "Dec 6 - Dec 12, 2025"
     },
     {
-      "stage": "First flower buds",
+      "what_i_should_see": "Dense Canopy With Full Foliage Expansion",
+      "date_range": "Dec 12 - Dec 20, 2025"
+    },
+    {
+      "what_i_should_see": "First Flower Buds",
       "date_range": "Jan 3 - Jan 18, 2026"
     },
     {
-      "stage": "First harvestable blooms",
+      "what_i_should_see": "First Harvestable Blooms",
       "date_range": "Jan 15 - Jan 31, 2026"
     },
     {
-      "stage": "Peak bloom",
-      "date_range": "Feb 1 - Apr 30, 2026"
+      "what_i_should_see": "Full Bloom With Multiple Flowers",
+      "date_range": "Jan 15 - Jan 31, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:41 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.85",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "173",
+        "moisture_mScm": "69.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile plants display dense, bright green feathery foliage with strong lateral spread and stable crowns. Growth is compact and healthy with no visible wilting, discoloration, or disease. Soil appears very moist across the planter surface due to recent rainfall, but foliage remains clean and upright.",
+      "actions": "Do not water or fertilize today. Allow soil to dry naturally and maintain good drainage and airflow around the planter.",
+      "next_steps": "Recheck moisture after the next rain event. Resume watering only when moisture drops below 50.00 mS/cm. Continue monitoring foliage density and soil saturation during this wetter period.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251214-03.jpeg",
+          "caption": "Overhead view showing dense feathery chamomile foliage with strong lateral growth and evenly green coloration.",
+          "tags": "chamomile, foliage, feathery-leaves, healthy-growth"
+        },
+        {
+          "file_name": "chamomile_001-20251214-04.jpeg",
+          "caption": "Angled view of chamomile clusters showing compact form and well-defined leaf structure with moist soil surface.",
+          "tags": "chamomile, clusters, soil-moisture, container"
+        },
+        {
+          "file_name": "chamomile_001-20251214-05.jpeg",
+          "caption": "Wider planter view showing multiple chamomile groupings with clear spacing and shared container environment.",
+          "tags": "chamomile, window-box, spacing, shared-container"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:22 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "134",
+        "moisture_mScm": "56.50",
+        "light": "94",
+        "rh_percent": "37",
+        "fertility_percent": "14.5",
+        "soil_temp_f": "78.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile plants show dense, healthy feathery foliage with compact growth and strong coloration. Clusters are spreading laterally while remaining upright, with open soil between groupings that supports airflow. The soil surface appears dark, evenly moist, and well-structured with no crusting, pooling, or signs of compaction.",
+      "actions": "Do not water today. Do not fertilize. Maintain current placement and leave the soil surface undisturbed around chamomile crowns.",
+      "next_steps": "Recheck moisture tomorrow morning or early afternoon. Water only if moisture drops below 30.00 mS/cm. Continue monitoring foliage density and lateral spread as plants move further into vegetative expansion.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251212-03.jpeg",
+          "caption": "Close view of chamomile clusters showing dense feathery foliage with healthy green color and stable soil moisture.",
+          "tags": "chamomile, feathery-foliage, healthy, clusters, soil"
+        },
+        {
+          "file_name": "chamomile_001-20251212-04.jpeg",
+          "caption": "Wider view of the window box showing multiple chamomile clusters with open spacing and evenly hydrated soil surface.",
+          "tags": "chamomile, window-box, spacing, healthy-growth, soil"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:58 PM",

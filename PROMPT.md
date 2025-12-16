@@ -176,10 +176,16 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 **Data Entry Forms:**
 - [ ] Update Plant Data Form (journal entries, fragments, complete data)
-- [ ] Add Containers Form
-- [ ] Add Products Form
 
 **See workflow requirements below for detailed implementation.**
+
+### Phase 5: Admin Dashboard
+- [ ] Update Reset Notes and If/Then Statements
+- [ ] Update Dashboard Order
+- [ ] Add Containers Form
+- [ ] Add Products Form
+- [ ] Add New Plant
+- [ ] Search If/Then Statements
 
 ---
 

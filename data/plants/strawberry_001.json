@@ -16,31 +16,130 @@
   "current_state": "The plant is an established container-grown strawberry in active flowering and early fruiting. It shows strong new growth, good moisture balance, and healthy developing berries. Minor leaf-spot remains confined to older leaves with no active spreading, and the plant is recovering well from earlier alkaline soil issues.",
   "timeline": [
     {
-      "stage": "Leaf-spot cleanup & soil fix complete",
+      "what_i_should_see": "Leaf-spot cleanup & soil fix complete",
       "date_range": "Nov 11 - Nov 13, 2025"
     },
     {
-      "stage": "Stabilization complete",
+      "what_i_should_see": "Stabilization complete",
       "date_range": "Nov 14 - Nov 19, 2025"
     },
     {
-      "stage": "Early fruit swell",
+      "what_i_should_see": "Early fruit swell",
       "date_range": "Nov 19 - Dec 2, 2025"
     },
     {
-      "stage": "Color change & berry sizing",
+      "what_i_should_see": "Color change & berry sizing",
       "date_range": "Dec 2 - Dec 15, 2025"
     },
     {
-      "stage": "First ripe berries",
+      "what_i_should_see": "First ripe berries",
       "date_range": "Dec 15, 2025 - Jan 5, 2026"
     },
     {
-      "stage": "Second bloom/fruit cycle",
+      "what_i_should_see": "Second bloom/fruit cycle",
       "date_range": "Jan 5 - Jan 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:28 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "50",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "86.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is compact, healthy, and actively fruiting with multiple ripe berries and new flower buds forming. Foliage is evenly green and firm with no signs of stress or disease. The crown remains clean and well exposed, and mulch is effectively supporting fruit while keeping it dry and soil-free.",
+      "actions": "Take no action today. Do not water or fertilize. Maintain current placement and mulch configuration.",
+      "next_steps": "Allow soil to dry naturally after rain before the next watering. Harvest ripe berries promptly. Monitor older leaves for any renewed spotting and plan the next light feeding after the current fruit set completes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251214-02.jpeg",
+          "caption": "Overhead view showing balanced canopy, healthy leaf color, and clean crown exposure.",
+          "tags": "strawberry, overhead, canopy, crown"
+        },
+        {
+          "file_name": "strawberry_001-20251214-03.jpeg",
+          "caption": "Side view showing multiple ripe strawberries resting cleanly on the mulch layer.",
+          "tags": "strawberry, ripe-berries, mulch, side-view"
+        },
+        {
+          "file_name": "strawberry_001-20251214-04.jpeg",
+          "caption": "Front angle highlighting overall plant posture and active fruiting across the container.",
+          "tags": "strawberry, fruiting, posture, container"
+        },
+        {
+          "file_name": "strawberry_001-20251214-05.jpeg",
+          "caption": "Alternate side view showing berry size, color development, and mulch separation from soil.",
+          "tags": "strawberry, berries, mulch, soil-protection"
+        },
+        {
+          "file_name": "strawberry_001-20251214-06.jpeg",
+          "caption": "Close-up of foliage and developing buds indicating the next flowering and fruiting cycle.",
+          "tags": "strawberry, buds, new-growth, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:05 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.3",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "70.00",
+        "light": "84",
+        "rh_percent": "48",
+        "fertility_percent": "13",
+        "soil_temp_f": "71.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant looks vibrant and well-balanced with healthy green foliage and developing fruit. The photos show strong, clean growth and ripe strawberries in good condition. The white fuzz on the soil is likely mycelium from fungi, possibly indicating excess moisture around the roots or a fungal growth cycle.",
+      "actions": "Monitor moisture to avoid overly wet soil. Check for signs of rot or excessive fungal growth, especially around the crown. Ensure good airflow around the plant to prevent further fungal issues.",
+      "next_steps": "Recheck moisture tomorrow, and water only if it drops below mid-range. Continue observing for any fungal spread or rot near the crown or berries.",
+      "q_and_a_summary": "Discussed the presence of white fuzz, clarified it's likely beneficial fungi or mold from excess moisture, and confirmed it's not an immediate concern unless it spreads.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251212-02.jpeg",
+          "caption": "Overhead view of the strawberry plant showing healthy foliage and developing fruit.",
+          "tags": "strawberry, overhead, foliage, fruit"
+        },
+        {
+          "file_name": "strawberry_001-20251212-03.jpeg",
+          "caption": "Side view with ripe strawberries and clean foliage.",
+          "tags": "strawberry, fruit, side-view"
+        },
+        {
+          "file_name": "strawberry_001-20251212-04.jpeg",
+          "caption": "Front angle showing the plant’s overall posture, with berries developing near the base.",
+          "tags": "strawberry, posture, berries"
+        },
+        {
+          "file_name": "strawberry_001-20251212-05.jpeg",
+          "caption": "Close-up of the base showing the white fuzz around the roots and crown area.",
+          "tags": "strawberry, fuzz, crown, roots"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:39 PM",

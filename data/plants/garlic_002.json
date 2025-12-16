@@ -16,27 +16,111 @@
   "current_state": "Two Music Hardneck shoots are now above the soil surface, with the second sprout newly emerged and consistent with expected staggered development due to reduced vernalization. Both shoots appear healthy with stable early growth, and soil moisture and pH have normalized into a favorable range for continued leaf development.",
   "timeline": [
     {
-      "stage": "Vernalization complete (6+ weeks in fridge)",
+      "what_i_should_see": "Vernalization Complete",
       "date_range": "Sep 21 - Nov 15, 2025"
     },
     {
-      "stage": "Early top growth (shoots 1–3 inches)",
-      "date_range": "Nov 22 - Nov 30, 2025"
+      "what_i_should_see": "First Green Tips Breaking Soil",
+      "date_range": "Nov 21 - Nov 23, 2025"
     },
     {
-      "stage": "Strong winter foliage established",
-      "date_range": "Jan 1 - Jan 31, 2026"
+      "what_i_should_see": "Upright Shoots & Elongating Leaves",
+      "date_range": "Nov 24 - Dec 6, 2025"
     },
     {
-      "stage": "Scapes for cutting and eating",
-      "date_range": "Mar 15 - May 1, 2026"
+      "what_i_should_see": "Multiple Leaves Emerging",
+      "date_range": "Dec 7 - Dec 13, 2025"
     },
     {
-      "stage": "Bulb harvest window",
-      "date_range": "May 25 - Jun 30, 2026"
+      "what_i_should_see": "Tall Foliage & Dense Clumps",
+      "date_range": "Dec 14, 2025 - Jan 10, 2026"
+    },
+    {
+      "what_i_should_see": "Strap-Like Leaves Developing",
+      "date_range": "Jan 11 - Feb 10, 2026"
+    },
+    {
+      "what_i_should_see": "Tall Plants With Clustered Leaves",
+      "date_range": "Feb 11 - Mar 10, 2026"
+    },
+    {
+      "what_i_should_see": "Scapes Emerging & Curling",
+      "date_range": "Mar 11 - May 1, 2026"
+    },
+    {
+      "what_i_should_see": "Harvestable Scapes",
+      "date_range": "May 10 - May 25, 2026"
+    },
+    {
+      "what_i_should_see": "Ready to Harvest",
+      "date_range": "May 26 - Jun 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:37 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.40",
+        "salt_mg_L": "202",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "23.0",
+        "soil_temp_f": "83.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The smallest Music Hardneck shoot remains upright with a firm green base and collapsed upper tissue consistent with earlier stress recovery rather than rot. No darkening, softness, or fungal symptoms are present at the soil line. Surrounding soil appears uniformly saturated and cohesive following rainfall, with adjacent Music shoots maintaining structure and color.",
+      "actions": "Do not water or fertilize today. Leave all shoots and damaged leaves intact. Allow natural dry-down and airflow to reduce excess moisture.",
+      "next_steps": "Monitor soil moisture over the next 48 hours, aiming for a return to the 40–55 mS/cm range. Watch for fresh green tissue emerging from the base once saturation subsides. Avoid any intervention unless moisture remains above 70 mS/cm for multiple days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251214-02.jpeg",
+          "caption": "Smallest Music Hardneck shoot with a firm green base and collapsed upper tissue, showing continued viability under saturated soil conditions.",
+          "tags": "garlic, Music Hardneck, recovery, saturation, early growth"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:18 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "44.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "78.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The smallest Music Hardneck shoot remains upright with a firm green base and a collapsed upper tip consistent with prior dehydration stress. No signs of rot, darkening, or soft tissue are present at the soil line. Surrounding soil appears evenly moist, aerated, and stable, providing favorable conditions for renewed basal growth.",
+      "actions": "Do not water today as soil moisture is ideal. Leave the damaged leaf intact and allow the plant to redirect growth naturally. Do not fertilize or disturb the soil.",
+      "next_steps": "Monitor for new green growth emerging from the base over the next 2–5 days. Recheck moisture only if the surface dries significantly. Expect either a new central shoot or renewed extension from the existing sheath.",
+      "q_and_a_summary": "Discussed whether the smallest shoot is likely to survive; confirmed it is viable and showing normal recovery behavior after early stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251212-02.jpeg",
+          "caption": "Smallest Music Hardneck shoot showing a firm green base with a collapsed upper tip consistent with early stress recovery rather than rot.",
+          "tags": "garlic, Music Hardneck, recovery, early growth, shoot"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:55 PM",

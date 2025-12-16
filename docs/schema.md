@@ -250,7 +250,7 @@ Each **Plant Data** profile must follow this structure:
   "current_state": "Visual description paragraph",
   "timeline": [
     {
-      "stage": "Observable milestone",
+      "what_i_should_see": "Observable milestone",
       "date_range": "Mmm DD - Mmm DD, YYYY"
     }
   ],
@@ -310,7 +310,7 @@ Below are the field definitions for the **Plant Main Data**:
 - `whats_been_logged` (string, required): Summary of what has been tracked and recorded
 - `current_stage` (string, required): Current growth stage of the plant
 - `current_state` (string, required): Detailed description of the plant's current condition
-- `timeline` (array of objects, required): Expected growth stages with projected date ranges (See "Timeline Rules" below)
+- `timeline` (array of objects, required): Expected visual milestones with projected date ranges (See "Timeline Rules" below)
 - `journal` (array of objects, required): Daily log entries following the structure in Section 5.1
 
 ___
@@ -430,7 +430,7 @@ ___
 - Array of object elements
 - Each timeline element must contain:
 
-   - `stage` (string, required): Description of Visual Stage
+   - `what_i_should_see` (string, required): Description of expected visual milestones
    - `date_range` (string, required): Expected timeframe
 
 - The `date_range` can be formatted in one of two ways:

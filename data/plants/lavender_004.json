@@ -16,27 +16,111 @@
   "current_state": "First lavender sprout emerged on Day 12; early cotyledons forming and soil moisture now stable in the upper germination zone.",
   "timeline": [
     {
-      "stage": "Germination",
-      "date_range": "Nov 23 - Dec 5, 2025"
+      "what_i_should_see": "Initial Sprouts Breaking Through The Soil",
+      "date_range": "Nov 23 – Nov 27, 2025"
     },
     {
-      "stage": "Tiny seedlings visible",
-      "date_range": "Dec 10 - Dec 20, 2025"
+      "what_i_should_see": "First True Leaves Forming",
+      "date_range": "Nov 28 – Dec 9, 2025"
     },
     {
-      "stage": "Transplantable small plants",
-      "date_range": "Jan 10 - Jan 25, 2026"
+      "what_i_should_see": "Multiple True Leaves With Compact, Sturdy Appearance",
+      "date_range": "Dec 10 – Dec 22, 2025"
     },
     {
-      "stage": "First light flowering",
-      "date_range": "May 1 - Jul 31, 2026"
+      "what_i_should_see": "Small Bushlet Forming With Denser Leaf Clusters",
+      "date_range": "Dec 23, 2025 – Jan 9, 2026"
     },
     {
-      "stage": "Peak flowering",
-      "date_range": "Jul 15 - Sep 30, 2026"
+      "what_i_should_see": "New Light-Green Leaf Push, Faster Growth",
+      "date_range": "Late Feb – Mar 2026"
+    },
+    {
+      "what_i_should_see": "First Flower Buds Visible Above Foliage",
+      "date_range": "Apr – May 2026"
+    },
+    {
+      "what_i_should_see": "Peak Flowering Elongated Stems (Harvest Window)",
+      "date_range": "May – Sep 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:32 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "215",
+        "moisture_mScm": "64.00",
+        "light": "97",
+        "rh_percent": "50",
+        "fertility_percent": "25.0",
+        "soil_temp_f": "84.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling remains upright and structurally stable with multiple true leaves showing healthy green coloration. Leaf posture is open with no wilting or collapse. The soil surface appears dark and heavily moist, indicating reduced aeration compared to previous days. No signs of damping-off, yellowing, or disease are visible.",
+      "actions": "Do not water today or tomorrow. Keep the pot sheltered from rainfall and maintain full morning sun exposure to encourage drying. Do not apply fertilizer or soil amendments.",
+      "next_steps": "Allow the soil to dry down naturally over the next 24–48 hours. Recheck moisture and delay watering until readings fall below 30–35 mS/cm. Monitor leaf color and posture for continued stability.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:00 PM] The lavender pot was exposed to rain and could not be moved under cover. Soil became further saturated, but the plant remained upright with no visible stress at the time of observation."
+      ],
+      "photos": [
+        {
+          "file_name": "lavender_004-20251214-02.jpeg",
+          "caption": "Overhead view of the lavender seedling showing multiple true leaves and a dark, moisture-heavy soil surface.",
+          "tags": "lavender, seedling, overhead, moist-soil"
+        },
+        {
+          "file_name": "lavender_004-20251214-03.jpeg",
+          "caption": "Angled close-up highlighting upright growth, healthy leaf color, and compact early structure.",
+          "tags": "lavender, seedling, leaves, early-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:11 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "49.00",
+        "light": "98",
+        "rh_percent": "40",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "86.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling is upright and well established with multiple true leaves showing healthy green coloration. Leaf spacing is compact with no signs of legginess, wilting, or damping-off. The soil surface appears evenly moist and well aerated, with no compaction or crusting. Overall structure indicates successful transition from germination into early vegetative growth.",
+      "actions": "Do not water today, as soil moisture is ideal for root expansion. Maintain full morning sun exposure and provide light afternoon protection only if soil temperatures rise further. Do not apply fertilizer or soil amendments.",
+      "next_steps": "Allow the soil to dry gradually over the next 24–48 hours. Recheck moisture tomorrow morning and water only if readings fall below 25–30 mS/cm. Continue monitoring leaf expansion and stem thickness as the plant strengthens.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "lavender_004-20251212-02.jpeg",
+          "caption": "Overhead view showing a healthy lavender seedling with multiple true leaves and evenly moist soil surface.",
+          "tags": "lavender, seedling, overhead, soil-surface"
+        },
+        {
+          "file_name": "lavender_004-20251212-03.jpeg",
+          "caption": "Angled close-up highlighting compact growth, firm stem, and healthy leaf development.",
+          "tags": "lavender, seedling, leaves, early-growth"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:43 PM",

@@ -16,19 +16,83 @@
   "current_state": "Tiny oregano seedlings are emerging across the section, with small green points visible above warm, evenly moist soil. Conditions are stable with strong light and gentle fertility, and the seedlings appear healthy and on track for thicker sprout coverage. The planting is well positioned to move into the true-leaf stage with continued careful moisture management.",
   "timeline": [
     {
-      "stage": "Germination",
+      "what_i_should_see": "Germination",
       "date_range": "Nov 19 - Nov 27, 2025"
     },
     {
-      "stage": "True leaves",
+      "what_i_should_see": "True leaves",
       "date_range": "Dec 1 - Dec 15, 2025"
     },
     {
-      "stage": "First harvestable sprigs",
+      "what_i_should_see": "First harvestable sprigs",
       "date_range": "Jan 15 - Jan 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:52 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.75",
+        "salt_mg_L": "377",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "47.0",
+        "soil_temp_f": "83.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A healthy oregano seedling is clearly visible and standing upright with good posture, confirming successful recovery and renewed emergence. The soil surface is stable, evenly moist, and well structured with no crusting or pooling. Elevated EC, salts, and fertility reflect the recent application of diluted Purived 4-5-5 across the entire herb box, and the seedling is tolerating the increase without visible stress.",
+      "actions": "Do not water or fertilize today. Allow rainfall and natural dry-down to regulate moisture. Avoid disturbing the soil surface so additional seedlings can emerge.",
+      "next_steps": "Monitor for additional seedlings emerging over the next 3–7 days. Recheck moisture after rain events and allow drying before intervening if moisture exceeds 70. Avoid any further feeding until multiple seedlings are established.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "oregano_001-20251214-02.jpeg",
+          "caption": "Close-up of the oregano section showing a single healthy seedling standing upright in stable, moist soil following fertilization.",
+          "tags": "oregano, seedling, recovery, emergence"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:34 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.3",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "70",
+        "moisture_mScm": "49.00",
+        "light": "89",
+        "rh_percent": "33",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The oregano section shows progress with one tiny sprout emerging, signaling recovery. Soil moisture is slightly low but within range for seedlings. The pH, fertility, and light levels are all favorable for continued growth.",
+      "actions": "Water gently to raise moisture slightly without over-wetting the soil. Maintain current light exposure.",
+      "next_steps": "Check soil moisture tomorrow. If it drops below 40%, add water again. Keep monitoring the sprout for any signs of stress.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "oregano_001-20251212-02.jpeg",
+          "caption": "First tiny oregano sprout emerging from the soil, signaling recovery.",
+          "tags": "oregano, sprout, recovery, 12-12"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "9:00 AM",

@@ -16,35 +16,86 @@
   "current_state": "Healthy, vigorous regrowth with dense new shoots and clean foliage, showing stable recovery and balanced moisture conditions.",
   "timeline": [
     {
-      "stage": "Stabilization after hard prune",
-      "date_range": "Nov 20 - Nov 25, 2025"
+      "what_i_should_see": "Cut Stems With Few Leaves Remaining",
+      "date_range": "Nov 18 - Nov 21, 2025"
     },
     {
-      "stage": "New node swelling (first visible bumps)",
+      "what_i_should_see": "Small Bumps Forming At Stem Nodes",
+      "date_range": "Nov 21 - Nov 25, 2025"
+    },
+    {
+      "what_i_should_see": "Tiny Paired Leaves Emerging At Nodes",
       "date_range": "Nov 25 - Nov 30, 2025"
     },
     {
-      "stage": "First true shoot emergence from lower nodes",
-      "date_range": "Nov 30 - Dec 5, 2025"
+      "what_i_should_see": "Multiple Small Leaf Clusters Visible",
+      "date_range": "Nov 30 - Dec 6, 2025"
     },
     {
-      "stage": "Small clusters of new leaves forming",
-      "date_range": "Dec 5 - Dec 12, 2025"
+      "what_i_should_see": "Plant Looks Fuller And More Bushy",
+      "date_range": "Dec 6 - Dec 13, 2025"
     },
     {
-      "stage": "Early bushy regrowth begins",
-      "date_range": "Dec 12 - Dec 20, 2025"
+      "what_i_should_see": "Dense Canopy Forming With Overlapping Leaves",
+      "date_range": "Dec 13 - Dec 20, 2025"
     },
     {
-      "stage": "First light harvest (tiny pinches only)",
+      "what_i_should_see": "Leaf Tips Long Enough For Light Pinching",
       "date_range": "Dec 20 - Dec 28, 2025"
     },
     {
-      "stage": "Normal basil growth resumes; regular topping possible",
+      "what_i_should_see": "Full, Steady Basil Growth Resumes",
       "date_range": "Dec 28, 2025 - Jan 10, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:25 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.2",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "128",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "81.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is looking healthy with vibrant green leaves and strong, stable growth. No visible signs of stress or damage. The soil is evenly moist, and overall vigor is strong.",
+      "actions": "No watering needed today; the moisture is ideal. Monitor pH levels for the next few days to ensure the plant remains in an ideal pH range. Keep the plant in its current sunlight exposure and rotate it as needed.",
+      "next_steps": "Check moisture tomorrow and water only if the top inch of soil feels dry. Watch for any signs of nutrient deficiencies or growth slowdown related to the pH. Continue rotating for even growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251214-02.jpeg",
+          "caption": "Close-up of the basil plant showing healthy, vibrant leaves.",
+          "tags": "basil, healthy-leaves, growth"
+        },
+        {
+          "file_name": "basil_001-20251214-03.jpeg",
+          "caption": "Side view of basil showing dense foliage and strong growth.",
+          "tags": "basil, side-view, dense-growth"
+        },
+        {
+          "file_name": "basil_001-20251214-04.jpeg",
+          "caption": "Angled view showing balanced plant structure and healthy foliage.",
+          "tags": "basil, angled-view, healthy-structure"
+        },
+        {
+          "file_name": "basil_001-20251214-05.jpeg",
+          "caption": "Top-down view showing well-formed canopy and consistent leaf coloration.",
+          "tags": "basil, top-view, canopy"
+        }
+      ]
+    },
     {
       "date": "12/12/2025",
       "time": "1:04 PM",

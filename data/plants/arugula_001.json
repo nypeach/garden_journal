@@ -17,23 +17,72 @@
   "current_state": "Dense, vigorous seedlings are now beginning to show their first true leaves and are close to forming a continuous baby-leaf canopy. Moisture and pH are within an ideal range, and the tray is stable with only minor cosmetic stress where earlier thinning occurred. The planting is nearly ready for its first light baby-leaf harvests once leaves size up a bit more.",
   "timeline": [
     {
-      "stage": "Baby-leaf stage",
-      "date_range": "Nov 21 - Nov 25, 2025"
+      "what_i_should_see": "Dense Baby-Leaf Carpet Formed",
+      "date_range": "Nov 21 - Nov 26, 2025"
     },
     {
-      "stage": "First full harvest",
+      "what_i_should_see": "Taller Baby Leaves Above Canopy",
+      "date_range": "Nov 26 - Dec 1, 2025"
+    },
+    {
+      "what_i_should_see": "Baby Leaves Ready For First Cut",
       "date_range": "Dec 2 - Dec 6, 2025"
     },
     {
-      "stage": "Cut-and-come-again harvests (every 4–6 days)",
-      "date_range": "Dec 7 - Dec 31, 2025"
+      "what_i_should_see": "Fresh Regrowth After First Cut",
+      "date_range": "Dec 4 - Dec 10, 2025"
     },
     {
-      "stage": "Full maturity",
+      "what_i_should_see": "Even Baby-Leaf Regrowth Across Tray",
+      "date_range": "Dec 8 - Dec 15, 2025"
+    },
+    {
+      "what_i_should_see": "Ongoing Cut-And-Come Harvests",
+      "date_range": "Dec 12 - Dec 31, 2025"
+    },
+    {
+      "what_i_should_see": "Leaves Elongating And Maturing",
       "date_range": "Dec 20 - Dec 28, 2025"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:43 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight. Tonight: Partly cloudy with a slight chance of thunderstorms. Tomorrow: Partly sunny with a high of 71°F.",
+      "digital_probe": {
+        "ph": "6.6",
+        "ec_mScm": "0.41",
+        "salt_mg_L": "206",
+        "moisture_mScm": "74.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "24.0",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula appears healthy and vigorous with dense, green baby-leaves forming. The right-hand side is showing more elongation and slightly darker green coloration, suggesting it’s nearing the ideal harvest window. No new pest or disease signs are visible, but some areas remain pale from earlier crowding.",
+      "actions": "No watering needed today; moisture is at a perfect level. Plan to harvest light baby-leaves in the next 1–2 days. Avoid additional fertilization for now as fertility is currently high.",
+      "next_steps": "Monitor moisture after tonight’s rain and recheck the soil tomorrow morning. Continue tracking regrowth and color improvement across the tray. Plan for the first light harvest within the next 1–2 days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251214-02.jpeg",
+          "caption": "Overhead view of dense baby-leaf canopy.",
+          "tags": "arugula, baby-leaf, canopy"
+        },
+        {
+          "file_name": "arugula_001-20251214-03.jpeg",
+          "caption": "Right-hand section of tray showing elongated, greener leaves.",
+          "tags": "arugula, right-side, green-leaves, harvest"
+        }
+      ]
+    },
     {
       "date": "12/12/2025",
       "time": "1:24 PM",

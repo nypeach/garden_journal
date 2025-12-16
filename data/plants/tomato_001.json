@@ -18,31 +18,137 @@
     "current_state": "The plant is actively transitioning from fruit set into early ripening, with at least one lower fruit showing clear first-blush coloration while surrounding clusters remain firm and green. The canopy is healthy and well-aerated following prior sanitation pruning, and the central stem is upright and stable under increasing fruit weight. Ongoing flowering continues in the upper canopy, indicating the plant is simultaneously supporting ripening fruit and new production without visible stress.",
     "timeline": [
       {
-        "stage": "Early vegetative growth – First fruit set",
+        "what_i_should_see": "Early vegetative growth – First fruit set",
         "date_range": "Oct 15 - Nov 17, 2025"
       },
       {
-        "stage": "Flowering and fruit set building",
+        "what_i_should_see": "Flowering and fruit set building",
         "date_range": "Nov 19 - Dec 8, 2025"
       },
       {
-        "stage": "Canopy regrowth & branching",
+        "what_i_should_see": "Canopy regrowth & branching",
         "date_range": "Dec 9 - Dec 16, 2025"
       },
       {
-        "stage": "First ripening (first blush color)",
+        "what_i_should_see": "First ripening (first blush color)",
         "date_range": "Dec 11 - Dec 18, 2025"
       },
       {
-        "stage": "First full harvest (fully red clusters)",
+        "what_i_should_see": "First full harvest (fully red clusters)",
         "date_range": "Dec 15 - Dec 28, 2025"
       },
       {
-        "stage": "Ongoing flowering & fruiting continues",
+        "what_i_should_see": "Ongoing flowering & fruiting continues",
         "date_range": "Jan 2026 - Mar 31, 2026"
       }
     ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:53 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "58",
+        "moisture_mScm": "55.00",
+        "light": "92",
+        "rh_percent": "51",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "79.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant is upright, vigorous, and heavily loaded with developing fruit clusters from the lower stem through the upper canopy. One lower fruit has progressed into full orange coloration, indicating active ripening, while surrounding fruits remain firm and green. Foliage is healthy and well-aerated with no visible disease pressure. Recently added support stakes have improved branch spacing and reduced strain on the central stem as fruit weight increases.",
+      "actions": "Do not water or fertilize today. Allow incoming rain to maintain soil moisture. Ensure all support ties remain loose and stems are not rubbing against stakes after storms.",
+      "next_steps": "Monitor ripening fruit daily and harvest once fully red. Recheck moisture after rainfall clears and before the next watering decision. Plan a light 4-5-5 feeding after the next watering cycle if moisture remains stable.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:45 PM] Installed three additional support stakes around the main stake to provide branch spacing and reduce fruit load stress."
+      ],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251214-02.jpeg",
+          "caption": "Full plant view showing upright posture, expanded support staking, and balanced canopy structure.",
+          "tags": "tomato, full-plant, staking, structure"
+        },
+        {
+          "file_name": "tomato_001-20251214-03.jpeg",
+          "caption": "Mid-stem fruit clusters showing firm green tomatoes developing evenly along the stem.",
+          "tags": "tomato, fruit, clusters, mid-canopy"
+        },
+        {
+          "file_name": "tomato_001-20251214-04.jpeg",
+          "caption": "Lower fruit cluster with one tomato advancing into orange ripening stage.",
+          "tags": "tomato, fruit, ripening, lower-cluster"
+        },
+        {
+          "file_name": "tomato_001-20251214-05.jpeg",
+          "caption": "Close-up of support ties and stems showing good spacing and reduced tension after additional staking.",
+          "tags": "tomato, staking, support, stem"
+        },
+        {
+          "file_name": "tomato_001-20251214-06.jpeg",
+          "caption": "Upper canopy showing healthy foliage and continued flowering activity.",
+          "tags": "tomato, canopy, flowers, growth"
+        },
+        {
+          "file_name": "tomato_001-20251214-07.jpeg",
+          "caption": "Top-down view of the raised bed showing overall plant vigor and soil condition.",
+          "tags": "tomato, overhead, raised-bed"
+        },
+        {
+          "file_name": "tomato_001-20251214-08.jpeg",
+          "caption": "Angled side view highlighting fruit load distribution across multiple support stakes.",
+          "tags": "tomato, fruit-load, support"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:42 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.9",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "71",
+        "moisture_mScm": "57.00",
+        "light": "89",
+        "rh_percent": "37",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "71.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains upright and healthy, with fruit clusters developing evenly. One lower fruit is beginning to show first blush color, while the rest of the fruit remains firm and green. Foliage is green and turgid with no visible signs of disease or pest pressure.",
+      "actions": "Do not water today. Check support ties to ensure they are not tightening as fruit weight increases.",
+      "next_steps": "Monitor fruit ripening daily. Recheck moisture tomorrow morning. Plan to apply 4-5-5 fertilizer after next watering.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251212-02.jpeg",
+          "caption": "Full plant view showing upright structure and multiple fruit clusters.",
+          "tags": "tomato, canopy, fruit, structure"
+        },
+        {
+          "file_name": "tomato_001-20251212-03.jpeg",
+          "caption": "Close-up of lower fruit cluster showing one tomato entering first blush with pale yellow coloration.",
+          "tags": "tomato, fruit, ripening, first-blush"
+        },
+        {
+          "file_name": "tomato_001-20251212-04.jpeg",
+          "caption": "Close-up of fruit clusters developing on the mid-stem.",
+          "tags": "tomato, fruit, clusters, growth"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "5:04 PM",

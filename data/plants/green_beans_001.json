@@ -17,39 +17,136 @@
   "current_state": "Upright, branching bush bean with expanding trifoliate leaves; mild chewing on lower leaves but no progressing damage; soil structure improved after amendment.",
   "timeline": [
     {
-      "stage": "First true leaves",
-      "date_range": "Nov 20 - Nov 24, 2025"
+      "what_i_should_see": "First True Leaves Fully Open",
+      "date_range": "Nov 20 – Nov 24, 2025"
     },
     {
-      "stage": "Full seedling stage, several leaf sets",
-      "date_range": "Nov 25 - Dec 2, 2025"
+      "what_i_should_see": "Several Sets of Trifoliate Leaves",
+      "date_range": "Nov 25 – Dec 2, 2025"
     },
     {
-      "stage": "Bushy plant structure forming",
-      "date_range": "Dec 1 - Dec 10, 2025"
+      "what_i_should_see": "Bushy Shape Forming with Upright Central Stems",
+      "date_range": "Dec 1 – Dec 8, 2025"
     },
     {
-      "stage": "Flower buds appearing",
-      "date_range": "Dec 18 - Dec 25, 2025"
+      "what_i_should_see": "Multiple Side Branches at Leaf Nodes",
+      "date_range": "Dec 8 – Dec 14, 2025"
     },
     {
-      "stage": "Active flowering",
-      "date_range": "Dec 22, 2025 - Jan 2, 2026"
+      "what_i_should_see": "Leaf Canopy Thickening and Filling Space Around Stake",
+      "date_range": "Dec 12 – Dec 18, 2025"
     },
     {
-      "stage": "First pods setting",
-      "date_range": "Dec 28, 2025 - Jan 6, 2026"
+      "what_i_should_see": "Small Flower Buds at Upper Nodes",
+      "date_range": "Dec 18 – Dec 25, 2025"
     },
     {
-      "stage": "First harvest window",
-      "date_range": "Jan 10 - Jan 20, 2026"
+      "what_i_should_see": "Open White Flowers",
+      "date_range": "Dec 22, 2025 – Jan 2, 2026"
     },
     {
-      "stage": "Continuous (pick every 2-3 days)",
-      "date_range": "Jan 20 - Feb 28, 2026"
+      "what_i_should_see": "Thin Green Bean Pods Behind Spent Flowers",
+      "date_range": "Dec 28, 2025 – Jan 6, 2026"
+    },
+    {
+      "what_i_should_see": "Pods Lengthening to Harvestable Size",
+      "date_range": "Jan 10 – Jan 20, 2026"
+    },
+    {
+      "what_i_should_see": "Continuous New Pods Forming After Harvest",
+      "date_range": "Jan 20 – Feb 28, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:54 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "18",
+        "moisture_mScm": "13.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "79.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant remains upright with multiple side branches and healthy green trifoliate leaves. New growth is active at the nodes with no wilting or discoloration. Lower leaves show older cosmetic chewing but no progression into new growth. Soil surface and probe readings indicate the root zone is now very dry.",
+      "actions": "Apply 1½ cups of water slowly around the dripline to rehydrate the root zone. Do not fertilize and do not apply pest treatments today.",
+      "next_steps": "Recheck moisture tomorrow and confirm readings rise above 30 mS/cm. Monitor new leaf tips for accelerated expansion following rehydration. Maintain consistent moisture as the plant approaches early flowering.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251214-02.jpeg",
+          "caption": "Overhead view showing compact bush form with multiple branching points and healthy leaf color.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251214-03.jpeg",
+          "caption": "Side view highlighting upright stems and active node development along the main branches.",
+          "tags": "green-beans, branching, node-development"
+        },
+        {
+          "file_name": "green_beans_001-20251214-04.jpeg",
+          "caption": "Close-up of lower foliage showing older cosmetic chewing damage without spread to new leaves.",
+          "tags": "green-beans, leaf-damage, lower-leaves"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:44 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "32",
+        "moisture_mScm": "27.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant shows healthy early vegetative growth with upright stems, expanding trifoliate leaves, and active node development. Leaf color is a consistent medium green with no signs of nutrient stress or wilting. Minor chewing damage remains limited to older lower leaves and is not present on new growth. Soil structure around the base appears stable and well-aerated.",
+      "actions": "Apply 1 cup of water slowly around the dripline to raise soil moisture into the ideal mid-range. Do not fertilize and do not apply any pest treatments at this time.",
+      "next_steps": "Recheck soil moisture tomorrow to confirm it rises above the low range. Continue monitoring new leaves for any fresh chewing damage. Expect continued vegetative expansion under current temperatures and sun exposure.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251212-02.jpeg",
+          "caption": "Overhead view showing compact bush structure with healthy, expanding trifoliate leaves.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251212-03.jpeg",
+          "caption": "Side view illustrating upright stems and balanced spacing around the base of the plant.",
+          "tags": "green-beans, structure, upright-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251212-04.jpeg",
+          "caption": "Close-up of the main stem showing active node development and new leaf formation.",
+          "tags": "green-beans, nodes, new-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251212-05.jpeg",
+          "caption": "Lower foliage displaying older cosmetic chewing damage with no spread to new leaves.",
+          "tags": "green-beans, leaf-damage, lower-leaves"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "5:04 PM",

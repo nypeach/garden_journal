@@ -16,35 +16,169 @@
   "current_state": "The plant is in vigorous fruiting condition with dense, healthy foliage and numerous berries at different stages of development. The crown remains clean and well-ventilated, and the recently added mulch supports developing fruit while keeping soil conditions cool and balanced. Overall growth is strong, productive, and visually stable.",
   "timeline": [
     {
-      "stage": "Runner extension & daughter plant formation (forecast)",
+      "what_i_should_see": "Runner extension & daughter plant formation (forecast)",
       "date_range": "Nov 25 - Dec 5, 2025"
     },
     {
-      "stage": "Stabilization complete",
+      "what_i_should_see": "Stabilization complete",
       "date_range": "Nov 17 - Nov 19, 2025"
     },
     {
-      "stage": "Early fruit swell",
+      "what_i_should_see": "Early fruit swell",
       "date_range": "Nov 20 - Dec 5, 2025"
     },
     {
-      "stage": "Active fruit-set and multi-cluster development",
+      "what_i_should_see": "Active fruit-set and multi-cluster development",
       "date_range": "Dec 9, 2025 - Dec 20, 2025"
     },
     {
-      "stage": "Color change & berry sizing",
+      "what_i_should_see": "Color change & berry sizing",
       "date_range": "Dec 5 - Dec 18, 2025"
     },
     {
-      "stage": "First ripe berries",
+      "what_i_should_see": "First ripe berries",
       "date_range": "Dec 18, 2025 - Jan 5, 2026"
     },
     {
-      "stage": "Second bloom/fruit cycle",
+      "what_i_should_see": "Second bloom/fruit cycle",
       "date_range": "Jan 8 - Jan 30, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:29 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "119",
+        "moisture_mScm": "100.00",
+        "light": "88",
+        "rh_percent": "47",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "86.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant maintains a strong, leafy canopy but shows signs of stress related to excessive soil moisture. Several fruits display deformation consistent with incomplete pollination, and one fruit shows aborted development with purplish, matte, shriveled tissue. Multiple leaves exhibit small circular leaf spot lesions, and minor insect chewing is present. Overall structure remains intact with no signs of crown collapse.",
+      "actions": "Do not water. Remove aborted and rotting fruit immediately. Lift foliage slightly to improve airflow and reduce leaf contact with wet mulch. Avoid pruning healthy leaves.",
+      "next_steps": "Allow soil to dry naturally over the next several days. Monitor for progression of leaf spot once rain subsides. Reassess moisture before any irrigation and watch for new flowers forming under drier conditions.",
+      "q_and_a_summary": "Discussed cause of deformed berries and aborted fruit; explained incomplete pollination and root oxygen stress from saturated soil. Addressed concern about disease and clarified this is a stress response rather than systemic infection.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251214-02.jpeg",
+          "caption": "Overhead view showing dense foliage, active flowering, and developing fruit.",
+          "tags": "strawberry, overhead, flowering"
+        },
+        {
+          "file_name": "strawberry_002-20251214-03.jpeg",
+          "caption": "Close-up of deformed strawberry with uneven achene development consistent with incomplete pollination.",
+          "tags": "strawberry, deformed-fruit, pollination"
+        },
+        {
+          "file_name": "strawberry_002-20251214-04.jpeg",
+          "caption": "Leaf surface showing multiple small circular leaf spot lesions.",
+          "tags": "strawberry, leaf-spot, foliage"
+        },
+        {
+          "file_name": "strawberry_002-20251214-05.jpeg",
+          "caption": "Lower foliage displaying scattered leaf spot and minor chewing damage.",
+          "tags": "strawberry, insect-damage, leaf-spot"
+        },
+        {
+          "file_name": "strawberry_002-20251214-06.jpeg",
+          "caption": "Interior canopy view showing moisture-retentive mulch and dense crown growth.",
+          "tags": "strawberry, crown, mulch"
+        },
+        {
+          "file_name": "strawberry_002-20251214-07.jpeg",
+          "caption": "Aborted fruit with purplish, matte surface indicating stress-related fruit drop.",
+          "tags": "strawberry, aborted-fruit, stress"
+        },
+        {
+          "file_name": "strawberry_002-20251214-08.jpeg",
+          "caption": "Ripening fruit resting on mulch with visible moisture retention beneath canopy.",
+          "tags": "strawberry, ripening, mulch"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:09 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "102",
+        "moisture_mScm": "62.00",
+        "light": "92",
+        "rh_percent": "46",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "88.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is thriving with healthy, dense foliage and multiple berries at different stages of development. Leaves are firm and free of significant damage. Some berries are nearing full size and ripening. There is minor chewing damage visible on some leaves and some leaf spot, but these are not progressing rapidly.",
+      "actions": "Monitor pest activity, especially chewing damage. Consider applying neem oil if pest pressure increases. Keep an eye on the leaf spots and apply copper fungicide if they begin to spread. Allow the berries to continue growing and ripening naturally, rotating the pot for even light exposure.",
+      "next_steps": "Continue monitoring for pests and leaf spot. Recheck berry development over the next few days. Rotate the pot regularly and ensure mulch stays in place for optimal fruit growth.",
+      "q_and_a_summary": "Asked whether the small berries would get bigger, confirmed that they are in the early stages of ripening and will continue to grow and ripen over the next few days.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251212-02.jpeg",
+          "caption": "Overhead view showing healthy foliage and multiple berries at different stages.",
+          "tags": "strawberry, overhead, foliage, berries"
+        },
+        {
+          "file_name": "strawberry_002-20251212-03.jpeg",
+          "caption": "Close-up of developing berries, some beginning to ripen.",
+          "tags": "strawberry, berry, ripening"
+        },
+        {
+          "file_name": "strawberry_002-20251212-04.jpeg",
+          "caption": "Side view showing berry clusters and healthy leaf structure.",
+          "tags": "strawberry, side-view, berries, leaves"
+        },
+        {
+          "file_name": "strawberry_002-20251212-05.jpeg",
+          "caption": "Close-up of a berry with slight redness indicating early ripening.",
+          "tags": "strawberry, berry, close-up, ripening"
+        },
+        {
+          "file_name": "strawberry_002-20251212-06.jpeg",
+          "caption": "Side angle showing dense canopy and developing berries.",
+          "tags": "strawberry, side-view, canopy, berries"
+        },
+        {
+          "file_name": "strawberry_002-20251212-07.jpeg",
+          "caption": "Close-up showing berries resting on mulch, allowing for healthy airflow.",
+          "tags": "strawberry, berry, mulch"
+        },
+        {
+          "file_name": "strawberry_002-20251212-08.jpeg",
+          "caption": "Wide shot showing plant structure with berries and healthy leaf mass.",
+          "tags": "strawberry, whole-plant, berries"
+        },
+        {
+          "file_name": "strawberry_002-20251212-09.jpeg",
+          "caption": "Close-up of a berry cluster with healthy surrounding leaves.",
+          "tags": "strawberry, berries, leaves"
+        },
+        {
+          "file_name": "strawberry_002-20251212-10.jpeg",
+          "caption": "Handheld shot showing a small cluster of ripe strawberries.",
+          "tags": "strawberry, ripe, hand-held"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:41 PM",

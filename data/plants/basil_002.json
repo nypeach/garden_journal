@@ -16,23 +16,82 @@
   "current_state": "The plant has recovered well from its pH crisis and severe topping. New growth is compact, bright, and fuller, with healthy lateral branching emerging from preserved lower nodes. A few pale lower leaves remain from earlier stress but show no progression. The main structure is upright and stable, with no pest pressure or nutrient deficiency visible. The plant remains sensitive to harsh afternoon heat but thrives in morning light.",
   "timeline": [
     {
-      "stage": "pH stabilization and early recovery",
-      "date_range": "Nov 20 - Nov 24, 2025"
+      "what_i_should_see": "Stalled Growth, Pale Leaves, Uneven Stems",
+      "date_range": "Nov 17 - Nov 19, 2025"
     },
     {
-      "stage": "Stronger new growth and fuller top canopy",
-      "date_range": "Nov 25 - Dec 3, 2025"
+      "what_i_should_see": "Greening at Tips, Lower Leaves Pale",
+      "date_range": "Nov 20 - Nov 22, 2025"
     },
     {
-      "stage": "Light harvests from recovered upper stems",
-      "date_range": "Dec 5 - Dec 12, 2025"
+      "what_i_should_see": "Uneven Color, Active Shoots After Topping",
+      "date_range": "Nov 23 - Nov 25, 2025"
     },
     {
-      "stage": "Regular harvest cycle from fuller plant",
-      "date_range": "Dec 20, 2025 - Jan 10, 2026"
+      "what_i_should_see": "Compact, Bushy, Improving Leaf Color",
+      "date_range": "Nov 26 - Dec 3, 2025"
+    },
+    {
+      "what_i_should_see": "Full, Dense Canopy, Mostly Healthy Leaves",
+      "date_range": "Dec 4 - Dec 9, 2025"
+    },
+    {
+      "what_i_should_see": "Active Growth, Surface Root Mat Forms",
+      "date_range": "Dec 10 - Dec 15, 2025"
+    },
+    {
+      "what_i_should_see": "Regular Tip Harvests, Rapid Regrowth",
+      "date_range": "Dec 16, 2025 - Jan 10, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:27 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "163",
+        "moisture_mScm": "90.00",
+        "light": "89",
+        "rh_percent": "48",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil shows steady growth, with healthy, green foliage and well-developed lateral shoots. The root mat on the surface continues to form as expected with high moisture, and the plant remains upright and vibrant. However, the moisture level remains on the higher side (90%), and the salt level is elevated at 163 mg/L. There are no visible signs of stress, but surface root activity is high, requiring careful monitoring.",
+      "actions": "Do not water today. Lightly break up the top 1/4 inch of soil to improve aeration and prevent surface crusting. Gently rotate the pot to increase airflow. If the root mat is thick, top-dress with a thin layer of fresh potting mix to help with moisture balance. Avoid fertilizing or adjusting pH at this stage.",
+      "next_steps": "Allow the pot to dry down slightly over the next 24 hours. Recheck moisture tomorrow and avoid watering until readings drop below 60 mS/cm. Keep monitoring the root mat and salt levels. If salts rise further, plan for a gentle flush.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251214-02.jpeg",
+          "caption": "Overhead view showing basil canopy with vibrant green leaves and well-formed structure.",
+          "tags": "basil, overhead, foliage, healthy-growth"
+        },
+        {
+          "file_name": "basil_002-20251214-03.jpeg",
+          "caption": "Side view capturing strong stems and dense foliage.",
+          "tags": "basil, side-view, stems, growth"
+        },
+        {
+          "file_name": "basil_002-20251214-04.jpeg",
+          "caption": "Angle showing overall plant posture and soil moisture status.",
+          "tags": "basil, container, soil, posture"
+        },
+        {
+          "file_name": "basil_002-20251214-05.jpeg",
+          "caption": "Closer view of leaf texture with no visible stress, but slight color variation.",
+          "tags": "basil, close-up, foliage, texture"
+        }
+      ]
+    },
     {
       "date": "12/12/2025",
       "time": "1:05 PM",

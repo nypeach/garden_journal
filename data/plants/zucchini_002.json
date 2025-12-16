@@ -16,47 +16,154 @@
   "current_stage": "Active Fruit Set / Early Fruiting",
   "timeline": [
     {
-      "stage": "Early Seedling Through First Flower Buds",
-      "date_range": "Nov 10 - Dec 2, 2025"
+      "what_i_should_see": "Early Seedling Through First Fruit Set",
+      "date_range": "Nov 10 - Dec 9, 2025"
     },
     {
-      "stage": "Rapid Vegetative Boom",
-      "date_range": "Nov 20 - Dec 1, 2025"
-    },
-    {
-      "stage": "First Blossoms",
-      "date_range": "Dec 3 - Dec 6, 2025"
-    },
-    {
-      "stage": "First Fruit Set And Swelling",
-      "date_range": "Dec 5 - Dec 9, 2025"
-    },
-    {
-      "stage": "Active Fruit Development",
+      "what_i_should_see": "Active Fruit Development",
       "date_range": "Dec 9 - Dec 26, 2025"
     },
     {
-      "stage": "First Fruit Harvest",
-      "date_range": "Dec 26, 2025 - Jan 2, 2026"
+      "what_i_should_see": "Ready for Second Pollination",
+      "date_range": "Dec 16 - Dec 22, 2025"
     },
     {
-      "stage": "Initial Vertical Training (First Tie Added)",
+      "what_i_should_see": "Initial Vertical Training (First Tie Added)",
       "date_range": "Dec 15 - Dec 22, 2025"
     },
     {
-      "stage": "Mid-Season Pruning & Training (Remove Lower Leaves)",
+      "what_i_should_see": "Mid-Season Pruning & Training (Remove Lower Leaves)",
       "date_range": "Dec 20, 2025 - Jan 5, 2026"
     },
     {
-      "stage": "Productive Vertical Growth (New Fruit And Stem Climbing)",
-      "date_range": "Jan 5 - Feb 1, 2026"
+      "what_i_should_see": "First Fruit Harvest Window",
+      "date_range": "Dec 26, 2025 - Jan 20, 2026"
     },
     {
-      "stage": "First Harvest",
-      "date_range": "Dec 26, 2025 - Jan 20, 2026"
+      "what_i_should_see": "Productive Vertical Growth (New Fruit And Stem Climbing)",
+      "date_range": "Jan 5 - Feb 1, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "1:45 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "52.00",
+        "light": "98",
+        "rh_percent": "35",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "71.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is actively producing new female flower buds at the crown, each with a clearly formed ovary. The first zucchini fruit continues to elongate with uniform color and a firm stem connection. Canopy structure remains open and vigorous, and stems are thick and upright with no signs of stress or disease.",
+      "actions": "Do not water today as soil moisture is ideal and rain is expected. Leave fresh mulch in place beneath the developing fruit to maintain airflow and prevent soil contact. Do not fertilize today.",
+      "next_steps": "Check female flowers each morning over the next 1–3 days for opening and perform hand pollination immediately when petals open. Continue monitoring moisture after rainfall and prepare for early vertical training as the stem elongates.",
+      "q_and_a_summary": "Discussed when female flowers become ready for hand pollination and confirmed that pollination should occur the morning the flower opens, typically within 24–72 hours based on current bud development.",
+      "follow_up": [
+        "[1:30 PM] Added fresh mulch beneath the first developing zucchini fruit to improve airflow and reduce soil contact during rainy conditions."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251214-02.jpeg",
+          "caption": "Overhead view showing the full canopy and active crown development.",
+          "tags": "zucchini, canopy, overhead"
+        },
+        {
+          "file_name": "zucchini_002-20251214-03.jpeg",
+          "caption": "Close-up of the crown showing multiple forming female buds with visible ovaries.",
+          "tags": "zucchini, crown, female buds"
+        },
+        {
+          "file_name": "zucchini_002-20251214-04.jpeg",
+          "caption": "Side view of the first developing zucchini fruit resting above mulch support.",
+          "tags": "zucchini, fruit, mulch support"
+        },
+        {
+          "file_name": "zucchini_002-20251214-05.jpeg",
+          "caption": "Close view of a female flower bud showing a swollen ovary prior to opening.",
+          "tags": "zucchini, female flower, pre-bloom"
+        },
+        {
+          "file_name": "zucchini_002-20251214-06.jpeg",
+          "caption": "Developing zucchini fruit showing firm texture and even coloration.",
+          "tags": "zucchini, fruit development"
+        },
+        {
+          "file_name": "zucchini_002-20251214-07.jpeg",
+          "caption": "Lower stem area showing clean structure and stable soil conditions.",
+          "tags": "zucchini, stem, base"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:45 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "52.00",
+        "light": "98",
+        "rh_percent": "35",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "71.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is actively growing with a well-spread canopy and healthy leaf structure. New blossoms are visible, and the fruit is elongating nicely, with healthy skin coloration. No signs of disease or rot. The crown is vibrant with new growth and multiple male blossoms.",
+      "actions": "Remove spent blossoms from the soil surface to reduce moisture retention and insect attraction. No watering needed today. Continue supporting the developing fruit with light mulch until upgraded support is needed. No fertilizer required today.",
+      "next_steps": "Monitor moisture tomorrow morning and upgrade fruit support in 1–2 days. Watch for emerging female blossoms and confirm pruning stub continues to dry and seal. Continue monitoring the plant's growth as it prepares for vertical training.",
+      "q_and_a_summary": "Discussed whether low overnight temperatures in the low 50s were concerning; confirmed these are safe for zucchini. Confirmed presence of early female buds forming within the crown.",
+      "follow_up": [
+        "[7:42 AM] Confirmed the leaf was cut correctly at the proper petiole position.",
+        "[8:02 AM] Added a small layer of mulch beneath the developing fruit for gentle support."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251212-02.jpeg",
+          "caption": "Overhead view showing male blossoms and a widening canopy.",
+          "tags": "zucchini, canopy, male flowers"
+        },
+        {
+          "file_name": "zucchini_002-20251212-03.jpeg",
+          "caption": "Close view of the crown showing the clean pruning cut and active new growth.",
+          "tags": "zucchini, crown, pruning"
+        },
+        {
+          "file_name": "zucchini_002-20251212-04.jpeg",
+          "caption": "Side view of the developing zucchini fruit positioned above the soil surface.",
+          "tags": "zucchini, developing fruit, soil contact"
+        },
+        {
+          "file_name": "zucchini_002-20251212-05.jpeg",
+          "caption": "Developing zucchini fruit showing healthy elongation and firm color.",
+          "tags": "zucchini, fruit growth"
+        },
+        {
+          "file_name": "zucchini_002-20251212-06.jpeg",
+          "caption": "Spent male blossoms removed from the soil surface to reduce moisture trapping.",
+          "tags": "zucchini, spent blossoms, soil cleanliness"
+        },
+        {
+          "file_name": "zucchini_002-20251212-07.jpeg",
+          "caption": "Interior crown view showing multiple forming female buds.",
+          "tags": "zucchini, female buds, crown development"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "5:07 PM",

@@ -12,23 +12,105 @@
     "Shares planter with Cilantro, Parsley, Thyme, and Oregano."
   ],
   "whats_been_logged": "The planting began with very dry, alkaline soil that was rehydrated and corrected with lime. Early germination was slow but steady as moisture stabilized and pH gradually shifted from alkaline to acidic, then naturally rebounded toward ideal range. Sprouts emerged healthy and upright, with first true-leaf tips now visible as the seedlings transition from germination into active early growth.",
-  "current_stage": "In Germination Window",
-  "current_state": "Seeds just starting water uptake; soil rehydrated and pH correction underway.",
+  "current_stage": "Early Vegetative Growth",
+  "current_state": "A healthy stand of Thai basil with upright stems and multiple sets of elongated true leaves actively expanding. Foliage is evenly green with no visible stress, wilting, or pest damage, and the soil is uniformly moist with good structure in the shared herb planter.",
   "timeline": [
     {
-      "stage": "Germination",
-      "date_range": "Nov 17 - Nov 22, 2025"
+      "what_i_should_see": "Tiny Paired Leaves Emerging at Nodes",
+      "date_range": "Nov 25 - Nov 30, 2025"
     },
     {
-      "stage": "First true leaves",
-      "date_range": "Nov 25 - Dec 5, 2025"
+      "what_i_should_see": "Multiple Small Leaf Clusters Visible",
+      "date_range": "Nov 30 - Dec 6, 2025"
     },
     {
-      "stage": "First harvestable sprigs",
-      "date_range": "Dec 15 - Dec 22, 2025"
+      "what_i_should_see": "Distinct Individual Plants Visible",
+      "date_range": "Dec 5 - Dec 12, 2025"
+    },
+    {
+      "what_i_should_see": "Plant Looks Fuller and More Bushy",
+      "date_range": "Dec 6 - Dec 13, 2025"
+    },
+    {
+      "what_i_should_see": "Dense Canopy Forming with Overlapping Leaves",
+      "date_range": "Dec 13 - Dec 20, 2025"
+    },
+    {
+      "what_i_should_see": "Leaf Tips Long Enough for Light Pinching",
+      "date_range": "Dec 20 - Dec 28, 2025"
+    },
+    {
+      "what_i_should_see": "First Harvestable Sprigs Visible",
+      "date_range": "Dec 28, 2025 - Jan 10, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:48 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "172",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil plants remain upright and vigorous with multiple sets of elongated true leaves and steady stem thickening. Foliage is evenly green with no signs of stress or nutrient burn following yesterday’s feeding. Soil is visibly very wet, consistent with the saturated moisture reading and incoming rain conditions.",
+      "actions": "Do not water or fertilize. Allow the soil to dry down naturally to restore air exchange in the root zone.",
+      "next_steps": "Recheck moisture once readings fall below the 70 range. Resume normal watering only after moisture returns to the 40–60 range. Continue watching for fuller canopy formation and leaf overlap.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20251214-02.jpeg",
+          "caption": "Overhead view of Thai basil showing fuller growth with multiple sets of elongated true leaves and healthy coloration after recent feeding.",
+          "tags": "thai basil, vegetative growth, leaf expansion, healthy foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:30 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "129",
+        "moisture_mScm": "50.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "75.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil plants are upright and actively expanding with multiple elongated true leaves per stem. Foliage is evenly green with no signs of wilting, scorch, or pest damage, and stems are beginning to thicken as the plants continue early vegetative growth. Soil appears evenly moist with good structure and no surface crusting in the shared herb window box.",
+      "actions": "Do not water today; soil moisture is already ideal. Plan for a light feeding at the next morning watering to support continued vegetative expansion.",
+      "next_steps": "At the next morning watering, mix ½ teaspoon Purived 4-5-5 into 4–6 cups of water and apply evenly across the entire window box as the only watering. After feeding, recheck moisture in 24–48 hours and water again only if readings fall below the upper 30s. Continue monitoring leaf density and canopy thickening as the plants approach the first pinching window.",
+      "q_and_a_summary": "Discussed whether the diluted Purived solution could contact the basil leaves; confirmed that light foliar contact is safe at this strength when applied in the morning and does not require rinsing.",
+      "follow_up": [
+        "[7:30 AM] Fertilized the entire herb box with 4 cups of diluted Purived 4-5-5 solution."
+      ],
+      "photos": [
+        {
+          "file_name": "basil_003-20251212-02.jpeg",
+          "caption": "Overhead view of Thai basil showing upright stems and multiple sets of elongated true leaves entering early vegetative growth.",
+          "tags": "thai basil, early vegetative, true leaves, healthy growth"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "8:57 AM",

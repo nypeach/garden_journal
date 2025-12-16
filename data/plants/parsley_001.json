@@ -16,19 +16,83 @@
   "current_state": "Seeds in place; parsley's natural slow-germination behavior means a longer wait before seeing sprouts.",
   "timeline": [
     {
-      "stage": "Germination",
+      "what_i_should_see": "Germination",
       "date_range": "Nov 26 - Dec 10, 2025"
     },
     {
-      "stage": "True leaves",
+      "what_i_should_see": "True leaves",
       "date_range": "Dec 20 - Dec 31, 2025"
     },
     {
-      "stage": "First harvestable stems",
+      "what_i_should_see": "First harvestable stems",
       "date_range": "Jan 10 - Jan 25, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:50 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "215",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "25.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley shows dense, vigorous vegetative growth with upright stems and overlapping leaf clusters. Foliage is evenly green and turgid with no signs of wilting, nutrient burn, or stress. New inner growth is actively emerging, indicating strong root activity and nutrient uptake following fertilization of the shared herb box.",
+      "actions": "No watering is needed today. Fertilization has already been applied using diluted Purived 4-5-5 across the entire herb window box. Allow soil moisture and nutrients to stabilize naturally, especially with rain expected.",
+      "next_steps": "Monitor soil moisture after rainfall and ensure the surface dries slightly before the next irrigation. Begin light harvesting once stems reach 6–8 inches tall. Recheck probe readings in 2–3 days to confirm salts and EC remain stable.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251214-02.jpeg",
+          "caption": "Overhead view showing a dense parsley canopy with healthy green leaves and active new growth emerging from the center.",
+          "tags": "parsley, canopy, vegetative-growth, healthy"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:32 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.37",
+        "salt_mg_L": "188",
+        "moisture_mScm": "60.00",
+        "light": "94",
+        "rh_percent": "33",
+        "fertility_percent": "21.0",
+        "soil_temp_f": "76.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley is thriving with healthy, vibrant green leaves and no visible signs of stress. It appears well-established in the soil with a good canopy of leaves.",
+      "actions": "Apply a balanced liquid fertilizer soon. No watering needed for now as moisture is ideal.",
+      "next_steps": "Monitor the plant for any changes in growth. Recheck moisture and fertility in 2–3 days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251212-02.jpeg",
+          "caption": "A healthy, vibrant parsley plant with no signs of stress, showing lush green leaves and good growth.",
+          "tags": "parsley, leaves, healthy growth"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "8:59 AM",

@@ -1,6 +1,6 @@
 {
   "id": "lavender_005",
-  "status": "Active",
+  "status": "Inactive",
   "plant": "Lavender (Right)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 6",
@@ -9,30 +9,31 @@
   "origin_history": [
     "Lavender seed pot placed at Panel 5.",
     "Seeds scattered and lightly covered on Nov 9, 2025.",
-    "Soil mix: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio)."
+    "Soil mix: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio).",
+    "Made inactive Dec 14, 2025.  No germination."
   ],
   "whats_been_logged": "The pot has been monitored daily since sowing with moisture, pH, and environmental readings documented. Several days showed dry soil requiring light watering. pH fluctuations were observed, including a drop to 4.71 corrected by a 1/4 teaspoon dolomitic lime top-dress. Soil texture, drainage, and exposure have been consistently stable. Lime additions, light watering, and full-sun placement have been the primary interventions as the germination window begins.",
   "current_stage": "Pre-Germination",
   "current_state": "Seeds sown Nov 9, 2025; soil remains dry to moderately moist with stable sunlight exposure. pH correction applied Nov 20 due to acidic drift. No sprouts observed as of the latest entry.",
   "timeline": [
     {
-      "stage": "Germination window begins",
+      "what_i_should_see": "Germination window begins",
       "date_range": "Nov 23 - Dec 5, 2025"
     },
     {
-      "stage": "Tiny seedlings visible",
+      "what_i_should_see": "Tiny seedlings visible",
       "date_range": "Dec 10 - Dec 20, 2025"
     },
     {
-      "stage": "Transplantable small plants",
+      "what_i_should_see": "Transplantable small plants",
       "date_range": "Jan 10 - Jan 25, 2026"
     },
     {
-      "stage": "First light flowering",
+      "what_i_should_see": "First light flowering",
       "date_range": "Mar 1 - Apr 30, 2026"
     },
     {
-      "stage": "Peak flowering",
+      "what_i_should_see": "Peak flowering",
       "date_range": "Jun 1 - Aug 31, 2026"
     }
   ],

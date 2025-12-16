@@ -12,51 +12,125 @@
     "Shares the window box with Scotch Bonnet and Jalapeño."
   ],
   "whats_been_logged": "The plant is now in an active early-seedling phase with expanding true leaves, steady moisture conditions, and well-aerated soil following recent adjustments. The plant has shown consistent daily growth, healthy leaf development, and stable soil chemistry, while monitoring has centered on moisture behavior through rain cycles and early preventive pest management across the shared container.",
-  "current_stage": "First true leaves",
-  "current_state": "Seedlings show steady early growth with widening true leaves, bright even coloration, and upright posture. The soil surface is loose and aerated after light adjustment, and there are no signs of stress, damping-off, or nutrient imbalance.",
+  "current_stage": "Early Vegetative Growth",
+  "current_state": "The plant shows healthy early vegetative growth with noticeably larger true leaves, expanding leaf mass, and upright, firm stems. Leaf color is an even, vibrant green with no signs of chlorosis, wilting, or disease. The soil remains well-structured and aerated despite recent saturation, and the plant is responding positively to warm temperatures and strong light.",
   "timeline": [
     {
-      "stage": "Seeds in soil (no visible activity yet)",
+      "what_i_should_see": "Seeds in soil (no visible activity yet)",
       "date_range": "Nov 12 - Nov 20, 2025"
     },
     {
-      "stage": "Seedlings emerge",
+      "what_i_should_see": "Seedlings emerge",
       "date_range": "Nov 21 - Nov 30, 2025"
     },
     {
-      "stage": "First true leaves",
+      "what_i_should_see": "First true leaves",
       "date_range": "Dec 1 - Dec 12, 2025"
     },
     {
-      "stage": "Stem thickening and new leaf growth",
+      "what_i_should_see": "Stem thickening and new leaf growth",
       "date_range": "Dec 13, 2025 - Jan 10, 2026"
     },
     {
-      "stage": "Bushy vegetative stage, no buds yet",
+      "what_i_should_see": "Bushy vegetative stage, no buds yet",
       "date_range": "Jan 11 - Feb 5, 2026"
     },
     {
-      "stage": "First blossoms appear",
+      "what_i_should_see": "First blossoms appear",
       "date_range": "Feb 6 - Feb 25, 2026"
     },
     {
-      "stage": "Tiny green peppers form",
+      "what_i_should_see": "Tiny green peppers form",
       "date_range": "Feb 26 - Mar 20, 2026"
     },
     {
-      "stage": "Full-sized green peppers",
+      "what_i_should_see": "Full-sized green peppers",
       "date_range": "Mar 21 - Apr 10, 2026"
     },
     {
-      "stage": "Color change begins",
+      "what_i_should_see": "Color change begins",
       "date_range": "Apr 11 - Apr 25, 2026"
     },
     {
-      "stage": "Ripe Orange Cal Wonder peppers",
+      "what_i_should_see": "Ripe Orange Cal Wonder peppers",
       "date_range": "Apr 26 - May 15, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:34 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "130",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "84.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is transitioning into early vegetative growth with noticeably larger true leaves and increased spacing between nodes. Leaf color is evenly green and healthy, stems are upright and firm, and no signs of wilt, disease, or stress are present. Soil is fully saturated from rainfall but remains well-structured and aerated with no surface pooling.",
+      "actions": "Do not water today. Maintain full sun exposure and allow soil to dry naturally following rainfall.",
+      "next_steps": "Recheck moisture once levels fall below 60 mS/cm. Resume watering only after additional dry-down. Continue monitoring leaf expansion and stem strength over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251214-02.jpeg",
+          "caption": "Side view showing early vegetative growth with expanding true leaves and upright, firm stems.",
+          "tags": "orange-cal-wonder, pepper, early-vegetative, leaves"
+        },
+        {
+          "file_name": "pepper_002-20251214-03.jpeg",
+          "caption": "Overhead view highlighting increased leaf size, healthy coloration, and evenly saturated soil after rainfall.",
+          "tags": "orange-cal-wonder, pepper, overhead, soil, growth"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:15 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "107",
+        "moisture_mScm": "52.00",
+        "light": "98",
+        "rh_percent": "38",
+        "fertility_percent": "11",
+        "soil_temp_f": "81.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The seedlings remain upright and healthy, with expanding true leaves. Leaf color is bright green, and stems are firm. Soil moisture is slightly below ideal for this stage, but the plant remains stable with no signs of stress or nutrient imbalance.",
+      "actions": "Monitor moisture levels closely and water if moisture falls below 40 mS/cm. Continue maintaining full sun exposure to encourage steady growth.",
+      "next_steps": "Recheck moisture tomorrow morning and adjust watering as necessary. Continue monitoring leaf health and soil conditions.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251212-02.jpeg",
+          "caption": "Healthy seedlings with expanding true leaves, bright green and upright.",
+          "tags": "orange-cal-wonder, seedlings, true-leaves, growth"
+        },
+        {
+          "file_name": "pepper_002-20251212-03.jpeg",
+          "caption": "Overhead view showing seedlings and settled, well-aerated soil surface.",
+          "tags": "orange-cal-wonder, seedlings, soil, overhead"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:51 PM",

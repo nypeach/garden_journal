@@ -14,33 +14,106 @@
   "whats_been_logged": "The focus has been on recovery from transplant stress while tracking moisture patterns, pH fluctuation from high to stabilized levels, and emergence of new center growth. Early logs documented pale outer leaves from shock and high-pH nutrient lockout, followed by gradual greening and the appearance of a male blossom. Soil adjustments with potting mix improved structure and stability.",
   "current_stage": "Recovering Transplant",
   "current_state": "The plant is in recovery but improving. New center growth is emerging, showing the plant has stabilized and is exiting transplant shock. Outer leaves remain pale with evidence of earlier stress, but the crown is actively producing new foliage.",
-  "timeline": [
-    {
-      "stage": "Fully recovered / greener",
-      "date_range": "Nov 20 - Nov 24, 2025"
-    },
-    {
-      "stage": "More true leaves",
-      "date_range": "Nov 25 - Dec 5, 2025"
-    },
-    {
-      "stage": "Rapid vegetative boom",
-      "date_range": "Dec 6 - Dec 25, 2025"
-    },
-    {
-      "stage": "First flower buds (female)",
-      "date_range": "Dec 26, 2025 - Jan 5, 2026"
-    },
-    {
-      "stage": "First blossoms (female bloom phase)",
-      "date_range": "Jan 6 - Jan 15, 2026"
-    },
-    {
-      "stage": "First harvest",
-      "date_range": "Feb 1 - Feb 28, 2026"
-    }
-  ],
+    "timeline": [
+      {
+        "what_i_should_see": "Noticeably Greener New Growth / Stronger Vigor",
+        "date_range": "Dec 15 - Dec 31, 2025"
+      },
+      {
+        "what_i_should_see": "Leaf Count & Leaf Size Increase (True Leaf Expansion)",
+        "date_range": "Jan 1 - Jan 20, 2026"
+      },
+      {
+        "what_i_should_see": "Canopy Spread & Runner-Like Growth Beginning (Vegetative Build)",
+        "date_range": "Jan 21 - Feb 10, 2026"
+      },
+      {
+        "what_i_should_see": "First Female Flower Buds Appearing",
+        "date_range": "Feb 11 - Feb 25, 2026"
+      },
+      {
+        "what_i_should_see": "First Female Blossoms Opening (Pollination Window)",
+        "date_range": "Feb 26 - Mar 15, 2026"
+      },
+      {
+        "what_i_should_see": "First Fruit Set & Visible Zucchini Enlargement",
+        "date_range": "Mar 16 - Apr 5, 2026"
+      },
+      {
+        "what_i_should_see": "First Harvest",
+        "date_range": "Apr 6 - Apr 30, 2026"
+      }
+    ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:56 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "39",
+        "moisture_mScm": "39.00",
+        "light": "92",
+        "rh_percent": "50",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "77.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains alive and biologically active with an upright crown and continued production of a male blossom. Leaf color is pale but leaves remain turgid and structurally intact, indicating functional water uptake. Minor chewing damage is visible on older leaves, but no progressive disease or crown collapse is present. Soil conditions remain supportive with no signs of rot or saturation stress.",
+      "actions": "Do not water today due to incoming showers. Do not fertilize. Leave all foliage and blossoms intact.",
+      "next_steps": "Reassess moisture after rainfall clears. Monitor the crown for new leaf emergence over the next 3–5 days. Delay any feeding until consistent new growth shows improved color.",
+      "q_and_a_summary": "Discussed whether the plant is still viable and identifying realistic ways to support recovery without forcing growth. The assessment confirmed the plant remains biologically active and not in decline. Guidance emphasized patience, maintaining consistent moisture, avoiding premature fertilization, and allowing root recovery to drive gradual improvement rather than aggressive intervention.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251214-02.jpeg",
+          "caption": "Overhead view showing an upright crown with a developing male blossom and pale but turgid leaves.",
+          "tags": "zucchini, crown, male-blossom, recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:47 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "40",
+        "moisture_mScm": "41.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "72.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued recovery with the crown upright and producing new leaves. The first male blossoms are showing, indicating the plant is entering a new phase of growth. Soil is stable with no obvious signs of compaction or pest damage. New growth at the crown remains light green but healthy.",
+      "actions": "No watering required. Monitor for deepening green color in new growth. Adjust fertility slightly if necessary if the new growth remains light.",
+      "next_steps": "Recheck moisture tomorrow and monitor for deeper greening. Continue to support the plant and ensure good sun exposure.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251212-02.jpeg",
+          "caption": "Side view showing new growth at the crown.",
+          "tags": "zucchini, new-growth, crown"
+        },
+        {
+          "file_name": "zucchini_001-20251212-03.jpeg",
+          "caption": "Overhead view showing the developing male blossoms.",
+          "tags": "zucchini, blossoms, male"
+        }
+      ]
+    },
     {
       "date": "12/10/2025",
       "time": "7:37 AM",

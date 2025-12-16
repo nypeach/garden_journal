@@ -16,27 +16,64 @@
   "current_state": "The planter now contains freshly cut scallion bases with clean cut surfaces and healthy green centers already beginning to emerge. The soil surface has improved aeration after light fluffing and filling of probe holes, and the scallion clumps appear firm, hydrated, and poised for rapid regeneration.",
   "timeline": [
     {
-      "stage": "Rooting and sprout regrowth from planted bottoms",
+      "what_i_should_see": "Rooting and sprout regrowth from planted bottoms",
       "date_range": "Nov 12 - Nov 20, 2025"
     },
     {
-      "stage": "Established scallion clumps",
+      "what_i_should_see": "Established scallion clumps",
       "date_range": "Nov 21 - Dec 8, 2025"
     },
     {
-      "stage": "First full cut-down harvest completed",
+      "what_i_should_see": "First full cut-down harvest completed",
       "date_range": "Dec 9, 2025"
     },
     {
-      "stage": "Post-harvest regrowth cycle (new shoots emerging)",
+      "what_i_should_see": "Post-harvest regrowth cycle (new shoots emerging)",
       "date_range": "Dec 9 - Dec 20, 2025"
     },
     {
-      "stage": "Ongoing cut-and-come-again harvests",
+      "what_i_should_see": "Ongoing cut-and-come-again harvests",
       "date_range": "Dec 21, 2025 - Mar 1, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/12/2025",
+      "time": "1:17 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "15",
+        "soil_temp_f": "83.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions are actively regrowing with healthy green centers forming from the cut bases. The soil appears well-hydrated, and there are no signs of rot or disease. Moisture levels are high, so caution is needed to avoid over-saturation.",
+      "actions": "Ensure the planter has good drainage to prevent waterlogging. No watering required for now, as moisture levels are high. No fertilizer applied until shoots reach 3 inches tall.",
+      "next_steps": "Recheck moisture tomorrow and ensure it has stabilized. Continue to monitor the elongation of new shoots. Avoid fertilizing until shoots are at least 3 inches tall.",
+      "q_and_a_summary": "User asked about moisture levels, and it was confirmed that high saturation could be harmful if prolonged.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251212-04.jpeg",
+          "caption": "Freshly cut scallion bases showing early regrowth emerging from the hollow centers.",
+          "tags": "scallions, post-harvest, regrowth"
+        },
+        {
+          "file_name": "scallions_001-20251212-05.jpeg",
+          "caption": "Multiple scallion clumps displaying new shoots and healthy hydration under full sun.",
+          "tags": "scallions, regrowth, cut-and-come-again"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "4:54 PM",

@@ -16,27 +16,100 @@
   "current_state": "The seedlings are stable, upright, and expanding their true leaves with healthy green coloration. Soil conditions are balanced and appropriate for continued growth, with no visible signs of stress. The plant is well positioned to enter denser foliage expansion over the next several days.",
   "timeline": [
     {
-      "stage": "Full true leaves",
-      "date_range": "Nov 20 - Nov 23, 2025"
+      "what_i_should_see": "Seedlings With First True Leaves",
+      "date_range": "Nov 17 - Nov 20, 2025"
     },
     {
-      "stage": "Leaf mass expansion",
-      "date_range": "Nov 24 - Dec 2, 2025"
+      "what_i_should_see": "Full True Leaves Across Most Seedlings",
+      "date_range": "Nov 21 - Nov 27, 2025"
     },
     {
-      "stage": "First harvestable stems",
-      "date_range": "Dec 3 - Dec 10, 2025"
+      "what_i_should_see": "Dense Leaf Clusters Forming With Short Stems",
+      "date_range": "Nov 28 - Dec 2, 2025"
     },
     {
-      "stage": "Peak lush growth",
-      "date_range": "Dec 10 - Dec 27, 2025"
+      "what_i_should_see": "Stems Lengthen Beneath The Canopy",
+      "date_range": "Dec 3 - Dec 6, 2025"
     },
     {
-      "stage": "Probable bolting window",
-      "date_range": "Feb 1 - Mar 31, 2026"
+      "what_i_should_see": "4–5\" Stems Ready For Harvest",
+      "date_range": "Dec 7 - Dec 14, 2025"
+    },
+    {
+      "what_i_should_see": "Peak Lush Leaf Growth After First Cuts",
+      "date_range": "Dec 15 - Dec 28, 2025"
     }
   ],
   "journal": [
+    {
+      "date": "12/14/2025",
+      "time": "2:44 PM",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "73",
+        "moisture_mScm": "57.00",
+        "light": "93",
+        "rh_percent": "50",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "83.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro shows healthy, upright growth with full, well-formed leaves and clearly defined stems. Leaf color is even and vibrant with no signs of nutrient stress, pest damage, or wilting. Soil moisture is balanced and consistent across the planter.",
+      "actions": "Do not water today. Begin selective harvesting if desired by cutting outer stems while leaving the central crown intact.",
+      "next_steps": "Recheck moisture tomorrow afternoon and water only if readings fall below 30 mS/cm. Monitor regrowth after first harvest cuts.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251214-02.jpeg",
+          "caption": "Overhead view of cilantro showing dense, healthy foliage and harvest-ready stem length.",
+          "tags": "cilantro, overhead, harvest-ready, healthy-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/12/2025",
+      "time": "1:29 PM",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "8.90",
+        "ec_mScm": "0.01",
+        "salt_mg_L": "9",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro is upright and actively growing with healthy green foliage and expanding leaf mass. Soil surface is dry and lightly crusted, causing probe contact failure and false high pH readings. Despite dry surface conditions, the plant shows no visible stress, wilting, or discoloration.",
+      "actions": "Apply a slow, thorough two-pass watering across the entire window box to rehydrate the root zone. Lightly break the soil surface crust after watering without disturbing roots. Do not fertilize today.",
+      "next_steps": "Recheck moisture tomorrow morning or midday. Expect probe readings to normalize once soil contact is restored. Water only if moisture falls below 30 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251212-02.jpeg",
+          "caption": "Overhead view of cilantro showing dense, healthy foliage and active vegetative growth.",
+          "tags": "cilantro, overhead, foliage, healthy-growth"
+        },
+        {
+          "file_name": "cilantro_001-20251212-03.jpeg",
+          "caption": "Top-down view of the window box showing dry soil surface and well-established cilantro clusters.",
+          "tags": "cilantro, window-box, soil-surface, dry-conditions"
+        }
+      ]
+    },
     {
       "date": "12/11/2025",
       "time": "5:02 PM",
