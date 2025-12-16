@@ -46,6 +46,29 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:43 AM",
+      "conditions": "Partly sunny with a 20–30% chance of showers and thunderstorms. High of 81°F dropping to 63°F overnight. Wind gusts up to 29 mph.",
+      "digital_probe": {
+        "ph": "6.0",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "182",
+        "moisture_percent": "59",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "20",
+        "soil_temp_f": "66.4"
+      },
+      "observations": "Chamomile plants show dense, well-defined feathery leaf clusters with strong lateral spread and healthy green coloration. Crowns are stable and upright despite wind. Soil surface is moist but no longer saturated, with visible drying compared to the previous day.",
+      "actions": "No watering or fertilization performed. Allowed wind and sun to continue drying the soil naturally.",
+      "next_steps": "Monitor moisture levels tomorrow. Resume watering only if moisture drops below 45%. Continue observing canopy expansion and airflow between clusters.",
+      "photos": [
+        "chamomile_001-20251215-03.jpeg",
+        "chamomile_001-20251215-04.jpeg",
+        "chamomile_001-20251215-05.jpeg"
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:41 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

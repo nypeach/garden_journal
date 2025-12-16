@@ -44,6 +44,48 @@
     ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "11:29 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "39.00",
+        "light": "89",
+        "rh_percent": "49",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "70.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant remains upright and well supported despite gusty conditions. Lower fruit clusters continue ripening, with one fruit fully orange and others beginning to follow. Upper canopy foliage is healthy and productive, with no signs of wind damage, wilt, or disease pressure. Soil surface shows moderate drying consistent with probe readings.",
+      "actions": "Do not water or fertilize yet. Allow controlled dry-down through windy conditions. Check all support ties to ensure no rubbing or constriction as stems move with gusts.",
+      "next_steps": "Recheck moisture tomorrow morning and water if readings fall into the low 30s. Plan a light 4-5-5 feeding with the next watering if drainage remains good. Continue harvesting fully red fruit to redirect plant energy.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251215-02.jpeg",
+          "caption": "Full plant view showing upright posture and stable structure under windy conditions.",
+          "tags": "tomato, full-plant, wind, structure"
+        },
+        {
+          "file_name": "tomato_001-20251215-03.jpeg",
+          "caption": "Close-up of lower fruit cluster with one tomato fully orange and others nearing ripeness.",
+          "tags": "tomato, fruit, ripening, lower-cluster"
+        },
+        {
+          "file_name": "tomato_001-20251215-04.jpeg",
+          "caption": "Mid-canopy view showing healthy foliage and continued fruit development.",
+          "tags": "tomato, canopy, foliage, fruit"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:53 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

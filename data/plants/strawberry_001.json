@@ -42,6 +42,70 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:12 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "69",
+        "moisture_mScm": "55.00",
+        "light": "97",
+        "rh_percent": "48",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "66.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is actively fruiting with multiple ripe berries harvested and additional flowers and developing fruit remaining on the plant. Foliage is dense, firm, and evenly green with no visible signs of stress, disease, or pest activity. The crown remains clean and elevated, and mulch continues to protect fruit from soil contact.",
+      "actions": "Harvest ripe berries as they reach full red coloration. Do not water or fertilize today. Maintain current mulch placement and container position.",
+      "next_steps": "Allow soil to stabilize after recent wind and rain before reassessing moisture and pH. Plan a light feeding once the current fruiting cycle finishes to support the next bloom wave. Continue monitoring older leaves only.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[7:39 AM] Harvested two fully ripe strawberries using clean cuts, leaving approximately 1/4 inch of stem attached to each berry. Fruit was rinsed and prepared for consumption."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251215-02.jpeg",
+          "caption": "Overhead view showing a dense, healthy canopy with active flowering and balanced leaf structure prior to harvest.",
+          "tags": "strawberry, canopy, flowers, pre-harvest"
+        },
+        {
+          "file_name": "strawberry_001-20251215-03.jpeg",
+          "caption": "Side view showing fully ripe strawberries positioned cleanly on the mulch layer before harvesting.",
+          "tags": "strawberry, ripe-berries, mulch, pre-harvest"
+        },
+        {
+          "file_name": "strawberry_001-20251215-04.jpeg",
+          "caption": "Front angle highlighting overall plant posture and multiple fruiting points around the crown.",
+          "tags": "strawberry, posture, fruiting, crown"
+        },
+        {
+          "file_name": "strawberry_001-20251215-05.jpeg",
+          "caption": "Alternate side view emphasizing berry size, color development, and good separation from soil.",
+          "tags": "strawberry, berries, container, mulch"
+        },
+        {
+          "file_name": "strawberry_001-20251215-06.jpeg",
+          "caption": "Close-up of open flower and developing green berries indicating the next fruiting cycle.",
+          "tags": "strawberry, flower, developing-berries, next-cycle"
+        },
+        {
+          "file_name": "strawberry_001-20251215-07.jpeg",
+          "caption": "Close-up of the crown area after harvest showing clean stem cuts and undisturbed mulch.",
+          "tags": "strawberry, harvest, crown, follow-up"
+        },
+        {
+          "file_name": "strawberry_001-20251215-08.jpeg",
+          "caption": "Harvested strawberries showing correct stem length, intact calyx, and fully ripe seed coloration.",
+          "tags": "strawberry, harvested-fruit, ripeness, follow-up"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:28 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

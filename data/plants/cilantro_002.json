@@ -46,6 +46,45 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "12:48 PM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "85.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "80.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro canopy remains dense and healthy with flat, well-serrated leaves and uniform green coloration. No wilting, yellowing, or stem softening is visible. Soil surface appears more even and better structured after potting mix was added to fill probe holes, and early dry-down is occurring with wind and sun.",
+      "actions": "Do not water or fertilize. Allow wind and sun to continue natural soil dry-down.",
+      "next_steps": "Recheck moisture tomorrow afternoon after breezy conditions. Resume watering only once readings fall below 35–40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[Earlier today] Added Miracle-Gro Potting Mix to fill probe holes and level the soil surface."
+      ],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251215-02.jpeg",
+          "caption": "Overhead view showing a dense, healthy cilantro canopy with no signs of stress as soil begins drying after saturation.",
+          "tags": "cilantro, herb-box, healthy-canopy, recovery"
+        },
+        {
+          "file_name": "cilantro_002-20251215-03.jpeg",
+          "caption": "Angled view of cilantro leaves showing firm petioles, flat blades, and even coloration under breezy conditions.",
+          "tags": "cilantro, leaves, wind-exposure, healthy-growth"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:48 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

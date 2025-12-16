@@ -58,6 +58,50 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:38 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.40",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "59.00",
+        "light": "91",
+        "rh_percent": "40",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "68.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red Hardneck garlic shows strong, strap-like green leaves with thickened bases and no signs of stress. Soil surface appears freshly leveled and evenly moist after filling probe holes, with plants remaining upright and vigorous despite windy conditions.",
+      "actions": "Do not water today. Do not fertilize or adjust pH. Allow soil moisture to continue drying naturally under breezy conditions.",
+      "next_steps": "Recheck moisture in 2–3 days once wind subsides. Resume watering only when moisture readings fall below 40.00 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[10:45 AM] Added Miracle-Gro Potting Mix to fill probe holes and even out the soil surface around the garlic plants."
+      ],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251215-02.jpeg",
+          "caption": "Overhead view of Chesnok Red garlic showing long, strap-like leaves and freshly leveled soil after filling probe holes.",
+          "tags": "garlic, chesnok_red, vegetative_growth, soil_surface, window_box"
+        },
+        {
+          "file_name": "garlic_003-20251215-03.jpeg",
+          "caption": "Side view of Chesnok Red garlic with upright, flexible leaves leaning slightly due to wind exposure.",
+          "tags": "garlic, chesnok_red, wind_exposure, leaf_structure"
+        },
+        {
+          "file_name": "garlic_003-20251215-04.jpeg",
+          "caption": "Close-up of garlic crowns showing strong bases and even soil support after potting mix was added.",
+          "tags": "garlic, chesnok_red, crown, soil_structure"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:38 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

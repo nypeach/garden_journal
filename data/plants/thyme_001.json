@@ -50,6 +50,38 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "11:03 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.40",
+        "ec_mScm": "0.62",
+        "salt_mg_L": "312",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "38.0",
+        "soil_temp_f": "67.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme remains upright and green with no visible burn, collapse, or rot despite very wet soil conditions. The root zone is fully saturated following recent rainfall and fertilization, and additional Miracle-Gro Potting Mix was added to fill probe holes and even out the soil surface. Elevated EC, salt, and fertility readings reflect lingering nutrients in solution rather than plant stress.",
+      "actions": "Do not water or fertilize today. Allow wind and sun to dry the soil naturally and avoid pressing or compacting the newly added potting mix.",
+      "next_steps": "Recheck moisture and EC after 24–48 hours of drying. Expect nutrient and salt levels to decline as oxygen returns to the root zone. Continue monitoring for yellowing or softening at the stem base.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251215-02.jpeg",
+          "caption": "Thyme showing upright stems and healthy green foliage with newly leveled soil after filling probe holes.",
+          "tags": "thyme, vegetative-growth, soil-leveling, herb-box"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:51 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

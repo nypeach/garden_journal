@@ -54,6 +54,48 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:35 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.80",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "121",
+        "moisture_mScm": "57.00",
+        "light": "90",
+        "rh_percent": "37",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "70.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño seedlings continue strong vegetative expansion with noticeably larger leaves and upright, sturdy stems. Foliage color is slightly lighter green but uniform, with no signs of pest damage or wilting. Soil moisture has settled into an ideal range following recent rain, and surface texture appears well aerated.",
+      "actions": "Do not water today. Allow wind and sun to continue drying the soil naturally. No fertilizer is applied at this time.",
+      "next_steps": "Recheck moisture and fertility in 24–48 hours after dry-down completes. Consider light feeding if fertility drops below 10.0. Continue monitoring canopy density and stem strength.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251215-02.jpeg",
+          "caption": "Wide view of the jalapeño cluster showing expanded leaf size and upright early vegetative growth.",
+          "tags": "jalapeno, seedlings, vegetative-growth, planter"
+        },
+        {
+          "file_name": "pepper_003-20251215-03.jpeg",
+          "caption": "Overhead view highlighting increasing canopy density and uniform leaf development.",
+          "tags": "jalapeno, canopy, foliage, overhead"
+        },
+        {
+          "file_name": "pepper_003-20251215-04.jpeg",
+          "caption": "Angled side view showing healthy stem posture and improved soil surface aeration.",
+          "tags": "jalapeno, stems, soil, growth"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:35 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

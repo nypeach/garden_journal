@@ -33,6 +33,43 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:42 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "182",
+        "moisture_mScm": "58.50",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "20.5",
+        "soil_temp_f": "66.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The shallots show strong upright vegetative growth with firm, blue-green leaves and a thickening base at the soil line. A younger shoot remains cleanly emerged and stable nearby, indicating active bulb development below the surface. Soil remains crumbly and well-aerated with no signs of rot, compaction, or foliar stress despite recent rain and wind.",
+      "actions": "Do not water today. Leave all foliage intact. Do not apply fertilizer or lime.",
+      "next_steps": "Recheck moisture tomorrow afternoon after wind and sun exposure. Resume watering only if moisture drops below approximately 40 mS/cm. Monitor the younger shoot for continued elongation over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251215-03.jpeg",
+          "caption": "Main shallot clump showing tall, upright foliage and a thickening base with healthy coloration.",
+          "tags": "shallots, foliage, vegetative-growth"
+        },
+        {
+          "file_name": "shallots_001-20251215-04.jpeg",
+          "caption": "Side view of the planter highlighting soil texture, spacing, and a younger shallot shoot emerging nearby.",
+          "tags": "shallots, new-shoot, soil, planter"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:41 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

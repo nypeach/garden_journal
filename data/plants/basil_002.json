@@ -46,6 +46,58 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:09 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.38",
+        "salt_mg_L": "191",
+        "moisture_mScm": "60.00",
+        "light": "87",
+        "rh_percent": "51",
+        "fertility_percent": "22.0",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil appears upright, full, and actively growing with good leaf turgor and strong lateral branching. Canopy distribution is even around the pot, and there are no visible signs of wilting or stress. Soil moisture has dropped into a healthier range, while salts are elevated but not causing visible damage.",
+      "actions": "Do not water or fertilize today. Allow wind and warmth to continue drying the pot naturally. Avoid disturbing the soil surface.",
+      "next_steps": "Recheck moisture tomorrow morning. Consider watering only if moisture drops below 45 mS/cm. Monitor salt levels; if they rise above 220 mg/L, plan a gentle flush.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251215-02.jpeg",
+          "caption": "Overhead view showing evenly distributed canopy and healthy leaf posture.",
+          "tags": "basil, overhead, canopy, healthy"
+        },
+        {
+          "file_name": "basil_002-20251215-03.jpeg",
+          "caption": "Angled view showing lateral branching and full pot coverage.",
+          "tags": "basil, branching, growth, structure"
+        },
+        {
+          "file_name": "basil_002-20251215-04.jpeg",
+          "caption": "Side view highlighting upright stems and good leaf turgor.",
+          "tags": "basil, side-view, stems, vigor"
+        },
+        {
+          "file_name": "basil_002-20251215-05.jpeg",
+          "caption": "Lower angle showing soil surface condition and overall plant balance.",
+          "tags": "basil, container, soil-surface, balance"
+        },
+        {
+          "file_name": "basil_002-20251215-06.jpeg",
+          "caption": "Alternate angle showing canopy fullness and healthy foliage color.",
+          "tags": "basil, foliage, healthy-growth, canopy"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:27 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

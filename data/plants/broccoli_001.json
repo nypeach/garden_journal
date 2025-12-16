@@ -46,6 +46,48 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:55 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "8.20",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "37",
+        "moisture_mScm": "21.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "66.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli plants remain vigorous with upright posture, firm stems, and broad healthy leaves despite a sharp drop in probe moisture and fertility readings. The soil surface and upper root zone have dried rapidly following yesterday’s feeding, likely accelerated by wind exposure and shallow container depth. Elevated pH and low EC readings appear to be artifacts of dry soil contact rather than true nutrient imbalance, as visual growth remains strong with no signs of stress, chlorosis, or nutrient deficiency.",
+      "actions": "Apply slow, even watering later today once wind gusts subside to rehydrate the root zone. Do not fertilize. Avoid overhead watering during high winds.",
+      "next_steps": "Recheck probe readings tomorrow morning after moisture stabilizes. Expect pH and EC values to normalize as soil contact improves. Continue monitoring stem thickening and leaf expansion; no pruning needed at this time.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251215-02.jpeg",
+          "caption": "Side view showing upright broccoli plants with firm stems and healthy leaf structure despite dry soil surface.",
+          "tags": "broccoli, vegetative-growth, upright, dry-soil"
+        },
+        {
+          "file_name": "broccoli_001-20251215-03.jpeg",
+          "caption": "Overhead view showing broad leaf spread and balanced spacing within the window box planter.",
+          "tags": "broccoli, canopy, overhead, healthy-growth"
+        },
+        {
+          "file_name": "broccoli_001-20251215-04.jpeg",
+          "caption": "Closer view of multiple broccoli plants showing thickening stems and intact growing points after recent pruning.",
+          "tags": "broccoli, stems, crown, active-growth"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:46 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

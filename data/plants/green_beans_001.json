@@ -59,6 +59,48 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "11:32 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "49.00",
+        "light": "89",
+        "rh_percent": "49",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "71.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant shows excellent recovery with firm, upright stems and fully turgid trifoliate leaves. Multiple side branches are actively developing at the nodes, and new growth tips are elongating. Leaf color is uniform and healthy with no signs of moisture stress or nutrient imbalance. Older lower leaves retain minor cosmetic chewing without progression.",
+      "actions": "Do not water or fertilize today, as soil moisture and nutrient levels are ideal. Maintain stake stability to protect against wind gusts.",
+      "next_steps": "Recheck moisture tomorrow to confirm it remains in the mid-range. Monitor for continued canopy thickening and advancing side branches. Maintain consistent moisture as the plant approaches early flower bud formation.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251215-02.jpeg",
+          "caption": "Overhead view showing healthy leaf expansion and balanced bush structure.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251215-03.jpeg",
+          "caption": "Side view highlighting upright stems and active side branching along the main stem.",
+          "tags": "green-beans, branching, structure"
+        },
+        {
+          "file_name": "green_beans_001-20251215-04.jpeg",
+          "caption": "Close-up of new growth tips showing active elongation and healthy leaf texture.",
+          "tags": "green-beans, new-growth, nodes"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:54 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

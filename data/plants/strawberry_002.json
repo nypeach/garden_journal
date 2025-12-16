@@ -46,6 +46,73 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:17 AM",
+      "conditions": "20% chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight. Wind gusts up to 29 mph through midday.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "124",
+        "moisture_mScm": "57.00",
+        "light": "94",
+        "rh_percent": "44",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "68.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows clear recovery following earlier saturation stress. Canopy is upright and glossy with no signs of wilt. Remaining fruit is firm, red, and glossy, indicating resumed carbohydrate allocation. Leaf spot remains present but appears static, with no new lesion expansion observed. New flowers are actively forming.",
+      "actions": "No watering performed. Continued monitoring only. Pot stability checked due to wind.",
+      "next_steps": "Allow soil moisture to continue stabilizing. Monitor new flower development and fruit expansion over the next 48–72 hours. Avoid treatments unless leaf spot progresses under drier conditions.",
+      "q_and_a_summary": "Reviewed plant recovery following fruit and leaf removal. Confirmed that current moisture levels indicate root recovery and that remaining fruit should be retained. Discussed that wind and drying conditions are beneficial at this stage and that no intervention is needed today.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251215-02.jpeg",
+          "caption": "Wide view showing two remaining viable strawberries and improved mulch dryness.",
+          "tags": "strawberry, fruit, recovery"
+        },
+        {
+          "file_name": "strawberry_002-20251215-03.jpeg",
+          "caption": "Side view showing stable canopy structure and healthy leaf posture after pruning.",
+          "tags": "strawberry, canopy, recovery"
+        },
+        {
+          "file_name": "strawberry_002-20251215-04.jpeg",
+          "caption": "Overhead view illustrating balanced foliage and reduced congestion at the crown.",
+          "tags": "strawberry, overhead, crown"
+        },
+        {
+          "file_name": "strawberry_002-20251215-05.jpeg",
+          "caption": "Flower and early fruit development resuming following stress period.",
+          "tags": "strawberry, flowering, recovery"
+        },
+        {
+          "file_name": "strawberry_002-20251215-06.jpeg",
+          "caption": "Lower canopy showing improved airflow and absence of standing moisture.",
+          "tags": "strawberry, airflow, foliage"
+        },
+        {
+          "file_name": "strawberry_002-20251215-07.jpeg",
+          "caption": "Context shot showing removed aborted fruit no longer attached to the plant.",
+          "tags": "strawberry, aborted-fruit, follow-up"
+        },
+        {
+          "file_name": "strawberry_002-20251215-08.jpeg",
+          "caption": "Healthy remaining strawberries with glossy surface indicating active development.",
+          "tags": "strawberry, fruit, monitoring"
+        },
+        {
+          "file_name": "strawberry_002-20251215-09.jpeg",
+          "caption": "Top-down view confirming overall plant stability and recovery trajectory.",
+          "tags": "strawberry, whole-plant, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:29 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

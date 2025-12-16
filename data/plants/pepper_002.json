@@ -58,6 +58,48 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:34 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "149",
+        "moisture_mScm": "57.00",
+        "light": "82",
+        "rh_percent": "38",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "70.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plants are in active early vegetative growth with noticeably broader true leaves, improved node spacing, and upright, stable stems. Leaf color is evenly green with no signs of chlorosis, curl, or pest damage. Soil is moist but well-aerated following recent rain, and the plants show no signs of stress despite breezy conditions.",
+      "actions": "Do not water today. Maintain full sun exposure and allow natural airflow to continue soil dry-down.",
+      "next_steps": "Recheck moisture when levels approach 40 mS/cm. Continue monitoring leaf expansion and stem strength over the next several days before introducing any fertilizer.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251215-02.jpeg",
+          "caption": "Side view showing early vegetative growth with expanding leaf mass and upright stems under breezy conditions.",
+          "tags": "orange-cal-wonder, pepper, early-vegetative, leaves"
+        },
+        {
+          "file_name": "pepper_002-20251215-03.jpeg",
+          "caption": "Angled view highlighting healthy node spacing, broadening leaves, and well-structured soil surface.",
+          "tags": "orange-cal-wonder, pepper, growth, soil"
+        },
+        {
+          "file_name": "pepper_002-20251215-04.jpeg",
+          "caption": "Overhead view showing uniform leaf color, increasing canopy presence, and stable spacing within the planter section.",
+          "tags": "orange-cal-wonder, pepper, overhead, canopy"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:34 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

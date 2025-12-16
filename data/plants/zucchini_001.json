@@ -46,6 +46,43 @@
     ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "11:40 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "18",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "69.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains upright with turgid leaves and an intact male blossom, indicating continued biological activity. Leaf posture does not reflect true drought stress despite a 0% moisture probe reading, which is inconsistent with the visual condition and likely caused by poor probe contact in dry, uneven surface soil following wind and sun exposure. The crown remains green and active with no signs of collapse or rot.",
+      "actions": "Apply 1½–2 cups of plain water slowly around the root zone to rehydrate deeper soil layers and improve probe contact. Do not fertilize or prune today.",
+      "next_steps": "Take a follow-up probe reading 60–90 minutes after watering with the probe inserted at a slight angle into established soil. Monitor leaf posture and crown growth over the next 24 hours, especially with ongoing wind exposure.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251215-02.jpeg",
+          "caption": "Overhead view showing upright leaves, an intact male blossom, and dry surface soil following wind and sun exposure.",
+          "tags": "zucchini, crown, male-blossom, recovery"
+        },
+        {
+          "file_name": "zucchini_001-20251215-03.jpeg",
+          "caption": "Side view illustrating stable stem posture and healthy leaf turgor despite surface dryness.",
+          "tags": "zucchini, side-view, leaf-posture, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:56 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

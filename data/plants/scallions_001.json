@@ -38,6 +38,50 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:37 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.27",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "64.00",
+        "light": "95",
+        "rh_percent": "39",
+        "fertility_percent": "14.7",
+        "soil_temp_f": "69.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions show active post-harvest regrowth with firm bases and healthy blue-green leaves emerging from the cut crowns. New shoots are upright to gently leaning due to wind exposure, with no signs of rot, collapse, or discoloration. Soil structure appears stable and evenly moist, supporting continued regeneration.",
+      "actions": "Do not water today as soil moisture is ideal and rain is possible. Do not apply fertilizer or pH amendments at this stage. Leave the scallion crowns undisturbed to allow uninterrupted regrowth.",
+      "next_steps": "Continue daily visual monitoring of shoot elongation and firmness. Recheck probe readings in 1 to 2 days to confirm pH trend stabilization. Plan first light feeding only once new growth reaches approximately 3 inches in height.",
+      "q_and_a_summary": "Discussed the thicker whitish-green, ringed portion of scallions as the pseudostem (stacked leaf sheaths) and how to increase it through blanching. Confirmed the best approach is to harvest low first, cutting to about 1 1/4 inches above the soil, then wait until regrowth reaches 4 to 5 inches before beginning gradual soil mounding in 1/2-inch increments up to about 1.5 to 2 inches total to encourage a thicker, paler pseudostem.",
+      "follow_up": [
+        "[7:45 AM] All scallions were harvested cleanly and evenly down to approximately 1 to 1 1/4 inches above the soil line, leaving firm crowns with intact pseudostem bases for regrowth."
+      ],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251215-06.jpeg",
+          "caption": "Wide view of the planter immediately after harvest, showing uniformly cut scallion crowns at an ideal height for repeat regrowth.",
+          "tags": "scallions, post-harvest, follow-up, planter-overview"
+        },
+        {
+          "file_name": "scallions_001-20251215-07.jpeg",
+          "caption": "Close-up of a scallion crown after trimming, showing clean cut surfaces and a preserved pseudostem column ready for new shoot emergence.",
+          "tags": "scallions, crown, post-harvest, follow-up, pseudostem"
+        },
+        {
+          "file_name": "scallions_001-20251215-08.jpeg",
+          "caption": "Multiple scallion bases cut to consistent height, demonstrating proper cut-and-come-again technique with no damage to the growing points.",
+          "tags": "scallions, harvest, regrowth, follow-up"
+        }
+      ]
+    },
+    {
       "date": "12/12/2025",
       "time": "1:17 PM",
       "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",

@@ -1,0 +1,1758 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Master Garden Dashboard — Probe Rules</title>
+  <style>
+    /*  New Garden Colors  */
+    :root {
+      --bg-main: #fffdf7;
+      --bg-card: #ffffff;
+      --border-subtle: #d8cbb6;
+      --text-main: #2e2a24;
+      --text-muted: #6a6457;
+      --accent: #22642f;
+      --card-color: #C83F49;
+      --accent-soft: #d8e9dc;
+      --radius-lg: 12px;
+      --radius-md: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+        -system-ui, sans-serif;
+      background: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 1140px;
+      margin: 0 auto 48px;
+      padding: 2px 24px 32px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 600;
+      color: var(--text-main);
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 0.4rem;
+      color: var(--accent)
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 1.3rem;
+      margin-bottom: 0.25rem;
+    }
+
+    p {
+      margin: 0.25rem 0 0.5rem;
+    }
+
+    .muted {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      padding: 3px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 14px 16px;
+      margin-top: 10px;
+      box-shadow: 0 1px 2px rgba(27, 31, 35, 0.04);
+    }
+
+    .field-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--card-color);
+      margin-top: 0.15rem;
+      margin-bottom: 0.15rem;
+    }
+
+    ul {
+      margin: 0.15rem 0 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin: 0.1rem 0;
+    }
+
+    .timeline-list li {
+      font-size: 0.92rem;
+    }
+
+    .plant-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .plant-header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+
+    .plant-name {
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    .journal-link {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: var(--text-muted);
+      font-style: italic;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding-top: 2px;
+      padding-right: 12px;
+      cursor: pointer;
+    }
+
+    .journal-link:hover {
+      color: var(--card-color);
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-main);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .sticky-header-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 16px 24px 12px;
+    }
+
+    .dashboard-subtitle {
+      margin-top: 0.3rem;
+      margin-left: 2px;
+      margin-bottom: 14px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .nav-link {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      background: #ffffff;
+      color: var(--text-main);
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+
+    .nav-link:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .nav-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-right: 4px;
+    }
+
+    section {
+      scroll-margin-top: 200px;
+    }
+
+    /* Journal-specific styles */
+    .journal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .journal-header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      gap: 1rem;
+    }
+
+    .journal-header h1 {
+      margin-top: -0.75rem;
+    }
+
+    .journal-current-state {
+      margin-top: -0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 2px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-style: italic;
+      width: 100%;
+    }
+
+    .journal-summary {
+      margin-top: 0.25rem;
+    }
+
+    .journal-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .journal-meta span {
+      white-space: nowrap;
+    }
+
+    .journal-entry {
+      padding: 0 2rem;
+    }
+
+    .journal-entry h2 {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.4rem;
+    }
+
+    .probe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.15rem 1.25rem;
+      padding-left: 0;
+      list-style: none;
+      margin: 0.15rem 0 0.4rem;
+    }
+
+    .probe-grid li {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 180px));
+      gap: 24px 20px;
+      margin-top: 10px;
+      padding: 5px 40px;
+      justify-content: space-between;
+    }
+
+    .photo-item {
+      margin: 0;
+    }
+
+    .photo-placeholder {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border-radius: var(--radius-md);
+      background: var(--bg-main);
+      border: 1px dashed var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      opacity: 0.8;
+    }
+
+    .placeholder-upload {
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .placeholder-text {
+      display: inline-block;
+      line-height: 1.4;
+    }
+
+    .placeholder-upload:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+      opacity: 1;
+    }
+
+    .placeholder-file-input {
+      display: none;
+    }
+
+    .photo-item img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      display: block;
+    }
+
+    .photo-caption {
+      margin-top: 2px;
+      font-size: 0.6rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Modal Styles */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+    }
+
+    .modal-hidden {
+      display: none;
+    }
+
+    .modal-panel {
+      background: var(--bg-main);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      max-width: 1024px;
+      width: 96%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .modal-body {
+      flex: 1;
+    }
+
+    .modal-body iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Photo Prep Tool Styles */
+    .photo-prep-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    .upload-zone {
+      border: 2px dashed var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 48px 24px;
+      text-align: center;
+      background: var(--bg-card);
+      margin-bottom: 24px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .upload-zone:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .upload-zone.dragover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      border-style: solid;
+    }
+
+    .upload-icon {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    .upload-text {
+      font-size: 1.1rem;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .upload-subtext {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .file-input {
+      display: none;
+    }
+
+    .selected-files {
+      margin-top: 16px;
+      padding: 16px;
+      background: var(--accent-soft);
+      border-radius: var(--radius-md);
+      font-size: 0.9rem;
+    }
+
+    .selected-files-list {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 0;
+    }
+
+    .selected-files-list li {
+      padding: 4px 0;
+      color: var(--text-main);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .form-input,
+    .form-select,
+    .form-textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      font-size: 1rem;
+      font-family: inherit;
+      background: var(--bg-card);
+      color: var(--text-main);
+    }
+
+    .form-textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .form-input:focus,
+    .form-select:focus,
+    .form-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .form-hint {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+      font-style: italic;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .radio-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      padding: 8px;
+      border-radius: var(--radius-sm);
+      transition: background 0.2s;
+    }
+
+    .radio-label:hover {
+      background: var(--accent-soft);
+    }
+
+    .radio-label input[type="radio"] {
+      cursor: pointer;
+    }
+
+    .radio-label span {
+      font-size: 0.9rem;
+    }
+
+    .submit-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 12px 32px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .submit-btn:hover {
+      background: #1a5223;
+      transform: translateY(-1px);
+    }
+
+    .submit-btn:active {
+      transform: translateY(0);
+    }
+
+    .output-section {
+      margin-top: 32px;
+      padding: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+    }
+
+    .output-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .output-header h2 {
+      margin: 0;
+      color: var(--accent);
+      border-bottom: none;
+    }
+
+    .success-icon {
+      font-size: 1.5rem;
+    }
+
+    .output-info {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .output-code {
+      background: #f5f5f5;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 400px;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+    }
+
+    .copy-btn:hover {
+      background: #1a5223;
+    }
+
+    .flash-messages {
+      margin-bottom: 24px;
+    }
+
+    .flash-message {
+      padding: 12px 16px;
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+    }
+
+    .flash-error {
+      background: #fee;
+      border: 1px solid #fcc;
+      color: #c00;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Photo Lightbox Modal */
+    .lightbox-wrapper {
+      position: relative;
+      display: table;
+      max-width: 90vw;
+      max-height: 85vh;
+    }
+
+    #lightbox-image {
+      max-width: 90vw;
+      max-height: 80vh;
+      width: auto;
+      height: auto;
+      display: block;
+      border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    }
+
+    .lightbox-caption {
+      background: var(--bg-card);
+      padding: 8px 16px;
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+      font-size: 0.75rem;
+      font-style: italic;
+      color: var(--text-muted);
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      margin: 0;
+      box-sizing: border-box;
+      display: table-caption;
+      caption-side: bottom;
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 32px 16px 24px;
+      }
+
+      .card {
+        padding: 12px 13px;
+      }
+
+      .sticky-header-inner {
+        padding: 12px 16px 10px;
+      }
+
+      .modal-panel {
+        height: 92vh;
+        width: 98%;
+      }
+    }
+
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="sticky-header" id="top-nav">
+    <div class="sticky-header-inner">
+      <h1>🌿 Master Garden Dashboard</h1>
+      <p class="dashboard-subtitle">
+        Snapshot as of <strong>December 12, 2025</strong> — origin, logged history,
+        current state, and projected timelines for each plant in your garden.
+      </p>
+      <div class="chip-row">
+        <a class="nav-link" href="#arugula_001">Arugula</a>
+        <a class="nav-link" href="#basil_001">Basil (Left)</a>
+        <a class="nav-link" href="#basil_002">Basil (Right)</a>
+        <a class="nav-link" href="#basil_003">Thai Basil</a>
+        <a class="nav-link" href="#broccoli_001">Broccoli</a>
+        <a class="nav-link" href="#chamomile_001">Chamomile</a>
+        <a class="nav-link" href="#chives_001">Chives (Left)</a>
+        <a class="nav-link" href="#chives_002">Chives (Right)</a>
+        <a class="nav-link" href="#cilantro_001">Cilantro (Left)</a>
+        <a class="nav-link" href="#cilantro_002">Cilantro (Herb Box)</a>
+        <a class="nav-link" href="#garlic_001">Garlic (Music)</a>
+        <a class="nav-link" href="#garlic_002">Garlic (Purple Glazer)</a>
+        <a class="nav-link" href="#garlic_003">Garlic (Chesnok Red)</a>
+        <a class="nav-link" href="#green_beans_001">Green Beans</a>
+        <a class="nav-link" href="#lavender_001">Lavender (Left)</a>
+        <a class="nav-link" href="#lavender_002">Lavender (Right)</a>
+        <a class="nav-link" href="#lavender_003">Lavender (Center)</a>
+        <a class="nav-link" href="#lavender_004">Lavender (Active)</a>
+        <a class="nav-link" href="#lavender_005">Lavender (Removed)</a>
+        <a class="nav-link" href="#mum_001">Mum (Left)</a>
+        <a class="nav-link" href="#mum_002">Mum (Right)</a>
+        <a class="nav-link" href="#oregano_001">Oregano</a>
+        <a class="nav-link" href="#parsley_001">Parsley</a>
+        <a class="nav-link" href="#pepper_001">Pepper (Shishito)</a>
+        <a class="nav-link" href="#pepper_002">Pepper (Serrano)</a>
+        <a class="nav-link" href="#pepper_003">Pepper (Jalapeño)</a>
+        <a class="nav-link" href="#scallions_001">Scallions</a>
+        <a class="nav-link" href="#shallots_001">Shallots</a>
+        <a class="nav-link" href="#strawberry_001">Strawberry (Left)</a>
+        <a class="nav-link" href="#strawberry_002">Strawberry (Right)</a>
+        <a class="nav-link" href="#thyme_001">Thyme</a>
+        <a class="nav-link" href="#tomato_001">Tomato (Husky Cherry Red)</a>
+        <a class="nav-link" href="#zucchini_001">Zucchini (Right)</a>
+        <a class="nav-link" href="#zucchini_002">Zucchini (Center)</a>
+        <a class="nav-link" href="#zucchini_003">Zucchini (Left)</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    <div class="card" id="arugula_001">
+      <div class="plant-header">
+        <div class="plant-name">Arugula</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 10% for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days (soil only, not leaves)</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="basil_001">
+      <div class="plant-header">
+        <div class="plant-name">Basil (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 20% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5 days OR
+            EC &lt; 0.2 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="basil_002">
+      <div class="plant-header">
+        <div class="plant-name">Basil (Right)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 20% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5 days OR
+            EC &lt; 0.2 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="basil_003">
+      <div class="plant-header">
+        <div class="plant-name">Thai Basil</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 32%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 27%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 18% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5 days OR
+            EC &lt; 0.2 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="broccoli_001">
+      <div class="plant-header">
+        <div class="plant-name">Broccoli</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 45%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 30% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.2 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.0 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="chamomile_001">
+      <div class="plant-header">
+        <div class="plant-name">Chamomile</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 15% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 5% for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 5.8 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.6 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.8 for more than 10
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="chives_001">
+      <div class="plant-header">
+        <div class="plant-name">Chives (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 20% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 10% for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="chives_002">
+      <div class="plant-header">
+        <div class="plant-name">Chives (Right)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 20% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 10% for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="cilantro_001">
+      <div class="plant-header">
+        <div class="plant-name">Cilantro (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 10% for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="cilantro_002">
+      <div class="plant-header">
+        <div class="plant-name">Cilantro (Herb Box)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 10% for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="garlic_001">
+      <div class="plant-header">
+        <div class="plant-name">Garlic (Music)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 15% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 8% for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.2 for more than 14
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.0 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="garlic_002">
+      <div class="plant-header">
+        <div class="plant-name">Garlic (Purple Glazer)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 15% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 8% for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.2 for more than 14
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.0 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="garlic_003">
+      <div class="plant-header">
+        <div class="plant-name">Garlic (Chesnok Red)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 15% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 8% for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.2 for more than 14
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.0 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="green_beans_001">
+      <div class="plant-header">
+        <div class="plant-name">Green Beans</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 8% for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="lavender_001">
+      <div class="plant-header">
+        <div class="plant-name">Lavender (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 20%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 12% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 3% for more than 14 days
+            (usually none needed)</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.5 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.2 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 8.0 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="lavender_002">
+      <div class="plant-header">
+        <div class="plant-name">Lavender (Right)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 20%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 12% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 3% for more than 14 days
+            (usually none needed)</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.5 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.2 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 8.0 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="lavender_003">
+      <div class="plant-header">
+        <div class="plant-name">Lavender (Center)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 20%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 12% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 3% for more than 14 days
+            (usually none needed)</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.5 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.2 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 8.0 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="lavender_004">
+      <div class="plant-header">
+        <div class="plant-name">Lavender (Active)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 20%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 12% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 3% for more than 14 days
+            (usually none needed)</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.5 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.2 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 8.0 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="lavender_005">
+      <div class="plant-header">
+        <div class="plant-name">Lavender (Removed)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 20%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 12% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 3% for more than 14 days
+            (usually none needed)</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.5 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.2 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 8.0 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="mum_001">
+      <div class="plant-header">
+        <div class="plant-name">Mum (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5 days OR
+            EC &lt; 0.3 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.3 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="mum_002">
+      <div class="plant-header">
+        <div class="plant-name">Mum (Right)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5 days OR
+            EC &lt; 0.3 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.3 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="oregano_001">
+      <div class="plant-header">
+        <div class="plant-name">Oregano</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 15% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 5% for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.8 for more than 10
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="parsley_001">
+      <div class="plant-header">
+        <div class="plant-name">Parsley</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="pepper_001">
+      <div class="plant-header">
+        <div class="plant-name">Pepper (Shishito)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 34%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 29%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 19% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.3 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="pepper_002">
+      <div class="plant-header">
+        <div class="plant-name">Pepper (Serrano)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 32%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 27%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 18% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.3 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="pepper_003">
+      <div class="plant-header">
+        <div class="plant-name">Pepper (Jalapeño)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 33%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 28%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 18% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.3 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="scallions_001">
+      <div class="plant-header">
+        <div class="plant-name">Scallions</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 20% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 10% for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="shallots_001">
+      <div class="plant-header">
+        <div class="plant-name">Shallots</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 30%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 15% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 8% for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.2 for more than 14
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.0 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.5 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="strawberry_001">
+      <div class="plant-header">
+        <div class="plant-name">Strawberry (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 5.8 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.5 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 6.8 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="strawberry_002">
+      <div class="plant-header">
+        <div class="plant-name">Strawberry (Right)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 12% for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 5.8 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.5 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 6.8 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="thyme_001">
+      <div class="plant-header">
+        <div class="plant-name">Thyme</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 25%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 20%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 12% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 5% for more than 14
+            days</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.2 for more than 10
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 8.0 for more than 14
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="tomato_001">
+      <div class="plant-header">
+        <div class="plant-name">Tomato (Husky Cherry Red)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 35%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 25% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.5 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.3 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="zucchini_001">
+      <div class="plant-header">
+        <div class="plant-name">Zucchini (Right)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 45%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 30% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="zucchini_002">
+      <div class="plant-header">
+        <div class="plant-name">Zucchini (Center)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 45%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 30% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+
+    <div class="card" id="zucchini_003">
+      <div class="plant-header">
+        <div class="plant-name">Zucchini (Left)</div>
+        <div class="plant-header-right">
+          <span class="pill"><span class="pill-dot"></span> Between 12pm and 3pm</span>
+        </div>
+      </div>
+
+      <div class="field-label">Water rules (based on midday reading)</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Tomorrow morning:</span> <span class="mono">Moisture &lt; 45%</span></div>
+        <div><span class="field-label">This evening:</span> <span class="mono">Moisture &lt; 40%</span></div>
+        <div><span class="field-label">Immediately:</span> <span class="mono">Moisture &lt; 30% (any time)</span></div>
+      </div>
+
+      <div class="field-label" style="margin-top: 12px;">Nutrition &amp; pH actions</div>
+      <div class="timeline-list">
+        <div><span class="field-label">Feed when:</span> <span class="mono">Fertility &lt; 15% for more than 4 days OR
+            EC &lt; 0.4 mS/cm</span></div>
+        <div><span class="field-label">Apply lime when:</span> <span class="mono">pH &lt; 6.0 for more than 7
+            days</span></div>
+        <div><span class="field-label">Apply baking soda when:</span> <span class="mono">pH &lt; 5.8 for more than 5
+            days</span></div>
+        <div><span class="field-label">Apply vinegar when:</span> <span class="mono">pH &gt; 7.2 for more than 7
+            days</span></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

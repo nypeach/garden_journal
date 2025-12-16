@@ -1,0 +1,72 @@
+{
+  "reading_actions": [
+    {
+      "plant": "basil",
+      "water_when": {
+        "reading_taken": "Between 12pm and 3pm",
+        "tomorrow_morning": "Moisture < 35%",
+        "this_evening": "Moisture < 30%",
+        "immediately": "Moisture < 20% (any time)"
+      },
+      "feed_when": "Fertility < 12% for more than 5 days OR EC < 0.2 mS/cm",
+      "apply_lime_when": "pH < 6.0 for more than 7 days",
+      "apply_baking_soda_when": "pH < 5.8 for more than 5 days",
+      "apply_vinegar_when": "pH > 7.5 for more than 7 days"
+    },
+    {
+      "plant": "thai_basil",
+      "water_when": {
+        "reading_taken": "Between 12pm and 3pm",
+        "tomorrow_morning": "Moisture < 32%",
+        "this_evening": "Moisture < 27%",
+        "immediately": "Moisture < 18% (any time)"
+      },
+      "feed_when": "Fertility < 12% for more than 5 days OR EC < 0.2 mS/cm",
+      "apply_lime_when": "pH < 6.0 for more than 7 days",
+      "apply_baking_soda_when": "pH < 5.8 for more than 5 days",
+      "apply_vinegar_when": "pH > 7.5 for more than 7 days"
+    },
+    {
+      "plant": "pepper_001",
+      "cultivar": "shishito",
+      "water_when": {
+        "reading_taken": "Between 12pm and 3pm",
+        "tomorrow_morning": "Moisture < 34%",
+        "this_evening": "Moisture < 29%",
+        "immediately": "Moisture < 19% (any time)"
+      },
+      "feed_when": "Fertility < 15% for more than 4 days OR EC < 0.4 mS/cm",
+      "apply_lime_when": "pH < 6.0 for more than 7 days",
+      "apply_baking_soda_when": "pH < 5.8 for more than 5 days",
+      "apply_vinegar_when": "pH > 7.3 for more than 7 days"
+    },
+    {
+      "plant": "pepper_002",
+      "cultivar": "serrano",
+      "water_when": {
+        "reading_taken": "Between 12pm and 3pm",
+        "tomorrow_morning": "Moisture < 32%",
+        "this_evening": "Moisture < 27%",
+        "immediately": "Moisture < 18% (any time)"
+      },
+      "feed_when": "Fertility < 15% for more than 4 days OR EC < 0.4 mS/cm",
+      "apply_lime_when": "pH < 6.0 for more than 7 days",
+      "apply_baking_soda_when": "pH < 5.8 for more than 5 days",
+      "apply_vinegar_when": "pH > 7.3 for more than 7 days"
+    },
+    {
+      "plant": "pepper_003",
+      "cultivar": "jalapeno",
+      "water_when": {
+        "reading_taken": "Between 12pm and 3pm",
+        "tomorrow_morning": "Moisture < 33%",
+        "this_evening": "Moisture < 28%",
+        "immediately": "Moisture < 18% (any time)"
+      },
+      "feed_when": "Fertility < 15% for more than 4 days OR EC < 0.4 mS/cm",
+      "apply_lime_when": "pH < 6.0 for more than 7 days",
+      "apply_baking_soda_when": "pH < 5.8 for more than 5 days",
+      "apply_vinegar_when": "pH > 7.3 for more than 7 days"
+    }
+  ]
+}

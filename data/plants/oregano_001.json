@@ -30,6 +30,40 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "11:10 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "215",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "25.0",
+        "soil_temp_f": "67.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two oregano seedlings are now visible, both standing upright with healthy posture and no signs of collapse or discoloration. The soil surface is very wet following rain and backfilling of probe holes, but structure remains intact with no crusting. Fertility, EC, and salts are elevated but settling after the recent Purived 4-5-5 application, and the seedlings are tolerating conditions well.",
+      "actions": "Do not water or fertilize today. Allow excess moisture to drain naturally and avoid disturbing the soil surface.",
+      "next_steps": "Monitor moisture as weather clears and wind increases. Allow soil to dry below 75 before any intervention. Watch for additional seedlings emerging over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[Morning] Filled in probe holes and added soil to level uneven areas across the oregano section."
+      ],
+      "photos": [
+        {
+          "file_name": "oregano_001-20251215-02.jpeg",
+          "caption": "Oregano section showing two healthy seedlings emerging through saturated but stable soil.",
+          "tags": "oregano, seedlings, emergence, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:52 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

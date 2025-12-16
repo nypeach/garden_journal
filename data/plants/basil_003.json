@@ -46,6 +46,38 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:58 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "159",
+        "moisture_mScm": "80.00",
+        "light": "96",
+        "rh_percent": "49",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "66.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil plants appear fuller and more established with multiple elongated true leaves and upright stems. Leaf color remains even and healthy with no signs of stress following recent feeding. Soil surface is leveled and improved after adding potting mix to fill probe holes, and moisture remains high but is trending downward appropriately.",
+      "actions": "Do not water or fertilize today. Allow the soil to continue drying naturally with breezy conditions.",
+      "next_steps": "Recheck moisture when readings fall below 60. Resume watering only when moisture reaches the 40–50 range. Continue watching for dense canopy formation and clearly extended tips suitable for first pinching.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20251215-02.jpeg",
+          "caption": "Angled view of Thai basil showing fuller growth, upright stems, and healthy leaf expansion after soil top-off and recent feeding.",
+          "tags": "thai basil, vegetative growth, fuller canopy, healthy leaves"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:48 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

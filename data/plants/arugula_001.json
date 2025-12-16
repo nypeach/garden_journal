@@ -47,6 +47,55 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:48 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.42",
+        "salt_mg_L": "212",
+        "moisture_mScm": "68.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "25.0",
+        "soil_temp_f": "65.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula forms a dense baby-leaf canopy with strong upright growth and no signs of wilt, disease, or pest damage. Leaf color is lighter green overall, especially in the most crowded zones, while taller leaves along the edges show slightly deeper color. The appearance reflects active baby-leaf growth under cool soil conditions rather than nutrient deficiency.",
+      "actions": "Do not water or fertilize today. A light baby-leaf harvest may be performed by selectively cutting the tallest leaves above the crown.",
+      "next_steps": "Monitor moisture tomorrow morning, especially after wind exposure. Expect darker green regrowth within several days following the first light harvest. Continue avoiding fertilizer until after regrowth begins.",
+      "q_and_a_summary": "Discussed why the arugula appears paler than grocery-store greens and confirmed this is normal for dense baby-leaf plantings prior to first harvest. Explained that cutting, not fertilizing, will naturally deepen leaf color.",
+      "follow_up": [
+        "[7:45 AM] Performed first baby-leaf harvest, evenly trimming across the planter while leaving crowns intact. Canopy was opened up significantly, improving spacing and airflow for regrowth."
+      ],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251215-02.jpeg",
+          "caption": "Overhead view of the arugula before harvest showing a dense baby-leaf canopy with lighter green coloration typical of pre-harvest growth.",
+          "tags": "arugula, baby-leaf, canopy, dense-planting"
+        },
+        {
+          "file_name": "arugula_001-20251215-03.jpeg",
+          "caption": "Angled side view prior to harvest highlighting taller edge leaves with slightly deeper green color than the crowded interior.",
+          "tags": "arugula, baby-leaf, leaf-color, edge-growth"
+        },
+        {
+          "file_name": "arugula_001-20251215-04.jpeg",
+          "caption": "Post-harvest overhead view showing an evenly thinned canopy with intact crowns and improved spacing across the planter.",
+          "tags": "arugula, harvest, follow-up, post-cut, canopy-reset"
+        },
+        {
+          "file_name": "arugula_001-20251215-05.jpeg",
+          "caption": "Closer view after harvest showing clean cut stems above the crown and healthy remaining leaves positioned for rapid regrowth.",
+          "tags": "arugula, harvest, follow-up, regrowth, cut-and-come-again"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:43 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight. Tonight: Partly cloudy with a slight chance of thunderstorms. Tomorrow: Partly sunny with a high of 71°F.",

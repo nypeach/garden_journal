@@ -50,6 +50,48 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:04 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.61",
+        "salt_mg_L": "305",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "54",
+        "fertility_percent": "37.0",
+        "soil_temp_f": "65.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears vigorous and well balanced with upright stems, expanding leaf size, and even coloration across the canopy. Multiple stems are actively producing new growth, and no signs of wind stress, wilting, or nutrient deficiency are visible.",
+      "actions": "Do not water or fertilize today. Allow soil to naturally dry down while maintaining current placement and exposure.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if moisture drops below 40. Begin planning for first light pinching once leaf tips extend further.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251215-02.jpeg",
+          "caption": "Overhead view showing an evenly filling canopy with multiple active growth points.",
+          "tags": "basil, overhead, canopy, vegetative-growth"
+        },
+        {
+          "file_name": "basil_001-20251215-03.jpeg",
+          "caption": "Side view highlighting upright stems and expanding leaf size across several nodes.",
+          "tags": "basil, side-view, stems, healthy-growth"
+        },
+        {
+          "file_name": "basil_001-20251215-04.jpeg",
+          "caption": "Angled view showing compact internodes and dense, vibrant foliage with no visible stress.",
+          "tags": "basil, foliage, healthy, compact-growth"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:25 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

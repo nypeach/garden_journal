@@ -46,6 +46,43 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:24 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "57",
+        "moisture_mScm": "24.00",
+        "light": "96",
+        "rh_percent": "42",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "70.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling appears upright and healthy with firm, evenly green leaves and no signs of wilting or stress. Leaf posture is open and stable, indicating normal transpiration. The soil surface remains dark but no longer appears saturated, suggesting improved aeration and drainage compared to the previous day.",
+      "actions": "Do not water today. Keep the pot sheltered from rainfall and allow continued dry-down. Do not apply fertilizer or soil amendments.",
+      "next_steps": "Recheck moisture tomorrow or the following morning. Water only if moisture drops below 20 mS/cm. Continue monitoring leaf posture and color for steady vegetative growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "lavender_004-20251215-02.jpeg",
+          "caption": "Overhead view showing healthy leaf posture and soil that has begun drying after rainfall.",
+          "tags": "lavender, seedling, overhead, recovery"
+        },
+        {
+          "file_name": "lavender_004-20251215-03.jpeg",
+          "caption": "Angled close-up highlighting firm stem, upright leaves, and overall healthy structure.",
+          "tags": "lavender, seedling, leaves, structure"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:32 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

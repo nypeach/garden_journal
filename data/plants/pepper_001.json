@@ -54,6 +54,48 @@
   ],
   "journal": [
     {
+      "date": "12/15/2025",
+      "time": "10:33 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "161",
+        "moisture_mScm": "80.00",
+        "light": "89",
+        "rh_percent": "38",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "71.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling shows continued healthy development with expanding true leaves, upright posture, and a firm stem. Leaf shape and coloration are appropriate for early vegetative growth. Soil remains wet but the plant exhibits no signs of overwatering stress. Minor soil disturbance is visible near the surface with no negative impact to the seedling.",
+      "actions": "Do not water. Allow wind and sun to promote gradual soil dry-down. Avoid fertilizer or soil amendments while moisture remains high.",
+      "next_steps": "Recheck moisture after rain chances pass. Resume watering only once moisture drops below approximately 50 mS/cm. Continue monitoring for stem thickening and increased leaf expansion.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251215-02.jpeg",
+          "caption": "Overhead view of the Scotch Bonnet seedling showing upright posture and expanding true leaves.",
+          "tags": "scotch-bonnet, seedling, overhead"
+        },
+        {
+          "file_name": "pepper_001-20251215-03.jpeg",
+          "caption": "Soil surface near the seedling showing minor disturbance after weed removal with no impact to plant stability.",
+          "tags": "soil-surface, weed-removal, scotch-bonnet"
+        },
+        {
+          "file_name": "pepper_001-20251215-04.jpeg",
+          "caption": "Side angle showing healthy leaf structure and firm stem in early vegetative development.",
+          "tags": "scotch-bonnet, seedling, true-leaves"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:33 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

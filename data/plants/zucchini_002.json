@@ -12,8 +12,9 @@
     "Compacted topsoil/sand layer partially removed on Dec 9, 2025.",
     "Replaced with Miracle-Gro Potting Mix to improve aeration."
   ],
-  "whats_been_logged": "The plant has progressed from early flowering into active fruit development while adjusting to improved soil structure after the compacted topsoil/sand layer was removed on Dec 9, 2025. Root-zone aeration and moisture flow improved noticeably following replacement with potting mix, and canopy growth has remained strong aside from natural senescence in older leaves. Current tracking focuses on stable moisture levels, continued fruit enlargement, and preparing for vertical training as the stem begins to elongate.",
-  "current_stage": "Active Fruit Set / Early Fruiting",
+  "whats_been_logged": "The plant is now operating in sustained fruiting mode, producing multiple female flowers while an established fruit continues to enlarge. Growth patterns reflect active reproductive cycling, with increasing demand for consistent moisture, successful pollination timing, and structural preparation for vertical training as fruit load builds.",
+  "current_stage": "Sustained Fruiting & Secondary Flowering",
+  "current_state": "The plant displays a vigorous, open canopy with thick petioles and an active crown producing multiple female flowers. One established zucchini fruit is enlarging evenly with firm texture and healthy coloration. Overall structure is upright and stable, with no visible signs of disease, rot, or stress.",
   "timeline": [
     {
       "what_i_should_see": "Early Seedling Through First Fruit Set",
@@ -45,6 +46,68 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/15/2025",
+      "time": "11:37 AM",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "digital_probe": {
+        "ph": "7.50",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "35",
+        "moisture_mScm": "27.00",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "70.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is actively producing multiple new female flowers at the crown, each with clearly defined ovaries. One existing zucchini fruit continues to elongate evenly with firm texture and healthy color. Stems and petioles remain thick and upright, and canopy spacing is open with no signs of disease or stress.",
+      "actions": "Apply a deep, slow watering at the base to restore moisture into the mid-range. Keep mulch in place beneath all developing fruits. Do not fertilize today.",
+      "next_steps": "Check female flowers each morning over the next 1–2 days for opening and hand pollinate immediately when petals open. Monitor soil moisture closely during this pollination window and prepare for the first vertical tie as fruit weight increases.",
+      "q_and_a_summary": "Discussed how to determine when a female flower is ready to open for hand pollination, confirming that buds typically open once the ovary reaches about 1.5–2 inches and the petals appear puffy and loosened. Confirmed that the largest bud is very close and likely to open within 24–48 hours.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251215-02.jpeg",
+          "caption": "Overhead view showing full canopy spread and active fruiting center.",
+          "tags": "zucchini, canopy, overhead"
+        },
+        {
+          "file_name": "zucchini_002-20251215-03.jpeg",
+          "caption": "Close-up of the crown showing multiple forming female flowers with visible ovaries.",
+          "tags": "zucchini, crown, female flowers"
+        },
+        {
+          "file_name": "zucchini_002-20251215-04.jpeg",
+          "caption": "Side view highlighting developing female buds and strong petiole structure.",
+          "tags": "zucchini, female buds, structure"
+        },
+        {
+          "file_name": "zucchini_002-20251215-05.jpeg",
+          "caption": "Existing zucchini fruit showing continued elongation and uniform color.",
+          "tags": "zucchini, fruit development"
+        },
+        {
+          "file_name": "zucchini_002-20251215-06.jpeg",
+          "caption": "Low-angle view showing fruit position above mulch and clean soil surface.",
+          "tags": "zucchini, fruit support, mulch"
+        },
+        {
+          "file_name": "zucchini_002-20251215-07.jpeg",
+          "caption": "Developing female flower with swollen ovary nearing bloom stage.",
+          "tags": "zucchini, female flower, pre-bloom"
+        },
+        {
+          "file_name": "zucchini_002-20251215-08.jpeg",
+          "caption": "Crown detail showing tight bud clusters and healthy new growth.",
+          "tags": "zucchini, crown, new growth"
+        }
+      ]
+    },
     {
       "date": "12/14/2025",
       "time": "1:45 PM",
