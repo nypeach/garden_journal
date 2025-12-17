@@ -30,6 +30,43 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:16 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "98",
+        "moisture_mScm": "55.00",
+        "light": "94",
+        "rh_percent": "45",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "66.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley remains dense and upright with healthy green foliage and no signs of wilting or stress. Strong winds caused surface drying and crusting, making probe insertion difficult, but root-zone moisture remained adequate. Foliage stayed turgid, indicating good root function.",
+      "actions": "A light shower was applied after readings to rehydrate the soil surface and relieve crusting. No additional watering or fertilization is needed today.",
+      "next_steps": "Monitor surface moisture as sun and wind continue. Use light surface watering only if crusting returns. Recheck probe readings within 1–2 days and begin selective harvesting from outer stems once growth reaches 6–8 inches.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251216-02.jpeg",
+          "caption": "Overhead view showing dense parsley growth with firm leaves and improved soil surface after light watering.",
+          "tags": "parsley, canopy, healthy"
+        },
+        {
+          "file_name": "parsley_001-20251216-03.jpeg",
+          "caption": "Angled view highlighting upright stems and even leaf color despite recent wind and surface drying.",
+          "tags": "parsley, leaves, structure"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "11:02 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

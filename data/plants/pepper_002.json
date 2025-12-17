@@ -58,6 +58,48 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "11:53 AM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "84",
+        "moisture_mScm": "44.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plants continue healthy early vegetative growth with broadening true leaves, upright stems, and even green coloration. Leaf posture remains firm and responsive to light with no signs of wilt or stress. The soil surface was dry and lightly crusted from wind exposure, but the root zone remains adequately moist and well aerated after gentle surface fluffing.",
+      "actions": "Do not water today. Maintain full sun exposure and allow possible overnight rain to contribute to rehydration.",
+      "next_steps": "Recheck moisture after overnight weather passes. Water only if moisture drops below 35–40 mS/cm and rainfall does not occur. Continue light surface loosening if wind causes crusting.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251216-02.jpeg",
+          "caption": "Side view showing upright early vegetative plants with healthy leaf expansion after windy conditions.",
+          "tags": "orange-cal-wonder, pepper, early-vegetative, leaves"
+        },
+        {
+          "file_name": "pepper_002-20251216-03.jpeg",
+          "caption": "Angled overhead view highlighting broadening true leaves and evenly colored foliage.",
+          "tags": "orange-cal-wonder, pepper, canopy, growth"
+        },
+        {
+          "file_name": "pepper_002-20251216-04.jpeg",
+          "caption": "Wide view of the planter section showing well-spaced plants and loosened soil surface following wind-driven drying.",
+          "tags": "orange-cal-wonder, pepper, soil, planter"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:34 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

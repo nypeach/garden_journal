@@ -30,6 +30,45 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:18 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.60",
+        "salt_mg_L": "301",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "37.0",
+        "soil_temp_f": "70.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two oregano seedlings remain upright and healthy with intact cotyledons and no signs of stress or collapse. Strong wind from the previous day caused surface crusting and localized dryness, making probe insertion difficult. Soil moisture returned to an ideal range after a light corrective shower, while EC, salts, and fertility remain elevated but appropriate following recent fertilization.",
+      "actions": "Do not water or fertilize further today. Allow forecast rain to manage moisture and avoid disturbing the soil surface unless crusting reforms.",
+      "next_steps": "After overnight rain, check the soil surface for sealing or renewed crusting. If needed, lightly mist the surface only. Continue watching for additional seedlings emerging over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[Midday] Applied a light surface shower after probe reading to soften wind-formed crust and rehydrate the top layer."
+      ],
+      "photos": [
+        {
+          "file_name": "oregano_001-20251216-02.jpeg",
+          "caption": "Close-up of an oregano seedling with bright green cotyledons emerging through recently rehydrated soil.",
+          "tags": "oregano, seedling, emergence, cotyledons"
+        },
+        {
+          "file_name": "oregano_001-20251216-03.jpeg",
+          "caption": "Second oregano seedling visible nearby, standing upright with healthy posture after surface crust correction.",
+          "tags": "oregano, seedlings, recovery, soil-surface"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "11:10 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

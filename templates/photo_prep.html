@@ -161,14 +161,23 @@
   </div>
 
   <script>
-    // Pre-fill global message from localStorage or URL parameter
+    // Pre-fill from URL parameters ONLY, or clear localStorage if no params
     document.addEventListener('DOMContentLoaded', function () {
       const urlParams = new URLSearchParams(window.location.search);
       const globalMsgFromUrl = urlParams.get('global_message');
-      const globalMsg = globalMsgFromUrl ? decodeURIComponent(globalMsgFromUrl) : (localStorage.getItem('garden_global_message') || '');
+      const dateFromUrl = urlParams.get('date');
 
-      if (globalMsg) {
+      // If NO URL parameters, clear localStorage and show fresh form
+      if (!globalMsgFromUrl && !dateFromUrl) {
+        localStorage.removeItem('garden_global_message');
+        return; // Leave form empty
+      }
+
+      // If URL parameters exist, use them and save to localStorage
+      if (globalMsgFromUrl) {
+        const globalMsg = globalMsgFromUrl; // URLSearchParams auto-decodes
         document.getElementById('global_message').value = globalMsg;
+        localStorage.setItem('garden_global_message', globalMsg);
       }
 
       // Save global message to localStorage when typing
@@ -286,13 +295,7 @@
       const codeElement = document.getElementById('outputCode');
       const text = codeElement.textContent.replace('Copy', '').trim();
 
-      navigator.clipboard.writeText(text).then(() => {
-        const btn = codeElement.querySelector('.copy-btn');
-        btn.textContent = 'Copied!';
-        setTimeout(() => {
-          btn.textContent = 'Copy';
-        }, 2000);
-      });
+      navigator.clipboard.writeText(text);
     }
   </script>
 </body>
