@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Assist Corrections – Master Garden Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <!-- Sticky header matching dashboard style -->
+  <header class="sticky-header">
+    <div class="sticky-header-inner">
+      <div class="header-title-row">
+        <h1>🔧 Assist Corrections</h1>
+        <a href="/" class="nav-link">🌿 Back to Dashboard</a>
+      </div>
+      <p class="dashboard-subtitle">
+        IF/THEN corrections for ChatGPT plant channels · Last updated: {{ last_updated }} · Version: {{ schema_version
+        }}
+      </p>
+
+      <!-- Two Column Layout: Search Left, Top 5 Right -->
+      <div class="corrections-search-section">
+        <!-- Left: Search and Filters -->
+        <div class="search-filters-left">
+          <div class="search-label">SEARCH:</div>
+          <input type="text" id="searchInput" class="form-input" placeholder="Search by trigger or title..."
+            onkeyup="filterCorrections()" />
+
+          <select id="categoryFilter" class="form-select" onchange="filterCorrections()">
+            <option value="">All Categories</option>
+            {% for category in categories %}
+            <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+          </select>
+
+          <select id="subcategoryFilter" class="form-select" onchange="filterCorrections()">
+            <option value="">All Sub-categories</option>
+          </select>
+        </div>
+
+        <!-- Right: Top 5 Corrections -->
+        <div class="top-corrections-right">
+          <h3>TOP 5 CORRECTIONS:</h3>
+          <div class="top-corrections-list">
+            {% for correction in top_corrections %}
+            <a href="#tile-{{ correction.id }}" onclick="expandTile('{{ correction.id }}')">
+              {{ correction.title }} ({{ correction.count }})
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    <!-- Corrections Tiles -->
+    <div id="correctionsContainer">
+      {% for correction in corrections %}
+      <div class="correction-tile" id="tile-{{ correction.id }}" data-id="{{ correction.id }}"
+        data-category="{{ correction.category }}" data-subcategory="{{ correction.sub_category }}"
+        data-title="{{ correction.title|lower }}" data-if="{{ correction.trigger_if|lower }}">
+        <!-- Collapsed Header -->
+        <div class="tile-header" onclick="toggleTile('{{ correction.id }}')">
+          <div class="tile-title-row">
+            <div class="tile-title">{{ correction.title }}</div>
+            <span class="expand-icon">▼</span>
+          </div>
+
+          <div class="tile-meta">
+            <span class="meta-item">📁 {{ correction.category }} › {{ correction.sub_category }}</span>
+            <span class="meta-item">📊 Used {{ correction.count }} times</span>
+          </div>
+
+          <div class="tile-if">
+            <span class="tile-if-label">IF:</span>
+            {{ correction.trigger_if[:150] }}{% if correction.trigger_if|length > 150 %}...{% endif %}
+          </div>
+        </div>
+
+        <!-- Expanded Content -->
+        <div class="tile-content">
+          <div class="then-section">
+            <div class="then-label">IF:</div>
+            <div class="then-text">{{ correction.trigger_if }}</div>
+          </div>
+
+          <div class="copy-section">
+            <!-- Label changes based on mode -->
+            <div class="copy-label" id="copy-label-{{ correction.id }}">⚠️ Copy This THEN Message to ChatGPT:</div>
+
+            <!-- Copy box (default visible) -->
+            <div class="copy-box" id="copy-box-{{ correction.id }}">
+              <div class="copy-text" id="copy-text-{{ correction.id }}">{{ correction.response_then }}</div>
+              <button class="copy-btn" onclick="copyCorrection('{{ correction.id }}', event)">
+                Copy
+              </button>
+              <button class="edit-btn" id="edit-btn-{{ correction.id }}"
+                onclick="toggleEdit('{{ correction.id }}', event)">
+                Edit
+              </button>
+            </div>
+
+            <!-- Edit box (hidden by default, identical structure to copy-box) -->
+            <div class="edit-box" id="edit-box-{{ correction.id }}" style="display: none;">
+              <textarea id="edit-then-{{ correction.id }}"
+                class="edit-textarea">{{ correction.response_then }}</textarea>
+              <button class="copy-btn" onclick="copyCorrection('{{ correction.id }}', event)">
+                Copy
+              </button>
+              <button class="edit-btn save-mode" id="save-btn-{{ correction.id }}"
+                onclick="toggleEdit('{{ correction.id }}', event)">
+                Save
+              </button>
+            </div>
+          </div>
+
+          {% if correction.anti_patterns %}
+          <div class="anti-patterns">
+            <div class="anti-patterns-title">⚠️ Anti-patterns (what it looked like when wrong):</div>
+            <ul class="anti-patterns-list">
+              {% for pattern in correction.anti_patterns %}
+              <li>{{ pattern }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          <div class="tags">
+            {% for tag in correction.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+
+          {% if correction.applies_when %}
+          <div class="tile-meta" style="margin-top: 12px;">
+            <span class="meta-item">Applies when: {{ correction.applies_when|join(', ') }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- No Results Message -->
+    <div id="noResults" class="no-results" style="display: none;">
+      No corrections found matching your search.
+    </div>
+  </div>
+
+  <script>
+    const ACKNOWLEDGMENT_FOOTER = "\n\nAcknowledge the correction with one brief sentence confirming you will follow this approach going forward, then immediately continue the workflow as my professional horticulturist or extension agent.";
+
+    function expandTile(id) {
+      // Clear search filters to ensure tile is visible
+      clearSearchFilters();
+
+      const tile = document.getElementById('tile-' + id);
+      if (tile && !tile.classList.contains('tile-expanded')) {
+        tile.classList.add('tile-expanded');
+
+        // Scroll to top after expanding
+        setTimeout(() => {
+          const headerHeight = document.querySelector('.sticky-header').offsetHeight;
+          const tileTop = tile.getBoundingClientRect().top + window.pageYOffset;
+          const scrollTo = tileTop - headerHeight - 20; // 20px padding
+
+          window.scrollTo({
+            top: scrollTo,
+            behavior: 'smooth'
+          });
+        }, 50);
+      }
+    }
+
+    function toggleTile(id) {
+      const tile = document.getElementById('tile-' + id);
+      const wasExpanded = tile.classList.contains('tile-expanded');
+
+      // Clear search filters to ensure tile is visible
+      clearSearchFilters();
+
+      tile.classList.toggle('tile-expanded');
+
+      // If we just expanded (wasn't expanded before), scroll to top
+      if (!wasExpanded) {
+        setTimeout(() => {
+          const headerHeight = document.querySelector('.sticky-header').offsetHeight;
+          const tileTop = tile.getBoundingClientRect().top + window.pageYOffset;
+          const scrollTo = tileTop - headerHeight - 20; // 20px padding
+
+          window.scrollTo({
+            top: scrollTo,
+            behavior: 'smooth'
+          });
+        }, 50); // Small delay to let expansion animation start
+      }
+    }
+
+    async function copyCorrection(id, event) {
+      event.stopPropagation();
+
+      const tile = document.getElementById('tile-' + id);
+      const thenText = tile.querySelector('.copy-text').textContent;
+      const fullText = thenText + ACKNOWLEDGMENT_FOOTER;
+
+      try {
+        await navigator.clipboard.writeText(fullText);
+
+        // Increment count via API
+        fetch(`/api/correction/copy/${id}`, {
+          method: 'POST'
+        });
+      } catch (err) {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy to clipboard');
+      }
+    }
+
+    function toggleEdit(id, event) {
+      event.stopPropagation();
+
+      const copyBox = document.getElementById('copy-box-' + id);
+      const editBox = document.getElementById('edit-box-' + id);
+      const label = document.getElementById('copy-label-' + id);
+
+      if (editBox.style.display === 'none') {
+        // Entering edit mode
+        copyBox.style.display = 'none';
+        editBox.style.display = 'block';
+        label.textContent = '⚠️ Edit This THEN Message and Click Save:';
+      } else {
+        // Saving
+        saveCorrection(id);
+      }
+    }
+
+    async function saveCorrection(id) {
+      const thenText = document.getElementById('edit-then-' + id).value;
+
+      const data = {
+        response_then: thenText
+      };
+
+      try {
+        const response = await fetch(`/api/correction/update/${id}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+          // Update displayed THEN text in copy box
+          const copyText = document.getElementById('copy-text-' + id);
+          copyText.textContent = thenText;
+
+          // Exit edit mode
+          const copyBox = document.getElementById('copy-box-' + id);
+          const editBox = document.getElementById('edit-box-' + id);
+          const label = document.getElementById('copy-label-' + id);
+
+          editBox.style.display = 'none';
+          copyBox.style.display = 'block';
+          label.textContent = '⚠️ Copy This THEN Message to ChatGPT:';
+        } else {
+          alert('Failed to update correction');
+        }
+      } catch (err) {
+        console.error('Failed to save:', err);
+        alert('Failed to save correction');
+      }
+    }
+
+    function filterCorrections() {
+      const searchText = document.getElementById('searchInput').value.toLowerCase();
+      const category = document.getElementById('categoryFilter').value;
+      const subcategory = document.getElementById('subcategoryFilter').value;
+
+      const tiles = document.querySelectorAll('.correction-tile');
+      let visibleCount = 0;
+
+      tiles.forEach(tile => {
+        const tileTitle = tile.dataset.title;
+        const tileIf = tile.dataset.if;
+        const tileCategory = tile.dataset.category;
+        const tileSubcategory = tile.dataset.subcategory;
+
+        const matchesSearch = !searchText ||
+          tileTitle.includes(searchText) ||
+          tileIf.includes(searchText);
+
+        const matchesCategory = !category || tileCategory === category;
+        const matchesSubcategory = !subcategory || tileSubcategory === subcategory;
+
+        if (matchesSearch && matchesCategory && matchesSubcategory) {
+          tile.style.display = 'block';
+          visibleCount++;
+        } else {
+          tile.style.display = 'none';
+        }
+      });
+
+      document.getElementById('noResults').style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    function clearSearchFilters() {
+      // Clear all search inputs and filters
+      document.getElementById('searchInput').value = '';
+      document.getElementById('categoryFilter').value = '';
+      document.getElementById('subcategoryFilter').value = '';
+      document.getElementById('subcategoryFilter').disabled = true;
+
+      // Show all tiles
+      const tiles = document.querySelectorAll('.correction-tile');
+      tiles.forEach(tile => {
+        tile.style.display = 'block';
+      });
+
+      document.getElementById('noResults').style.display = 'none';
+    }
+
+    // Update subcategory dropdown when category changes
+    document.getElementById('categoryFilter').addEventListener('change', function () {
+      const category = this.value;
+      const subcategorySelect = document.getElementById('subcategoryFilter');
+
+      // Clear existing options
+      subcategorySelect.innerHTML = '<option value="">All Sub-categories</option>';
+
+      if (!category) {
+        subcategorySelect.disabled = true;
+        return;
+      }
+
+      subcategorySelect.disabled = false;
+
+      // Find unique subcategories for selected category
+      const tiles = document.querySelectorAll('.correction-tile');
+      const subcategories = new Set();
+
+      tiles.forEach(tile => {
+        if (tile.dataset.category === category) {
+          subcategories.add(tile.dataset.subcategory);
+        }
+      });
+
+      // Add options
+      Array.from(subcategories).sort().forEach(sub => {
+        const option = document.createElement('option');
+        option.value = sub;
+        option.textContent = sub;
+        subcategorySelect.appendChild(option);
+      });
+    });
+  </script>
+</body>
+
+</html>

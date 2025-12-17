@@ -59,6 +59,48 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:21 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.32",
+        "salt_mg_L": "163",
+        "moisture_mScm": "90.00",
+        "light": "91",
+        "rh_percent": "46",
+        "fertility_percent": "18.0",
+        "soil_temp_f": "75.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant remains upright and vigorous with firm stems, expanding trifoliate leaves, and active side branching. Leaf color is uniform and healthy with no wilting or stress symptoms. The soil surface had crusted from wind exposure, causing initial probe insertion difficulty; after fluffing and watering, moisture penetration and root-zone hydration were restored.",
+      "actions": "Do not water further today. Keep the soil surface lightly fluffed to prevent crusting and allow excess moisture to drain naturally.",
+      "next_steps": "Recheck moisture tomorrow to confirm it settles into the mid-range. Monitor for continued canopy thickening and steady side branch growth. Resume normal watering cadence once moisture drops below approximately 35 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251216-02.jpeg",
+          "caption": "Overhead view showing healthy leaf expansion and balanced bush form after rehydration.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251216-03.jpeg",
+          "caption": "Side view highlighting upright stems and symmetrical side branching.",
+          "tags": "green-beans, branching, structure"
+        },
+        {
+          "file_name": "green_beans_001-20251216-04.jpeg",
+          "caption": "Close-up of new growth showing active trifoliate leaf expansion and healthy texture.",
+          "tags": "green-beans, new-growth, leaves"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "11:32 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

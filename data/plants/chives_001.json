@@ -47,6 +47,38 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:09 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "60.00",
+        "light": "89",
+        "rh_percent": "49",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "69.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Early-stage chive seedlings remain thin but show early signs of stabilization, with several newer blades lifting slightly off the soil surface and standing more upright than older, wind-affected blades. Color remains evenly green with no signs of collapse or discoloration. Soil moisture has moderated since prior days, and light exposure remains strong across the chive section.",
+      "actions": "Do not water or fertilize. Leave seedlings undisturbed and allow natural drying and weather cycles to continue supporting root establishment.",
+      "next_steps": "Monitor over the next several days for visibly thicker, more upright new blades indicating successful anchoring. Recheck probe readings once moisture drops below 40 mS/cm or after the next rain event.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251216-02.jpeg",
+          "caption": "Overhead view of chive seedlings showing early stabilization with some blades beginning to stand more upright as soil moisture balances.",
+          "tags": "chives, seedlings, early-growth, stabilization, window-box"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:54 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

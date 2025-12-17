@@ -46,6 +46,32 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "11:41 AM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight. Windy yesterday with drying conditions.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "117",
+        "moisture_percent": "90",
+        "light_percent": "99",
+        "rh_percent": "52",
+        "fertility_percent": "12",
+        "soil_temp_f": "67.5"
+      },
+      "observations": "Surface soil was dry and crusted from prior wind, making probe insertion difficult. After insertion, soil was lightly fluffed. Basil shows strong vegetative growth with multiple dominant stems, active lateral nodes, and no signs of stress. Leaf color is slightly lighter on new growth but overall plant posture is upright and vigorous.",
+      "actions": "Surface soil lightly fluffed after probe insertion. No watering or fertilizing performed.",
+      "decisions": "Plant is ready for first structural prune to encourage lateral branching and compact growth.",
+      "next_steps": "Perform a structural prune removing no more than 25–30% of canopy, targeting the tallest dominant stems and cutting above the 2nd or 3rd node. Do not water or fertilize today. Recheck moisture after pruning once soil resettles.",
+      "photos": [
+        "basil_002-20251216-02.jpeg",
+        "basil_002-20251216-03.jpeg",
+        "basil_002-20251216-04.jpeg",
+        "basil_002-20251216-05.jpeg",
+        "basil_002-20251216-06.jpeg"
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:09 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

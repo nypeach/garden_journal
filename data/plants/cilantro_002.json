@@ -46,6 +46,43 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:09 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "158",
+        "moisture_mScm": "65.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "69.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Broccoli plants are upright with thickening stems and healthy upper foliage following removal of lower leaves. The soil line is now clear of foliage, improving airflow around the stem bases. Leaf color is uniform green, and central growing points remain intact and actively producing new growth. Soil surface appears evenly moist at the time of the reading.",
+      "actions": "Do not water or fertilize today. Leave plants undisturbed to continue vegetative growth.",
+      "next_steps": "Recheck probe readings in 2–3 days. Continue monitoring stem thickening and leaf expansion. No pruning needed unless leaves become damaged or contact the soil again.",
+      "q_and_a_summary": "Discussed appropriate container options for transplanting broccoli in a fully mobile setup; confirmed that a 10-gallon fabric grow bag provides sufficient root volume, natural drainage without added holes, and suitability for Florida sun and heat.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251216-02.jpeg",
+          "caption": "Side view showing upright broccoli plants with cleared soil line and healthy upper foliage.",
+          "tags": "broccoli, upright, cleared-base"
+        },
+        {
+          "file_name": "broccoli_001-20251216-03.jpeg",
+          "caption": "Overhead view showing even spacing, intact growing points, and balanced canopy structure.",
+          "tags": "broccoli, overhead, canopy"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "12:48 PM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

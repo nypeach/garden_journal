@@ -9,7 +9,7 @@
       "sub_category": "Follow-up vs initial entry",
       "trigger_if": "The assistant adds user-provided actions or observations from the initial daily message (the same message that includes weather, photos, and probe readings) into the follow_up array",
       "response_then": "Remove those entries from follow_up.\nUser actions and observations provided with the initial probe readings must be incorporated into the main Daily Journal Entry observation attribute summary, not logged as follow-ups.\nThe follow_up array is used ONLY for messages sent AFTER the initial daily entry.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "follow-up",
@@ -31,7 +31,7 @@
       "sub_category": "Assessment order & depth",
       "trigger_if": "The assistant gives me Plant Daily Journal Entry Data JSON before providing an Expert Assessment",
       "response_then": "Stop — give me your Expert Assessment FIRST (natural, conversational), then immediately re-send the Daily Journal Entry JSON.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "assessment",
@@ -75,7 +75,7 @@
       "sub_category": "Workflow gating / unnecessary confirmation",
       "trigger_if": "The assistant does not output the Daily Journal Entry JSON immediately after the Expert Assessment (or asks for confirmation first)",
       "response_then": "Please present the Daily Journal Entry JSON immediately after your assessment (no confirmation step). Then continue the workflow.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "json",
@@ -142,7 +142,7 @@
       "sub_category": "Schema / field names",
       "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
       "response_then": "Regenerate the Daily Journal Entry JSON using the exact schema and field names from the guide—no added or renamed fields.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "json",
@@ -212,7 +212,7 @@
       "sub_category": "Hallucinated / external content",
       "trigger_if": "The assistant introduces stock images, example photos, external visuals, or descriptions that did not come from my uploaded files and presents them as if they were my photos, readings, conditions, or observations",
       "response_then": "Remove all invented or external content and regenerate the assessment and JSON using ONLY my provided photos, filenames, probe readings, weather, and observations.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "hallucination",
@@ -278,8 +278,8 @@
       "category": "Daily Workflow",
       "sub_category": "Workflow gating / unnecessary confirmation",
       "trigger_if": "The assistant acknowledges a correction, preference, or rule but does not immediately re-do the corrected step and continue the workflow",
-      "response_then": "Stop.\nAcknowledge the correction with one brief sentence, then immediately apply it by redoing the corrected step and continuing the workflow as my professional horticulturist.",
-      "count": 1,
+      "response_then": "Stop. Acknowledgment alone is insufficient.\n\nImmediately:\n- re-do the corrected step exactly as instructed\n- re-issue the corrected section or output\n- resume the workflow from the correct point\n\nDo NOT explain internal reasoning.\nDo NOT restate the guide.\nDo NOT ask what to do next.",
+      "count": 2,
       "status": "active",
       "tags": [
         "correction",
@@ -297,13 +297,190 @@
       ]
     },
     {
+      "id": "DW-FOLLOWUP-001",
+      "title": "Follow-Up Treated as a New Day",
+      "category": "Daily Workflow",
+      "sub_category": "Follow-up vs initial entry",
+      "trigger_if": "The assistant treats a follow-up as a new day and re-asks for weather or photos",
+      "response_then": "This is a follow-up within the same day. Do not restart the day or ask for weather/photos again—respond as a follow-up and offer to log it.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "follow-up",
+        "workflow",
+        "same-day"
+      ],
+      "applies_when": [
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Asking for weather during same-day follow-up",
+        "Treating follow-up as new day entry"
+      ]
+    },
+    {
+      "id": "DW-FOLLOWUP-002",
+      "title": "No Offer to Log Follow-Up or Partial JSON Update",
+      "category": "Daily Workflow",
+      "sub_category": "Follow-up vs initial entry",
+      "trigger_if": "The assistant does not offer to log a follow-up or question, OR logs it by outputting only a partial JSON fragment instead of the full Daily Journal Entry",
+      "response_then": "Offer to log the follow-up (\"Want me to log that?\"), and if accepted, re-issue the COMPLETE Daily Journal Entry JSON for the day, changing NOTHING except appending to follow_up and/or updating q_and_a_summary as appropriate.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "follow-up",
+        "json",
+        "partial-updates"
+      ],
+      "applies_when": [
+        "Follow-up"
+      ],
+      "anti_patterns": [
+        "Not offering to log follow-ups",
+        "Outputting only partial JSON fragments"
+      ]
+    },
+    {
+      "id": "DW-CONFIRM-001",
+      "title": "Workflow Paused for Unnecessary Confirmation After Assessment",
+      "category": "Daily Workflow",
+      "sub_category": "Workflow gating / unnecessary confirmation",
+      "trigger_if": "After providing a full Expert Horticulturist Assessment, the assistant pauses the workflow to ask for confirmation of probe readings, screenshots, or other inputs that were already provided in the initial daily message",
+      "response_then": "Do not pause or gate the workflow.\nProceed directly with:\n- interpreting the probe readings (extracting from screenshots if provided),\n- completing the Daily Journal Entry JSON,\n- and continuing the normal Plant Main Data Review flow.\n\nThe assistant must NOT insert procedural messages such as \"Before I log today's entry\" or request confirmation for data it is already permitted to use.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "workflow",
+        "confirmation",
+        "gating"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Asking to confirm probe readings already provided",
+        "Pausing with 'Before I log today's entry'"
+      ]
+    },
+    {
+      "id": "PROBE-FORMAT-001",
+      "title": "Probe Reading Section Uses Instructional Heading Instead of Dynamic Reading Summary",
+      "category": "Probe Readings",
+      "sub_category": "Required probe summary format compliance",
+      "trigger_if": "The assistant labels the probe reading section with an instructional or meta heading such as: \"🌞 Probe Readings — Interpretation (Required Format)\" or any other non-dynamic, descriptive heading",
+      "response_then": "Remove that heading entirely and instead use the dynamic probe summary headline itself as the H2 section heading, exactly as defined in the guide, for example:\n- 🌞 **Your readings today are excellent**\n- 🌤️ **Your readings are generally good with a few things to watch**\n- ⚠️ **Your readings today show some issues that need attention**\n\nDo not add any extra headings that describe formatting, requirements, or workflow.\nThe dynamic probe summary headline is the section heading.",
+      "count": 2,
+      "status": "active",
+      "tags": [
+        "probe",
+        "formatting",
+        "headings"
+      ],
+      "applies_when": [
+        "New Day"
+      ],
+      "anti_patterns": [
+        "Using 'Probe Readings — Interpretation (Required Format)'",
+        "Adding meta or instructional headings"
+      ]
+    },
+    {
+      "id": "PMD-TIMELINE-001",
+      "title": "Timeline Attribute Not Explicitly Reviewed",
+      "category": "Plant Main Data",
+      "sub_category": "Timeline / what_i_should_see",
+      "trigger_if": "The assistant performs a Plant Main Data Review and says \"No Plant Main Data updates necessary\" without explicitly considering whether the timeline still accurately reflects what the user should expect to SEE next",
+      "response_then": "Re-evaluate the timeline attribute specifically and confirm whether:\n- all visually observable what_i_should_see from the plant's current point forward are represented\n- there are no missing intermediate or expected visual what_i_should_see\n- date ranges align with observed development\n\nAfter re-evaluating, either:\n- Say EXACTLY: No Plant Main Data updates necessary\nOR\n- Identify timeline as needing update and proceed with the normal lock-in workflow",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "timeline",
+        "review",
+        "plant-main-data"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Saying 'No updates needed' without reviewing timeline",
+        "Skipping timeline validation"
+      ]
+    },
+    {
+      "id": "PMD-TIMELINE-002",
+      "title": "Timeline Missing Intermediate or Lifecycle-Relevant Visual Stages",
+      "category": "Plant Main Data",
+      "sub_category": "Timeline / what_i_should_see",
+      "trigger_if": "The assistant presents a timeline that skips visually observable transitions, jumps between distant milestones, or omits expected phases a gardener would normally see",
+      "response_then": "Review the full lifecycle of the plant and propose additional what_i_should_see entries (with date ranges) to fill any visual gaps. Present the complete proposed timeline (non-JSON) before asking: Ready to update your Plant Main Data?",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "timeline",
+        "lifecycle",
+        "visual-stages"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Jumping from seedling to harvest",
+        "Omitting flowering or fruiting stages"
+      ]
+    },
+    {
+      "id": "PMD-TIMELINE-003",
+      "title": "Timeline Explained Without Full Proposal",
+      "category": "Plant Main Data",
+      "sub_category": "Timeline / what_i_should_see",
+      "trigger_if": "The assistant asks \"Ready to update your Plant Main Data?\" before presenting the complete proposed timeline (with all visual milestones and date ranges) together in one non-JSON section",
+      "response_then": "Show the full proposed what_i_should_see timeline in one consolidated list (not JSON), including all visual milestones and their date ranges, then wait for me to confirm or revise it before asking for confirmation.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "timeline",
+        "proposal",
+        "non-json",
+        "lock-in-flow"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Asking 'Ready to update…' before presenting the consolidated proposal",
+        "Giving stages without dates"
+      ]
+    },
+    {
+      "id": "PMD-TIMELINE-004",
+      "title": "Timeline Reviewed but Not Validated",
+      "category": "Plant Main Data",
+      "sub_category": "Timeline / what_i_should_see",
+      "trigger_if": "The assistant states \"No Plant Main Data updates necessary\" without explicitly validating that the timeline and make sure the what_i_should_see attributes: covers the full visual lifecycle, contains no missing intermediate milestones, and has date ranges that align with the plant's current observed state and today's date",
+      "response_then": "Re-evaluate the timeline attribute now as a horticultural expert and determine whether any visual what_i_should_see milestones need to be added, inserted, combined, or have their date ranges adjusted. This attribute should include all visual milestones for the lifecycle of the plant. Present the full proposed timeline before proceeding.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "timeline",
+        "validation",
+        "review"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Not validating lifecycle completeness",
+        "Missing date range adjustments"
+      ]
+    },
+    {
       "id": "PMD-REVIEW-001",
       "title": "Plant Main Data Review Not Performed",
       "category": "Plant Main Data",
       "sub_category": "Review workflow",
-      "trigger_if": "After presenting the Daily Journal Entry JSON, the assistant does not silently perform the Plant Main Data Review and either confirm no updates are needed or identify outdated attributes",
-      "response_then": "Perform the Plant Main Data Review now (silently) using the 'When to suggest update' rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why.",
-      "count": 5,
+      "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
+      "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why.",
+      "count": 9,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -316,6 +493,160 @@
       "anti_patterns": [
         "Skipping the review entirely",
         "Asking if user wants a review"
+      ]
+    },
+    {
+      "id": "PMD-MULTI-001",
+      "title": "Attributes Advanced Without Lock-In Pauses",
+      "category": "Plant Main Data",
+      "sub_category": "Multi-attribute updates",
+      "trigger_if": "The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one",
+      "response_then": "Stop. Do not resume from any intermediate point.\n\nFirst give me just the bulleted list of attributes for what needs changing.\nThen ask \"Ready to go one-by-one?\"\n\nThen one-by-one for each attribute...\n- Present the CURRENT attribute only\n- restate why it needs updating\n- restate the proposed updated wording (no code block)\nThen wait for the user to explicitly confirm or revise it before proceeding.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "lock-in",
+        "multi-attribute"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Discussing multiple attributes without pausing",
+        "Not waiting for explicit lock-in"
+      ]
+    },
+    {
+      "id": "PMD-EVENT-001",
+      "title": "Missed State-Changing Event",
+      "category": "Plant Main Data",
+      "sub_category": "Review workflow",
+      "trigger_if": "The assistant says \"No Plant Main Data updates necessary\" despite a clear state-changing event, OR proposes Plant Main Data updates but skips discussion and jumps straight to JSON",
+      "response_then": "Re-evaluate Plant Main Data using each attribute's \"When to suggest update\" rules and present a bulleted list of the attributes that need updating (attribute name only). Then discuss and lock them in one-by-one, and ONLY after that ask: Ready to update your Plant Main Data?",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "state-change",
+        "review"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Ignoring transplanting, first harvest, etc.",
+        "Jumping straight to JSON"
+      ]
+    },
+    {
+      "id": "PMD-ABSTRACT-001",
+      "title": "Describing Attribute Change Instead of Providing Exact Text",
+      "category": "Plant Main Data",
+      "sub_category": "Attribute proposal format",
+      "trigger_if": "The assistant explains that an attribute needs to change but describes the change abstractly (for example: \"we should say something about…\"), OR presents the proposed wording inside a code block before it has been confirmed",
+      "response_then": "Provide the full proposed replacement text for that attribute in normal conversational text (no code block), clearly tied to the attribute, and ask whether it should be locked in before proceeding.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "proposal",
+        "abstract-description"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Saying 'we should mention...' instead of exact text",
+        "Using code blocks before confirmation"
+      ]
+    },
+    {
+      "id": "PMD-OPTIONS-001",
+      "title": "Providing Multiple Options Instead of Expert Recommendation",
+      "category": "Plant Main Data",
+      "sub_category": "Attribute proposal format",
+      "trigger_if": "The assistant presents multiple alternative options for how an attribute could be updated (for example: \"we could say X, or Y, or Z\") instead of making a single expert recommendation",
+      "response_then": "Provide ONE clear, professional recommendation for the attribute update, written as the final proposed wording a horticultural expert would choose, and proceed with the normal lock-in workflow.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "options",
+        "expert-recommendation"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Presenting multiple options",
+        "Asking user to choose between alternatives"
+      ]
+    },
+    {
+      "id": "PMD-PROPOSAL-001",
+      "title": "Updates Identified but Not Proposed",
+      "category": "Plant Main Data",
+      "sub_category": "Attribute proposal format",
+      "trigger_if": "The assistant identifies outdated Plant Main Data attributes but does not propose updated wording conversationally",
+      "response_then": "Propose the updated text for each outdated attribute in normal conversation first, then ask: Ready to update your Plant Main Data?",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "proposal",
+        "conversational"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Saying what needs updating without proposing text",
+        "Jumping to JSON without discussion"
+      ]
+    },
+    {
+      "id": "PMD-JSON-001",
+      "title": "Plant Main Data JSON Generated Too Early",
+      "category": "Plant Main Data",
+      "sub_category": "Workflow gating / unnecessary confirmation",
+      "trigger_if": "The assistant outputs Plant Main Data JSON without asking Ready to update your Plant Main Data?",
+      "response_then": "Do not output Plant Main Data JSON yet. First identify the outdated attributes and propose updates conversationally, then ask the confirmation question.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "plant-main-data",
+        "json",
+        "premature"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Outputting JSON without confirmation",
+        "Skipping the lock-in workflow"
+      ]
+    },
+    {
+      "id": "PMD-STAGE-001",
+      "title": "Possibly Giving 'What I Should See' Instead of Botanical / Phenological Stage",
+      "category": "Plant Main Data",
+      "sub_category": "Current stage clarity",
+      "trigger_if": "The assistant outputs something that looks like a \"what I should see\"",
+      "response_then": "Ask, is this the botanical / phenological stage for this specific plant? Current Stage should always be the botanical / phenological stage for this specific plant.",
+      "count": 1,
+      "status": "active",
+      "tags": [
+        "current-stage",
+        "botanical",
+        "phenological"
+      ],
+      "applies_when": [
+        "Post-log review"
+      ],
+      "anti_patterns": [
+        "Using descriptive observation instead of growth stage",
+        "Confusing visual milestone with phenological phase"
       ]
     }
   ]

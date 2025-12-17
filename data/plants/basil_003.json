@@ -46,6 +46,43 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:14 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "54.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "64.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil plants appear healthy and increasingly full with elongated true leaves and upright stems. Foliage is evenly green with no signs of stress. Soil surface had dried and crusted due to wind exposure but was loosened and fluffed after probe insertion, restoring good structure and aeration while the root zone remains evenly moist.",
+      "actions": "Do not water or fertilize today. Leave soil lightly fluffed to maintain surface aeration.",
+      "next_steps": "Monitor moisture over the next 1–2 days, especially with storms forecast. Resume watering only if moisture drops into the low-to-mid 40s. Continue allowing uninterrupted vegetative growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20251216-01.jpeg",
+          "caption": "Overhead view of Thai basil showing fuller growth with evenly spaced elongated leaves and healthy coloration after wind exposure.",
+          "tags": "thai basil, vegetative growth, healthy leaves, fuller canopy"
+        },
+        {
+          "file_name": "basil_003-20251216-02.jpeg",
+          "caption": "Angled view of Thai basil with upright stems and steady leaf expansion in a shared herb planter.",
+          "tags": "thai basil, early bushy growth, upright stems"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:58 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

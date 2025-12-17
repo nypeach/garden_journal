@@ -64,26 +64,28 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The broccoli plants remain vigorous with upright posture, firm stems, and broad healthy leaves despite a sharp drop in probe moisture and fertility readings. The soil surface and upper root zone have dried rapidly following yesterday’s feeding, likely accelerated by wind exposure and shallow container depth. Elevated pH and low EC readings appear to be artifacts of dry soil contact rather than true nutrient imbalance, as visual growth remains strong with no signs of stress, chlorosis, or nutrient deficiency.",
-      "actions": "Apply slow, even watering later today once wind gusts subside to rehydrate the root zone. Do not fertilize. Avoid overhead watering during high winds.",
-      "next_steps": "Recheck probe readings tomorrow morning after moisture stabilizes. Expect pH and EC values to normalize as soil contact improves. Continue monitoring stem thickening and leaf expansion; no pruning needed at this time.",
-      "q_and_a_summary": "",
-      "follow_up": [],
+      "observations": "Broccoli plants remain upright with firm stems and healthy upper foliage. Several lower leaves are touching the soil surface and show chewing damage and browning. Soil surface appears dry at the time of the reading. Central growing points remain intact and actively producing new growth.",
+      "actions": "Remove only the lowest broccoli leaves that are touching the soil or clearly damaged. Do not remove healthy upper leaves or disturb the central growing point.",
+      "next_steps": "Monitor plant response after leaf removal. Recheck probe readings after soil moisture increases to improve contact accuracy.",
+      "q_and_a_summary": "Discussed whether to remove bottom broccoli leaves touching the soil; confirmed removal is appropriate when leaves are damaged or browning and the central growing point is unaffected.",
+      "follow_up": [
+        "[3:15 PM] Removed broccoli leaves that were touching the soil surface."
+      ],
       "photos": [
         {
           "file_name": "broccoli_001-20251215-02.jpeg",
-          "caption": "Side view showing upright broccoli plants with firm stems and healthy leaf structure despite dry soil surface.",
-          "tags": "broccoli, vegetative-growth, upright, dry-soil"
+          "caption": "Side view showing broccoli plants with lower leaves contacting the soil and healthy upper growth.",
+          "tags": "broccoli, lower-leaves, soil-contact"
         },
         {
           "file_name": "broccoli_001-20251215-03.jpeg",
-          "caption": "Overhead view showing broad leaf spread and balanced spacing within the window box planter.",
-          "tags": "broccoli, canopy, overhead, healthy-growth"
+          "caption": "Overhead view showing intact central growth and leaf spacing across the planter.",
+          "tags": "broccoli, overhead, canopy"
         },
         {
           "file_name": "broccoli_001-20251215-04.jpeg",
-          "caption": "Closer view of multiple broccoli plants showing thickening stems and intact growing points after recent pruning.",
-          "tags": "broccoli, stems, crown, active-growth"
+          "caption": "Closer view of stems and foliage showing damaged lower leaves and healthy upper leaves.",
+          "tags": "broccoli, stems, leaf-damage"
         }
       ]
     },

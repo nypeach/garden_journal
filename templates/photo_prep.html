@@ -11,13 +11,13 @@
   <!-- Sticky header matching dashboard style -->
   <header class="sticky-header">
     <div class="sticky-header-inner">
-      <h1>📸 Photo Prep Tool</h1>
+      <div class="header-title-row">
+        <h1>📸 Photo Prep Tool</h1>
+        <a href="/" class="nav-link">🌿 Back to Dashboard</a>
+      </div>
       <p class="dashboard-subtitle">
         Prepare photos for your ChatGPT plant channels
       </p>
-      <div class="chip-row">
-        <a href="/" class="nav-link">← Back to Dashboard</a>
-      </div>
     </div>
   </header>
 
@@ -126,17 +126,18 @@
 
       <script>
         // Save global message and date to localStorage
-        const globalMessage = `{{ global_message if global_message else '' }}`;
-        const currentDate = `{{ current_date if current_date else '' }}`;
-        if (globalMessage) {
-          localStorage.setItem('garden_global_message', globalMessage);
-        }
+        const globalMessage = {{ (global_message if global_message else '')| tojson }};
+        const currentDate = {{ (current_date if current_date else '')| tojson }};
+
+        // Always save to localStorage (even if empty)
+        localStorage.setItem('garden_global_message', globalMessage || '');
 
         function processAnotherPlant() {
-          // Keep global message and date, clear everything else
-          const savedMessage = localStorage.getItem('garden_global_message') || '';
+          // Use the globalMessage variable from this success page
+          const savedMessage = globalMessage || '';
+
           // Use currentDate from success page if available, otherwise try form input
-          const dateToKeep = (typeof currentDate !== 'undefined' && currentDate) ? currentDate : (document.querySelector('input[name="date"]')?.value || '');
+          const dateToKeep = currentDate || '';
 
           let url = '/photo-prep?';
           if (savedMessage) {
@@ -163,7 +164,8 @@
     // Pre-fill global message from localStorage or URL parameter
     document.addEventListener('DOMContentLoaded', function () {
       const urlParams = new URLSearchParams(window.location.search);
-      const globalMsg = urlParams.get('global_message') || localStorage.getItem('garden_global_message') || '';
+      const globalMsgFromUrl = urlParams.get('global_message');
+      const globalMsg = globalMsgFromUrl ? decodeURIComponent(globalMsgFromUrl) : (localStorage.getItem('garden_global_message') || '');
 
       if (globalMsg) {
         document.getElementById('global_message').value = globalMsg;
@@ -214,9 +216,25 @@
     // Handle dropped files
     uploadZone.addEventListener('drop', (e) => {
       const dt = e.dataTransfer;
-      const files = dt.files;
-      fileInput.files = files;
-      updateFileList(files);
+      const newFiles = dt.files;
+
+      // Merge existing files with new files
+      const dataTransfer = new DataTransfer();
+
+      // Add existing files first
+      if (fileInput.files) {
+        Array.from(fileInput.files).forEach(file => {
+          dataTransfer.items.add(file);
+        });
+      }
+
+      // Add new files after
+      Array.from(newFiles).forEach(file => {
+        dataTransfer.items.add(file);
+      });
+
+      fileInput.files = dataTransfer.files;
+      updateFileList(fileInput.files);
     }, false);
 
     // Handle selected files

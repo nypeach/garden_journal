@@ -5,6 +5,7 @@ Simple, self-hosted web application for garden management
 
 from flask import Flask, render_template, jsonify, request, flash, redirect, url_for
 import os
+import json
 from pathlib import Path
 from datetime import datetime
 from data_manager import DataManager
@@ -460,6 +461,9 @@ def assist_corrections():
 
         corrections = corrections_data.get('corrections', [])
 
+        # Sort corrections by count (most used first)
+        corrections = sorted(corrections, key=lambda x: x.get('count', 0), reverse=True)
+
         # Get unique categories and sub_categories for filters
         categories = sorted(set(c.get('category') for c in corrections if c.get('category')))
 
@@ -501,6 +505,49 @@ def copy_correction(correction_id):
             json.dump(corrections_data, f, indent=2, ensure_ascii=False)
 
         return jsonify({'success': True, 'new_count': correction.get('count', 0)})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/correction/update/<correction_id>', methods=['POST'])
+def update_correction(correction_id):
+    """
+    Update correction fields
+    """
+    try:
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        # Get update data from request
+        update_data = request.get_json()
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        # Find and update correction
+        found = False
+        for correction in corrections_data['corrections']:
+            if correction['id'] == correction_id:
+                # Update fields
+                if 'trigger_if' in update_data:
+                    correction['trigger_if'] = update_data['trigger_if']
+                if 'response_then' in update_data:
+                    correction['response_then'] = update_data['response_then']
+                if 'anti_patterns' in update_data:
+                    correction['anti_patterns'] = update_data['anti_patterns']
+                if 'tags' in update_data:
+                    correction['tags'] = update_data['tags']
+                found = True
+                break
+
+        if not found:
+            return jsonify({'error': 'Correction not found'}), 404
+
+        # Save updated data
+        with open(corrections_file, 'w', encoding='utf-8') as f:
+            json.dump(corrections_data, f, indent=2, ensure_ascii=False)
+
+        return jsonify({'success': True})
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

@@ -47,6 +47,156 @@
   ],
   "journal": [
     {
+      "date": "12/17/2025",
+      "time": "11:08 AM",
+      "conditions": "Mostly sunny with a high near 79°F dropping to around 67°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "30",
+        "moisture_mScm": "33.00",
+        "light": "88",
+        "rh_percent": "52",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "72.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains upright and vigorous with a clean, open crown and multiple mature flower structures present. A primary female bud appears fully developed but delayed in opening due to a cool, cloudy morning, while male blossoms are ready for hand pollination. Overall canopy posture is stable with no visible signs of wilt, rot, or disease.",
+      "actions": "Do not water or fertilize today. Keep the two male blossoms cool and shaded to preserve pollen viability. Check the female flower every 20–30 minutes and hand pollinate immediately once the petals loosen; stop attempts after 2:00 PM if it does not open.",
+      "next_steps": "If the female flower does not open today, check again at first light tomorrow and pollinate immediately upon opening. Monitor soil moisture tomorrow morning, especially with a chance of storms, and avoid watering unless moisture drops further and the bed stays dry. Continue watching the crown for the next female opening in the current flowering queue.",
+      "q_and_a_summary": "Discussed whether 11:20 AM was too late for the female flower to open; confirmed cool, cloudy mornings can delay opening into early afternoon. Identified squiggly leaf markings as leaf miner damage rather than disease and confirmed removal of affected leaves was appropriate. Explained how long cut male zucchini flowers remain viable (best within 4–6 hours, usable up to ~12 hours if kept cool and dry) and outlined proper indoor handling to preserve pollen until pollination.",
+      "follow_up": [
+        "[11:45 AM] Removed three leaves showing leaf miner tunneling, including one fully senesced brown leaf, by cutting each petiole cleanly at the base to improve airflow and remove nonfunctional tissue.",
+        "[11:50 AM] Adjusted the plant tie after leaf removal, lowering and loosening it to improve crown spacing, reduce petiole pressure, and better support the upright stem as fruit weight increases."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251217-02.jpeg",
+          "caption": "Close view of an open zucchini blossom near the crown, showing strong floral structure and healthy surrounding foliage.",
+          "tags": "zucchini, blossom, crown, flowering"
+        },
+        {
+          "file_name": "zucchini_002-20251217-03.jpeg",
+          "caption": "Overhead crown view showing multiple developing buds and upright petioles, with overall structure remaining open and stable.",
+          "tags": "zucchini, crown, buds, structure, overhead"
+        },
+        {
+          "file_name": "zucchini_002-20251217-04.jpeg",
+          "caption": "Side view highlighting a mature female bud with a swollen ovary that appears ready but delayed in opening.",
+          "tags": "zucchini, female flower, bud, ovary, pre-bloom"
+        },
+        {
+          "file_name": "zucchini_002-20251217-05.jpeg",
+          "caption": "Crown-angle view showing a spent or closing blossom near the plant center with additional buds staged nearby.",
+          "tags": "zucchini, blossom, crown, flowering cycle"
+        },
+        {
+          "file_name": "zucchini_002-20251217-06.jpeg",
+          "caption": "Close-up of a zucchini leaf showing classic leaf miner tunneling patterns across otherwise healthy green tissue.",
+          "tags": "zucchini, leaf, leaf-miner, insect-damage"
+        },
+        {
+          "file_name": "zucchini_002-20251217-07.jpeg",
+          "caption": "Older zucchini leaf with extensive leaf miner damage and areas of tissue collapse prior to removal.",
+          "tags": "zucchini, leaf, leaf-miner, senescence"
+        },
+        {
+          "file_name": "zucchini_002-20251217-08.jpeg",
+          "caption": "Overhead view of a remaining healthy zucchini leaf showing light miner trails but strong structure and color.",
+          "tags": "zucchini, leaf, leaf-miner, canopy"
+        },
+        {
+          "file_name": "zucchini_002-20251217-09.jpeg",
+          "caption": "Low-angle view of the zucchini stem base after tie adjustment, showing improved clearance around the crown and proper support placement below the growth flare.",
+          "tags": "zucchini, tie-adjustment, stem-base, training"
+        },
+        {
+          "file_name": "zucchini_002-20251217-10.jpeg",
+          "caption": "Close-up of the crown area after tie repositioning, showing relaxed petioles, no compression, and clear airflow around developing buds.",
+          "tags": "zucchini, crown, tie, airflow, structure"
+        },
+        {
+          "file_name": "zucchini_002-20251217-11.jpeg",
+          "caption": "Side view showing improved plant balance and fruit clearance following petiole removal and tie adjustment.",
+          "tags": "zucchini, fruiting, support, training"
+        }
+      ]
+    },
+    {
+      "date": "12/16/2025",
+      "time": "12:25 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "113",
+        "moisture_mScm": "67.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "72.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is in active sustained fruiting with four visible female fruits forming at the crown. One established zucchini continues to enlarge evenly with firm texture and healthy color. Petioles are thick and upright, and the canopy remains open with good airflow. No signs of stress, rot, or disease are present.",
+      "actions": "No additional watering today following thorough irrigation. Keep mulch in place beneath developing fruits. Do not fertilize today.",
+      "next_steps": "Check female flowers at first light each morning over the next 1–2 days and hand pollinate immediately when petals open. Monitor soil moisture closely during this pollination window and prepare for initial vertical training as fruit weight increases.",
+      "q_and_a_summary": "Discussed rapid fruit growth and timing for hand pollination, confirming that the largest female flower is likely to open within 12–36 hours and should be pollinated the morning it opens.",
+      "follow_up": [
+        "[12:35 PM] Thoroughly watered the bed after initial dry probe readings to restore proper soil moisture.",
+        "[6:25 PM] Adjusted the training tie to sit between the soil line and the developing zucchini so only the main stem is inside the loop, leaving fruit and leaf stalks completely free."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251216-02.jpeg",
+          "caption": "Overhead view showing full canopy spread and active fruiting center.",
+          "tags": "zucchini, canopy, overhead"
+        },
+        {
+          "file_name": "zucchini_002-20251216-03.jpeg",
+          "caption": "Close-up of the crown showing multiple female flowers forming simultaneously.",
+          "tags": "zucchini, crown, female flowers"
+        },
+        {
+          "file_name": "zucchini_002-20251216-04.jpeg",
+          "caption": "Side view highlighting developing female buds with firm ovaries.",
+          "tags": "zucchini, female buds, fruit set"
+        },
+        {
+          "file_name": "zucchini_002-20251216-05.jpeg",
+          "caption": "Existing zucchini fruit showing continued elongation and healthy coloration.",
+          "tags": "zucchini, fruit development"
+        },
+        {
+          "file_name": "zucchini_002-20251216-06.jpeg",
+          "caption": "Interior crown view showing dense but well-spaced reproductive growth.",
+          "tags": "zucchini, crown, reproductive growth"
+        },
+        {
+          "file_name": "zucchini_002-20251216-07.jpeg",
+          "caption": "Close-up of the base showing the training tie positioned low on the main stem with surrounding growth left free.",
+          "tags": "zucchini, training tie, stem, base"
+        },
+        {
+          "file_name": "zucchini_002-20251216-08.jpeg",
+          "caption": "Alternate angle confirming the tie sits below the fruit attachment without trapping any petioles.",
+          "tags": "zucchini, vertical training, tie placement"
+        },
+        {
+          "file_name": "zucchini_002-20251216-09.jpeg",
+          "caption": "Detailed view of the crown area above the tie showing free movement of leaves, flowers, and fruit.",
+          "tags": "zucchini, crown, fruit, airflow"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "11:37 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

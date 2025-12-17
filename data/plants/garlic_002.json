@@ -58,6 +58,43 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "11:57 AM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "136",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "71.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The smallest Music Hardneck shoot shows fresh green tissue extending forward from a firm, healthy base, indicating resumed growth after prior saturation stress. No darkening, translucency, or collapse is present at the soil line. Soil surface appears lighter and more aerated, with adjacent Music shoots remaining upright and stable.",
+      "actions": "Do not water or fertilize today. Leave all shoots intact and allow weather conditions to manage moisture naturally.",
+      "next_steps": "Monitor for gradual leaf elongation over the next 3–7 days. Continue checking moisture after rain events to ensure it remains within the 45–55 mS/cm range. No intervention is needed unless moisture exceeds 70 mS/cm again.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251216-02.jpeg",
+          "caption": "Smallest Music Hardneck shoot showing fresh green growth emerging from the base after moisture normalization.",
+          "tags": "garlic, Music Hardneck, recovery, new growth, early leaf"
+        },
+        {
+          "file_name": "garlic_002-20251216-03.jpeg",
+          "caption": "Wider view of the Music Hardneck section showing improved soil texture and stable surrounding shoots.",
+          "tags": "garlic, Music Hardneck, soil structure, recovery, container"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:37 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

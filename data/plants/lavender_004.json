@@ -46,6 +46,43 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:04 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "74",
+        "moisture_mScm": "57.00",
+        "light": "81",
+        "rh_percent": "47",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "71.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The lavender seedling remains upright and healthy with firm, evenly green leaves and compact structure. No wilting, yellowing, or stem stress is visible. The soil surface appeared dry and crusted due to wind exposure, while subsurface moisture remained present. After the probe reading, the soil surface was lightly fluffed, improving aeration without disturbing the plant.",
+      "actions": "Do not water today. Keep the pot sheltered from rainfall if possible and allow natural dry-down. Do not apply fertilizer or soil amendments.",
+      "next_steps": "Recheck moisture tomorrow or the following day. Water only if moisture drops below 25–30 mS/cm. Continue monitoring leaf posture and color for steady vegetative growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "lavender_004-20251216-02.jpeg",
+          "caption": "Overhead view showing healthy leaf posture and surface soil that has begun drying and crusting from wind exposure.",
+          "tags": "lavender, seedling, overhead, soil-surface"
+        },
+        {
+          "file_name": "lavender_004-20251216-03.jpeg",
+          "caption": "Close-up view highlighting compact growth, firm stem, and evenly green true leaves.",
+          "tags": "lavender, seedling, leaves, structure"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:24 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

@@ -25,8 +25,20 @@
       "date_range": "Dec 2 - Dec 12, 2025"
     },
     {
-      "what_i_should_see": "Early growth and strengthening",
+      "what_i_should_see": "Individual blade becomes a small tuft",
+      "date_range": "Dec 12 - Dec 20, 2025"
+    },
+    {
+      "what_i_should_see": "Additional blades emerging from the same base",
+      "date_range": "Dec 18 - Jan 5, 2026"
+    },
+    {
+      "what_i_should_see": "Blades Thickening and Standing More Firmly",
       "date_range": "Dec 12, 2025 - Jan 8, 2026"
+    },
+    {
+      "what_i_should_see": "Dense clump forming at the base",
+      "date_range": "Jan 1 - Jan 18, 2026"
     },
     {
       "what_i_should_see": "First light harvest",
@@ -38,6 +50,38 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/16/2025",
+      "time": "12:10 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "7.50",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "117",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "69.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings remain small but intact, with several thin green blades visible across the section. Some blades are upright while others rest close to the soil surface. Color remains healthy with no yellowing, collapse, or damping-off. Soil surface appears dark and moist following recent rain and high moisture retention.",
+      "actions": "Do not water, fertilize, or disturb the soil. Allow moisture levels to decline naturally.",
+      "next_steps": "Monitor moisture daily and wait to water until readings fall into the 40–45 mS/cm range. Expect improved posture and blade thickening once excess moisture resolves.",
+      "q_and_a_summary": "Discussed whether chives will naturally become denser or require reseeding. Explained that each seedling will first thicken, then produce additional blades from the same base, forming a tuft that eventually becomes a dense clump. Reseeding is not needed at this stage.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251216-02.jpeg",
+          "caption": "Young chive seedlings with thin green blades showing normal early establishment under wet soil conditions.",
+          "tags": "chives, seedlings, early-establishment, wet-soil"
+        }
+      ]
+    },
     {
       "date": "12/14/2025",
       "time": "2:47 PM",

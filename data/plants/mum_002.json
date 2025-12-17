@@ -29,6 +29,48 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "11:37 AM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "94",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "62.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant continues strong post-prune recovery with firm stems, evenly distributed regrowth, and expanding bud clusters at stem tips and nodes. Leaf color remains healthy green with no signs of nutrient burn or wilting. The soil surface had crusted from wind exposure but was loosened successfully, improving aeration and probe contact.",
+      "actions": "Do not water today, as moisture is adequate and rainfall is expected. Do not apply fertilizer. Leave the soil surface fluffed to allow rain to settle it naturally.",
+      "next_steps": "Recheck probe readings after rainfall has passed and the soil has settled. Monitor for increased bud swelling and lateral leaf expansion over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251216-02.jpeg",
+          "caption": "Overhead view showing evenly distributed regrowth and multiple developing bud clusters across the plant.",
+          "tags": "chrysanthemum, buds, regrowth, canopy"
+        },
+        {
+          "file_name": "mum_002-20251216-03.jpeg",
+          "caption": "Side view highlighting firm stems, short internodes, and active bud development following soil loosening.",
+          "tags": "chrysanthemum, stems, buds, recovery"
+        },
+        {
+          "file_name": "mum_002-20251216-04.jpeg",
+          "caption": "Angled view showing healthy foliage, upright posture, and newly aerated soil surface.",
+          "tags": "chrysanthemum, foliage, soil, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:03 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

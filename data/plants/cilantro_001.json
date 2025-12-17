@@ -42,6 +42,38 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "12:07 PM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "8.30",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "106",
+        "moisture_mScm": "90.00",
+        "light": "94",
+        "rh_percent": "48",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "71.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains upright and healthy with well-formed leaves and firm stems. Soil is heavily saturated following recent weather, causing inflated pH readings and high moisture values. No signs of wilting, discoloration, or root stress are visible.",
+      "actions": "Do not water or fertilize today. Allow excess moisture to drain naturally and avoid disturbing the soil.",
+      "next_steps": "Recheck moisture tomorrow afternoon after rainfall passes. Resume normal care only once moisture drops below 70 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251216-02.jpeg",
+          "caption": "Overhead view of cilantro showing healthy foliage and saturated soil following recent rainfall.",
+          "tags": "cilantro, overhead, saturated-soil, healthy-growth"
+        }
+      ]
+    },
+    {
       "date": "12/14/2025",
       "time": "2:44 PM",
       "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",

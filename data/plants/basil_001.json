@@ -50,6 +50,58 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "11:39 AM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "7.0",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "55.0",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Surface soil was dry and crusted from wind, but internal moisture remained ideal. Plant shows strong multi-stem growth with multiple nodes per stem and no signs of stress. Foliage is healthy, evenly green, and structurally ready for first pruning.",
+      "actions": "Surface soil was fluffed to relieve crusting. No watering or fertilization performed.",
+      "next_steps": "Perform first structural prune by cutting just above the second or third node on the tallest stems. Monitor for lateral branching over the next 2–3 days.",
+      "q_and_a_summary": "Confirmed plant is at the ideal stage for first pruning.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251216-02.jpeg",
+          "caption": "Overhead view showing multiple stems with mature node spacing.",
+          "tags": "basil, canopy, nodes"
+        },
+        {
+          "file_name": "basil_001-20251216-03.jpeg",
+          "caption": "Side view highlighting vertical apical growth prior to pruning.",
+          "tags": "basil, stems, pre-prune"
+        },
+        {
+          "file_name": "basil_001-20251216-04.jpeg",
+          "caption": "Angled view showing balanced foliage and strong lower nodes.",
+          "tags": "basil, foliage, structure"
+        },
+        {
+          "file_name": "basil_001-20251216-05.jpeg",
+          "caption": "Front view showing even color and healthy leaf texture.",
+          "tags": "basil, healthy, leaves"
+        },
+        {
+          "file_name": "basil_001-20251216-06.jpeg",
+          "caption": "Close-up of apical tip ready for first pruning cut.",
+          "tags": "basil, pruning-point, apical"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:04 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",

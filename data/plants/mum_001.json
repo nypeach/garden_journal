@@ -29,6 +29,48 @@
   ],
   "journal": [
     {
+      "date": "12/16/2025",
+      "time": "11:36 AM",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "68",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum continues active recovery with firm, upright stems and increasing leaf mass at multiple nodes. Bud sites are present but remain compact, which is appropriate for this stage. Surface soil showed wind-related crusting prior to loosening, but overall soil structure remains stable with no signs of stress or water imbalance.",
+      "actions": "Do not water today as moisture is ideal and rainfall is expected. Do not fertilize; nutrient levels are well matched to the plant’s recovery stage. Avoid deep soil disturbance and maintain current placement.",
+      "next_steps": "Allow rain to naturally rehydrate and settle the surface. Recheck soil moisture within 24–48 hours. Continue monitoring for paired leaf expansion as confirmation of vegetative refill progression.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251216-02.jpeg",
+          "caption": "Top-down view showing expanding leaf mass and evenly distributed regrowth after wind exposure.",
+          "tags": "chrysanthemum, recovery, canopy, leaves"
+        },
+        {
+          "file_name": "mum_001-20251216-03.jpeg",
+          "caption": "Side view highlighting upright stems, compact bud sites, and healthy leaf expansion.",
+          "tags": "chrysanthemum, stems, buds, vegetative growth"
+        },
+        {
+          "file_name": "mum_001-20251216-04.jpeg",
+          "caption": "Alternate angle showing stable soil surface after light fluffing and balanced regrowth.",
+          "tags": "chrysanthemum, soil, structure, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:02 AM",
       "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
