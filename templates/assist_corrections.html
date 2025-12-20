@@ -24,7 +24,10 @@
       <div class="corrections-search-section">
         <!-- Left: Search and Filters -->
         <div class="search-filters-left">
-          <div class="search-label">SEARCH:</div>
+          <div class="search-label">
+            SEARCH:
+            <a href="#" onclick="toggleAddNewForm(event)" class="add-new-link">+ Add New</a>
+          </div>
           <input type="text" id="searchInput" class="form-input" placeholder="Search by trigger or title..."
             onkeyup="filterCorrections()" />
 
@@ -56,6 +59,72 @@
   </header>
 
   <div class="page">
+    <!-- Add New Correction Form (hidden by default) -->
+    <div class="card" id="addNewForm" style="display: none; margin-bottom: 24px;">
+      <h3>Add New Correction</h3>
+      <form id="newCorrectionForm" onsubmit="saveNewCorrection(event)">
+        <div class="form-group">
+          <label class="form-label">Title *</label>
+          <input type="text" id="new-title" class="form-input" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Category *</label>
+            <select id="new-category" class="form-select" required>
+              <option value="">Select Category</option>
+              <option value="Daily Workflow">Daily Workflow</option>
+              <option value="Daily Journal Entry JSON">Daily Journal Entry JSON</option>
+              <option value="Photos & Evidence Handling">Photos & Evidence Handling</option>
+              <option value="Probe Readings">Probe Readings</option>
+              <option value="Plant Main Data">Plant Main Data</option>
+              <option value="General">General</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Sub-category *</label>
+            <input type="text" id="new-subcategory" class="form-input" required
+              placeholder="e.g., Follow-up vs initial entry">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">IF (Trigger) *</label>
+          <textarea id="new-if" class="form-textarea" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">THEN (Response) *</label>
+          <textarea id="new-then" class="form-textarea" rows="6" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Anti-patterns (one per line)</label>
+          <textarea id="new-antipatterns" class="form-textarea" rows="3"
+            placeholder="What it looked like when wrong..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tags (comma-separated)</label>
+          <input type="text" id="new-tags" class="form-input" placeholder="workflow, json, assessment">
+        </div>
+
+        <div class="form-group">
+          <label style="display: flex; align-items: center; gap: 8px;">
+            <input type="checkbox" id="new-include-footer" checked>
+            Include "Acknowledge the Correction..." footer when copying
+          </label>
+        </div>
+
+        <div style="display: flex; gap: 12px; margin-top: 20px;">
+          <button type="submit" class="submit-btn">Save Correction</button>
+          <button type="button" onclick="toggleAddNewForm(event)" class="submit-btn"
+            style="background: var(--text-muted);">Cancel</button>
+        </div>
+      </form>
+    </div>
+
     <!-- Corrections Tiles -->
     <div id="correctionsContainer">
       {% for correction in corrections %}
@@ -90,6 +159,16 @@
           <div class="copy-section">
             <!-- Label changes based on mode -->
             <div class="copy-label" id="copy-label-{{ correction.id }}">⚠️ Copy This THEN Message to ChatGPT:</div>
+
+            <!-- Footer checkbox -->
+            <div style="margin-bottom: 8px;">
+              <label
+                style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; font-style: italic; color: var(--text-muted);">
+                <input type="checkbox" id="include-footer-{{ correction.id }}" {% if correction.get('include_footer',
+                  True) %}checked{% endif %}>
+                With "Acknowledge the Correction..." Footer
+              </label>
+            </div>
 
             <!-- Copy box (default visible) -->
             <div class="copy-box" id="copy-box-{{ correction.id }}">
@@ -153,6 +232,64 @@
   <script>
     const ACKNOWLEDGMENT_FOOTER = "\n\nAcknowledge the correction with one brief sentence confirming you will follow this approach going forward, then immediately continue the workflow as my professional horticulturist or extension agent.";
 
+    function toggleAddNewForm(event) {
+      event.preventDefault();
+      const form = document.getElementById('addNewForm');
+      form.style.display = form.style.display === 'none' ? 'block' : 'none';
+
+      // Scroll to form if opening
+      if (form.style.display === 'block') {
+        form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    async function saveNewCorrection(event) {
+      event.preventDefault();
+
+      const title = document.getElementById('new-title').value;
+      const category = document.getElementById('new-category').value;
+      const subcategory = document.getElementById('new-subcategory').value;
+      const triggerIf = document.getElementById('new-if').value;
+      const responseThen = document.getElementById('new-then').value;
+      const antipatternsText = document.getElementById('new-antipatterns').value;
+      const tagsText = document.getElementById('new-tags').value;
+      const includeFooter = document.getElementById('new-include-footer').checked;
+
+      const antiPatterns = antipatternsText.split('\n').filter(line => line.trim());
+      const tags = tagsText.split(',').map(tag => tag.trim()).filter(tag => tag);
+
+      const data = {
+        title: title,
+        category: category,
+        sub_category: subcategory,
+        trigger_if: triggerIf,
+        response_then: responseThen,
+        anti_patterns: antiPatterns,
+        tags: tags,
+        include_footer: includeFooter
+      };
+
+      try {
+        const response = await fetch('/api/correction/create', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+          // Reload page to show new correction
+          window.location.reload();
+        } else {
+          alert('Failed to create correction');
+        }
+      } catch (err) {
+        console.error('Failed to save:', err);
+        alert('Failed to save correction');
+      }
+    }
+
     function expandTile(id) {
       // Clear search filters to ensure tile is visible
       clearSearchFilters();
@@ -204,7 +341,9 @@
 
       const tile = document.getElementById('tile-' + id);
       const thenText = tile.querySelector('.copy-text').textContent;
-      const fullText = thenText + ACKNOWLEDGMENT_FOOTER;
+      const includeFooter = document.getElementById('include-footer-' + id).checked;
+
+      const fullText = includeFooter ? thenText + ACKNOWLEDGMENT_FOOTER : thenText;
 
       try {
         await navigator.clipboard.writeText(fullText);

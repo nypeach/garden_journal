@@ -303,6 +303,35 @@ def photo_prep():
             else:
                 output_lines.append(f'{idx}. {filename}')
 
+        # Add watering assessment prompt if checkbox is checked
+        include_watering = request.form.get('include_watering_prompt')
+        if include_watering:
+            import pytz
+
+            # Get Eastern timezone
+            eastern = pytz.timezone('US/Eastern')
+            current_time = datetime.now(eastern).strftime('%-I:%M %p %Z')  # e.g., "3:45 PM EST"
+
+            output_lines.append('')  # Blank line
+            output_lines.append('')  # Extra blank line
+            output_lines.append(f'It is now {current_time}.')
+            output_lines.append('')  # Blank line
+            output_lines.append('Perform your full Expert Horticulturist Assessment as you normally would.')
+            output_lines.append('')  # Blank line
+            output_lines.append('As part of that assessment, you must also evaluate whether watering is recommended at this moment.')
+            output_lines.append('')  # Blank line
+            output_lines.append('In making that determination, explicitly account for:')
+            output_lines.append('- the probe moisture reading and the time it was taken,')
+            output_lines.append('- the amount of time that has passed since that reading,')
+            output_lines.append("- today's weather, tonight's conditions, and tomorrow's forecast,")
+            output_lines.append('- my location in Loxahatchee, FL,')
+            output_lines.append('- and the behavior of this specific plant.')
+            output_lines.append('')  # Blank line
+            output_lines.append('If watering is recommended, state how much (using hose-based guidance) and explain why.')
+            output_lines.append('If watering is not recommended, explain why not.')
+            output_lines.append('')  # Blank line
+            output_lines.append('Do not narrow the assessment scope — this watering evaluation is one required component of the full assessment. Continue the workflow.')
+
         output_message = '\n'.join(output_lines)
 
         # Render success page with output
@@ -548,6 +577,61 @@ def update_correction(correction_id):
             json.dump(corrections_data, f, indent=2, ensure_ascii=False)
 
         return jsonify({'success': True})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/correction/create', methods=['POST'])
+def create_correction():
+    """
+    Create a new correction
+    """
+    try:
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        # Get new correction data from request
+        new_data = request.get_json()
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        # Generate new ID
+        existing_ids = [c['id'] for c in corrections_data['corrections']]
+        max_num = 0
+        for existing_id in existing_ids:
+            if existing_id.startswith('PROBE-FORMAT-') or existing_id.startswith('TITLE-'):
+                try:
+                    num = int(existing_id.split('-')[-1])
+                    max_num = max(max_num, num)
+                except:
+                    pass
+
+        new_id = f"TITLE-{str(max_num + 1).zfill(3)}"
+
+        # Create new correction object
+        new_correction = {
+            'id': new_id,
+            'title': new_data['title'],
+            'category': new_data['category'],
+            'sub_category': new_data['sub_category'],
+            'trigger_if': new_data['trigger_if'],
+            'response_then': new_data['response_then'],
+            'anti_patterns': new_data.get('anti_patterns', []),
+            'tags': new_data.get('tags', []),
+            'include_footer': new_data.get('include_footer', True),
+            'count': 0,
+            'applies_when': ''
+        }
+
+        # Add to corrections list
+        corrections_data['corrections'].append(new_correction)
+
+        # Save updated data
+        with open(corrections_file, 'w', encoding='utf-8') as f:
+            json.dump(corrections_data, f, indent=2, ensure_ascii=False)
+
+        return jsonify({'success': True, 'id': new_id})
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

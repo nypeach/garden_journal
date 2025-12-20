@@ -828,6 +828,21 @@ section {
   margin-bottom: 0px;
 }
 
+.add-new-link {
+  font-style: italic;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--card-color);
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 0.85rem;
+}
+
+.add-new-link:hover {
+  text-decoration: underline;
+}
+
 .top-corrections-right {
   text-align: right;
 }
