@@ -60,9 +60,8 @@
     <div class="card">
       <div class="output-header">
         <h3>{{ output_title }}</h3>
-        <button class="copy-btn" onclick="copyOutput()">Copy</button>
       </div>
-      <pre class="output-code" id="outputCode">{{ output_message }}</pre>
+      <pre class="output-code" id="outputCode">{{ output_message }}<button class="copy-btn" onclick="copyOutput()">Copy</button></pre>
     </div>
     {% endif %}
   </div>

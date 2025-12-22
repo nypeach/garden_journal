@@ -151,6 +151,110 @@ def get_all_plants():
         return jsonify({'error': str(e)}), 500
 
 
+@app.route('/channel-start', methods=['GET', 'POST'])
+def channel_start():
+    """
+    Channel Start Tool - Bootstrap new ChatGPT plant channels
+    Generates initialization messages, patches, and rename strings
+    """
+    if request.method == 'GET':
+        # Get list of all plants for dropdown
+        all_plants = data_manager.get_all_plants()
+
+        return render_template(
+            'channel_start.html',
+            plants=all_plants
+        )
+
+    # POST - Process the action
+    try:
+        plant_id = request.form.get('plant_id', '').strip()
+        action = request.form.get('action', '')
+
+        if not plant_id:
+            flash('Plant ID is required', 'error')
+            return redirect(url_for('channel_start'))
+
+        # Load plant data
+        plant = data_manager.get_plant(plant_id)
+        if not plant:
+            flash(f'Plant not found: {plant_id}', 'error')
+            return redirect(url_for('channel_start'))
+
+        output_message = ""
+        output_title = ""
+
+        if action == 'start_channel':
+            # Read the markdown files
+            chatgpt_path = Path('chatgpt')
+
+            # Read prompt file
+            prompt_file = chatgpt_path / 'master_garden_01_ai_prompt.md'
+            with open(prompt_file, 'r') as f:
+                prompt_content = f.read()
+
+            # Replace variables in prompt
+            prompt_content = prompt_content.replace('{id}', plant_id)
+            prompt_content = prompt_content.replace('{plant}', plant.get('plant', plant_id))
+
+            # Read guide file
+            guide_file = chatgpt_path / 'master_garden_02_ai_guide.md'
+            with open(guide_file, 'r') as f:
+                guide_content = f.read()
+
+            # Read after JSON file
+            after_json_file = chatgpt_path / 'master_garden_04_ai_after_json.md'
+            with open(after_json_file, 'r') as f:
+                after_json_content = f.read()
+
+            # Get plant JSON
+            plant_json = json.dumps(plant, indent=2)
+
+            # Assemble the output
+            output_lines = []
+            output_lines.append(prompt_content)
+            output_lines.append(guide_content)
+            output_lines.append('')
+            output_lines.append('Here is the **Initial Plant Data** JSON')
+            output_lines.append('```json')
+            output_lines.append(plant_json)
+            output_lines.append('```')
+            output_lines.append('')
+            output_lines.append(after_json_content)
+
+            output_message = '\n'.join(output_lines)
+            output_title = f"Start Channel: {plant_id}"
+
+        elif action == 'one_time_patch':
+            # Read the one-time correction file
+            chatgpt_path = Path('chatgpt')
+            patch_file = chatgpt_path / 'master_garden_05_ai_one_time_correction.md'
+
+            with open(patch_file, 'r') as f:
+                output_message = f.read()
+
+            output_title = "One-Time Patch"
+
+        elif action == 'rename_chat':
+            # Generate rename string
+            output_message = f"🌿 MG: {plant_id}"
+            output_title = "Rename Chat"
+
+        # Get all plants for form reload
+        all_plants = data_manager.get_all_plants()
+
+        return render_template(
+            'channel_start.html',
+            plants=all_plants,
+            output_message=output_message,
+            output_title=output_title
+        )
+
+    except Exception as e:
+        flash(f'Error: {str(e)}', 'error')
+        return redirect(url_for('channel_start'))
+
+
 @app.route('/journal-update', methods=['GET', 'POST'])
 def journal_update():
     """
