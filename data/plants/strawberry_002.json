@@ -4,6 +4,8 @@
   "plant": "Strawberry (Right)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 3",
+  "full_sun_start": "9:00 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Round pot, 6\" 5 qt, black",
   "soil_mix": "Miracle-Gro Potting Mix, Nursery Potting Mix",
   "origin_history": [
@@ -46,9 +48,299 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "7:46 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "118",
+        "moisture_mScm": "59.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "59.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains vigorous with a dense, upright canopy and strong leaf turgor following morning moisture. Multiple flower trusses are present, including open blooms, fading flowers, and early fruit set. Several pale, firm strawberries are visible beneath the canopy, consistent with normal early development. A small number of flowers show petal collapse and browning, indicating aborted or failed pollination events. Mulch continues to keep developing fruit off the soil surface.",
+      "actions": "No watering performed; soil moisture remains sufficient after recent rain and morning conditions. No fertilization or spraying applied. Continued selective identification of aborted flowers and fruit without removal at this time.",
+      "next_steps": "Allow substrate moisture to decline naturally and reassess at the next probe reading. Continue monitoring flowers and fruit, removing only those that become soft, darkened, or collapse fully. Maintain mulch positioning to protect low fruit.",
+      "q_and_a_summary": "Discussed how to distinguish viable early fruit from aborted flowers and berries; firm, pale fruit should be left intact, while soft or collapsing structures can be removed. Reviewed whether to remove questionable flower/fruit in tight clusters: advised leaving any firm, pale developing berries and only removing fruit that becomes soft, collapses, or darkens early. For mixed flower clusters with one spent/aborted bloom, advised you can remove only the clearly dead bloom to reduce mold risk while leaving adjacent healthy buds/flowers. Confirmed spinosad (Dead Bug) is appropriate for chewing pests; aim coverage to upper/lower leaf surfaces and avoid directly saturating open flowers when possible (light incidental contact is generally fine, but minimize).",
+      "follow_up": [
+        "[4:18 PM] Sprayed Dead Bug (spinosad) on the top and bottom of leaves for chewing pest pressure; left the two pale berries uncut to compare appearance tomorrow."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251220-02.jpeg",
+          "caption": "Overhead view showing dense, evenly colored foliage with multiple active flower trusses.",
+          "tags": "strawberry, overhead, foliage, flowering"
+        },
+        {
+          "file_name": "strawberry_002-20251220-03.jpeg",
+          "caption": "Angled top view highlighting healthy leaf structure and open red strawberry flowers.",
+          "tags": "strawberry, flowers, canopy"
+        },
+        {
+          "file_name": "strawberry_002-20251220-04.jpeg",
+          "caption": "Side view of the container showing plant fullness and flower stems extending beyond the canopy.",
+          "tags": "strawberry, container, flowering"
+        },
+        {
+          "file_name": "strawberry_002-20251220-05.jpeg",
+          "caption": "Close-up of a collapsed flower at the crown, consistent with an aborted bloom.",
+          "tags": "strawberry, aborted-flower, crown"
+        },
+        {
+          "file_name": "strawberry_002-20251220-06.jpeg",
+          "caption": "Close view of open flowers and one fading bloom used to assess pollination success.",
+          "tags": "strawberry, flowers, pollination"
+        },
+        {
+          "file_name": "strawberry_002-20251220-07.jpeg",
+          "caption": "Low-angle view beneath the canopy showing two pale, firm early-stage strawberries resting above mulch.",
+          "tags": "strawberry, early-fruit, mulch"
+        },
+        {
+          "file_name": "strawberry_002-20251220-08.jpeg",
+          "caption": "Side view showing a mix of open flowers, fading blooms, and early fruit set on the same plant.",
+          "tags": "strawberry, flowers, fruit-set"
+        },
+        {
+          "file_name": "strawberry_002-20251220-09.jpeg",
+          "caption": "Whole-plant view documenting overall canopy condition prior to/around pest treatment follow-up.",
+          "tags": "strawberry, whole-plant, canopy, baseline"
+        },
+        {
+          "file_name": "strawberry_002-20251220-10.jpeg",
+          "caption": "Leaf close-up showing minor chew damage (small holes) consistent with light feeding.",
+          "tags": "strawberry, leaf-damage, chew-marks, pest-pressure"
+        },
+        {
+          "file_name": "strawberry_002-20251220-11.jpeg",
+          "caption": "Crown and inner canopy view showing additional minor chewing on foliage near the center growth.",
+          "tags": "strawberry, crown, inner-canopy, chew-marks, scouting"
+        },
+        {
+          "file_name": "strawberry_002-20251220-12.jpeg",
+          "caption": "Cluster of three: one open flower plus adjacent bud(s), with one bloom showing aging/aborted petals within the tight truss.",
+          "tags": "strawberry, flower-cluster, buds, aborting-bloom, truss"
+        },
+        {
+          "file_name": "strawberry_002-20251220-13.jpeg",
+          "caption": "Close-up of a flower with a darkened center and collapsing petals, documenting the questionable bloom.",
+          "tags": "strawberry, flower, black-center, aborting-bloom, close-up"
+        },
+        {
+          "file_name": "strawberry_002-20251220-14.jpeg",
+          "caption": "Bud and adjacent flower area showing a developing bud near an older bloom for comparison of stages.",
+          "tags": "strawberry, bud, flower-stage, comparison"
+        },
+        {
+          "file_name": "strawberry_002-20251220-15.jpeg",
+          "caption": "Another tight cluster of three showing one spent/aborted bloom with nearby buds that still appear viable.",
+          "tags": "strawberry, flower-cluster, buds, spent-bloom, viability"
+        },
+        {
+          "file_name": "strawberry_002-20251220-16.jpeg",
+          "caption": "Macro view of the same cluster highlighting the darkened center and purpling/collapsed petals on the aborted bloom.",
+          "tags": "strawberry, aborting-bloom, dark-center, purple-petals, macro"
+        },
+        {
+          "file_name": "strawberry_002-20251220-17.jpeg",
+          "caption": "Underside/sepals view of a darkened flower center (spent bloom) used to confirm it is not progressing to healthy fruit.",
+          "tags": "strawberry, spent-bloom, underside, sepals, confirmation"
+        },
+        {
+          "file_name": "strawberry_002-20251220-18.jpeg",
+          "caption": "Close-up showing a purpling/collapsing bloom adjacent to a developing bud, documenting mixed outcomes within the truss.",
+          "tags": "strawberry, flower, purple, bud, mixed-truss"
+        },
+        {
+          "file_name": "strawberry_002-20251220-19.jpeg",
+          "caption": "Close-up of a pale, firm strawberry with early pink blush at the tip; fruit remains intact and turgid, indicating continued observation rather than immediate removal.",
+          "tags": "strawberry, early-fruit, monitoring, pale-berry"
+        },
+        {
+          "file_name": "strawberry_002-20251220-20.jpeg",
+          "caption": "Second early-stage strawberry showing similar pale coloration and firm structure; retained intentionally to reassess viability after 24 hours.",
+          "tags": "strawberry, early-fruit, monitoring, reassess"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:12 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "117",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "69",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "75.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is in a strong flowering surge with numerous open blossoms and healthy developing fruit. Foliage is dense, evenly green, and turgid, with only minor isolated leaf holes consistent with past or incidental chewing. The crown remains clean and elevated, mulch is supporting fruit well, and no signs of active pest pressure or disease are present.",
+      "actions": "Do not water today or tonight as soil moisture remains high and evening conditions favor slow dry-down. Do not apply insecticide; no active pest damage is evident. Allow flowers to remain for natural pollination and fruit set.",
+      "next_steps": "Recheck moisture late morning tomorrow and water only if readings fall below approximately 30 mS/cm. Continue monitoring leaves for any increase in chewing damage. Remove any berries that soften or collapse early.",
+      "q_and_a_summary": "Discussed whether increased flowering required intervention; confirmed it is normal and beneficial. Reviewed leaf holes and confirmed no insecticide is needed at this time.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251219-02.jpeg",
+          "caption": "Top-down view showing dense healthy foliage and multiple open blossoms across the canopy.",
+          "tags": "strawberry, overhead, blossoms, foliage"
+        },
+        {
+          "file_name": "strawberry_002-20251219-03.jpeg",
+          "caption": "Angled side view highlighting strong flower trusses and balanced plant structure.",
+          "tags": "strawberry, flowers, canopy, side-view"
+        },
+        {
+          "file_name": "strawberry_002-20251219-04.jpeg",
+          "caption": "Lower canopy view showing developing green berries resting cleanly on mulch.",
+          "tags": "strawberry, berries, mulch, fruit-set"
+        },
+        {
+          "file_name": "strawberry_002-20251219-05.jpeg",
+          "caption": "Close-up of crown area showing healthy stems and early-stage berries with good spacing.",
+          "tags": "strawberry, crown, developing-fruit"
+        },
+        {
+          "file_name": "strawberry_002-20251219-06.jpeg",
+          "caption": "Leaf close-up showing minor isolated chew marks without active feeding patterns.",
+          "tags": "strawberry, leaf, minor-chewing, monitoring"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:50 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "84",
+        "moisture_mScm": "55.00",
+        "light": "89",
+        "rh_percent": "56",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "86.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is in strong active fruiting condition with dense, healthy foliage and multiple berries progressing through early sizing and color development. The crown remains clean, elevated, and well-ventilated following morning rainfall. Recently removed dead berries eliminated potential rot sources, and remaining fruit appears firm and healthy. Mulch continues to support fruit while maintaining stable moisture.",
+      "actions": "Do not water today as soil moisture is ideal following rain. Do not fertilize; EC, salt, and fertility levels are well balanced for fruiting. Maintain current mulch placement, ensuring it does not contact the crown.",
+      "next_steps": "Recheck moisture tomorrow and water only if readings drop below approximately 30 mS/cm. Continue removing any berries that become soft, dull, or collapsed. Monitor crown airflow after wet nights and expect first fully ripe berries soon.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251218-02.jpeg",
+          "caption": "Top-down view showing dense healthy foliage with open red blossoms and developing berries.",
+          "tags": "strawberry, overhead, foliage, blossoms"
+        },
+        {
+          "file_name": "strawberry_002-20251218-03.jpeg",
+          "caption": "Side view of the pot showing strong canopy structure and multiple flowering stems.",
+          "tags": "strawberry, side-view, canopy, flowers"
+        },
+        {
+          "file_name": "strawberry_002-20251218-04.jpeg",
+          "caption": "Lower canopy view showing green developing berries resting cleanly on mulch.",
+          "tags": "strawberry, berries, mulch, lower-canopy"
+        },
+        {
+          "file_name": "strawberry_002-20251218-05.jpeg",
+          "caption": "Angled view highlighting multiple blossoms and early fruit set near the crown.",
+          "tags": "strawberry, blossoms, fruit-set, crown"
+        },
+        {
+          "file_name": "strawberry_002-20251218-06.jpeg",
+          "caption": "Close-up near the crown showing removed fruit area and healthy remaining berry development.",
+          "tags": "strawberry, crown, fruit-removal, monitoring"
+        }
+      ]
+    },
+    {
+      "date": "12/16/2025",
+      "time": "11:45 AM",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight. 50% chance of showers and thunderstorms after 1 AM.",
+      "digital_probe": {
+        "ph": "5.8",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "178",
+        "moisture_mScm": "80",
+        "light": "84",
+        "rh_percent": "52",
+        "fertility_percent": "20",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Soil surface was very dry and crusted due to wind, making probe insertion difficult. Soil was loosened after taking the reading. Plant canopy remains upright with active flowers and a limited number of developing fruits. One fruit shows abnormal coloration and uneven development.",
+      "actions": "Plan to remove the abnormal fruit identified in the final photo. No watering performed. No additional pruning performed.",
+      "next_steps": "Allow soil moisture to stabilize naturally. Monitor remaining fruit and flowers over the next 24\u201348 hours without intervention.",
+      "q_and_a_summary": "Asked whether the abnormal strawberry shown in the final photo should be removed. Based on visual condition, removal was advised.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251216-02.jpeg",
+          "caption": "Top-down view showing overall canopy condition and active flowering.",
+          "tags": "strawberry, canopy"
+        },
+        {
+          "file_name": "strawberry_002-20251216-03.jpeg",
+          "caption": "Side view showing developing fruit and leaf structure.",
+          "tags": "strawberry, fruit"
+        },
+        {
+          "file_name": "strawberry_002-20251216-04.jpeg",
+          "caption": "Alternate angle showing plant structure and soil surface condition.",
+          "tags": "strawberry, soil"
+        },
+        {
+          "file_name": "strawberry_002-20251216-05.jpeg",
+          "caption": "Flowering stem and surrounding foliage.",
+          "tags": "strawberry, flowering"
+        },
+        {
+          "file_name": "strawberry_002-20251216-06.jpeg",
+          "caption": "Developing fruit visible beneath the canopy.",
+          "tags": "strawberry, fruit"
+        },
+        {
+          "file_name": "strawberry_002-20251216-07.jpeg",
+          "caption": "Overall plant view showing limited fruit load and upright leaves.",
+          "tags": "strawberry, whole-plant"
+        },
+        {
+          "file_name": "strawberry_002-20251216-08.jpeg",
+          "caption": "Close-up of abnormal fruit with uneven coloration and development.",
+          "tags": "strawberry, fruit, follow-up"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:17 AM",
-      "conditions": "20% chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight. Wind gusts up to 29 mph through midday.",
+      "conditions": "20% chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight. Wind gusts up to 29 mph through midday.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.24",
@@ -66,7 +358,7 @@
       },
       "observations": "The plant shows clear recovery following earlier saturation stress. Canopy is upright and glossy with no signs of wilt. Remaining fruit is firm, red, and glossy, indicating resumed carbohydrate allocation. Leaf spot remains present but appears static, with no new lesion expansion observed. New flowers are actively forming.",
       "actions": "No watering performed. Continued monitoring only. Pot stability checked due to wind.",
-      "next_steps": "Allow soil moisture to continue stabilizing. Monitor new flower development and fruit expansion over the next 48–72 hours. Avoid treatments unless leaf spot progresses under drier conditions.",
+      "next_steps": "Allow soil moisture to continue stabilizing. Monitor new flower development and fruit expansion over the next 48\u201372 hours. Avoid treatments unless leaf spot progresses under drier conditions.",
       "q_and_a_summary": "Reviewed plant recovery following fruit and leaf removal. Confirmed that current moisture levels indicate root recovery and that remaining fruit should be retained. Discussed that wind and drying conditions are beneficial at this stage and that no intervention is needed today.",
       "follow_up": [],
       "photos": [
@@ -115,7 +407,7 @@
     {
       "date": "12/14/2025",
       "time": "2:29 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.23",
@@ -177,7 +469,7 @@
     {
       "date": "12/12/2025",
       "time": "1:09 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.20",
@@ -249,7 +541,7 @@
     {
       "date": "12/11/2025",
       "time": "4:41 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.30",
@@ -267,8 +559,8 @@
       },
       "observations": "The plant is in strong active fruiting condition with dense, healthy foliage and multiple berries simultaneously sizing and coloring. Leaves are broad, firm, and matte green with no wilt, scorch, or disease spotting. Several berries are resting cleanly on mulch with no signs of rot or collapse. The crown remains elevated, open, and well-ventilated. Open blossoms are upright and well-formed, indicating good metabolic comfort despite cooler nighttime temperatures.",
       "actions": "Do not water today, as soil moisture is in the ideal upper range. Do not fertilize; EC and salt levels are appropriate for fruiting. Maintain current mulch placement and pot position.",
-      "next_steps": "Allow berries to continue coloring naturally over the next several days. Harvest fruit once fully red and slightly soft at the tip. Recheck moisture tomorrow afternoon and water only if readings fall below approximately 30 mS/cm. Continue rotating the pot every 2–3 days for even light exposure.",
-      "q_and_a_summary": "Asked whether the overnight low temperature of 53°F is a concern; confirmed that this temperature is safe for strawberries and can improve fruit quality, sweetness, and firmness rather than cause stress.",
+      "next_steps": "Allow berries to continue coloring naturally over the next several days. Harvest fruit once fully red and slightly soft at the tip. Recheck moisture tomorrow afternoon and water only if readings fall below approximately 30 mS/cm. Continue rotating the pot every 2\u20133 days for even light exposure.",
+      "q_and_a_summary": "Asked whether the overnight low temperature of 53\u00b0F is a concern; confirmed that this temperature is safe for strawberries and can improve fruit quality, sweetness, and firmness rather than cause stress.",
       "follow_up": [],
       "photos": [
         {
@@ -311,7 +603,7 @@
     {
       "date": "12/10/2025",
       "time": "8:21 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.4",
         "ec_mScm": "0.15",
@@ -328,8 +620,8 @@
         "ph": ""
       },
       "observations": "The plant shows excellent hydration and vigor this morning. Leaves are deep green, glossy, and fully turgid with no wilt or stress. Multiple berries are ripening simultaneously, with additional blossoms transitioning into cleanly forming young fruit. Mulch is supporting berry development well and preventing soil contact. The crown remains clean and open with strong airflow. Recent rain and soil updates have produced stable, even moisture across the root zone.",
-      "actions": "Do not water today, as moisture is ideal. Do not fertilize, since current EC and salt levels indicate balanced nutrition. Leave malformed berries in place; they are not causing issues and will self-select. Rotate the pot every 2–3 days to help ripen fruit evenly.",
-      "next_steps": "Expect slightly slower ripening from tonight’s cool temperatures but improved sweetness. Monitor for new blossoms over the next few days. Watch for eventual runner formation as energy continues building. Keep mulch in its current position and ensure airflow around the crown remains unobstructed.",
+      "actions": "Do not water today, as moisture is ideal. Do not fertilize, since current EC and salt levels indicate balanced nutrition. Leave malformed berries in place; they are not causing issues and will self-select. Rotate the pot every 2\u20133 days to help ripen fruit evenly.",
+      "next_steps": "Expect slightly slower ripening from tonight\u2019s cool temperatures but improved sweetness. Monitor for new blossoms over the next few days. Watch for eventual runner formation as energy continues building. Keep mulch in its current position and ensure airflow around the crown remains unobstructed.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -358,7 +650,7 @@
     {
       "date": "12/9/2025",
       "time": "7:30 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.16",
         "ec_mScm": "0.06",
@@ -376,7 +668,7 @@
       },
       "observations": "The plant shows vigorous fruiting activity with a dense, healthy canopy and multiple berries at various stages of development. Leaf color remains deep green and glossy with no signs of wilt or stress. Newly added potting mix and soil fluffing improved aeration, and the mulch ring is properly placed away from the crown while providing support for developing berries. Several young berries appear bent, withered, or oddly formed, which is consistent with natural developmental variation, minor pollination miss, or early structural bruising near the crown. These berries are still firm and not decaying. Moisture reads low at the surface due to fresh soil incorporation, but the plant displays no signs of dehydration.",
       "actions": "Avoid watering right now as expected rainfall will correct the low moisture reading. Do not fertilize today given the very low EC and salt levels that indicate balanced soil. Leave malformed young berries in place and do not attempt to reposition or prune them. Maintain the mulch ring exactly as it is to support developing fruit and reduce soil contact without touching the crown.",
-      "next_steps": "Recheck moisture after the rain to ensure values rise into the ideal 35–55 range. Monitor berry ripening and allow malformed fruit to remain unless they become mushy or brown. Watch for additional blossoms as the plant is entering a high-production phase. Continue ensuring good airflow around the crown and avoid placing mulch or debris near it.",
+      "next_steps": "Recheck moisture after the rain to ensure values rise into the ideal 35\u201355 range. Monitor berry ripening and allow malformed fruit to remain unless they become mushy or brown. Watch for additional blossoms as the plant is entering a high-production phase. Continue ensuring good airflow around the crown and avoid placing mulch or debris near it.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -415,7 +707,7 @@
     {
       "date": "12/8/2025",
       "time": "10:46 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "11.13",
         "ec_mScm": "0.15",
@@ -433,7 +725,7 @@
       },
       "observations": "The plant shows vigorous, healthy growth with dense foliage, bright red blossoms, and multiple berries progressing evenly through mid-ripening. Leaf color is deep green and glossy with no signs of wilt or stress. The added mulch is positioned correctly, lifting berries from direct soil contact and helping regulate temperature. A few small cosmetic holes in the leaves appear stable and non-progressive. The pH reading of 11.13 is invalid due to a brief probe-contact failure, while all other metrics indicate stable, healthy soil conditions.",
       "actions": "Take no watering action as moisture is ideal. Do not fertilize today, as EC and salt levels are balanced for active fruiting. Leave mulch placement as-is to protect developing berries and maintain soil cooling. Allow expected rainfall to handle hydration naturally.",
-      "next_steps": "Check moisture again tomorrow morning to ensure values remain between 40–55. Monitor berry ripening for even color progression. If future pH readings consistently fall below 5.2 or show additional contact failures, consider a small application of dolomite lime later in the week, but not today.",
+      "next_steps": "Check moisture again tomorrow morning to ensure values remain between 40\u201355. Monitor berry ripening for even color progression. If future pH readings consistently fall below 5.2 or show additional contact failures, consider a small application of dolomite lime later in the week, but not today.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -467,7 +759,7 @@
     {
       "date": "12/7/2025",
       "time": "12:27 PM",
-      "conditions": "Patchy fog before 8:00 AM, otherwise sunny with a high near 86°F. Calm wind becoming south 5 to 8 mph in the morning. Partly cloudy tonight with a low around 66°F and southwest wind around 5 mph becoming calm in the evening.",
+      "conditions": "Patchy fog before 8:00 AM, otherwise sunny with a high near 86\u00b0F. Calm wind becoming south 5 to 8 mph in the morning. Partly cloudy tonight with a low around 66\u00b0F and southwest wind around 5 mph becoming calm in the evening.",
       "digital_probe": {
         "ph": "5.17",
         "ec_mScm": "0.29",
@@ -483,10 +775,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant displays vigorous growth with multiple berries actively reddening and developing, though some show slight uneven coloring, mild misshaping, and raised achenes typical of heat stress combined with minor pollination inconsistency. The canopy remains full and healthy with strong leaf mass supporting active fruiting. Several leaves show tan lesions with crisp edges from old chewing or mechanical damage, plus a few white or gray pinpoint spots indicating possible early leaf spot, though no spreading, necrotic halos, or water-soaking patterns are visible. Soil temperature reached extremely high 105.8°F in the black pot under direct Florida sun. Moisture at 56 mS/cm indicates healthy hydration following earlier watering when soil was very dry.",
-      "actions": "Check moisture again at 3:00–4:00 PM and water lightly if reading drops below 30 mS/cm, otherwise skip watering until morning if it stays above 35–40 mS/cm. Place two thin handfuls of wood chips or light mulch around the pot edges only, not touching the crown, to reduce root zone heat by up to 15°F. Do not fertilize today; fertility at 16% is moderate-high and pH has dropped to 5.17, with feeding risking further pH decline. Continue neem spray on a 7-day cycle following yesterday's application. Do not prune healthy leaves as strawberries need strong leaf mass during fruiting.",
-      "next_steps": "Monitor pH closely over the next several days as it trends below ideal strawberry range at 5.17; apply a tiny pinch of dolomite lime if pH stays below 5.2 to stabilize acidity. Plan next fertilizer application in 5–7 days only if pH rises back above 5.4. Continue monitoring fruit development as berries progress through color change stage despite mild heat-related misshaping. Watch leaf spots for any spreading patterns though current damage appears to be low-level stress, sun flick, and occasional insect nibbles rather than active disease outbreak. Maintain mulch layer to protect root zone from extreme afternoon heat.",
-      "q_and_a_summary": "Asked whether watering was needed given probe readings and weather; advised to recheck moisture at 3:00–4:00 PM and water only if reading drops below 30 mS/cm, otherwise wait until morning. Asked about visible leaf spots; confirmed spots appear to be minor chewing, sunscald, mechanical rubbing, and a couple early fungal flecks but not yet active disease outbreak, with yesterday's neem spray providing good timing to interrupt both pest and early fungal activity.",
+      "observations": "The plant displays vigorous growth with multiple berries actively reddening and developing, though some show slight uneven coloring, mild misshaping, and raised achenes typical of heat stress combined with minor pollination inconsistency. The canopy remains full and healthy with strong leaf mass supporting active fruiting. Several leaves show tan lesions with crisp edges from old chewing or mechanical damage, plus a few white or gray pinpoint spots indicating possible early leaf spot, though no spreading, necrotic halos, or water-soaking patterns are visible. Soil temperature reached extremely high 105.8\u00b0F in the black pot under direct Florida sun. Moisture at 56 mS/cm indicates healthy hydration following earlier watering when soil was very dry.",
+      "actions": "Check moisture again at 3:00\u20134:00 PM and water lightly if reading drops below 30 mS/cm, otherwise skip watering until morning if it stays above 35\u201340 mS/cm. Place two thin handfuls of wood chips or light mulch around the pot edges only, not touching the crown, to reduce root zone heat by up to 15\u00b0F. Do not fertilize today; fertility at 16% is moderate-high and pH has dropped to 5.17, with feeding risking further pH decline. Continue neem spray on a 7-day cycle following yesterday's application. Do not prune healthy leaves as strawberries need strong leaf mass during fruiting.",
+      "next_steps": "Monitor pH closely over the next several days as it trends below ideal strawberry range at 5.17; apply a tiny pinch of dolomite lime if pH stays below 5.2 to stabilize acidity. Plan next fertilizer application in 5\u20137 days only if pH rises back above 5.4. Continue monitoring fruit development as berries progress through color change stage despite mild heat-related misshaping. Watch leaf spots for any spreading patterns though current damage appears to be low-level stress, sun flick, and occasional insect nibbles rather than active disease outbreak. Maintain mulch layer to protect root zone from extreme afternoon heat.",
+      "q_and_a_summary": "Asked whether watering was needed given probe readings and weather; advised to recheck moisture at 3:00\u20134:00 PM and water only if reading drops below 30 mS/cm, otherwise wait until morning. Asked about visible leaf spots; confirmed spots appear to be minor chewing, sunscald, mechanical rubbing, and a couple early fungal flecks but not yet active disease outbreak, with yesterday's neem spray providing good timing to interrupt both pest and early fungal activity.",
       "follow_up": [],
       "photos": [
         {
@@ -529,7 +821,7 @@
     {
       "date": "12/5/2025",
       "time": "5:01 PM",
-      "conditions": "Sunny with a high near 86°F and a low around 65°F. Light southeast wind becoming south 5 to 9 mph in the morning. Partly cloudy overnight with south wind around 5 mph becoming calm in the evening.",
+      "conditions": "Sunny with a high near 86\u00b0F and a low around 65\u00b0F. Light southeast wind becoming south 5 to 9 mph in the morning. Partly cloudy overnight with south wind around 5 mph becoming calm in the evening.",
       "digital_probe": {
         "ph": "5.65",
         "ec_mScm": "0.26",
@@ -547,7 +839,7 @@
       },
       "observations": "The plant displays vigorously growing canopy with dense leaf coverage that is normal for a healthy strawberry but beginning to reach the stage where gentle pruning of damaged or diseased leaves will improve airflow. Multiple berries are developing with some showing mild misshapen appearance typical of incomplete pollination in early fruiting, which is extremely common outdoors and does not indicate health problems. One berry shows visible reddening beginning the color change stage. The canopy is lush but not excessive, with good overall structure and upright posture. Crown remains clean with active new leaf production. Minor chewing damage continues on some leaves but is not spreading rapidly. Soil appears dark and well-saturated following yesterday's watering with moisture at maximum reading of 100 mS/cm.",
       "actions": "Do not fertilize today despite extremely low fertility earlier in the week; EC at 0.26 and salt at 130 mg/L indicate nutrients are accumulating in the soil and adding fertilizer now risks nutrient burn, leaf-edge browning, further fruit deformities, and reduced water uptake. Begin gentle selective pruning by removing only leaves that are yellowing, damaged, diseased, or folded downward blocking fruit clusters to maintain airflow without robbing plant energy. Do not remove healthy green leaves. Allow soil to rest and stabilize following heavy watering. Continue monitoring pest activity following neem application.",
-      "next_steps": "Wait to fertilize until EC drops below 0.15 mS/cm AND salt drops below 70 mg/L AND fertility drops below 8%, at which point soil will be depleted enough to benefit from feeding. Use Purived 4-5-5 for regular light feedings or Gardenwise 10-10-10 Plus at 1/4 strength only for container strawberries when fertilization timing is appropriate. Monitor berry ripening progression as color change accelerates on the reddening fruit. Check moisture within 24–48 hours as current 100 mS/cm reading indicates very high saturation. Continue observing for new chewing damage or pest activity following neem treatment. Remove any leaves showing new disease spots or significant damage to maintain airflow.",
+      "next_steps": "Wait to fertilize until EC drops below 0.15 mS/cm AND salt drops below 70 mg/L AND fertility drops below 8%, at which point soil will be depleted enough to benefit from feeding. Use Purived 4-5-5 for regular light feedings or Gardenwise 10-10-10 Plus at 1/4 strength only for container strawberries when fertilization timing is appropriate. Monitor berry ripening progression as color change accelerates on the reddening fruit. Check moisture within 24\u201348 hours as current 100 mS/cm reading indicates very high saturation. Continue observing for new chewing damage or pest activity following neem treatment. Remove any leaves showing new disease spots or significant damage to maintain airflow.",
       "q_and_a_summary": "Asked whether there are too many leaves on top; confirmed the dense canopy is normal for vigorous growth but the plant is entering the stage where gentle pruning of only damaged, diseased, yellowing, or downward-folded leaves will improve airflow and fruit exposure without removing healthy productive foliage. Asked whether misshapen strawberries are acceptable; confirmed mild deformities are normal for early fruiting and typically result from incomplete pollination which is extremely common outdoors, with berries still ripening and tasting fine. Asked whether to fertilize now; advised against fertilization due to rising EC at 0.26 and salt at 130 mg/L indicating nutrient accumulation, with fertilization deferred until EC drops below 0.15, salt below 70, and fertility below 8%.",
       "follow_up": [],
       "photos": [
@@ -601,7 +893,7 @@
     {
       "date": "12/4/2025",
       "time": "4:29 PM",
-      "conditions": "Mostly sunny and breezy with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny and breezy with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.85",
         "ec_mScm": "0.24",
@@ -619,7 +911,7 @@
       },
       "observations": "The plant displays healthy active growth with developing berries progressing normally and new crowns forming. Leaf margins show minor chewing and several punctures consistent with leaf-feeding beetles, grasshoppers, or similar insects rather than aphid damage. One lower leaf displayed a dark spot resembling a fungal lesion, likely leaf spot or minor anthracnose, with no widespread infection visible on other foliage. Developing berries appear healthy with one berry showing old aphid residue but no active colonies visible. Soil moisture was completely dry at 2:00 PM in the Florida sun, requiring watering before readings could be taken. Moisture reading of 80 mS/cm reflects good hydration restoration approximately 2 hours after watering. Soil appears uniformly moist with no signs of rot or fungus.",
       "actions": "Remove the lower leaf with the dark fungal-looking spot by cutting at the stem rather than through the blade to prevent spread and avoid damaging nearby new growth. Use clean scissors or shears. Apply Captain Jack's Neem Oil at 4:39 PM with perfect timing to address residual pest pressure and reduce minor chewing from beetles. Water when bone dry as done today; moisture restored successfully. Do not reapply neem for 7 days to avoid leaf burn in strong sun. No fertilizer required today; EC and fertility are improving and growth continues normally.",
-      "next_steps": "Monitor for new chewing damage on newer leaves over the next 48 hours. Apply Captain Jack's DeadBug (Spinosad) in late afternoon every 5–7 days if new holes appear on fresh foliage. Check moisture around 1:00–2:00 PM tomorrow and water if reading drops below 30 mS/cm given the plant's fast-drying tendency in full Florida sun. When berries start blushing, consider providing shade from direct overhead sun between 1:00–3:00 PM and create airflow under the plant to reduce fungal risk. Continue monitoring for any new dark spots or spreading fungal patterns on remaining foliage.",
+      "next_steps": "Monitor for new chewing damage on newer leaves over the next 48 hours. Apply Captain Jack's DeadBug (Spinosad) in late afternoon every 5\u20137 days if new holes appear on fresh foliage. Check moisture around 1:00\u20132:00 PM tomorrow and water if reading drops below 30 mS/cm given the plant's fast-drying tendency in full Florida sun. When berries start blushing, consider providing shade from direct overhead sun between 1:00\u20133:00 PM and create airflow under the plant to reduce fungal risk. Continue monitoring for any new dark spots or spreading fungal patterns on remaining foliage.",
       "q_and_a_summary": "Asked whether the leaf with the dark spot could be cut off; confirmed removal is appropriate and the leaf should be cut at its stem rather than through the blade to avoid damaging nearby new growth. The spot appeared isolated and resembled fungal lesion rather than insect damage, making removal the correct preventive action.",
       "follow_up": [
         "[4:39 PM] Applied Captain Jack's Neem Oil to address pest pressure and reduce chewing damage. Cut the spotted lower leaf at the stem using clean shears."
@@ -690,7 +982,7 @@
     {
       "date": "12/3/2025",
       "time": "1:49 PM",
-      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight. Wind gusts up to 19 mph with bright conditions throughout the day.",
+      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight. Wind gusts up to 19 mph with bright conditions throughout the day.",
       "digital_probe": {
         "ph": "5.86",
         "ec_mScm": "0.04",
@@ -707,7 +999,7 @@
         "ph": ""
       },
       "observations": "The plant displays strong compact vegetative growth with a dense healthy canopy showing upright posture and steady fruit development. Multiple berries are entering the green enlargement stage indicating successful pollination and adequate nutrient uptake. Close-up photos reveal green aphids clustered on developing berry surfaces, especially around the seeds. Localized chewing damage is visible on some leaves consistent with leaf beetles, grasshoppers, caterpillars, or weevils, though this damage is minor compared to the aphid presence. Crown and stems appear clear with no fungal spotting. Soil moisture at 9.00 mS/cm is the driest reading ever logged for this plant, approaching stress dehydration levels that could slow berry ripening, stall young leaf development, and increase risk of blossom and fruit drop.",
-      "actions": "Water immediately with 3/4 to 1 cup poured slowly and evenly around the pot, avoiding the crown directly. Apply Captain Jack's Neem Oil between 4:00 PM and 6:00 PM to treat aphids on fruit and foliage, spraying top and undersides of leaves, crown area, and fruit clusters with light even coverage. Do not drench the plant. Repeat neem application every 4–5 days for 2 more cycles. Do not fertilize today despite extremely low fertility at 2.0%; aphids thrive on nitrogen spikes and treatment must occur first. No lime required; pH at 5.86 is on the lower edge but acceptable and not dangerous. Do not mix multiple spray products together.",
+      "actions": "Water immediately with 3/4 to 1 cup poured slowly and evenly around the pot, avoiding the crown directly. Apply Captain Jack's Neem Oil between 4:00 PM and 6:00 PM to treat aphids on fruit and foliage, spraying top and undersides of leaves, crown area, and fruit clusters with light even coverage. Do not drench the plant. Repeat neem application every 4\u20135 days for 2 more cycles. Do not fertilize today despite extremely low fertility at 2.0%; aphids thrive on nitrogen spikes and treatment must occur first. No lime required; pH at 5.86 is on the lower edge but acceptable and not dangerous. Do not mix multiple spray products together.",
       "next_steps": "Recheck moisture either later today or tomorrow morning to confirm hydration recovery following watering. Monitor undersides of leaves tomorrow morning for aphid activity and assess treatment effectiveness over the next 48 hours. Plan to apply Purived 4-5-5 at 1/4 strength on December 5 or 6 if aphid population reduces significantly. Continue watching for additional chewing damage patterns though current damage is minor. Monitor berry development for any deformities or spreading issues related to aphid feeding.",
       "q_and_a_summary": "Asked whether visible marks in close-up photos were chew marks on leaves; confirmed the damage pattern shows localized chewing consistent with leaf beetles, grasshoppers, caterpillars, or occasionally weevils rather than disease or scorch. Crown and stems remain clear with no fungal spotting visible.",
       "follow_up": [],
@@ -747,7 +1039,7 @@
     {
       "date": "12/2/2025",
       "time": "10:41 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph with no midday rain expected.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph with no midday rain expected.",
       "digital_probe": {
         "ph": "5.94",
         "ec_mScm": "0.17",
@@ -819,7 +1111,7 @@
     {
       "date": "11/30/2025",
       "time": "2:51 PM",
-      "conditions": "Mostly sunny with a high of 80°F dropping to 68°F overnight. Partly cloudy around 11:00 AM returning to bright sun at 1:00 PM. Wind gusts up to 20 mph.",
+      "conditions": "Mostly sunny with a high of 80\u00b0F dropping to 68\u00b0F overnight. Partly cloudy around 11:00 AM returning to bright sun at 1:00 PM. Wind gusts up to 20 mph.",
       "digital_probe": {
         "ph": "5.54",
         "ec_mScm": "0.41",
@@ -837,7 +1129,7 @@
       },
       "observations": "The plant displays excellent health with deep green glossy upright foliage showing no chlorosis, burn, or wilt. Multiple strong red blooms are visible with several berries in early swell phase showing proper size and seed spacing. Crowns remain clean and fully exposed. Soil appears even, loose, and well-topped with uniform moisture distribution and no pooling or anaerobic patches. Plant structure is compact and balanced with no legginess. Runner nodes are forming but have not extended yet. Slight edge nibbling on one leaf indicates harmless cosmetic insect activity with no visible infestation.",
       "actions": "Do not water today or tomorrow; soil moisture is high and overnight temperature drop increases overwatering risk. No fertilizer required; EC is in optimal zone and adding more could spike salts. Optionally perform light canopy cleaning by gently shaking away wind-blown debris without pruning. Check soil firmness tomorrow to ensure stability after high moisture and wind gusting, gently pressing to confirm firmness while keeping soil loose around crown. No pest sprays needed while flowers are open.",
-      "next_steps": "Monitor for runner initiation as vigorous growth suggests runners will begin extending soon. Watch for berry color shift as temperatures warm during midday sun exposure. Continue observing fruit development as berries progress through early swell phase. Recheck moisture levels in 24–48 hours before considering next watering. Monitor crown exposure as soil settles to ensure it remains above soil line.",
+      "next_steps": "Monitor for runner initiation as vigorous growth suggests runners will begin extending soon. Watch for berry color shift as temperatures warm during midday sun exposure. Continue observing fruit development as berries progress through early swell phase. Recheck moisture levels in 24\u201348 hours before considering next watering. Monitor crown exposure as soil settles to ensure it remains above soil line.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -871,7 +1163,7 @@
     {
       "date": "11/29/2025",
       "time": "1:22 PM",
-      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Wind gusts up to 15 mph.",
+      "conditions": "Mostly sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight. Wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "4.86",
         "ec_mScm": "0.46",
@@ -888,7 +1180,7 @@
         "ph": ""
       },
       "observations": "The plant displays deep green upright turgid leaves indicating excellent hydration and nutrient balance. Multiple red blossoms are now open with several berries forming and gaining size and texture. No signs of fungal spotting, wilt, or nutrient deficiency visible on any foliage. Soil surface appears well-leveled without gaps following the practice of filling probe holes after each reading. The pH dropped sharply from yesterday's 6.17 to 4.86, likely due to recent rain events, fresh acidic soil added to probe holes, and significant watering combined with cloud cover slowing evaporation. EC and salt levels rose moderately from watering dissolving nutrients in the fully saturated soil profile.",
-      "actions": "Do not add lime or pH amendments today despite low pH reading of 4.86; soil is fully saturated from morning watering and adjusting pH in saturated soil risks overshooting. Plan pH correction for tomorrow or next dry morning if pH remains below 5.2 using ½ tsp garden lime mixed into 1 cup water applied around outer pot ring away from crown. No watering needed today; moisture at 60 mS/cm combined with morning watering and wind will maintain adequate hydration until tomorrow morning. Continue filling probe holes with loose potting mix after each reading. No fertilizer required; fertility is rising naturally.",
+      "actions": "Do not add lime or pH amendments today despite low pH reading of 4.86; soil is fully saturated from morning watering and adjusting pH in saturated soil risks overshooting. Plan pH correction for tomorrow or next dry morning if pH remains below 5.2 using \u00bd tsp garden lime mixed into 1 cup water applied around outer pot ring away from crown. No watering needed today; moisture at 60 mS/cm combined with morning watering and wind will maintain adequate hydration until tomorrow morning. Continue filling probe holes with loose potting mix after each reading. No fertilizer required; fertility is rising naturally.",
       "next_steps": "Correct pH tomorrow or next dry morning if readings remain below 5.2 to prevent restricted calcium and magnesium uptake affecting berry formation. Monitor moisture levels with increased wind gusts potentially accelerating drying above 20 mph. Check again late afternoon if wind speed increases significantly. Continue current soil addition practice to prevent pocket formation. Watch for berry color changes and continued fruit development as plant progresses through early fruit swell stage.",
       "q_and_a_summary": "",
       "follow_up": [
@@ -935,7 +1227,7 @@
     {
       "date": "11/28/2025",
       "time": "10:25 AM",
-      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "6.17",
         "ec_mScm": "0.19",
@@ -952,7 +1244,7 @@
         "ph": ""
       },
       "observations": "The plant displays excellent overall health with uniform leaf color, crisp turgor, and no signs of wilt or scorch. Two fully open red blooms are visible with several forming berries swelling evenly beneath the canopy. The crown appears tight and thick, producing symmetrical sets of leaves and buds with no rot, softness, or darkening. Leaf texture is firm with strong venation and no spotting, chlorosis, or edge crisping. Small green fruits show proper drupelet development with no deformities, confirming successful pollination. Soil appears properly leveled and enriched with no compaction visible following the practice of filling probe holes.",
-      "actions": "Do not water today; moisture at 33 mS/cm combined with cloudy cool conditions provides adequate hydration. No fertilization required; fertility is low but normal during active fruiting stage. No soil adjustments needed; current leveling and probe-hole filling practice continues to work well. Monitor evening temperature drop to 57°F, which is safe and requires no intervention.",
+      "actions": "Do not water today; moisture at 33 mS/cm combined with cloudy cool conditions provides adequate hydration. No fertilization required; fertility is low but normal during active fruiting stage. No soil adjustments needed; current leveling and probe-hole filling practice continues to work well. Monitor evening temperature drop to 57\u00b0F, which is safe and requires no intervention.",
       "next_steps": "Water when moisture drops into the mid-20s range or below, likely tomorrow or the following day depending on sun exposure. Consider light fertilization during the next sunny warm day window if fertility continues to decline. Continue monitoring berry development as fruits progress through early sizing stage. Watch for proper fruit set on newly opened blooms over the next several days.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -987,7 +1279,7 @@
     {
       "date": "11/27/2025",
       "time": "10:54 AM",
-      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight. Rain expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81\u00b0F dropping to 65\u00b0F overnight. Rain expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.22",
         "ec_mScm": "0.72",
@@ -1044,7 +1336,7 @@
     {
       "date": "11/26/2025",
       "time": "10:41 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms forecast around 4:00 PM. Light sun-shower occurred shortly after the reading at 11:16 AM.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms forecast around 4:00 PM. Light sun-shower occurred shortly after the reading at 11:16 AM.",
       "digital_probe": {
         "ph": "5.76",
         "ec_mScm": "0.23",
@@ -1062,7 +1354,7 @@
       },
       "observations": "The plant displays full, healthy foliage with firm matte-green leaves showing no new spotting or burn. Multiple deep pink and red flower buds are significantly more advanced than yesterday, pushing toward opening. Existing green berries remain firm and well-formed with no signs of shrivel, rot, or physical damage. The canopy is full without overcrowding, and petioles hold leaves at healthy angles with no drooping from heat or overwatering. Soil surface appears slightly chunky and loose with good aeration and no crusting, pooling, slime, or algae. The mix of swelling fruit plus new buds fits perfectly with the early fruiting and active flowering stage.",
       "actions": "No watering required today; moisture is comfortable, and expected thunderstorms will provide additional water. Allow storms to top off the pot naturally. Continue full sun exposure under mostly cloudy conditions. No fertilizer or amendments needed; readings remain in healthy ranges.",
-      "next_steps": "After storms pass, visually check that no standing water or mud has accumulated around the crown. Gently lift leaves to confirm crown is not buried or sitting in a puddle, and check that no petals or debris are stuck in tight wet clusters around new buds. Wait to water manually until moisture dips into mid-30s or below and top 1–1.5 inches of soil feels noticeably lighter and drier by finger test, likely tomorrow or the following day depending on storm intensity. Monitor pH over the next few days to ensure it stays in the mid-5s band as storms leach the pot.",
+      "next_steps": "After storms pass, visually check that no standing water or mud has accumulated around the crown. Gently lift leaves to confirm crown is not buried or sitting in a puddle, and check that no petals or debris are stuck in tight wet clusters around new buds. Wait to water manually until moisture dips into mid-30s or below and top 1\u20131.5 inches of soil feels noticeably lighter and drier by finger test, likely tomorrow or the following day depending on storm intensity. Monitor pH over the next few days to ensure it stays in the mid-5s band as storms leach the pot.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1106,7 +1398,7 @@
     {
       "date": "11/25/2025",
       "time": "2:50 PM",
-      "conditions": "Sunny all day with a high of 84°F dropping down to 65°F overnight.",
+      "conditions": "Sunny all day with a high of 84\u00b0F dropping down to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.42",
         "ec_mScm": "0.25",
@@ -1124,7 +1416,7 @@
       },
       "observations": "The plant displays vigorous upright foliage with no signs of heat stress or wilting despite warm afternoon sun. The crown remains completely healthy with new leaf primordia visible and no burial or rot. Multiple berry clusters continue swelling with early reddening visible on one berry, marking the beginning of color progression. The runner is elongating steadily but not yet long enough for rooting. Soil appears loose and well-aerated with even water penetration following afternoon watering. No pests, leaf-edge damage, or fungal spotting visible on any foliage.",
       "actions": "No fertilizer applied; EC is low but stable and adequate for active berry swell. Continue full sun exposure. Allow runner to extend further before attempting propagation. Monitor berry color progression as the plant approaches early color stage.",
-      "next_steps": "Water when moisture drops into the 20–30 mS/cm range. Monitor berry development closely as color change accelerates. Recheck pH within 48 hours to track post-watering stabilization. Continue observing runner length for future propagation timing. Watch for increased color development on berries over the next several days.",
+      "next_steps": "Water when moisture drops into the 20\u201330 mS/cm range. Monitor berry development closely as color change accelerates. Recheck pH within 48 hours to track post-watering stabilization. Continue observing runner length for future propagation timing. Watch for increased color development on berries over the next several days.",
       "q_and_a_summary": "",
       "follow_up": [
         "[2:33 PM] Watered the plant; unable to complete morning watering schedule so watered in afternoon instead."
@@ -1170,7 +1462,7 @@
     {
       "date": "11/24/2025",
       "time": "10:28 AM",
-      "conditions": "Sunny with a high near 84°F and an overnight low near 63°F.",
+      "conditions": "Sunny with a high near 84\u00b0F and an overnight low near 63\u00b0F.",
       "digital_probe": {
         "ph": "5.97",
         "ec_mScm": "0.37",
@@ -1188,7 +1480,7 @@
       },
       "observations": "The plant displays excellent stabilization with all leaves upright and richly green. The crown area is producing new leaf primordia cleanly with no signs of rot or stress. Several berry clusters are visibly larger than previous days, consistent with active early fruit swell. The soil surface appears loose and well-aerated with no compaction or crusting. The crown remains fully visible above the soil line following yesterday's soil top-up. No pests, leaf-spot, or scorching visible on any foliage. The runner continues elongating but is not yet long enough for rooting.",
       "actions": "No watering required; moisture is ideal. No fertilizer applied due to adequate EC and recent pH stabilization. No soil adjustments needed. Continue full sun exposure. Allow runner to extend further before attempting propagation.",
-      "next_steps": "Monitor soil moisture over the next 24–48 hours and water only if readings drop significantly. Recheck pH with multiple probe locations within 2–3 days to confirm continued stabilization across the entire pot. Continue observing berry growth and size progression as the plant advances through early fruit swell. Watch runner development for future propagation once it extends far enough to reach a separate pot comfortably. Periodically confirm the crown remains visible above soil line as the mix settles.",
+      "next_steps": "Monitor soil moisture over the next 24\u201348 hours and water only if readings drop significantly. Recheck pH with multiple probe locations within 2\u20133 days to confirm continued stabilization across the entire pot. Continue observing berry growth and size progression as the plant advances through early fruit swell. Watch runner development for future propagation once it extends far enough to reach a separate pot comfortably. Periodically confirm the crown remains visible above soil line as the mix settles.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1222,7 +1514,7 @@
     {
       "date": "11/23/2025",
       "time": "12:25 PM",
-      "conditions": "Sunny midday around 84°F with an overnight low expected near 63°F.",
+      "conditions": "Sunny midday around 84\u00b0F with an overnight low expected near 63\u00b0F.",
       "digital_probe": {
         "ph": "5.00",
         "ec_mScm": "0.11",
@@ -1238,10 +1530,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant displays vigorous vegetative growth with a high leaf count, which is normal and desirable for a young plant actively developing fruit. Leaves are upright, richly green, and well-spaced, indicating strong crown activity and healthy photosynthetic capacity. Several developing berries are visible and continuing to enlarge, consistent with the early fruit swell stage. The crown is clean and fully exposed with no signs of rot or fungal issues. The soil surface appears dry and somewhat low in the pot, with 1–2 inches of headspace before topping up, matching the low moisture reading. The pH has risen significantly compared to prior acidic pockets and now sits at a more stable value, suggesting improved normalization of lime distribution within the mix.",
+      "observations": "The plant displays vigorous vegetative growth with a high leaf count, which is normal and desirable for a young plant actively developing fruit. Leaves are upright, richly green, and well-spaced, indicating strong crown activity and healthy photosynthetic capacity. Several developing berries are visible and continuing to enlarge, consistent with the early fruit swell stage. The crown is clean and fully exposed with no signs of rot or fungal issues. The soil surface appears dry and somewhat low in the pot, with 1\u20132 inches of headspace before topping up, matching the low moisture reading. The pH has risen significantly compared to prior acidic pockets and now sits at a more stable value, suggesting improved normalization of lime distribution within the mix.",
       "actions": "No pruning performed as all leaves are healthy and contributing to fruit production. Water approximately 1/2 to 3/4 cup evenly to rehydrate the root zone. Add a modest amount of fresh organic potting mix to raise the soil level while keeping the crown fully exposed and the soil loose. No fertilizer applied due to adequate growth and low EC. Plant left in full sun under warm conditions.",
-      "next_steps": "Monitor soil moisture after today's watering to ensure it returns to a moderate range. Recheck pH in the next 24–48 hours using multiple probe locations around the pot to confirm continued stabilization. Continue observing berry growth and leaf posture as the plant progresses through the early fruit swell stage. Watch runner development for future propagation once it extends far enough to comfortably reach a separate pot. Periodically confirm that the crown remains visible above the soil line as the mix settles over time.",
-      "q_and_a_summary": "Discussed whether the large number of leaves was a concern and confirmed that abundant, healthy foliage is normal and beneficial for supporting berry development. User noted that the pot had 1–2 inches of headspace and asked if more organic potting mix should be added; recommended partially topping up the pot by about 1 inch while keeping the crown fully exposed and the soil loose. After adding soil, user asked for confirmation that the new soil level was appropriate, which was affirmed.",
+      "next_steps": "Monitor soil moisture after today's watering to ensure it returns to a moderate range. Recheck pH in the next 24\u201348 hours using multiple probe locations around the pot to confirm continued stabilization. Continue observing berry growth and leaf posture as the plant progresses through the early fruit swell stage. Watch runner development for future propagation once it extends far enough to comfortably reach a separate pot. Periodically confirm that the crown remains visible above the soil line as the mix settles over time.",
+      "q_and_a_summary": "Discussed whether the large number of leaves was a concern and confirmed that abundant, healthy foliage is normal and beneficial for supporting berry development. User noted that the pot had 1\u20132 inches of headspace and asked if more organic potting mix should be added; recommended partially topping up the pot by about 1 inch while keeping the crown fully exposed and the soil loose. After adding soil, user asked for confirmation that the new soil level was appropriate, which was affirmed.",
       "follow_up": [
         "[12:35 PM] Applied 3/4 cup water.",
         "[1:10 PM] Added fresh organic potting mix to raise soil level by about 1 inch while keeping the crown fully exposed and the soil loose."
@@ -1292,7 +1584,7 @@
     {
       "date": "11/22/2025",
       "time": "10:12 AM",
-      "conditions": "Mostly cloudy morning around 84°F with an overnight low expected near 67°F.",
+      "conditions": "Mostly cloudy morning around 84\u00b0F with an overnight low expected near 67\u00b0F.",
       "digital_probe": {
         "ph": "4.50",
         "ec_mScm": "0.90",
@@ -1310,7 +1602,7 @@
       },
       "observations": "The plant shows strong, healthy growth with upright foliage and developing berries. No wilting, yellowing, or leaf-edge damage is visible. Despite the acidic probe value, the plant does not exhibit stress symptoms typically associated with extremely low pH, indicating that today's reading is likely due to localized soil variation rather than whole-pot acidity. Soil structure appears loose and aerated, with a mixture of Miracle-Gro and nursery potting mix visible. Berries continue to swell, and runner extension remains active. Overall plant vigor is consistent with the early fruit swell stage.",
       "actions": "No lime applied despite low pH reading due to evidence of pH pocketing rather than generalized acidity. No fertilizer added. Plant continues receiving natural light under mostly cloudy conditions. Light watering planned for later in the day to help even out moisture and salt distribution.",
-      "next_steps": "Give a small, even watering of approximately 1/3 to 1/2 cup to help normalize moisture, salts, and lime distribution. Recheck pH within 24–48 hours using 2–3 different probe locations. Monitor developing berries for continued sizing and color progression. Continue observing runner length for future propagation.",
+      "next_steps": "Give a small, even watering of approximately 1/3 to 1/2 cup to help normalize moisture, salts, and lime distribution. Recheck pH within 24\u201348 hours using 2\u20133 different probe locations. Monitor developing berries for continued sizing and color progression. Continue observing runner length for future propagation.",
       "q_and_a_summary": "Discussed whether the second reading told a different story; confirmed that the difference between readings indicated soil heterogeneity rather than true whole-pot acidity. User clarified that the soil had not been fluffed, reinforcing the interpretation that localized pockets caused the low pH reading. No stress response was seen in the plant, supporting this conclusion.",
       "follow_up": [],
       "photos": [
@@ -1339,7 +1631,7 @@
     {
       "date": "11/21/2025",
       "time": "3:18 PM",
-      "conditions": "Sunny afternoon around 84°F with an overnight low expected near 60°F.",
+      "conditions": "Sunny afternoon around 84\u00b0F with an overnight low expected near 60\u00b0F.",
       "digital_probe": {
         "ph": "6.02",
         "ec_mScm": "0.26",
@@ -1357,7 +1649,7 @@
       },
       "observations": "The plant shows vigorous, healthy growth with upright foliage and multiple developing berries. Leaf color is rich and even, with no new spotting or lesions. Runners are beginning to extend but have not yet reached a length suitable for rooting in a separate pot. Soil moisture is in a well-balanced upper-moderate range, and the pH has reached an ideal strawberry range for the first time. Developing berries appear slightly larger compared to prior days, indicating steady progress through the early fruit swell stage.",
       "actions": "No watering performed since moisture was within ideal range. No fertilizer applied to avoid disrupting the newly stabilized pH. Runners were monitored but left attached to continue extending until long enough for propagation.",
-      "next_steps": "Check soil moisture within 24–36 hours and water only if readings drop to a low or mid range. Continue monitoring runner growth and prepare a small pot for rooting once the runner lengthens. Maintain full sun exposure through the afternoon and allow natural cooling overnight. Keep monitoring berry development as they progress toward sizing and color change.",
+      "next_steps": "Check soil moisture within 24\u201336 hours and water only if readings drop to a low or mid range. Continue monitoring runner growth and prepare a small pot for rooting once the runner lengthens. Maintain full sun exposure through the afternoon and allow natural cooling overnight. Keep monitoring berry development as they progress toward sizing and color change.",
       "q_and_a_summary": "Discussed whether the long shoots were suckers and if they could be used for propagation; confirmed they are runners, which can root into a pot once longer. User asked if waiting was acceptable and was advised that waiting is ideal until the runner extends further and forms a clearer daughter plantlet.",
       "follow_up": [],
       "photos": [
@@ -1386,7 +1678,7 @@
     {
       "date": "11/20/2025",
       "time": "10:15 AM",
-      "conditions": "Sunny late morning around 81°F with a forecast high near 83°F and an overnight low around 62°F.",
+      "conditions": "Sunny late morning around 81\u00b0F with a forecast high near 83\u00b0F and an overnight low around 62\u00b0F.",
       "digital_probe": {
         "ph": "4.90",
         "ec_mScm": "0.04",
@@ -1404,7 +1696,7 @@
       },
       "observations": "The plant appears overall healthy with upright, richly green foliage and several developing fruits visible. The soil was extremely dry at the time of the reading, with a moisture value of 0.00 mS/cm and a loose, fibrous surface. No active lesions or pest damage are visible on leaves. Some older flowers have finished and dropped petals, while new buds and small berries are forming.",
       "actions": "Water the plant lightly and evenly with a slow pour to rehydrate the root zone without oversaturating the pot. No fertilizer applied due to low pH and low EC. Plant kept in full sun with the option for light afternoon shade if temperatures exceed the low 80s. No pruning required today.",
-      "next_steps": "Recheck soil moisture the following morning to confirm it has risen into a moderate range. Apply a very small amount of garden lime once it arrives and the soil is slightly moist to begin raising pH toward the ideal range. Continue to monitor older leaves for any recurring white spotting and remove only if damage worsens. Protect the plant if a cold night below 40°F is forecast.",
+      "next_steps": "Recheck soil moisture the following morning to confirm it has risen into a moderate range. Apply a very small amount of garden lime once it arrives and the soil is slightly moist to begin raising pH toward the ideal range. Continue to monitor older leaves for any recurring white spotting and remove only if damage worsens. Protect the plant if a cold night below 40\u00b0F is forecast.",
       "q_and_a_summary": "Discussed whether a leaf shown in a new photo was the previously spotted one; confirmed it was not and that the damaged leaf was likely removed earlier. Clarified that no leaves in the new image needed pruning. User also asked if the very dry reading meant watering was necessary, and was advised to water with about 1/2 to 3/4 cup total poured slowly around the root zone.",
       "follow_up": [
         "[10:57 AM] Watered per instructions; soil now evenly moist and should stabilize pH and support fruit development.",
@@ -1436,7 +1728,7 @@
     {
       "date": "11/19/2025",
       "time": "9:16 AM",
-      "conditions": "Cool, clear morning around 68°F with full sun and light dew on foliage, warming later in the day.",
+      "conditions": "Cool, clear morning around 68\u00b0F with full sun and light dew on foliage, warming later in the day.",
       "digital_probe": {
         "ph": "4.77",
         "ec_mScm": "0.23",
@@ -1478,7 +1770,7 @@
     {
       "date": "11/18/2025",
       "time": "10:43 AM",
-      "conditions": "Warm, sunny late morning around 79°F with full sun and dry air.",
+      "conditions": "Warm, sunny late morning around 79\u00b0F with full sun and dry air.",
       "digital_probe": {
         "ph": "4.60",
         "ec_mScm": "0.13",
@@ -1520,7 +1812,7 @@
     {
       "date": "11/17/2025",
       "time": "8:55 AM",
-      "conditions": "Cool clear morning around 61°F with full sun.",
+      "conditions": "Cool clear morning around 61\u00b0F with full sun.",
       "digital_probe": {
         "ph": "5.88",
         "ec_mScm": "0.21",
@@ -1537,7 +1829,7 @@
         "ph": ""
       },
       "observations": "The plant was upright, green, and healthy with a vibrant bloom and no new spotting noted. Soil moisture was borderline moderate at 35 mS/cm, indicating it was not yet dry but trending in that direction. Salt and EC levels were low to moderate and within a safe range. Overall the plant appeared to be stabilizing well after transplant.",
-      "actions": "No immediate watering performed; plan to water only if the top inch of soil feels dry on inspection. Lime application postponed to allow the soil and pH to stabilize naturally. Fertilizer delayed for 5–7 days to avoid stressing the recently transplanted plant. Full sun exposure maintained.",
+      "actions": "No immediate watering performed; plan to water only if the top inch of soil feels dry on inspection. Lime application postponed to allow the soil and pH to stabilize naturally. Fertilizer delayed for 5\u20137 days to avoid stressing the recently transplanted plant. Full sun exposure maintained.",
       "next_steps": "Recheck soil moisture within 24 hours and water if the top inch is dry. Reassess pH before applying any lime. Evaluate fertility later in the week once the plant has had more time to adjust to the new pot.",
       "q_and_a_summary": "Discussed whether the plant needed water given the borderline moisture reading; the response was to water only if the top inch of soil felt dry, as the current reading suggested it was close but not yet critical.",
       "follow_up": [],

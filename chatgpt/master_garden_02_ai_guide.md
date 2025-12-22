@@ -1418,6 +1418,5 @@ _comma at the end of each attribute for perfect copy paste_
 
 **For Daily Journal Entry:**
 Always output as complete object with opening/closing braces, presented immediately after assessment with no confirmation needed.
-````
 
-Please acknowledge you received this and understand.
+````

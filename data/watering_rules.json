@@ -1,0 +1,143 @@
+{
+  "dimensions": {
+    "probe_time": [
+      "6-8 AM",
+      "8-10 AM",
+      "10-12 PM",
+      "12-2 PM",
+      "2-4 PM",
+      "4-6 PM",
+      "7+ PM"
+    ],
+    "current_time": [
+      "6-8 AM",
+      "8-10 AM",
+      "10-12 PM",
+      "12-2 PM",
+      "2-4 PM",
+      "4-6 PM",
+      "7+ PM"
+    ],
+    "today_high": [
+      "65-70°F",
+      "70-75°F",
+      "75-80°F",
+      "80-85°F",
+      "85-90°F",
+      "90-95°F",
+      "95+°F"
+    ],
+    "today_precip": [
+      "0-20%",
+      "20-40%",
+      "40-60%",
+      "60-100%"
+    ],
+    "tomorrow_precip": [
+      "0-20%",
+      "20-40%",
+      "40-60%",
+      "60-100%"
+    ],
+    "probe_moisture": [
+      "0%",
+      "1-25%",
+      "25-40%",
+      "40-55%",
+      "55-75%",
+      "75-100%"
+    ]
+  },
+  "combos_indexed": [
+    {
+      "i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    }
+    // ... all combinations
+  ],
+  "plants": [
+    {
+      "plant_id": "basil_001",
+      "full_sun_start": "9:00 AM",
+      "shade_start": "3:00 PM",
+      "recommendations_by_combo": [
+        {
+          "rec": "Skip Watering",
+          "why": "Recent probe + moisture high + rain likely"
+        },
+        {
+          "rec": "Light Sip",
+          "why": "Moisture borderline low but rain likely"
+        },
+        {
+          "rec": "Moderate Shower",
+          "why": "Warm day + low moisture + low rain chance"
+        }
+        // ... one entry per combos_indexed row
+      ]
+    }
+  ],
+  "index_order": [
+    "probe_time",
+    "current_time",
+    "today_high",
+    "today_precip",
+    "tomorrow_precip",
+    "probe_moisture"
+  ]
+}
+
+
+
+#2 — What the “default fallback rule” should look like
+
+Since you’re generating a finite matrix but you can’t realistically enumerate every combo (and some combos will be ambiguous), you want one last rule that:
+
+catches any condition not matched (or any “uncertain” edge case),
+
+gives a safe, non-harmful recommendation,
+
+tells you exactly what extra input would resolve it,
+
+stays consistent with your workflow (horticulturist voice, but this is a rules JSON).
+
+{
+  "conditions": {
+    "probe_time": "ANY",
+    "current_time": "ANY",
+    "today_high": "ANY",
+    "today_low": "ANY",
+    "probe_moisture": "ANY",
+    "today_precip_chance": "ANY",
+    "tomorrow_precip_chance": "ANY"
+  },
+  "recommendation": "Use live judgment",
+  "amount": "N/A",
+  "reasoning": "This condition set is outside the covered combinations. Use the most recent probe moisture trend + plant posture/leaf turgor + soil surface feel to decide. When uncertain, avoid heavy watering and re-check moisture after 60–90 minutes."
+}

@@ -1,108 +1,93 @@
 #!/usr/bin/env python3
 """
-Generate Plant Channel markdown files for all plants in the garden journal.
+Master Garden AI Prompt Generator
+==================================
+Generates individualized plant channel markdown files from master template.
 
-This script reads JSON files from data/plants/ and generates corresponding
-markdown files in data/plants/prompt/ with the Master Garden Assistant Guide.
+Reads all plant JSON files from data/plants/ (including inactive subdirectory)
+and creates a channel-specific markdown file for each one by combining:
+1. The plant's ID and name
+2. The master_garden_ai_prompt.md template
+3. The master_garden_ai_guide.md guide
 
-The script dynamically loads:
-- Master Garden AI Guide from master_garden_ai_guide.md
-- Custom prompt intro from master_garden_ai_prompt_new.md
-- Plant data from all JSON files in data/plants/
+Output files go to docs/temp/ and are ready to copy/paste into ChatGPT.
 
 Usage:
-    python3 generate_plant_channels.py
+    python3 chatgpt/master_garden_ai_prompt_generator.py
+
+Or click "Run Python File" button in Cursor/VS Code
 """
 
 import json
-from pathlib import Path
 import sys
+from pathlib import Path
 
 
-def load_master_guide(script_dir: Path) -> str:
-    """Load the Master Garden AI Guide from the docs directory."""
-    guide_path = script_dir.parent / "docs" / "master_garden_ai_guide.md"
+def load_master_guide(script_dir):
+    """Load the Master Garden AI Guide markdown."""
+    guide_path = script_dir / "master_garden_ai_guide.md"
 
-    try:
-        with open(guide_path, 'r', encoding='utf-8') as f:
-            return f.read()
-    except FileNotFoundError:
-        print(f"❌ Error: Could not find {guide_path}")
-        print(f"   Please ensure master_garden_ai_guide.md exists in docs/")
-        sys.exit(1)
-    except IOError as e:
-        print(f"❌ Error reading {guide_path}: {e}")
+    if not guide_path.exists():
+        print(f"❌ Error: Master guide not found: {guide_path}")
         sys.exit(1)
 
+    with open(guide_path, 'r', encoding='utf-8') as f:
+        return f.read()
 
-def load_prompt_template(script_dir: Path) -> str:
-    """Load the custom prompt intro template from the docs directory."""
-    prompt_path = script_dir.parent / "docs" / "master_garden_ai_prompt.md"
 
-    try:
-        with open(prompt_path, 'r', encoding='utf-8') as f:
-            return f.read()
-    except FileNotFoundError:
-        print(f"❌ Error: Could not find {prompt_path}")
-        print(f"   Please ensure master_garden_ai_prompt.md exists in docs/")
-        sys.exit(1)
-    except IOError as e:
-        print(f"❌ Error reading {prompt_path}: {e}")
+def load_prompt_template(script_dir):
+    """Load the Master Garden AI Prompt template markdown."""
+    template_path = script_dir / "master_garden_ai_prompt.md"
+
+    if not template_path.exists():
+        print(f"❌ Error: Prompt template not found: {template_path}")
         sys.exit(1)
 
+    with open(template_path, 'r', encoding='utf-8') as f:
+        return f.read()
 
-def load_plant_data(json_file: Path) -> tuple[str, str]:
+
+def load_plant_data(json_file):
     """
-    Load plant ID and name from a JSON file.
+    Load plant ID and name from JSON file.
 
     Returns:
-        tuple: (plant_id, plant_name)
+        tuple: (plant_id, plant_name) or (None, None) if error
     """
     try:
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
-        plant_id = data.get("id")
-        plant_name = data.get("plant")
+            plant_id = data.get('id')
+            plant_name = data.get('plant')
 
-        if not plant_id:
-            print(f"⚠️  Warning: {json_file.name} is missing 'id' attribute")
-            return None, None
+            if not plant_id or not plant_name:
+                print(f"⚠️  Skipping {json_file.name}: Missing 'id' or 'plant' field")
+                return None, None
 
-        if not plant_name:
-            print(f"⚠️  Warning: {json_file.name} is missing 'plant' attribute")
-            return None, None
-
-        return plant_id, plant_name
+            return plant_id, plant_name
 
     except json.JSONDecodeError as e:
-        print(f"⚠️  Warning: Could not parse {json_file.name}: {e}")
+        print(f"✗ Error parsing {json_file.name}: {e}")
         return None, None
     except IOError as e:
-        print(f"⚠️  Warning: Could not read {json_file.name}: {e}")
+        print(f"✗ Error reading {json_file.name}: {e}")
         return None, None
 
 
-def create_plant_channel_intro(prompt_template: str, plant_id: str, plant_name: str) -> str:
+def create_plant_channel_intro(template, plant_id, plant_name):
     """
-    Create the intro section by replacing placeholders in the template.
+    Create the plant-specific introduction section.
 
-    Args:
-        prompt_template: Template string with {plant_id} and {plant_name} placeholders
-        plant_id: The plant's ID value
-        plant_name: The plant's name value
-
-    Returns:
-        Formatted intro string with values substituted
+    Replaces {{PLANT_ID}} and {{PLANT_NAME}} placeholders in template.
     """
-    intro = prompt_template.replace("{plant_id}", plant_id)
-    intro = intro.replace("{plant_name}", plant_name)
+    intro = template.replace("{{PLANT_ID}}", plant_id)
+    intro = intro.replace("{{PLANT_NAME}}", plant_name)
     return intro
 
 
-def generate_plant_channel_markdown(prompt_template: str, master_guide: str,
-                                   plant_id: str, plant_name: str) -> str:
-    """Generate complete markdown content for a plant channel."""
+def generate_plant_channel_markdown(prompt_template, master_guide, plant_id, plant_name):
+    """Generate the complete plant channel markdown file."""
     intro = create_plant_channel_intro(prompt_template, plant_id, plant_name)
     return intro + "\n" + master_guide
 
@@ -132,15 +117,20 @@ def main():
     prompt_template = load_prompt_template(script_dir)
     print(f"✓ Loaded master_garden_ai_prompt.md ({len(prompt_template)} characters)")
 
-    # Find all JSON files in the plants directory
+    # Find all JSON files in the main plants directory
     print(f"\n🔍 Scanning for plant JSON files in {plants_dir}...")
     json_files = sorted(plants_dir.glob("*.json"))
+
+    # Also scan inactive subdirectory if it exists
+    inactive_dir = plants_dir / 'inactive'
+    if inactive_dir.exists() and inactive_dir.is_dir():
+        json_files.extend(sorted(inactive_dir.glob("*.json")))
 
     if not json_files:
         print(f"❌ No JSON files found in {plants_dir}")
         sys.exit(1)
 
-    print(f"✓ Found {len(json_files)} JSON files")
+    print(f"✓ Found {len(json_files)} JSON files (including inactive)")
 
     # Process each JSON file
     print("\n🌿 Generating plant channel markdown files...")

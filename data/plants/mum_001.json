@@ -4,6 +4,8 @@
   "plant": "Yellow Chrysanthemum (Left)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Firepit",
+  "full_sun_start": "9:30 AM EST",
+  "full_shade_start": "4:15 PM EST",
   "container": "Round pot, 2 gal, black",
   "soil_mix": "Original Nursery Mix",
   "origin_history": [
@@ -29,9 +31,140 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "7:38 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "99",
+        "moisture_mScm": "60.00",
+        "light": "87",
+        "rh_percent": "67",
+        "fertility_percent": "10",
+        "soil_temp_f": "65.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum is firmly in active bud development with numerous uniform buds across all stems. Buds are tight and well formed with some reddish or bronze blush on outer bracts, consistent with early-stage yellow chrysanthemum development under high light. Foliage remains turgid and stems are structurally sound.",
+      "actions": "No watering today; soil moisture is adequate and watering would risk overnight saturation. No fertilization applied; fertility level supports bud expansion without forcing soft growth.",
+      "next_steps": "Recheck probe readings at the next opportunity. Monitor buds for swelling and initial petal separation as flowering approaches. Continue current sun exposure and airflow.",
+      "q_and_a_summary": "Confirmed that bud coloration is consistent with a single yellow chrysanthemum cultivar; early reddish tones are normal and will fade as petals emerge.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251220-02.jpeg",
+          "caption": "Top-down view showing uniform bud distribution and strong canopy structure.",
+          "tags": "chrysanthemum, buds, canopy"
+        },
+        {
+          "file_name": "mum_001-20251220-03.jpeg",
+          "caption": "Side view highlighting firm stems and synchronized bud development.",
+          "tags": "chrysanthemum, buds, stems"
+        },
+        {
+          "file_name": "mum_001-20251220-04.jpeg",
+          "caption": "Close-up of immature bud showing normal reddish blush prior to yellow petal emergence.",
+          "tags": "chrysanthemum, bud, color-development"
+        },
+        {
+          "file_name": "mum_001-20251220-05.jpeg",
+          "caption": "Close-up showing multiple compact buds at different nodes.",
+          "tags": "chrysanthemum, buds, growth"
+        },
+        {
+          "file_name": "mum_001-20251220-06.jpeg",
+          "caption": "Detail view of foliage and buds under full sun conditions.",
+          "tags": "chrysanthemum, foliage, buds"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:07 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.50",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "94",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "70",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "74.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum shows strong continued recovery with sturdy, turgid foliage and many newly visible bud sites developing across multiple stems. Structure remains upright and stable, and bud clusters are becoming more defined, indicating active progression toward flowering.",
+      "actions": "Do not water tonight as moisture remains adequate and nighttime watering would increase saturation risk. Do not fertilize today; nutrient levels are appropriate for bud development. Recheck moisture tomorrow morning and water only if the reading drops to 35.00 or lower.",
+      "next_steps": "Recheck probe readings tomorrow morning. Monitor pH over the next few days to ensure it does not continue drifting downward. Watch bud clusters for uniform swelling and color development as flowering approaches.",
+      "q_and_a_summary": "Discussed whether the new buds will all be the same color; explained they should bloom consistently yellow if this is a single cultivar, with minor early-bloom variation possible during recovery.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251219-02.jpeg",
+          "caption": "Top-down view showing multiple developing bud clusters and healthy, turgid foliage across the pot.",
+          "tags": "chrysanthemum, buds, canopy, recovery"
+        },
+        {
+          "file_name": "mum_001-20251219-03.jpeg",
+          "caption": "Side view highlighting upright stems, expanding leaves, and numerous newly forming buds along the stem tips.",
+          "tags": "chrysanthemum, buds, stems, vegetative growth"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:43 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "55",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "74.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum shows clear advancement into vegetative refill with increased leaf size, paired leaf expansion on multiple stems, and well-defined but compact bud sites. Foliage remains healthy and upright following several hours of intermittent rain. Soil is evenly moist and settled with no signs of pooling or stress.",
+      "actions": "Do not water today as soil moisture is sufficient from rainfall. Do not fertilize; nutrient availability is adequate and active. Leave soil undisturbed to allow pH and moisture to stabilize naturally.",
+      "next_steps": "Recheck soil readings in 1\u20132 days after the soil equilibrates. Monitor pH for a natural return toward the mid-6 range. Continue observing bud behavior to ensure slow, controlled development.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251218-02.jpeg",
+          "caption": "Top-down view showing increased leaf density and multiple compact bud sites after rainfall.",
+          "tags": "chrysanthemum, canopy, buds, vegetative growth"
+        },
+        {
+          "file_name": "mum_001-20251218-03.jpeg",
+          "caption": "Side view highlighting paired leaf expansion and upright stems with no rain-related stress.",
+          "tags": "chrysanthemum, leaves, stems, recovery"
+        },
+        {
+          "file_name": "mum_001-20251218-04.jpeg",
+          "caption": "Alternate angle showing evenly settled, moist soil and balanced regrowth across the pot.",
+          "tags": "chrysanthemum, soil, structure, healthy-growth"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "11:36 AM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.13",
@@ -48,8 +181,8 @@
         "ph": ""
       },
       "observations": "The chrysanthemum continues active recovery with firm, upright stems and increasing leaf mass at multiple nodes. Bud sites are present but remain compact, which is appropriate for this stage. Surface soil showed wind-related crusting prior to loosening, but overall soil structure remains stable with no signs of stress or water imbalance.",
-      "actions": "Do not water today as moisture is ideal and rainfall is expected. Do not fertilize; nutrient levels are well matched to the plant’s recovery stage. Avoid deep soil disturbance and maintain current placement.",
-      "next_steps": "Allow rain to naturally rehydrate and settle the surface. Recheck soil moisture within 24–48 hours. Continue monitoring for paired leaf expansion as confirmation of vegetative refill progression.",
+      "actions": "Do not water today as moisture is ideal and rainfall is expected. Do not fertilize; nutrient levels are well matched to the plant\u2019s recovery stage. Avoid deep soil disturbance and maintain current placement.",
+      "next_steps": "Allow rain to naturally rehydrate and settle the surface. Recheck soil moisture within 24\u201348 hours. Continue monitoring for paired leaf expansion as confirmation of vegetative refill progression.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -73,7 +206,7 @@
     {
       "date": "12/15/2025",
       "time": "10:02 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.14",
@@ -91,7 +224,7 @@
       },
       "observations": "The chrysanthemum is actively rebuilding its canopy with multiple stems elongating and producing larger, well-formed leaves. Bud sites are present but remain juvenile, which is appropriate at this stage. Stems are firm and upright with no signs of wilt, stress, or disease, and soil structure appears stable and evenly settled.",
       "actions": "Do not water today as moisture is ideal and rain chances are sufficient. Do not fertilize; existing nutrient levels are appropriate for continued vegetative recovery. Leave soil undisturbed and maintain current placement.",
-      "next_steps": "Recheck soil moisture in 24–48 hours after weather passes. Monitor for paired leaf expansion across multiple stems as confirmation of full vegetative refill. Continue observing bud behavior without intervention.",
+      "next_steps": "Recheck soil moisture in 24\u201348 hours after weather passes. Monitor for paired leaf expansion across multiple stems as confirmation of full vegetative refill. Continue observing bud behavior without intervention.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -115,7 +248,7 @@
     {
       "date": "12/12/2025",
       "time": "1:03 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.3",
         "ec_mScm": "0.34",
@@ -152,7 +285,7 @@
     {
       "date": "12/11/2025",
       "time": "4:45 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.5",
         "ec_mScm": "0.15",
@@ -204,7 +337,7 @@
     {
       "date": "12/10/2025",
       "time": "8:05 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.14",
@@ -246,7 +379,7 @@
     {
       "date": "12/9/2025",
       "time": "9:44 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.57",
         "ec_mScm": "0.10",
@@ -288,7 +421,7 @@
     {
       "date": "12/8/2025",
       "time": "12:43 PM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "8.39",
         "ec_mScm": "0.08",

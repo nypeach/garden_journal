@@ -151,6 +151,148 @@ def get_all_plants():
         return jsonify({'error': str(e)}), 500
 
 
+@app.route('/journal-update', methods=['GET', 'POST'])
+def journal_update():
+    """
+    Journal Update Tool - Paste ChatGPT journal entries to update plant JSON files
+    Automatically sorts entries newest to oldest and overwrites matching date/time
+    """
+    if request.method == 'GET':
+        # Get list of all plants for dropdown
+        all_plants = data_manager.get_all_plants()
+
+        return render_template(
+            'journal_update.html',
+            plants=all_plants
+        )
+
+    # POST - Process the journal update
+    try:
+        plant_id = request.form.get('plant_id', '').strip()
+        journal_json_str = request.form.get('journal_json', '').strip()
+
+        # Validation
+        if not plant_id:
+            return render_template(
+                'journal_update.html',
+                plants=data_manager.get_all_plants(),
+                error=True,
+                error_message="Plant ID is required"
+            )
+
+        if not journal_json_str:
+            return render_template(
+                'journal_update.html',
+                plants=data_manager.get_all_plants(),
+                error=True,
+                error_message="Journal JSON is required"
+            )
+
+        # Load plant data
+        plant = data_manager.get_plant(plant_id)
+        if not plant:
+            return render_template(
+                'journal_update.html',
+                plants=data_manager.get_all_plants(),
+                error=True,
+                error_message=f"Plant not found: {plant_id}"
+            )
+
+        # Parse the JSON entry
+        try:
+            new_entry = json.loads(journal_json_str)
+        except json.JSONDecodeError as e:
+            return render_template(
+                'journal_update.html',
+                plants=data_manager.get_all_plants(),
+                error=True,
+                error_message="Invalid JSON format",
+                error_details=str(e)
+            )
+
+        # Validate required fields
+        if 'date' not in new_entry or 'time' not in new_entry:
+            return render_template(
+                'journal_update.html',
+                plants=data_manager.get_all_plants(),
+                error=True,
+                error_message="Journal entry must have 'date' and 'time' fields"
+            )
+
+        entry_date = new_entry['date']
+        entry_time = new_entry['time']
+
+        # Ensure journal array exists
+        if 'journal' not in plant:
+            plant['journal'] = []
+
+        # Check if entry with same date+time exists
+        existing_index = None
+        for i, entry in enumerate(plant['journal']):
+            if entry.get('date') == entry_date and entry.get('time') == entry_time:
+                existing_index = i
+                break
+
+        # Update or add entry
+        action_type = ""
+        if existing_index is not None:
+            # Overwrite existing entry
+            plant['journal'][existing_index] = new_entry
+            action_type = "Entry updated (same date/time found)"
+        else:
+            # Add new entry
+            plant['journal'].append(new_entry)
+            action_type = "New entry added"
+
+        # Sort journal array by date and time (newest first)
+        def parse_datetime(entry):
+            """Parse date and time for sorting"""
+            try:
+                date_str = entry.get('date', '')
+                time_str = entry.get('time', '')
+                # Parse date: "12/22/2025" or "M/D/YYYY"
+                dt = datetime.strptime(f"{date_str} {time_str}", "%m/%d/%Y %I:%M %p")
+                return dt
+            except:
+                # If parsing fails, put at end
+                return datetime.min
+
+        plant['journal'].sort(key=parse_datetime, reverse=True)
+
+        # Save updated plant data
+        success = data_manager.save_plant(plant_id, plant)
+
+        if not success:
+            return render_template(
+                'journal_update.html',
+                plants=data_manager.get_all_plants(),
+                error=True,
+                error_message="Failed to save plant data"
+            )
+
+        # Show success page
+        return render_template(
+            'journal_update.html',
+            success=True,
+            plant_id=plant_id,
+            plant_name=plant.get('plant', plant_id),
+            entry_date=entry_date,
+            entry_time=entry_time,
+            action_type=action_type,
+            total_entries=len(plant['journal']),
+            plants=[]
+        )
+
+    except Exception as e:
+        return render_template(
+            'journal_update.html',
+            plants=data_manager.get_all_plants(),
+            error=True,
+            error_message="Unexpected error occurred",
+            error_details=str(e)
+        )
+
+
 @app.route('/photo-prep', methods=['GET', 'POST'])
 def photo_prep():
     """
@@ -158,9 +300,9 @@ def photo_prep():
     Handles photo upload, compression, renaming, and organization
     """
     if request.method == 'GET':
-        # Get list of available plants for reference
+        # Get list of available plants for reference (exclude inactive)
         all_plants = data_manager.get_all_plants()
-        available_plant_ids = sorted([p.get('id') for p in all_plants if p.get('id')])
+        available_plant_ids = sorted([p.get('id') for p in all_plants if p.get('id') and p.get('status') != 'Inactive'])
 
         # Get date from URL parameter or use today
         date_param = request.args.get('date', '')
@@ -283,6 +425,34 @@ def photo_prep():
         # Generate output message
         output_lines = []
 
+        # Replace variables in global message with plant data
+        def replace_variables(text, plant_data):
+            """Replace {variable_name} with values from plant JSON"""
+            import re
+
+            # Find all {variable} patterns
+            pattern = r'\{([^}]+)\}'
+
+            def replace_match(match):
+                var_name = match.group(1)
+                # Look up variable in plant data
+                value = plant_data.get(var_name)
+
+                if value is None:
+                    return "NO VARIABLE"
+
+                # Convert to string
+                return str(value)
+
+            return re.sub(pattern, replace_match, text)
+
+        # Save original global message (with variables) for next plant
+        original_global_message = global_message
+
+        # Apply variable replacement to global message for OUTPUT only
+        if global_message:
+            global_message = replace_variables(global_message, plant)
+
         # Combine global and plant-specific messages
         combined_message = []
         if global_message:
@@ -315,22 +485,6 @@ def photo_prep():
             output_lines.append('')  # Blank line
             output_lines.append('')  # Extra blank line
             output_lines.append(f'It is now {current_time}.')
-            output_lines.append('')  # Blank line
-            output_lines.append('Perform your full Expert Horticulturist Assessment as you normally would.')
-            output_lines.append('')  # Blank line
-            output_lines.append('As part of that assessment, you must also evaluate whether watering is recommended at this moment.')
-            output_lines.append('')  # Blank line
-            output_lines.append('In making that determination, explicitly account for:')
-            output_lines.append('- the probe moisture reading and the time it was taken,')
-            output_lines.append('- the amount of time that has passed since that reading,')
-            output_lines.append("- today's weather, tonight's conditions, and tomorrow's forecast,")
-            output_lines.append('- my location in Loxahatchee, FL,')
-            output_lines.append('- and the behavior of this specific plant.')
-            output_lines.append('')  # Blank line
-            output_lines.append('If watering is recommended, state how much (using hose-based guidance) and explain why.')
-            output_lines.append('If watering is not recommended, explain why not.')
-            output_lines.append('')  # Blank line
-            output_lines.append('Do not narrow the assessment scope — this watering evaluation is one required component of the full assessment. Continue the workflow.')
 
         output_message = '\n'.join(output_lines)
 
@@ -342,7 +496,7 @@ def photo_prep():
             processed_count=len(processed_files),
             plant_folder=str(plant_folder),
             current_date=date_str,  # Use the date from the form, not today
-            global_message=global_message
+            global_message=original_global_message  # Pass ORIGINAL with variables, not replaced
         )
 
     except Exception as e:

@@ -9,10 +9,14 @@ Search for the National Weather Service point forecast for Loxahatchee, FL using
 
 1. Primary attempt (direct URL) - Open this URL: https://forecast.weather.gov/MapClick.php?lat=26.683680000000038&lon=-80.27976999999998
 
-- If the page loads and contains the seven-day forecast tiles, extract the first three tiles:
-   - Tile 1: Today (condition + High temperature)
-   - Tile 2: Tonight (condition + Low temperature)
-   - Tile 3: Tomorrow (condition + High temperature)
+- If the page loads and contains the seven-day forecast tiles:
+   - extract the first three tiles:
+     - Tile 1: Today (condition + High temperature)
+     - Tile 2: Tonight (condition + Low temperature)
+     - Tile 3: Tomorrow (condition + High temperature)
+   - But when a tile says something like: “Slight Chance of Showers” or “Chance of T-storms”
+     - Replace that wording with the actual precipitation percentage pulled from the Detailed Forecast rows below the tiles (e.g., 20%, 10%, etc.).
+   - If the wind gusts are expected to exceed 25 mph, include that information in the output alongside the standard Today/Tonight/Tomorrow format.
 
 2. Retry on failure
 - If the first attempt fails, retry up to three total attempts.
@@ -32,7 +36,7 @@ Search for the National Weather Service point forecast for Loxahatchee, FL using
 - Output must be a single markdown code block in exactly this format:
 
 ```markdown
-Today {mm/dd/yyyy}: {Today condition} with a high of {Today High}°F dropping to {Tonight Low}°F overnight. Tonight: {Tonight condition only}. Tomorrow: {Tomorrow condition} with a high of {Tomorrow High}°F.
+Today {mm/dd/yyyy}: {Today condition} with a high of {Today High}°F dropping to {Tonight Low}°F overnight. {precipitation and wind gusts where applicable}. Tonight: {Tonight condition only}. Tomorrow: {Tomorrow condition} with a high of {Tomorrow High}°F.
 ```
 6. After the code block, list the NWS page used as the source (direct URL or fallback URL).
 

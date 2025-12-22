@@ -13,7 +13,7 @@ class DataManager:
     Manages all JSON data operations for the garden dashboard
 
     Handles:
-    - Reading plant data from individual JSON files
+    - Reading plant data from individual JSON files (including inactive subdirectory)
     - Reading shared data (containers, products, meta)
     - Reading dashboard order configuration
     - Writing updates to JSON files
@@ -36,7 +36,10 @@ class DataManager:
 
     def get_all_plants(self) -> List[Dict]:
         """
-        Load all plant JSON files from the plants directory
+        Load all plant JSON files from plants directory and plants/inactive subdirectory
+
+        Scans both locations to support dynamic file organization without code changes.
+        Plants can be moved between active and inactive directories freely.
 
         Returns:
             List of plant dictionaries, sorted by plant name
@@ -47,7 +50,7 @@ class DataManager:
             print(f"Warning: Plants directory not found: {self.plants_dir}")
             return plants
 
-        # Read all JSON files in the plants directory
+        # Read all JSON files in the main plants directory
         for plant_file in self.plants_dir.glob('*.json'):
             try:
                 with open(plant_file, 'r', encoding='utf-8') as f:
@@ -58,59 +61,66 @@ class DataManager:
             except Exception as e:
                 print(f"Error reading {plant_file.name}: {e}")
 
-        # Sort by plant name for consistent display
-        plants.sort(key=lambda x: x.get('plant', ''))
+        # Also read from plants/inactive subdirectory if it exists
+        inactive_dir = self.plants_dir / 'inactive'
+        if inactive_dir.exists() and inactive_dir.is_dir():
+            for plant_file in inactive_dir.glob('*.json'):
+                try:
+                    with open(plant_file, 'r', encoding='utf-8') as f:
+                        plant_data = json.load(f)
+                        plants.append(plant_data)
+                except json.JSONDecodeError as e:
+                    print(f"Error parsing {plant_file.name}: {e}")
+                except Exception as e:
+                    print(f"Error reading {plant_file.name}: {e}")
 
+        # Sort by plant name
+        plants.sort(key=lambda x: x.get('plant', ''))
         return plants
 
-    def get_dashboard_order(self) -> Dict:
+    def get_dashboard_order(self) -> List[Dict]:
         """
         Load dashboard order configuration
 
         Returns:
-            Dashboard order dictionary with categories
+            List of category dictionaries with plant IDs
         """
         if not self.dashboard_order_file.exists():
             print(f"Warning: Dashboard order file not found: {self.dashboard_order_file}")
-            return {"categories": []}
+            return []
 
         try:
             with open(self.dashboard_order_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                data = json.load(f)
+                return data.get('categories', [])
         except json.JSONDecodeError as e:
             print(f"Error parsing dashboard_order.json: {e}")
-            return {"categories": []}
+            return []
         except Exception as e:
             print(f"Error reading dashboard_order.json: {e}")
-            return {"categories": []}
+            return []
 
     def get_ordered_plants(self) -> List[Dict]:
         """
-        Load plants ordered according to dashboard_order.json
+        Get plants organized by dashboard order
 
         Returns:
-            List of category dictionaries with their plants
+            List of category dictionaries containing plant data
         """
-        # Load all plants
-        all_plants = {plant['id']: plant for plant in self.get_all_plants()}
+        # Load all plants into a lookup dictionary
+        all_plants_list = self.get_all_plants()
+        all_plants = {plant['id']: plant for plant in all_plants_list if 'id' in plant}
 
         # Load dashboard order
-        dashboard_order = self.get_dashboard_order()
+        categories = self.get_dashboard_order()
 
-        # Build ordered structure
+        # Build ordered list with actual plant data
         ordered_categories = []
+        for category in categories:
+            category_data = category.copy()
+            category_data['plants'] = []
 
-        for category in dashboard_order.get('categories', []):
-            category_data = {
-                'parent_order': category.get('parent_order'),
-                'parent': category.get('parent'),
-                'name': category.get('name'),
-                'emoji': category.get('emoji'),
-                'anchor': category.get('anchor'),
-                'plants': []
-            }
-
-            # Add plants in order
+            # Look up each plant ID
             for plant_id in category.get('plants', []):
                 if plant_id in all_plants:
                     category_data['plants'].append(all_plants[plant_id])
@@ -125,31 +135,51 @@ class DataManager:
         """
         Load a specific plant by ID
 
+        Searches both plants/ and plants/inactive/ directories
+
         Args:
             plant_id: The plant's unique identifier (e.g., 'basil_001')
 
         Returns:
             Plant dictionary if found, None otherwise
         """
+        # Check main plants directory first
         plant_file = self.plants_dir / f'{plant_id}.json'
 
-        if not plant_file.exists():
-            print(f"Warning: Plant file not found: {plant_file}")
-            return None
+        if plant_file.exists():
+            try:
+                with open(plant_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except json.JSONDecodeError as e:
+                print(f"Error parsing {plant_file.name}: {e}")
+                return None
+            except Exception as e:
+                print(f"Error reading {plant_file.name}: {e}")
+                return None
 
-        try:
-            with open(plant_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except json.JSONDecodeError as e:
-            print(f"Error parsing {plant_file.name}: {e}")
-            return None
-        except Exception as e:
-            print(f"Error reading {plant_file.name}: {e}")
-            return None
+        # Check inactive subdirectory
+        inactive_file = self.plants_dir / 'inactive' / f'{plant_id}.json'
+
+        if inactive_file.exists():
+            try:
+                with open(inactive_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except json.JSONDecodeError as e:
+                print(f"Error parsing {inactive_file.name}: {e}")
+                return None
+            except Exception as e:
+                print(f"Error reading {inactive_file.name}: {e}")
+                return None
+
+        print(f"Warning: Plant file not found: {plant_id}.json")
+        return None
 
     def save_plant(self, plant_id: str, plant_data: Dict) -> bool:
         """
         Save plant data to a JSON file
+
+        Saves to plants/ directory by default.
+        To save to inactive/, manually specify the file path or move the file after saving.
 
         Args:
             plant_id: The plant's unique identifier

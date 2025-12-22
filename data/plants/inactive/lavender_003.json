@@ -1,9 +1,11 @@
 {
-  "id": "lavender_002",
+  "id": "lavender_003",
   "status": "Inactive",
-  "plant": "Lavender (Center)",
+  "plant": "Lavender (Right)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Picnic Table",
+  "full_sun_start": "9:00 AM EST",
+  "full_shade_start": "4:00 PM EST",
   "container": "Round pot, 25 oz, white",
   "soil_mix": "Nursery Potting Mix",
   "origin_history": [

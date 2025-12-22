@@ -17,11 +17,9 @@ Then throughout the day, I might send you more observations, questions, and foll
 
 To start, I will provide the **Initial Plant Data** JSON for context and history.
 
-Let me know when you're ready for me to upload the **Initial Plant Data**, and then we can begin our daily conversations.
-
 Here is the plant this channel is tracking:
-**Plant ID**: {plant_id}
-**Plant Name**: {plant_name}
+**Plant ID**: {id}
+**Plant Name**: {plant}
 
 ### **CRITICAL**
 

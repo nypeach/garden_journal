@@ -255,7 +255,7 @@ Each **Plant Data** profile must follow this structure:
     }
   ],
   "journal": [
-    {
+        {
       "date": "M/D/YYYY",
       "time": "H:MM AM/PM",
       "conditions": "Weather narrative (High/Low/Condition)",
@@ -283,7 +283,7 @@ Each **Plant Data** profile must follow this structure:
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "{plantname_001}-{YYYYMMDD}-{nn}.jpeg",
           "caption": "Complete sentence description",
           "tags": "comma, separated, keywords"
         }

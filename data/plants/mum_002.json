@@ -4,6 +4,8 @@
   "plant": "Yellow Chrysanthemum (Right)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Firepit",
+  "full_sun_start": "9:30 AM EST",
+  "full_shade_start": "4:15 PM EST",
   "container": "Round pot, 2 gal, black",
   "soil_mix": "Original Nursery Mix",
   "origin_history": [
@@ -29,9 +31,135 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "7:39 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.40",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "70.00",
+        "light": "79",
+        "rh_percent": "66",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "65.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows strong, uniform bud swelling across most stems with firm structure and healthy foliage. Reddish pigmentation observed on outer bud bracts is consistent with normal chrysanthemum pre-bloom coloration and not indicative of final flower color. Soil moisture continues to decline gradually following prior rainfall.",
+      "actions": "No watering and no fertilization today. Allow continued dry-down under sunny conditions.",
+      "next_steps": "Take the next probe reading on the following day to determine whether moderate watering is appropriate. Monitor buds for first petal emergence.",
+      "q_and_a_summary": "Confirmed that reddish tones seen on bud bracts are normal protective pigmentation; all blooms will open yellow.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251220-02.jpeg",
+          "caption": "Overhead view showing evenly distributed bud swell across the canopy.",
+          "tags": "chrysanthemum, buds, canopy"
+        },
+        {
+          "file_name": "mum_002-20251220-03.jpeg",
+          "caption": "Side view highlighting firm stems and multiple buds nearing first crack.",
+          "tags": "chrysanthemum, buds, stems"
+        },
+        {
+          "file_name": "mum_002-20251220-04.jpeg",
+          "caption": "Close-up of developing buds showing normal reddish bract pigmentation prior to yellow petal emergence.",
+          "tags": "chrysanthemum, buds, pre-bloom"
+        },
+        {
+          "file_name": "mum_002-20251220-05.jpeg",
+          "caption": "Close-up showing healthy foliage and intact bud structure near the container edge.",
+          "tags": "chrysanthemum, foliage, buds"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:08 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.50",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "180",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "69",
+        "fertility_percent": "21.0",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows widespread and coordinated bud initiation across nearly all active stems, with firm structure, healthy green foliage, and no signs of stress despite elevated moisture and nutrient levels from recent rainfall. Soil remains saturated, and the canopy is beginning to visually thicken as the plant transitions toward bloom.",
+      "actions": "Do not water today or tonight. Do not fertilize. Allow soil to dry naturally following recent rain and elevated moisture levels.",
+      "next_steps": "Recheck moisture late tomorrow morning or early afternoon. Plan selective watering only once moisture drops below 35\u201340 mS/cm. Monitor for bud swelling and early color development.",
+      "q_and_a_summary": "Confirmed that all buds on this chrysanthemum will bloom the same color, as chrysanthemums do not produce mixed-color flowers on a single plant.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251219-02.jpeg",
+          "caption": "Overhead view showing dense, evenly distributed bud clusters forming across the canopy.",
+          "tags": "chrysanthemum, buds, canopy, bloom-initiation"
+        },
+        {
+          "file_name": "mum_002-20251219-03.jpeg",
+          "caption": "Side view highlighting firm stems, short internodes, and multiple developing buds at stem tips and nodes.",
+          "tags": "chrysanthemum, buds, stems, structure"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:44 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.50",
+        "ec_mScm": "0.39",
+        "salt_mg_L": "198",
+        "moisture_mScm": "70.00",
+        "light": "89",
+        "rh_percent": "55",
+        "fertility_percent": "23.0",
+        "soil_temp_f": "72.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains structurally sound with firm stems and intact bud clusters despite a recent pot tip-over and significant rainfall earlier today. Foliage is turgid and green with no signs of wilting, breakage, or nutrient burn. Soil moisture and nutrient readings are elevated due to rain mobilizing existing nutrients, not over-application.",
+      "actions": "Do not water today. Do not apply fertilizer. Leave the plant undisturbed and allow the soil to dry naturally.",
+      "next_steps": "Allow soil to dry over the next 2\u20133 days. Recheck probe readings once moisture drops below 35 mS/cm. Monitor for continued bud swelling and canopy fill.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251218-02.jpeg",
+          "caption": "Overhead view showing intact bud clusters and stable plant structure after rainfall.",
+          "tags": "chrysanthemum, buds, canopy, recovery"
+        },
+        {
+          "file_name": "mum_002-20251218-03.jpeg",
+          "caption": "Side view highlighting firm stems and undisturbed bud development following a pot tip-over.",
+          "tags": "chrysanthemum, stems, buds, resilience"
+        },
+        {
+          "file_name": "mum_002-20251218-04.jpeg",
+          "caption": "Angled view showing healthy foliage and settled soil after heavy rain.",
+          "tags": "chrysanthemum, foliage, soil, stability"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "11:37 AM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.18",
@@ -73,7 +201,7 @@
     {
       "date": "12/15/2025",
       "time": "10:03 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.08",
@@ -91,7 +219,7 @@
       },
       "observations": "The plant shows strong, even regrowth across all pruned stems with firm structure and increasing bud cluster formation at stem tips and nodes. Leaf color is healthy green with no signs of wilting, burn, or disease. The canopy remains open but is filling in steadily, and the plant appears resilient despite windy conditions.",
       "actions": "Do not water today, as soil moisture is ideal and rain chances are present. Do not fertilize yet. Maintain current placement and allow wind exposure to pass naturally.",
-      "next_steps": "Recheck moisture in 1–2 days once winds subside. Plan a light fertilizer application at the next watering if moisture drops below 25 mS/cm. Monitor for continued canopy fill and bud enlargement.",
+      "next_steps": "Recheck moisture in 1\u20132 days once winds subside. Plan a light fertilizer application at the next watering if moisture drops below 25 mS/cm. Monitor for continued canopy fill and bud enlargement.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -115,7 +243,7 @@
     {
       "date": "12/12/2025",
       "time": "1:03 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.10",
@@ -152,7 +280,7 @@
     {
       "date": "12/11/2025",
       "time": "4:46 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 78°F.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 78\u00b0F.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.02",
@@ -199,7 +327,7 @@
     {
       "date": "12/10/2025",
       "time": "8:07 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.07",
@@ -216,7 +344,7 @@
         "ph": ""
       },
       "observations": "The plant shows noticeable fresh leaf expansion compared to the previous day, with firm stems and healthy green new growth emerging along the pruned framework. Bud clusters are present and beginning to swell. Soil texture is markedly improved following earlier loosening and the addition of fresh potting mix, with even hydration and good aeration. The soil pH now falls within an ideal chrysanthemum range, and moisture has settled into a healthy morning dry-down.",
-      "actions": "Do not water today. Do not apply any lime, as the current pH is ideal. Begin preparing to fertilize in 1–2 days using 2 teaspoons Purived 4-5-5 mixed into 2 cups of water, to be applied once moisture conditions are appropriate.",
+      "actions": "Do not water today. Do not apply any lime, as the current pH is ideal. Begin preparing to fertilize in 1\u20132 days using 2 teaspoons Purived 4-5-5 mixed into 2 cups of water, to be applied once moisture conditions are appropriate.",
       "next_steps": "Recheck moisture levels tomorrow morning. If moisture remains above 25 mS/cm, plan to fertilize tomorrow. Monitor for accelerated leaf expansion over the next several days as the plant moves through active vegetative refill.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -236,7 +364,7 @@
     {
       "date": "12/9/2025",
       "time": "9:39 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.69",
         "ec_mScm": "0.08",
@@ -254,7 +382,7 @@
       },
       "observations": "The soil surface shows a dense mat of fine roots typical of a root-bound chrysanthemum, and loosening the top layer has greatly improved aeration. Several slow-release fertilizer prills are visible within the soil, consistent with the original nursery media. The plant exhibits fresh, bright green new growth along stems and at the crown, with stems remaining firm and upright following the prior hard prune. Moisture is ideal, and pH has begun to rise slightly following soil loosening and the addition of fresh potting mix, even without any lime applied.",
       "actions": "Do not apply lime today, as the pH is already moving upward after soil loosening and the addition of fresh potting mix. Hold off on fertilizing until pH improves further. Lightly stabilize the loosened topsoil by gently firming the top half inch without compressing it.",
-      "next_steps": "Recheck probe readings tomorrow morning. Expect pH to continue increasing gradually over the next several days. Plan for a light fertilizer application in 5–7 days once pH approaches the mid-5 range. Monitor for continued leaf expansion and fresh shoot growth.",
+      "next_steps": "Recheck probe readings tomorrow morning. Expect pH to continue increasing gradually over the next several days. Plan for a light fertilizer application in 5\u20137 days once pH approaches the mid-5 range. Monitor for continued leaf expansion and fresh shoot growth.",
       "q_and_a_summary": "Confirmed that the metallic green balls in the soil are slow-release fertilizer prills. Explained the dense root mat as typical of heavily root-bound nursery chrysanthemums and affirmed that loosening the soil and adding potting mix were beneficial.",
       "follow_up": [],
       "photos": [
@@ -278,7 +406,7 @@
     {
       "date": "12/8/2025",
       "time": "12:44 PM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.37",
         "ec_mScm": "0.11",
@@ -296,7 +424,7 @@
       },
       "observations": "The plant shows clear signs of having passed its bloom cycle, with spent flowers and browned petals common for chrysanthemums at this stage. After pruning, the plant structure appears clean with firm stems and emerging new leaf buds. The soil surface is densely matted with old feeder roots typical of a root-bound nursery mum, making probe insertion difficult. Probe readings indicate strongly acidic soil that could impede nutrient uptake despite early signs of rebound.",
       "actions": "Apply 1 tablespoon of dolomite lime evenly across the soil surface to begin correcting severe acidity if lime is available. Avoid watering immediately afterward in favor of allowing rainfall or a later light watering to draw the amendment into the soil. Hold off on applying fertilizer until pH begins to improve.",
-      "next_steps": "Recheck probe readings in 24–48 hours after natural rainfall or a light watering. Begin light fertilization in 5–7 days once pH has risen toward the chrysanthemum-preferred range. Monitor for fresh green growth at leaf tips as a sign of recovery, and avoid watering unless moisture drops below 25 mS/cm.",
+      "next_steps": "Recheck probe readings in 24\u201348 hours after natural rainfall or a light watering. Begin light fertilization in 5\u20137 days once pH has risen toward the chrysanthemum-preferred range. Monitor for fresh green growth at leaf tips as a sign of recovery, and avoid watering unless moisture drops below 25 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [

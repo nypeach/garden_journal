@@ -4,12 +4,14 @@
   "plant": "Scotch Bonnet",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 7",
+  "full_sun_start": "9:10 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Pepper Window Box (Stake 1)",
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Seeds planted on Nov 12, 2025 in the left section.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" left",
-    "Shares the window box with Orange Cal Wonder and Jalapeño"
+    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left",
+    "Shares the window box with Orange Cal Wonder and Jalape\u00f1o"
   ],
   "whats_been_logged": "The plant moved through its early pre-germination phase with several soil challenges that required correction. Initial dryness, alkalinity, and later acidity were stabilized through careful pH adjustments and controlled watering. A temporary setback occurred when the soil became oversaturated and surface lime washed away, but moisture and chemistry were gradually brought back into balance. The bed now holds consistent warmth, improved fertility, and conditions that support reliable germination.",
   "current_stage": "Early Seedling (Cotyledons and First True Leaves)",
@@ -54,9 +56,167 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "7:49 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight. Patchy fog tonight. Mostly sunny tomorrow with a high near 82\u00b0F.",
+      "digital_probe": {
+        "ph": "6.0",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "144",
+        "moisture_mScm": "90.0",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "58.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling remains upright with expanding true leaves and healthy structure. Leaf shape is correct with light green coloration appropriate for early vegetative development. Soil is visibly saturated, consistent with the high moisture reading, but the plant shows no signs of wilting, stem softening, or stress.",
+      "actions": "Do not water. Allow soil moisture to decline naturally through today, tonight, and tomorrow morning. Avoid fertilizer or soil disturbance.",
+      "next_steps": "Take the next probe reading on the following check-in. Consider watering only once moisture drops into the mid-range and growth rate increases.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251220-02.jpeg",
+          "caption": "Overhead view showing upright Scotch Bonnet seedling with expanding true leaves in saturated soil conditions.",
+          "tags": "scotch-bonnet, seedling, early-vegetative, overhead"
+        },
+        {
+          "file_name": "pepper_001-20251220-03.jpeg",
+          "caption": "Side view showing healthy stem posture and leaf structure with no signs of water stress.",
+          "tags": "scotch-bonnet, seedling, stem-structure"
+        },
+        {
+          "file_name": "pepper_001-20251220-04.jpeg",
+          "caption": "Angled view of the planter showing moist soil surface and container environment.",
+          "tags": "scotch-bonnet, soil-moisture, container"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:15 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "147",
+        "moisture_mScm": "63.00",
+        "light": "99",
+        "rh_percent": "69",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet shows healthy early vegetative growth with expanding true leaves, upright posture, and appropriate coloration. Leaf structure is symmetrical and firm, and the stem remains strong and stable. Soil moisture is adequate with no signs of water stress or saturation.",
+      "actions": "Do not water tonight. Allow soil moisture to regulate naturally overnight and through tomorrow morning. Avoid fertilizer or soil disturbance.",
+      "next_steps": "Recheck moisture late morning or early afternoon tomorrow. Consider watering only if moisture drops below approximately 45\u201350 mS/cm. Continue monitoring leaf expansion and stem thickening.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251219-02.jpeg",
+          "caption": "Overhead view showing expanded true leaves and healthy early vegetative structure.",
+          "tags": "scotch-bonnet, seedling, early-vegetative, overhead"
+        },
+        {
+          "file_name": "pepper_001-20251219-03.jpeg",
+          "caption": "Side view showing upright stem, firm leaf posture, and stable soil conditions.",
+          "tags": "scotch-bonnet, seedling, stem-structure, soil"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:53 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "170",
+        "moisture_mScm": "60.00",
+        "light": "98",
+        "rh_percent": "57",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "87.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling shows continued healthy early vegetative growth with expanding true leaves, upright posture, and good leaf turgor. Soil moisture is evenly distributed following intermittent rainfall, with no signs of saturation, crusting, or runoff damage. The plant shows no stress response to the rain event.",
+      "actions": "Do not water. Allow sun and warmth to naturally regulate soil moisture after rainfall. Avoid fertilizer or soil disturbance.",
+      "next_steps": "Recheck moisture tomorrow or the following morning. Consider first light feeding only after moisture consistently stabilizes in the mid-range and leaf expansion accelerates.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251218-02.jpeg",
+          "caption": "Overhead view showing expanding true leaves and stable early vegetative growth after rainfall.",
+          "tags": "scotch-bonnet, seedling, true-leaves, overhead"
+        },
+        {
+          "file_name": "pepper_001-20251218-03.jpeg",
+          "caption": "Side angle showing upright stem structure and evenly moist soil surface following intermittent rain.",
+          "tags": "scotch-bonnet, seedling, soil-moisture, rain"
+        }
+      ]
+    },
+    {
+      "date": "12/16/2025",
+      "time": "11:54 AM",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "78.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalape\u00f1o seedlings remain upright and actively growing with expanding leaves and healthy structure. Foliage color is lighter green overall, consistent with declining fertility rather than stress. Soil surface had crusted from yesterday\u2019s wind, making probe insertion difficult; after readings were taken, the surface was fluffed to restore aeration and infiltration. No pest damage or wilting is visible.",
+      "actions": "Do not water today unless rain bypasses the planter entirely. Allow natural rainfall and restored soil aeration to rebalance moisture. No fertilizer is applied today.",
+      "next_steps": "Recheck moisture and fertility within 24\u201348 hours after rain. Plan a light feeding once moisture stabilizes and fertility remains below 10.0. Continue monitoring canopy color and density.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251216-02.jpeg",
+          "caption": "Wide view of the jalape\u00f1o cluster showing upright posture and evenly expanding leaves after wind exposure.",
+          "tags": "jalapeno, seedlings, vegetative-growth, planter"
+        },
+        {
+          "file_name": "pepper_003-20251216-03.jpeg",
+          "caption": "Side view highlighting healthy stem structure and lighter green foliage associated with declining fertility.",
+          "tags": "jalapeno, stems, foliage, nutrient-status"
+        },
+        {
+          "file_name": "pepper_003-20251216-04.jpeg",
+          "caption": "Overhead view showing canopy density and improved soil surface texture after light fluffing.",
+          "tags": "jalapeno, canopy, soil, aeration"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:33 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.32",
@@ -98,7 +258,7 @@
     {
       "date": "12/14/2025",
       "time": "2:33 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.27",
@@ -135,7 +295,7 @@
     {
       "date": "12/12/2025",
       "time": "1:14 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.25",
@@ -172,7 +332,7 @@
     {
       "date": "12/11/2025",
       "time": "4:51 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.31",
@@ -191,7 +351,7 @@
       "observations": "Seedlings remain upright with intact cotyledons and developing true leaves. Leaf color is healthy and uniform, and stems show no signs of collapse, pinching, or translucence. Soil appears dark, compacted, and oversaturated, consistent with the high moisture reading, but the plant itself does not show visible stress.",
       "actions": "Do not water. Leave the container in full sun to promote evaporation and soil dry-down. Avoid fertilizer or additional amendments while moisture remains high.",
       "next_steps": "Recheck moisture tomorrow morning. Do not water unless moisture drops below approximately 50 mS/cm. Monitor stems closely for any softening, which would indicate excess moisture stress.",
-      "q_and_a_summary": "Discussed whether the overnight low temperature of 53°F was concerning; confirmed it is above the danger threshold for Scotch Bonnet seedlings and not a current risk.",
+      "q_and_a_summary": "Discussed whether the overnight low temperature of 53\u00b0F was concerning; confirmed it is above the danger threshold for Scotch Bonnet seedlings and not a current risk.",
       "follow_up": [],
       "photos": [
         {
@@ -204,7 +364,7 @@
     {
       "date": "12/10/2025",
       "time": "8:34 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.27",
@@ -221,8 +381,8 @@
         "ph": ""
       },
       "observations": "Seedlings are upright and vigorous, with firm cotyledons and well-defined true leaves beginning to spread. Leaf coloration is bright and healthy, and stems show no signs of damping-off. Soil finally reflects an ideal moisture level with improved surface drying consistent with the 59.00 mS/cm reading. No pests or discoloration are present.",
-      "actions": "Do not water. Keep the planter in full sun throughout the day. No fertilizer or amendments needed. Optionally place the container near a wall tonight to buffer against the low temperature of 52°F.",
-      "next_steps": "Recheck moisture tomorrow morning. Do not water unless moisture falls below approximately 45–50 mS/cm. Monitor the continued development of the true leaves as the seedlings stabilize in the early seedling phase.",
+      "actions": "Do not water. Keep the planter in full sun throughout the day. No fertilizer or amendments needed. Optionally place the container near a wall tonight to buffer against the low temperature of 52\u00b0F.",
+      "next_steps": "Recheck moisture tomorrow morning. Do not water unless moisture falls below approximately 45\u201350 mS/cm. Monitor the continued development of the true leaves as the seedlings stabilize in the early seedling phase.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -236,7 +396,7 @@
     {
       "date": "12/9/2025",
       "time": "7:43 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.13",
         "ec_mScm": "0.42",
@@ -258,7 +418,7 @@
       "q_and_a_summary": "",
       "follow_up": [
         "[7:43 AM] Filled in the probe hole, fluffed the soil lightly, and added a small amount of Miracle-Gro Moisture Control Potting Mix to improve surface aeration.",
-        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+        "[4:38 PM] Sprayed Captain Jack\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
       ],
       "photos": [
         {
@@ -271,7 +431,7 @@
     {
       "date": "12/8/2025",
       "time": "10:51 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.31",
         "ec_mScm": "0.65",
@@ -288,7 +448,7 @@
         "ph": ""
       },
       "observations": "Seedlings remain upright, bright, and vigorous with no signs of damping-off or stress. Leaf color is healthy and the crown is stable. Soil appears saturated from recent and incoming rain, matching the moisture reading of 80.00 mS/cm. No pests or discoloration present.",
-      "actions": "Do not water. Gently loosen the upper 1/2 inch of soil around—but not touching—the seedlings to increase aeration. Keep planter in full sun between showers to support gradual drying.",
+      "actions": "Do not water. Gently loosen the upper 1/2 inch of soil around\u2014but not touching\u2014the seedlings to increase aeration. Keep planter in full sun between showers to support gradual drying.",
       "next_steps": "Recheck moisture late morning tomorrow after the rain clears. Water only after moisture falls below approximately 55 mS/cm. Monitor for early signs of overwatering such as pale cotyledons, crown softness, or stem translucence.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -303,7 +463,7 @@
     {
       "date": "12/7/2025",
       "time": "12:37 PM",
-      "conditions": "Patchy morning fog, then sunny with a high near 86°F. Light south wind 5–8 mph. Evening partly cloudy with a low near 66°F. Tomorrow mostly sunny with slight chance of afternoon showers.",
+      "conditions": "Patchy morning fog, then sunny with a high near 86\u00b0F. Light south wind 5\u20138 mph. Evening partly cloudy with a low near 66\u00b0F. Tomorrow mostly sunny with slight chance of afternoon showers.",
       "digital_probe": {
         "ph": "5.22",
         "ec_mScm": "0.43",
@@ -319,7 +479,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Soil moisture is high following recent hydration and atmospheric fog, rising to 90 mS/cm—well above the threshold for safe watering. pH remains stable in a mildly acidic range ideal for seedlings. Salt and EC values are normal and show no indication of buildup. Seedlings appear healthy with upright stems, bright cotyledons, and clearly emerging true leaves.",
+      "observations": "Soil moisture is high following recent hydration and atmospheric fog, rising to 90 mS/cm\u2014well above the threshold for safe watering. pH remains stable in a mildly acidic range ideal for seedlings. Salt and EC values are normal and show no indication of buildup. Seedlings appear healthy with upright stems, bright cotyledons, and clearly emerging true leaves.",
       "actions": "Do not water today.",
       "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only when moisture falls below ~55 mS/cm.",
       "q_and_a_summary": "User asked whether watering was needed. Determined that moisture was too high.",
@@ -335,7 +495,7 @@
     {
       "date": "12/4/2025",
       "time": "4:49 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.72",
         "ec_mScm": "1.05",
@@ -369,7 +529,7 @@
     {
       "date": "12/3/2025",
       "time": "1:41 PM",
-      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.09",
@@ -403,7 +563,7 @@
     {
       "date": "12/2/2025",
       "time": "10:45 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.46",
         "ec_mScm": "0.46",
@@ -499,7 +659,7 @@
     {
       "date": "11/28/2025",
       "time": "10:30 AM",
-      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight.",
+      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.71",
         "ec_mScm": "0.52",
@@ -577,7 +737,7 @@
     {
       "date": "11/25/2025",
       "time": "2:57 PM",
-      "conditions": "Sunny with high of 84°F dropping to 65°F.",
+      "conditions": "Sunny with high of 84\u00b0F dropping to 65\u00b0F.",
       "digital_probe": {
         "ph": "5.42",
         "ec_mScm": "0.33",
@@ -605,7 +765,7 @@
     {
       "date": "11/24/2025",
       "time": "10:41 AM",
-      "conditions": "Partly cloudy with high of 81°F.",
+      "conditions": "Partly cloudy with high of 81\u00b0F.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.26",
@@ -631,7 +791,7 @@
     {
       "date": "11/23/2025",
       "time": "1:17 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.33",
@@ -647,8 +807,8 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Soil conditions remain generally safe but show two notable shifts: pH has continued its slight downward trend from 5.40 to 5.33, still within a workable range but approaching the lower threshold for optimal germination, and moisture has dropped from 53 to 43 mS/cm, placing it on the drier end of the germination zone. The elevated surface temperature reading of 100.9°F reflects midday sun heating rather than true root-zone temperature and is not harmful at this stage. EC, salt, and fertility levels have decreased slightly in a manner consistent with lower moisture. Photos show a mildly drying soil surface with no pests, mold, or crusting. No seedling emergence observed yet, which remains normal as the plant enters the predicted germination window on Nov 24.",
-      "actions": "Do not add lime today. Do not water yet, but monitor the soil surface through the afternoon; apply 1/4 cup of water only if visible drying or early cracking appears. No overnight cover is needed with tonight's low at 63°F. Maintain full sun exposure.",
+      "observations": "Soil conditions remain generally safe but show two notable shifts: pH has continued its slight downward trend from 5.40 to 5.33, still within a workable range but approaching the lower threshold for optimal germination, and moisture has dropped from 53 to 43 mS/cm, placing it on the drier end of the germination zone. The elevated surface temperature reading of 100.9\u00b0F reflects midday sun heating rather than true root-zone temperature and is not harmful at this stage. EC, salt, and fertility levels have decreased slightly in a manner consistent with lower moisture. Photos show a mildly drying soil surface with no pests, mold, or crusting. No seedling emergence observed yet, which remains normal as the plant enters the predicted germination window on Nov 24.",
+      "actions": "Do not add lime today. Do not water yet, but monitor the soil surface through the afternoon; apply 1/4 cup of water only if visible drying or early cracking appears. No overnight cover is needed with tonight's low at 63\u00b0F. Maintain full sun exposure.",
       "next_steps": "Recheck pH and moisture tomorrow morning to monitor the trend. Look daily for first sprout emergence as the germination window opens. Consider a small watering intervention if moisture drops below the low 40s or if the soil surface shows clear signs of drying.",
       "q_and_a_summary": "Confirmed that the pH drift remains safe, moisture is slightly low but not yet requiring watering, and that today's high surface temperature is normal under midday sun.",
       "follow_up": [],
@@ -663,7 +823,7 @@
     {
       "date": "11/22/2025",
       "time": "10:39 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.40",
         "ec_mScm": "0.41",
@@ -679,9 +839,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Soil conditions remain stable and generally favorable for germination. Moisture at 53 mS/cm is ideal, and soil temperature at 79.9°F is well within the optimal germination range for Scotch Bonnets. pH has decreased from 6.0 to 5.4, a mild downward drift but still within a safe, workable range. EC, salt, and fertility values remain low and supportive for pre-emergence. The soil surface appears moist, even, and well aerated with no signs of mold, algae, or pests. Cloudy weather has not significantly affected soil warmth, and the planter remains well positioned for continued germination progress.",
-      "actions": "No watering or amendments today. Leave planter in full sun despite cloudy weather. Do not add lime yet; recheck pH tomorrow to monitor the trend. No overnight cover needed with the nighttime low at 67°F.",
-      "next_steps": "Recheck pH and moisture in 24 hours to confirm stability. Continue monitoring for the first signs of sprouting over the next 3–12 days. Only consider a mild pH adjustment if readings continue trending downward below 5.2.",
+      "observations": "Soil conditions remain stable and generally favorable for germination. Moisture at 53 mS/cm is ideal, and soil temperature at 79.9\u00b0F is well within the optimal germination range for Scotch Bonnets. pH has decreased from 6.0 to 5.4, a mild downward drift but still within a safe, workable range. EC, salt, and fertility values remain low and supportive for pre-emergence. The soil surface appears moist, even, and well aerated with no signs of mold, algae, or pests. Cloudy weather has not significantly affected soil warmth, and the planter remains well positioned for continued germination progress.",
+      "actions": "No watering or amendments today. Leave planter in full sun despite cloudy weather. Do not add lime yet; recheck pH tomorrow to monitor the trend. No overnight cover needed with the nighttime low at 67\u00b0F.",
+      "next_steps": "Recheck pH and moisture in 24 hours to confirm stability. Continue monitoring for the first signs of sprouting over the next 3\u201312 days. Only consider a mild pH adjustment if readings continue trending downward below 5.2.",
       "q_and_a_summary": "Confirmed that today's slight pH decline is safe and requires no immediate correction.",
       "follow_up": [],
       "photos": [
@@ -695,7 +855,7 @@
     {
       "date": "11/21/2025",
       "time": "3:23 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.48",
@@ -711,9 +871,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Soil chemistry has reached ideal germination conditions with a stable pH of 6.0, excellent moisture at 50 mS/cm, and warm soil temperature at 81.7°F. EC and salt levels remain low and safe for seeds, and fertility is appropriate for pre-emergence. Visual inspection shows an evenly moist, well-aerated soil surface with only minimal lime residue remaining, indicating successful buffering from earlier corrections. No pests, mold, or compaction are present, and the planter appears stable and well-lit. The Scotch Bonnet bed is now fully within the predicted germination window.",
-      "actions": "No watering today. Maintain full sun exposure during the day. Use a light overnight cover to keep soil temperatures above 65°F during the expected drop to 60°F. Do not apply additional lime or fertilizer.",
-      "next_steps": "Monitor soil moisture and pH in 24 hours. Continue checking for first signs of sprouting over the next 3–14 days. Remove any overnight cover early each morning to prevent overheating.",
+      "observations": "Soil chemistry has reached ideal germination conditions with a stable pH of 6.0, excellent moisture at 50 mS/cm, and warm soil temperature at 81.7\u00b0F. EC and salt levels remain low and safe for seeds, and fertility is appropriate for pre-emergence. Visual inspection shows an evenly moist, well-aerated soil surface with only minimal lime residue remaining, indicating successful buffering from earlier corrections. No pests, mold, or compaction are present, and the planter appears stable and well-lit. The Scotch Bonnet bed is now fully within the predicted germination window.",
+      "actions": "No watering today. Maintain full sun exposure during the day. Use a light overnight cover to keep soil temperatures above 65\u00b0F during the expected drop to 60\u00b0F. Do not apply additional lime or fertilizer.",
+      "next_steps": "Monitor soil moisture and pH in 24 hours. Continue checking for first signs of sprouting over the next 3\u201314 days. Remove any overnight cover early each morning to prevent overheating.",
       "q_and_a_summary": "Confirmed that soil conditions are now optimal for germination and recommended no amendments, with only an overnight cover due to cooler temperatures.",
       "follow_up": [],
       "photos": [
@@ -727,7 +887,7 @@
     {
       "date": "11/20/2025",
       "time": "11:26 AM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.91",
         "ec_mScm": "0.82",
@@ -743,9 +903,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "No sprouts observed. Soil moisture at 61 mS/cm is moderately high but no longer waterlogged. pH has risen to 5.91, close to the ideal germination range for Scotch Bonnet. Soil temperature is excellent at 83.1°F, well within the preferred range for germination. Remaining lime is visible but mostly dissolved into the soil surface. Salt, EC, fertility, and light levels are appropriate, and there are no signs of pests or mold. Overall soil conditions are now aligned for successful germination.",
-      "actions": "No watering needed today. Do not add more lime. Maintain full sun exposure. Use a light overnight cover only if temperatures are forecast to drop below about 63–64°F.",
-      "next_steps": "Recheck pH and moisture in 24 hours. Continue monitoring soil temperature and watch for first germination signs over the next 7–14 days.",
+      "observations": "No sprouts observed. Soil moisture at 61 mS/cm is moderately high but no longer waterlogged. pH has risen to 5.91, close to the ideal germination range for Scotch Bonnet. Soil temperature is excellent at 83.1\u00b0F, well within the preferred range for germination. Remaining lime is visible but mostly dissolved into the soil surface. Salt, EC, fertility, and light levels are appropriate, and there are no signs of pests or mold. Overall soil conditions are now aligned for successful germination.",
+      "actions": "No watering needed today. Do not add more lime. Maintain full sun exposure. Use a light overnight cover only if temperatures are forecast to drop below about 63\u201364\u00b0F.",
+      "next_steps": "Recheck pH and moisture in 24 hours. Continue monitoring soil temperature and watch for first germination signs over the next 7\u201314 days.",
       "q_and_a_summary": "Confirmed that soil conditions now align with germination requirements and advised against adding more lime or water today.",
       "follow_up": [],
       "photos": [
@@ -759,7 +919,7 @@
     {
       "date": "11/19/2025",
       "time": "9:23 AM",
-      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.05",
         "ec_mScm": "0.53",
@@ -775,9 +935,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "No sprouts visible. Lime from the previous pH correction remains on the soil surface but is starting to break down. pH has increased slightly compared with earlier readings but is still below the optimal range for germination. Moisture has decreased compared with the most waterlogged days and is trending closer to ideal, though still moderately high. Soil temperature has improved to 71.1°F and is expected to warm further through the day. There are no signs of pests, mold, or surface crusting.",
+      "observations": "No sprouts visible. Lime from the previous pH correction remains on the soil surface but is starting to break down. pH has increased slightly compared with earlier readings but is still below the optimal range for germination. Moisture has decreased compared with the most waterlogged days and is trending closer to ideal, though still moderately high. Soil temperature has improved to 71.1\u00b0F and is expected to warm further through the day. There are no signs of pests, mold, or surface crusting.",
       "actions": "No watering needed in the morning. Allow the soil to continue drying naturally. Do not add additional lime or fertilizer. Maintain the planter in full sun to encourage soil warming.",
-      "next_steps": "Recheck pH and moisture in 24 hours. Monitor soil temperature through the afternoon. Cover only if night temperatures fall below about 65°F and continue watching for first germination signs over the next 1–2 weeks.",
+      "next_steps": "Recheck pH and moisture in 24 hours. Monitor soil temperature through the afternoon. Cover only if night temperatures fall below about 65\u00b0F and continue watching for first germination signs over the next 1\u20132 weeks.",
       "q_and_a_summary": "Advised not to apply additional lime until the soil dries and a new pH reading can be taken after accidental heavy watering.",
       "follow_up": [
         "[2:52 PM] Excess water applied accidentally; soil became fully saturated and surface lime dissolved. Recommended delaying additional lime until soil dries and pH can be rechecked."
@@ -798,7 +958,7 @@
     {
       "date": "11/18/2025",
       "time": "11:41 AM",
-      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.30",
         "ec_mScm": "1.03",
@@ -814,9 +974,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "No sprouts observed. Soil shows visible lime from the prior pH correction. Moisture remains high at 70 mS/cm, still above ideal but less extreme than earlier saturation. pH has risen from the previous day but is still slightly below the target range for Scotch Bonnet germination. The recorded soil temperature from the morning reading was 64.6°F, cool enough to slow germination, but the day has warmed toward 80°F which will help bring the soil into range. No pests or mold are visible on the soil surface.",
+      "observations": "No sprouts observed. Soil shows visible lime from the prior pH correction. Moisture remains high at 70 mS/cm, still above ideal but less extreme than earlier saturation. pH has risen from the previous day but is still slightly below the target range for Scotch Bonnet germination. The recorded soil temperature from the morning reading was 64.6\u00b0F, cool enough to slow germination, but the day has warmed toward 80\u00b0F which will help bring the soil into range. No pests or mold are visible on the soil surface.",
       "actions": "No watering needed today because the soil is still quite moist. Allow the soil to dry naturally. Do not add more lime or fertilizer today.",
-      "next_steps": "Recheck pH and moisture in about 24 hours. Continue allowing the soil to warm in full sun during the day. Cover overnight only if temperatures drop below about 65°F, and monitor for first signs of germination over the next 7–21 days.",
+      "next_steps": "Recheck pH and moisture in about 24 hours. Continue allowing the soil to warm in full sun during the day. Cover overnight only if temperatures drop below about 65\u00b0F, and monitor for first signs of germination over the next 7\u201321 days.",
       "q_and_a_summary": "Clarified that the cooler soil temperature on the reading would improve through the day as the bed warmed, supporting germination.",
       "follow_up": [],
       "photos": [
@@ -830,7 +990,7 @@
     {
       "date": "11/17/2025",
       "time": "8:59 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.83",
         "ec_mScm": "1.07",
@@ -846,9 +1006,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "No sprouts observed. Soil is very wet, with moisture at 80 mS/cm, indicating saturated conditions. pH is strongly acidic at 4.83, well below the ideal range for peppers. Soil temperature is cool at 61.7°F, below the germination threshold for Scotch Bonnets. Fertility and EC are moderate and safe for seeds, while light and humidity readings are appropriate. No pests or surface mold are visible.",
+      "observations": "No sprouts observed. Soil is very wet, with moisture at 80 mS/cm, indicating saturated conditions. pH is strongly acidic at 4.83, well below the ideal range for peppers. Soil temperature is cool at 61.7\u00b0F, below the germination threshold for Scotch Bonnets. Fertility and EC are moderate and safe for seeds, while light and humidity readings are appropriate. No pests or surface mold are visible.",
       "actions": "Allow the soil to dry naturally before watering again. Apply 1 tablespoon of dolomitic lime evenly over the Scotch Bonnet section to gradually raise the pH, leaving the lime on the soil surface rather than mixing it in. No other amendments needed today.",
-      "next_steps": "Recheck pH and moisture in 24–48 hours. Use a light overnight cover only if night temperatures are forecast to fall below about 65°F. Maintain full sun exposure during the day to help warm the soil toward germination range.",
+      "next_steps": "Recheck pH and moisture in 24\u201348 hours. Use a light overnight cover only if night temperatures are forecast to fall below about 65\u00b0F. Maintain full sun exposure during the day to help warm the soil toward germination range.",
       "q_and_a_summary": "Explained that low soil temperature, very wet soil, and acidic pH were preventing sprouting and recommended lime and drying.",
       "follow_up": [],
       "photos": []
@@ -856,7 +1016,7 @@
     {
       "date": "11/16/2025",
       "time": "10:17 AM",
-      "conditions": "Mild morning around 73°F with full sun and clear weather.",
+      "conditions": "Mild morning around 73\u00b0F with full sun and clear weather.",
       "digital_probe": {
         "ph": "4.30",
         "ec_mScm": "0.61",
@@ -872,9 +1032,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "No sprouts visible. Soil is evenly moist with a moisture reading of 59 mS/cm. Digital probe shows pH at 4.30, indicating strongly acidic soil that is not suitable for Scotch Bonnet germination. EC, salt, and fertility are moderate and appropriate for pre-sprout conditions, and soil temperature around 72.9°F is within the workable range for germination once pH is corrected. No pests or surface issues are present.",
-      "actions": "Apply about 1 tablespoon of dolomitic lime as a surface top-dressing over the Scotch Bonnet section to begin raising soil pH toward the 6.0–6.8 range. Do not mix the lime into the soil and do not water extra beyond the normal schedule.",
-      "next_steps": "Recheck pH and moisture in 24–48 hours to gauge the effect of the lime. Maintain full sun exposure during the day and cover only if night temperatures fall below about 65°F.",
+      "observations": "No sprouts visible. Soil is evenly moist with a moisture reading of 59 mS/cm. Digital probe shows pH at 4.30, indicating strongly acidic soil that is not suitable for Scotch Bonnet germination. EC, salt, and fertility are moderate and appropriate for pre-sprout conditions, and soil temperature around 72.9\u00b0F is within the workable range for germination once pH is corrected. No pests or surface issues are present.",
+      "actions": "Apply about 1 tablespoon of dolomitic lime as a surface top-dressing over the Scotch Bonnet section to begin raising soil pH toward the 6.0\u20136.8 range. Do not mix the lime into the soil and do not water extra beyond the normal schedule.",
+      "next_steps": "Recheck pH and moisture in 24\u201348 hours to gauge the effect of the lime. Maintain full sun exposure during the day and cover only if night temperatures fall below about 65\u00b0F.",
       "q_and_a_summary": "Advised that the pH was too low and recommended a light dolomitic lime application as a corrective step.",
       "follow_up": [],
       "photos": []
@@ -882,7 +1042,7 @@
     {
       "date": "11/13/2025",
       "time": "9:13 AM",
-      "conditions": "Mostly sunny morning around 67°F with full sun and clear weather.",
+      "conditions": "Mostly sunny morning around 67\u00b0F with full sun and clear weather.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -895,10 +1055,10 @@
       },
       "analog_probe": {
         "fertility": "end of yellow toward green",
-        "moisture": "6–7 (green zone)",
+        "moisture": "6\u20137 (green zone)",
         "ph": "6.0 (green, ideal)"
       },
-      "observations": "No sprouts observed. Analog readings show fertility at the end of yellow toward green, indicating that nutrients are beginning to move into a comfortable range. Moisture at 6–7 is in the ideal green zone, and pH is around 6.0, which is excellent for peppers. The soil surface appears evenly moist without signs of crusting or saturation.",
+      "observations": "No sprouts observed. Analog readings show fertility at the end of yellow toward green, indicating that nutrients are beginning to move into a comfortable range. Moisture at 6\u20137 is in the ideal green zone, and pH is around 6.0, which is excellent for peppers. The soil surface appears evenly moist without signs of crusting or saturation.",
       "actions": "Applied approximately one-third of a quart of diluted balanced fertilizer solution to the Scotch Bonnet section to gently boost fertility while maintaining good moisture and pH. No additional watering or amendments applied.",
       "next_steps": "Allow the soil to absorb the fertilizer and avoid further feeding until seedlings emerge and produce true leaves. Recheck moisture with the analog probe in the next day or two and water only if the reading drops out of the green zone.",
       "q_and_a_summary": "Clarified that only one-third of a quart diluted fertilizer was applied with no additional half-cup added.",
@@ -908,7 +1068,7 @@
     {
       "date": "11/12/2025",
       "time": "9:09 AM",
-      "conditions": "Cool clear morning around 60°F with full sun.",
+      "conditions": "Cool clear morning around 60\u00b0F with full sun.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -926,7 +1086,7 @@
       },
       "observations": "Seeds were planted approximately 1/4 inch deep in the left section of the pepper box. Analog readings showed low fertility in the yellow zone, very dry soil in the red zone, and alkaline pH around 8.0. The planter was set in full sun with three stakes installed for future plant support. No sprouts were expected yet on this first day after sowing.",
       "actions": "Applied a diluted vinegar solution (about 1.5 teaspoons vinegar in 1/2 gallon of water) across the pepper box to gently lower pH and rehydrate the soil. Considered the idea of using a clear plastic cover but left the planter uncovered during the warm daytime conditions.",
-      "next_steps": "Recheck pH and moisture within 48–72 hours as the vinegar solution equilibrates in the soil. Use a clear plastic teepee cover only on cooler nights if temperatures drop below about 65°F. Monitor the bed over the coming 2–4 weeks for the first signs of germination.",
+      "next_steps": "Recheck pH and moisture within 48\u201372 hours as the vinegar solution equilibrates in the soil. Use a clear plastic teepee cover only on cooler nights if temperatures drop below about 65\u00b0F. Monitor the bed over the coming 2\u20134 weeks for the first signs of germination.",
       "q_and_a_summary": "Confirmed the vinegar dose was safe and recommended using a cover only on cooler nights rather than in warm daytime sun.",
       "follow_up": [],
       "photos": [

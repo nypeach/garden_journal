@@ -3,12 +3,14 @@
   "status": "Active",
   "plant": "Cilantro",
   "physical_location": "Loxahatchee, FL",
-  "garden_location": "Panel 11",
+  "garden_location": "Panel 12",
+  "full_sun_start": "10:43 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Window Box",
   "soil_mix": "Miracle-Gro Potting Mix, Sand/Soil",
   "origin_history": [
     "Seeds purchased and planted on Oct 8, 2025.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" right",
+    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" right",
     "Shares window planter with Arugula"
   ],
   "whats_been_logged": "The plant transitioned from a lean sand-based soil to a more supportive mix with improved moisture retention and structure. Early stress from dryness and high alkalinity resolved as pH stabilized and seedlings showed consistent upright growth. Fertility remains modest but adequate for early stages, and leaf color has steadily improved. The plant has responded reliably to adjustments and is progressing toward fuller true-leaf development.",
@@ -32,7 +34,7 @@
       "date_range": "Dec 3 - Dec 6, 2025"
     },
     {
-      "what_i_should_see": "4–5\" Stems Ready For Harvest",
+      "what_i_should_see": "4\u20135\" Stems Ready For Harvest",
       "date_range": "Dec 7 - Dec 14, 2025"
     },
     {
@@ -42,9 +44,115 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "8:08 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "128",
+        "moisture_mScm": "62.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "61.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro shows vigorous, upright growth with evenly green foliage and clear stem lengthening beneath the canopy. Soil moisture is balanced with no signs of saturation, wilting, or disease.",
+      "actions": "Do not water or fertilize today. Allow remaining soil moisture to be fully utilized.",
+      "next_steps": "Take the next probe reading tomorrow and water only if moisture falls below 30 mS/cm. Continue selective harvesting of outer stems as desired.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251220-02.jpeg",
+          "caption": "Overhead view showing balanced moisture, healthy leaf color, and dense cilantro growth.",
+          "tags": "cilantro, overhead, healthy-growth, window-box"
+        },
+        {
+          "file_name": "cilantro_001-20251220-03.jpeg",
+          "caption": "Angled view highlighting upright stems and active leaf expansion under full sun.",
+          "tags": "cilantro, stems, foliage, active-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:23 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "172",
+        "moisture_mScm": "60.00",
+        "light": "89",
+        "rh_percent": "66",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "74.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro shows healthy, upright growth with dense foliage and firm stems. Soil moisture has stabilized following earlier rain, with no signs of saturation stress, wilting, or disease. Minor outer leaf paling is consistent with normal canopy density.",
+      "actions": "Do not water or fertilize today. Allow natural overnight dry-down.",
+      "next_steps": "Recheck moisture tomorrow late morning and water only if readings fall below 30 mS/cm. Continue selective harvesting of outer stems as desired.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251219-02.jpeg",
+          "caption": "Overhead view of cilantro showing balanced moisture, upright stems, and healthy green foliage.",
+          "tags": "cilantro, overhead, healthy-growth, window-box"
+        },
+        {
+          "file_name": "cilantro_001-20251219-03.jpeg",
+          "caption": "Angled view showing dense leaf clusters and stable soil moisture following post-rain dry-down.",
+          "tags": "cilantro, foliage, soil-moisture, healthy"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "1:10 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "100.00",
+        "light": "84",
+        "rh_percent": "51",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains healthy and upright with dense, well-formed leaves and firm stems. Soil is fully saturated following several hours of morning rain, but no signs of stress, yellowing, or fungal issues are present.",
+      "actions": "Do not water or fertilize today. Harvest outer stems only if desired, leaving the central crown intact.",
+      "next_steps": "Recheck moisture tomorrow afternoon after natural dry-down. Resume watering only once moisture falls below 30 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251218-02.jpeg",
+          "caption": "Overhead view of cilantro showing healthy, upright foliage and saturated soil following morning rainfall.",
+          "tags": "cilantro, overhead, saturated-soil, healthy-growth"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "12:07 PM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "8.30",
         "ec_mScm": "0.21",
@@ -76,7 +184,7 @@
     {
       "date": "12/14/2025",
       "time": "2:44 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.14",
@@ -108,7 +216,7 @@
     {
       "date": "12/12/2025",
       "time": "1:29 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "8.90",
         "ec_mScm": "0.01",
@@ -145,7 +253,7 @@
     {
       "date": "12/11/2025",
       "time": "5:02 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.06",
@@ -163,7 +271,7 @@
       },
       "observations": "The cilantro shows dense, upright growth with bright green, turgid leaves and no signs of stress or yellowing. Soil structure appears improved after filling the probe hole, light fluffing, and incorporating fresh Miracle-Gro Moisture Control Potting Mix, with even surface moisture and good root-zone contact.",
       "actions": "Do not water today. Maintain current placement and allow the container to continue a gentle dry-down.",
-      "next_steps": "Recheck moisture in 1–2 days. Begin selective harvesting once stems reach 4–5 inches tall. Monitor nighttime temperatures but no protection is needed above 45°F.",
+      "next_steps": "Recheck moisture in 1\u20132 days. Begin selective harvesting once stems reach 4\u20135 inches tall. Monitor nighttime temperatures but no protection is needed above 45\u00b0F.",
       "q_and_a_summary": "Discussed whether overnight temperatures in the low 50s were a concern; confirmed they are safe and beneficial for cilantro, helping slow bolting and support leaf quality.",
       "follow_up": [],
       "photos": [
@@ -182,7 +290,7 @@
     {
       "date": "12/10/2025",
       "time": "8:55 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.20",
@@ -224,7 +332,7 @@
     {
       "date": "12/9/2025",
       "time": "8:03 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.69",
         "ec_mScm": "0.12",
@@ -240,12 +348,12 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Cilantro foliage is upright, vibrant, and continuing steady leaf mass expansion under cool favorable conditions. Soil moisture has normalized following yesterday’s saturation, with readings showing an ideal mid-range value and improved surface structure. The probe hole was filled, the top layer gently fluffed, and a small amount of Miracle-Gro Moisture Control Potting Mix was incorporated into the surface, resulting in more even aeration and hydration across the planter. No signs of wilt, nutrient stress, or disease were observed.",
+      "observations": "Cilantro foliage is upright, vibrant, and continuing steady leaf mass expansion under cool favorable conditions. Soil moisture has normalized following yesterday\u2019s saturation, with readings showing an ideal mid-range value and improved surface structure. The probe hole was filled, the top layer gently fluffed, and a small amount of Miracle-Gro Moisture Control Potting Mix was incorporated into the surface, resulting in more even aeration and hydration across the planter. No signs of wilt, nutrient stress, or disease were observed.",
       "actions": "Do not water this morning, as moisture is ideal. Avoid fertilizing today as nutrient levels remain appropriate. Maintain current placement with exposure to mixed sun and clouds.",
       "next_steps": "Recheck moisture this afternoon if sun becomes strong; water only if moisture falls below 30 mS/cm. Expect noticeable leaf thickening over the next 48 hours due to excellent temperature and hydration balance.",
       "q_and_a_summary": "",
       "follow_up": [
-        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+        "[4:38 PM] Sprayed Captain Jack\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
       ],
       "photos": [
         {
@@ -268,7 +376,7 @@
     {
       "date": "12/8/2025",
       "time": "11:11 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.65",
         "ec_mScm": "0.21",
@@ -310,7 +418,7 @@
     {
       "date": "12/7/2025",
       "time": "12:57 PM",
-      "conditions": "Patchy fog early, becoming sunny with a high near 86°F. Light breeze with dry air contributing to faster surface evaporation. Overnight low expected around 66°F.",
+      "conditions": "Patchy fog early, becoming sunny with a high near 86\u00b0F. Light breeze with dry air contributing to faster surface evaporation. Overnight low expected around 66\u00b0F.",
       "digital_probe": {
         "ph": "6.03",
         "ec_mScm": "0.09",
@@ -349,7 +457,7 @@
     {
       "date": "12/3/2025",
       "time": "1:28 PM",
-      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "9.66",
         "ec_mScm": "0.09",
@@ -386,7 +494,7 @@
     {
       "date": "12/2/2025",
       "time": "10:54 AM",
-      "conditions": "Mostly cloudy with temperatures reaching 84°F and dropping to 67°F overnight. Wind gusts up to 19 mph with intermittent full sun.",
+      "conditions": "Mostly cloudy with temperatures reaching 84\u00b0F and dropping to 67\u00b0F overnight. Wind gusts up to 19 mph with intermittent full sun.",
       "digital_probe": {
         "ph": "5.89",
         "ec_mScm": "0.18",
@@ -423,7 +531,7 @@
     {
       "date": "12/1/2025",
       "time": "5:21 PM",
-      "conditions": "Mostly cloudy with temperatures in the mid-70s°F and elevated humidity. Slight chance of evening showers.",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s\u00b0F and elevated humidity. Slight chance of evening showers.",
       "digital_probe": {
         "ph": "6.14",
         "ec_mScm": "0.19",
@@ -465,7 +573,7 @@
     {
       "date": "11/28/2025",
       "time": "10:59 AM",
-      "conditions": "Cloudy with a high of 72°F and a low of 57°F.",
+      "conditions": "Cloudy with a high of 72\u00b0F and a low of 57\u00b0F.",
       "digital_probe": {
         "ph": "13.15",
         "ec_mScm": "0.12",
@@ -502,7 +610,7 @@
     {
       "date": "11/27/2025",
       "time": "1:48 PM",
-      "conditions": "Cloudy with a high of 81°F and rain expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81\u00b0F and rain expected around 6:00 PM.",
       "digital_probe": {
         "ph": "6.21",
         "ec_mScm": "0.20",
@@ -539,7 +647,7 @@
     {
       "date": "11/24/2025",
       "time": "12:06 PM",
-      "conditions": "Partly cloudy with a high of 81°F and low of 61°F. Soil was very dry in the morning.",
+      "conditions": "Partly cloudy with a high of 81\u00b0F and low of 61\u00b0F. Soil was very dry in the morning.",
       "digital_probe": {
         "ph": "7.09",
         "ec_mScm": "0.05",
@@ -557,7 +665,7 @@
       },
       "observations": "Cilantro seedlings improved significantly after soil fluffing and rehydration.",
       "actions": "Light morning watering performed before readings.",
-      "next_steps": "Continue monitoring dryness; water when moisture falls below 25–30.",
+      "next_steps": "Continue monitoring dryness; water when moisture falls below 25\u201330.",
       "q_and_a_summary": "",
       "follow_up": [
         "[11:23 AM] Gave it a good soaking",
@@ -579,7 +687,7 @@
     {
       "date": "11/23/2025",
       "time": "1:49 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.26",
         "ec_mScm": "0.18",
@@ -597,7 +705,7 @@
       },
       "observations": "Cilantro seedlings continue to improve following the prior day's hydration recovery. Soil moisture is ideal and evenly distributed, with no crusting or dryness visible. True leaves are expanding with bright, healthy green coloration across both the denser right cluster and the improving left cluster. Fertility at 9.0% indicates soluble nutrients are now accessible after rehydration. pH readings remain excellent. Seedlings show no signs of stress despite full sun and warm soil temperature.",
       "actions": "No watering or fertilizing performed at the time of this reading.",
-      "next_steps": "Optionally give a light watering in the evening depending on moisture levels. Continue twice-daily watering on sunny days until midday moisture remains above 25–30 mS/cm. Avoid fertilizing for now, as current fertility is adequate. Monitor leaf expansion over the next 24–48 hours for transition into the Full True Leaves stage.",
+      "next_steps": "Optionally give a light watering in the evening depending on moisture levels. Continue twice-daily watering on sunny days until midday moisture remains above 25\u201330 mS/cm. Avoid fertilizing for now, as current fertility is adequate. Monitor leaf expansion over the next 24\u201348 hours for transition into the Full True Leaves stage.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -611,7 +719,7 @@
     {
       "date": "11/22/2025",
       "time": "11:14 AM",
-      "conditions": "Cool, sunny morning around 72–73°F with RH near 42%.",
+      "conditions": "Cool, sunny morning around 72\u201373\u00b0F with RH near 42%.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.03",
@@ -629,7 +737,7 @@
       },
       "observations": "Cilantro seedlings remain upright with good color, but the soil is critically dry. Moisture has dropped to zero again, preventing the probe from registering pH and indicating dryness throughout the root zone. Fertility, EC, and salt values are extremely low due to the lack of moisture. Soil surface appears crusted and pale, consistent with rapid evaporation from the sand/topsoil mix. Seedlings show no stress yet, but they are at the threshold where dehydration would quickly impact growth if not corrected.",
       "actions": "Apply slow, thorough soak to rehydrate both the surface layer and root zone, ideally in two passes to allow the sand/topsoil mix to absorb water evenly. Gently fluff soil in areas with visible gaps, without disturbing roots, to improve moisture penetration and reduce surface crusting.",
-      "next_steps": "Recheck moisture within 20–30 minutes after watering to confirm hydration has reached depth. Continue with twice-daily watering while conditions are warm and the soil retains moisture poorly. Avoid fertilizing until moisture stabilizes for at least 24–48 hours. Monitor for any signs of wilt or leaf curl in the afternoon.",
+      "next_steps": "Recheck moisture within 20\u201330 minutes after watering to confirm hydration has reached depth. Continue with twice-daily watering while conditions are warm and the soil retains moisture poorly. Avoid fertilizing until moisture stabilizes for at least 24\u201348 hours. Monitor for any signs of wilt or leaf curl in the afternoon.",
       "q_and_a_summary": "",
       "follow_up": [
         "[11:23 AM] Applied thorough soaking to rehydrate the sand/topsoil mix.",
@@ -646,7 +754,7 @@
     {
       "date": "11/21/2025",
       "time": "3:30 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.06",
@@ -664,7 +772,7 @@
       },
       "observations": "Cilantro seedlings appear healthy, upright, and expanding their early true leaves with consistent bright green color. Moisture has improved significantly since the previous day's critically low reading but remains on the drier side for seedlings, especially given warm afternoon temperatures. Fertility is still very low, though appropriate for this stage as long as feeding is timed carefully. pH is slightly higher than recent days but still acceptable, and soil temperature reflects typical afternoon heating. No signs of stress, wilting, pests, or nutrient deficiency are visible.",
       "actions": "No watering or fertilizing performed at the time of the reading. Allow the soil to cool and stabilize through the evening, and plan watering based on morning moisture levels.",
-      "next_steps": "Recheck moisture tomorrow morning to ensure the planter does not drift back toward dryness. Plan a very light fertilizer application in 2–3 days once soil moisture is consistently stable. Continue ensuring the planter is protected if overnight temperatures drop to 45°F or below.",
+      "next_steps": "Recheck moisture tomorrow morning to ensure the planter does not drift back toward dryness. Plan a very light fertilizer application in 2\u20133 days once soil moisture is consistently stable. Continue ensuring the planter is protected if overnight temperatures drop to 45\u00b0F or below.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -678,7 +786,7 @@
     {
       "date": "11/20/2025",
       "time": "1:26 PM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.85",
         "ec_mScm": "0.04",
@@ -696,7 +804,7 @@
       },
       "observations": "Seedlings remain upright with expanding true leaves and healthy green color, but the soil is critically dry and outer seedlings show slowed growth. Fertility readings remain very low, though pH is stable and ideal. No signs of pests, disease, or stress besides dryness.",
       "actions": "Apply thorough watering to restore moisture throughout the root zone. Do not fertilize today due to dry soil conditions.",
-      "next_steps": "Recheck moisture tomorrow morning to ensure it returns to an adequate range. Plan a light fertilizer application in 2–3 days once the soil is evenly moist. Continue protecting the planter from overnight temperatures below 45°F.",
+      "next_steps": "Recheck moisture tomorrow morning to ensure it returns to an adequate range. Plan a light fertilizer application in 2\u20133 days once the soil is evenly moist. Continue protecting the planter from overnight temperatures below 45\u00b0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -710,7 +818,7 @@
     {
       "date": "11/19/2025",
       "time": "9:40 AM",
-      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.98",
         "ec_mScm": "0.09",
@@ -728,7 +836,7 @@
       },
       "observations": "Cilantro seedlings are upright with healthy green foliage and expanding true leaves. Soil moisture is moderate, and slightly low fertility has not yet affected vigor.",
       "actions": "No watering or fertilizing applied today because moisture is still adequate and seedlings are too young for stronger feeding.",
-      "next_steps": "Check soil moisture again within 24 hours and plan a light fertilizer application in 3–5 days if growth stays strong. Continue night protection if temperatures drop below 45°F.",
+      "next_steps": "Check soil moisture again within 24 hours and plan a light fertilizer application in 3\u20135 days if growth stays strong. Continue night protection if temperatures drop below 45\u00b0F.",
       "q_and_a_summary": "Reviewed that pH is near neutral, fertility is modest but acceptable, and that delaying fertilizer a few days will avoid stressing young seedlings.",
       "follow_up": [],
       "photos": [
@@ -742,7 +850,7 @@
     {
       "date": "11/18/2025",
       "time": "9:05 AM",
-      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.28",
         "ec_mScm": "0.12",
@@ -760,7 +868,7 @@
       },
       "observations": "Cilantro seedlings show steady early growth with bright green leaves and upright posture. Soil appears evenly moist with slightly low but adequate fertility.",
       "actions": "No watering or fertilizer applied today since moisture remained adequate and plants are still young and responding well to existing nutrients.",
-      "next_steps": "Recheck soil moisture within 24 hours and consider a very light feeding in 3–5 days if growth remains strong and fertility readings stay in the lower range.",
+      "next_steps": "Recheck soil moisture within 24 hours and consider a very light feeding in 3\u20135 days if growth remains strong and fertility readings stay in the lower range.",
       "q_and_a_summary": "Confirmed that current moisture and fertility levels are acceptable for this stage and that it is better to delay fertilizing slightly until seedlings are a bit larger.",
       "follow_up": [],
       "photos": [
@@ -774,7 +882,7 @@
     {
       "date": "11/17/2025",
       "time": "9:05 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.79",
         "ec_mScm": "0.18",
@@ -792,7 +900,7 @@
       },
       "observations": "Seedlings look healthy and upright with light green foliage and a uniform stand. Soil moisture and pH are within acceptable ranges for continued growth.",
       "actions": "No watering or fertilizing applied today because digital readings showed adequate moisture and moderate fertility.",
-      "next_steps": "Recheck soil moisture within 24 hours and continue monitoring pH as it moves toward the 6.0–6.8 ideal range. Protect the planter from cold nights below 45°F.",
+      "next_steps": "Recheck soil moisture within 24 hours and continue monitoring pH as it moves toward the 6.0\u20136.8 ideal range. Protect the planter from cold nights below 45\u00b0F.",
       "q_and_a_summary": "Reviewed that digital readings indicated conditions were acceptable and that no corrective action was needed beyond routine monitoring.",
       "follow_up": [],
       "photos": [
@@ -806,7 +914,7 @@
     {
       "date": "11/13/2025",
       "time": "9:24 AM",
-      "conditions": "67°F in morning shade transitioning to sun within about 20 minutes.",
+      "conditions": "67\u00b0F in morning shade transitioning to sun within about 20 minutes.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -824,7 +932,7 @@
       },
       "observations": "Cilantro seedlings are upright and evenly distributed with improved green color and well-formed first true leaves. Soil now appears evenly moist.",
       "actions": "No direct actions taken today because moisture and pH are in the ideal range and fertility has just entered the green zone.",
-      "next_steps": "Recheck moisture later today or tomorrow morning and continue protecting the planter from cold nights at or below 45°F while monitoring that pH remains near 6.",
+      "next_steps": "Recheck moisture later today or tomorrow morning and continue protecting the planter from cold nights at or below 45\u00b0F while monitoring that pH remains near 6.",
       "q_and_a_summary": "Confirmed that the previous day's soil amendment and watering successfully improved moisture, fertility, and pH without stressing the seedlings.",
       "follow_up": [],
       "photos": [
@@ -838,7 +946,7 @@
     {
       "date": "11/12/2025",
       "time": "10:05 AM",
-      "conditions": "Cool, sunny morning around 65°F in full sun.",
+      "conditions": "Cool, sunny morning around 65\u00b0F in full sun.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -872,7 +980,7 @@
     {
       "date": "11/11/2025",
       "time": "2:00 PM",
-      "conditions": "Cool, mostly sunny day in the mid-60s°F; container brought indoors overnight for cold and returned to full sun.",
+      "conditions": "Cool, mostly sunny day in the mid-60s\u00b0F; container brought indoors overnight for cold and returned to full sun.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -890,7 +998,7 @@
       },
       "observations": "Dense stand of young cilantro seedlings in sand/soil mix, bright green and upright with moist soil and no stress signs.",
       "actions": "Container was brought indoors overnight for low temperatures and watered to ensure soil was evenly moist.",
-      "next_steps": "Keep soil slightly moist but not waterlogged and bring indoors or cover when night temperatures fall to 45°F or below.",
+      "next_steps": "Keep soil slightly moist but not waterlogged and bring indoors or cover when night temperatures fall to 45\u00b0F or below.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [

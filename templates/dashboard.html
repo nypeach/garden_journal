@@ -3,8 +3,11 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ garden_name }} – {{ current_date }}</title>
   <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/static/mg.png">
 </head>
 
 <body>
@@ -20,6 +23,12 @@
         {% for category in categories %}
         <a class="nav-link" href="#{{ category.anchor }}">{{ category.emoji }} {{ category.name }}</a>
         {% endfor %}
+
+        <span style="color: var(--text-muted); margin: 0 8px;">|</span>
+
+        <a class="nav-link" href="{{ url_for('photo_prep') }}" target="_blank">📸 Open Photo Tool</a>
+        <a class="nav-link" href="{{ url_for('assist_corrections') }}" target="_blank">🔧 Open Correction Tool</a>
+        <a class="nav-link" href="{{ url_for('journal_update') }}" target="_blank">📝 Journal Update</a>
       </div>
     </div>
   </header>

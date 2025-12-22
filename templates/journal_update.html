@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal Update – Master Garden Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/static/mg.png">
+</head>
+
+<body>
+  <!-- Sticky header matching dashboard style -->
+  <header class="sticky-header">
+    <div class="sticky-header-inner">
+      <div class="header-title-row">
+        <h1>📝 Journal Update</h1>
+        <a href="/" class="nav-link">🌿 Back to Dashboard</a>
+      </div>
+      <p class="dashboard-subtitle">
+        Paste ChatGPT journal entries to update your plant data
+      </p>
+    </div>
+  </header>
+
+  <div class="page">
+    {% if success %}
+    <!-- Success View -->
+    <div class="card" style="background: var(--success-bg); border-color: var(--success-color);">
+      <h2 style="color: var(--success-color); margin-top: 0;">✅ Journal Updated Successfully!</h2>
+
+      <div style="margin: 20px 0;">
+        <p style="font-size: 1.1rem; margin: 8px 0;"><strong>Plant:</strong> {{ plant_name }}</p>
+        <p style="margin: 8px 0;"><strong>Date:</strong> {{ entry_date }}</p>
+        <p style="margin: 8px 0;"><strong>Time:</strong> {{ entry_time }}</p>
+        <p style="margin: 8px 0;"><strong>Action:</strong> {{ action_type }}</p>
+        <p style="margin: 8px 0;"><strong>Total Entries:</strong> {{ total_entries }}</p>
+      </div>
+
+      <a href="/journal-update" class="submit-btn"
+        style="display: inline-block; text-decoration: none; text-align: center;">
+        📝 Update Another Plant
+      </a>
+    </div>
+
+    {% elif error %}
+    <!-- Error View -->
+    <div class="card" style="background: #fee; border-color: #c33;">
+      <h2 style="color: #c33; margin-top: 0;">❌ Update Failed</h2>
+
+      <div style="margin: 20px 0;">
+        <p><strong>Error:</strong> {{ error_message }}</p>
+        {% if error_details %}
+        <pre
+          style="background: white; padding: 12px; border-radius: 4px; overflow-x: auto; font-size: 13px; margin-top: 12px;">{{ error_details }}</pre>
+        {% endif %}
+      </div>
+
+      <a href="/journal-update" class="submit-btn"
+        style="display: inline-block; text-decoration: none; text-align: center;">
+        ← Try Again
+      </a>
+    </div>
+
+    {% else %}
+    <!-- Form View -->
+    <div class="card">
+      <form method="POST">
+        <!-- Plant ID -->
+        <div class="field-label">Plant ID *</div>
+        <input type="text" id="plant_id" name="plant_id" class="form-input" list="plant-list"
+          placeholder="Start typing plant name..." required>
+        <datalist id="plant-list">
+          {% for plant in plants %}
+          {% if plant.status != 'Inactive' %}
+          <option value="{{ plant.id }}">
+            {% endif %}
+            {% endfor %}
+        </datalist>
+        <div class="form-hint">Type to search, then select from your garden</div>
+
+        <!-- JSON Entry -->
+        <div class="field-label" style="margin-top: 20px;">Journal Entry JSON *</div>
+        <textarea id="journal_json" name="journal_json" class="form-textarea"
+          style="min-height: 400px; font-family: 'Courier New', monospace; font-size: 13px;" placeholder='Paste the JSON code block from ChatGPT here...
+
+Example:
+{
+  "date": "12/22/2025",
+  "time": "2:30 PM",
+  "conditions": "Sunny with a high of 82°F...",
+  "digital_probe": {
+    "ph": "6.30",
+    "moisture_mScm": "60.00",
+    ...
+  },
+  "observations": "...",
+  "actions": "...",
+  "photos": [...]
+}' required></textarea>
+        <div class="form-hint">Paste the complete JSON entry from ChatGPT (including curly braces)</div>
+
+        <button type="submit" class="submit-btn" style="margin-top: 24px;">💾 Update Journal</button>
+      </form>
+    </div>
+    {% endif %}
+  </div>
+</body>
+
+</html>

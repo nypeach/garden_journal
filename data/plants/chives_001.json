@@ -4,52 +4,164 @@
   "plant": "Chives (Left)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 13",
+  "full_sun_start": "10:43 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Window Box",
   "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
   "origin_history": [
     "Seeded on Nov 13, 2025 as a ring around the broccoli tray.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" left",
+    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left",
     "Added potting mix on top of sand-heavy layer for better moisture and pH balance.",
     "Reseeded chives after soil improvement to support proper germination."
   ],
-  "whats_been_logged": "The chives were monitored closely from the time the soil was amended through reseeding and early moisture stabilization. pH, moisture balance, and soil texture steadily improved as conditions were prepared for germination. The successful transition into early sprouting confirms that the stabilized environment has begun producing visible growth across the left band.",
-  "current_stage": "Established Seedlings",
-  "current_state": "The chive section shows established seedlings with multiple thin green blades emerging across the right band. Blades are flexible and lightly leaning at times due to moisture, wind, and recent light changes, but color remains healthy with no signs of collapse, yellowing, or damping-off. Roots are anchoring and the plants are transitioning toward thicker, more upright growth.",
+  "whats_been_logged": "The chives progressed from initial germination into early post-emergence development, with thin green shoots breaking the soil surface and reappearing after intermittent burial from wind and rain. While emergence has been uneven and sparse due to surface disturbance, surviving seedlings remain green and upright, indicating continued viability as roots establish in the shared window box.",
+  "current_stage": "Early Post-Emergence Seedlings",
+  "current_state": "The chive seedlings are newly emerged and very small, with thin green shoots intermittently visible just above the soil surface. Repeated wind and rain events have caused temporary burial, resulting in uneven spacing and reduced height, but visible shoots remain upright and green with no signs of collapse or rot at the soil line.",
   "timeline": [
     {
-      "what_i_should_see": "Initial shoots breaking through the soil",
-      "date_range": "Nov 20 – Nov 25, 2025"
+      "what_i_should_see": "Germination Begins",
+      "date_range": "Nov 25 - Dec 6, 2025"
     },
     {
-      "what_i_should_see": "Multiple thin green shoots standing upright",
-      "date_range": "Nov 26 – Dec 5, 2025"
+      "what_i_should_see": "Emerging Seedlings",
+      "date_range": "Dec 6 - Dec 14, 2025"
     },
     {
-      "what_i_should_see": "Shoots visibly thickening, forming a defined cluster",
-      "date_range": "Dec 6 – Dec 15, 2025"
+      "what_i_should_see": "Individual Blade Becomes a Small Tuft",
+      "date_range": "Dec 14 - Dec 22, 2025"
     },
     {
-      "what_i_should_see": "Clump visibly growing with thicker, denser blades",
-      "date_range": "Dec 16 – Dec 23, 2025"
+      "what_i_should_see": "Additional Blades Emerging From the Same Base",
+      "date_range": "Dec 20 - Jan 8, 2026"
     },
     {
-      "what_i_should_see": "Chives reaching 6–8 inches tall, ready for first harvest",
-      "date_range": "Dec 24, 2025 – Jan 5, 2026"
+      "what_i_should_see": "Blades Thickening and Standing More Firmly",
+      "date_range": "Dec 22, 2025 - Jan 15, 2026"
     },
     {
-      "what_i_should_see": "Ongoing regrowth and repeatable harvests",
-      "date_range": "Jan 6 – Jan 15, 2026"
+      "what_i_should_see": "Dense Clump Forming at the Base",
+      "date_range": "Jan 8 - Jan 25, 2026"
     },
     {
-      "what_i_should_see": "Chives fully mature, robust and thickened",
-      "date_range": "Jan 16 – Feb 10, 2026"
+      "what_i_should_see": "First Light Harvest",
+      "date_range": "Jan 25 - Feb 5, 2026"
+    },
+    {
+      "what_i_should_see": "Full Cut-and-Regrow Cycle",
+      "date_range": "Feb 10 - May 1, 2026"
     }
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "8:12 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "7.50",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "17",
+        "moisture_mScm": "18.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "61.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Multiple fine, bright-green chive seedlings are visible across the planting area, appearing as short, thread-like blades emerging just above the soil surface. The soil surface looks damp from dew and humidity, but the root zone is very dry, as confirmed by the probe inserted to depth. Seedlings remain upright and green, indicating viability despite repeated exposure and rapid internal dry-down.",
+      "actions": "Water now using a gentle hose flow for approximately 45\u201360 seconds to rehydrate the upper 2\u20133 inches of soil. Distribute water evenly across the chive section and avoid disturbing the soil surface afterward.",
+      "next_steps": "Allow the surface to dry slightly overnight to stabilize the soil. Recheck probe readings tomorrow morning to confirm moisture recovery. Continue protecting the planting area from wind-driven wash-over during this early establishment phase.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251220-02.jpeg",
+          "caption": "Wide view of the chive window box showing damp surface soil with several small, upright green chive shoots emerging across the planting area.",
+          "tags": "chives, seedlings, emerging, window-box, surface-moisture"
+        },
+        {
+          "file_name": "chives_001-20251220-03.jpeg",
+          "caption": "Closer view of the chive seedlings near the label, highlighting short, thin blades standing upright despite recent exposure and dry root-zone conditions.",
+          "tags": "chives, seedlings, close-up, early-growth, fragile"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:25 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "46.00",
+        "light": "94",
+        "rh_percent": "66",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "74.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings are present but extremely small and sparse, with multiple tiny green tips visible just above the soil surface. Recent wind and rain shifted the coarse surface mix, briefly covering several shoots; after the top layer was lightly brushed aside, the shoots reappeared but remain very short. Foliage color is bright green with no visible collapse at the soil line, and the soil surface appears loose and prone to wash-over.",
+      "actions": "Do not water tonight. Minimize surface disturbance and only clear soil if a shoot is fully buried. Use a temporary wind/rain break on the windward side if another stormy period occurs to reduce repeated burial.",
+      "next_steps": "Check again tomorrow afternoon after a sunny dry-down for additional green tips and slightly taller new blades. Recheck probe readings tomorrow if the surface dries noticeably or after any significant rain event. Avoid fertilizing until the seedlings show more consistent emergence across the section.",
+      "q_and_a_summary": "Asked whether the chive seedlings were still visible after wind and rain covered them; confirmed tiny shoots are present and advised against watering tonight to avoid loosening soil and increasing burial risk.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251219-02.jpeg",
+          "caption": "Wide view of the chive section showing a coarse, easily shifted soil surface with seedlings too small to be obvious at a glance.",
+          "tags": "chives, seedlings, sparse, wind, rain, soil-surface"
+        },
+        {
+          "file_name": "chives_001-20251219-03.jpeg",
+          "caption": "Closer view where several tiny bright-green chive tips are visible emerging just above the soil surface after recent burial from wind-driven rain.",
+          "tags": "chives, seedlings, emerging, buried, reappearing, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "1:10 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "132",
+        "moisture_mScm": "62.00",
+        "light": "99",
+        "rh_percent": "50",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings remain sparse but show improved posture, with several blades standing taller and straighter than earlier in the week. Newer growth near the label appears more upright, indicating continued root anchoring. Soil is evenly moist following intermittent rain this morning, and no discoloration, collapse, or thinning is visible.",
+      "actions": "Do not water or fertilize. Allow soil moisture to stabilize naturally after rainfall and leave seedlings undisturbed.",
+      "next_steps": "Monitor over the next several days for additional upright blades emerging and gradual increase in blade height. Recheck probe readings once moisture drops below 45 mS/cm or after the next significant rain event.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251218-02.jpeg",
+          "caption": "Overhead view of chive seedlings showing sparse but upright blades with improved posture following morning rainfall.",
+          "tags": "chives, seedlings, early-growth, stabilization, window-box"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "12:09 PM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.22",
@@ -81,7 +193,7 @@
     {
       "date": "12/15/2025",
       "time": "10:54 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "8.20",
         "ec_mScm": "0.14",
@@ -99,7 +211,7 @@
       },
       "observations": "Early-stage chive seedlings remain thin and flexible, with several blades laid over from recent wind exposure. Shoots are green and intact with no pinching, collapse, or discoloration at the soil line. Soil moisture has begun to dry down appropriately, and light exposure remains strong following earlier canopy reduction.",
       "actions": "Do not water or fertilize. Allow soil to continue drying naturally. Optionally provide temporary wind protection today to reduce mechanical stress on the seedlings.",
-      "next_steps": "Monitor for new blades emerging thicker and more upright over the next 3–5 calm days. Recheck probe readings once moisture drops below 35 mS/cm. Avoid thinning or disturbance until blade thickness visibly increases.",
+      "next_steps": "Monitor for new blades emerging thicker and more upright over the next 3\u20135 calm days. Recheck probe readings once moisture drops below 35 mS/cm. Avoid thinning or disturbance until blade thickness visibly increases.",
       "q_and_a_summary": "Asked whether the fragile appearance of the chives was concerning and if anything could be done to help; explained this is normal at this stage and advised restraint with optional wind protection.",
       "follow_up": [],
       "photos": [
@@ -113,7 +225,7 @@
     {
       "date": "12/14/2025",
       "time": "2:45 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.35",
@@ -145,7 +257,7 @@
     {
       "date": "12/12/2025",
       "time": "1:37 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.14",
@@ -162,8 +274,8 @@
         "ph": ""
       },
       "observations": "Multiple chive seedlings are visible with thin, upright shoots emerging across the left section of the window box. Growth is early but healthy, with no signs of wilting or discoloration. Nearby broccoli foliage is extending over the chive area and beginning to cast shade.",
-      "actions": "Reduce shading by repositioning the broccoli or trimming 1–2 outer broccoli leaves that overhang the chive area. Do not water today as soil moisture is ideal. Do not fertilize at this stage.",
-      "next_steps": "Monitor light exposure over the next several days to ensure the chives receive at least 4–6 hours of direct sun. Recheck probe readings tomorrow or the next morning. Watch for thicker, more upright chive blades as light improves.",
+      "actions": "Reduce shading by repositioning the broccoli or trimming 1\u20132 outer broccoli leaves that overhang the chive area. Do not water today as soil moisture is ideal. Do not fertilize at this stage.",
+      "next_steps": "Monitor light exposure over the next several days to ensure the chives receive at least 4\u20136 hours of direct sun. Recheck probe readings tomorrow or the next morning. Watch for thicker, more upright chive blades as light improves.",
       "q_and_a_summary": "Asked whether broccoli shading the chives is acceptable and if the chives should be moved; advised to manage broccoli shading instead and avoid transplanting chives at this stage.",
       "follow_up": [],
       "photos": [
@@ -182,7 +294,7 @@
     {
       "date": "12/10/2025",
       "time": "9:04 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.09",
@@ -214,7 +326,7 @@
     {
       "date": "12/9/2025",
       "time": "8:15 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.42",
         "ec_mScm": "0.22",
@@ -246,7 +358,7 @@
     {
       "date": "12/8/2025",
       "time": "11:24 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.99",
         "ec_mScm": "0.22",
@@ -264,7 +376,7 @@
       },
       "observations": "The soil surface is noticeably darker and more cohesive than yesterday, confirming that the light surface watering successfully restored top-layer moisture. Seedlings appear upright, green, and better anchored, with no signs of damping-off or heat stress. The reading reflects ideal moisture and a pH of 5.99, placing conditions squarely within the optimal germination and early-growth range. The planter structure remains stable with no pooling or crusting present.",
       "actions": "Do not water today. Incoming showers will provide additional natural hydration, and the current moisture at 60 mS/cm is already ideal. Do not apply lime or amendments because the pH reading is now within the preferred range for chive seedlings.",
-      "next_steps": "Monitor the surface after tonight’s showers to ensure no oversaturation occurs. Recheck moisture and stability tomorrow as cooler weather sets in. Expect seedlings to strengthen further over the next 48 hours under moderated temperatures.",
+      "next_steps": "Monitor the surface after tonight\u2019s showers to ensure no oversaturation occurs. Recheck moisture and stability tomorrow as cooler weather sets in. Expect seedlings to strengthen further over the next 48 hours under moderated temperatures.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -278,7 +390,7 @@
     {
       "date": "12/7/2025",
       "time": "1:07 PM",
-      "conditions": "Sunny with a high near 86°F, calm wind becoming south 5–8 mph. Patchy fog early. Overnight low around 66°F with partly cloudy skies expected, and a 20% chance of showers tomorrow afternoon.",
+      "conditions": "Sunny with a high near 86\u00b0F, calm wind becoming south 5\u20138 mph. Patchy fog early. Overnight low around 66\u00b0F with partly cloudy skies expected, and a 20% chance of showers tomorrow afternoon.",
       "digital_probe": {
         "ph": "4.83",
         "ec_mScm": "0.15",
@@ -310,7 +422,7 @@
     {
       "date": "12/4/2025",
       "time": "5:10 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.34",
         "ec_mScm": "0.23",
@@ -342,7 +454,7 @@
     {
       "date": "12/3/2025",
       "time": "1:22 PM",
-      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.14",
@@ -374,7 +486,7 @@
     {
       "date": "12/2/2025",
       "time": "11:08 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.09",
         "ec_mScm": "0.31",
@@ -406,7 +518,7 @@
     {
       "date": "12/1/2025",
       "time": "5:17 PM",
-      "conditions": "Mostly cloudy with temperatures in the mid-70s°F dropping to 69°F overnight. Stable weather through the day with possible showers around 6:00 PM.",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s\u00b0F dropping to 69\u00b0F overnight. Stable weather through the day with possible showers around 6:00 PM.",
       "digital_probe": {
         "ph": "5.28",
         "ec_mScm": "0.33",
@@ -453,7 +565,7 @@
     {
       "date": "11/28/2025",
       "time": "11:10 AM",
-      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.09",
         "ec_mScm": "0.06",
@@ -485,7 +597,7 @@
     {
       "date": "11/27/2025",
       "time": "2:01 PM",
-      "conditions": "Cloudy with a high of 81°F dropping down to 65°F overnight. Rainy conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81\u00b0F dropping down to 65\u00b0F overnight. Rainy conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.37",
@@ -517,7 +629,7 @@
     {
       "date": "11/26/2025",
       "time": "12:21 PM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4:00 PM.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4:00 PM.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.17",
@@ -549,7 +661,7 @@
     {
       "date": "11/25/2025",
       "time": "3:15 PM",
-      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight.",
+      "conditions": "Sunny all day with a high of 84\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.81",
         "ec_mScm": "0.38",
@@ -581,7 +693,7 @@
     {
       "date": "11/24/2025",
       "time": "12:21 PM",
-      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.16",
@@ -613,7 +725,7 @@
     {
       "date": "11/23/2025",
       "time": "1:59 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.59",
         "ec_mScm": "0.14",
@@ -652,7 +764,7 @@
     {
       "date": "11/22/2025",
       "time": "11:37 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.39",
         "ec_mScm": "0.23",
@@ -691,7 +803,7 @@
     {
       "date": "11/21/2025",
       "time": "3:35 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.66",
         "ec_mScm": "0.16",
@@ -730,7 +842,7 @@
     {
       "date": "11/20/2025",
       "time": "1:32 PM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.02",
         "ec_mScm": "0.22",
@@ -762,7 +874,7 @@
     {
       "date": "11/19/2025",
       "time": "9:48 AM",
-      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.03",
         "ec_mScm": "0.35",
@@ -794,7 +906,7 @@
     {
       "date": "11/18/2025",
       "time": "9:10 AM",
-      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.88",
         "ec_mScm": "0.35",
@@ -826,7 +938,7 @@
     {
       "date": "11/17/2025",
       "time": "9:08 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.62",
         "ec_mScm": "0.17",
@@ -845,7 +957,7 @@
       "observations": "No chive sprouts are visible, but the soil is evenly moist with a healthy, dark structure and good aeration. pH has risen toward a more favorable range compared with earlier tray readings. No pests, algae, or surface disturbances are present.",
       "actions": "No changes applied; soil and light conditions left stable to support germination.",
       "next_steps": "Continue monitoring moisture and pH daily while waiting for germination within the expected window.",
-      "q_and_a_summary": "Discussed that the lack of visible sprouts is still normal for this stage and that germination often takes 10–21 days.",
+      "q_and_a_summary": "Discussed that the lack of visible sprouts is still normal for this stage and that germination often takes 10\u201321 days.",
       "follow_up": [],
       "photos": [
         {
@@ -858,7 +970,7 @@
     {
       "date": "11/16/2025",
       "time": "10:22 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.75",
         "ec_mScm": "0.12",
@@ -876,7 +988,7 @@
       },
       "observations": "The chive section remains unsprouted, with soil slightly moist and structurally improved after potting mix was added. The pH is quite acidic, which could slow germination if not adjusted over time. No signs of pests or fungal issues are present.",
       "actions": "No direct amendment added to this section yet; readings were used to plan gentle pH correction with small lime applications later.",
-      "next_steps": "Recheck pH within 48–72 hours and consider a very light application of lime once readings begin to move toward the target range.",
+      "next_steps": "Recheck pH within 48\u201372 hours and consider a very light application of lime once readings begin to move toward the target range.",
       "q_and_a_summary": "Reviewed that pH around 4.7 is too low for chive germination and discussed a plan for careful lime use.",
       "follow_up": [],
       "photos": [

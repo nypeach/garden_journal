@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Channel Start – Master Garden Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/static/mg.png">
+</head>
+
+<body>
+  <!-- Sticky header matching dashboard style -->
+  <header class="sticky-header">
+    <div class="sticky-header-inner">
+      <div class="header-title-row">
+        <h1>🚀 Channel Start</h1>
+        <a href="/" class="nav-link">🌿 Back to Dashboard</a>
+      </div>
+      <p class="dashboard-subtitle">
+        Bootstrap new ChatGPT plant channels on-the-go
+      </p>
+    </div>
+  </header>
+
+  <div class="page">
+    <div class="card">
+      <form method="POST">
+        <!-- Plant ID -->
+        <div class="field-label">Plant ID *</div>
+        <input type="text" id="plant_id" name="plant_id" class="form-input" list="plant-list"
+          placeholder="e.g., basil_001" required>
+        <datalist id="plant-list">
+          {% for plant in plants %}
+          {% if plant.status != 'Inactive' %}
+          <option value="{{ plant.id }}">
+            {% endif %}
+            {% endfor %}
+        </datalist>
+        <div class="form-hint">Select plant to initialize channel</div>
+
+        <!-- Action Buttons -->
+        <div class="channel-actions">
+          <button type="submit" name="action" value="start_channel" class="channel-btn channel-btn-primary">
+            🚀 Start Channel
+          </button>
+          <button type="submit" name="action" value="one_time_patch" class="channel-btn channel-btn-secondary">
+            🔧 One-Time Patch
+          </button>
+          <button type="submit" name="action" value="rename_chat" class="channel-btn channel-btn-tertiary">
+            ✏️ Rename Chat
+          </button>
+        </div>
+      </form>
+    </div>
+
+    {% if output_message %}
+    <!-- Output Display -->
+    <div class="card">
+      <div class="output-header">
+        <h3>{{ output_title }}</h3>
+        <button class="copy-btn" onclick="copyOutput()">Copy</button>
+      </div>
+      <pre class="output-code" id="outputCode">{{ output_message }}</pre>
+    </div>
+    {% endif %}
+  </div>
+
+  <script>
+    function copyOutput() {
+      const codeElement = document.getElementById('outputCode');
+      const text = codeElement.textContent;
+      const button = event.target;
+
+      // Try modern clipboard API first
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          showCopyFeedback(button);
+        }).catch(() => {
+          fallbackCopy(text, button);
+        });
+      } else {
+        fallbackCopy(text, button);
+      }
+    }
+
+    function fallbackCopy(text, button) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.top = '0';
+      textarea.style.left = '0';
+      textarea.style.width = '2em';
+      textarea.style.height = '2em';
+      textarea.style.padding = '0';
+      textarea.style.border = 'none';
+      textarea.style.outline = 'none';
+      textarea.style.boxShadow = 'none';
+      textarea.style.background = 'transparent';
+      document.body.appendChild(textarea);
+
+      textarea.focus();
+      textarea.select();
+
+      try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showCopyFeedback(button);
+        } else {
+          alert('Copy failed. Please manually select and copy the text.');
+        }
+      } catch (err) {
+        alert('Copy not supported. Please manually select and copy the text.');
+      }
+
+      document.body.removeChild(textarea);
+    }
+
+    function showCopyFeedback(button) {
+      const originalText = button.textContent;
+      button.textContent = '✓';
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 2000);
+    }
+  </script>
+</body>
+
+</html>

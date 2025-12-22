@@ -4,7 +4,9 @@
   "plant": "Tomato (Husky Cherry Red)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 16-18",
-  "container": "Raised bed 2' × 6' × 10\", brown (Stake 1)",
+  "full_sun_start": "11:15 AM EST",
+  "full_shade_start": "4:15 PM EST",
+  "container": "Raised bed 2' \u00d7 6' \u00d7 10\", brown (Stake 1)",
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
     "Bought on Oct 8, 2025 (2.32 qt container).",
@@ -14,39 +16,258 @@
     "Replaced with Miracle-Gro Potting Mix to improve aeration and root conditions."
   ],
   "whats_been_logged": "The plant has been progressing from early flowering into heavy fruit set while repeatedly balancing soil moisture and foliar health. Initial leaf-spot on older foliage was managed with selective pruning, but renewed spotting on mid-canopy leaves led to more extensive sanitation pruning and a temporary thinning of the canopy. Persistent probe and moisture issues traced to a compacted topsoil/sand layer were corrected on Dec 9, 2025 by replacing the upper root zone with potting mix, and current tracking focuses on canopy regrowth, disease recovery, and stable fruit development under improved soil conditions.",
-    "current_stage": "Early Ripening (First Blush)",
-    "current_state": "The plant is actively transitioning from fruit set into early ripening, with at least one lower fruit showing clear first-blush coloration while surrounding clusters remain firm and green. The canopy is healthy and well-aerated following prior sanitation pruning, and the central stem is upright and stable under increasing fruit weight. Ongoing flowering continues in the upper canopy, indicating the plant is simultaneously supporting ripening fruit and new production without visible stress.",
-    "timeline": [
-      {
-        "what_i_should_see": "Early vegetative growth – First fruit set",
-        "date_range": "Oct 15 - Nov 17, 2025"
-      },
-      {
-        "what_i_should_see": "Flowering and fruit set building",
-        "date_range": "Nov 19 - Dec 8, 2025"
-      },
-      {
-        "what_i_should_see": "Canopy regrowth & branching",
-        "date_range": "Dec 9 - Dec 16, 2025"
-      },
-      {
-        "what_i_should_see": "First ripening (first blush color)",
-        "date_range": "Dec 11 - Dec 18, 2025"
-      },
-      {
-        "what_i_should_see": "First full harvest (fully red clusters)",
-        "date_range": "Dec 15 - Dec 28, 2025"
-      },
-      {
-        "what_i_should_see": "Ongoing flowering & fruiting continues",
-        "date_range": "Jan 2026 - Mar 31, 2026"
-      }
-    ],
+  "current_stage": "Early Ripening (First Blush)",
+  "current_state": "The plant is actively transitioning from fruit set into early ripening, with at least one lower fruit showing clear first-blush coloration while surrounding clusters remain firm and green. The canopy is healthy and well-aerated following prior sanitation pruning, and the central stem is upright and stable under increasing fruit weight. Ongoing flowering continues in the upper canopy, indicating the plant is simultaneously supporting ripening fruit and new production without visible stress.",
+  "timeline": [
+    {
+      "what_i_should_see": "Early vegetative growth \u2013 First fruit set",
+      "date_range": "Oct 15 - Nov 17, 2025"
+    },
+    {
+      "what_i_should_see": "Flowering and fruit set building",
+      "date_range": "Nov 19 - Dec 8, 2025"
+    },
+    {
+      "what_i_should_see": "Canopy regrowth & branching",
+      "date_range": "Dec 9 - Dec 16, 2025"
+    },
+    {
+      "what_i_should_see": "First ripening (first blush color)",
+      "date_range": "Dec 11 - Dec 18, 2025"
+    },
+    {
+      "what_i_should_see": "First full harvest (fully red clusters)",
+      "date_range": "Dec 15 - Dec 28, 2025"
+    },
+    {
+      "what_i_should_see": "Ongoing flowering & fruiting continues",
+      "date_range": "Jan 2026 - Mar 31, 2026"
+    }
+  ],
   "journal": [
+    {
+      "date": "12/20/2025",
+      "time": "7:35 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "40",
+        "moisture_mScm": "38.00",
+        "light": "43",
+        "rh_percent": "66",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "66.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant remains upright and vigorous with healthy foliage and steady fruit development. Leaves appeared flat and unstressed at the time of the morning reading, with fruit clusters progressing from green to blush. Soil moisture was on the lower end of optimal but adequate at the time of measurement.",
+      "actions": "No watering performed at the time of the reading. Harvest fully red tomatoes only and allow remaining fruit to continue ripening on the vine.",
+      "next_steps": "Do not water until the next probe reading unless clear midday stress appears. Reassess moisture and plant behavior with the next full data set.",
+      "q_and_a_summary": "Evaluated watering needs based on a morning moisture reading of 38% and expected weather conditions; discussed how elapsed time and full sun exposure can shift watering needs later in the day.",
+      "follow_up": [
+        "[2:30 PM] Observed widespread drooping and upward leaf curl across the raised bed during full sun exposure. Applied a slow corrective watering with the hose for approximately 1\u20132 minutes to relieve active water stress."
+      ],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251220-02.jpeg",
+          "caption": "Full plant view showing strong structure, healthy canopy, and multiple fruit clusters.",
+          "tags": "tomato, full-plant, canopy, structure"
+        },
+        {
+          "file_name": "tomato_001-20251220-03.jpeg",
+          "caption": "Side view highlighting trusses with green and blush-stage tomatoes.",
+          "tags": "tomato, fruit, ripening, trusses"
+        },
+        {
+          "file_name": "tomato_001-20251220-04.jpeg",
+          "caption": "Overhead view showing dense foliage, active flowering, and even soil moisture.",
+          "tags": "tomato, canopy, foliage, fruiting"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:32 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "51",
+        "moisture_mScm": "50.00",
+        "light": "82",
+        "rh_percent": "62",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "74.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant remains upright and vigorous with healthy green foliage and steady fruit development across multiple trusses. Leaves are flat and turgid with no visible wilt or stress despite warm daytime temperatures. Soil appears evenly moist, and fruit continues progressing from green to blush without cracking or disease symptoms.",
+      "actions": "Do not water tonight, as root-zone moisture is sufficient. Harvest fully red tomatoes only and allow remaining fruit to continue ripening on the vine.",
+      "next_steps": "Recheck moisture tomorrow late morning if the day is sunny and warm. Plan to water only if moisture drops below 30\u201335 or if foliage shows midday softening. Continue harvesting ripe fruit promptly.",
+      "q_and_a_summary": "Evaluated whether watering was needed tonight after a morning moisture reading of 50; confirmed watering is not recommended due to adequate hydration, cooler overnight conditions, and stable plant behavior.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251219-02.jpeg",
+          "caption": "Wide view of the tomato plant showing strong structure, healthy canopy, and evenly supported fruit clusters.",
+          "tags": "tomato, full-plant, structure, canopy"
+        },
+        {
+          "file_name": "tomato_001-20251219-03.jpeg",
+          "caption": "Side view highlighting multiple trusses with green and blush-stage tomatoes progressing steadily.",
+          "tags": "tomato, fruit, ripening, trusses"
+        },
+        {
+          "file_name": "tomato_001-20251219-04.jpeg",
+          "caption": "Close-up of lower fruit cluster showing firm tomatoes transitioning from green to orange.",
+          "tags": "tomato, fruit, ripening, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "1:35 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears well hydrated and stable following last evening\u2019s watering and this morning\u2019s intermittent rain. Leaves are flat and turgid with no signs of wilt or nutrient stress. Fruit clusters continue ripening steadily, and the soil shows even moisture. Small weed seedlings are present near the soil surface after rainfall.",
+      "actions": "Hand-pull small weed seedlings while the soil is moist. Do not water or fertilize today, as moisture and nutrient levels are ideal. Harvest any fully red tomatoes to maintain ripening momentum.",
+      "next_steps": "Recheck moisture tomorrow only if the day turns hot and dry. Continue harvesting ripe fruit promptly and monitor for steady color change in orange and blush tomatoes. Watch for any new weed emergence after rain events.",
+      "q_and_a_summary": "Reviewed whether small seedlings near the soil surface were tomato volunteers; confirmed they are weeds triggered by rainfall and should be removed immediately.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251218-02.jpeg",
+          "caption": "Close-up of small weed seedlings emerging near the base of the tomato plant after recent rain.",
+          "tags": "tomato, weeds, soil-surface, seedlings"
+        },
+        {
+          "file_name": "tomato_001-20251218-03.jpeg",
+          "caption": "Lower fruit clusters showing green to orange ripening stages supported along the stems.",
+          "tags": "tomato, fruit, ripening, clusters"
+        },
+        {
+          "file_name": "tomato_001-20251218-04.jpeg",
+          "caption": "Overhead view of the tomato plant showing healthy foliage, strong canopy, and active fruit set.",
+          "tags": "tomato, canopy, foliage, fruit-set"
+        }
+      ]
+    },
+    {
+      "date": "12/17/2025",
+      "time": "1:03 PM",
+      "conditions": "Mostly sunny with a high near 79\u00b0F dropping to around 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "41",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "73.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is upright and vigorous with a healthy green canopy and good airflow through the stems. Multiple fruit clusters are present with several lower tomatoes fully red and others progressing through orange blush while many remain firm and green. Late-afternoon probe attempts failed to register moisture, indicating widespread dry zones and loss of probe contact despite the plant still appearing outwardly stable.",
+      "actions": "Apply a full 1 gallon of water slowly across the entire root zone and feed with Purived 4-5-5 at the standard dilution of 1 capful per gallon. Harvest fully red fruit to redirect energy upward and maintain steady ripening.",
+      "next_steps": "Recheck moisture tomorrow morning only if overnight storms miss the garden. Avoid additional watering if rain occurs. Continue harvesting ripe fruit promptly and monitor for even ripening and stable leaf turgor over the next 24\u201348 hours.",
+      "q_and_a_summary": "Reviewed whether missed feeding should be corrected and evaluated multiple failed probe readings later in the day. Confirmed that three zero-moisture readings indicated widespread dry zones and justified a full-gallon watering with fertilizer despite acceptable early-afternoon readings.",
+      "follow_up": [
+        "[5:09 PM] Applied a full 1 gallon of water mixed with 1 capful of Purived 4-5-5 slowly across the entire root zone to re-establish even soil moisture."
+      ],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251217-02.jpeg",
+          "caption": "Full plant view showing upright structure, support stakes, and multiple fruit clusters at different stages of development.",
+          "tags": "tomato, full-plant, staking, fruit-clusters, structure"
+        },
+        {
+          "file_name": "tomato_001-20251217-03.jpeg",
+          "caption": "Close-up of a lower cluster with tomatoes spanning green, orange blush, and fully red ripeness stages.",
+          "tags": "tomato, fruit, ripening, blush, cluster, close-up"
+        },
+        {
+          "file_name": "tomato_001-20251217-04.jpeg",
+          "caption": "Canopy view showing healthy green foliage and ongoing fruit set supported along the stems.",
+          "tags": "tomato, canopy, foliage, fruit-set, vigor"
+        }
+      ]
+    },
+    {
+      "date": "12/16/2025",
+      "time": "12:20 PM",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "28.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "69.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant remains upright and well supported with multiple fruit clusters at varying stages of ripeness. Several lower fruits have progressed into orange and red coloration, while upper and mid-canopy fruits remain green and firm. Foliage is generally healthy but shows slight reduction in turgor consistent with low soil moisture. No disease, pest pressure, or mechanical damage is visible.",
+      "actions": "Water deeply today to fully rehydrate the root zone. Apply Purived 4-5-5 fertilizer during watering to restore fertility and support active fruit fill. Avoid pruning and minimize late-day leaf wetting due to incoming storms.",
+      "next_steps": "Recheck moisture and fertility after storms tomorrow. Harvest fully red fruit promptly to redirect energy upward. Monitor upper clusters for continued fruit sizing and watch for renewed flowering as fertility stabilizes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251216-02.jpeg",
+          "caption": "Full plant view showing upright structure, multiple support stakes, and a productive fruit load.",
+          "tags": "tomato, full-plant, structure, fruit-load"
+        },
+        {
+          "file_name": "tomato_001-20251216-03.jpeg",
+          "caption": "Mid-canopy view with clusters of green fruit entering the fill stage.",
+          "tags": "tomato, fruit, mid-canopy, development"
+        },
+        {
+          "file_name": "tomato_001-20251216-04.jpeg",
+          "caption": "Lower fruit cluster showing tomatoes transitioning from green to orange and red.",
+          "tags": "tomato, fruit, ripening, lower-cluster"
+        },
+        {
+          "file_name": "tomato_001-20251216-05.jpeg",
+          "caption": "Close-up of fruit clusters and stems showing good support and healthy tissue.",
+          "tags": "tomato, stems, support, fruit"
+        }
+      ]
+    },
     {
       "date": "12/15/2025",
       "time": "11:29 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.09",
@@ -88,7 +309,7 @@
     {
       "date": "12/14/2025",
       "time": "2:53 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.11",
@@ -152,7 +373,7 @@
     {
       "date": "12/12/2025",
       "time": "1:42 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.9",
         "ec_mScm": "0.14",
@@ -194,7 +415,7 @@
     {
       "date": "12/11/2025",
       "time": "5:04 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.07",
@@ -231,7 +452,7 @@
     {
       "date": "12/10/2025",
       "time": "7:50 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.30",
         "ec_mScm": "0.21",
@@ -249,7 +470,7 @@
       },
       "observations": "The tomato plant is vigorous and upright with a heavy but well-supported fruit load across the lower and mid stem. Fruit clusters are evenly sized, firm, and developing normally with no cracking or blossom-end rot. Foliage is a healthy green with good turgor, and prior sanitation pruning has resulted in excellent airflow through the lower stem and canopy. A light speckled residue is visible on some leaf surfaces, consistent with dried moisture or mineral residue rather than pest or disease activity. Upper canopy shows active flowering and continued vegetative growth.",
       "actions": "Do not water today as root-zone moisture is ideal. Do not prune or apply any sprays. Check existing support ties and loosen or reposition any that are becoming tight under increasing fruit weight.",
-      "next_steps": "Recheck soil moisture over the next 24–48 hours. Plan a light feeding with 4-5-5 fertilizer once moisture readings fall into the low-40s. Continue monitoring leaf surfaces and fruit development, and add additional support ties as clusters gain weight.",
+      "next_steps": "Recheck soil moisture over the next 24\u201348 hours. Plan a light feeding with 4-5-5 fertilizer once moisture readings fall into the low-40s. Continue monitoring leaf surfaces and fruit development, and add additional support ties as clusters gain weight.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -273,7 +494,7 @@
     {
       "date": "12/9/2025",
       "time": "8:28 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.31",
         "ec_mScm": "0.19",
@@ -291,12 +512,12 @@
       },
       "observations": "Replacing the compacted topsoil and sand mixture with fresh potting mix allowed the probe to make proper soil contact and revealed stable, accurate readings for the first time. Moisture is now moderate, and fertility and EC levels are appropriate for a fruiting tomato. The plant shows improved posture and hydration, with vigorous new growth and strong fruit clusters. Several lower and mid-canopy leaves show advanced spotting consistent with early fungal leaf-spot progression, likely exacerbated by the prior hydrophobic soil layer and recent humidity. Removing the sand layer exposed previously stressed feeder roots, which will now recover in the looser, better-aerated medium. Overall the plant appears strong and responsive to the soil correction.",
       "actions": "Remove all heavily spotted leaves, especially those yellowing or touching other foliage, to reduce disease pressure and improve airflow. Apply 0.5 gallon of water slowly to help settle the new soil and support the root system. Do not apply fertilizer or copper fungicide today due to expected rain.",
-      "next_steps": "Monitor for stabilizing leaf health over the next 24–48 hours as the root system adjusts to improved soil conditions. Recheck moisture tomorrow morning after overnight showers. Consider a copper application later in the week if spotting continues moving upward and weather provides a dry evening window.",
+      "next_steps": "Monitor for stabilizing leaf health over the next 24\u201348 hours as the root system adjusts to improved soil conditions. Recheck moisture tomorrow morning after overnight showers. Consider a copper application later in the week if spotting continues moving upward and weather provides a dry evening window.",
       "q_and_a_summary": "",
-        "follow_up": [
-          "[10:15 AM] Lightly watered to rinse soil from leaves and help the new soil settle around the root zone.",
-          "[11:00 AM] Removed all heavily spotted leaves; no leaves supporting fruit were taken off."
-        ],
+      "follow_up": [
+        "[10:15 AM] Lightly watered to rinse soil from leaves and help the new soil settle around the root zone.",
+        "[11:00 AM] Removed all heavily spotted leaves; no leaves supporting fruit were taken off."
+      ],
       "photos": [
         {
           "file_name": "<<put filename here>>",
@@ -328,7 +549,7 @@
     {
       "date": "12/8/2025",
       "time": "11:35 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.24",
         "ec_mScm": "0.09",
@@ -345,7 +566,7 @@
         "ph": ""
       },
       "observations": "Soil remains on the dry side in the upper to mid root zone, shown by a moisture reading of 45 and slightly lowered pH consistent with dry pockets rather than true acidity shift. The tomato plant appears vigorous with strong fruit set at multiple nodes, dense foliage, and active flowering. Several leaves across the mid and lower canopy now show mild but expanding fungal-like spotting, with tan or brown speckles, slight yellowing, and localized edge necrosis. These patterns indicate early leaf-spot progression aggravated by recent low moisture and humid, cloudy conditions. Fruit clusters continue to develop normally with no cracking or discoloration.",
-      "actions": "Remove 3–4 of the most spotted leaves by cutting each one at the leaf stem junction to reduce disease pressure and improve airflow. Apply 0.5 gallon of water slowly around the base to reduce dryness stress since storms may arrive later in the day. Do not fertilize or apply fungicide today.",
+      "actions": "Remove 3\u20134 of the most spotted leaves by cutting each one at the leaf stem junction to reduce disease pressure and improve airflow. Apply 0.5 gallon of water slowly around the base to reduce dryness stress since storms may arrive later in the day. Do not fertilize or apply fungicide today.",
       "next_steps": "Recheck moisture tomorrow morning; storms overnight may provide partial hydration. Continue monitoring upper leaves for additional spotting, and consider a dusk copper spray later in the week if spotting continues to progress. Maintain good airflow around fruit clusters by removing any future leaves that develop heavy spotting.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -380,7 +601,7 @@
     {
       "date": "12/7/2025",
       "time": "1:12 PM",
-      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.27",
         "ec_mScm": "0.12",
@@ -432,7 +653,7 @@
     {
       "date": "12/4/2025",
       "time": "5:18 PM",
-      "conditions": "Mostly sunny with a high around 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.32",
         "ec_mScm": "0.09",
@@ -481,7 +702,7 @@
     {
       "date": "12/2/2025",
       "time": "11:11 AM",
-      "conditions": "Mostly cloudy with a high near 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high near 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.93",
         "ec_mScm": "0.04",
@@ -528,7 +749,7 @@
     {
       "date": "11/29/2025",
       "time": "3:07 PM",
-      "conditions": "Mostly sunny with a high near 77°F dropping to 66°F overnight. Light winds up to 15 mph.",
+      "conditions": "Mostly sunny with a high near 77\u00b0F dropping to 66\u00b0F overnight. Light winds up to 15 mph.",
       "digital_probe": {
         "ph": "4.83",
         "ec_mScm": "0.10",
@@ -577,7 +798,7 @@
     {
       "date": "11/28/2025",
       "time": "1:05 PM",
-      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "0.05",
@@ -624,7 +845,7 @@
     {
       "date": "11/26/2025",
       "time": "12:32 PM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "6.87",
         "ec_mScm": "0.06",
@@ -695,7 +916,7 @@
     {
       "date": "11/25/2025",
       "time": "3:19 PM",
-      "conditions": "Sunny with a high of 84°F dropping to the mid-60s overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to the mid-60s overnight.",
       "digital_probe": {
         "ph": "6.28",
         "ec_mScm": "0.11",
@@ -742,7 +963,7 @@
     {
       "date": "11/24/2025",
       "time": "11:02 AM",
-      "conditions": "Partly cloudy with a high around 82-84°F dropping to the mid-60s overnight.",
+      "conditions": "Partly cloudy with a high around 82-84\u00b0F dropping to the mid-60s overnight.",
       "digital_probe": {
         "ph": "7.44",
         "ec_mScm": "0.02",
@@ -792,7 +1013,7 @@
     {
       "date": "11/23/2025",
       "time": "2:15 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.21",
         "ec_mScm": "0.06",
@@ -861,7 +1082,7 @@
     {
       "date": "11/22/2025",
       "time": "11:49 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.13",
         "ec_mScm": "0.05",
@@ -913,7 +1134,7 @@
     {
       "date": "11/21/2025",
       "time": "3:38 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight. Light winds and dry foliage suitable for fungicide application.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight. Light winds and dry foliage suitable for fungicide application.",
       "digital_probe": {
         "ph": "6.73",
         "ec_mScm": "0.02",
@@ -931,7 +1152,7 @@
       },
       "observations": "Tomato plant remains vigorous with strong upright growth, expanding canopy, and active fruit set. No signs of new fungal spotting, and all previously pruned areas are clean and dry. Soil beneath mulch is slightly dry, consistent with moisture readings. Multiple raccoon-dug holes were found around garden bed, including larger one near tomato, but stem and root system remain stable with no signs of displacement, stress, or wilting. Mulch is still properly mounded and airflow around stem is excellent.",
       "actions": "Prepare to apply copper fungicide later in day once plant is fully dry. Vinegar deterrent containers installed in takeout trays around raised bed to temporarily reduce raccoon activity. Continue monitoring of soil moisture and plant structure.",
-      "next_steps": "Apply copper fungicide this evening once plant is fully dry and temperatures are below 85°F. Monitor lower canopy for any additional spotting. Recheck moisture and probe readings tomorrow morning. Install hardware cloth and predator-eye lights when available to prevent future raccoon digging.",
+      "next_steps": "Apply copper fungicide this evening once plant is fully dry and temperatures are below 85\u00b0F. Monitor lower canopy for any additional spotting. Recheck moisture and probe readings tomorrow morning. Install hardware cloth and predator-eye lights when available to prevent future raccoon digging.",
       "q_and_a_summary": "Discussed safety and effectiveness of light copper fungicide application, including difficulty avoiding flowers and fruit in dense canopy. Reviewed safety of vinegar-based raccoon deterrents for all plants in bed and confirmed correct usage. Also addressed temporary measures to deter raccoons until predator lights, hardware cloth, and ultrasonic devices are installed. Confirmed that light fungicide misting is appropriate and that minor drift onto fruit or flowers is acceptable as long as application is not heavy.",
       "follow_up": [
         "[5:45 PM] Added containers with vinegar to deter raccoons.",
@@ -963,7 +1184,7 @@
     {
       "date": "11/20/2025",
       "time": "1:36 PM",
-      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.09",
         "ec_mScm": "0.03",
@@ -1020,7 +1241,7 @@
     {
       "date": "11/19/2025",
       "time": "9:52 AM",
-      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.16",
         "ec_mScm": "0.09",
@@ -1038,7 +1259,7 @@
       },
       "observations": "The plant shows strong upright growth with multiple fruit clusters forming and new blossoms emerging. Moisture level is moderate and pH is within an acceptable range. Some branches showed fungal leaf-spot symptoms earlier, now removed. Post-pruning airflow through the canopy is significantly improved. The overall plant structure appears healthier with reduced disease pressure.",
       "actions": "No additional watering or amendments needed at this time. Pruning completed to remove diseased foliage. Fungicide application planned for later once leaves are dry.",
-      "next_steps": "Apply copper fungicide this evening once the plant is fully dry and temperatures are below 85°F. Monitor lower canopy for any additional spotting. Recheck moisture and probe readings tomorrow morning.",
+      "next_steps": "Apply copper fungicide this evening once the plant is fully dry and temperatures are below 85\u00b0F. Monitor lower canopy for any additional spotting. Recheck moisture and probe readings tomorrow morning.",
       "q_and_a_summary": "Discussed which branches to prune, whether to remove the branch above the first fruit cluster, and timing for fungicide application.",
       "follow_up": [
         "[3:20 PM] Removed a total of 3 branches (two with spotting and one above the first fruit cluster) and cleaned up the broken branch from this morning; this improves airflow and reduces fungal pressure going forward."
@@ -1069,7 +1290,7 @@
     {
       "date": "11/18/2025",
       "time": "9:13 AM",
-      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.91",
         "ec_mScm": "0.03",
@@ -1088,7 +1309,7 @@
       "observations": "Plant structure remains upright and healthy with continued fruit development, including multiple small green tomatoes and newly forming clusters. Foliage is dense and mostly green, with several lower and mid-level leaves showing brown or black spotting consistent with early leaf-spot disease. These affected leaves are not near soil surface, as plant has approximately 6-8 inches of clear stem before any foliage begins. Mulch is present around root zone, and overall coverage is good but was initially on thin side before today's top-up. Overall posture is strong, with no wilting, and moisture readings earlier in day indicated very dry soil at root zone.",
       "actions": "Add additional mulch to bring total mulch depth to approximately 2-3 inches while keeping it 1-2 inches away from stem. Water 1.5 gallons slowly at base today due to low moisture readings. No fertilizer and no neem oil today.",
       "next_steps": "Recheck moisture within 24 hours. Monitor leaf spotting for upward progression. Copper fungicide may be used later if spotting spreads. Continue maintaining good airflow and consistent soil moisture.",
-      "q_and_a_summary": "Discussed whether neem oil was needed (not recommended today), whether pruning was necessary given leaf height above soil (no additional pruning needed), and whether mulch should be increased (yes—depth increased to 2-3 inches). User also confirmed that mulch had been temporarily pulled back only to show planting orientation.",
+      "q_and_a_summary": "Discussed whether neem oil was needed (not recommended today), whether pruning was necessary given leaf height above soil (no additional pruning needed), and whether mulch should be increased (yes\u2014depth increased to 2-3 inches). User also confirmed that mulch had been temporarily pulled back only to show planting orientation.",
       "follow_up": [
         "[4:17 PM] Added 1 gallon water, replaced mulch, plant stable.",
         "[7:12 PM] Checked moisture, surface still damp."
@@ -1114,7 +1335,7 @@
     {
       "date": "11/17/2025",
       "time": "9:13 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.49",
         "ec_mScm": "0.03",
@@ -1132,7 +1353,7 @@
       },
       "observations": "The plant is upright with strong central stems and evenly green foliage. Multiple flower clusters are present and blooming normally. Two developing fruits are round, firm, and evenly green with no visible defects. Lower stem remains clean and open for airflow following the 11/12/2025 pruning. Soil beneath mulch is slightly dry, consistent with moisture readings. No new spots, discoloration, or pests observed.",
       "actions": "Water today with 1/2 gallon applied slowly at the base over the mulch. No fertilizer needed today. No pruning required. Do not adjust pH.",
-      "next_steps": "Recheck moisture within 24 hours. Prepare for the next fertilizer application between 11/20/2025 and 11/22/2025 using diluted 10-10-10. Maintain full sun exposure and protect the plant if nighttime temperatures drop to 45°F or below.",
+      "next_steps": "Recheck moisture within 24 hours. Prepare for the next fertilizer application between 11/20/2025 and 11/22/2025 using diluted 10-10-10. Maintain full sun exposure and protect the plant if nighttime temperatures drop to 45\u00b0F or below.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [

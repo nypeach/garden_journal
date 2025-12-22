@@ -4,6 +4,8 @@
   "plant": "Basil (Left)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 1",
+  "full_sun_start": "9:05 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Round pot, 0.94 gal, white",
   "soil_mix": "Nursery Potting Mix",
   "origin_history": [
@@ -50,9 +52,135 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "07:40 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight. Tonight: 10% chance of showers then patchy fog. Tomorrow: Patchy fog then mostly sunny with a high of 82\u00b0F.",
+      "digital_probe": {
+        "ph": "6.9",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "55",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "9",
+        "soil_temp_f": "61.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil is recovering appropriately from recent pruning. Canopy is reduced but upright, with multiple nodes actively pushing new leaf growth. Leaves are turgid with normal sheen; some minor cosmetic damage and small holes remain on older leaves, not spreading. Soil surface is dark and moist with good structure.",
+      "actions": "No watering performed. Continued post-prune monitoring only.",
+      "next_steps": "Allow soil to dry slightly before the next irrigation. Recheck moisture tomorrow morning. Resume light feeding only after visible canopy expansion resumes.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251220-02.jpeg",
+          "caption": "Top-down view showing balanced regrowth and moist soil after pruning.",
+          "tags": "basil, post-prune, regrowth"
+        },
+        {
+          "file_name": "basil_001-20251220-03.jpeg",
+          "caption": "Side view showing upright posture and healthy leaf turgor.",
+          "tags": "basil, posture, recovery"
+        },
+        {
+          "file_name": "basil_001-20251220-04.jpeg",
+          "caption": "Close-up of leaf surfaces with minor cosmetic damage but no active decline.",
+          "tags": "basil, leaf-condition"
+        },
+        {
+          "file_name": "basil_001-20251220-05.jpeg",
+          "caption": "Cut stem area showing new shoots emerging from nodes.",
+          "tags": "basil, node-growth, pruning-recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "6:51 PM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.3",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "153",
+        "moisture_mScm": "60.0",
+        "light": "98",
+        "rh_percent": "69",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Two days post-pruning, the plant shows no signs of stress. Leaves remain upright and evenly green, cut points are clean, and early lateral growth activation is visible. Soil moisture remains balanced following recent rainfall.",
+      "actions": "No watering or fertilization performed.",
+      "next_steps": "Continue monitoring moisture levels. Water only if moisture drops below 40%. Watch for lateral shoot development over the next 2\u20133 days.",
+      "q_and_a_summary": "Confirmed that the plant does not appear distressed following pruning and does not require watering at this time.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251219-02.jpeg",
+          "caption": "Overhead view showing compact, healthy canopy two days after pruning.",
+          "tags": "basil, post-prune, canopy"
+        },
+        {
+          "file_name": "basil_001-20251219-03.jpeg",
+          "caption": "Side view highlighting firm leaves and early node activation.",
+          "tags": "basil, regrowth, lateral-branches"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:46 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight. A 20% chance of precipitation.",
+      "digital_probe": {
+        "ph": "6.9",
+        "ec_mScm": "0.35",
+        "salt_mg_L": "177",
+        "moisture_mScm": "100.0",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "20.0",
+        "soil_temp_f": "77.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant was pruned the night before and received steady rain from early morning through mid-morning. Post-prune structure is compact and balanced with no wilting or stress. Leaves remain turgid and healthy, and cut points appear clean and stable.",
+      "actions": "No watering or fertilization performed. Allowed rainfall to fully hydrate the root zone following pruning.",
+      "next_steps": "Monitor for lateral branching over the next 2\u20134 days. Resume light harvesting only after new branches extend several inches.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251218-02.jpeg",
+          "caption": "Overhead view showing compact canopy after first structural prune.",
+          "tags": "basil, post-prune, canopy"
+        },
+        {
+          "file_name": "basil_001-20251218-03.jpeg",
+          "caption": "Side view highlighting reduced height and balanced structure following pruning.",
+          "tags": "basil, structure, post-prune"
+        },
+        {
+          "file_name": "basil_001-20251218-04.jpeg",
+          "caption": "Angled view showing healthy leaves and clean cut points after rainfall.",
+          "tags": "basil, healthy, regrowth-stage"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "11:39 AM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.0",
         "ec_mScm": "0.20",
@@ -70,7 +198,7 @@
       },
       "observations": "Surface soil was dry and crusted from wind, but internal moisture remained ideal. Plant shows strong multi-stem growth with multiple nodes per stem and no signs of stress. Foliage is healthy, evenly green, and structurally ready for first pruning.",
       "actions": "Surface soil was fluffed to relieve crusting. No watering or fertilization performed.",
-      "next_steps": "Perform first structural prune by cutting just above the second or third node on the tallest stems. Monitor for lateral branching over the next 2–3 days.",
+      "next_steps": "Perform first structural prune by cutting just above the second or third node on the tallest stems. Monitor for lateral branching over the next 2\u20133 days.",
       "q_and_a_summary": "Confirmed plant is at the ideal stage for first pruning.",
       "follow_up": [],
       "photos": [
@@ -104,7 +232,7 @@
     {
       "date": "12/15/2025",
       "time": "10:04 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.61",
@@ -146,7 +274,7 @@
     {
       "date": "12/14/2025",
       "time": "2:25 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "8.2",
         "ec_mScm": "0.25",
@@ -193,7 +321,7 @@
     {
       "date": "12/12/2025",
       "time": "1:04 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.40",
         "ec_mScm": "0.24",
@@ -211,7 +339,7 @@
       },
       "observations": "The basil is full and upright with multiple healthy stems and vibrant green leaves. Leaf surfaces look clean with no obvious spotting, mildew, or chewing damage. The soil surface appears dark and evenly moist.",
       "actions": "Do not water today; allow the pot to dry down slightly between waterings. Avoid adding any lime or alkaline amendments while pH is running high. Keep the pot in strong light and rotate it slightly to keep growth even.",
-      "next_steps": "Recheck moisture tomorrow morning and only water if the top 1 inch is dry and the moisture reading has clearly dropped from today’s level. Watch new growth for any paling or slowed growth that could indicate the high pH is limiting nutrient uptake. If pH stays above ~7.2 for several days, share the next reading and photo so adjustments can be timed safely around weather.",
+      "next_steps": "Recheck moisture tomorrow morning and only water if the top 1 inch is dry and the moisture reading has clearly dropped from today\u2019s level. Watch new growth for any paling or slowed growth that could indicate the high pH is limiting nutrient uptake. If pH stays above ~7.2 for several days, share the next reading and photo so adjustments can be timed safely around weather.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -235,7 +363,7 @@
     {
       "date": "12/11/2025",
       "time": "4:36 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.8",
         "ec_mScm": "0.22",
@@ -253,8 +381,8 @@
       },
       "observations": "Basil shows strong upright growth, full canopy development, and bright leaf coloration. No signs of dehydration, nutrient imbalance, or environmental stress. Surface soil is evenly hydrated and well-integrated following recent adjustments. Slightly elevated pH is consistent with topsoil fluctuations seen in late afternoon readings and not reflective of root stress.",
       "actions": "No watering required this afternoon. Allow natural dry-down to continue. No fertilizer recommended at this time.",
-      "next_steps": "Continue monitoring moisture each morning. Expect pH to settle near neutral as soil remains consistently hydrated. Temperatures in the mid-50s overnight remain safe; no protective measures are necessary until forecasted lows fall below 48°F.",
-      "q_and_a_summary": "User asked whether tonight’s low temperature of 53°F is concerning; confirmed that this range is safe for basil with no interventions required.",
+      "next_steps": "Continue monitoring moisture each morning. Expect pH to settle near neutral as soil remains consistently hydrated. Temperatures in the mid-50s overnight remain safe; no protective measures are necessary until forecasted lows fall below 48\u00b0F.",
+      "q_and_a_summary": "User asked whether tonight\u2019s low temperature of 53\u00b0F is concerning; confirmed that this range is safe for basil with no interventions required.",
       "follow_up": [
         "[4:36 PM] Observed strong growth and stable soil behavior under full sun conditions."
       ],
@@ -284,7 +412,7 @@
     {
       "date": "12/10/2025",
       "time": "8:10 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.0",
         "ec_mScm": "0.18",
@@ -300,7 +428,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Basil appears vigorous with bright, even leaf coloration and strong new growth. Canopy is fuller and stems are developing well. Yesterday’s added potting mix has integrated and no longer impacts pH readings. Surface hydration is uniform. No signs of nutrient deficiency, stress, or disease.",
+      "observations": "Basil appears vigorous with bright, even leaf coloration and strong new growth. Canopy is fuller and stems are developing well. Yesterday\u2019s added potting mix has integrated and no longer impacts pH readings. Surface hydration is uniform. No signs of nutrient deficiency, stress, or disease.",
       "actions": "No watering needed this morning as moisture is ideal. Allow natural dry-down toward the mid-40s before the next watering. No fertilizer at this time.",
       "next_steps": "Continue monitoring moisture daily. Expect stable pH going forward. Delay fertilization until fertility consistently drops below 7% and the plant enters another rapid growth phase.",
       "q_and_a_summary": "",
@@ -328,7 +456,7 @@
     {
       "date": "12/9/2025",
       "time": "7:21 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "9.14",
         "ec_mScm": "0.22",
@@ -372,7 +500,7 @@
     {
       "date": "12/8/2025",
       "time": "10:40 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "8.39",
         "ec_mScm": "0.23",
@@ -388,7 +516,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The basil shows strong, vigorous growth with firm leaves, bright coloration, and excellent canopy development across all clusters. No signs of wilt, stress, or nutrient imbalance are visible. Soil appears evenly hydrated following yesterday’s rehydration, and the surface texture is consistent with healthy moisture retention. The elevated pH reading is likely due to surface alkalinity after dry-to-wet cycling and is not reflected in the plant’s appearance, which remains robust and balanced.",
+      "observations": "The basil shows strong, vigorous growth with firm leaves, bright coloration, and excellent canopy development across all clusters. No signs of wilt, stress, or nutrient imbalance are visible. Soil appears evenly hydrated following yesterday\u2019s rehydration, and the surface texture is consistent with healthy moisture retention. The elevated pH reading is likely due to surface alkalinity after dry-to-wet cycling and is not reflected in the plant\u2019s appearance, which remains robust and balanced.",
       "actions": "Do not water today, as the moisture level is ideal and rain is possible later. Avoid all pH adjustments, as the plant shows no alkaline stress. Keep the basil in its current sun exposure, which is supporting strong vegetative growth. Do not fertilize at this time.",
       "next_steps": "Recheck moisture tomorrow morning or after any rainfall to confirm values stay within the ideal mid-range. Expect pH to drift downward naturally as the soil equilibrates. Continue monitoring canopy expansion and hold off on fertilizing until the plant reaches a more developed stage of growth.",
       "q_and_a_summary": "",
@@ -414,7 +542,7 @@
     {
       "date": "12/7/2025",
       "time": "12:22 PM",
-      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.26",
         "ec_mScm": "0.06",
@@ -431,8 +559,8 @@
         "ph": ""
       },
       "observations": "The plant appears vigorous and healthy with bright, turgid foliage and strong vegetative expansion across all clusters. Despite the excellent canopy condition, the soil surface shows pronounced dryness and slight crusting, resulting in poor probe contact and a 0.00 moisture reading. No signs of wilt, stress, or nutrient imbalance are visible, and the plant is performing well in today's warm, sunny conditions.",
-      "actions": "Rehydrate the soil thoroughly using the small-shower hose setting for 20–25 seconds total, applied in several short pulses to avoid runoff and help re-wet hydrophobic areas. Do not fertilize today. Keep the plant in full sun as it is responding well to current light conditions.",
-      "next_steps": "Recheck moisture tomorrow morning and confirm that readings rise into the 30–45 mS/cm range. Expect pH to drift slightly downward after rehydration. Monitor weather for tomorrow's potential showers and avoid additional watering if significant rainfall occurs.",
+      "actions": "Rehydrate the soil thoroughly using the small-shower hose setting for 20\u201325 seconds total, applied in several short pulses to avoid runoff and help re-wet hydrophobic areas. Do not fertilize today. Keep the plant in full sun as it is responding well to current light conditions.",
+      "next_steps": "Recheck moisture tomorrow morning and confirm that readings rise into the 30\u201345 mS/cm range. Expect pH to drift slightly downward after rehydration. Monitor weather for tomorrow's potential showers and avoid additional watering if significant rainfall occurs.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -456,7 +584,7 @@
     {
       "date": "12/4/2025",
       "time": "4:25 PM",
-      "conditions": "Partly cloudy with a high of 79°F dropping to 64°F overnight. Mild conditions favorable for continued growth with no extreme heat or cold stress expected.",
+      "conditions": "Partly cloudy with a high of 79\u00b0F dropping to 64\u00b0F overnight. Mild conditions favorable for continued growth with no extreme heat or cold stress expected.",
       "digital_probe": {
         "ph": "5.82",
         "ec_mScm": "0.16",
@@ -473,7 +601,7 @@
         "ph": ""
       },
       "observations": "The plant shows a dramatic leap in canopy development since yesterday, with leaf size increasing noticeably across all clusters. Several shoots now display large, fully expanded leaves, and the taller stems are beginning to form secondary branching. Lower clusters remain dense and compact with vibrant green coloration. No pest damage is visible, and all new growth appears firm, healthy, and well hydrated. The soil surface looks evenly moist and well structured. The plant is transitioning rapidly from early regrowth into bushy canopy rebuild.",
-      "actions": "Do not water today, as moisture remains ideal following yesterday's rehydration. Avoid fertilizing while the plant consolidates recovery growth. Continue monitoring canopy expansion and prepare for light structural shaping once shoots gain another 1–2 days of height.",
+      "actions": "Do not water today, as moisture remains ideal following yesterday's rehydration. Avoid fertilizing while the plant consolidates recovery growth. Continue monitoring canopy expansion and prepare for light structural shaping once shoots gain another 1\u20132 days of height.",
       "next_steps": "Water tomorrow morning at 6:30 AM with a light shower using the small-shower hose setting for approximately 15-20 seconds to moisten the top 2-3 inches without flooding. Continue monitoring for pest activity, though none is visible today. Expect rapid canopy expansion to continue as temperatures remain mild and moisture stays stable. The front-left cluster is particularly vigorous and may need topping soon to encourage even bushier regrowth.",
       "q_and_a_summary": "Discussed watering timing and approach, confirming that the 6:30 AM fixed schedule should be prioritized over afternoon checks. Clarified that hose-first instructions should be used exclusively rather than mixing with cup measurements to keep the process simple and field-ready.",
       "follow_up": [],
@@ -508,7 +636,7 @@
     {
       "date": "12/3/2025",
       "time": "1:53 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 66°F overnight. Strong afternoon sun and warm soil temperatures accelerated transpiration and dry-down throughout the day.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 66\u00b0F overnight. Strong afternoon sun and warm soil temperatures accelerated transpiration and dry-down throughout the day.",
       "digital_probe": {
         "ph": "5.97",
         "ec_mScm": "0.03",
@@ -524,9 +652,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant displays continued strong regrowth with expanding leaf clusters across all stems and vibrant green coloration throughout new shoots. The soil surface is dry and loose, matching the 0.00 moisture reading—the driest level recorded in the plant's history. Despite complete soil dryness, no visible stress, wilt, or pest damage appears, confirming the plant's resilient root system and healthy canopy structure. Overall architecture continues improving with balanced cluster development and firm new growth.",
+      "observations": "The plant displays continued strong regrowth with expanding leaf clusters across all stems and vibrant green coloration throughout new shoots. The soil surface is dry and loose, matching the 0.00 moisture reading\u2014the driest level recorded in the plant's history. Despite complete soil dryness, no visible stress, wilt, or pest damage appears, confirming the plant's resilient root system and healthy canopy structure. Overall architecture continues improving with balanced cluster development and firm new growth.",
       "actions": "Applied exactly 3 cups of water using the small-shower hose setting to rehydrate the completely dry root zone. Watering was done slowly and evenly across the soil surface to allow proper absorption. No fertilizer was applied, as fertility remains very low and the plant is still consolidating recovery growth. Avoided disturbing healthy foliage.",
-      "next_steps": "Water tomorrow morning at 6:30 AM with exactly 2 cups using the small-shower setting to maintain moisture through the forecast high of 84°F. Recheck moisture after watering to confirm it stabilizes in the 30s-40s range. Continue monitoring for new pest damage and reapply spinosad if fresh chewing appears. Expect rapid leaf expansion over the next 2-3 days as moisture stabilizes and temperatures moderate.",
+      "next_steps": "Water tomorrow morning at 6:30 AM with exactly 2 cups using the small-shower setting to maintain moisture through the forecast high of 84\u00b0F. Recheck moisture after watering to confirm it stabilizes in the 30s-40s range. Continue monitoring for new pest damage and reapply spinosad if fresh chewing appears. Expect rapid leaf expansion over the next 2-3 days as moisture stabilizes and temperatures moderate.",
       "q_and_a_summary": "",
       "follow_up": [
         "[5:30 PM] Watered per the instructions."
@@ -572,7 +700,7 @@
     {
       "date": "12/2/2025",
       "time": "10:37 AM",
-      "conditions": "Sunny morning with mild temperatures near 74°F and moderate humidity around 66%. Light exposure was strong, and the soil remained wet from previous irrigation and recent moisture retention. Airflow was steady with light gusts, providing supportive movement for developing stems.",
+      "conditions": "Sunny morning with mild temperatures near 74\u00b0F and moderate humidity around 66%. Light exposure was strong, and the soil remained wet from previous irrigation and recent moisture retention. Airflow was steady with light gusts, providing supportive movement for developing stems.",
       "digital_probe": {
         "ph": "5.72",
         "ec_mScm": "0.33",
@@ -636,7 +764,7 @@
     {
       "date": "12/1/2025",
       "time": "5:03 PM",
-      "conditions": "Warm and partly cloudy late afternoon with temperatures near 80°F and humidity around 77%. Light levels remained high despite intermittent cloud cover, and recent moisture from earlier weather contributed to softer soil and increased humidity. Moderate airflow with occasional gusts supported transpiration without causing major stress.",
+      "conditions": "Warm and partly cloudy late afternoon with temperatures near 80\u00b0F and humidity around 77%. Light levels remained high despite intermittent cloud cover, and recent moisture from earlier weather contributed to softer soil and increased humidity. Moderate airflow with occasional gusts supported transpiration without causing major stress.",
       "digital_probe": {
         "ph": "5.85",
         "ec_mScm": "0.31",
@@ -693,7 +821,7 @@
     {
       "date": "11/30/2025",
       "time": "2:43 PM",
-      "conditions": "Mostly sunny with warm afternoon temperatures near 88°F and moderate wind gusts around 20 mph, contributing to increased transpiration and slight edge stress on tender foliage. Humidity was moderate at 57%, and soil temperature rose due to direct sun exposure on the container.",
+      "conditions": "Mostly sunny with warm afternoon temperatures near 88\u00b0F and moderate wind gusts around 20 mph, contributing to increased transpiration and slight edge stress on tender foliage. Humidity was moderate at 57%, and soil temperature rose due to direct sun exposure on the container.",
       "digital_probe": {
         "ph": "7.28",
         "ec_mScm": "0.27",
@@ -710,7 +838,7 @@
         "ph": ""
       },
       "observations": "The plant continues producing strong, compact new growth, with regrowth nodes thickening and forming well-structured leaf pairs. Lower clusters are expanding evenly, and the overall architecture shows increasing symmetry. Some older leaves on the taller stems display yellowing, which aligns with wind exposure, midday heat, and slight pH drift into the alkaline range. A few small chewing holes are visible on select leaves, consistent with minor insect feeding, likely from small caterpillars. Despite these issues, new shoots remain vibrant, firm, and well hydrated, indicating ongoing progress in early canopy rebuild.",
-      "actions": "Do not water today because the current moisture level is ideal. Avoid fertilizing, as fertility continues to rise naturally. Remove only the damaged or chewed leaves to improve airflow and reduce pest attraction. Apply a spinosad-based treatment such as Captain Jack’s DeadBug RTS at dusk to address likely caterpillar feeding. Hold off on pH correction for now; a small amount of dolomite lime can be added later in the week once the soil surface is dry.",
+      "actions": "Do not water today because the current moisture level is ideal. Avoid fertilizing, as fertility continues to rise naturally. Remove only the damaged or chewed leaves to improve airflow and reduce pest attraction. Apply a spinosad-based treatment such as Captain Jack\u2019s DeadBug RTS at dusk to address likely caterpillar feeding. Hold off on pH correction for now; a small amount of dolomite lime can be added later in the week once the soil surface is dry.",
       "next_steps": "Recheck moisture tomorrow morning and water only once readings drop below 15 mS/cm. Monitor pH over the next several days and consider adding a small pinch of dolomite lime if alkalinity continues trending upward. Continue evaluating for new pest activity and repeat treatment if necessary. Expect ongoing canopy expansion as temperatures moderate.",
       "q_and_a_summary": "Discussed the causes of yellowing on larger leaves and confirmed they match heat, wind exposure, and mild alkalinity rather than nutrient deficiency. Reviewed pest damage patterns and identified caterpillars as the most likely cause based on leaf chewing. Clarified that removing damaged leaves is safe and helpful and confirmed that spinosad is the preferred treatment to apply at dusk. Covered pH drift and explained that mild correction with dolomite lime can be done later in the week.",
       "follow_up": [],
@@ -755,7 +883,7 @@
     {
       "date": "11/29/2025",
       "time": "1:16 PM",
-      "conditions": "Sunny midday conditions with temperatures near 76°F and moderate humidity around 52%. Winds reached approximately 15 mph with occasional gusts, providing beneficial airflow for developing stems. Soil surface remained evenly structured following recent top-offs.",
+      "conditions": "Sunny midday conditions with temperatures near 76\u00b0F and moderate humidity around 52%. Winds reached approximately 15 mph with occasional gusts, providing beneficial airflow for developing stems. Soil surface remained evenly structured following recent top-offs.",
       "digital_probe": {
         "ph": "6.53",
         "ec_mScm": "0.26",
@@ -774,7 +902,7 @@
       "observations": "The plant is showing its strongest and most balanced recovery growth so far. Lower clusters are thickening noticeably, especially the front-left group, which now appears dense, compact, and well structured. The previously taller stems are beginning to form early side branches, signaling that the reset occurred at an optimal time. Leaf color has improved across the canopy, with the dominant top head showing clearer definition and stronger tone. Overall architecture is becoming more symmetrical as clusters expand at similar rates. Wind exposure around 15 mph has not stressed the plant and is helping strengthen the newly developing stems.",
       "actions": "Do not water today, as moisture remains ideal for only a few hours after the prior irrigation. Avoid fertilizing because natural fertility levels continue to rise. Do not prune, since shoots are still forming secondary leaf pairs and require more height before shaping. Leave the plant outdoors and allow the light wind to continue strengthening the stems.",
       "next_steps": "Expect accelerated growth over the next 48 hours as temperatures rise. Check moisture tomorrow morning and plan to water once readings fall below 15 mS/cm. Prepare for selective shaping cuts in roughly 4-5 days, once secondary leaf pairs reach the appropriate length.",
-      "q_and_a_summary": "Reviewed whether cooler temperatures, rising fertility, and full sun should alter today’s care plan. Confirmed that moisture, pruning, and fertilization decisions remain unchanged. Clarified that the growth surge and balanced structure indicate predictable, healthy progress through early canopy rebuild.",
+      "q_and_a_summary": "Reviewed whether cooler temperatures, rising fertility, and full sun should alter today\u2019s care plan. Confirmed that moisture, pruning, and fertilization decisions remain unchanged. Clarified that the growth surge and balanced structure indicate predictable, healthy progress through early canopy rebuild.",
       "follow_up": [],
       "photos": [
         {
@@ -817,7 +945,7 @@
     {
       "date": "11/28/2025",
       "time": "10:20 AM",
-      "conditions": "Cloudy with a high of 72°F and an overnight low of 57°F. Clear conditions are expected around 6 PM, and cooler morning soil temperatures were noted.",
+      "conditions": "Cloudy with a high of 72\u00b0F and an overnight low of 57\u00b0F. Clear conditions are expected around 6 PM, and cooler morning soil temperatures were noted.",
       "digital_probe": {
         "ph": "7.56",
         "ec_mScm": "0.28",
@@ -879,7 +1007,7 @@
     {
       "date": "11/27/2025",
       "time": "10:41 AM",
-      "conditions": "Cloudy with a high of 81°F and an overnight low of 65°F. Rain is expected around 6 PM, and a light sun shower occurred yesterday. The soil surface was leveled after filling probe holes to prevent cavities.",
+      "conditions": "Cloudy with a high of 81\u00b0F and an overnight low of 65\u00b0F. Rain is expected around 6 PM, and a light sun shower occurred yesterday. The soil surface was leveled after filling probe holes to prevent cavities.",
       "digital_probe": {
         "ph": "5.63",
         "ec_mScm": "0.22",
@@ -946,7 +1074,7 @@
     {
       "date": "11/26/2025",
       "time": "10:38 AM",
-      "conditions": "Mostly cloudy with a high near 84°F and an overnight low around 67°F. Thunderstorms are expected around 4 PM, and a brief light sun-shower occurred shortly after the reading.",
+      "conditions": "Mostly cloudy with a high near 84\u00b0F and an overnight low around 67\u00b0F. Thunderstorms are expected around 4 PM, and a brief light sun-shower occurred shortly after the reading.",
       "digital_probe": {
         "ph": "6.86",
         "ec_mScm": "0.15",
@@ -962,7 +1090,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant shows a strong burst of new growth since yesterday, with multiple stems now supporting clusters of true leaves and several shoots advancing beyond the early bud stage. New foliage displays healthy coloration and firm texture, and the taller stems remain stable as energy sources. Soil is well aerated and evenly dried into the ideal mid-30s range, showing no oversaturation despite yesterday’s watering and this morning’s light shower. Overall, the plant is progressing through vigorous regrowth with expanding shoots and balanced hydration ahead of the expected afternoon storms.",
+      "observations": "The plant shows a strong burst of new growth since yesterday, with multiple stems now supporting clusters of true leaves and several shoots advancing beyond the early bud stage. New foliage displays healthy coloration and firm texture, and the taller stems remain stable as energy sources. Soil is well aerated and evenly dried into the ideal mid-30s range, showing no oversaturation despite yesterday\u2019s watering and this morning\u2019s light shower. Overall, the plant is progressing through vigorous regrowth with expanding shoots and balanced hydration ahead of the expected afternoon storms.",
       "actions": "Do not water today, as moisture is ideal and additional rain is expected. Avoid fertilizing and postpone pruning until new shoots gain more height and structure. Keep the plant outdoors to benefit from natural light and rainfall.",
       "next_steps": "Monitor moisture after the storm to ensure the soil does not become oversaturated. Allow shoots to elongate and stabilize over the next 2-3 days before considering structural pruning. Expect ongoing rapid leaf expansion as the plant rebuilds its canopy.",
       "q_and_a_summary": "Guidance was requested regarding the morning shower and probe readings. Confirmed that moisture is ideal, upcoming rain will not be harmful, and pruning should wait until the new shoots have gained additional height and stability.",
@@ -1003,7 +1131,7 @@
     {
       "date": "11/25/2025",
       "time": "2:46 PM",
-      "conditions": "Sunny all day with a high near 84°F and an overnight low around 65°F.",
+      "conditions": "Sunny all day with a high near 84\u00b0F and an overnight low around 65\u00b0F.",
       "digital_probe": {
         "ph": "7.26",
         "ec_mScm": "0.14",
@@ -1022,7 +1150,7 @@
       "observations": "The plant is continuing rapid regrowth with multiple stems producing new leaf clusters and expanding true leaves. Shoots are gaining structure and stronger color, and the taller stems remain stable as energy sources for developing growth. Soil moisture is balanced following the recent irrigation, with no signs of oversaturation. The plant is progressing through a vigorous rebuild phase as the canopy widens.",
       "actions": "No additional watering is needed after the earlier irrigation. Hold off on fertilizing and postpone pruning until new shoots develop further. Maintain full sun exposure.",
       "next_steps": "Allow moisture to continue dropping gradually before the next watering. Monitor shoot expansion over the coming days as the plant approaches readiness for structural shaping.",
-      "q_and_a_summary": "Questions centered on interpreting probe values after watering. Confirmed that the readings are normal following irrigation and that the plant’s regrowth remains strong.",
+      "q_and_a_summary": "Questions centered on interpreting probe values after watering. Confirmed that the readings are normal following irrigation and that the plant\u2019s regrowth remains strong.",
       "follow_up": [],
       "photos": [
         {
@@ -1060,7 +1188,7 @@
     {
       "date": "11/24/2025",
       "time": "10:19 AM",
-      "conditions": "Partly cloudy with a high near 81°F and an overnight low around 61°F.",
+      "conditions": "Partly cloudy with a high near 81\u00b0F and an overnight low around 61\u00b0F.",
       "digital_probe": {
         "ph": "7.45",
         "ec_mScm": "0.18",
@@ -1112,7 +1240,7 @@
     {
       "date": "11/23/2025",
       "time": "12:07 PM",
-      "conditions": "Sunny with a high near 84°F and an overnight low around 63°F.",
+      "conditions": "Sunny with a high near 84\u00b0F and an overnight low around 63\u00b0F.",
       "digital_probe": {
         "ph": "5.98",
         "ec_mScm": "0.27",
@@ -1128,9 +1256,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant is in a strong rebound phase with numerous new shoots emerging along multiple stems and several nodes already carrying true leaves, rebuilding the canopy ahead of schedule. Tall older stems remain firm and green, supplying energy to the developing shoots while the remaining yellow leaves thin out as fresh growth takes over. The soil shows a dry, aerated surface with moderate moisture below, supporting root oxygenation and steady regrowth. Readings show a slightly acidic pH with stable EC and salt levels, consistent with the plant’s transition from node swelling into early shoot formation.",
+      "observations": "The plant is in a strong rebound phase with numerous new shoots emerging along multiple stems and several nodes already carrying true leaves, rebuilding the canopy ahead of schedule. Tall older stems remain firm and green, supplying energy to the developing shoots while the remaining yellow leaves thin out as fresh growth takes over. The soil shows a dry, aerated surface with moderate moisture below, supporting root oxygenation and steady regrowth. Readings show a slightly acidic pH with stable EC and salt levels, consistent with the plant\u2019s transition from node swelling into early shoot formation.",
       "actions": "Do not prune the taller stems yet, as they are still contributing energy to the new shoots. Wait until the new growth becomes more substantial before shaping. Do not water today; the dry top layer is ideal and root zone moisture is still sufficient. Avoid fertilization until new leaves are larger and more established.",
-      "next_steps": "Monitor moisture daily and wait to water until the meter reads in the mid-30s. Allow the new shoots 5–7 more days to grow before considering structural pruning. Expect the new growth to become more defined and greener as the plant advances into early canopy rebuild.",
+      "next_steps": "Monitor moisture daily and wait to water until the meter reads in the mid-30s. Allow the new shoots 5\u20137 more days to grow before considering structural pruning. Expect the new growth to become more defined and greener as the plant advances into early canopy rebuild.",
       "q_and_a_summary": "Reviewed whether taller stems should be cut down to match the height of the new shoots and confirmed that pruning now would reduce energy available for regrowth, so shaping is better delayed until new shoots are larger and more established. Also confirmed that a bone-dry top layer with moderate root-zone moisture is ideal and that watering should wait until the moisture reading falls into the mid-30s.",
       "follow_up": [],
       "photos": [
@@ -1164,7 +1292,7 @@
     {
       "date": "11/22/2025",
       "time": "10:04 AM",
-      "conditions": "Mostly cloudy with a high near 84°F and an overnight low around 67°F.",
+      "conditions": "Mostly cloudy with a high near 84\u00b0F and an overnight low around 67\u00b0F.",
       "digital_probe": {
         "ph": "7.05",
         "ec_mScm": "0.21",
@@ -1180,10 +1308,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant continues a steady recovery from the hard reset prune, with multiple stems now carrying early true leaves and clear progress beyond yesterday’s node swelling stage. Older yellow leaves are aging out naturally while new growth appears brighter and healthier, and the stems stay firm and pale green with no signs of collapse or rot. Soil moisture has dropped into a healthy mid-range with even dry-down across the surface, and probe readings show slightly above-neutral pH with gently declining EC and salt levels, indicating stable nutrients without excess. Cloudy conditions are providing gentle light that reduces stress on the emerging shoots.",
+      "observations": "The plant continues a steady recovery from the hard reset prune, with multiple stems now carrying early true leaves and clear progress beyond yesterday\u2019s node swelling stage. Older yellow leaves are aging out naturally while new growth appears brighter and healthier, and the stems stay firm and pale green with no signs of collapse or rot. Soil moisture has dropped into a healthy mid-range with even dry-down across the surface, and probe readings show slightly above-neutral pH with gently declining EC and salt levels, indicating stable nutrients without excess. Cloudy conditions are providing gentle light that reduces stress on the emerging shoots.",
       "actions": "Do not water today, as the moisture level is still comfortably above the dry threshold. Keep the plant in its current placement with gentle light. Avoid all fertilizers until new leaves become larger and more established.",
       "next_steps": "Allow moisture to continue dropping toward the mid-30s before the next watering. Monitor daily for continued emergence of new leaf pairs over the next 2-3 days. Expect clearer shoot development as the plant transitions fully into early regrowth.",
-      "q_and_a_summary": "Discussed what today’s probe readings and photos indicate about the recovery and confirmed that early true leaf formation and stable soil conditions show the plant is progressing ahead of schedule into active regrowth.",
+      "q_and_a_summary": "Discussed what today\u2019s probe readings and photos indicate about the recovery and confirmed that early true leaf formation and stable soil conditions show the plant is progressing ahead of schedule into active regrowth.",
       "follow_up": [],
       "photos": [
         {
@@ -1216,7 +1344,7 @@
     {
       "date": "11/21/2025",
       "time": "3:15 PM",
-      "conditions": "Sunny with a high near 84°F and an overnight low around 60°F.",
+      "conditions": "Sunny with a high near 84\u00b0F and an overnight low around 60\u00b0F.",
       "digital_probe": {
         "ph": "6.58",
         "ec_mScm": "0.36",
@@ -1235,7 +1363,7 @@
       "observations": "The plant shows the first meaningful rebound since the hard reset, with multiple lower nodes on several stems swelling and forming early shoots while the stems remain firm and pale green without signs of rot. Yellowed leaves are fewer and softer, matching the expected decline of older tissue, and the soil is moderately moist but no longer waterlogged, with a more aerated surface after previous fluffing. Probe readings place pH in the ideal range with stable EC and salt levels, and overall stress indicators appear reduced. Ambient sun and filtered afternoon light look appropriate, with no heat wilt visible despite a high radiant soil temperature reading.",
       "actions": "Do not water today since the moisture level is still moderate. Keep the plant in morning sun with bright shade for the remainder of the day. Avoid fertilizer until vigorous new green leaves appear. Continue gentle soil management without disturbing fine roots.",
       "next_steps": "Allow moisture to drift toward the mid-30s to low-40s before the next watering. Expect node swelling to continue and small new leaf pairs to begin emerging over the next several days. Maintain current light exposure and avoid nutritional amendments until growth becomes more substantial.",
-      "q_and_a_summary": "Reviewed what to expect from the logging system and confirmed that today’s readings and photos show a transition from post-prune stress into early regrowth with stable environmental and soil conditions.",
+      "q_and_a_summary": "Reviewed what to expect from the logging system and confirmed that today\u2019s readings and photos show a transition from post-prune stress into early regrowth with stable environmental and soil conditions.",
       "follow_up": [],
       "photos": [
         {
@@ -1268,7 +1396,7 @@
     {
       "date": "11/20/2025",
       "time": "9:50 AM",
-      "conditions": "Mostly sunny, around 78°F at mid-morning with a forecast high of 83°F and overnight low near 64°F.",
+      "conditions": "Mostly sunny, around 78\u00b0F at mid-morning with a forecast high of 83\u00b0F and overnight low near 64\u00b0F.",
       "digital_probe": {
         "ph": "6.97",
         "ec_mScm": "0.36",
@@ -1284,10 +1412,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Plant is still highly thinned with only a few small clusters of leaves on the remaining stems. Older leaves are yellow and delicate, and some drop when touched. The soil surface had formed a crusted, matted layer before being fluffed; after fluffing, the top looks looser but the probe reading shows overall moisture is high, reflecting yesterday’s shade and previous watering. pH is close to neutral and fertility has increased into a moderate range, and no obvious pests are visible.",
+      "observations": "Plant is still highly thinned with only a few small clusters of leaves on the remaining stems. Older leaves are yellow and delicate, and some drop when touched. The soil surface had formed a crusted, matted layer before being fluffed; after fluffing, the top looks looser but the probe reading shows overall moisture is high, reflecting yesterday\u2019s shade and previous watering. pH is close to neutral and fertility has increased into a moderate range, and no obvious pests are visible.",
       "actions": "Do not water today; the root zone is already quite moist. Keep the pot where it receives gentle morning sun and bright shade for the rest of the day. Lightly fluff the top layer as needed in the future to prevent crusting, but avoid aggressive disturbance now that fine roots have been exposed. Do not fertilize yet.",
       "next_steps": "Recheck moisture and pH within about 24 hours. Allow the soil to dry down toward the mid-30s to 40s before the next watering. Watch for fresh, bright-green leaves emerging from the lower nodes over the next 1-2 weeks. Once the plant shows a solid flush of new growth, consider starting a very dilute fertilizer routine.",
-      "q_and_a_summary": "Reassessed today’s high moisture reading in light of recent shade, prior dryness, and the plant’s stress history and confirmed that the goal is to cycle slowly between moist and just-barely-dry while avoiding extremes. Also emphasized that the plant may look rough for a while after the hard reset but can still recover as long as the stem bases remain firm and alive.",
+      "q_and_a_summary": "Reassessed today\u2019s high moisture reading in light of recent shade, prior dryness, and the plant\u2019s stress history and confirmed that the goal is to cycle slowly between moist and just-barely-dry while avoiding extremes. Also emphasized that the plant may look rough for a while after the hard reset but can still recover as long as the stem bases remain firm and alive.",
       "follow_up": [
         "[10:16 AM] Lightly fluffed the crusted surface layer, exposing very fine roots just below; confirmed this gentle disturbance is acceptable and that the added aeration will help the soil dry more evenly.",
         "[3:13 PM] Follow-up check found the fluffed top layer very dry while soil at first-knuckle depth remained moist; confirmed this pattern is ideal and recommended continuing to withhold water until root-zone moisture drops further."
@@ -1328,7 +1456,7 @@
     {
       "date": "11/19/2025",
       "time": "9:12 AM",
-      "conditions": "Mild morning around 67°F with sun and a warm afternoon forecast near 80°F.",
+      "conditions": "Mild morning around 67\u00b0F with sun and a warm afternoon forecast near 80\u00b0F.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.09",
@@ -1360,7 +1488,7 @@
     {
       "date": "11/18/2025",
       "time": "8:30 AM",
-      "conditions": "Cool, dewy morning around 63°F, mostly sunny day with a high near 80°F.",
+      "conditions": "Cool, dewy morning around 63\u00b0F, mostly sunny day with a high near 80\u00b0F.",
       "digital_probe": {
         "ph": "7.64",
         "ec_mScm": "0.32",
@@ -1392,7 +1520,7 @@
     {
       "date": "11/17/2025",
       "time": "8:53 AM",
-      "conditions": "Cool morning around 61°F, mostly sunny day forecast with a high near 80°F.",
+      "conditions": "Cool morning around 61\u00b0F, mostly sunny day forecast with a high near 80\u00b0F.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.35",

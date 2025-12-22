@@ -75,7 +75,7 @@
       "sub_category": "Workflow gating / unnecessary confirmation",
       "trigger_if": "The assistant does not output the Daily Journal Entry JSON immediately after the Expert Assessment (or asks for confirmation first)",
       "response_then": "Please present the Daily Journal Entry JSON immediately after your assessment (no confirmation step). Then continue the workflow.",
-      "count": 2,
+      "count": 16,
       "status": "active",
       "tags": [
         "json",
@@ -141,8 +141,8 @@
       "category": "Daily Journal Entry JSON",
       "sub_category": "Schema / field names",
       "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
-      "response_then": "Regenerate the Daily Journal Entry JSON using the exact schema and field names from the guide—no added or renamed fields.",
-      "count": 2,
+      "response_then": "Regenerate the Daily Journal Entry JSON using this exact schema and field names from the guide—no added or renamed fields.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative (High/Low/Condition)\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
+      "count": 16,
       "status": "active",
       "tags": [
         "json",
@@ -212,7 +212,7 @@
       "sub_category": "Hallucinated / external content",
       "trigger_if": "The assistant introduces stock images, example photos, external visuals, or descriptions that did not come from my uploaded files and presents them as if they were my photos, readings, conditions, or observations",
       "response_then": "Remove all invented or external content and regenerate the assessment and JSON using ONLY my provided photos, filenames, probe readings, weather, and observations.",
-      "count": 2,
+      "count": 3,
       "status": "active",
       "tags": [
         "hallucination",
@@ -325,7 +325,7 @@
       "sub_category": "Follow-up vs initial entry",
       "trigger_if": "The assistant does not offer to log a follow-up or question, OR logs it by outputting only a partial JSON fragment instead of the full Daily Journal Entry",
       "response_then": "Offer to log the follow-up (\"Want me to log that?\"), and if accepted, re-issue the COMPLETE Daily Journal Entry JSON for the day, changing NOTHING except appending to follow_up and/or updating q_and_a_summary as appropriate.",
-      "count": 1,
+      "count": 3,
       "status": "active",
       "tags": [
         "follow-up",
@@ -479,8 +479,8 @@
       "category": "Plant Main Data",
       "sub_category": "Review workflow",
       "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
-      "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why.",
-      "count": 10,
+      "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why. You need to do this every day immediately following the Daily Journal Entry JSON.",
+      "count": 46,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -648,6 +648,172 @@
         "Using descriptive observation instead of growth stage",
         "Confusing visual milestone with phenological phase"
       ]
+    },
+    {
+      "id": "TITLE-002",
+      "title": "Unauthorized Memory Save",
+      "category": "General",
+      "sub_category": "Memory & State Violations",
+      "trigger_if": "The assistant saves any information to memory without me explicitly saying “save this to memory” — including channel-specific context, workflow instructions, corrections, preferences, or project state",
+      "response_then": "Acknowledge the correction.\nConfirm that you will not save information to memory unless I explicitly request it.\nRemove the unauthorized memory.\nThen continue the workflow from the correct point as my professional horticulturist or extension agent.",
+      "anti_patterns": [
+        "Unauthorized Persistence of Context",
+        "Implicit Memory Capture",
+        "Unrequested State Persistence",
+        "Memory Boundary Violation"
+      ],
+      "tags": [
+        "Unauthorized Memory",
+        "Preference Leakage",
+        "Cross-Channel Contamination",
+        "Workflow Drift",
+        "Persistence Error"
+      ],
+      "include_footer": false,
+      "count": 0,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-003",
+      "title": "Two Required Steps",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Probe Readings",
+      "trigger_if": "The assistant fails to perform two required steps",
+      "response_then": "You missed two required steps in the same response:\nYou did not present the Daily Journal Entry JSON after the Expert Assessment.\nYou used an instructional probe-reading heading instead of the dynamic probe summary headline.\n\nPlease redo the output now:\nProvide the Daily Journal Entry JSON immediately after the assessment\nUse the dynamic probe summary headline itself as the H2 section heading (for example: “🌞 Your readings today are excellent”), with no instructional or meta headings",
+      "anti_patterns": [
+        "Asking to log this as today’s Plant Daily Journal Entry",
+        "🌞 Probe Reading Interpretation (Required Summary) as H2 followed by 🌞 Your readings today are excellent"
+      ],
+      "tags": [],
+      "include_footer": true,
+      "count": 3,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-004",
+      "title": "Assessment Scope Narrowed to Single Question (Watering-Only)",
+      "category": "Daily Workflow",
+      "sub_category": "Assessment scope & workflow continuation",
+      "trigger_if": "The assistant reframes the daily assessment as being specifically or only about answering one user question (e.g., watering timing), narrows the scope of the Expert Assessment, or announces a restricted scope such as “This assessment is specifically about whether to water right now,” resulting in skipped sections or missing Daily Journal Entry JSON.",
+      "response_then": "Perform a full Expert Horticulturist Assessment as normal.\n\nInclude the specific question (e.g., watering recommendation) as one required component of the assessment, not the sole focus.\n\nDo not announce, describe, or limit the scope of the assessment.\n\nImmediately continue the standard workflow and present the complete Daily Journal Entry JSON after the assessment.",
+      "anti_patterns": [
+        "“This assessment is specifically about whether to water right now…”",
+        "Assessment framed as answering only one question",
+        "Skipping canopy, growth, stress, or development observations",
+        "Watering advice given without full assessment context",
+        "Missing Daily Journal Entry JSON after assessment"
+      ],
+      "tags": [
+        "assessment-scope",
+        "workflow-continuation",
+        "watering",
+        "expert-assessment",
+        "json-missing"
+      ],
+      "include_footer": true,
+      "count": 0,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-005",
+      "title": "Plant Main Data Review Announced but No Outcome Provided",
+      "category": "Plant Main Data",
+      "sub_category": "Review execution / missing outcome",
+      "trigger_if": "The assistant says it will “silently perform the Plant Main Data Review” (or similar) but does not provide the required outcome immediately after (either:\n   - “No **Plant Main Data** updates necessary”\n   **OR**\n   - the list of outdated attributes and why)",
+      "response_then": "Do not announce or defer the Plant Main Data Review.\n\n   Perform it now (silently), and immediately provide the outcome:\n\n   - Say **EXACTLY**: No **Plant Main Data** updates necessary\n   **OR**\n   - Identify the outdated attributes (attribute names only) and proceed with the normal one-by-one lock-in workflow.\n\nThen continue the workflow as my professional horticulturist or extension agent.",
+      "anti_patterns": [
+        "“I will now silently perform the Plant Main Data Review.” (with no result afterward)",
+        "Announcing a review instead of producing its outcome",
+        "Deferring Plant Main Data Review to a future message",
+        "Saying a review was performed without stating whether updates are needed",
+        "Workflow stalls after Daily Journal Entry JSON with no Plant Main Data conclusion",
+        "Promise-language (“I’ll take care of that next”) instead of execution",
+        "Acting as if the review happened without proving it",
+        "Ending with “send an update tomorrow” before completing current workflow"
+      ],
+      "tags": [
+        "plant-main-data",
+        "review",
+        "announced-not-done",
+        "missing-outcome",
+        "workflow-stall"
+      ],
+      "include_footer": true,
+      "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-006",
+      "title": "Apply Change Going Forward (Do Not Save to Memory)",
+      "category": "General",
+      "sub_category": "Scope Control / Memory Management",
+      "trigger_if": "Standard phrasing to instruct the assistant to apply a change going forward within the current Plant Channel or workflow without saving it to long-term memory, while continuing the workflow normally.",
+      "response_then": "Acknowledge this change, apply it going forward in this Plant Channel, continue the workflow, and do not save it to memory.",
+      "anti_patterns": [
+        "Using the word “remember” when memory persistence is not desired",
+        "Assistant saving channel-specific workflow instructions to memory",
+        "Assistant acknowledging a change but not continuing the workflow",
+        "Assistant asking what to do next instead of proceeding"
+      ],
+      "tags": [
+        "memory",
+        "scope",
+        "workflow",
+        "channel-only",
+        "corrections",
+        "control-phrases"
+      ],
+      "include_footer": false,
+      "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-007",
+      "title": "Question Invented and Added to Q&A Summary",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Q&A Hallucination / Inferred Intent",
+      "trigger_if": "The assistant adds an entry to `q_and_a_summary` when the user did not ask a question (explicitly or implicitly)",
+      "response_then": "Remove the invented question and answer.\nDo not populate `q_and_a_summary` unless the user clearly asks a question (ends with “?” or is explicitly phrased as a question).\nRegenerate the Daily Journal Entry JSON with `q_and_a_summary` empty or unchanged.\nThen continue the workflow as my professional horticulturist.",
+      "anti_patterns": [
+        "Assistant invents a question the user never asked",
+        "Populating q_and_a_summary based on inferred intent",
+        "Turning observations into implied questions",
+        "“Answering” something the user didn’t ask",
+        "Treating commentary as a question",
+        "Adding advisory text to Q&A without a question mark or explicit as"
+      ],
+      "tags": [
+        "Assistant invents a question the user never asked  Populating q_and_a_summary based on inferred intent  Turning observations into implied questions  “Answering” something the user didn’t ask  Treating commentary as a question  Adding advisory text to Q&A without a question mark or explicit as"
+      ],
+      "include_footer": true,
+      "count": 2,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-008",
+      "title": "Watering Recommendation Deferred or Recheck Suggested",
+      "category": "Daily Workflow",
+      "sub_category": "Final Watering Decision Enforcement",
+      "trigger_if": "The assistant recommends checking moisture later, taking another probe reading, reassessing watering later the same day, or otherwise defers the watering decision after probe readings, weather, and photos have already been provided.\n",
+      "response_then": "Re-evaluate watering as a final decision using:\n- the existing probe moisture reading and its timestamp,\n- the elapsed time since the probe reading was taken,\n- today’s weather, tonight’s conditions, and tomorrow’s forecast,\n- the user’s location in Loxahatchee, FL,\n- the plant’s known behavior,\n- and sun exposure using `full_sun_start` and `full_shade_start`.\n\nProvide ONE clear recommendation only:\n- Water now\n- Water first thing in the morning\n- Do not water until the next probe reading\n\nIf watering is recommended (now or in the morning), you MUST also state **how much**, using hose-first guidance (light surface wetting, moderate watering with approximate seconds/minutes, or deep slow watering with soak guidance).\n\nDo not suggest reassessing later or taking another reading the same day.",
+      "anti_patterns": [
+        "Check again later",
+        "Reassess this afternoon",
+        "Take another probe reading",
+        "Let’s wait and see",
+        "Monitor for now"
+      ],
+      "tags": [
+        "watering",
+        "timing",
+        "probe-lag",
+        "decision-finality",
+        "sun-exposure",
+        "workflow-reset"
+      ],
+      "include_footer": true,
+      "count": 1,
+      "applies_when": ""
     }
   ]
 }

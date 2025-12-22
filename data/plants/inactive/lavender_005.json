@@ -4,6 +4,8 @@
   "plant": "Lavender (Right)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 6",
+  "full_sun_start": "9:00 AM EST",
+  "full_shade_start": "4:00 PM EST",
   "container": "Round pot, 25 oz, white",
   "soil_mix": "Miracle-Gro Potting Soil + Skoon pebbles (1:3)",
   "origin_history": [

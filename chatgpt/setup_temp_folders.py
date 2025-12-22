@@ -4,8 +4,8 @@ Setup Temp Folders Script
 ==========================
 Automatically creates temp folder structure on Desktop for batch photo processing.
 
-Reads all plant IDs from data/plants/ directory and creates corresponding temp folders
-in ~/Desktop/garden_photos_temp/
+Reads all plant IDs from data/plants/ directory (including inactive subdirectory)
+and creates corresponding temp folders in ~/Desktop/garden_photos_temp/
 
 Perfect for preparing to process historical photos!
 
@@ -31,14 +31,19 @@ def main():
         print(f"❌ Error: Plants directory not found: {data_dir}")
         return
 
-    # Get all plant JSON files
+    # Get all plant JSON files from main directory
     plant_files = list(data_dir.glob('*.json'))
+
+    # Also get plant JSON files from inactive subdirectory if it exists
+    inactive_dir = data_dir / 'inactive'
+    if inactive_dir.exists() and inactive_dir.is_dir():
+        plant_files.extend(list(inactive_dir.glob('*.json')))
 
     if not plant_files:
         print(f"❌ Error: No plant JSON files found in {data_dir}")
         return
 
-    print(f"\n📁 Found {len(plant_files)} plants in data/plants/")
+    print(f"\n📁 Found {len(plant_files)} plants in data/plants/ (including inactive)")
 
     # Extract plant IDs
     plant_ids = [f.stem for f in sorted(plant_files)]

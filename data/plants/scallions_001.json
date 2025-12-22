@@ -4,11 +4,13 @@
   "plant": "Scallions",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 8",
+  "full_sun_start": "9:45 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Window Box",
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Scallions planted on Nov 12, 2025 from grocery scallion bottoms.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" front and back.",
+    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" front and back.",
     "Shared with Siberian Hardneck, Music Hardneck, Chesnok Red Hardneck."
   ],
   "whats_been_logged": "The focus has shifted from monitoring early upright clump formation and pH correction to tracking the first full cut-down harvest, improved soil aeration, and the beginning of the post-harvest regrowth cycle. Current attention is on the emergence of new shoots and maintaining balanced moisture as the planter transitions into repeat-harvest growth.",
@@ -38,9 +40,162 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "07:54 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.9",
+        "ec_mScm": "0.44",
+        "salt_mg_L": "220",
+        "moisture_mScm": "100",
+        "light": "99",
+        "rh_percent": "62",
+        "fertility_percent": "26",
+        "soil_temp_f": "60.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions are in active regrowth following harvest, with multiple upright shoots per crown. Tallest shoots are approaching four inches, with most between three and four inches. Crowns remain firm and healthy with no signs of rot. Soil moisture is fully saturated following recent rain and fog.",
+      "actions": "Do not water. Do not mound soil yet. Allow natural drying and continued shoot elongation.",
+      "next_steps": "Recheck shoot height and soil moisture with the next probe reading. Begin the first 1/2-inch soil mound once most shoots reach four to five inches and surface moisture has decreased.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251220-03.jpeg",
+          "caption": "Scallion planter showing active regrowth with shoots approaching the blanching threshold height.",
+          "tags": "scallions, regrowth, post-harvest, follow-up"
+        },
+        {
+          "file_name": "scallions_001-20251220-04.jpeg",
+          "caption": "Closer view of scallion crowns with thickening pseudostems and upright new shoots prior to first soil mounding.",
+          "tags": "scallions, crown, regrowth, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:17 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.07",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "173",
+        "moisture_mScm": "72.33",
+        "light": "99",
+        "rh_percent": "65",
+        "fertility_percent": "19.7",
+        "soil_temp_f": "73.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion crowns show strong regrowth with tight, upright new shoots emerging uniformly across the planter. Most shoots are between early emergence and approximately three inches tall, with firm cut bases and no signs of rot or collapse. Soil moisture remains elevated following recent rain, but structure appears stable and aerated.",
+      "actions": "Do not water. Do not mound soil yet. Allow natural drying and continued shoot elongation.",
+      "next_steps": "Measure shoot height daily. Begin the first 1/2-inch soil mound only once most shoots reach approximately 4 to 5 inches in height. Recheck moisture after the next sunny afternoon.",
+      "q_and_a_summary": "Evaluated whether to begin soil mounding; confirmed it is premature and should wait until regrowth reaches 4 to 5 inches. Assessed watering needs and confirmed no irrigation is recommended given current moisture, weather, and timing.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251219-04.jpeg",
+          "caption": "Post-harvest scallion crowns with early regrowth visible, showing tight, upright new shoots and firm cut bases.",
+          "tags": "scallions, regrowth, post-harvest, follow-up"
+        },
+        {
+          "file_name": "scallions_001-20251219-05.jpeg",
+          "caption": "Wider view of the planter showing uniform scallion recovery and soil conditions following recent rain.",
+          "tags": "scallions, planter-overview, regrowth, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:56 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.35",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "125",
+        "moisture_mScm": "57.50",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "85.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion crowns show active regrowth with new green shoots emerging from clean, firm cut surfaces. Soil moisture is well balanced following intermittent morning rain, with no signs of pooling or crown saturation. Plants remain upright and stable, indicating strong post-harvest recovery.",
+      "actions": "Do not water today. Do not mound soil yet. Allow crowns to continue regrowth undisturbed.",
+      "next_steps": "Monitor shoot height daily. Begin the first 1/2-inch soil mound only once regrowth reaches approximately 4 to 5 inches. Continue holding off on fertilizer until additional leaf mass develops.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251218-03.jpeg",
+          "caption": "Wide view of the planter showing uniform post-harvest regrowth with multiple scallion crowns actively pushing new shoots.",
+          "tags": "scallions, regrowth, post-harvest, follow-up"
+        },
+        {
+          "file_name": "scallions_001-20251218-04.jpeg",
+          "caption": "Closer view of scallion crowns with fresh green shoots emerging from firm, healthy cut bases after rainfall.",
+          "tags": "scallions, crown, regrowth, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "12/16/2025",
+      "time": "11:56 AM",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.13",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133",
+        "moisture_mScm": "64.67",
+        "light": "90",
+        "rh_percent": "47",
+        "fertility_percent": "14.3",
+        "soil_temp_f": "73.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion crowns remain firm and upright following the previous day's harvest, with fresh green tissue visible at cut surfaces indicating active regrowth. Soil surface had dried and crusted due to wind exposure, but subsurface moisture remained adequate. Soil was gently fluffed to restore aeration without disturbing the crowns. No signs of rot, collapse, or discoloration were observed.",
+      "actions": "Do not water today as subsurface moisture is sufficient and rain is likely overnight. Do not mound soil yet. Maintain loose soil texture around crowns without covering them.",
+      "next_steps": "Monitor for new green shoot emergence over the next 24 to 48 hours. Begin measuring regrowth height once shoots reach several inches. Plan the first 1/2-inch soil mound only after regrowth reaches approximately 4 to 5 inches.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251216-02.jpeg",
+          "caption": "Wide view of the planter one day after harvest showing evenly cut scallion crowns and stable soil conditions.",
+          "tags": "scallions, post-harvest, regrowth, follow-up"
+        },
+        {
+          "file_name": "scallions_001-20251216-03.jpeg",
+          "caption": "Closer view of scallion crowns with clean cut surfaces and early regrowth beginning from the center of each crown.",
+          "tags": "scallions, crown, regrowth, follow-up"
+        },
+        {
+          "file_name": "scallions_001-20251216-04.jpeg",
+          "caption": "Side angle of the planter showing loosened soil surface after wind crusting was corrected, with crowns left uncovered.",
+          "tags": "scallions, soil-condition, aeration, follow-up"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:37 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.27",
         "ec_mScm": "0.27",
@@ -84,7 +239,7 @@
     {
       "date": "12/12/2025",
       "time": "1:17 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.20",
@@ -121,16 +276,16 @@
     {
       "date": "12/11/2025",
       "time": "4:54 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight. Clear overnight; tomorrow Sunny with a high of 78°F.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight. Clear overnight; tomorrow Sunny with a high of 78\u00b0F.",
       "digital_probe": {
-        "ph_range": "6.2–6.6 (one localized 7.2 reading)",
-        "ec_mScm_range": "0.18–0.44",
-        "salt_mg_L_range": "93–222",
-        "moisture_percent_range": "51–80",
-        "light_percent_range": "96–99",
+        "ph_range": "6.2\u20136.6 (one localized 7.2 reading)",
+        "ec_mScm_range": "0.18\u20130.44",
+        "salt_mg_L_range": "93\u2013222",
+        "moisture_percent_range": "51\u201380",
+        "light_percent_range": "96\u201399",
         "rh_percent": "50",
-        "fertility_percent_range": "9–26",
-        "soil_temp_f": "72–73"
+        "fertility_percent_range": "9\u201326",
+        "soil_temp_f": "72\u201373"
       },
       "analog_probe": {
         "fertility": "",
@@ -140,7 +295,7 @@
       "observations": "Clear post-harvest regrowth is now visible across multiple scallion bases, with fresh green shoots emerging directly from the hollow centers of the cut stems. Several plants show rapid vertical elongation, including one taller leaf bending outward as it seeks light. Cut surfaces remain clean and hydrated with no signs of rot, collapse, or fungal activity. Soil structure appears stable following earlier fluffing, and probe readings are consistent with healthy moisture and nutrient availability.",
       "actions": "No watering performed; moisture remains within ideal range. No fertilizer applied, as regrowth is still in early emergence phase. Soil left undisturbed.",
       "next_steps": "Continue daily visual monitoring of new shoot emergence and elongation. Recheck probe readings in the morning. Plan for first light feeding only after new shoots reach approximately 3 inches in height.",
-      "q_and_a_summary": "User asked whether current temperatures posed a risk to regrowth. Answer: No—daytime highs in the low-to-upper 70s and nighttime lows in the low 50s are ideal for scallion post-harvest regrowth and will encourage strong root and leaf development.",
+      "q_and_a_summary": "User asked whether current temperatures posed a risk to regrowth. Answer: No\u2014daytime highs in the low-to-upper 70s and nighttime lows in the low 50s are ideal for scallion post-harvest regrowth and will encourage strong root and leaf development.",
       "follow_up": [],
       "photos": [
         {
@@ -173,7 +328,7 @@
     {
       "date": "12/10/2025",
       "time": "8:45 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.3",
         "ec_mScm": "0.19",
@@ -191,7 +346,7 @@
       },
       "observations": "Scallion bases remain firm, hydrated, and healthy following the full cut-down harvest. The cut surfaces are clean with no signs of rot or fungal activity. Several bases already show the beginning of new shoot emergence from the centers of the hollow cut stems, which is exactly the expected regrowth pattern. Soil aeration appears significantly improved after fluffing yesterday, and probe readings are now consistent with ideal post-harvest conditions.",
       "actions": "Do not water today; moisture levels are ideal. Avoid fertilizing until new shoots reach approximately 3 inches. Leave soil undisturbed to allow roots to stabilize after the recent fluffing and cut-down harvest.",
-      "next_steps": "Expect visible new growth emerging through the hollow centers of the cut stems over the next 24–48 hours. Recheck probe values tomorrow morning. Plan for first light feeding only once new shoots are 3 inches tall.",
+      "next_steps": "Expect visible new growth emerging through the hollow centers of the cut stems over the next 24\u201348 hours. Recheck probe values tomorrow morning. Plan for first light feeding only once new shoots are 3 inches tall.",
       "q_and_a_summary": "User asked whether new shoots would emerge through the holes left after the cut. Answer: Yes, scallions regrow from the internal crown tissue, and the new shoots will push upward through the hollow, cut openings.",
       "follow_up": [],
       "photos": [
@@ -205,7 +360,7 @@
     {
       "date": "12/9/2025",
       "time": "7:47 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.95",
         "ec_mScm": "0.14",
@@ -223,7 +378,7 @@
       },
       "observations": "The scallion bases remain healthy and firm following a full cut-down harvest. New centers are already visible in several clumps, indicating active regrowth. The added Miracle-Gro Moisture Control Potting Mix has noticeably improved soil aeration and texture, and probe readings are now stable and consistent. Cut surfaces show typical post-harvest appearance with clean edges and no signs of rot or fungal issues. Soil moisture is balanced, and no scallion bases appear stressed despite the reshaping of the topsoil.",
       "actions": "Do not water today as moisture levels are ideal and rainfall is expected. Avoid fertilizer or lime while the scallions rebound from the full harvest and settle into the improved soil structure. Leave the scallion bases undisturbed to allow new shoots to develop.",
-      "next_steps": "Expect visible upward growth from new shoots within the next 24–48 hours. Recheck probe values tomorrow morning after the forecasted showers. Plan for the next light feeding only after new foliage reaches approximately 3 inches in height.",
+      "next_steps": "Expect visible upward growth from new shoots within the next 24\u201348 hours. Recheck probe values tomorrow morning after the forecasted showers. Plan for the next light feeding only after new foliage reaches approximately 3 inches in height.",
       "q_and_a_summary": "",
       "follow_up": [
         "[7:30 AM] Fluffed compacted topsoil, filled probe holes, added Miracle-Gro Moisture Control Potting Mix, and cut all scallions down to their bases."
@@ -239,7 +394,7 @@
     {
       "date": "12/8/2025",
       "time": "10:54 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.73",
         "ec_mScm": "0.27",
@@ -255,9 +410,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Scallions show strong color and healthy bases throughout the shared planter. Moisture is now evenly restored following yesterday’s watering, and pH has stabilized in an ideal range for active regrowth. Several older leaves remain bent from previous dryness, but emerging inner shoots are upright and vigorous. No signs of disease, rot, or pest activity are visible, and overall the scallions appear balanced and resilient.",
+      "observations": "Scallions show strong color and healthy bases throughout the shared planter. Moisture is now evenly restored following yesterday\u2019s watering, and pH has stabilized in an ideal range for active regrowth. Several older leaves remain bent from previous dryness, but emerging inner shoots are upright and vigorous. No signs of disease, rot, or pest activity are visible, and overall the scallions appear balanced and resilient.",
       "actions": "Do not water today as soil moisture is ideal and rain is expected. Avoid applying fertilizer or lime; nutrient availability is sufficient and pH is stable. Leave all foliage undisturbed, allowing new upright shoots to continue developing.",
-      "next_steps": "Recheck moisture tomorrow morning after rainfall. Expect continued upright growth from new shoots. Begin light cut-and-come-again harvesting once shoots reach 3–5 inches and feel firm.",
+      "next_steps": "Recheck moisture tomorrow morning after rainfall. Expect continued upright growth from new shoots. Begin light cut-and-come-again harvesting once shoots reach 3\u20135 inches and feel firm.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -271,7 +426,7 @@
     {
       "date": "12/7/2025",
       "time": "12:41 PM",
-      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.26",
         "ec_mScm": "0.09",
@@ -303,7 +458,7 @@
     {
       "date": "11/23/2025",
       "time": "1:29 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.48",
         "ec_mScm": "0.26",
@@ -321,7 +476,7 @@
       },
       "observations": "Scallions throughout the garlic window box continue to show healthy upright regrowth. Moisture levels across the planter are well-balanced from yesterday's watering, and there are no signs of yellowing, wilt, or stress. Surface lime continues to cause occasional extreme probe readings, but the true soil pH is stabilizing near the mildly acidic to near-neutral range appropriate for scallions. One scallion shows a hooked or curled-over posture, but this is typical of regrowth from cut bases and will self-correct as the shoot elongates. Garlic companions remain vigorous and are not competing with scallions for space.",
       "actions": "No watering or fertilizing today. Left the curled scallion undisturbed to allow natural correction.",
-      "next_steps": "Monitor moisture tomorrow morning and watch the curled scallion for natural upward correction. Begin light cut-and-come-again harvesting once shoots reach 3–5 inches and thicken later this week.",
+      "next_steps": "Monitor moisture tomorrow morning and watch the curled scallion for natural upward correction. Begin light cut-and-come-again harvesting once shoots reach 3\u20135 inches and thicken later this week.",
       "q_and_a_summary": "User asked whether a scallion curling into the soil required intervention; confirmed this is normal regrowth behavior and will self-correct without action.",
       "follow_up": [],
       "photos": [
@@ -340,7 +495,7 @@
     {
       "date": "11/22/2025",
       "time": "10:57 AM",
-      "conditions": "Sunny with a high around 84°F and overnight low near 60°F.",
+      "conditions": "Sunny with a high around 84\u00b0F and overnight low near 60\u00b0F.",
       "digital_probe": {
         "ph": "6.81",
         "ec_mScm": "0.20",
@@ -358,7 +513,7 @@
       },
       "observations": "Scallions across the shared garlic planter continue steady and healthy regrowth with upright foliage and no signs of stress. Soil pH assessments show wide variation due to surface lime contact, but underlying conditions indicate an ongoing and expected upward correction from prior acidity. Moisture is lower than previous days but still adequate, and scallions show no wilt or dryness. Garlic companions remain vigorous, and the planter overall appears balanced and stable.",
       "actions": "No fertilizer applied. Allowed lime to continue integrating. Watered the entire planter late morning to correct drying and support both scallions and garlic.",
-      "next_steps": "Recheck moisture tomorrow morning. Expect pH readings to stabilize further as surface lime dissolves. Light cut-and-come-again harvests may begin once shoots reach 3–5 inches and thicken over the coming week.",
+      "next_steps": "Recheck moisture tomorrow morning. Expect pH readings to stabilize further as surface lime dissolves. Light cut-and-come-again harvests may begin once shoots reach 3\u20135 inches and thicken over the coming week.",
       "q_and_a_summary": "",
       "follow_up": [
         "[11:11 AM] Watered the whole planter as directed in the garlic conversation."
@@ -374,7 +529,7 @@
     {
       "date": "11/21/2025",
       "time": "3:27 PM",
-      "conditions": "Sunny with a high of 84°F and overnight low around 60°F.",
+      "conditions": "Sunny with a high of 84\u00b0F and overnight low around 60\u00b0F.",
       "digital_probe": {
         "ph": "5.38",
         "ec_mScm": "0.16",
@@ -392,7 +547,7 @@
       },
       "observations": "Scallions across the shared garlic planter continue to show healthy upright regrowth with no signs of stress. Soil conditions have improved following lime application earlier in the week, with pH rising from highly acidic toward a more moderate range. Moisture levels remain adequate in warm sunny weather, and the scallion clumps coexist well with emerging Siberian, Music, and Chesnok Red garlic. No yellowing, wilt, or fungal issues are visible.",
       "actions": "No watering or fertilizer applied today. Continue monitoring moisture in warm conditions and allow lime to keep integrating toward pH stability.",
-      "next_steps": "Recheck soil moisture tomorrow morning and expect further pH improvement over the next 24–48 hours. Begin light cut-and-come-again harvesting once scallion shoots reach 3–5 inches in height.",
+      "next_steps": "Recheck soil moisture tomorrow morning and expect further pH improvement over the next 24\u201348 hours. Begin light cut-and-come-again harvesting once scallion shoots reach 3\u20135 inches in height.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -406,7 +561,7 @@
     {
       "date": "11/20/2025",
       "time": "12:00 PM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -438,7 +593,7 @@
     {
       "date": "11/19/2025",
       "time": "09:31 AM",
-      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.70",
         "ec_mScm": "0.06-0.12",
@@ -483,7 +638,7 @@
     {
       "date": "11/18/2025",
       "time": "08:55 AM",
-      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.18",
         "ec_mScm": "0.15-0.22",
@@ -515,7 +670,7 @@
     {
       "date": "11/17/2025",
       "time": "9:10 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.6-5.0",
         "ec_mScm": "0.23-0.37",
@@ -533,7 +688,7 @@
       },
       "observations": "Scallions are firmly rooted and actively producing new central shoots from the planted bottoms. Growth points are bright green with no signs of rot, wilt, or tip burn, and soil moisture appears even and well distributed throughout the shared garlic planter.",
       "actions": "Apply dolomitic lime across the entire planter to begin correcting the acidic pH, and avoid applying fertilizer at this early regrowth stage. Do not add additional water immediately after lime since soil moisture is already adequate.",
-      "next_steps": "Expect visible shoot elongation within 24–48 hours as regrowth continues. Recheck both pH and moisture the following morning and plan to introduce fertilizer only after shoots reach 2–3 inches in height.",
+      "next_steps": "Expect visible shoot elongation within 24\u201348 hours as regrowth continues. Recheck both pH and moisture the following morning and plan to introduce fertilizer only after shoots reach 2\u20133 inches in height.",
       "q_and_a_summary": "User asked how the scallions looked alongside the garlic; confirmed that they appear healthy and are regrowing normally from the planted bottoms.",
       "follow_up": [],
       "photos": [
@@ -547,7 +702,7 @@
     {
       "date": "11/12/2025",
       "time": "9:38 AM",
-      "conditions": "Cool, full sun morning around 63°F with likely upper-50s overnight lows.",
+      "conditions": "Cool, full sun morning around 63\u00b0F with likely upper-50s overnight lows.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

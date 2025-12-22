@@ -4,10 +4,12 @@
   "plant": "Green Beans (Bush Jade)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 16-18",
+  "full_sun_start": "11:15 AM EST",
+  "full_shade_start": "4:15 PM EST",
   "container": "Raised Bed (Stake 2)",
   "soil_mix": "Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
-    "Planted in brown raised bed 2' × 6' × 10\" in early November 2025.",
+    "Planted in brown raised bed 2' \u00d7 6' \u00d7 10\" in early November 2025.",
     "Originally shared Stake 2 with Zucchini (removed Nov 19, 2025).",
     "Compacted topsoil/sand layer removed.",
     "Replaced with Miracle-Gro Potting Mix to improve aeration."
@@ -18,50 +20,191 @@
   "timeline": [
     {
       "what_i_should_see": "First True Leaves Fully Open",
-      "date_range": "Nov 20 – Nov 24, 2025"
+      "date_range": "Nov 20 \u2013 Nov 24, 2025"
     },
     {
       "what_i_should_see": "Several Sets of Trifoliate Leaves",
-      "date_range": "Nov 25 – Dec 2, 2025"
+      "date_range": "Nov 25 \u2013 Dec 2, 2025"
     },
     {
       "what_i_should_see": "Bushy Shape Forming with Upright Central Stems",
-      "date_range": "Dec 1 – Dec 8, 2025"
+      "date_range": "Dec 1 \u2013 Dec 8, 2025"
     },
     {
       "what_i_should_see": "Multiple Side Branches at Leaf Nodes",
-      "date_range": "Dec 8 – Dec 14, 2025"
+      "date_range": "Dec 8 \u2013 Dec 14, 2025"
     },
     {
       "what_i_should_see": "Leaf Canopy Thickening and Filling Space Around Stake",
-      "date_range": "Dec 12 – Dec 18, 2025"
+      "date_range": "Dec 12 \u2013 Dec 18, 2025"
     },
     {
       "what_i_should_see": "Small Flower Buds at Upper Nodes",
-      "date_range": "Dec 18 – Dec 25, 2025"
+      "date_range": "Dec 18 \u2013 Dec 25, 2025"
     },
     {
       "what_i_should_see": "Open White Flowers",
-      "date_range": "Dec 22, 2025 – Jan 2, 2026"
+      "date_range": "Dec 22, 2025 \u2013 Jan 2, 2026"
     },
     {
       "what_i_should_see": "Thin Green Bean Pods Behind Spent Flowers",
-      "date_range": "Dec 28, 2025 – Jan 6, 2026"
+      "date_range": "Dec 28, 2025 \u2013 Jan 6, 2026"
     },
     {
       "what_i_should_see": "Pods Lengthening to Harvestable Size",
-      "date_range": "Jan 10 – Jan 20, 2026"
+      "date_range": "Jan 10 \u2013 Jan 20, 2026"
     },
     {
       "what_i_should_see": "Continuous New Pods Forming After Harvest",
-      "date_range": "Jan 20 – Feb 28, 2026"
+      "date_range": "Jan 20 \u2013 Feb 28, 2026"
     }
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "7:33 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "40",
+        "moisture_mScm": "33.00",
+        "light": "45",
+        "rh_percent": "67",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant shows improved vigor with upright posture, open leaves, and active new growth at multiple nodes. Side branching is beginning to develop, and leaf color is evenly green with no signs of wilt or nutrient stress. Overall structure appears more stable following recent watering and improved light exposure.",
+      "actions": "Do not water today, as soil moisture remains in an ideal range and the plant shows no signs of stress. Maintain current light exposure and avoid additional inputs.",
+      "next_steps": "Allow the soil to dry down naturally and recheck moisture at the next probe reading. Watch for increased side branching and fuller canopy development over the next several days.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[2:30 PM] Noted generalized drooping across the raised bed and applied a light shower to rehydrate foliage and surface soil."
+      ],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251220-02.jpeg",
+          "caption": "Overhead view showing open leaves and improved canopy structure following light restoration.",
+          "tags": "green-beans, overhead, healthy-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251220-03.jpeg",
+          "caption": "Side view highlighting upright stems and early side branching at lower nodes.",
+          "tags": "green-beans, structure, side-branching"
+        },
+        {
+          "file_name": "green_beans_001-20251220-04.jpeg",
+          "caption": "Angled view showing active new growth and balanced leaf spacing in full vegetative recovery.",
+          "tags": "green-beans, new-growth, vegetative-stage"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:33 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "21",
+        "moisture_mScm": "15.00",
+        "light": "94",
+        "rh_percent": "63",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "74.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant shows improved upright structure with active new growth at upper nodes and intact newer leaves. Lower early foliage shows age-related decline and cosmetic chewing damage. Growth remains somewhat leggy, likely influenced by shading from nearby zucchini, while overall leaf color and turgor remain healthy.",
+      "actions": "Do not water tonight, as overnight conditions will slow evaporation and the plant is not showing wilt. Reduce shading by repositioning or trimming nearby zucchini foliage to restore direct sun exposure. Optionally remove the lowest damaged leaf if desired.",
+      "next_steps": "Recheck soil moisture tomorrow morning and water only if readings drop below approximately 12 mS/cm or if the plant shows softening. Monitor for increased side branching once light exposure improves. Continue observing new leaves for any pest damage.",
+      "q_and_a_summary": "Discussed whether the plant is improving and confirmed slight structural improvement. Explained that bush beans do not prefer shade and that zucchini canopy shading can cause leggy growth.",
+      "follow_up": [
+        "[11:00 PM] Applied approximately \u00bd gallon of water at the base of the Green Bean plant and added Miracle-Gro Moisture Control Potting Mix around the root zone to improve moisture retention.",
+        "[11:15 PM] Trimmed back zucchini foliage to remove canopy shade and restore direct light exposure to the Green Bean plant."
+      ],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251219-02.jpeg",
+          "caption": "Overhead view showing upright structure and active upper growth.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251219-03.jpeg",
+          "caption": "Side view highlighting vertical growth and limited lower branching.",
+          "tags": "green-beans, structure, leggy-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251219-04.jpeg",
+          "caption": "Close-up of lower leaf showing age-related decline and cosmetic chewing damage.",
+          "tags": "green-beans, leaf-damage, lower-leaves"
+        },
+        {
+          "file_name": "green_beans_001-20251219-05.jpeg",
+          "caption": "Wide view showing proximity to zucchini and resulting canopy shade before trimming.",
+          "tags": "green-beans, shade, companion-planting"
+        },
+        {
+          "file_name": "green_beans_001-20251219-06.jpeg",
+          "caption": "Post-trimming view showing restored light access after zucchini canopy was reduced.",
+          "tags": "green-beans, light-exposure, zucchini-trimmed"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "1:36 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "86",
+        "moisture_mScm": "70.00",
+        "light": "92",
+        "rh_percent": "50",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "79.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Green Bean plant remains upright with active new growth at upper nodes and healthy green leaf color. Lower early leaves show cosmetic chewing damage and age-related decline, while newer leaves remain intact and unaffected. Soil is evenly moist following morning rainfall, with no signs of wilting, nutrient stress, or disease.",
+      "actions": "Do not water today, as soil moisture is already in an ideal range. Do not apply insecticide or neem, as chewing damage is limited to older leaves and is not progressing. Optionally remove the lowest damaged leaf for cosmetic cleanup.",
+      "next_steps": "Monitor new growth over the next 3\u20135 days for increased side branching and canopy fill. Recheck moisture once readings fall below approximately 35 mS/cm. Watch for any chewing on new leaves before considering pest intervention.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251218-02.jpeg",
+          "caption": "Overhead view showing active upper growth and healthy leaf color despite sparse early foliage.",
+          "tags": "green-beans, overhead, vegetative-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251218-03.jpeg",
+          "caption": "Side view highlighting upright stems and upward growth habit around the central stake.",
+          "tags": "green-beans, structure, upright-growth"
+        },
+        {
+          "file_name": "green_beans_001-20251218-04.jpeg",
+          "caption": "Close-up of lower leaf showing cosmetic chewing damage confined to older foliage.",
+          "tags": "green-beans, leaf-damage, lower-leaves"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "12:21 PM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.32",
@@ -103,7 +246,7 @@
     {
       "date": "12/15/2025",
       "time": "11:32 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.10",
@@ -145,7 +288,7 @@
     {
       "date": "12/14/2025",
       "time": "2:54 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.10",
         "ec_mScm": "0.03",
@@ -162,7 +305,7 @@
         "ph": ""
       },
       "observations": "The Green Bean plant remains upright with multiple side branches and healthy green trifoliate leaves. New growth is active at the nodes with no wilting or discoloration. Lower leaves show older cosmetic chewing but no progression into new growth. Soil surface and probe readings indicate the root zone is now very dry.",
-      "actions": "Apply 1½ cups of water slowly around the dripline to rehydrate the root zone. Do not fertilize and do not apply pest treatments today.",
+      "actions": "Apply 1\u00bd cups of water slowly around the dripline to rehydrate the root zone. Do not fertilize and do not apply pest treatments today.",
       "next_steps": "Recheck moisture tomorrow and confirm readings rise above 30 mS/cm. Monitor new leaf tips for accelerated expansion following rehydration. Maintain consistent moisture as the plant approaches early flowering.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -187,7 +330,7 @@
     {
       "date": "12/12/2025",
       "time": "1:44 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.20",
         "ec_mScm": "0.06",
@@ -234,7 +377,7 @@
     {
       "date": "12/11/2025",
       "time": "5:04 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.04",
@@ -250,7 +393,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant shows stable, healthy early vegetative growth with firm posture and expanding trifoliate leaves. Lower, older leaves display chewing damage consistent with small beetles or caterpillars, but new growth remains clean and unaffected. Soil appears well-aerated and settled after recent correction, and no signs of wilt or stress are present. Current environmental temperatures fall well within the plant’s comfort range.",
+      "observations": "The plant shows stable, healthy early vegetative growth with firm posture and expanding trifoliate leaves. Lower, older leaves display chewing damage consistent with small beetles or caterpillars, but new growth remains clean and unaffected. Soil appears well-aerated and settled after recent correction, and no signs of wilt or stress are present. Current environmental temperatures fall well within the plant\u2019s comfort range.",
       "actions": "Apply a light watering of 1 cup around the dripline to support moisture stability overnight. Do not apply any pesticide at this time, as chewing is limited to older leaves and does not affect new growth. Adjust nearby zucchini leaf shading if needed to provide more consistent morning light.",
       "next_steps": "Recheck moisture tomorrow morning to confirm hydration stability. Monitor the newest trifoliate leaves for chewing damage; intervene only if new growth becomes affected. Expect accelerated vegetative expansion over the next several days with ideal temperatures and improved soil conditions.",
       "q_and_a_summary": "Discussed whether forecast temperatures pose a risk and confirmed they remain well within safe limits for bush beans.",
@@ -258,7 +401,7 @@
       "photos": [
         {
           "file_name": "green_beans_001-20251211-02.jpeg",
-          "caption": "Overhead view showing the plant’s expanding leaf canopy and overall healthy structure.",
+          "caption": "Overhead view showing the plant\u2019s expanding leaf canopy and overall healthy structure.",
           "tags": "green-beans, overhead, vegetative-growth"
         },
         {
@@ -286,7 +429,7 @@
     {
       "date": "12/9/2025",
       "time": "8:49 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.09",
         "ec_mScm": "0.05",
@@ -304,7 +447,7 @@
       },
       "observations": "The raised bed soil was initially tight and compacted due to the underlying sand and topsoil mix. After removing the restrictive layer around the bean plant while preserving the root ball, the soil structure became looser and more aerated. The plant remained upright and healthy throughout the process, showing no signs of shock, wilt, or stress. Leaves remain bright and turgid with continued new growth at the nodes. The 'after' reading showed extremely low moisture in the freshly added soil, which was expected since no watering had occurred yet.",
       "actions": "Allow the new soil to settle naturally. Provide gentle watering only as needed once rainfall patterns stabilize. Avoid fertilizing today as the refreshed soil provides adequate nutrients for the current growth stage.",
-      "next_steps": "Recheck moisture the following morning after rainfall to confirm the new soil layer has hydrated into the proper range. Monitor the plant over the next 1–2 days for continued upright posture and steady leaf expansion. Expect rapid vegetative growth now that soil aeration and structure have improved.",
+      "next_steps": "Recheck moisture the following morning after rainfall to confirm the new soil layer has hydrated into the proper range. Monitor the plant over the next 1\u20132 days for continued upright posture and steady leaf expansion. Expect rapid vegetative growth now that soil aeration and structure have improved.",
       "q_and_a_summary": "",
       "follow_up": [
         "[10:00 AM] Gave the plant a light shower to remove soil from the leaves and help the new soil settle.",
@@ -331,7 +474,7 @@
     {
       "date": "12/8/2025",
       "time": "11:43 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.22",
         "ec_mScm": "0.05",
@@ -349,7 +492,7 @@
       },
       "observations": "The bean seedling is upright with bright, healthy leaves and active new growth at multiple nodes. Leaf color is consistent and the plant shows early branching typical of Bush Jade beans. The soil is in a low moisture state but still within a safe dry-down range, especially with incoming rain expected later today.",
       "actions": "Hold off on watering due to anticipated rainfall later today. Do not fertilize at this stage. Leave all developing nodes and new leaf clusters untouched as they are part of normal vegetative expansion.",
-      "next_steps": "Check moisture tomorrow after the rain to ensure it rises into the mid-range. Monitor node development as new trifoliate leaves unfold over the next several days. Expect early flower bud formation in the upcoming 10–14 days.",
+      "next_steps": "Check moisture tomorrow after the rain to ensure it rises into the mid-range. Monitor node development as new trifoliate leaves unfold over the next several days. Expect early flower bud formation in the upcoming 10\u201314 days.",
       "q_and_a_summary": "User asked whether the small green clusters on the stem were baby beans; confirmed they are new leaf nodes and early branching points, not bean pods.",
       "follow_up": [],
       "photos": [
@@ -373,7 +516,7 @@
     {
       "date": "12/7/2025",
       "time": "1:16 PM",
-      "conditions": "Patchy morning fog followed by sun with a high near 86°F and an overnight low around 66°F. Forecast for the following day includes mostly sunny skies near 87°F with a 20% chance of showers after 1 PM.",
+      "conditions": "Patchy morning fog followed by sun with a high near 86\u00b0F and an overnight low around 66\u00b0F. Forecast for the following day includes mostly sunny skies near 87\u00b0F with a 20% chance of showers after 1 PM.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.01",
@@ -420,7 +563,7 @@
     {
       "date": "12/4/2025",
       "time": "5:25 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.78",
         "ec_mScm": "0.06",
@@ -467,7 +610,7 @@
     {
       "date": "12/3/2025",
       "time": "12:54 PM",
-      "conditions": "Mostly Sunny with a high of 82°F dropping to 62°F overnight.",
+      "conditions": "Mostly Sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.13",
         "ec_mScm": "0.15",
@@ -499,7 +642,7 @@
     {
       "date": "12/2/2025",
       "time": "11:12 AM",
-      "conditions": "Mostly Cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly Cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "6.63",
         "ec_mScm": "0.08",
@@ -551,7 +694,7 @@
     {
       "date": "12/1/2025",
       "time": "5:33 PM",
-      "conditions": "Partly cloudy and mild with temperatures in the upper 70s°F dropping to the mid 60s°F overnight. Earlier rain left the raised bed damp before the reading.",
+      "conditions": "Partly cloudy and mild with temperatures in the upper 70s\u00b0F dropping to the mid 60s\u00b0F overnight. Earlier rain left the raised bed damp before the reading.",
       "digital_probe": {
         "ph": "9.44",
         "ec_mScm": "0.12",
@@ -603,7 +746,7 @@
     {
       "date": "11/29/2025",
       "time": "2:48 PM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "6.02",
         "ec_mScm": "0.18",
@@ -645,7 +788,7 @@
     {
       "date": "11/28/2025",
       "time": "11:16 AM",
-      "conditions": "Cloudy with a high of 72°F and low of 57°F. Clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72\u00b0F and low of 57\u00b0F. Clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "6.75",
         "ec_mScm": "0.04",
@@ -687,7 +830,7 @@
     {
       "date": "11/27/2025",
       "time": "2:21 PM",
-      "conditions": "Cloudy with a high of 81°F and low of 65°F. Rain expected around 6 PM.",
+      "conditions": "Cloudy with a high of 81\u00b0F and low of 65\u00b0F. Rain expected around 6 PM.",
       "digital_probe": {
         "ph": "5.69",
         "ec_mScm": "0.26",
@@ -729,7 +872,7 @@
     {
       "date": "11/26/2025",
       "time": "12:36 PM",
-      "conditions": "Mostly cloudy with a high of 84°F and low of 67°F. Thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F and low of 67\u00b0F. Thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "6.14",
         "ec_mScm": "0.13",
@@ -771,7 +914,7 @@
     {
       "date": "11/25/2025",
       "time": "3:23 PM",
-      "conditions": "Sunny with a high of 84°F and low of 65°F. Watered at 2:33 PM; readings taken 1.5 hours later.",
+      "conditions": "Sunny with a high of 84\u00b0F and low of 65\u00b0F. Watered at 2:33 PM; readings taken 1.5 hours later.",
       "digital_probe": {
         "ph": "7.79",
         "ec_mScm": "0.29",
@@ -818,7 +961,7 @@
     {
       "date": "11/24/2025",
       "time": "11:06 AM",
-      "conditions": "Sunny with a high of 84°F and low of 60°F.",
+      "conditions": "Sunny with a high of 84\u00b0F and low of 60\u00b0F.",
       "digital_probe": {
         "ph": "6.39",
         "ec_mScm": "0.12",
@@ -855,7 +998,7 @@
     {
       "date": "11/23/2025",
       "time": "2:28 PM",
-      "conditions": "Sunny with a high of 84°F and overnight low around 63°F. Soil below and within the new organic mound was extremely dry at the time of the initial measurement.",
+      "conditions": "Sunny with a high of 84\u00b0F and overnight low around 63\u00b0F. Soil below and within the new organic mound was extremely dry at the time of the initial measurement.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.00",
@@ -876,7 +1019,7 @@
       "next_steps": "Allow 45-60 minutes for moisture to wick through the soil layers before taking a follow-up reading. Monitor the bed as it transitions away from the sand-dominant dryness and recalibrate the probe for accurate pH measurement.",
       "q_and_a_summary": "Explained that all-zero readings were caused by extreme soil dryness preventing electrical contact. Confirmed spider webs were safe and beneficial natural pest control.",
       "follow_up": [
-        "[4:04 PM] Follow-up reading after watering: pH 10.23, EC 0.05 mS/cm, Salt 27 mg/L, Moisture 26.00 mS/cm, Light 99, RH 40%, Fertility 2.5%, Soil Temp 82.6°F."
+        "[4:04 PM] Follow-up reading after watering: pH 10.23, EC 0.05 mS/cm, Salt 27 mg/L, Moisture 26.00 mS/cm, Light 99, RH 40%, Fertility 2.5%, Soil Temp 82.6\u00b0F."
       ],
       "photos": [
         {
@@ -909,7 +1052,7 @@
     {
       "date": "11/22/2025",
       "time": "12:02 PM",
-      "conditions": "Mostly cloudy with a high of 84°F and overnight low around 67°F. Soil was amended with organic potting mix earlier today to improve moisture retention.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F and overnight low around 67\u00b0F. Soil was amended with organic potting mix earlier today to improve moisture retention.",
       "digital_probe": {
         "ph": "8.33",
         "ec_mScm": "0.06",
@@ -956,7 +1099,7 @@
     {
       "date": "11/21/2025",
       "time": "3:40 PM",
-      "conditions": "Sunny afternoon with a high of 84°F and expected overnight low around 60°F.",
+      "conditions": "Sunny afternoon with a high of 84\u00b0F and expected overnight low around 60\u00b0F.",
       "digital_probe": {
         "ph": "5.43",
         "ec_mScm": "0.04",
@@ -998,7 +1141,7 @@
     {
       "date": "11/19/2025",
       "time": "9:52 AM",
-      "conditions": "Partly shaded morning turning sunny later with temperatures in the upper 60s°F and calm weather.",
+      "conditions": "Partly shaded morning turning sunny later with temperatures in the upper 60s\u00b0F and calm weather.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "",
@@ -1042,7 +1185,7 @@
     {
       "date": "11/18/2025",
       "time": "9:16 AM",
-      "conditions": "Mostly shady morning with temperatures in the mid-60s°F, transitioning to full sun by late morning.",
+      "conditions": "Mostly shady morning with temperatures in the mid-60s\u00b0F, transitioning to full sun by late morning.",
       "digital_probe": {
         "ph": "5.53",
         "ec_mScm": "0.05",
@@ -1060,7 +1203,7 @@
       },
       "observations": "Two bean sprouts upright and moist from overnight dew. The first sprout had just shed its seed coat. Cotyledons beginning to open with normal pale-green color. Soil moderately moist with loose structure. No signs of pest damage or stress.",
       "actions": "No watering required. No fertilizer or neem needed. Allow seedlings to transition into full sun as conditions improve.",
-      "next_steps": "Recheck moisture within 24 hours. Begin fertilizer only after true leaves appear. Protect from temperatures below 49°F.",
+      "next_steps": "Recheck moisture within 24 hours. Begin fertilizer only after true leaves appear. Protect from temperatures below 49\u00b0F.",
       "q_and_a_summary": "User asked if probe placement was safe and whether seed coat removal was normal. Confirmed both were appropriate.",
       "follow_up": [
         "[4:02 PM] Added organic potting mix around the shared area for stability and moisture retention, then applied approximately 1/2 cup water to settle soil."
@@ -1086,7 +1229,7 @@
     {
       "date": "11/17/2025",
       "time": "9:16 AM",
-      "conditions": "Full morning sun with temperatures in the mid-60s°F and light air movement.",
+      "conditions": "Full morning sun with temperatures in the mid-60s\u00b0F and light air movement.",
       "digital_probe": {
         "ph": "6.49",
         "ec_mScm": "0.03",
@@ -1118,7 +1261,7 @@
     {
       "date": "11/16/2025",
       "time": "10:15 AM",
-      "conditions": "Clear morning sun with temperatures around 66°F.",
+      "conditions": "Clear morning sun with temperatures around 66\u00b0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

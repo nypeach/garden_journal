@@ -3,12 +3,14 @@
   "status": "Active",
   "plant": "Arugula",
   "physical_location": "Loxahatchee, FL",
-  "garden_location": "Panel 11",
+  "garden_location": "Panel 12",
+  "full_sun_start": "10:43 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Window Box",
   "soil_mix": "Miracle-Gro Potting Mix, Sand/Soil",
   "origin_history": [
     "Seeds purchased and planted on Oct 8, 2025.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" left",
+    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left",
     "Reseeded on Nov 5, 2025 and topped with potting mix.",
     "Shares window planter with Cilantro"
   ],
@@ -47,9 +49,120 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "11:27 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight. A 10% chance of showers tonight, then patchy fog. Tomorrow mostly sunny with a high of 82\u00b0F.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "138",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "60.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Six days after the first harvest, the arugula shows strong, even regrowth from intact crowns with upright leaf posture and improving green coloration. Canopy density is rebuilding without crowding, and no signs of wilt, disease, rot, or pest activity are present. Soil moisture remains comfortably within the optimal range.",
+      "actions": "No watering performed due to adequate soil moisture and favorable weather conditions.",
+      "next_steps": "Recheck moisture tomorrow morning. Resume watering only if readings fall into the low-to-mid 30s. Continue monitoring regrowth height and color in anticipation of the next light harvest.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251220-02.jpeg",
+          "caption": "Overhead view showing even regrowth and improving leaf color six days after harvest.",
+          "tags": "arugula, regrowth, post-harvest, canopy, follow-up"
+        },
+        {
+          "file_name": "arugula_001-20251220-03.jpeg",
+          "caption": "Angled view highlighting upright leaves and healthy regrowth structure under full sun conditions.",
+          "tags": "arugula, regrowth, structure, moisture-balance, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "6:23 PM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight. Partly cloudy tonight. Sunny tomorrow with a high near 82\u00b0F.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Five days after the first harvest, the arugula shows uniform regrowth from intact crowns with increasing canopy density and upright leaf posture. Leaf color is gradually deepening compared to earlier in the week. No signs of wilt, disease, rot, or pest activity were observed. Soil moisture remains adequate following earlier rainfall.",
+      "actions": "No watering performed due to sufficient soil moisture at the time of reading and favorable overnight conditions.",
+      "next_steps": "Recheck moisture after 7:00 AM tomorrow. Water only if readings fall into the low-to-mid 30s. Continue monitoring regrowth height and color in anticipation of the next light harvest.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251219-02.jpeg",
+          "caption": "Overhead view showing even regrowth and rebuilding canopy density five days after harvest.",
+          "tags": "arugula, regrowth, post-harvest, canopy, follow-up"
+        },
+        {
+          "file_name": "arugula_001-20251219-03.jpeg",
+          "caption": "Angled view highlighting upright new leaves and healthy regrowth structure under warm late-day conditions.",
+          "tags": "arugula, regrowth, structure, moisture-balance, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "1:06 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight. A 20% chance of precipitation today.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "141",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Three days after the first harvest, the arugula shows clear regrowth from intact crowns with increasing leaf density and slightly deeper green coloration compared to earlier in the week. Canopy spacing remains open with good airflow. Leaves appear healthy with no signs of rot, pest damage, or stress. Soil is heavily saturated following several hours of intermittent rain this morning.",
+      "actions": "No watering or fertilizing today due to saturated soil from rainfall. Ensured planter drainage remained unobstructed.",
+      "next_steps": "Monitor soil moisture as it dries over the next 24\u201348 hours and resume watering only once readings fall below the optimal range. Continue observing color deepening and leaf thickening. Anticipate next light harvest once regrowth reaches 2\u20133 inches.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251218-02.jpeg",
+          "caption": "Overhead view showing active regrowth three days after harvest with improved spacing and early canopy refill.",
+          "tags": "arugula, regrowth, post-harvest, canopy, follow-up"
+        },
+        {
+          "file_name": "arugula_001-20251218-03.jpeg",
+          "caption": "Angled side view highlighting upright new leaves emerging from intact crowns following recent rainfall.",
+          "tags": "arugula, regrowth, post-harvest, moisture, follow-up"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "12:05 PM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.30",
@@ -67,7 +180,7 @@
       },
       "observations": "One day after the first harvest, the arugula shows an open canopy with intact crowns and upright, healthy regrowth points. Leaf color remains lighter green, which is typical immediately after cutting, with no signs of wilting, rot, or pest damage. Overall structure indicates strong root support and good recovery.",
       "actions": "Do not water or fertilize today. Allow the plant to remain undisturbed to support clean regrowth.",
-      "next_steps": "Monitor moisture tomorrow morning after overnight rain chances. Expect visible new leaf growth within 48–72 hours and darker green color by day three or four post-harvest.",
+      "next_steps": "Monitor moisture tomorrow morning after overnight rain chances. Expect visible new leaf growth within 48\u201372 hours and darker green color by day three or four post-harvest.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -86,7 +199,7 @@
     {
       "date": "12/15/2025",
       "time": "10:48 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.42",
@@ -135,7 +248,7 @@
     {
       "date": "12/14/2025",
       "time": "2:43 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight. Tonight: Partly cloudy with a slight chance of thunderstorms. Tomorrow: Partly sunny with a high of 71°F.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight. Tonight: Partly cloudy with a slight chance of thunderstorms. Tomorrow: Partly sunny with a high of 71\u00b0F.",
       "digital_probe": {
         "ph": "6.6",
         "ec_mScm": "0.41",
@@ -151,9 +264,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The arugula appears healthy and vigorous with dense, green baby-leaves forming. The right-hand side is showing more elongation and slightly darker green coloration, suggesting it’s nearing the ideal harvest window. No new pest or disease signs are visible, but some areas remain pale from earlier crowding.",
-      "actions": "No watering needed today; moisture is at a perfect level. Plan to harvest light baby-leaves in the next 1–2 days. Avoid additional fertilization for now as fertility is currently high.",
-      "next_steps": "Monitor moisture after tonight’s rain and recheck the soil tomorrow morning. Continue tracking regrowth and color improvement across the tray. Plan for the first light harvest within the next 1–2 days.",
+      "observations": "The arugula appears healthy and vigorous with dense, green baby-leaves forming. The right-hand side is showing more elongation and slightly darker green coloration, suggesting it\u2019s nearing the ideal harvest window. No new pest or disease signs are visible, but some areas remain pale from earlier crowding.",
+      "actions": "No watering needed today; moisture is at a perfect level. Plan to harvest light baby-leaves in the next 1\u20132 days. Avoid additional fertilization for now as fertility is currently high.",
+      "next_steps": "Monitor moisture after tonight\u2019s rain and recheck the soil tomorrow morning. Continue tracking regrowth and color improvement across the tray. Plan for the first light harvest within the next 1\u20132 days.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -172,7 +285,7 @@
     {
       "date": "12/12/2025",
       "time": "1:24 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.08",
@@ -189,8 +302,8 @@
         "ph": ""
       },
       "observations": "The arugula tray is stable and vigorous with clear progression into harvestable baby-leaf size, especially on the right-hand side where leaves are longer and deeper green. Central and left sections remain dense with lighter cotyledons typical of crowding rather than stress. No new spotting, wilting, or pest damage is visible, and soil moisture appears evenly distributed.",
-      "actions": "Do not water today, as moisture is in an ideal dry-down range. Do not fertilize at this stage. Maintain current sun exposure and airflow. Optional preparation for first light baby-leaf harvest may begin within the next 24–48 hours.",
-      "next_steps": "Monitor moisture over the next 1–2 days and plan the next watering once readings fall into the mid-20s. After the first light harvest, expect improved airflow and more even leaf coloration across the tray. Recheck probe readings after harvest to guide regrowth care.",
+      "actions": "Do not water today, as moisture is in an ideal dry-down range. Do not fertilize at this stage. Maintain current sun exposure and airflow. Optional preparation for first light baby-leaf harvest may begin within the next 24\u201348 hours.",
+      "next_steps": "Monitor moisture over the next 1\u20132 days and plan the next watering once readings fall into the mid-20s. After the first light harvest, expect improved airflow and more even leaf coloration across the tray. Recheck probe readings after harvest to guide regrowth care.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -214,7 +327,7 @@
     {
       "date": "12/11/2025",
       "time": "5:01 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.29",
@@ -232,8 +345,8 @@
       },
       "observations": "The tray remains on the wet side with moisture at 80, though the seedlings do not appear waterlogged. The canopy continues to recover, with the right-hand section showing strong upright leaves and the center and left areas gradually greening. No new leaf spotting is present, and all older blemishes remain static. Cooler evening temperatures pose no risk and should help tighten leaf growth and deepen color.",
       "actions": "Do not water today, as the tray needs additional dry-down. Hold fertilizing until moisture stabilizes in the mid-range. If desired, lightly lift the very top layer of soil in the densest patch to improve airflow, avoiding any root disturbance.",
-      "next_steps": "Expect moisture to fall into the 50–60 range by tomorrow afternoon with sunny, breezy conditions. Continue monitoring for color improvement and upward growth. Plan for micro-thinning once moisture normalizes. First baby-leaf harvest remains approximately 2–4 days away.",
-      "q_and_a_summary": "Discussed whether the forecasted overnight low of 53°F posed a risk and confirmed that arugula thrives in cool temperatures, with no protection needed. Reviewed that the plant continues to recover from prior dryness and oversaturation phases.",
+      "next_steps": "Expect moisture to fall into the 50\u201360 range by tomorrow afternoon with sunny, breezy conditions. Continue monitoring for color improvement and upward growth. Plan for micro-thinning once moisture normalizes. First baby-leaf harvest remains approximately 2\u20134 days away.",
+      "q_and_a_summary": "Discussed whether the forecasted overnight low of 53\u00b0F posed a risk and confirmed that arugula thrives in cool temperatures, with no protection needed. Reviewed that the plant continues to recover from prior dryness and oversaturation phases.",
       "follow_up": [],
       "photos": [
         {
@@ -251,7 +364,7 @@
     {
       "date": "12/10/2025",
       "time": "8:52 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.15",
@@ -269,7 +382,7 @@
       },
       "observations": "The tray shows clear improvement with seedlings appearing more lifted, hydrated, and less stressed compared with yesterday. Color is shifting from pale yellow to a healthier light green, especially along the right side which shows strong leaf expansion. No new spotting or lesions are present, and existing marks remain dry and unchanged. The soil surface appears evenly moist rather than saturated, and the canopy overall shows signs of active recovery and renewed growth.",
       "actions": "Do not water today, as moisture is in the ideal mid-range for arugula. Hold off on fertilizing and thinning for now while the tray continues stabilizing. Optionally rotate the planter 180 degrees to balance light exposure across the canopy.",
-      "next_steps": "Recheck moisture tomorrow to ensure continued mid-range stability. Monitor for continued greening and upward growth, which should accelerate with today's ideal temperatures. Plan for a possible micro-thinning once the canopy evens out. Expect the first baby-leaf harvest window in 3–5 days if growth continues at this pace.",
+      "next_steps": "Recheck moisture tomorrow to ensure continued mid-range stability. Monitor for continued greening and upward growth, which should accelerate with today's ideal temperatures. Plan for a possible micro-thinning once the canopy evens out. Expect the first baby-leaf harvest window in 3\u20135 days if growth continues at this pace.",
       "q_and_a_summary": "Discussed whether the arugula should be transplanted into a larger container and confirmed that moving to a new container is not recommended for baby-leaf production, as the current planter is ideal and transplanting would cause growth setbacks. Also reviewed which scissors are best for harvesting, confirming that lightweight garden scissors are better suited than heavy pruning shears for clean cuts and healthy regrowth.",
       "follow_up": [],
       "photos": [
@@ -288,7 +401,7 @@
     {
       "date": "12/9/2025",
       "time": "8:02 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.79",
         "ec_mScm": "0.26",
@@ -332,7 +445,7 @@
     {
       "date": "12/8/2025",
       "time": "11:08 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.86",
         "ec_mScm": "0.34",
@@ -350,7 +463,7 @@
       },
       "observations": "The tray shows better turgor and recovery compared to yesterday, with leaves standing more upright and no signs of wilt. Pale yellow-green coloration is still present across much of the canopy, but bronzing and purple veining have not expanded. The small circular leaf spots remain scattered and static, with no coalescing or water-soaked margins. Growth remains uneven with a taller, greener band on the right. Soil is deeply rehydrated and dark, consistent with the high moisture reading, while pH and EC remain in healthy ranges.",
       "actions": "Do not apply neem or copper today. Allow the soil to dry back naturally from the high moisture level and avoid fertilizing until moisture returns to mid-range levels. Remove only the worst affected leaves if desired. Maintain normal sun exposure.",
-      "next_steps": "Monitor over the next 24–48 hours for any new lesions on new leaves or for rapid expansion of existing spots. Recheck moisture tomorrow and expect greening as moisture stabilizes. If disease characteristics emerge later, plan a copper treatment on a dry morning with no rain forecast for 24 hours.",
+      "next_steps": "Monitor over the next 24\u201348 hours for any new lesions on new leaves or for rapid expansion of existing spots. Recheck moisture tomorrow and expect greening as moisture stabilizes. If disease characteristics emerge later, plan a copper treatment on a dry morning with no rain forecast for 24 hours.",
       "q_and_a_summary": "Discussed whether to apply neem or copper fungicide for the leaf spots and confirmed that the current spotting pattern aligns with dryness-related stress and minor abrasion rather than active fungal disease. Recommended withholding treatment for now and monitoring for progression.",
       "follow_up": [],
       "photos": [
@@ -374,7 +487,7 @@
     {
       "date": "12/7/2025",
       "time": "12:53 PM",
-      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.08",
@@ -391,8 +504,8 @@
         "ph": ""
       },
       "observations": "The soil surface is extremely dry, matching the difficulty you had inserting the probe and explaining the invalid pH reading. Moisture at depth is moderate, but the top layer is dusty and hydrophobic. Seedlings appear pale yellow-green across most of the tray, with some bronzing and purple veining where dryness has restricted nutrient uptake. Growth is uneven, with a taller, greener band on the right and shorter, paler seedlings elsewhere. Scattered leaf speckles are present but do not form a disease pattern.",
-      "actions": "Apply a moderate watering to rehydrate the upper 1–1.5 inches of soil. Avoid fertilizing today because roots cannot absorb nutrients evenly when the surface is this dry. Keep the planter in normal sun and water in the morning going forward to prevent midday dry-out.",
-      "next_steps": "Recheck moisture later this afternoon or tomorrow morning to track absorption. Only water again when moisture drops into the low 20s and the surface becomes pale and dusty. Monitor leaf color over the next 48–72 hours for improvement as moisture stabilizes.",
+      "actions": "Apply a moderate watering to rehydrate the upper 1\u20131.5 inches of soil. Avoid fertilizing today because roots cannot absorb nutrients evenly when the surface is this dry. Keep the planter in normal sun and water in the morning going forward to prevent midday dry-out.",
+      "next_steps": "Recheck moisture later this afternoon or tomorrow morning to track absorption. Only water again when moisture drops into the low 20s and the surface becomes pale and dusty. Monitor leaf color over the next 48\u201372 hours for improvement as moisture stabilizes.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -416,7 +529,7 @@
     {
       "date": "12/4/2025",
       "time": "5:02 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.10",
         "ec_mScm": "0.24",
@@ -434,7 +547,7 @@
       },
       "observations": "The arugula tray shows a dense canopy of seedlings with many true leaves, and the right-hand cluster is noticeably taller than the rest. Earlier in the afternoon the soil became bone dry in the sun and the probe could not get a reading, but after watering the surface now looks dark and fully rehydrated, consistent with the high moisture value. Some older leaves show scattered tan and gray spots and minor edge damage while newer growth remains cleaner and more uniform.",
       "actions": "Do not water again today; moisture is already high and the root zone needs time to dry back toward the mid-range. Avoid fertilizing or using copper or neem products at this stage, and instead gently remove the worst spotted leaves with clean scissors if they bother you. Keep the tray in its usual sun exposure while avoiding overhead wetting of foliage late in the day.",
-      "next_steps": "Monitor the spotted leaves over the next several days and watch for any rapid increase in the number or size of lesions. Recheck moisture once the top inch of soil feels dry and only water again when probe readings fall into the 20–35 mS/cm range. If spotting begins to spread or lesions become dark and water-soaked, plan a light treatment with copper or neem on a calm, dry morning while continuing to protect new growth.",
+      "next_steps": "Monitor the spotted leaves over the next several days and watch for any rapid increase in the number or size of lesions. Recheck moisture once the top inch of soil feels dry and only water again when probe readings fall into the 20\u201335 mS/cm range. If spotting begins to spread or lesions become dark and water-soaked, plan a light treatment with copper or neem on a calm, dry morning while continuing to protect new growth.",
       "q_and_a_summary": "Discussed whether the small tan and gray spots and tiny holes on older leaves represented a serious leaf-spot problem. Explained that the pattern looks like mild early spotting and physical wear on crowded baby leaves rather than an aggressive disease, and recommended focusing on monitoring, removing the worst leaves, and reserving copper or neem treatments for clear progression.",
       "follow_up": [],
       "photos": [
@@ -448,7 +561,7 @@
     {
       "date": "12/3/2025",
       "time": "1:29 PM",
-      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.11",
         "ec_mScm": "0.06",
@@ -480,7 +593,7 @@
     {
       "date": "12/2/2025",
       "time": "10:53 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight, with wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight, with wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.73",
         "ec_mScm": "0.13",
@@ -498,7 +611,7 @@
       },
       "observations": "The tray is very full, with seedlings overlapping into a thick mat and larger true leaves becoming more prominent, especially on the right side. Leaf color is still on the pale side but generally uniform, with some purplish tones along stems and undersides in crowded areas. Soil looks dark and evenly moist, consistent with the high moisture reading and the recent pattern of regular watering.",
       "actions": "Skip watering today; the root zone is already well hydrated and additional water would risk keeping the mix too wet under warm, breezy conditions. Hold off on any granular fertilizer applications until moisture drops closer to the mid-range, as nutrients are already adequate for baby-leaf growth. Maintain current light levels and continue protecting the tray from the strongest gusts so the shallow roots are not disturbed.",
-      "next_steps": "Recheck moisture in about 24 hours or sooner if the surface lightens significantly in color. Once readings fall into the 30–40 mS/cm range and the top inch feels dry, plan a moderate watering and consider a very light application of your 4-5-5 fertilizer along the outer edges of the tray. Continue to monitor leaf color and thickness as the stand moves fully into harvestable baby-leaf stage.",
+      "next_steps": "Recheck moisture in about 24 hours or sooner if the surface lightens significantly in color. Once readings fall into the 30\u201340 mS/cm range and the top inch feels dry, plan a moderate watering and consider a very light application of your 4-5-5 fertilizer along the outer edges of the tray. Continue to monitor leaf color and thickness as the stand moves fully into harvestable baby-leaf stage.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -512,7 +625,7 @@
     {
       "date": "12/1/2025",
       "time": "5:20 PM",
-      "conditions": "Mostly cloudy through the day with temperatures in the mid-70s°F, possible showers around 6:00 PM, and a low near 69°F overnight.",
+      "conditions": "Mostly cloudy through the day with temperatures in the mid-70s\u00b0F, possible showers around 6:00 PM, and a low near 69\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.68",
         "ec_mScm": "0.13",
@@ -544,7 +657,7 @@
     {
       "date": "11/29/2025",
       "time": "2:10 PM",
-      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight, with partly cloudy conditions around 1:00 PM and wind gusts up to 15 mph.",
+      "conditions": "Mostly sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight, with partly cloudy conditions around 1:00 PM and wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "5.99",
         "ec_mScm": "0.18",
@@ -608,7 +721,7 @@
     {
       "date": "11/27/2025",
       "time": "1:46 PM",
-      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight, with rainy conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81\u00b0F dropping to 65\u00b0F overnight, with rainy conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.77",
         "ec_mScm": "0.08",
@@ -640,7 +753,7 @@
     {
       "date": "11/24/2025",
       "time": "12:05 PM",
-      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.46",
         "ec_mScm": "0.06",
@@ -672,7 +785,7 @@
     {
       "date": "11/23/2025",
       "time": "1:49 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.02",
@@ -706,7 +819,7 @@
     {
       "date": "11/22/2025",
       "time": "11:10 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.25",
         "ec_mScm": "0.01",
@@ -723,7 +836,7 @@
         "ph": ""
       },
       "observations": "Seedlings remain dense, bright, and upright with early true leaves continuing to develop. The canopy is noticeably fuller than the day before. The soil surface is extremely dry, matching the zero moisture reading and the difficulty inserting the probe. Despite the dryness, seedlings have not yet wilted, but the upper root zone is at risk of stress if not rehydrated. No yellowing, pests, or signs of nutrient deficiency are present.",
-      "actions": "A moderate watering is recommended to rehydrate the top 1–1.5 inches of soil without oversaturating the tray. No fertilizer or pH adjustment applied, as readings are ideal for seedlings.",
+      "actions": "A moderate watering is recommended to rehydrate the top 1\u20131.5 inches of soil without oversaturating the tray. No fertilizer or pH adjustment applied, as readings are ideal for seedlings.",
       "next_steps": "Recheck moisture later today to ensure the watering hydrated the upper root zone evenly. Continue monitoring pH for stability and maintain full sun exposure while watching for heat-related drying.",
       "q_and_a_summary": "",
       "follow_up": [
@@ -740,7 +853,7 @@
     {
       "date": "11/21/2025",
       "time": "3:29 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.66",
         "ec_mScm": "0.09",
@@ -758,7 +871,7 @@
       },
       "observations": "Seedlings remain dense, bright green, and vigorous with upright posture. Early true-leaf development is beginning and the canopy is filling evenly. No visible stress, wilting, or yellowing is present. The previously thin or stressed patch is now nearly indistinguishable as growth has thickened. Moisture level is moderate, and pH is slightly alkaline but not causing visible issues.",
       "actions": "No watering or fertilizer applied because moisture is adequate and fertility is appropriate for seedlings. No pH correction applied while soil remains evenly moist.",
-      "next_steps": "Recheck moisture in the morning to track overnight drying. Continue full-sun exposure while monitoring for heat stress on warmer days. If pH remains in the mid–high 7s after the next irrigation cycle, consider a light acidifying watering.",
+      "next_steps": "Recheck moisture in the morning to track overnight drying. Continue full-sun exposure while monitoring for heat stress on warmer days. If pH remains in the mid\u2013high 7s after the next irrigation cycle, consider a light acidifying watering.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -772,7 +885,7 @@
     {
       "date": "11/20/2025",
       "time": "1:25 PM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "7.83",
         "ec_mScm": "0.03",
@@ -804,7 +917,7 @@
     {
       "date": "11/19/2025",
       "time": "9:39 AM",
-      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.24",
         "ec_mScm": "0.13",
@@ -822,7 +935,7 @@
       },
       "observations": "Seedlings are very dense and bright green with upright posture, and early true leaves are beginning to appear across the tray. Soil surface is visibly wet, matching the very high moisture reading, with no signs of wilting, yellowing, or pest damage. The small thinning-stress patch near the label remains stable and does not affect overall vigor.",
       "actions": "No watering or fertilizer applied today because moisture is extremely high and plants look healthy. Tray is kept in full sun while avoiding further disturbance in the most crowded zones.",
-      "next_steps": "Recheck soil moisture later and only water again if levels drop into the 3–4 range. Continue normal sun exposure and provide cold protection if nighttime temperatures approach 45°F.",
+      "next_steps": "Recheck soil moisture later and only water again if levels drop into the 3\u20134 range. Continue normal sun exposure and provide cold protection if nighttime temperatures approach 45\u00b0F.",
       "q_and_a_summary": "Discussed whether inserting a probe into the crowded seedlings would rip them. Explanation that a few seedlings might be disturbed but the overall tray would be fine, with recommendations to probe at edges, gaps, or shallow angles to minimize root disturbance.",
       "follow_up": [],
       "photos": [
@@ -841,7 +954,7 @@
     {
       "date": "11/18/2025",
       "time": "9:02 AM",
-      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.57",
         "ec_mScm": "0.06",
@@ -859,7 +972,7 @@
       },
       "observations": "Seedlings are vigorous and evenly distributed with bright green cotyledons and upright growth. Canopy density has increased since earlier readings and the previous thinning-stress patch is less noticeable relative to the rest of the tray. Soil surface appears moist, consistent with the high moisture reading, and there are no signs of stress or pest issues.",
       "actions": "No watering or fertilizer applied because moisture is still high and plants appear healthy. Tray is kept in full sun under mild temperatures.",
-      "next_steps": "Recheck soil moisture later in the day and water only if levels drop toward the 3–4 range. Retest pH within the next day to confirm stability and continue cold protection if temperatures drop near 45°F.",
+      "next_steps": "Recheck soil moisture later in the day and water only if levels drop toward the 3\u20134 range. Retest pH within the next day to confirm stability and continue cold protection if temperatures drop near 45\u00b0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -873,7 +986,7 @@
     {
       "date": "11/17/2025",
       "time": "9:05 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "9.93",
         "ec_mScm": "0.05",
@@ -891,7 +1004,7 @@
       },
       "observations": "The tray is densely filled with bright green seedlings that look upright and evenly distributed. A small pale patch near the label reflects earlier thinning stress but is stable and not spreading. Soil is fully moist from recent watering, and plant appearance does not show any symptoms of extremely high pH despite the probe reading.",
       "actions": "No additional watering or fertilizer applied because soil is already saturated and plants appear healthy. No pH correction performed, as the reading is likely skewed by wet conditions or probe residue.",
-      "next_steps": "Allow the soil surface to dry slightly before the next watering and retest pH under less saturated conditions. Maintain full sun exposure and continue to protect from cold nights if temperatures approach 45°F.",
+      "next_steps": "Allow the soil surface to dry slightly before the next watering and retest pH under less saturated conditions. Maintain full sun exposure and continue to protect from cold nights if temperatures approach 45\u00b0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -905,7 +1018,7 @@
     {
       "date": "11/13/2025",
       "time": "9:24 AM",
-      "conditions": "67°F, in shade but expected to be sunny within about 20 minutes.",
+      "conditions": "67\u00b0F, in shade but expected to be sunny within about 20 minutes.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -919,11 +1032,11 @@
       "analog_probe": {
         "fertility": "Green (just into range)",
         "moisture": "6 (green, ideal)",
-        "ph": "6–7 (green, ideal)"
+        "ph": "6\u20137 (green, ideal)"
       },
       "observations": "Seedlings are thickening nicely across the tray with bright, healthy green coloration and upright posture. The pale cluster near the label matches the earlier thinning-stress area but is not worsening. Soil appears evenly moist and well-aerated, with no signs of dryness, wilting, or pests.",
       "actions": "No watering or fertilizer applied because analog readings and soil appearance indicate ideal conditions. Tray is left to move into full sun once the shade period ends.",
-      "next_steps": "Recheck moisture later in the day and water only if it drops toward the dry range. Maintain full sun exposure and continue providing cold protection when night temperatures are forecast near 45°F.",
+      "next_steps": "Recheck moisture later in the day and water only if it drops toward the dry range. Maintain full sun exposure and continue providing cold protection when night temperatures are forecast near 45\u00b0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -937,7 +1050,7 @@
     {
       "date": "11/12/2025",
       "time": "10:05 AM",
-      "conditions": "65°F, full sun.",
+      "conditions": "65\u00b0F, full sun.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

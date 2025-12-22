@@ -3,8 +3,11 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photo Prep Tool – Master Garden Dashboard</title>
   <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/static/mg.png">
 </head>
 
 <body>
@@ -95,7 +98,8 @@
         <div class="field-label">Global Message (Weather)</div>
         <textarea id="global_message" name="global_message" class="form-textarea"
           placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight..."></textarea>
-        <div class="form-hint">Weather conditions - this will be saved for the next plant</div>
+        <div class="form-hint">Weather conditions - this will be saved for the next plant. Use {variable_name} for
+          dynamic plant data (e.g., {id}, {garden_location}, {full_sun_start})</div>
 
         <div class="field-label">Plant-Specific Message</div>
         <textarea id="plant_message" name="plant_message" class="form-textarea"
@@ -263,34 +267,50 @@
         selectedFiles.style.display = 'block';
         filesList.innerHTML = '';
         for (let i = 0; i < files.length; i++) {
-          const div = document.createElement('div');
-          div.style.cssText = 'display: flex; align-items: center; gap: 8px; padding: 4px 0;';
+          const fileItem = document.createElement('div');
+          fileItem.className = 'file-item';
 
+          // Create thumbnail
+          const thumbnail = document.createElement('img');
+          thumbnail.className = 'file-thumbnail';
+          thumbnail.alt = 'Preview';
+
+          // Read file and create preview
+          const reader = new FileReader();
+          reader.onload = function (e) {
+            thumbnail.src = e.target.result;
+          };
+          reader.readAsDataURL(files[i]);
+
+          // Create checkbox
           const checkbox = document.createElement('input');
           checkbox.type = 'checkbox';
           checkbox.id = `probe_${i}`;
           checkbox.name = `probe_reading_${i}`;
-          checkbox.style.cursor = 'pointer';
+          checkbox.className = 'probe-checkbox';
 
+          // Create label with filename
           const label = document.createElement('label');
           label.htmlFor = `probe_${i}`;
+          label.className = 'file-label';
           label.textContent = `${i + 1}. ${files[i].name}`;
-          label.style.cursor = 'pointer';
-          label.style.flex = '1';
 
+          // Probe reading indicator
           const probeLabel = document.createElement('span');
           probeLabel.textContent = '(probe reading)';
-          probeLabel.style.cssText = 'font-size: 0.85em; color: var(--text-muted); font-style: italic;';
+          probeLabel.className = 'probe-label';
           probeLabel.style.display = 'none';
 
           checkbox.addEventListener('change', () => {
             probeLabel.style.display = checkbox.checked ? 'inline' : 'none';
           });
 
-          div.appendChild(checkbox);
-          div.appendChild(label);
-          div.appendChild(probeLabel);
-          filesList.appendChild(div);
+          // Assemble the file item
+          fileItem.appendChild(thumbnail);
+          fileItem.appendChild(checkbox);
+          fileItem.appendChild(label);
+          fileItem.appendChild(probeLabel);
+          filesList.appendChild(fileItem);
         }
       } else {
         selectedFiles.style.display = 'none';
@@ -302,7 +322,63 @@
       const codeElement = document.getElementById('outputCode');
       const text = codeElement.textContent.replace('Copy', '').trim();
 
-      navigator.clipboard.writeText(text);
+      // Try modern clipboard API first (works on HTTPS)
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          showCopyFeedback();
+        }).catch(() => {
+          // Fallback for HTTP/mobile
+          fallbackCopy(text);
+        });
+      } else {
+        // Fallback for older browsers or HTTP
+        fallbackCopy(text);
+      }
+    }
+
+    function fallbackCopy(text) {
+      // Create temporary textarea
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.top = '0';
+      textarea.style.left = '0';
+      textarea.style.width = '2em';
+      textarea.style.height = '2em';
+      textarea.style.padding = '0';
+      textarea.style.border = 'none';
+      textarea.style.outline = 'none';
+      textarea.style.boxShadow = 'none';
+      textarea.style.background = 'transparent';
+      document.body.appendChild(textarea);
+
+      // Select and copy
+      textarea.focus();
+      textarea.select();
+
+      try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showCopyFeedback();
+        } else {
+          alert('Copy failed. Please manually select and copy the text.');
+        }
+      } catch (err) {
+        alert('Copy not supported. Please manually select and copy the text.');
+      }
+
+      document.body.removeChild(textarea);
+    }
+
+    function showCopyFeedback() {
+      const button = event.target;
+      const originalText = button.textContent;
+      button.textContent = '✓ Copied!';
+      button.style.background = 'var(--success-color)';
+      setTimeout(() => {
+        button.textContent = originalText;
+        button.style.background = '';
+      }, 2000);
     }
   </script>
 </body>

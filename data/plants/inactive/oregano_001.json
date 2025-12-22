@@ -1,9 +1,11 @@
 {
   "id": "oregano_001",
-  "status": "Active",
+  "status": "Inactive",
   "plant": "Oregano",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 12",
+  "full_sun_start": "9:00 AM EST",
+  "full_shade_start": "4:00 PM EST",
   "container": "5 Herb Window Box",
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
@@ -29,6 +31,38 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/19/2025",
+      "time": "10:30 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",
+      "digital_probe": {
+        "ph": "5.80",
+        "ec_mScm": "0.47",
+        "salt_mg_L": "237",
+        "moisture_mScm": "60.00",
+        "light": "87",
+        "rh_percent": "66",
+        "fertility_percent": "28.0",
+        "soil_temp_f": "74.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Only one very small oregano seedling remains visible, with browning at the cotyledon edges and a fragile, stressed appearance. Repeated rain and wind events caused surface crusting and rapid moisture swings in the top soil layer, while deeper moisture remains adequate. Soil chemistry is stable, and nutrient levels are still available, indicating environmental exposure rather than soil imbalance as the primary stressor.",
+      "actions": "Do not water tonight. Allow humidity and overnight conditions to stabilize the surface. Avoid probing or disturbing the soil.",
+      "next_steps": "Tomorrow morning, visually assess the soil surface. If crusted or dusty, apply a very light surface mist only to soften the top layer. If the surface is already dark and pliable, take no action. Be prepared to reseed under calmer conditions if the remaining seedling does not recover.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "oregano_001-20251219-02.jpeg",
+          "caption": "Single remaining oregano seedling showing stress and partial browning after repeated wind and rain exposure.",
+          "tags": "oregano, seedling, stress, recovery-attempt"
+        }
+      ]
+    },
     {
       "date": "12/16/2025",
       "time": "12:18 PM",

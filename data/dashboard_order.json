@@ -131,7 +131,6 @@
         "chives_002",
         "cilantro_001",
         "cilantro_002",
-        "oregano_001",
         "parsley_001",
         "thyme_001"
       ]
@@ -154,6 +153,7 @@
       "emoji": "💀",
       "anchor": "inactive",
       "plants": [
+        "oregano_001",
         "lavender_001",
         "lavender_002",
         "lavender_003",

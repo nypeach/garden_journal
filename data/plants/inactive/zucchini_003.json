@@ -4,6 +4,8 @@
   "plant": "Zucchini (Left)",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 16-18",
+  "full_sun_start": "9:00 AM EST",
+  "full_shade_start": "4:00 PM EST",
   "container": "Raised Bed (Stake 2)",
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [

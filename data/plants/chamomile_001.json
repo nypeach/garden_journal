@@ -4,17 +4,19 @@
   "plant": "Chamomile",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 10",
+  "full_sun_start": "10:43 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Window Box",
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Chamomile planted on Nov 12, 2025.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" front and back",
+    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" front and back",
     "Planted in the same Window planter as the Shallots."
   ],
   "whats_been_logged": "The planting began in dry, lean soil along the planter edges with initially poor germination conditions. Once soil moisture was stabilized, the first seedlings emerged where surface light and airflow were strongest, forming a fine mat of bright green cotyledons. Soil acidity was corrected with dolomitic lime, supporting continued sprouting and healthier early development. Sprouts have remained upright, evenly colored, and free of damping-off, showing steady expansion as moisture and pH consistency improved.",
-    "current_stage": "Full Feathery Leaf Clusters",
-    "current_state": "The chamomile displays dense, healthy feathery foliage with strong lateral spread and compact growth. Multiple clusters are well established with bright green coloration, stable crowns, and no visible signs of stress, disease, or discoloration. Growth is uniform and transitioning toward early canopy formation.",
-    "timeline": [
+  "current_stage": "Full Feathery Leaf Clusters",
+  "current_state": "The chamomile displays dense, healthy feathery foliage with strong lateral spread and compact growth. Multiple clusters are well established with bright green coloration, stable crowns, and no visible signs of stress, disease, or discoloration. Growth is uniform and transitioning toward early canopy formation.",
+  "timeline": [
     {
       "what_i_should_see": "First Sprouts Emerging",
       "date_range": "Nov 17 - Nov 23, 2025"
@@ -46,9 +48,140 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "8:02 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "78",
+        "moisture_mScm": "33.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "60.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows bright green, finely divided foliage with upright posture and active lateral expansion. Larger clusters are filling in well while smaller plants remain healthy and stable. Soil moisture shows normal variation across the planter, with one probe reading excluded due to a localized saturated pocket. No signs of wilt, discoloration, or disease are visible.",
+      "actions": "Apply a light, even watering now using a gentle hose trickle for approximately 8\u201312 seconds across the chamomile zone. Do not fertilize.",
+      "next_steps": "Recheck moisture tomorrow late morning. Maintain moisture between 35.00 and 55.00 mS/cm. Continue monitoring pH; no adjustment needed if it remains in the mid-6 range.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251220-02.jpeg",
+          "caption": "Close-up of a dense chamomile cluster showing bright green, feathery foliage and upright growth.",
+          "tags": "chamomile, foliage, healthy, close-up"
+        },
+        {
+          "file_name": "chamomile_001-20251220-03.jpeg",
+          "caption": "Angled view of the window box showing multiple chamomile clusters with even spacing and active growth.",
+          "tags": "chamomile, window-box, growth, spacing"
+        },
+        {
+          "file_name": "chamomile_001-20251220-05.jpeg",
+          "caption": "Wider view of the shared planter highlighting chamomile clusters over soil beginning to dry evenly.",
+          "tags": "chamomile, shared-container, soil, healthy"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:20 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "135",
+        "moisture_mScm": "54.50",
+        "light": "99",
+        "rh_percent": "68",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "73.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows bright, feathery foliage with upright posture and healthy green coloration across the main clusters. Smaller plants are present and stable, with no visible wilting, yellowing, or collapse. Soil appears evenly damp overall with typical micro-zone variation in moisture; one probe reading likely captured a localized saturated pocket. No visible pest or disease symptoms are apparent.",
+      "actions": "Do not water tonight. Do not fertilize today. Keep the soil surface undisturbed and recheck moisture tomorrow late morning.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only if moisture drops below 35.00 mS/cm using a gentle hose trickle aimed at the soil. Continue monitoring pH trends; if pH remains below 5.80 for several days, consider a light whole-container adjustment.",
+      "q_and_a_summary": "Discussed whether watering is recommended at 7:10 PM; confirmed it is not recommended due to adequate moisture from the morning reading, evening timing, and cooler overnight conditions.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251219-02.jpeg",
+          "caption": "Angled view of the window box showing vigorous chamomile clusters with bright green, feathery foliage and good posture over evenly damp soil.",
+          "tags": "chamomile, healthy, foliage, window-box"
+        },
+        {
+          "file_name": "chamomile_001-20251219-04.jpeg",
+          "caption": "Wider view of the shared planter showing chamomile clusters spaced across the box with moist soil and stable growth near the shallot area.",
+          "tags": "chamomile, shared-container, spacing, soil"
+        },
+        {
+          "file_name": "chamomile_001-20251219-06.jpeg",
+          "caption": "Closer view of a chamomile cluster near the planter edge showing dense leaf texture and upright stems with no signs of stress.",
+          "tags": "chamomile, close-up, foliage, vigor"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "1:00 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "125",
+        "moisture_mScm": "60.00",
+        "light": "94",
+        "rh_percent": "52",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "81.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows vibrant, feathery foliage with strong lateral spread and upright, stable crowns. Leaf color is bright green and uniform across both large and smaller clusters. Soil appears evenly moist following morning rainfall with no pooling, crusting, or signs of compaction. No stress, discoloration, or disease symptoms are visible.",
+      "actions": "Do not water today. Do not fertilize. Leave the soil surface undisturbed and maintain current placement.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only if moisture drops below 35.00 mS/cm. Continue monitoring canopy expansion and airflow as plants progress toward denser foliage.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251218-02.jpeg",
+          "caption": "Angled view showing dense chamomile clusters with bright green feathery foliage and stable crowns after morning rain.",
+          "tags": "chamomile, foliage, feathery-leaves, healthy-growth"
+        },
+        {
+          "file_name": "chamomile_001-20251218-03.jpeg",
+          "caption": "Wider view of the window box showing multiple chamomile clusters with even moisture distribution and open spacing.",
+          "tags": "chamomile, window-box, spacing, soil-moisture"
+        },
+        {
+          "file_name": "chamomile_001-20251218-05.jpeg",
+          "caption": "Top-down view highlighting smaller chamomile clusters filling in steadily between larger established plants.",
+          "tags": "chamomile, seedlings, lateral-growth, development"
+        },
+        {
+          "file_name": "chamomile_001-20251218-06.jpeg",
+          "caption": "Side view of chamomile near shallots showing upright posture and healthy leaf structure in shared container.",
+          "tags": "chamomile, shared-container, healthy, foliage"
+        }
+      ]
+    },
+    {
       "date": "12/16/2025",
       "time": "12:01 PM",
-      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight. A 50% chance of showers and thunderstorms after 1 AM.",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight. A 50% chance of showers and thunderstorms after 1 AM.",
       "digital_probe": {
         "ph": "6.2",
         "ec_mScm": "0.40",
@@ -58,6 +191,11 @@
         "rh_percent": "49",
         "fertility_percent": "23",
         "soil_temp_f": "68.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
       },
       "observations": "Chamomile plants show dense feathery leaf clusters with healthy green coloration and strong lateral spread. Crowns are stable and upright. Soil surface was dry and crusted from wind exposure, though underlying moisture was present. No visible signs of stress, discoloration, or disease.",
       "actions": "Probe reading taken with difficulty due to surface crusting. Soil surface gently fluffed after reading to improve aeration and prepare for incoming rain. No watering or fertilization applied.",
@@ -70,7 +208,7 @@
     {
       "date": "12/15/2025",
       "time": "10:43 AM",
-      "conditions": "Partly sunny with a 20–30% chance of showers and thunderstorms. High of 81°F dropping to 63°F overnight. Wind gusts up to 29 mph.",
+      "conditions": "Partly sunny with a 20\u201330% chance of showers and thunderstorms. High of 81\u00b0F dropping to 63\u00b0F overnight. Wind gusts up to 29 mph.",
       "digital_probe": {
         "ph": "6.0",
         "ec_mScm": "0.36",
@@ -80,6 +218,11 @@
         "rh_percent": "44",
         "fertility_percent": "20",
         "soil_temp_f": "66.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
       },
       "observations": "Chamomile plants show dense, well-defined feathery leaf clusters with strong lateral spread and healthy green coloration. Crowns are stable and upright despite wind. Soil surface is moist but no longer saturated, with visible drying compared to the previous day.",
       "actions": "No watering or fertilization performed. Allowed wind and sun to continue drying the soil naturally.",
@@ -93,7 +236,7 @@
     {
       "date": "12/14/2025",
       "time": "2:41 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.85",
         "ec_mScm": "0.34",
@@ -135,7 +278,7 @@
     {
       "date": "12/12/2025",
       "time": "1:22 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.10",
         "ec_mScm": "0.27",
@@ -172,7 +315,7 @@
     {
       "date": "12/11/2025",
       "time": "4:58 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.14",
@@ -190,8 +333,8 @@
       },
       "observations": "The chamomile shows healthy feathery foliage with upright stems and bright green color. Established clusters are spreading low and outward along the planting band, with open bare-soil areas between clusters. The soil surface appears dark and evenly moist with no visible crusting, algae, or pooling.",
       "actions": "Do not water today. Do not fertilize. Maintain current placement and leave the soil surface undisturbed around the chamomile crowns.",
-      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 30.00 mS/cm. Continue monitoring foliage posture after cooler nights; no cold protection is needed at an overnight low of 53°F.",
-      "q_and_a_summary": "Discussed whether tonight’s low of 53°F is concerning; confirmed it is safe for chamomile and should not cause damage. Confirmed no watering is needed with moisture in the mid-40s and no fertilizer is recommended at current fertility levels.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 30.00 mS/cm. Continue monitoring foliage posture after cooler nights; no cold protection is needed at an overnight low of 53\u00b0F.",
+      "q_and_a_summary": "Discussed whether tonight\u2019s low of 53\u00b0F is concerning; confirmed it is safe for chamomile and should not cause damage. Confirmed no watering is needed with moisture in the mid-40s and no fertilizer is recommended at current fertility levels.",
       "follow_up": [],
       "photos": [
         {
@@ -209,7 +352,7 @@
     {
       "date": "12/10/2025",
       "time": "8:50 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.42",
         "ec_mScm": "0.36",
@@ -253,7 +396,7 @@
     {
       "date": "12/9/2025",
       "time": "7:55 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.86",
         "ec_mScm": "0.33",
@@ -295,7 +438,7 @@
     {
       "date": "12/8/2025",
       "time": "10:59 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.41",
@@ -311,7 +454,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chamomile seedlings appear vigorous and upright with dense feathery foliage developing along the front band and healthy, spaced clusters at the back. Soil is evenly hydrated following yesterday’s watering and cloudier weather, with no crusting or hydrophobic dryness present. Moisture levels are high but still within a safe range ahead of the expected rainfall. pH has stabilized within chamomile’s preferred range, and no signs of damping-off, mold, nutrient burn, or pest activity are visible. Seedlings in the right zone remain smaller but show healthy green coloration and upright posture.",
+      "observations": "Chamomile seedlings appear vigorous and upright with dense feathery foliage developing along the front band and healthy, spaced clusters at the back. Soil is evenly hydrated following yesterday\u2019s watering and cloudier weather, with no crusting or hydrophobic dryness present. Moisture levels are high but still within a safe range ahead of the expected rainfall. pH has stabilized within chamomile\u2019s preferred range, and no signs of damping-off, mold, nutrient burn, or pest activity are visible. Seedlings in the right zone remain smaller but show healthy green coloration and upright posture.",
       "actions": "Do not water today as moisture levels are already high and rain is likely this afternoon. Avoid disturbing soil around seedlings. Do not fertilize or apply lime; soil chemistry is currently well balanced. Prepare to slightly tilt the planter after heavy rain if pooling occurs to improve drainage.",
       "next_steps": "Recheck moisture tomorrow late morning after rainfall. If readings exceed 95 mS/cm or remain saturated, lightly aerate the top surface only in bare areas to increase oxygen flow. Continue monitoring right-side seedlings for growth catch-up as conditions stabilize.",
       "q_and_a_summary": "",
@@ -337,7 +480,7 @@
     {
       "date": "12/7/2025",
       "time": "12:47 PM",
-      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.64",
         "ec_mScm": "0.33",
@@ -353,7 +496,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chamomile seedlings remain upright and bright green across the planter edges with well-defined feathery foliage. Moisture is uneven due to extreme surface dryness, with crusting and fractured soil visible around several clusters, though seedlings show no wilting or damping-off. Soil chemistry appears stable with pH now within chamomile’s tolerance range. No pests or fungal issues observed.",
+      "observations": "Chamomile seedlings remain upright and bright green across the planter edges with well-defined feathery foliage. Moisture is uneven due to extreme surface dryness, with crusting and fractured soil visible around several clusters, though seedlings show no wilting or damping-off. Soil chemistry appears stable with pH now within chamomile\u2019s tolerance range. No pests or fungal issues observed.",
       "actions": "Apply 1/2 cup of water gently across the chamomile planting bands to rehydrate crusted zones without oversaturating soil ahead of tomorrow's rain. Lightly break dry surface crust only in bare areas to improve water penetration. Avoid fertilizing or applying lime today.",
       "next_steps": "Recheck moisture tomorrow morning before showers arrive. Do not add water if moisture exceeds 70 mS/cm. Monitor right-side seedlings for improved turgor and color as moisture evens out. Continue watching for crust formation and break only where no seedlings are present.",
       "q_and_a_summary": "",
@@ -384,7 +527,7 @@
     {
       "date": "12/4/2025",
       "time": "5:00 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.27",
         "ec_mScm": "0.50",
@@ -401,8 +544,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings display steady upward growth with main row thickening nicely and appearing healthy overall. Foliage color shows improvement with greener appearance compared to earlier in the week, indicating positive response to balanced watering regimen. A few isolated seedlings still appear slightly lighter green, consistent with pH drifting below optimal range and strong midday sun intensity. The bone-dry soil condition encountered at 2:00 PM demonstrates extreme moisture loss from Florida sun exposure, requiring watering before probe readings could be obtained. Seedlings perked up significantly after watering with improved turgor and posture. Soil appears evenly moistened 2+ hours after water application with good distribution across planter.",
-      "actions": "Do not apply additional water today; moisture at 73 mS/cm is appropriately moist after rehydration. Do not add lime or pH amendments today; seedlings remain too small at current size for safe soil amendment mixing. Wait until seedlings reach 3–4 inches tall before applying any pH correction despite readings averaging 5.27 below chamomile's preferred 5.6–7.5 range. Do not fertilize; fertility at 30.2% is elevated but not dangerous, with salt levels at 255 mg/L trending high but still safe for seedlings.",
-      "next_steps": "Adjust watering schedule to early morning application to prevent midday bone-dry conditions that stress seedlings and prevent probe readings. Consider optional light dusk sprinkle if soil crusts during afternoon heat. Monitor for white salt crust formation on surface and lightly brush away if visible or add thin 1/4 inch fresh soil layer over affected areas. Watch pH trajectory and plan gentle dolomite lime correction once seedlings reach 3–4 inches tall. Consider partial shade cloth or umbrella coverage between 12:00 PM and 3:00 PM to prevent soil from dehydrating completely and stabilize pH drift. Continue monitoring isolated pale seedlings for color improvement as watering consistency increases.",
+      "actions": "Do not apply additional water today; moisture at 73 mS/cm is appropriately moist after rehydration. Do not add lime or pH amendments today; seedlings remain too small at current size for safe soil amendment mixing. Wait until seedlings reach 3\u20134 inches tall before applying any pH correction despite readings averaging 5.27 below chamomile's preferred 5.6\u20137.5 range. Do not fertilize; fertility at 30.2% is elevated but not dangerous, with salt levels at 255 mg/L trending high but still safe for seedlings.",
+      "next_steps": "Adjust watering schedule to early morning application to prevent midday bone-dry conditions that stress seedlings and prevent probe readings. Consider optional light dusk sprinkle if soil crusts during afternoon heat. Monitor for white salt crust formation on surface and lightly brush away if visible or add thin 1/4 inch fresh soil layer over affected areas. Watch pH trajectory and plan gentle dolomite lime correction once seedlings reach 3\u20134 inches tall. Consider partial shade cloth or umbrella coverage between 12:00 PM and 3:00 PM to prevent soil from dehydrating completely and stabilize pH drift. Continue monitoring isolated pale seedlings for color improvement as watering consistency increases.",
       "q_and_a_summary": "",
       "follow_up": [
         "[2:00 PM] Attempted probe readings but soil was bone dry from Florida sun exposure, making measurements impossible. Applied water to rehydrate planter before taking readings 2+ hours later."
@@ -423,7 +566,7 @@
     {
       "date": "12/3/2025",
       "time": "1:31 PM",
-      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
+      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.29",
         "ec_mScm": "0.18",
@@ -439,8 +582,8 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chamomile seedlings maintain vigorous upright growth with healthy green color across most zones. Soil moisture has dropped to moderately dry levels at 37.67 mS/cm average, approaching the lower safe threshold for young seedlings. Three probe readings from left, center, and right zones show no extreme outliers with consistent drying pattern across planter. pH averaging 5.29 remains slightly below chamomile's preferred 5.6–7.5 range but within acceptable tolerance for established seedlings. Fertility at 7.7% indicates low-normal nutrient levels appropriate for this growth stage. Soil temperature elevated at 88.2°F reflects strong midday sun exposure and surface heating.",
-      "actions": "Apply optional light watering tonight or tomorrow morning depending on soil surface feel and seedling turgor. Current moisture at 37.67 mS/cm is slightly dry but still safe, giving flexibility for timing. Do not add lime today; pH correction should wait until seedlings reach 3–4 inches tall for safe amendment application. Do not fertilize; current fertility levels remain appropriate for seedling stage.",
+      "observations": "Chamomile seedlings maintain vigorous upright growth with healthy green color across most zones. Soil moisture has dropped to moderately dry levels at 37.67 mS/cm average, approaching the lower safe threshold for young seedlings. Three probe readings from left, center, and right zones show no extreme outliers with consistent drying pattern across planter. pH averaging 5.29 remains slightly below chamomile's preferred 5.6\u20137.5 range but within acceptable tolerance for established seedlings. Fertility at 7.7% indicates low-normal nutrient levels appropriate for this growth stage. Soil temperature elevated at 88.2\u00b0F reflects strong midday sun exposure and surface heating.",
+      "actions": "Apply optional light watering tonight or tomorrow morning depending on soil surface feel and seedling turgor. Current moisture at 37.67 mS/cm is slightly dry but still safe, giving flexibility for timing. Do not add lime today; pH correction should wait until seedlings reach 3\u20134 inches tall for safe amendment application. Do not fertilize; current fertility levels remain appropriate for seedling stage.",
       "next_steps": "Monitor soil moisture closely tomorrow as Florida sun and wind will continue accelerating drying. Water if moisture drops below 30 mS/cm or if seedlings show any turgor loss. Continue observing pH stability and plan gentle dolomite lime application once seedlings achieve adequate size. Watch for salt crust formation as evaporation concentrates minerals at surface.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -465,7 +608,7 @@
     {
       "date": "12/2/2025",
       "time": "10:51 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.32",
         "ec_mScm": "0.46",
@@ -482,8 +625,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings display continued vigorous growth with visible stretching since previous day and healthy fill-in across front and back rows. Several clusters now show third leaf development with seedlings remaining upright, bright green, and evenly sized throughout planter. No signs of fungal issues, yellowing, damping-off, sun scorch, wilt, or pale tips present. Soil structure appears well-aerated and draining properly after recent leveling and probe hole filling. Three probe readings averaged from left, center, and right zones show moderately moist conditions at 77 mS/cm with one zone measuring saturated 100 mS/cm likely due to localized probe insertion timing or water pooling. Re-leveled soil and gentle filling around probe holes successfully avoided burying any seedlings. Perlite and bark debris remain visible across surface with good oxygen flow maintained.",
-      "actions": "Do not water today; averaged moisture at 77 mS/cm is right in safe zone for young chamomile seedlings. Do not add fertilizer; fertility at 27.6% is healthy and not excessive for this stage. Do not apply pH amendments today; pH at 5.32 remains slightly below chamomile's preferred 5.6–7.5 range but is acceptable and not urgent given chamomile's tolerance. Avoid adding vinegar or baking soda as these swing pH wildly. Continue normal monitoring only with no pest or fungal treatments needed.",
-      "next_steps": "Check moisture tomorrow late morning or early afternoon as gusty 19 mph winds and 84°F temperatures will accelerate surface drying, likely bringing moisture into mid-50s range by tomorrow. Apply water if moisture drops below 55 mS/cm. Monitor pH trajectory over next several days and apply dolomite lime only if readings drop below 5.0. Watch for continued third leaf development and progressive filling of sparse zones as pH stabilizes. Continue observing for any pest or disease indicators though none currently present.",
+      "actions": "Do not water today; averaged moisture at 77 mS/cm is right in safe zone for young chamomile seedlings. Do not add fertilizer; fertility at 27.6% is healthy and not excessive for this stage. Do not apply pH amendments today; pH at 5.32 remains slightly below chamomile's preferred 5.6\u20137.5 range but is acceptable and not urgent given chamomile's tolerance. Avoid adding vinegar or baking soda as these swing pH wildly. Continue normal monitoring only with no pest or fungal treatments needed.",
+      "next_steps": "Check moisture tomorrow late morning or early afternoon as gusty 19 mph winds and 84\u00b0F temperatures will accelerate surface drying, likely bringing moisture into mid-50s range by tomorrow. Apply water if moisture drops below 55 mS/cm. Monitor pH trajectory over next several days and apply dolomite lime only if readings drop below 5.0. Watch for continued third leaf development and progressive filling of sparse zones as pH stabilizes. Continue observing for any pest or disease indicators though none currently present.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -512,7 +655,7 @@
     {
       "date": "12/1/2025",
       "time": "5:19 PM",
-      "conditions": "Mostly cloudy with temperatures in the mid-70s°F dropping to 69°F overnight. Stable weather through the day with possible showers around 6:00 PM.",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s\u00b0F dropping to 69\u00b0F overnight. Stable weather through the day with possible showers around 6:00 PM.",
       "digital_probe": {
         "ph": "5.36",
         "ec_mScm": "0.30",
@@ -529,8 +672,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings appear visibly larger with more defined early foliage showing elongating leaves correct for this germination stage. Sprouts remain upright and stable after recent soil leveling with consistent density across front and back rows. No yellowing, distortion, damping-off, or wilt detected despite soil refilling activities. Spacing remains intact and bare patches are slowly filling in as expected. The soil leveling executed without burying sprouts has improved surface structure and reduced moisture swings near probe holes without causing any visible setback to seedling health. Foliage color remains healthy bright green with no nutrient stress indicators.",
-      "actions": "Do not water today; current moisture at 60.5 mS/cm is excellent for chamomile seedlings and morning watering combined with possible evening showers will maintain stable hydration. Do not add lime today; pH at 5.36 is now very close to chamomile's preferred 5.6–7.5 range as earlier dolomitic lime applications continue taking effect. Allow system to stabilize naturally. Do not apply fertilizer; fertility at 13.4% remains healthy for this stage.",
-      "next_steps": "Monitor for potential moisture increase if evening showers materialize around 6:00 PM, though current readings suggest no overwatering risk. Continue watching for white fuzzy growth around stems indicating damping-off, though none currently present. Observe pH trajectory as lime continues buffering toward ideal range. Expect foliage to become increasingly feathery and defined over next 3–5 days as pH stabilizes and seedlings enter next developmental phase.",
+      "actions": "Do not water today; current moisture at 60.5 mS/cm is excellent for chamomile seedlings and morning watering combined with possible evening showers will maintain stable hydration. Do not add lime today; pH at 5.36 is now very close to chamomile's preferred 5.6\u20137.5 range as earlier dolomitic lime applications continue taking effect. Allow system to stabilize naturally. Do not apply fertilizer; fertility at 13.4% remains healthy for this stage.",
+      "next_steps": "Monitor for potential moisture increase if evening showers materialize around 6:00 PM, though current readings suggest no overwatering risk. Continue watching for white fuzzy growth around stems indicating damping-off, though none currently present. Observe pH trajectory as lime continues buffering toward ideal range. Expect foliage to become increasingly feathery and defined over next 3\u20135 days as pH stabilizes and seedlings enter next developmental phase.",
       "q_and_a_summary": "",
       "follow_up": [
         "[9:40 AM] Applied water to entire planter following overnight monitoring. Filled probe holes with loose soil and leveled surface while carefully keeping all sprouts exposed and uncovered."
@@ -546,7 +689,7 @@
     {
       "date": "11/29/2025",
       "time": "1:56 PM",
-      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1:00 PM. Wind gusts up to 15 mph.",
+      "conditions": "Mostly sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight. Partly cloudy conditions expected around 1:00 PM. Wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "5.22",
         "ec_mScm": "0.31",
@@ -563,8 +706,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings display vigorous growth on the front row with upright posture and noticeably larger size compared to previous week. Back-center sprouts remain visible and healthy after soil filling from probe hole repairs, confirming proper technique without burial. Soil structure appears significantly more even across planter with white lime layer visible underneath filled areas showing thick application pattern. Three probe readings averaged from left, center, and right zones show consistent moisture distribution at 55 mS/cm following morning watering at 9:40 AM. A few sprouts near heavily-limed right side appear slightly pale but remain viable. Overall seedling mat is strengthening and expanding with positive response to ongoing pH correction. No damping-off, mold, or disease indicators present.",
-      "actions": "Do not water today; current moisture at 55 mS/cm is ideal for chamomile seedlings and morning watering has distributed well. Do not add lime today; pH is improving steadily from 4.64 on 11/27 to 5.22 today as earlier dolomitic lime application continues buffering acidity. Avoid adding fertilizer for at least 3–4 more weeks while seedlings establish root systems. Continue filling probe holes with fluffy loose soil to maintain level surface and reading accuracy.",
-      "next_steps": "Monitor front edge moisture tomorrow as wind gusts may accelerate drying in that zone. Watch for continued pH rise toward chamomile's preferred 5.8–7.2 range over next several days as lime continues dissolving. Expect seedlings to accelerate leaf expansion and develop characteristic feathery foliage within 5–7 days as pH stabilizes. Check pale sprouts near right-side lime concentration for color improvement as soil chemistry balances.",
+      "actions": "Do not water today; current moisture at 55 mS/cm is ideal for chamomile seedlings and morning watering has distributed well. Do not add lime today; pH is improving steadily from 4.64 on 11/27 to 5.22 today as earlier dolomitic lime application continues buffering acidity. Avoid adding fertilizer for at least 3\u20134 more weeks while seedlings establish root systems. Continue filling probe holes with fluffy loose soil to maintain level surface and reading accuracy.",
+      "next_steps": "Monitor front edge moisture tomorrow as wind gusts may accelerate drying in that zone. Watch for continued pH rise toward chamomile's preferred 5.8\u20137.2 range over next several days as lime continues dissolving. Expect seedlings to accelerate leaf expansion and develop characteristic feathery foliage within 5\u20137 days as pH stabilizes. Check pale sprouts near right-side lime concentration for color improvement as soil chemistry balances.",
       "q_and_a_summary": "",
       "follow_up": [
         "[9:40 AM] Applied water to rehydrate planter after monitoring overnight conditions. Filled probe holes with loose soil and added material to level surface, leaving new sprouts properly exposed without burial."
@@ -600,7 +743,7 @@
     {
       "date": "11/28/2025",
       "time": "10:41 AM",
-      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.28",
         "ec_mScm": "0.38",
@@ -616,10 +759,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chamomile seedlings display vigorous growth in the left cluster with strong upright posture and bright green cotyledons, while center and right areas continue lagging behind due to combination of historically lower moisture on right side, persistently acidic pH throughout planter, and some probe holes collapsing soil around seedlings. Averaged readings from three zones show elevated moisture at 71.67 mS/cm but still safe for small seedlings given consistent drainage, and pH averaging 5.28 remains far below chamomile's preferred 5.6–7.5 range, now identified as the primary limiting factor for accelerated growth. Cool cloudy weather provides chamomile-friendly growing conditions. No signs of damping-off, mold, or overwatering stress despite high moisture readings.",
+      "observations": "Chamomile seedlings display vigorous growth in the left cluster with strong upright posture and bright green cotyledons, while center and right areas continue lagging behind due to combination of historically lower moisture on right side, persistently acidic pH throughout planter, and some probe holes collapsing soil around seedlings. Averaged readings from three zones show elevated moisture at 71.67 mS/cm but still safe for small seedlings given consistent drainage, and pH averaging 5.28 remains far below chamomile's preferred 5.6\u20137.5 range, now identified as the primary limiting factor for accelerated growth. Cool cloudy weather provides chamomile-friendly growing conditions. No signs of damping-off, mold, or overwatering stress despite high moisture readings.",
       "actions": "Do not water today given high moisture and cool temperatures; allow planter to breathe naturally. Apply 1.5 teaspoons garden lime evenly across entire planter including both chamomile rows and shallot zones at 10:57 AM as surface application to begin correcting dangerously acidic pH. Do not mix lime into soil; surface application only allows gradual pH correction without disturbing seedling roots. Apply light watering tomorrow morning to activate lime unless rainfall handles activation naturally.",
-      "next_steps": "Monitor pH rise over next 24–72 hours as lime begins buffering acidity toward acceptable range. Watch for unlocked growth acceleration once pH stabilizes above 5.5. Continue filling probe holes with fluffy loose soil without burying seedlings. If heavy rain occurs this evening, skip additional watering tomorrow as rainfall will help leach excess acidity while activating lime. Expect stronger germination in center and right zones as pH correction progresses.",
-      "q_and_a_summary": "Confirmed that persistently acidic pH averaging 4.94–5.28 is now the primary limiting factor preventing faster chamomile growth and fuller germination across all planter zones. Discussed coordinated lime application covering both chamomile and shallot areas based on shallots assistant recommendation.",
+      "next_steps": "Monitor pH rise over next 24\u201372 hours as lime begins buffering acidity toward acceptable range. Watch for unlocked growth acceleration once pH stabilizes above 5.5. Continue filling probe holes with fluffy loose soil without burying seedlings. If heavy rain occurs this evening, skip additional watering tomorrow as rainfall will help leach excess acidity while activating lime. Expect stronger germination in center and right zones as pH correction progresses.",
+      "q_and_a_summary": "Confirmed that persistently acidic pH averaging 4.94\u20135.28 is now the primary limiting factor preventing faster chamomile growth and fuller germination across all planter zones. Discussed coordinated lime application covering both chamomile and shallot areas based on shallots assistant recommendation.",
       "follow_up": [
         "[10:57 AM] Applied 1.5 teaspoons garden lime evenly across entire planter including both chamomile rows and shallot zones per coordinated recommendation addressing shared pH deficiency."
       ],
@@ -649,7 +792,7 @@
     {
       "date": "11/27/2025",
       "time": "1:40 PM",
-      "conditions": "Cloudy with a high of 81°F dropping down to 65°F overnight. Rainy conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81\u00b0F dropping down to 65\u00b0F overnight. Rainy conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "4.64",
         "ec_mScm": "0.35",
@@ -665,7 +808,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chamomile seedlings display uneven but healthy development across the planter with densest growth concentrated on the left side showing bright green clusters, moderate density in the center, and sparse emergence with multiple bare patches on the right side. Three probe readings taken across left, center, and right zones show consistent pattern with no true outliers, confirming moisture averaging 61.67 mS/cm provides adequate hydration for current germination stage. Right-side lag correlates with earlier documented lower moisture, probe-induced soil pocketing, and slight compaction differences between zones. Cotyledons remain fully visible with first serrated leaves just beginning on strongest left-side seedlings. Sprouts previously buried by loose soil fill from probe hole repairs show healthy emergence through fluffy mix. pH remains significantly acidic despite earlier lime application, with readings below chamomile's preferred 5.6–7.5 range.",
+      "observations": "Chamomile seedlings display uneven but healthy development across the planter with densest growth concentrated on the left side showing bright green clusters, moderate density in the center, and sparse emergence with multiple bare patches on the right side. Three probe readings taken across left, center, and right zones show consistent pattern with no true outliers, confirming moisture averaging 61.67 mS/cm provides adequate hydration for current germination stage. Right-side lag correlates with earlier documented lower moisture, probe-induced soil pocketing, and slight compaction differences between zones. Cotyledons remain fully visible with first serrated leaves just beginning on strongest left-side seedlings. Sprouts previously buried by loose soil fill from probe hole repairs show healthy emergence through fluffy mix. pH remains significantly acidic despite earlier lime application, with readings below chamomile's preferred 5.6\u20137.5 range.",
       "actions": "Do not water today with rain arriving in less than 5 hours. Do not apply additional lime today as incoming rain risks washing amendments away and will naturally push pH slightly lower overnight. Allow natural rainfall to manage hydration across entire planter.",
       "next_steps": "Check right-side moisture tomorrow morning after overnight rain. If right side measures below 50 mS/cm, apply 1/4 cup water to right half only using slow targeted drip. Monitor pH trajectory as lime continues dissolving slowly to raise acidic readings toward acceptable range. Expect plant to enter Feathery Foliage stage between Nov 29 and Dec 1 if pH correction continues progressing. Watch for serrated leaf development on left-side seedlings as strongest indicator of stage transition.",
       "q_and_a_summary": "Confirmed that all three probe readings were close enough to average without excluding outliers. Discussed whether filling probe holes over sprouts could harm emergence and confirmed that loose, sifted soil sitting over seedlings without packing allows chamomile to push through easily. Addressed persistent right-side sparse germination pattern consistent across multiple readings this week.",
@@ -691,7 +834,7 @@
     {
       "date": "11/26/2025",
       "time": "10:55 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4:00 PM. Brief sun shower at 11:15 AM.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4:00 PM. Brief sun shower at 11:15 AM.",
       "digital_probe": {
         "ph": "4.90",
         "ec_mScm": "0.21",
@@ -738,7 +881,7 @@
     {
       "date": "11/25/2025",
       "time": "3:07 PM",
-      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight.",
+      "conditions": "Sunny all day with a high of 84\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.26",
         "ec_mScm": "0.31",
@@ -785,7 +928,7 @@
     {
       "date": "11/24/2025",
       "time": "11:58 AM",
-      "conditions": "Partly cloudy with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Partly cloudy with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.63",
         "ec_mScm": "0.24",
@@ -803,7 +946,7 @@
       },
       "observations": "Chamomile seedlings remain healthy along the edges with denser growth on the left side and sparse germination on the right. Although the planter was watered 45 minutes before readings, the right side still showed low moisture, suggesting uneven soil hydration or localized hydrophobic soil. Lime remnants persist but are not inhibiting growth, and sprouts remain upright and green with no signs of mold or damping-off.",
       "actions": "Apply a small, slow, targeted watering to the right edge only to correct persistent dryness. Avoid watering the center and left zones, which remain oversaturated. Lightly fluff the top layer on the right edge only in areas without sprouts to improve water penetration.",
-      "next_steps": "Recheck the right edge for moisture improvement over the next 12–24 hours. Expect germination on the right side to improve once surface moisture stabilizes. Continue avoiding full-planter watering until moisture levels rebalance.",
+      "next_steps": "Recheck the right edge for moisture improvement over the next 12\u201324 hours. Expect germination on the right side to improve once surface moisture stabilizes. Continue avoiding full-planter watering until moisture levels rebalance.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -832,7 +975,7 @@
     {
       "date": "11/23/2025",
       "time": "1:42 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.57",
         "ec_mScm": "0.16",
@@ -850,7 +993,7 @@
       },
       "observations": "Chamomile seedlings continue expanding along the planter edges with notable differences between left and right sides. The left edge shows dense, bright green seedlings, while the right edge is sparse due to localized dryness. After averaging three readings, overall soil moisture has returned to the optimal early germination range, and pH has finally risen into the ideal zone for chamomile growth. Lime patches continue dissolving slowly. No signs of mold, damping-off, compaction, or pest activity. Soil temperature is warm but within safe limits, and sunlight exposure remains excellent.",
       "actions": "No watering needed for now. Allow moisture to redistribute naturally after the localized addition on the right side. Continue monitoring the right edge for new germination as moisture levels equalize. Avoid applying more lime, as pH is now in the ideal range.",
-      "next_steps": "Check moisture and pH tomorrow morning. Expect new sprouts to appear on the right edge within 24–48 hours as moisture normalizes. Water only once moisture readings fall below 20 mS/cm. Protect soil from excessive heat if temperatures exceed the upper 80s°F at the surface.",
+      "next_steps": "Check moisture and pH tomorrow morning. Expect new sprouts to appear on the right edge within 24\u201348 hours as moisture normalizes. Water only once moisture readings fall below 20 mS/cm. Protect soil from excessive heat if temperatures exceed the upper 80s\u00b0F at the surface.",
       "q_and_a_summary": "",
       "follow_up": [
         "[1:51 PM] Added 1/4 cup of water to the right side to correct localized dryness."
@@ -881,7 +1024,7 @@
     {
       "date": "11/22/2025",
       "time": "11:07 AM",
-      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.80",
         "ec_mScm": "0.28",
@@ -898,8 +1041,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings continue emerging in healthy clusters along the planter edges. Soil is significantly wetter today compared to the day before, with moisture above the ideal early germination range. The lime crust remains visible but is thinning and dissolving due to the recent watering event. pH has dropped again into the mid-4s due to dilution of surface lime before full buffering. Despite the overwatering, sprouts remain upright, bright green, and free of damping-off or mold. Cloudy weather is slowing evaporation, contributing to the elevated moisture. Soil structure remains aerated with no visible compaction.",
-      "actions": "Do not water today or tomorrow. Allow moisture to fall naturally back toward 20–25 mS/cm to restore optimal germination conditions. Do not add additional lime at this time. Gently break the lime crust only in areas away from sprouts to improve oxygen flow at the surface. Monitor seedlings tomorrow for any signs of translucency or collapse that would indicate excess moisture stress.",
-      "next_steps": "Recheck moisture and pH tomorrow morning. Expect slow drying due to cloudy weather. Sprouts should remain upright and green as long as oxygen flow remains adequate. Resume watering only once moisture falls below 20–22 mS/cm along Chamomile edges.",
+      "actions": "Do not water today or tomorrow. Allow moisture to fall naturally back toward 20\u201325 mS/cm to restore optimal germination conditions. Do not add additional lime at this time. Gently break the lime crust only in areas away from sprouts to improve oxygen flow at the surface. Monitor seedlings tomorrow for any signs of translucency or collapse that would indicate excess moisture stress.",
+      "next_steps": "Recheck moisture and pH tomorrow morning. Expect slow drying due to cloudy weather. Sprouts should remain upright and green as long as oxygen flow remains adequate. Resume watering only once moisture falls below 20\u201322 mS/cm along Chamomile edges.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -928,7 +1071,7 @@
     {
       "date": "11/21/2025",
       "time": "3:28 PM",
-      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
+      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.81",
         "ec_mScm": "0.18",
@@ -945,8 +1088,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings continue emerging steadily along the planter edges. Soil is drier than the day before and the lime crust remains visible in patches but is thinning as it dissolves. Sprouts appear upright, evenly green, and healthy with no signs of damping-off or mold. Surface dryness and low moisture readings indicate the early germination zone is beginning to under-hydrate. Light is excellent and soil temperatures are warm but not excessive. pH continues rising toward the optimal range after lime application.",
-      "actions": "Apply a light watering of 1/2 to 1 cup distributed across the surface to restore gentle moisture for continued germination. Avoid disturbing the lime crust directly and do not fertilize. Keep planter in bright light but provide brief shade if soil temperatures approach the upper 80s°F.",
-      "next_steps": "Recheck moisture tomorrow to ensure it remains in the 20–22 mS/cm range for ongoing sprouting. Expect pH to continue gradually rising over the next 24–48 hours. Maintain lightly moist surface conditions and monitor for new sprout clusters.",
+      "actions": "Apply a light watering of 1/2 to 1 cup distributed across the surface to restore gentle moisture for continued germination. Avoid disturbing the lime crust directly and do not fertilize. Keep planter in bright light but provide brief shade if soil temperatures approach the upper 80s\u00b0F.",
+      "next_steps": "Recheck moisture tomorrow to ensure it remains in the 20\u201322 mS/cm range for ongoing sprouting. Expect pH to continue gradually rising over the next 24\u201348 hours. Maintain lightly moist surface conditions and monitor for new sprout clusters.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -975,7 +1118,7 @@
     {
       "date": "11/20/2025",
       "time": "1:08 PM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.04",
         "ec_mScm": "0.12",
@@ -992,8 +1135,8 @@
         "ph": ""
       },
       "observations": "Chamomile seedlings continue successful early germination, especially along the planter edges. The white surface layer is dolomitic lime applied the day before and has not yet fully dissolved into deeper soil layers. Soil remains airy with no signs of mold or damping-off. Despite the visible lime crust, seedlings are upright and healthy. Soil temperature is elevated due to midday sun exposure.",
-      "actions": "Do not water today. Allow moisture to drop naturally toward 15–18 mS/cm before next watering. Gently break the lime crust only in areas away from seedlings to improve airflow. Provide bright light but reduce mid-afternoon direct heat to prevent soil temperatures from exceeding the upper 80s°F.",
-      "next_steps": "Recheck moisture and pH tomorrow. Expect pH to rise gradually over the next 24–72 hours as lime begins fully buffering the soil. Continue protecting seedlings from overheating during peak sun hours. No fertilizer at this stage.",
+      "actions": "Do not water today. Allow moisture to drop naturally toward 15\u201318 mS/cm before next watering. Gently break the lime crust only in areas away from seedlings to improve airflow. Provide bright light but reduce mid-afternoon direct heat to prevent soil temperatures from exceeding the upper 80s\u00b0F.",
+      "next_steps": "Recheck moisture and pH tomorrow. Expect pH to rise gradually over the next 24\u201372 hours as lime begins fully buffering the soil. Continue protecting seedlings from overheating during peak sun hours. No fertilizer at this stage.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1017,7 +1160,7 @@
     {
       "date": "11/19/2025",
       "time": "9:35 AM",
-      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.51",
         "ec_mScm": "0.07",
@@ -1035,7 +1178,7 @@
       },
       "observations": "Chamomile seedlings are visibly sprouting in clusters along the front and back edges. Soil is slightly drier than previous days, but seedlings appear bright green and healthy. pH remains acidic but seedlings are establishing normally. No mold, pests, algae, or compaction observed.",
       "actions": "Apply 1/2 to 1 tablespoon of dolomitic lime evenly across the soil surface and lightly water to activate. Add a small amount of water to maintain gentle surface moisture. Hold fertilizer.",
-      "next_steps": "Monitor moisture throughout the day as the soil warms in the sun. Keep surface evenly moist for 48 hours to support ongoing germination. Expect continued sprouting as pH rises over the next 2–5 days.",
+      "next_steps": "Monitor moisture throughout the day as the soil warms in the sun. Keep surface evenly moist for 48 hours to support ongoing germination. Expect continued sprouting as pH rises over the next 2\u20135 days.",
       "q_and_a_summary": "",
       "follow_up": [
         "[3:07 PM] Applied lime successfully. Soil was very dry two knuckles deep, so light watering (approximately 1 cup) was applied to activate lime and restore surface moisture."
@@ -1066,7 +1209,7 @@
     {
       "date": "11/18/2025",
       "time": "9:01 AM",
-      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.45",
         "ec_mScm": "0.27",
@@ -1084,7 +1227,7 @@
       },
       "observations": "Tiny emerging chamomile sprouts appear at the planter edges. Soil is evenly moist with no crusting. pH has improved compared to earlier readings but remains slightly acidic. No pests or mold observed.",
       "actions": "No watering needed at this moment. Hold fertilizer. Prepare for dolomitic lime application to further correct pH.",
-      "next_steps": "Maintain gentle surface moisture as more seeds germinate. Expect additional sprouts within the next 24–48 hours.",
+      "next_steps": "Maintain gentle surface moisture as more seeds germinate. Expect additional sprouts within the next 24\u201348 hours.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1098,7 +1241,7 @@
     {
       "date": "11/17/2025",
       "time": "9:04 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.81",
         "ec_mScm": "0.35",
@@ -1116,7 +1259,7 @@
       },
       "observations": "No chamomile germination yet. Soil is evenly moist with visible perlite and good aeration. pH is acidic but stable. No pests, crusting, or algae present.",
       "actions": "No watering needed today. No fertilizer. Plan to correct pH with dolomitic lime once available.",
-      "next_steps": "Expect first signs of germination within 3–6 days if moisture and temperature remain stable.",
+      "next_steps": "Expect first signs of germination within 3\u20136 days if moisture and temperature remain stable.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1130,7 +1273,7 @@
     {
       "date": "11/12/2025",
       "time": "9:48 AM",
-      "conditions": "Cool morning around 63°F in full shade, expected to warm into the low 70s°F later with dry, mild weather.",
+      "conditions": "Cool morning around 63\u00b0F in full shade, expected to warm into the low 70s\u00b0F later with dry, mild weather.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

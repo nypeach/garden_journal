@@ -3,7 +3,9 @@
   "status": "Active",
   "plant": "Shallots",
   "physical_location": "Loxahatchee, FL",
-  "garden_location": "Panel 8",
+  "garden_location": "Panel 10",
+  "full_sun_start": "10:43 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Window Box",
   "soil_mix": "Same as garlic planters",
   "origin_history": [
@@ -33,9 +35,172 @@
   ],
   "journal": [
     {
+      "date": "12/20/2025",
+      "time": "8:02 AM",
+      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.2",
+        "ec_mScm": "0.33",
+        "salt_mg_L": "166",
+        "moisture_mScm": "54.3",
+        "light": "99",
+        "rh_percent": "63",
+        "fertility_percent": "18.7",
+        "soil_temp_f": "60.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Multiple probe readings across the window box showed uneven moisture distribution, with one side drying faster than the other. Both shallots remain upright and turgid, including the new sprout, indicating adequate hydration despite spatial variability. Companion plants are lush and green, suggesting healthy soil biology.",
+      "actions": "No watering performed today.",
+      "next_steps": "Water first thing in the morning with targeted moderate watering to the drier side of the box only. Continue multi-point probing to monitor moisture distribution.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251220-02.jpeg",
+          "caption": "Emerging shallot sprout showing firm, upright growth and healthy coloration.",
+          "tags": "shallots, sprout, early-growth"
+        },
+        {
+          "file_name": "shallots_001-20251220-04.jpeg",
+          "caption": "Full window box view showing uneven moisture zones and healthy companion plants.",
+          "tags": "container-garden, moisture-variation, shallots"
+        }
+      ]
+    },
+    {
+      "date": "12/19/2025",
+      "time": "10:20 AM",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "138",
+        "moisture_mScm": "55.00",
+        "light": "99",
+        "rh_percent": "66",
+        "fertility_percent": "15.5",
+        "soil_temp_f": "73.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The shallots show strong upright vegetative growth with firm blue-green leaves and a stable, thickening base. A newer sprout remains upright and healthy, confirming successful establishment. Soil appears loose, well-aerated, and evenly moist with no signs of crusting, compaction, or stress.",
+      "actions": "Do not water tonight. Leave all foliage intact. Do not apply fertilizer or lime.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only if moisture drops below approximately 40 mS/cm. Continue monitoring the younger sprout for steady elongation.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251219-02.jpeg",
+          "caption": "Close-up of the newly emerged shallot sprout showing upright posture and healthy green coloration.",
+          "tags": "shallots, new-sprout, emergence"
+        },
+        {
+          "file_name": "shallots_001-20251219-04.jpeg",
+          "caption": "Overhead view of the full planter showing spacing between shallots and companion chamomile.",
+          "tags": "shallots, planter, overhead, spacing"
+        },
+        {
+          "file_name": "shallots_001-20251219-05.jpeg",
+          "caption": "Mid-range view highlighting soil texture and stable foliage structure.",
+          "tags": "shallots, soil, foliage, structure"
+        },
+        {
+          "file_name": "shallots_001-20251219-07.jpeg",
+          "caption": "Side view of the main shallot clump showing upright leaves and a healthy base at the soil line.",
+          "tags": "shallots, foliage, vegetative-growth"
+        }
+      ]
+    },
+    {
+      "date": "12/18/2025",
+      "time": "12:48 PM",
+      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight. A 20% chance of precipitation. Intermittent rain occurred from 5:45 AM to 8:30 AM.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "61",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "87.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is transitioning smoothly from harvest into a new flowering cycle. Canopy remains compact and evenly green with firm leaves and an upright, clean crown. Multiple flowers are open with additional buds forming. Early-morning rain provided even moisture without waterlogging or crown wetness.",
+      "actions": "No watering or fertilizing performed today. Allowed rain to hydrate and flush the container naturally. Mulch left undisturbed.",
+      "next_steps": "Monitor for green fruit set over the next several days. Resume light feeding only after fruit has clearly set. Continue morning-only watering if needed during warm afternoons.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251218-02.jpeg",
+          "caption": "Overhead view showing compact canopy and active flowering following recent harvest.",
+          "tags": "strawberry, overhead, canopy, flowers"
+        },
+        {
+          "file_name": "strawberry_001-20251218-03.jpeg",
+          "caption": "Side view highlighting healthy leaf posture and clean crown after intermittent rain.",
+          "tags": "strawberry, crown, foliage, post-rain"
+        },
+        {
+          "file_name": "strawberry_001-20251218-04.jpeg",
+          "caption": "Front angle showing balanced plant structure and well-protected soil surface with mulch.",
+          "tags": "strawberry, structure, mulch, container"
+        },
+        {
+          "file_name": "strawberry_001-20251218-05.jpeg",
+          "caption": "Close-up of soil and crown area showing even moisture and good aeration after rain.",
+          "tags": "strawberry, soil, crown, follow-up"
+        }
+      ]
+    },
+    {
+      "date": "12/16/2025",
+      "time": "12:02 PM",
+      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.25",
+        "salt_mg_L": "126",
+        "moisture_mScm": "75.50",
+        "light": "98",
+        "rh_percent": "47",
+        "fertility_percent": "13.5",
+        "soil_temp_f": "69.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The soil surface was dry and crusted from wind exposure, making probe insertion difficult until the surface was fluffed. After loosening, soil structure returned to a crumbly, aerated state. The visible younger shallot shoot remains upright and healthy with no signs of stress, indicating subsurface moisture is still adequate despite surface dryness.",
+      "actions": "Do not water today. Leave all foliage intact. Maintain the loosened soil surface without compacting it.",
+      "next_steps": "Recheck moisture after overnight storms once the soil has resettled. Lightly fluff again only if surface crusting reforms. Resume watering only if moisture drops below approximately 40 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251216-02.jpeg",
+          "caption": "View of the shallot planting area after surface soil was fluffed, showing restored aeration and stable emerging shoot.",
+          "tags": "shallots, soil, aeration, young-shoot"
+        }
+      ]
+    },
+    {
       "date": "12/15/2025",
       "time": "10:42 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.36",
@@ -72,7 +237,7 @@
     {
       "date": "12/14/2025",
       "time": "2:41 PM",
-      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
+      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.85",
         "ec_mScm": "0.35",
@@ -114,7 +279,7 @@
     {
       "date": "12/12/2025",
       "time": "1:22 PM",
-      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight. Tonight: Partly cloudy. Tomorrow: Clouds and sunshine with a high of 81°F.",
+      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight. Tonight: Partly cloudy. Tomorrow: Clouds and sunshine with a high of 81\u00b0F.",
       "digital_probe": {
         "ph": "6.3",
         "ec_mScm": "0.29",
@@ -151,7 +316,7 @@
     {
       "date": "12/11/2025",
       "time": "4:59 PM",
-      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.75",
         "ec_mScm": "0.30",
@@ -170,7 +335,7 @@
       "observations": "The main shallot displays upright, firm leaves with healthy blue-green coloration. A new daughter sprout is emerging cleanly from the soil without distortion. Soil remains evenly moist and well-aerated with no pooling or surface crusting. Chamomile presence in the shared planter remains non-competitive.",
       "actions": "Do not water today. Leave all shoots intact. Do not apply fertilizer or lime.",
       "next_steps": "Check moisture again tomorrow morning. Water only if moisture drops below approximately 40 mS/cm. Monitor the emerging sprout for continued elongation over the next 48 hours.",
-      "q_and_a_summary": "Discussed whether today’s temperatures pose a risk; confirmed conditions are ideal for shallot growth with no cold stress concerns.",
+      "q_and_a_summary": "Discussed whether today\u2019s temperatures pose a risk; confirmed conditions are ideal for shallot growth with no cold stress concerns.",
       "follow_up": [],
       "photos": [
         {
@@ -198,7 +363,7 @@
     {
       "date": "12/10/2025",
       "time": "8:50 AM",
-      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.36",
@@ -215,7 +380,7 @@
         "ph": ""
       },
       "observations": "The main shallot plant stands tall with multiple upright leaves showing strong vegetative growth. A daughter sprout has increased in size since yesterday and is emerging clearly from its papery sheath. Soil remains well-aerated and evenly saturated after recent rain, with no pooling or compaction visible.",
-      "actions": "Avoid watering today as moisture is elevated from rain. Lightly support the new sprout by backfilling a small amount of soil around its base without burying the tip. Leave mature shoots intact, as their height is normal and beneficial. Remove chamomile seedlings that encroach within 2–3 inches of the shallot base.",
+      "actions": "Avoid watering today as moisture is elevated from rain. Lightly support the new sprout by backfilling a small amount of soil around its base without burying the tip. Leave mature shoots intact, as their height is normal and beneficial. Remove chamomile seedlings that encroach within 2\u20133 inches of the shallot base.",
       "next_steps": "Recheck moisture tomorrow morning to confirm levels return toward the ideal range. Monitor the daughter sprout for continued elongation over the next 48 hours. Maintain current soil structure and light exposure as growth accelerates.",
       "q_and_a_summary": "Confirmed that tall shoots are normal and should remain untrimmed.",
       "follow_up": [],
@@ -240,7 +405,7 @@
     {
       "date": "12/9/2025",
       "time": "7:58 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.38",
@@ -258,7 +423,7 @@
       },
       "observations": "The main shallot plant shows upright, vigorous growth with tall, firm shoots. A new shallot sprout is emerging normally from the papery skin. Soil appears improved after light fluffing and the addition of potting mix, with no compaction. Readings are stable with no signs of stress.",
       "actions": "Leave all shoots intact as their height is normal. Lightly backfill around the new sprout to support its base. Do not water today, as moisture levels remain high and rain is expected.",
-      "next_steps": "Check moisture again after the upcoming rain to ensure levels do not stay elevated. Monitor the new sprout for elongation over the next 48–72 hours. Recheck probe readings in 1–2 days depending on weather conditions.",
+      "next_steps": "Check moisture again after the upcoming rain to ensure levels do not stay elevated. Monitor the new sprout for elongation over the next 48\u201372 hours. Recheck probe readings in 1\u20132 days depending on weather conditions.",
       "q_and_a_summary": "Confirmed that tall shoots are normal and should not be trimmed.",
       "follow_up": [],
       "photos": [
@@ -282,7 +447,7 @@
     {
       "date": "12/8/2025",
       "time": "10:59 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.41",
@@ -334,7 +499,7 @@
     {
       "date": "12/7/2025",
       "time": "12:47 PM",
-      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
+      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.64",
         "ec_mScm": "0.33",
@@ -352,7 +517,7 @@
       },
       "observations": "The established shallot sprout stands upright with firm, healthy foliage and no signs of stress. A new baby sprout is emerging, visible as a bright green tip breaking through the papery bulb tunic. Soil was very dry in multiple zones before readings, resulting in lighter probe contact, but overall pH and fertility remain excellent for allium growth. Surface structure is loose and aerated with scattered bark pieces but no compaction or rot.",
       "actions": "Apply 1 to 1.5 cups of water evenly along the shallot trench to reset moisture after dry readings. Lightly crumble and level the chunky bark areas on the surface without disturbing the bulbs. Do not add lime or fertilizer today.",
-      "next_steps": "Recheck moisture tomorrow morning before incoming rain. Monitor the new sprout for rapid elongation over the next 24–48 hours. Expect additional emergence across the row as moisture stabilizes.",
+      "next_steps": "Recheck moisture tomorrow morning before incoming rain. Monitor the new sprout for rapid elongation over the next 24\u201348 hours. Expect additional emergence across the row as moisture stabilizes.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -386,7 +551,7 @@
     {
       "date": "12/4/2025",
       "time": "5:00 PM",
-      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.27",
         "ec_mScm": "0.50",
@@ -423,7 +588,7 @@
     {
       "date": "12/1/2025",
       "time": "5:22 PM",
-      "conditions": "Mostly cloudy throughout the day in Loxahatchee, temperatures in mid-70s°F with stable conditions.",
+      "conditions": "Mostly cloudy throughout the day in Loxahatchee, temperatures in mid-70s\u00b0F with stable conditions.",
       "digital_probe": {
         "ph": "5.28",
         "ec_mScm": "0.32",
@@ -455,7 +620,7 @@
     {
       "date": "11/29/2025",
       "time": "1:56 PM",
-      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy expected around 1 PM; wind gusts up to 15 mph.",
+      "conditions": "Mostly sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight. Partly cloudy expected around 1 PM; wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "5.22",
         "ec_mScm": "0.32",
@@ -487,7 +652,7 @@
     {
       "date": "11/28/2025",
       "time": "10:58 AM",
-      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight; clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight; clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "5.28",
         "ec_mScm": "0.38",
@@ -541,7 +706,7 @@
     {
       "date": "11/26/2025",
       "time": "10:55 AM",
-      "conditions": "Mostly cloudy with a high of 84°F and overnight low of 67°F. Brief sun shower at 11:15 AM. Thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F and overnight low of 67\u00b0F. Brief sun shower at 11:15 AM. Thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "4.90",
         "ec_mScm": "0.21",
@@ -593,7 +758,7 @@
     {
       "date": "11/25/2025",
       "time": "3:07 PM",
-      "conditions": "Sunny all day with a high of 84°F and an overnight low of 65°F. Watered at 2:33 PM; readings taken 1.5 hours later.",
+      "conditions": "Sunny all day with a high of 84\u00b0F and an overnight low of 65\u00b0F. Watered at 2:33 PM; readings taken 1.5 hours later.",
       "digital_probe": {
         "ph": "5.26",
         "ec_mScm": "0.31",
@@ -645,7 +810,7 @@
     {
       "date": "11/24/2025",
       "time": "11:58 AM",
-      "conditions": "Partly cloudy with a high of 81°F and an overnight low of 61°F.",
+      "conditions": "Partly cloudy with a high of 81\u00b0F and an overnight low of 61\u00b0F.",
       "digital_probe": {
         "ph": "5.63",
         "ec_mScm": "0.24",
@@ -699,7 +864,7 @@
     {
       "date": "11/23/2025",
       "time": "1:42 PM",
-      "conditions": "Sunny with a high of 84°F and an overnight low of 63°F.",
+      "conditions": "Sunny with a high of 84\u00b0F and an overnight low of 63\u00b0F.",
       "digital_probe": {
         "ph": "6.57",
         "ec_mScm": "0.16",
@@ -733,7 +898,7 @@
     {
       "date": "11/22/2025",
       "time": "11:07 AM",
-      "conditions": "Mostly cloudy with a high of 84°F and an overnight low of 67°F.",
+      "conditions": "Mostly cloudy with a high of 84\u00b0F and an overnight low of 67\u00b0F.",
       "digital_probe": {
         "ph": "4.80",
         "ec_mScm": "0.28",
@@ -765,7 +930,7 @@
     {
       "date": "11/21/2025",
       "time": "3:28 PM",
-      "conditions": "Sunny with a high of 84°F and an overnight low of 60°F.",
+      "conditions": "Sunny with a high of 84\u00b0F and an overnight low of 60\u00b0F.",
       "digital_probe": {
         "ph": "6.37",
         "ec_mScm": "0.10",
@@ -797,7 +962,7 @@
     {
       "date": "11/20/2025",
       "time": "12:00 PM",
-      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -829,7 +994,7 @@
     {
       "date": "11/19/2025",
       "time": "9:34 AM",
-      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85\u00b0F dropping to 64\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.50",
         "ec_mScm": "0.20",
@@ -863,7 +1028,7 @@
     {
       "date": "11/18/2025",
       "time": "9:01 AM",
-      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
+      "conditions": "Partly cloudy with high of 82\u00b0F dropping to 65\u00b0F overnight.",
       "digital_probe": {
         "ph": "5.45",
         "ec_mScm": "0.27",
@@ -895,7 +1060,7 @@
     {
       "date": "11/17/2025",
       "time": "9:04 AM",
-      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
+      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
       "digital_probe": {
         "ph": "4.81",
         "ec_mScm": "0.35",
@@ -927,7 +1092,7 @@
     {
       "date": "11/16/2025",
       "time": "10:18 AM",
-      "conditions": "Mild, mostly sunny morning around 68.5°F with strong light on the front edge of the planter and some interior soil still in light shade.",
+      "conditions": "Mild, mostly sunny morning around 68.5\u00b0F with strong light on the front edge of the planter and some interior soil still in light shade.",
       "digital_probe": {
         "ph": "4.57",
         "ec_mScm": "0.34",
@@ -959,7 +1124,7 @@
     {
       "date": "11/13/2025",
       "time": "9:24 AM",
-      "conditions": "Cool, partly shaded morning around 67°F, with sun expected to reach the planter within minutes under dry, mild weather.",
+      "conditions": "Cool, partly shaded morning around 67\u00b0F, with sun expected to reach the planter within minutes under dry, mild weather.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -991,7 +1156,7 @@
     {
       "date": "11/12/2025",
       "time": "9:48 AM",
-      "conditions": "Cool morning around 63°F in full shade, expected to warm into the upper 60s°F later with dry, mild weather.",
+      "conditions": "Cool morning around 63\u00b0F in full shade, expected to warm into the upper 60s\u00b0F later with dry, mild weather.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1023,7 +1188,7 @@
     {
       "date": "11/11/2025",
       "time": "2:00 PM",
-      "conditions": "Mild afternoon around mid-60s°F with full sun and clear skies after a cool night outdoors.",
+      "conditions": "Mild afternoon around mid-60s\u00b0F with full sun and clear skies after a cool night outdoors.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
