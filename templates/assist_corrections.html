@@ -32,7 +32,7 @@
             <a href="#" onclick="toggleAddNewForm(event)" class="add-new-link">+ Add New</a>
           </div>
           <input type="text" id="searchInput" class="form-input" placeholder="Search by trigger or title..."
-            onkeyup="filterCorrections()" />
+            oninput="filterCorrections()" />
 
           <select id="categoryFilter" class="form-select" onchange="filterCorrections()">
             <option value="">All Categories</option>
@@ -63,69 +63,53 @@
 
   <div class="page">
     <!-- Add New Correction Form (hidden by default) -->
-    <div class="card" id="addNewForm" style="display: none; margin-bottom: 24px;">
-      <h3>Add New Correction</h3>
-      <form id="newCorrectionForm" onsubmit="saveNewCorrection(event)">
-        <div class="form-group">
-          <label class="form-label">Title *</label>
-          <input type="text" id="new-title" class="form-input" required>
-        </div>
+    <div id="addNewForm" style="display: none; margin-bottom: 32px;">
+      <div class="card">
+        <h3>Add New Correction</h3>
+        <form onsubmit="saveNewCorrection(event)">
 
-        <div class="form-row">
           <div class="form-group">
-            <label class="form-label">Category *</label>
-            <select id="new-category" class="form-select" required>
-              <option value="">Select Category</option>
-              <option value="Daily Workflow">Daily Workflow</option>
-              <option value="Daily Journal Entry JSON">Daily Journal Entry JSON</option>
-              <option value="Photos & Evidence Handling">Photos & Evidence Handling</option>
-              <option value="Probe Readings">Probe Readings</option>
-              <option value="Plant Main Data">Plant Main Data</option>
-              <option value="General">General</option>
-            </select>
+            <label class="form-label">Paste Markdown Format *</label>
+            <textarea id="new-markdown" class="form-textarea" rows="20" required placeholder="Paste the entire markdown block from ChatGPT here...
+
+**TITLE**
+Your title here
+
+**CATEGORY**
+Category name
+
+**SUB-CATEGORY**
+Sub-category name
+
+**IF**
+The trigger condition...
+
+**THEN**
+The correction response...
+
+**ANTI-PATTERNS**
+Example 1
+Example 2
+
+**TAGS**
+tag1, tag2, tag3"></textarea>
+            <div class="form-hint">Paste the complete markdown block - it will be parsed automatically</div>
           </div>
 
           <div class="form-group">
-            <label class="form-label">Sub-category *</label>
-            <input type="text" id="new-subcategory" class="form-input" required
-              placeholder="e.g., Follow-up vs initial entry">
+            <label style="display: flex; align-items: center; gap: 8px;">
+              <input type="checkbox" id="new-include-footer" checked>
+              Include "Acknowledge the Correction..." footer when copying
+            </label>
           </div>
-        </div>
 
-        <div class="form-group">
-          <label class="form-label">IF (Trigger) *</label>
-          <textarea id="new-if" class="form-textarea" rows="4" required></textarea>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">THEN (Response) *</label>
-          <textarea id="new-then" class="form-textarea" rows="6" required></textarea>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Anti-patterns (one per line)</label>
-          <textarea id="new-antipatterns" class="form-textarea" rows="3"
-            placeholder="What it looked like when wrong..."></textarea>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Tags (comma-separated)</label>
-          <input type="text" id="new-tags" class="form-input" placeholder="workflow, json, assessment">
-        </div>
-
-        <div class="form-group">
-          <label style="display: flex; align-items: center; gap: 8px;">
-            <input type="checkbox" id="new-include-footer" checked>
-            Include "Acknowledge the Correction..." footer when copying
-          </label>
-        </div>
-
-        <div style="display: flex; gap: 12px; margin-top: 20px;">
-          <button type="submit" class="submit-btn">Save Correction</button>
-          <button type="button" onclick="toggleAddNewForm(event)" class="submit-btn"
-            style="background: var(--text-muted);">Cancel</button>
-        </div>
-      </form>
+          <div style="display: flex; gap: 12px; margin-top: 20px;">
+            <button type="submit" class="submit-btn">Save Correction</button>
+            <button type="button" onclick="toggleAddNewForm(event)" class="submit-btn"
+              style="background: var(--text-muted);">Cancel</button>
+          </div>
+        </form>
+      </div>
     </div>
 
     <!-- Corrections Tiles -->
@@ -247,51 +231,72 @@
     }
 
     async function saveNewCorrection(event) {
-      event.preventDefault();
+        event.preventDefault();
 
-      const title = document.getElementById('new-title').value;
-      const category = document.getElementById('new-category').value;
-      const subcategory = document.getElementById('new-subcategory').value;
-      const triggerIf = document.getElementById('new-if').value;
-      const responseThen = document.getElementById('new-then').value;
-      const antipatternsText = document.getElementById('new-antipatterns').value;
-      const tagsText = document.getElementById('new-tags').value;
-      const includeFooter = document.getElementById('new-include-footer').checked;
+        const markdownText = document.getElementById('new-markdown').value;
+        const includeFooter = document.getElementById('new-include-footer').checked;
 
-      const antiPatterns = antipatternsText.split('\n').filter(line => line.trim());
-      const tags = tagsText.split(',').map(tag => tag.trim()).filter(tag => tag);
+        // Parse markdown format
+        const titleMatch = markdownText.match(/\*\*TITLE\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+        const categoryMatch = markdownText.match(/\*\*CATEGORY\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+        const subcategoryMatch = markdownText.match(/\*\*SUB-CATEGORY\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+        const ifMatch = markdownText.match(/\*\*IF\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+        const thenMatch = markdownText.match(/\*\*THEN\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+        const antipatternsMatch = markdownText.match(/\*\*ANTI-PATTERNS\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+        const tagsMatch = markdownText.match(/\*\*TAGS\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
 
-      const data = {
-        title: title,
-        category: category,
-        sub_category: subcategory,
-        trigger_if: triggerIf,
-        response_then: responseThen,
-        anti_patterns: antiPatterns,
-        tags: tags,
-        include_footer: includeFooter
-      };
-
-      try {
-        const response = await fetch('/api/correction/create', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(data)
-        });
-
-        if (response.ok) {
-          // Reload page to show new correction
-          window.location.reload();
-        } else {
-          alert('Failed to create correction');
+        if (!titleMatch || !categoryMatch || !subcategoryMatch || !ifMatch || !thenMatch) {
+          alert('Missing required fields. Please ensure TITLE, CATEGORY, SUB-CATEGORY, IF, and THEN are all present.');
+          return;
         }
-      } catch (err) {
-        console.error('Failed to save:', err);
-        alert('Failed to save correction');
+
+        const title = titleMatch[1].trim();
+        const category = categoryMatch[1].trim();
+        const subcategory = subcategoryMatch[1].trim();
+        const triggerIf = ifMatch[1].trim();
+        const responseThen = thenMatch[1].trim();
+
+        // Parse anti-patterns (split by newlines, filter empty)
+        const antiPatterns = antipatternsMatch
+          ? antipatternsMatch[1].trim().split('\n').filter(line => line.trim())
+          : [];
+
+        // Parse tags (split by commas)
+        const tags = tagsMatch
+          ? tagsMatch[1].trim().split(',').map(tag => tag.trim()).filter(tag => tag)
+          : [];
+
+        const data = {
+          title: title,
+          category: category,
+          sub_category: subcategory,
+          trigger_if: triggerIf,
+          response_then: responseThen,
+          anti_patterns: antiPatterns,
+          tags: tags,
+          include_footer: includeFooter
+        };
+
+        try {
+          const response = await fetch('/api/correction/create', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+          });
+
+          if (response.ok) {
+            // Reload page to show new correction
+            window.location.reload();
+          } else {
+            alert('Failed to create correction');
+          }
+        } catch (err) {
+          console.error('Failed to save:', err);
+          alert('Failed to save correction');
+        }
       }
-    }
 
     function expandTile(id) {
       // Clear search filters to ensure tile is visible
@@ -340,72 +345,72 @@
     }
 
     async function copyCorrection(id, event) {
-        event.stopPropagation();
+      event.stopPropagation();
 
-        const button = event.target;
-        const tile = document.getElementById('tile-' + id);
-        const thenText = tile.querySelector('.copy-text').textContent;
-        const includeFooter = document.getElementById('include-footer-' + id).checked;
+      const button = event.target;
+      const tile = document.getElementById('tile-' + id);
+      const thenText = tile.querySelector('.copy-text').textContent;
+      const includeFooter = document.getElementById('include-footer-' + id).checked;
 
-        const fullText = includeFooter ? thenText + ACKNOWLEDGMENT_FOOTER : thenText;
+      const fullText = includeFooter ? thenText + ACKNOWLEDGMENT_FOOTER : thenText;
 
-        // Try modern clipboard API first
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          try {
-            await navigator.clipboard.writeText(fullText);
-            showButtonFeedback(button);
+      // Try modern clipboard API first
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        try {
+          await navigator.clipboard.writeText(fullText);
+          showButtonFeedback(button);
 
-            // Increment count via API
-            fetch(`/api/correction/copy/${id}`, {
-              method: 'POST'
-            });
-          } catch (err) {
-            // Fallback for HTTP/mobile
-            fallbackCopyText(fullText, button, id);
-          }
-        } else {
-          // Fallback for older browsers
+          // Increment count via API
+          fetch(`/api/correction/copy/${id}`, {
+            method: 'POST'
+          });
+        } catch (err) {
+          // Fallback for HTTP/mobile
           fallbackCopyText(fullText, button, id);
         }
+      } else {
+        // Fallback for older browsers
+        fallbackCopyText(fullText, button, id);
       }
+    }
 
-      function fallbackCopyText(text, button, id) {
-        const textarea = document.createElement('textarea');
-        textarea.value = text;
-        textarea.style.position = 'absolute';
-        textarea.style.left = '-9999px';
-        textarea.setAttribute('readonly', '');
-        document.body.appendChild(textarea);
+    function fallbackCopyText(text, button, id) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'absolute';
+      textarea.style.left = '-9999px';
+      textarea.setAttribute('readonly', '');
+      document.body.appendChild(textarea);
 
-        textarea.select();
-        textarea.setSelectionRange(0, 99999);
+      textarea.select();
+      textarea.setSelectionRange(0, 99999);
 
-        try {
-          const successful = document.execCommand('copy');
-          if (successful) {
-            showButtonFeedback(button);
+      try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showButtonFeedback(button);
 
-            // Increment count via API
-            fetch(`/api/correction/copy/${id}`, {
-              method: 'POST'
-            });
-          } else {
-            alert('Copy failed. Please manually select and copy the text.');
-          }
-        } catch (err) {
-          alert('Copy not supported. Please manually select and copy the text.');
+          // Increment count via API
+          fetch(`/api/correction/copy/${id}`, {
+            method: 'POST'
+          });
+        } else {
+          alert('Copy failed. Please manually select and copy the text.');
         }
-
-        document.body.removeChild(textarea);
+      } catch (err) {
+        alert('Copy not supported. Please manually select and copy the text.');
       }
 
-      function showButtonFeedback(button) {
-        const originalText = button.textContent;
-        button.textContent = '✓';
-        setTimeout(() => {
-          button.textContent = originalText;
-        }, 2000);
-      }
+      document.body.removeChild(textarea);
+    }
+
+    function showButtonFeedback(button) {
+      const originalText = button.textContent;
+      button.textContent = '✓';
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 2000);
+    }
 
     function toggleEdit(id, event) {
       event.stopPropagation();

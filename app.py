@@ -273,6 +273,8 @@ def journal_update():
 
     # POST - Process the update
     try:
+        import re
+
         plant_id = request.form.get('plant_id', '').strip()
         json_input = request.form.get('journal_json', '').strip()
         action = request.form.get('action', 'journal')  # 'journal' or 'plant_main'
@@ -304,8 +306,20 @@ def journal_update():
                 error_message=f"Plant not found: {plant_id}"
             )
 
-        # Clean JSON (remove trailing commas before closing braces/brackets)
-        cleaned_json = re.sub(r',(\s*[}\]])', r'\1', json_input)
+        # Clean JSON (remove trailing commas and wrap fragments in braces if needed)
+        cleaned_json = json_input.strip()
+
+        # Remove trailing commas before closing braces/brackets
+        cleaned_json = re.sub(r',(\s*[}\]])', r'\1', cleaned_json)
+
+        # Remove trailing comma at the very end
+        cleaned_json = re.sub(r',\s*$', '', cleaned_json)
+
+        # If it doesn't start with { and isn't a journal entry, wrap it
+        if not cleaned_json.startswith('{'):
+            cleaned_json = '{' + cleaned_json + '}'
+        elif cleaned_json.startswith('{') and cleaned_json.endswith(','):
+            cleaned_json = cleaned_json.rstrip(',')
 
         # Parse the JSON
         try:
@@ -409,7 +423,6 @@ def journal_update():
             error_message="Unexpected error occurred",
             error_details=str(e)
         )
-
 
 @app.route('/photo-prep', methods=['GET', 'POST'])
 def photo_prep():

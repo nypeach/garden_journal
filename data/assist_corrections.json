@@ -502,7 +502,7 @@
       "sub_category": "Multi-attribute updates",
       "trigger_if": "The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one",
       "response_then": "Stop. Do not resume from any intermediate point.\n\nFirst give me just the bulleted list of attributes for what needs changing.\nThen ask \"Ready to go one-by-one?\"\n\nThen one-by-one for each attribute...\n- Present the CURRENT attribute only\n- restate why it needs updating\n- restate the proposed updated wording (no code block)\nThen wait for the user to explicitly confirm or revise it before proceeding.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -670,7 +670,7 @@
         "Persistence Error"
       ],
       "include_footer": false,
-      "count": 0,
+      "count": 1,
       "applies_when": ""
     },
     {
@@ -813,6 +813,56 @@
       ],
       "include_footer": true,
       "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-009",
+      "title": "Follow-Up Triggers Full New-Day Assessment",
+      "category": "Daily Workflow",
+      "sub_category": "Follow-Up Handling",
+      "trigger_if": "I clearly label a message as a follow-up (e.g., I write “Follow-up:” / “Follow up:” / “Follow-up observation:” / “Follow-up question:”) and the assistant re-runs the entire new-day workflow (full Expert Assessment, probe interpretation, Daily Journal Entry JSON, Plant Main Data review) as if it were a new day.",
+      "response_then": "This is a same-day follow-up.\n\nDo NOT repeat or restart:\n- the full Expert Assessment\n- probe reading interpretation\n- weather analysis\n- photo captions\n- Daily Journal Entry JSON\n- Plant Main Data Review\n\nInstead:\n1. Answer my follow-up question(s) directly in horticulturist voice.\n2. Respond to the new observation(s) only.\n3. If applicable, ask EXACTLY: \"Want me to log that?\"\n   - If No: Wait for further instructions.\n   - If Yes: Re-issue the COMPLETE Daily Journal Entry JSON for the SAME date, changing NOTHING except updating `q_and_a_summary` and/or appending to `follow_up`.\n\nContinue the workflow normally after responding.\n",
+      "anti_patterns": [
+        "Treating a follow-up as a new day",
+        "Re-running the full daily workflow after a follow-up label",
+        "Re-asking for weather/photos/probe readings during a same-day follow-up",
+        "Generating a new Daily Journal Entry JSON without being asked to log the follow-up"
+      ],
+      "tags": [
+        "follow-up",
+        "same-day",
+        "workflow-reset",
+        "restart-error",
+        "daily-workflow",
+        "logging"
+      ],
+      "include_footer": false,
+      "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-010",
+      "title": "Current Time Used Instead of Probe Timestamp",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Timestamp Integrity",
+      "trigger_if": "The assistant uses the message send time / “It is now…” time / current time as the Daily Journal Entry timestamp instead of using the timestamp from the probe reading (or the earliest probe timestamp if multiple probes were provided), even though the guide requires using the probe reading time.",
+      "response_then": "Use the probe reading timestamp as the Daily Journal Entry timestamp.\n\nRules:\n- If ONE probe reading was provided: use that probe timestamp.\n- If MULTIPLE probe screenshots were provided: use the earliest valid probe timestamp.\n- The “It is now…” time is used ONLY to inform watering recommendations inside the Expert Assessment, not for the journal entry timestamp.\n\nRegenerate the COMPLETE Daily Journal Entry JSON for the same date using the correct probe timestamp, changing NOTHING else.",
+      "anti_patterns": [
+        "Using current time as the journal timestamp",
+        "Using the “It is now…” time as the journal timestamp",
+        "Mixing probe time and current time in the JSON timestamp fields",
+        "Changing unrelated JSON fields when fixing timestamp"
+      ],
+      "tags": [
+        "timestamp",
+        "probe-time",
+        "current-time",
+        "journal-entry",
+        "schema",
+        "consistency"
+      ],
+      "include_footer": true,
+      "count": 0,
       "applies_when": ""
     }
   ]
