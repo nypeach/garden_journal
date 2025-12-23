@@ -325,7 +325,7 @@
       "sub_category": "Follow-up vs initial entry",
       "trigger_if": "The assistant does not offer to log a follow-up or question, OR logs it by outputting only a partial JSON fragment instead of the full Daily Journal Entry",
       "response_then": "Offer to log the follow-up (\"Want me to log that?\"), and if accepted, re-issue the COMPLETE Daily Journal Entry JSON for the day, changing NOTHING except appending to follow_up and/or updating q_and_a_summary as appropriate.",
-      "count": 3,
+      "count": 4,
       "status": "active",
       "tags": [
         "follow-up",
