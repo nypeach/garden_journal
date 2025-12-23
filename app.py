@@ -11,6 +11,7 @@ from datetime import datetime
 from data_manager import DataManager
 from PIL import Image
 import io
+import re
 
 # Register HEIC support
 try:
@@ -258,8 +259,8 @@ def channel_start():
 @app.route('/journal-update', methods=['GET', 'POST'])
 def journal_update():
     """
-    Journal Update Tool - Paste ChatGPT journal entries to update plant JSON files
-    Automatically sorts entries newest to oldest and overwrites matching date/time
+    Journal Update Tool - Paste ChatGPT journal entries OR plant main data fragments
+    Two actions: Update Journal Entry OR Update Plant Main Data
     """
     if request.method == 'GET':
         # Get list of all plants for dropdown
@@ -270,10 +271,11 @@ def journal_update():
             plants=all_plants
         )
 
-    # POST - Process the journal update
+    # POST - Process the update
     try:
         plant_id = request.form.get('plant_id', '').strip()
-        journal_json_str = request.form.get('journal_json', '').strip()
+        json_input = request.form.get('journal_json', '').strip()
+        action = request.form.get('action', 'journal')  # 'journal' or 'plant_main'
 
         # Validation
         if not plant_id:
@@ -284,12 +286,12 @@ def journal_update():
                 error_message="Plant ID is required"
             )
 
-        if not journal_json_str:
+        if not json_input:
             return render_template(
                 'journal_update.html',
                 plants=data_manager.get_all_plants(),
                 error=True,
-                error_message="Journal JSON is required"
+                error_message="JSON input is required"
             )
 
         # Load plant data
@@ -302,9 +304,12 @@ def journal_update():
                 error_message=f"Plant not found: {plant_id}"
             )
 
-        # Parse the JSON entry
+        # Clean JSON (remove trailing commas before closing braces/brackets)
+        cleaned_json = re.sub(r',(\s*[}\]])', r'\1', json_input)
+
+        # Parse the JSON
         try:
-            new_entry = json.loads(journal_json_str)
+            parsed_data = json.loads(cleaned_json)
         except json.JSONDecodeError as e:
             return render_template(
                 'journal_update.html',
@@ -314,54 +319,63 @@ def journal_update():
                 error_details=str(e)
             )
 
-        # Validate required fields
-        if 'date' not in new_entry or 'time' not in new_entry:
-            return render_template(
-                'journal_update.html',
-                plants=data_manager.get_all_plants(),
-                error=True,
-                error_message="Journal entry must have 'date' and 'time' fields"
-            )
+        # Handle based on action type
+        if action == 'plant_main':
+            # UPDATE PLANT MAIN DATA (fragment)
+            # Replace any attributes present in the fragment
+            for key, value in parsed_data.items():
+                if key != 'journal':  # Don't update journal this way
+                    plant[key] = value
 
-        entry_date = new_entry['date']
-        entry_time = new_entry['time']
+            action_type = f"Plant main data updated ({len(parsed_data)} attribute(s))"
 
-        # Ensure journal array exists
-        if 'journal' not in plant:
-            plant['journal'] = []
-
-        # Check if entry with same date+time exists
-        existing_index = None
-        for i, entry in enumerate(plant['journal']):
-            if entry.get('date') == entry_date and entry.get('time') == entry_time:
-                existing_index = i
-                break
-
-        # Update or add entry
-        action_type = ""
-        if existing_index is not None:
-            # Overwrite existing entry
-            plant['journal'][existing_index] = new_entry
-            action_type = "Entry updated (same date/time found)"
         else:
-            # Add new entry
-            plant['journal'].append(new_entry)
-            action_type = "New entry added"
+            # UPDATE JOURNAL ENTRY (default)
+            new_entry = parsed_data
 
-        # Sort journal array by date and time (newest first)
-        def parse_datetime(entry):
-            """Parse date and time for sorting"""
-            try:
-                date_str = entry.get('date', '')
-                time_str = entry.get('time', '')
-                # Parse date: "12/22/2025" or "M/D/YYYY"
-                dt = datetime.strptime(f"{date_str} {time_str}", "%m/%d/%Y %I:%M %p")
-                return dt
-            except:
-                # If parsing fails, put at end
-                return datetime.min
+            # Validate required fields
+            if 'date' not in new_entry or 'time' not in new_entry:
+                return render_template(
+                    'journal_update.html',
+                    plants=data_manager.get_all_plants(),
+                    error=True,
+                    error_message="Journal entry must have 'date' and 'time' fields"
+                )
 
-        plant['journal'].sort(key=parse_datetime, reverse=True)
+            entry_date = new_entry['date']
+            entry_time = new_entry['time']
+
+            # Ensure journal array exists
+            if 'journal' not in plant:
+                plant['journal'] = []
+
+            # Check if entry with same date+time exists
+            existing_index = None
+            for i, entry in enumerate(plant['journal']):
+                if entry.get('date') == entry_date and entry.get('time') == entry_time:
+                    existing_index = i
+                    break
+
+            # Update or add entry
+            if existing_index is not None:
+                plant['journal'][existing_index] = new_entry
+                action_type = "Journal entry updated (same date/time found)"
+            else:
+                plant['journal'].append(new_entry)
+                action_type = "New journal entry added"
+
+            # Sort journal array by date and time (newest first)
+            def parse_datetime(entry):
+                """Parse date and time for sorting"""
+                try:
+                    date_str = entry.get('date', '')
+                    time_str = entry.get('time', '')
+                    dt = datetime.strptime(f"{date_str} {time_str}", "%m/%d/%Y %I:%M %p")
+                    return dt
+                except:
+                    return datetime.min
+
+            plant['journal'].sort(key=parse_datetime, reverse=True)
 
         # Save updated plant data
         success = data_manager.save_plant(plant_id, plant)
@@ -380,8 +394,8 @@ def journal_update():
             success=True,
             plant_id=plant_id,
             plant_name=plant.get('plant', plant_id),
-            entry_date=entry_date,
-            entry_time=entry_time,
+            entry_date=parsed_data.get('date', 'N/A') if action == 'journal' else 'N/A',
+            entry_time=parsed_data.get('time', 'N/A') if action == 'journal' else 'N/A',
             action_type=action_type,
             total_entries=len(plant['journal']),
             plants=[]

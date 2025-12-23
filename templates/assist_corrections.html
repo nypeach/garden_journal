@@ -340,26 +340,72 @@
     }
 
     async function copyCorrection(id, event) {
-      event.stopPropagation();
+        event.stopPropagation();
 
-      const tile = document.getElementById('tile-' + id);
-      const thenText = tile.querySelector('.copy-text').textContent;
-      const includeFooter = document.getElementById('include-footer-' + id).checked;
+        const button = event.target;
+        const tile = document.getElementById('tile-' + id);
+        const thenText = tile.querySelector('.copy-text').textContent;
+        const includeFooter = document.getElementById('include-footer-' + id).checked;
 
-      const fullText = includeFooter ? thenText + ACKNOWLEDGMENT_FOOTER : thenText;
+        const fullText = includeFooter ? thenText + ACKNOWLEDGMENT_FOOTER : thenText;
 
-      try {
-        await navigator.clipboard.writeText(fullText);
+        // Try modern clipboard API first
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          try {
+            await navigator.clipboard.writeText(fullText);
+            showButtonFeedback(button);
 
-        // Increment count via API
-        fetch(`/api/correction/copy/${id}`, {
-          method: 'POST'
-        });
-      } catch (err) {
-        console.error('Failed to copy:', err);
-        alert('Failed to copy to clipboard');
+            // Increment count via API
+            fetch(`/api/correction/copy/${id}`, {
+              method: 'POST'
+            });
+          } catch (err) {
+            // Fallback for HTTP/mobile
+            fallbackCopyText(fullText, button, id);
+          }
+        } else {
+          // Fallback for older browsers
+          fallbackCopyText(fullText, button, id);
+        }
       }
-    }
+
+      function fallbackCopyText(text, button, id) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'absolute';
+        textarea.style.left = '-9999px';
+        textarea.setAttribute('readonly', '');
+        document.body.appendChild(textarea);
+
+        textarea.select();
+        textarea.setSelectionRange(0, 99999);
+
+        try {
+          const successful = document.execCommand('copy');
+          if (successful) {
+            showButtonFeedback(button);
+
+            // Increment count via API
+            fetch(`/api/correction/copy/${id}`, {
+              method: 'POST'
+            });
+          } else {
+            alert('Copy failed. Please manually select and copy the text.');
+          }
+        } catch (err) {
+          alert('Copy not supported. Please manually select and copy the text.');
+        }
+
+        document.body.removeChild(textarea);
+      }
+
+      function showButtonFeedback(button) {
+        const originalText = button.textContent;
+        button.textContent = '✓';
+        setTimeout(() => {
+          button.textContent = originalText;
+        }, 2000);
+      }
 
     function toggleEdit(id, event) {
       event.stopPropagation();

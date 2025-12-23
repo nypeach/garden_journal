@@ -87,15 +87,16 @@
           <option value="Initial">Initial</option>
           <option value="Follow-Up">Follow-Up</option>
         </select>
+        <div class="form-hint">Initial = first check-in of the day, Follow-Up = additional same-day updates</div>
 
-        <div style="margin-top: 12px; margin-bottom: 20px;">
-          <label class="radio-label">
-            <input type="checkbox" name="include_watering_prompt" value="true" checked>
+        <div style="margin-top: 16px;">
+          <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+            <input type="checkbox" name="include_watering" value="yes" checked>
             <span>Include watering assessment prompt (with current time)</span>
           </label>
         </div>
 
-        <div class="field-label">Global Message (Weather)</div>
+        <div class="field-label" style="margin-top: 16px;">Global Message (Weather)</div>
         <textarea id="global_message" name="global_message" class="form-textarea"
           placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight..."></textarea>
         <div class="form-hint">Weather conditions - this will be saved for the next plant. Use {variable_name} for
@@ -317,49 +318,43 @@
       }
     }
 
-    // Copy to clipboard function
+    // Copy to clipboard function with working HTTP fallback
     function copyToClipboard() {
       const codeElement = document.getElementById('outputCode');
+      const button = event.target;
       const text = codeElement.textContent.replace('Copy', '').trim();
 
-      // Try modern clipboard API first (works on HTTPS)
+      // Try modern clipboard API first
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(() => {
-          showCopyFeedback();
+          showCopyFeedback(button);
         }).catch(() => {
           // Fallback for HTTP/mobile
-          fallbackCopy(text);
+          fallbackCopy(text, button);
         });
       } else {
         // Fallback for older browsers or HTTP
-        fallbackCopy(text);
+        fallbackCopy(text, button);
       }
     }
 
-    function fallbackCopy(text) {
+    function fallbackCopy(text, button) {
       // Create temporary textarea
       const textarea = document.createElement('textarea');
       textarea.value = text;
-      textarea.style.position = 'fixed';
-      textarea.style.top = '0';
-      textarea.style.left = '0';
-      textarea.style.width = '2em';
-      textarea.style.height = '2em';
-      textarea.style.padding = '0';
-      textarea.style.border = 'none';
-      textarea.style.outline = 'none';
-      textarea.style.boxShadow = 'none';
-      textarea.style.background = 'transparent';
+      textarea.style.position = 'absolute';
+      textarea.style.left = '-9999px';
+      textarea.setAttribute('readonly', '');
       document.body.appendChild(textarea);
 
       // Select and copy
-      textarea.focus();
       textarea.select();
+      textarea.setSelectionRange(0, 99999); // For mobile
 
       try {
         const successful = document.execCommand('copy');
         if (successful) {
-          showCopyFeedback();
+          showCopyFeedback(button);
         } else {
           alert('Copy failed. Please manually select and copy the text.');
         }
@@ -370,14 +365,11 @@
       document.body.removeChild(textarea);
     }
 
-    function showCopyFeedback() {
-      const button = event.target;
+    function showCopyFeedback(button) {
       const originalText = button.textContent;
-      button.textContent = '✓ Copied!';
-      button.style.background = 'var(--success-color)';
+      button.textContent = '✓';
       setTimeout(() => {
         button.textContent = originalText;
-        button.style.background = '';
       }, 2000);
     }
   </script>

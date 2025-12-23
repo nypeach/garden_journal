@@ -480,7 +480,7 @@
       "sub_category": "Review workflow",
       "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
       "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why. You need to do this every day immediately following the Daily Journal Entry JSON.",
-      "count": 49,
+      "count": 52,
       "status": "active",
       "tags": [
         "plant-main-data",

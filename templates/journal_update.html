@@ -101,11 +101,27 @@ Example:
 }' required></textarea>
         <div class="form-hint">Paste the complete JSON entry from ChatGPT (including curly braces)</div>
 
-        <button type="submit" class="submit-btn" style="margin-top: 24px;">💾 Update Journal</button>
+        <div class="channel-actions">
+          <button type="submit" name="action" value="journal" class="submit-btn">
+            📝 Update Journal Entry
+          </button>
+          <button type="submit" name="action" value="plant_main" class="submit-btn">
+            🔧 Update Plant Main Data
+          </button>
+          <button type="button" onclick="startFresh()" class="submit-btn">
+            🔄 Start Fresh
+          </button>
+        </div>
       </form>
     </div>
     {% endif %}
   </div>
+
+  <script>
+    function startFresh() {
+      window.location.href = '/journal-update';
+    }
+  </script>
 </body>
 
 </html>

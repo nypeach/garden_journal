@@ -42,14 +42,17 @@
 
         <!-- Action Buttons -->
         <div class="channel-actions">
-          <button type="submit" name="action" value="start_channel" class="channel-btn channel-btn-primary">
+          <button type="submit" name="action" value="start_channel" class="submit-btn">
             🚀 Start Channel
           </button>
-          <button type="submit" name="action" value="one_time_patch" class="channel-btn channel-btn-secondary">
+          <button type="submit" name="action" value="one_time_patch" class="submit-btn">
             🔧 One-Time Patch
           </button>
-          <button type="submit" name="action" value="rename_chat" class="channel-btn channel-btn-tertiary">
+          <button type="submit" name="action" value="rename_chat" class="submit-btn">
             ✏️ Rename Chat
+          </button>
+          <button type="submit" name="action" value="start_fresh" onclick="startFresh()" class="submit-btn">
+            🔄 Start Fresh
           </button>
         </div>
       </form>
@@ -68,9 +71,9 @@
 
   <script>
     function copyOutput() {
-      const codeElement = document.getElementById('outputCode');
-      const text = codeElement.textContent;
-      const button = event.target;
+        const codeElement = document.getElementById('outputCode');
+        const button = event.target;
+        const text = codeElement.textContent.replace('Copy', '').trim();
 
       // Try modern clipboard API first
       if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -85,22 +88,15 @@
     }
 
     function fallbackCopy(text, button) {
-      const textarea = document.createElement('textarea');
-      textarea.value = text;
-      textarea.style.position = 'fixed';
-      textarea.style.top = '0';
-      textarea.style.left = '0';
-      textarea.style.width = '2em';
-      textarea.style.height = '2em';
-      textarea.style.padding = '0';
-      textarea.style.border = 'none';
-      textarea.style.outline = 'none';
-      textarea.style.boxShadow = 'none';
-      textarea.style.background = 'transparent';
-      document.body.appendChild(textarea);
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'absolute';
+        textarea.style.left = '-9999px';
+        textarea.setAttribute('readonly', '');
+        document.body.appendChild(textarea);
 
-      textarea.focus();
-      textarea.select();
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); // For mobile
 
       try {
         const successful = document.execCommand('copy');
@@ -122,6 +118,28 @@
       setTimeout(() => {
         button.textContent = originalText;
       }, 2000);
+    }
+  </script>
+  <script>
+    // Plant ID persistence
+    document.addEventListener('DOMContentLoaded', function () {
+      const plantInput = document.getElementById('plant_id');
+      const savedPlantId = localStorage.getItem('channel_start_plant_id');
+
+      // Pre-fill from localStorage if exists
+      if (savedPlantId) {
+        plantInput.value = savedPlantId;
+      }
+
+      // Save on input
+      plantInput.addEventListener('input', function () {
+        localStorage.setItem('channel_start_plant_id', this.value);
+      });
+    });
+
+    function startFresh() {
+      localStorage.removeItem('channel_start_plant_id');
+      window.location.href = '/channel-start';
     }
   </script>
 </body>
