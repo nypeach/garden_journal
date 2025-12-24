@@ -72,6 +72,9 @@
             <label class="form-label">Paste Markdown Format *</label>
             <textarea id="new-markdown" class="form-textarea" rows="20" required placeholder="Paste the entire markdown block from ChatGPT here...
 
+**ID**
+Your ID Here
+
 **TITLE**
 Your title here
 
@@ -231,72 +234,82 @@ tag1, tag2, tag3"></textarea>
     }
 
     async function saveNewCorrection(event) {
-        event.preventDefault();
+      event.preventDefault();
 
-        const markdownText = document.getElementById('new-markdown').value;
-        const includeFooter = document.getElementById('new-include-footer').checked;
+      const markdownText = document.getElementById('new-markdown').value;
+      const includeFooter = document.getElementById('new-include-footer').checked;
 
-        // Parse markdown format
-        const titleMatch = markdownText.match(/\*\*TITLE\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
-        const categoryMatch = markdownText.match(/\*\*CATEGORY\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
-        const subcategoryMatch = markdownText.match(/\*\*SUB-CATEGORY\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
-        const ifMatch = markdownText.match(/\*\*IF\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
-        const thenMatch = markdownText.match(/\*\*THEN\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
-        const antipatternsMatch = markdownText.match(/\*\*ANTI-PATTERNS\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
-        const tagsMatch = markdownText.match(/\*\*TAGS\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      // Parse markdown format
+      const idMatch = markdownText.match(/\*\*ID\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const titleMatch = markdownText.match(/\*\*TITLE\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const categoryMatch = markdownText.match(/\*\*CATEGORY\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const subcategoryMatch = markdownText.match(/\*\*SUB-CATEGORY\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const ifMatch = markdownText.match(/\*\*IF\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const thenMatch = markdownText.match(/\*\*THEN\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const antipatternsMatch = markdownText.match(/\*\*ANTI-PATTERNS\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
+      const tagsMatch = markdownText.match(/\*\*TAGS\*\*\s*\n(.+?)(?=\n\*\*|$)/s);
 
-        if (!titleMatch || !categoryMatch || !subcategoryMatch || !ifMatch || !thenMatch) {
-          alert('Missing required fields. Please ensure TITLE, CATEGORY, SUB-CATEGORY, IF, and THEN are all present.');
-          return;
-        }
-
-        const title = titleMatch[1].trim();
-        const category = categoryMatch[1].trim();
-        const subcategory = subcategoryMatch[1].trim();
-        const triggerIf = ifMatch[1].trim();
-        const responseThen = thenMatch[1].trim();
-
-        // Parse anti-patterns (split by newlines, filter empty)
-        const antiPatterns = antipatternsMatch
-          ? antipatternsMatch[1].trim().split('\n').filter(line => line.trim())
-          : [];
-
-        // Parse tags (split by commas)
-        const tags = tagsMatch
-          ? tagsMatch[1].trim().split(',').map(tag => tag.trim()).filter(tag => tag)
-          : [];
-
-        const data = {
-          title: title,
-          category: category,
-          sub_category: subcategory,
-          trigger_if: triggerIf,
-          response_then: responseThen,
-          anti_patterns: antiPatterns,
-          tags: tags,
-          include_footer: includeFooter
-        };
-
-        try {
-          const response = await fetch('/api/correction/create', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-          });
-
-          if (response.ok) {
-            // Reload page to show new correction
-            window.location.reload();
-          } else {
-            alert('Failed to create correction');
-          }
-        } catch (err) {
-          console.error('Failed to save:', err);
-          alert('Failed to save correction');
-        }
+      if (!idMatch || !titleMatch || !categoryMatch || !subcategoryMatch || !ifMatch || !thenMatch) {
+        const missing = [];
+        if (!idMatch) missing.push('ID');
+        if (!titleMatch) missing.push('TITLE');
+        if (!categoryMatch) missing.push('CATEGORY');
+        if (!subcategoryMatch) missing.push('SUB-CATEGORY');
+        if (!ifMatch) missing.push('IF');
+        if (!thenMatch) missing.push('THEN');
+        alert('Missing required fields: ' + missing.join(', '));
+        return;
       }
+
+      const id = idMatch[1].trim();
+      const title = titleMatch[1].trim();
+      const category = categoryMatch[1].trim();
+      const subcategory = subcategoryMatch[1].trim();
+      const triggerIf = ifMatch[1].trim();
+      const responseThen = thenMatch[1].trim();
+
+      // Parse anti-patterns (split by newlines, filter empty)
+      const antiPatterns = antipatternsMatch
+        ? antipatternsMatch[1].trim().split('\n').filter(line => line.trim())
+        : [];
+
+      // Parse tags (split by commas)
+      const tags = tagsMatch
+        ? tagsMatch[1].trim().split(',').map(tag => tag.trim()).filter(tag => tag)
+        : [];
+
+      const data = {
+        id: id,
+        title: title,
+        category: category,
+        sub_category: subcategory,
+        trigger_if: triggerIf,
+        response_then: responseThen,
+        anti_patterns: antiPatterns,
+        tags: tags,
+        include_footer: includeFooter
+      };
+
+      try {
+        const response = await fetch('/api/correction/create', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+          // Reload page to show new correction
+          window.location.reload();
+        } else {
+          alert('Failed to create correction');
+        }
+      } catch (err) {
+        console.error('Failed to save:', err);
+        alert('Failed to save correction');
+      }
+    }
 
     function expandTile(id) {
       // Clear search filters to ensure tile is visible

@@ -864,6 +864,57 @@
       "include_footer": true,
       "count": 0,
       "applies_when": ""
+    },
+    {
+      "id": "TITLE-011",
+      "title": "Follow-Up Logged as Partial JSON + Invented Fields",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Follow-Up Logging / Partial JSON Output",
+      "trigger_if": "After I approve logging a follow-up (e.g., I reply “Log it” / “Yes”), the assistant outputs:\n- a partial JSON fragment (only `follow_up`, only `q_and_a_summary`, etc.), OR\n- a standalone follow-up object, OR\n- ANY invented fields (examples: `time`, `action_taken`, `guidance`, `recommendation`, `plant_id`/`date` only, etc.)\n\ninstead of re-issuing the COMPLETE Daily Journal Entry JSON for the day using the exact schema from the guide.",
+      "response_then": "Do NOT output a partial JSON fragment and do NOT invent new fields.\n\nRe-issue the COMPLETE Daily Journal Entry JSON for the same date using the exact schema and field names from the guide.\n\nChange NOTHING from the previously logged Daily Journal Entry JSON except:\n- Append the new follow-up entry to the existing `follow_up` array, AND/OR\n- Update `q_and_a_summary` ONLY if the follow-up included an actual question and answer.\n\nPreserve:\n- all original fields\n- the original `photos` array\n- all previously logged `follow_up` entries\n- all original timestamps and probe-reading date/time logic\n\nOutput valid JSON only.",
+      "anti_patterns": [
+        "Outputs only `{ \"date\": ..., \"plant_id\": ..., \"follow_up\": [...] }`",
+        "Invents a new follow-up schema (`time` / `action_taken` / `guidance` fields)",
+        "Drops photos or other previously logged fields",
+        "Generates a brand new entry instead of updating the existing one"
+      ],
+      "tags": [
+        "follow_up",
+        "partial_json",
+        "invented_fields",
+        "schema_violation",
+        "daily_journal_entry"
+      ],
+      "include_footer": true,
+      "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-012",
+      "title": "Assistant Claims It Cannot Re-Issue Full Daily Journal Entry JSON During Follow-Up Logging",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Follow-up logging requires full JSON re-issue",
+      "trigger_if": "The assistant says it cannot re-issue the COMPLETE Daily Journal Entry JSON because it “does not have the original full JSON” in context, and asks me to paste it — even though it previously generated it in the same chat.",
+      "response_then": "Do not invent a new schema, partial JSON, or a “follow_up-only” object.\n\nInstead, instruct the user to paste the most recent COMPLETE Daily Journal Entry JSON, and then:\n- change NOTHING except:\n  - append the new follow-up entry to `follow_up`\n  - update `q_and_a_summary` only if the follow-up contained an actual Q&A\n- preserve all existing fields and schema exactly\n- preserve the existing `photos` array exactly\n- output VALID JSON ONLY\n\nThen continue the workflow as the user’s professional horticulturist.",
+      "anti_patterns": [
+        "“I can’t re-issue the full JSON because I don’t have it.”",
+        "Outputs a new mini JSON object with made-up schema.",
+        "Outputs only the follow_up array instead of the full entry.",
+        "Creates new fields like `time`, `action_taken`, `guidance`, etc.",
+        "Asks for the JSON but then still outputs partial or incorrect JSON."
+      ],
+      "tags": [
+        "follow-up",
+        "logging",
+        "json",
+        "schema",
+        "partial-json",
+        "invented-fields",
+        "context-loss"
+      ],
+      "include_footer": true,
+      "count": 2,
+      "applies_when": ""
     }
   ]
 }
