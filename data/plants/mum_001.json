@@ -33,7 +33,7 @@
     {
       "date": "12/20/2025",
       "time": "7:38 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.19",
@@ -85,7 +85,7 @@
     {
       "date": "12/19/2025",
       "time": "10:07 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.50",
         "ec_mScm": "0.18",
@@ -122,7 +122,7 @@
     {
       "date": "12/18/2025",
       "time": "12:43 PM",
-      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.70",
         "ec_mScm": "0.20",
@@ -140,7 +140,7 @@
       },
       "observations": "The chrysanthemum shows clear advancement into vegetative refill with increased leaf size, paired leaf expansion on multiple stems, and well-defined but compact bud sites. Foliage remains healthy and upright following several hours of intermittent rain. Soil is evenly moist and settled with no signs of pooling or stress.",
       "actions": "Do not water today as soil moisture is sufficient from rainfall. Do not fertilize; nutrient availability is adequate and active. Leave soil undisturbed to allow pH and moisture to stabilize naturally.",
-      "next_steps": "Recheck soil readings in 1\u20132 days after the soil equilibrates. Monitor pH for a natural return toward the mid-6 range. Continue observing bud behavior to ensure slow, controlled development.",
+      "next_steps": "Recheck soil readings in 1\\u20132 days after the soil equilibrates. Monitor pH for a natural return toward the mid-6 range. Continue observing bud behavior to ensure slow, controlled development.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -164,7 +164,7 @@
     {
       "date": "12/16/2025",
       "time": "11:36 AM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.13",
@@ -181,8 +181,8 @@
         "ph": ""
       },
       "observations": "The chrysanthemum continues active recovery with firm, upright stems and increasing leaf mass at multiple nodes. Bud sites are present but remain compact, which is appropriate for this stage. Surface soil showed wind-related crusting prior to loosening, but overall soil structure remains stable with no signs of stress or water imbalance.",
-      "actions": "Do not water today as moisture is ideal and rainfall is expected. Do not fertilize; nutrient levels are well matched to the plant\u2019s recovery stage. Avoid deep soil disturbance and maintain current placement.",
-      "next_steps": "Allow rain to naturally rehydrate and settle the surface. Recheck soil moisture within 24\u201348 hours. Continue monitoring for paired leaf expansion as confirmation of vegetative refill progression.",
+      "actions": "Do not water today as moisture is ideal and rainfall is expected. Do not fertilize; nutrient levels are well matched to the plant\\u2019s recovery stage. Avoid deep soil disturbance and maintain current placement.",
+      "next_steps": "Allow rain to naturally rehydrate and settle the surface. Recheck soil moisture within 24\\u201348 hours. Continue monitoring for paired leaf expansion as confirmation of vegetative refill progression.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -206,7 +206,7 @@
     {
       "date": "12/15/2025",
       "time": "10:02 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.14",
@@ -224,7 +224,7 @@
       },
       "observations": "The chrysanthemum is actively rebuilding its canopy with multiple stems elongating and producing larger, well-formed leaves. Bud sites are present but remain juvenile, which is appropriate at this stage. Stems are firm and upright with no signs of wilt, stress, or disease, and soil structure appears stable and evenly settled.",
       "actions": "Do not water today as moisture is ideal and rain chances are sufficient. Do not fertilize; existing nutrient levels are appropriate for continued vegetative recovery. Leave soil undisturbed and maintain current placement.",
-      "next_steps": "Recheck soil moisture in 24\u201348 hours after weather passes. Monitor for paired leaf expansion across multiple stems as confirmation of full vegetative refill. Continue observing bud behavior without intervention.",
+      "next_steps": "Recheck soil moisture in 24\\u201348 hours after weather passes. Monitor for paired leaf expansion across multiple stems as confirmation of full vegetative refill. Continue observing bud behavior without intervention.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -248,7 +248,7 @@
     {
       "date": "12/12/2025",
       "time": "1:03 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.3",
         "ec_mScm": "0.34",
@@ -285,7 +285,7 @@
     {
       "date": "12/11/2025",
       "time": "4:45 PM",
-      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.5",
         "ec_mScm": "0.15",
@@ -337,7 +337,7 @@
     {
       "date": "12/10/2025",
       "time": "8:05 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.14",
@@ -379,7 +379,7 @@
     {
       "date": "12/9/2025",
       "time": "9:44 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.57",
         "ec_mScm": "0.10",
@@ -421,7 +421,7 @@
     {
       "date": "12/8/2025",
       "time": "12:43 PM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.39",
         "ec_mScm": "0.08",

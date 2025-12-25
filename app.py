@@ -605,7 +605,7 @@ def photo_prep():
                 output_lines.append(f'{idx}. {filename}')
 
         # Add watering assessment prompt if checkbox is checked
-        include_watering = request.form.get('include_watering_prompt')
+        include_watering = request.form.get('include_watering')
         if include_watering:
             import pytz
 
@@ -917,6 +917,36 @@ def create_correction():
             json.dump(corrections_data, f, indent=2, ensure_ascii=False)
 
         return jsonify({'success': True, 'id': new_id})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/plant/<plant_id>/last-photo-number', methods=['GET'])
+def get_last_photo_number(plant_id):
+    """Get the last photo number from the most recent journal entry"""
+    try:
+        plant = data_manager.get_plant(plant_id)
+        if not plant or 'journal' not in plant or len(plant['journal']) == 0:
+            return jsonify({'last_number': 0})
+
+        # Get most recent journal entry (journal is sorted newest first)
+        latest_entry = plant['journal'][0]
+
+        if 'photos' not in latest_entry or len(latest_entry['photos']) == 0:
+            return jsonify({'last_number': 0})
+
+        # Get last photo filename
+        last_photo = latest_entry['photos'][-1]['file_name']
+
+        # Extract number from filename: plantname_001-20251224-05.jpeg -> 05
+        import re
+        match = re.search(r'-(\d{2})\.(jpeg|jpg|png|heic)$', last_photo)
+        if match:
+            last_number = int(match.group(1))
+            return jsonify({'last_number': last_number})
+
+        return jsonify({'last_number': 0})
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

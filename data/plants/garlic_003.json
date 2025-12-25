@@ -10,11 +10,11 @@
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Vernalized the garlic for 6 weeks prior to planting.",
-    "Planted in mid-November 2025 in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" right section",
+    "Planted in mid-November 2025 in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" right section",
     "Shared with Siberian Hardneck, Music Hardneck, and Scallions."
   ],
   "whats_been_logged": "Early Chesnok Red emergence showed strong shoot growth in moist soil with low but improving pH. Lime application helped correct acidity, and a competing scallion near one sprout was identified for relocation to prevent crowding. Multiple shoots have emerged vigorously with upright green leaves as moisture and pH conditions stabilized.",
-  "current_stage": "Early top growth (shoots 1\u20133 inches above soil)",
+  "current_stage": "Early top growth (shoots 1\\u20133 inches above soil)",
   "current_state": "Multiple Chesnok Red shoots are up and growing strongly with upright green leaves and only mild soil acidity remaining after planned lime application and careful watering. A competing scallion near one sprout has been identified for relocation to prevent crowding.",
   "timeline": [
     {
@@ -62,7 +62,7 @@
     {
       "date": "12/20/2025",
       "time": "7:57 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.20",
@@ -80,7 +80,7 @@
       },
       "observations": "The garlic plants remain upright and structurally sound with firm bases and active inner growth. Several older, lower leaves show yellowing and browning beginning at the tips, while newer leaves remain green. No signs of rot, pest damage, or crown collapse are visible.",
       "actions": "Do not water today as soil moisture is ideal. Leave yellowing leaves in place unless they are fully brown and dry. Trim only completely dead leaves at the base if desired for cleanliness.",
-      "next_steps": "Monitor leaf color progression over the next 3\u20135 days. Recheck probe readings in 2\u20133 days to confirm fertility trends. Consider light feeding only if yellowing advances into newer leaves.",
+      "next_steps": "Monitor leaf color progression over the next 3\\u20135 days. Recheck probe readings in 2\\u20133 days to confirm fertility trends. Consider light feeding only if yellowing advances into newer leaves.",
       "q_and_a_summary": "Discussed whether yellowing and browning leaves are concerning; explained this is normal older-leaf senescence combined with mild nutrient drawdown in container-grown garlic.",
       "follow_up": [],
       "photos": [
@@ -99,7 +99,7 @@
     {
       "date": "12/19/2025",
       "time": "10:19 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.19",
@@ -117,7 +117,7 @@
       },
       "observations": "Chesnok Red Hardneck garlic shows vigorous vegetative growth with long, strap-like green leaves that naturally arch and drape as they confirm active elongation. Leaf bases are thick and upright, and soil is evenly moist with good structure and no signs of stress.",
       "actions": "Do not water, fertilize, or adjust pH today. Allow leaves to grow and arch naturally without intervention.",
-      "next_steps": "Monitor moisture over the next 2\u20133 days as warm, sunny weather continues. Plan to water only if moisture readings fall below 40.00 mS/cm or leaves lose firmness.",
+      "next_steps": "Monitor moisture over the next 2\\u20133 days as warm, sunny weather continues. Plan to water only if moisture readings fall below 40.00 mS/cm or leaves lose firmness.",
       "q_and_a_summary": "Discussed whether flopping leaves are concerning; confirmed this is normal behavior during active garlic leaf elongation.",
       "follow_up": [],
       "photos": [
@@ -131,7 +131,7 @@
     {
       "date": "12/18/2025",
       "time": "12:58 PM",
-      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.10",
         "ec_mScm": "0.26",
@@ -149,10 +149,10 @@
       },
       "observations": "Chesnok Red Hardneck garlic shows established growth with long, strap-like green leaves and strong, supported crowns. Soil is evenly moist and settled following intermittent morning rainfall, with no signs of pooling or stress.",
       "actions": "Do not water, fertilize, or adjust pH today. Allow soil moisture to begin a natural dry-down under warm afternoon conditions.",
-      "next_steps": "Recheck moisture in 2\u20133 days or after the next rain event. Resume watering only if moisture readings fall below 40.00 mS/cm.",
+      "next_steps": "Recheck moisture in 2\\u20133 days or after the next rain event. Resume watering only if moisture readings fall below 40.00 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [
-        "[5:45 AM \u2013 8:30 AM] Intermittent rain occurred, ranging from drizzle to heavier showers, naturally rehydrating the planter."
+        "[5:45 AM \\u2013 8:30 AM] Intermittent rain occurred, ranging from drizzle to heavier showers, naturally rehydrating the planter."
       ],
       "photos": [
         {
@@ -165,7 +165,7 @@
     {
       "date": "12/16/2025",
       "time": "11:57 AM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.10",
         "ec_mScm": "0.27",
@@ -183,7 +183,7 @@
       },
       "observations": "Chesnok Red Hardneck garlic shows established growth with multiple long, strap-like green leaves and strong, supported crowns. Soil surface is evenly settled and moderately moist, with no signs of saturation, crusting, or stress.",
       "actions": "Do not water, fertilize, or adjust pH today. Allow soil moisture to continue stabilizing naturally with upcoming weather.",
-      "next_steps": "Recheck moisture in 2\u20133 days or after the next rain event. Resume watering only if readings fall below 40.00 mS/cm.",
+      "next_steps": "Recheck moisture in 2\\u20133 days or after the next rain event. Resume watering only if readings fall below 40.00 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -197,7 +197,7 @@
     {
       "date": "12/15/2025",
       "time": "10:38 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.40",
         "ec_mScm": "0.22",
@@ -215,7 +215,7 @@
       },
       "observations": "Chesnok Red Hardneck garlic shows strong, strap-like green leaves with thickened bases and no signs of stress. Soil surface appears freshly leveled and evenly moist after filling probe holes, with plants remaining upright and vigorous despite windy conditions.",
       "actions": "Do not water today. Do not fertilize or adjust pH. Allow soil moisture to continue drying naturally under breezy conditions.",
-      "next_steps": "Recheck moisture in 2\u20133 days once wind subsides. Resume watering only when moisture readings fall below 40.00 mS/cm.",
+      "next_steps": "Recheck moisture in 2\\u20133 days once wind subsides. Resume watering only when moisture readings fall below 40.00 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [
         "[10:45 AM] Added Miracle-Gro Potting Mix to fill probe holes and even out the soil surface around the garlic plants."
@@ -241,7 +241,7 @@
     {
       "date": "12/14/2025",
       "time": "2:38 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.32",
@@ -259,7 +259,7 @@
       },
       "observations": "Chesnok Red Hardneck garlic shows long, flexible, strap-like green leaves with strong bases and no signs of stress. Soil is evenly dark and fully saturated following recent watering and rainfall, with no visible pooling or stem softening.",
       "actions": "Do not water today or tomorrow. Do not fertilize or adjust pH. Allow the soil to dry naturally under current weather conditions.",
-      "next_steps": "Recheck moisture in 2\u20133 days once rain passes. Resume watering only when readings fall below 40.00 mS/cm and the soil surface lightens in color.",
+      "next_steps": "Recheck moisture in 2\\u20133 days once rain passes. Resume watering only when readings fall below 40.00 mS/cm and the soil surface lightens in color.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -273,7 +273,7 @@
     {
       "date": "12/12/2025",
       "time": "1:20 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.10",
         "ec_mScm": "0.12",
@@ -305,7 +305,7 @@
     {
       "date": "12/11/2025",
       "time": "4:55 PM",
-      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.20",
         "ec_mScm": "0.18",
@@ -323,7 +323,7 @@
       },
       "observations": "Chesnok Red Hardneck garlic shows healthy, flexible vegetative growth with long green blades and no signs of stress. Leaf arching reflects normal expansion rather than wilting. Soil moisture is balanced and stable, and overall plant posture remains firm. A slight upward drift in pH is observed but shows no associated visual symptoms and is consistent with recent soil disturbance and amendment integration.",
       "actions": "Do not water today. Do not adjust pH or add amendments. Leave foliage intact and allow the soil to continue settling naturally under current conditions.",
-      "next_steps": "Recheck moisture and pH in 1\u20132 days, ideally mid-morning. Expect moisture to drift toward the mid-40s as temperatures remain mild. Continue monitoring leaf firmness and growth pattern.",
+      "next_steps": "Recheck moisture and pH in 1\\u20132 days, ideally mid-morning. Expect moisture to drift toward the mid-40s as temperatures remain mild. Continue monitoring leaf firmness and growth pattern.",
       "q_and_a_summary": "User asked whether current temperatures were concerning; confirmed that daytime highs in the 70s with overnight lows in the low 50s are ideal for winter garlic and not a cause for concern.",
       "follow_up": [],
       "photos": [
@@ -337,7 +337,7 @@
     {
       "date": "12/10/2025",
       "time": "8:48 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.22",
@@ -353,9 +353,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chesnok Red Hardneck garlic shows strong upright growth with turgid, evenly green leaves and no signs of stress. Soil moisture is moderately high and stable after recent cool weather, and pH has returned to the normal range after yesterday\u2019s temporary spike caused by contact with an amendment pocket. The soil appears well-aerated and evenly textured, reflecting the improvements from prior loosening and mixing. Overall, the plant is in excellent early winter condition.",
+      "observations": "Chesnok Red Hardneck garlic shows strong upright growth with turgid, evenly green leaves and no signs of stress. Soil moisture is moderately high and stable after recent cool weather, and pH has returned to the normal range after yesterday\\u2019s temporary spike caused by contact with an amendment pocket. The soil appears well-aerated and evenly textured, reflecting the improvements from prior loosening and mixing. Overall, the plant is in excellent early winter condition.",
       "actions": "Do not water today. Avoid fertilizer or soil amendments. Maintain current sunlight exposure and allow the soil to dry gradually under the mild temperatures.",
-      "next_steps": "Recheck moisture in 1\u20132 days as temperatures remain cool. Water only when readings fall below ~40 mS/cm and leaf firmness begins to soften. Continue monitoring foliage density and overall vigor as winter growth strengthens.",
+      "next_steps": "Recheck moisture in 1\\u20132 days as temperatures remain cool. Water only when readings fall below ~40 mS/cm and leaf firmness begins to soften. Continue monitoring foliage density and overall vigor as winter growth strengthens.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -369,7 +369,7 @@
     {
       "date": "12/9/2025",
       "time": "7:52 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.89",
         "ec_mScm": "0.17",
@@ -401,7 +401,7 @@
     {
       "date": "12/8/2025",
       "time": "10:56 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.76",
         "ec_mScm": "0.30",
@@ -433,7 +433,7 @@
     {
       "date": "12/7/2025",
       "time": "12:44 PM",
-      "conditions": "Patchy morning fog followed by sunny conditions with a high near 86\u00b0F. Light south wind 5\u20138 mph. Overnight low expected around 66\u00b0F.",
+      "conditions": "Patchy morning fog followed by sunny conditions with a high near 86\\xb0F. Light south wind 5\\u20138 mph. Overnight low expected around 66\\xb0F.",
       "digital_probe": {
         "ph": "6.36",
         "ec_mScm": "0.01",
@@ -465,7 +465,7 @@
     {
       "date": "12/4/2025",
       "time": "4:54 PM",
-      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight. Soil was bone-dry by 2:00 PM; user watered and took readings approximately 2 hours later.",
+      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight. Soil was bone-dry by 2:00 PM; user watered and took readings approximately 2 hours later.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.25",
@@ -483,7 +483,7 @@
       },
       "observations": "Chesnok Red Hardneck shows vigorous upright growth with deep green leaves and strong posture. The earlier bone-dry conditions were corrected by watering, and the post-watering probe reading reflects localized saturation rather than overall soil waterlogging. No signs of stress, disease, or nutrient imbalance are visible.",
       "actions": "Do not water again today. Allow the soil to redistribute moisture naturally overnight. No fertilizer, pH adjustment, or treatments needed.",
-      "next_steps": "Expect moisture to settle into the mid-range by tomorrow morning. Continue monitoring leaf firmness and growth direction. Water next when mid-day moisture readings fall below ~40\u201345 mS/cm.",
+      "next_steps": "Expect moisture to settle into the mid-range by tomorrow morning. Continue monitoring leaf firmness and growth direction. Water next when mid-day moisture readings fall below ~40\\u201345 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -497,7 +497,7 @@
     {
       "date": "12/3/2025",
       "time": "1:34 PM",
-      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.60",
         "ec_mScm": "0.03",
@@ -529,7 +529,7 @@
     {
       "date": "12/2/2025",
       "time": "10:50 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.18",
         "ec_mScm": "0.32",
@@ -561,7 +561,7 @@
     {
       "date": "12/1/2025",
       "time": "5:15 PM",
-      "conditions": "Mostly cloudy with temperatures in the mid-70s\u00b0F through the afternoon, dropping to 69\u00b0F overnight. Possible light showers around 6 PM.",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s\\xb0F through the afternoon, dropping to 69\\xb0F overnight. Possible light showers around 6 PM.",
       "digital_probe": {
         "ph": "5.34",
         "ec_mScm": "0.29",
@@ -593,7 +593,7 @@
     {
       "date": "11/29/2025",
       "time": "1:50 PM",
-      "conditions": "Mostly sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 77\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.40",
         "ec_mScm": "0.37",
@@ -625,7 +625,7 @@
     {
       "date": "11/28/2025",
       "time": "10:37 AM",
-      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight. Clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "5.47",
         "ec_mScm": "0.53",
@@ -662,7 +662,7 @@
     {
       "date": "11/27/2025",
       "time": "11:25 AM",
-      "conditions": "Cloudy with a high of 81\u00b0F dropping to 65\u00b0F overnight. Rain expected around 6 PM. A light rain occurred shortly after the reading.",
+      "conditions": "Cloudy with a high of 81\\xb0F dropping to 65\\xb0F overnight. Rain expected around 6 PM. A light rain occurred shortly after the reading.",
       "digital_probe": {
         "ph": "5.16",
         "ec_mScm": "0.42",
@@ -699,7 +699,7 @@
     {
       "date": "11/26/2025",
       "time": "10:51 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4 PM. A light rain occurred shortly after the reading.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Thunderstorms expected around 4 PM. A light rain occurred shortly after the reading.",
       "digital_probe": {
         "ph": "5.11",
         "ec_mScm": "0.18",
@@ -731,7 +731,7 @@
     {
       "date": "11/25/2025",
       "time": "3:03 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 65\u00b0F overnight. Soil was watered at 2:33 PM; reading taken 1.5 hours later.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 65\\xb0F overnight. Soil was watered at 2:33 PM; reading taken 1.5 hours later.",
       "digital_probe": {
         "ph": "5.29",
         "ec_mScm": "0.17",
@@ -763,7 +763,7 @@
     {
       "date": "11/24/2025",
       "time": "11:32 AM",
-      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.31",
@@ -795,7 +795,7 @@
     {
       "date": "11/23/2025",
       "time": "1:29 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "10.17",
         "ec_mScm": "0.21",
@@ -827,7 +827,7 @@
     {
       "date": "11/22/2025",
       "time": "10:56 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.93",
         "ec_mScm": "0.09",
@@ -844,11 +844,11 @@
         "ph": ""
       },
       "observations": "Chesnok Red Hardneck shows strong and healthy early top growth with upright green leaves and no signs of stress or nutrient deficiency. Soil moisture is extremely low today, consistent with the dry weather and container exposure, but the plant has not yet begun to wilt. pH continues to improve toward the ideal range after earlier lime applications.",
-      "actions": "Apply \u00bd cup of water distributed gently around the shoots. Do not fertilize or adjust soil chemistry today. Maintain normal sunlight exposure.",
+      "actions": "Apply \\xbd cup of water distributed gently around the shoots. Do not fertilize or adjust soil chemistry today. Maintain normal sunlight exposure.",
       "next_steps": "Recheck moisture tomorrow to confirm recovery into the ideal slightly-dry range. Continue monitoring shoot elongation and overall vigor as pH stabilizes.",
       "q_and_a_summary": "",
       "follow_up": [
-        "[11:04 AM] Applied \u00bd cup of water to rehydrate the Chesnok Red zone."
+        "[11:04 AM] Applied \\xbd cup of water to rehydrate the Chesnok Red zone."
       ],
       "photos": [
         {
@@ -861,7 +861,7 @@
     {
       "date": "11/21/2025",
       "time": "3:27 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.77",
         "ec_mScm": "0.09",
@@ -893,7 +893,7 @@
     {
       "date": "11/20/2025",
       "time": "12:25 PM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.11",
@@ -925,7 +925,7 @@
     {
       "date": "11/19/2025",
       "time": "9:34 AM",
-      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high around 82\\u201385\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.89",
         "ec_mScm": "0.11",
@@ -965,7 +965,7 @@
     {
       "date": "11/18/2025",
       "time": "8:59 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.30",
         "ec_mScm": "0.16",
@@ -997,7 +997,7 @@
     {
       "date": "11/17/2025",
       "time": "9:03 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.02",
         "ec_mScm": "0.25",

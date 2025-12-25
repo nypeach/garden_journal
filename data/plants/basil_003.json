@@ -10,7 +10,7 @@
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Part of mixed Herb Planter seeded on Nov 12, 2025.",
-    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left front",
+    "Planted in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" left front",
     "Shares planter with Cilantro, Parsley, Thyme, and Oregano."
   ],
   "whats_been_logged": "The planting began with very dry, alkaline soil that was rehydrated and corrected with lime. Early germination was slow but steady as moisture stabilized and pH gradually shifted from alkaline to acidic, then naturally rebounded toward ideal range. Sprouts emerged healthy and upright, with first true-leaf tips now visible as the seedlings transition from germination into active early growth.",
@@ -50,7 +50,7 @@
     {
       "date": "12/20/2025",
       "time": "8:15 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.19",
@@ -68,7 +68,7 @@
       },
       "observations": "Thai basil remains vigorous with broad, evenly colored leaves and upright stems. Foliage shows normal morning moisture from fog/dew with no wilting or stress. Soil appears evenly moist and well structured, consistent with the mid-range moisture reading.",
       "actions": "Do not water or fertilize at this time. Allow natural dry-down through midday sun.",
-      "next_steps": "Recheck moisture later today or tomorrow late morning. Water only if readings reach 40\u201345%, using a gentle hose shower until first drainage appears, then stop. Continue monitoring canopy fill and leaf turgor.",
+      "next_steps": "Recheck moisture later today or tomorrow late morning. Water only if readings reach 40\\u201345%, using a gentle hose shower until first drainage appears, then stop. Continue monitoring canopy fill and leaf turgor.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -87,7 +87,7 @@
     {
       "date": "12/19/2025",
       "time": "10:28 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.58",
@@ -105,7 +105,7 @@
       },
       "observations": "Thai basil appears vigorous and increasingly full with broad, evenly colored leaves and upright stems. New leaf pairs are forming at multiple tips with balanced spacing and no visible wilting, yellowing, or scorch. Soil appears evenly moist and stable, consistent with the high moisture reading and warm conditions.",
       "actions": "Do not water or fertilize this evening. Allow the root zone to continue drying naturally and recheck moisture tomorrow late morning or early afternoon.",
-      "next_steps": "Recheck moisture tomorrow late morning or early afternoon and water only if moisture drops into the 40\u201350 range. If watering is needed, use a gentle hose shower and water slowly until the soil is evenly darkened and first drainage appears, then stop. Continue monitoring canopy thickening as leaves begin to overlap more consistently.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon and water only if moisture drops into the 40\\u201350 range. If watering is needed, use a gentle hose shower and water slowly until the soil is evenly darkened and first drainage appears, then stop. Continue monitoring canopy thickening as leaves begin to overlap more consistently.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -124,7 +124,7 @@
     {
       "date": "12/18/2025",
       "time": "1:24 PM",
-      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.20",
@@ -142,7 +142,7 @@
       },
       "observations": "Thai basil plants appear healthy and upright with broad, evenly green leaves and steady vegetative growth. No signs of stress are visible following morning rainfall. Soil is uniformly wet from repeated rain events but remains well structured with no pooling or collapse.",
       "actions": "Do not water or fertilize today. Allow the soil to dry naturally after rainfall.",
-      "next_steps": "Recheck moisture once readings fall below 70. Resume watering only when moisture reaches the 40\u201350 range. Continue monitoring canopy density as leaves begin to overlap.",
+      "next_steps": "Recheck moisture once readings fall below 70. Resume watering only when moisture reaches the 40\\u201350 range. Continue monitoring canopy density as leaves begin to overlap.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -156,7 +156,7 @@
     {
       "date": "12/16/2025",
       "time": "12:14 PM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.27",
@@ -174,7 +174,7 @@
       },
       "observations": "Thai basil plants appear healthy and increasingly full with elongated true leaves and upright stems. Foliage is evenly green with no signs of stress. Soil surface had dried and crusted due to wind exposure but was loosened and fluffed after probe insertion, restoring good structure and aeration while the root zone remains evenly moist.",
       "actions": "Do not water or fertilize today. Leave soil lightly fluffed to maintain surface aeration.",
-      "next_steps": "Monitor moisture over the next 1\u20132 days, especially with storms forecast. Resume watering only if moisture drops into the low-to-mid 40s. Continue allowing uninterrupted vegetative growth.",
+      "next_steps": "Monitor moisture over the next 1\\u20132 days, especially with storms forecast. Resume watering only if moisture drops into the low-to-mid 40s. Continue allowing uninterrupted vegetative growth.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -193,7 +193,7 @@
     {
       "date": "12/15/2025",
       "time": "10:58 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.31",
@@ -211,7 +211,7 @@
       },
       "observations": "Thai basil plants appear fuller and more established with multiple elongated true leaves and upright stems. Leaf color remains even and healthy with no signs of stress following recent feeding. Soil surface is leveled and improved after adding potting mix to fill probe holes, and moisture remains high but is trending downward appropriately.",
       "actions": "Do not water or fertilize today. Allow the soil to continue drying naturally with breezy conditions.",
-      "next_steps": "Recheck moisture when readings fall below 60. Resume watering only when moisture reaches the 40\u201350 range. Continue watching for dense canopy formation and clearly extended tips suitable for first pinching.",
+      "next_steps": "Recheck moisture when readings fall below 60. Resume watering only when moisture reaches the 40\\u201350 range. Continue watching for dense canopy formation and clearly extended tips suitable for first pinching.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -225,7 +225,7 @@
     {
       "date": "12/14/2025",
       "time": "2:48 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.34",
@@ -241,9 +241,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Thai basil plants remain upright and vigorous with multiple sets of elongated true leaves and steady stem thickening. Foliage is evenly green with no signs of stress or nutrient burn following yesterday\u2019s feeding. Soil is visibly very wet, consistent with the saturated moisture reading and incoming rain conditions.",
+      "observations": "Thai basil plants remain upright and vigorous with multiple sets of elongated true leaves and steady stem thickening. Foliage is evenly green with no signs of stress or nutrient burn following yesterday\\u2019s feeding. Soil is visibly very wet, consistent with the saturated moisture reading and incoming rain conditions.",
       "actions": "Do not water or fertilize. Allow the soil to dry down naturally to restore air exchange in the root zone.",
-      "next_steps": "Recheck moisture once readings fall below the 70 range. Resume normal watering only after moisture returns to the 40\u201360 range. Continue watching for fuller canopy formation and leaf overlap.",
+      "next_steps": "Recheck moisture once readings fall below the 70 range. Resume normal watering only after moisture returns to the 40\\u201360 range. Continue watching for fuller canopy formation and leaf overlap.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -257,7 +257,7 @@
     {
       "date": "12/12/2025",
       "time": "1:30 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.25",
@@ -275,7 +275,7 @@
       },
       "observations": "Thai basil plants are upright and actively expanding with multiple elongated true leaves per stem. Foliage is evenly green with no signs of wilting, scorch, or pest damage, and stems are beginning to thicken as the plants continue early vegetative growth. Soil appears evenly moist with good structure and no surface crusting in the shared herb window box.",
       "actions": "Do not water today; soil moisture is already ideal. Plan for a light feeding at the next morning watering to support continued vegetative expansion.",
-      "next_steps": "At the next morning watering, mix \u00bd teaspoon Purived 4-5-5 into 4\u20136 cups of water and apply evenly across the entire window box as the only watering. After feeding, recheck moisture in 24\u201348 hours and water again only if readings fall below the upper 30s. Continue monitoring leaf density and canopy thickening as the plants approach the first pinching window.",
+      "next_steps": "At the next morning watering, mix \\xbd teaspoon Purived 4-5-5 into 4\\u20136 cups of water and apply evenly across the entire window box as the only watering. After feeding, recheck moisture in 24\\u201348 hours and water again only if readings fall below the upper 30s. Continue monitoring leaf density and canopy thickening as the plants approach the first pinching window.",
       "q_and_a_summary": "Discussed whether the diluted Purived solution could contact the basil leaves; confirmed that light foliar contact is safe at this strength when applied in the morning and does not require rinsing.",
       "follow_up": [
         "[7:30 AM] Fertilized the entire herb box with 4 cups of diluted Purived 4-5-5 solution."
@@ -291,7 +291,7 @@
     {
       "date": "12/10/2025",
       "time": "8:57 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.15",
@@ -307,7 +307,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Thai basil seedlings show vigorous early vegetative growth with widening true leaves and upright posture across the entire patch. Leaf color is bright and even, and the soil appears uniformly moist following recent rain without showing signs of saturation. New leaf pairs are emerging, and stems remain firm with no evidence of cutworm activity after yesterday\u2019s DeadBug application. The cilantro behind the basil also looks strong, signaling balanced moisture in the shared planter.",
+      "observations": "Thai basil seedlings show vigorous early vegetative growth with widening true leaves and upright posture across the entire patch. Leaf color is bright and even, and the soil appears uniformly moist following recent rain without showing signs of saturation. New leaf pairs are emerging, and stems remain firm with no evidence of cutworm activity after yesterday\\u2019s DeadBug application. The cilantro behind the basil also looks strong, signaling balanced moisture in the shared planter.",
       "actions": "Do not water today; moisture is ideal and temperatures will remain moderate. Hold off on fertilizer until the basil produces slightly more foliage density. Leave the soil surface undisturbed as structure is currently excellent.",
       "next_steps": "Recheck moisture late tomorrow morning and water only if values fall below the upper 30s. Continue watching for overlapping leaf layers and stem thickening as cues to begin very light Purived 4-5-5 feeding. Monitor soil temperature through the cool night to ensure continued morning recovery.",
       "q_and_a_summary": "",
@@ -323,7 +323,7 @@
     {
       "date": "12/9/2025",
       "time": "8:06 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.25",
         "ec_mScm": "0.11",
@@ -341,11 +341,11 @@
       },
       "observations": "Thai basil seedlings appear vigorous and well-hydrated with upright posture and bright, even foliage. True leaves are widening and overlapping more densely, indicating active vegetative growth. The soil surface shows improved structure and uniformity after filling the probe hole and incorporating fresh Miracle-Gro Moisture Control Potting Mix. No signs of wilt, discoloration, or stress are visible, and the cilantro row behind remains equally healthy.",
       "actions": "Do not water today; moisture is ideal and incoming rain may increase levels naturally. Hold off on fertilizer until foliage mass thickens further. Maintain current sun exposure and avoid additional soil disturbance.",
-      "next_steps": "Recheck moisture after tonight\u2019s possible showers to ensure the basil does not sit above roughly 80 mS/cm for long. Begin watching for foliage layering as a signal to start very light Purived 4-5-5 feeding. Continue monitoring morning temperature dips and confirm steady afternoon recovery.",
+      "next_steps": "Recheck moisture after tonight\\u2019s possible showers to ensure the basil does not sit above roughly 80 mS/cm for long. Begin watching for foliage layering as a signal to start very light Purived 4-5-5 feeding. Continue monitoring morning temperature dips and confirm steady afternoon recovery.",
       "q_and_a_summary": "",
       "follow_up": [
         "[8:06 AM] Filled in the probe hole, fluffed the soil surface, and added Miracle-Gro Moisture Control Potting Mix to improve structure and even out moisture.",
-        "[4:38 PM] Sprayed Captain Jack\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+        "[4:38 PM] Sprayed Captain Jack\\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
       ],
       "photos": [
         {
@@ -358,7 +358,7 @@
     {
       "date": "12/8/2025",
       "time": "11:14 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.45",
         "ec_mScm": "0.31",
@@ -376,7 +376,7 @@
       },
       "observations": "Thai basil seedlings appear vigorous and upright with expanding true leaves forming a dense, healthy patch. Leaf color is bright and even, and the soil surface shows uniform moisture despite earlier dry probe pockets. No signs of wilt, discoloration, or heat stress are present, and the shared planter remains balanced with the cilantro row also showing strong growth.",
       "actions": "Do not water today; moisture is ideal and incoming rain will maintain hydration. Hold fertilizer until the seedlings develop more mature foliage and moisture begins cycling lower. Leave the soil surface undisturbed.",
-      "next_steps": "Expect moisture to rise slightly with rain; wait to water again until readings fall near the 40\u201350 mS/cm range. Recheck pH later this week to confirm continued stability and plan for very light Purived 4-5-5 feeding once growth and moisture cycling are consistent.",
+      "next_steps": "Expect moisture to rise slightly with rain; wait to water again until readings fall near the 40\\u201350 mS/cm range. Recheck pH later this week to confirm continued stability and plan for very light Purived 4-5-5 feeding once growth and moisture cycling are consistent.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -390,7 +390,7 @@
     {
       "date": "12/7/2025",
       "time": "12:59 PM",
-      "conditions": "Patchy fog early, then sunny with a high near 86\u00b0F and a low around 66\u00b0F overnight, with a slight chance of showers Sunday afternoon.",
+      "conditions": "Patchy fog early, then sunny with a high near 86\\xb0F and a low around 66\\xb0F overnight, with a slight chance of showers Sunday afternoon.",
       "digital_probe": {
         "ph": "6.89",
         "ec_mScm": "0.33",
@@ -408,7 +408,7 @@
       },
       "observations": "The Thai basil patch is now well established with sturdy stems and overlapping true leaves forming a solid band of foliage in front of the cilantro. Leaves are a healthy, even green with no scorch or wilt, and the soil beneath the canopy reads as comfortably moist rather than saturated.",
       "actions": "Do not water today; moisture near 59 mS/cm is ideal for this stage, even with the warm, sunny forecast. Leave the planter to dry down further before the next irrigation and hold all fertilizer until at least the next check when moisture and pH can be confirmed.",
-      "next_steps": "Plan to probe again within the next one to two days or sooner if conditions turn windier or hotter than expected. When moisture is cycling between roughly 30\u201360 mS/cm and pH continues to hover near the high 5s to 6\u20137 range, begin very light, infrequent feeding with Purived 4-5-5 while continuing to avoid overwatering.",
+      "next_steps": "Plan to probe again within the next one to two days or sooner if conditions turn windier or hotter than expected. When moisture is cycling between roughly 30\\u201360 mS/cm and pH continues to hover near the high 5s to 6\\u20137 range, begin very light, infrequent feeding with Purived 4-5-5 while continuing to avoid overwatering.",
       "q_and_a_summary": "Discussed whether the basil needed watering today given the warm, sunny forecast; confirmed that with moisture around 59 mS/cm and vigorous growth, no irrigation is needed and the planter should be allowed to dry further before the next watering.",
       "follow_up": [],
       "photos": [
@@ -422,7 +422,7 @@
     {
       "date": "12/2/2025",
       "time": "10:56 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight, with wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight, with wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.58",
         "ec_mScm": "0.16",
@@ -454,7 +454,7 @@
     {
       "date": "12/1/2025",
       "time": "5:22 PM",
-      "conditions": "Mostly cloudy through the afternoon with temperatures in the mid-70s\u00b0F and a low around 69\u00b0F overnight, with possible showers near 6 PM.",
+      "conditions": "Mostly cloudy through the afternoon with temperatures in the mid-70s\\xb0F and a low around 69\\xb0F overnight, with possible showers near 6 PM.",
       "digital_probe": {
         "ph": "4.65",
         "ec_mScm": "0.45",
@@ -472,7 +472,7 @@
       },
       "observations": "By early evening the Thai basil patch is lush and leafy with no wilting, but the soil is very wet following recent water and weather, and light at the sensor is low as the day winds down. Probe readings show high moisture, elevated salts, and a strongly acidic pH, suggesting the roots are sitting in a very saturated mix.",
       "actions": "Do not apply any additional water or fertilizer; allow the planter to drain and the surface to dry naturally. Keep foliage as dry as possible and avoid disturbing the roots while the soil is this wet.",
-      "next_steps": "Take the next reading earlier in the day once the top of the soil has begun to dry and moisture has dropped closer to the 40\u201360 mS/cm range. Continue monitoring the acidic pH behavior and postpone any feeding until both moisture and pH are more stable.",
+      "next_steps": "Take the next reading earlier in the day once the top of the soil has begun to dry and moisture has dropped closer to the 40\\u201360 mS/cm range. Continue monitoring the acidic pH behavior and postpone any feeding until both moisture and pH are more stable.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -504,7 +504,7 @@
       },
       "observations": "The Thai basil has shifted from a fine seedling carpet into small, distinct plants with longer first true leaves spreading over the soil surface. Moisture is sitting in a healthy mid-range and pH has rebounded close to neutral, aligning well with the strong, even color in the foliage.",
       "actions": "Do not water at this time; readings show a comfortable balance of moisture and salts with no visible stress in the basil. Continue to avoid fertilizer until the plants carry several sets of true leaves and this neutral pH pattern holds steady.",
-      "next_steps": "Plan another probe check within 1\u20132 days to confirm that moisture trends remain stable. If growth continues at this pace and readings stay healthy, begin considering a very gentle introduction of Purived 4-5-5 later in the coming week.",
+      "next_steps": "Plan another probe check within 1\\u20132 days to confirm that moisture trends remain stable. If growth continues at this pace and readings stay healthy, begin considering a very gentle introduction of Purived 4-5-5 later in the coming week.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -518,7 +518,7 @@
     {
       "date": "11/28/2025",
       "time": "11:01 AM",
-      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight, with clearer conditions expected toward evening.",
+      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight, with clearer conditions expected toward evening.",
       "digital_probe": {
         "ph": "4.95",
         "ec_mScm": "0.08",
@@ -536,7 +536,7 @@
       },
       "observations": "Thai basil seedlings share the front zone with cilantro nearby, and both appear upright with good color in the cooler morning conditions. The single reading taken between the two patches shows moderately dry soil but not extreme dryness, and there is no visible sagging or curling of basil foliage.",
       "actions": "Hold off on watering for now; at 25 mS/cm the root zone is on the drier side but still comfortable, especially with the cooler daytime high. Let the basil enjoy this slightly drier stretch rather than topping off moisture immediately.",
-      "next_steps": "Recheck moisture within a day or two, ideally on a warmer morning. Plan to water the basil section when readings slip closer to 15\u201320 mS/cm or when the leaves start to lose their perky, upright posture.",
+      "next_steps": "Recheck moisture within a day or two, ideally on a warmer morning. Plan to water the basil section when readings slip closer to 15\\u201320 mS/cm or when the leaves start to lose their perky, upright posture.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -550,7 +550,7 @@
     {
       "date": "11/27/2025",
       "time": "1:53 PM",
-      "conditions": "Cloudy with a high of 81\u00b0F dropping to 65\u00b0F overnight, with rainy conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 81\\xb0F dropping to 65\\xb0F overnight, with rainy conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "4.84",
         "ec_mScm": "0.22",
@@ -582,7 +582,7 @@
     {
       "date": "11/26/2025",
       "time": "12:13 PM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight, with thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight, with thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "7.52",
         "ec_mScm": "0.19",
@@ -600,7 +600,7 @@
       },
       "observations": "The Thai basil seedlings have thickened into two main patches with upright leaves, and the soil surface looks sun-warmed rather than bone-dry. The Thai basil reading shows moisture at 0.00 mS/cm while the nearby cilantro reading moments later shows reasonable moisture, indicating a moisture-sensor contact failure rather than truly dry soil under the basil.",
       "actions": "Treat the 0.00 moisture value as a probe error rather than an emergency dryness signal. Do not soak the planter; if the top inch feels very powder-dry before the storms arrive, add only a small splash of water spread gently across the basil zone and let the incoming rain handle the rest.",
-      "next_steps": "Take a follow-up probe reading the day after the storms once the surface has drained to confirm that moisture has settled back into roughly the 30\u201360 mS/cm band and that pH is drifting back toward the mid-6s. Continue to hold off on fertilizer until roots are better established and readings are more consistent.",
+      "next_steps": "Take a follow-up probe reading the day after the storms once the surface has drained to confirm that moisture has settled back into roughly the 30\\u201360 mS/cm band and that pH is drifting back toward the mid-6s. Continue to hold off on fertilizer until roots are better established and readings are more consistent.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -614,7 +614,7 @@
     {
       "date": "11/25/2025",
       "time": "3:10 PM",
-      "conditions": "Sunny all day with a high of 84\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Sunny all day with a high of 84\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.86",
         "ec_mScm": "0.47",
@@ -632,7 +632,7 @@
       },
       "observations": "The Thai basil seedlings are noticeably denser with small clusters beginning to form, and foliage remains upright despite very wet soil from the 2:33 PM watering. The probe shows saturated moisture and a strongly acidic pH, but leaves appear turgid and unstressed at this point.",
       "actions": "Do not water again today; allow the planter to drain and the surface to dry naturally. Avoid applying any fertilizer while moisture and salts are elevated, and leave the root zone undisturbed so the seedlings can continue to root into the mix.",
-      "next_steps": "Take a late-morning reading tomorrow or the following day to confirm that moisture has dropped back toward the 40\u201360 mS/cm range. If pH continues to sit below about 5.0 after a couple of dry-down cycles, plan a very small top-dress of dolomite lime rather than any additional feeding.",
+      "next_steps": "Take a late-morning reading tomorrow or the following day to confirm that moisture has dropped back toward the 40\\u201360 mS/cm range. If pH continues to sit below about 5.0 after a couple of dry-down cycles, plan a very small top-dress of dolomite lime rather than any additional feeding.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -646,7 +646,7 @@
     {
       "date": "11/24/2025",
       "time": "12:17 PM",
-      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.69",
         "ec_mScm": "0.28",
@@ -678,7 +678,7 @@
     {
       "date": "11/23/2025",
       "time": "1:55 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.21",
         "ec_mScm": "0.18",
@@ -696,7 +696,7 @@
       },
       "observations": "Soil moisture has recovered well since the prior day's dryness, rising into the mid-40s and supporting visible improvement in seedling posture. Basil sprouts appear healthy, upright, and evenly green, with multiple seedlings showing the first true-leaf tips emerging. pH has rebounded naturally after the prior watering, now reading 5.21 and trending back toward a stable early-basil range. Despite a high midday soil temperature near the planter edge, no heat stress symptoms are present.",
       "actions": "No immediate watering needed since moisture is currently adequate. Continue providing full sun exposure while monitoring moisture levels during the hotter parts of the afternoon.",
-      "next_steps": "Recheck moisture later today or tomorrow morning to ensure it remains above the low-30 range as seedlings continue root development. Avoid fertilizer or lime additions while early growth remains sensitive. Expect first true leaves to begin opening within the next 24\u201348 hours.",
+      "next_steps": "Recheck moisture later today or tomorrow morning to ensure it remains above the low-30 range as seedlings continue root development. Avoid fertilizer or lime additions while early growth remains sensitive. Expect first true leaves to begin opening within the next 24\\u201348 hours.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -710,7 +710,7 @@
     {
       "date": "11/22/2025",
       "time": "11:29 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.60",
         "ec_mScm": "0.12",
@@ -744,7 +744,7 @@
     {
       "date": "11/21/2025",
       "time": "3:31 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.97",
         "ec_mScm": "0.22",
@@ -762,7 +762,7 @@
       },
       "observations": "pH has corrected into the optimal basil range after several days of lime activity, and moisture remains steady in the mid-50s. Sprouts in the Thai Basil section appear healthy, upright, and evenly green with early true-leaf nubs forming, consistent with the expected transition from germination into first-leaf development. Soil surface shows good texture without crusting or compaction, and no stress indicators such as wilting, discoloration, or damping-off are present.",
       "actions": "No watering needed at this time since soil moisture is already appropriate for seedlings. Maintain full sun exposure and continue monitoring moisture and sprout posture through the late afternoon.",
-      "next_steps": "Check the top \u00be inch of soil in the evening or next morning; water gently only if the surface layer becomes dry. Watch for the first pair of true leaves to expand over the next 48\u201372 hours as temperatures remain favorable.",
+      "next_steps": "Check the top \\xbe inch of soil in the evening or next morning; water gently only if the surface layer becomes dry. Watch for the first pair of true leaves to expand over the next 48\\u201372 hours as temperatures remain favorable.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -776,7 +776,7 @@
     {
       "date": "11/20/2025",
       "time": "1:28 PM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.87",
         "ec_mScm": "0.33",
@@ -802,7 +802,7 @@
     {
       "date": "11/19/2025",
       "time": "9:41 AM",
-      "conditions": "Clear with full sun and a temperature of 70\u00b0F.",
+      "conditions": "Clear with full sun and a temperature of 70\\xb0F.",
       "digital_probe": {
         "ph": "4.46",
         "ec_mScm": "0.15",
@@ -841,7 +841,7 @@
     {
       "date": "11/18/2025",
       "time": "9:06 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -873,7 +873,7 @@
     {
       "date": "11/17/2025",
       "time": "9:06 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.98",
         "ec_mScm": "0.27",
@@ -891,7 +891,7 @@
       },
       "observations": "No visible Thai Basil sprouts yet. Soil is evenly moist after recent rehydration but pH remains on the acidic side, potentially slowing germination slightly.",
       "actions": "Apply a light top-dress of lime to help raise pH. Maintain gentle surface moisture without over-watering.",
-      "next_steps": "Recheck pH and moisture in 24\u201348 hours. Watch for first basil sprout emergence later in the week as conditions improve.",
+      "next_steps": "Recheck pH and moisture in 24\\u201348 hours. Watch for first basil sprout emergence later in the week as conditions improve.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -905,7 +905,7 @@
     {
       "date": "11/13/2025",
       "time": "9:35 AM",
-      "conditions": "Clear with morning shade transitioning to sun and a temperature of 67\u00b0F.",
+      "conditions": "Clear with morning shade transitioning to sun and a temperature of 67\\xb0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -918,7 +918,7 @@
       },
       "analog_probe": {
         "fertility": "yellow",
-        "moisture": "between 2\u20133",
+        "moisture": "between 2\\u20133",
         "ph": "around 7"
       },
       "observations": "Soil is still on the dry side but improving compared to the previous day. No sprouts visible in this section yet as seeds continue early water uptake.",
@@ -937,7 +937,7 @@
     {
       "date": "11/12/2025",
       "time": "10:09 AM",
-      "conditions": "Clear with full sun and a temperature of 65\u00b0F.",
+      "conditions": "Clear with full sun and a temperature of 65\\xb0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

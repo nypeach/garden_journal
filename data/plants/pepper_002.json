@@ -10,8 +10,8 @@
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Seeds planted on Nov 12, 2025 in the left section.",
-    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left.",
-    "Shares the window box with Scotch Bonnet and Jalape\u00f1o."
+    "Planted in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" left.",
+    "Shares the window box with Scotch Bonnet and Jalape\\xf1o."
   ],
   "whats_been_logged": "The plant is now in an active early-seedling phase with expanding true leaves, steady moisture conditions, and well-aerated soil following recent adjustments. The plant has shown consistent daily growth, healthy leaf development, and stable soil chemistry, while monitoring has centered on moisture behavior through rain cycles and early preventive pest management across the shared container.",
   "current_stage": "Early Vegetative Growth",
@@ -62,7 +62,7 @@
     {
       "date": "12/20/2025",
       "time": "7:51 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.10",
@@ -79,8 +79,8 @@
         "ph": ""
       },
       "observations": "The plant remains upright and actively growing, but chewing damage has increased noticeably with multiple fresh holes present across several leaves. New growth remains mostly intact, and overall vigor is still strong. Soil is beginning to dry down after recent sunny conditions.",
-      "actions": "Water the window box evenly using moderate hose flow for 30\u201345 seconds, then apply Captain Jack\u2019s Dead Bug to the entire planter, spraying both sides of leaves and inner canopy.",
-      "next_steps": "Monitor daily for new chew damage over the next 48\u201372 hours. Reapply insecticide only if feeding continues. Recheck moisture with the next probe reading to track dry-down rate.",
+      "actions": "Water the window box evenly using moderate hose flow for 30\\u201345 seconds, then apply Captain Jack\\u2019s Dead Bug to the entire planter, spraying both sides of leaves and inner canopy.",
+      "next_steps": "Monitor daily for new chew damage over the next 48\\u201372 hours. Reapply insecticide only if feeding continues. Recheck moisture with the next probe reading to track dry-down rate.",
       "q_and_a_summary": "Discussed escalating chew damage and confirmed insecticide treatment is now appropriate; explained why only one pepper may be targeted.",
       "follow_up": [],
       "photos": [
@@ -109,7 +109,7 @@
     {
       "date": "12/19/2025",
       "time": "10:16 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.24",
@@ -127,7 +127,7 @@
       },
       "observations": "The plant remains in healthy early vegetative growth with expanding leaf mass, upright stems, and consistent green coloration. Minor chew holes are present on a few leaves but are limited in number and not affecting new growth. Soil is moist and well aerated with no signs of compaction or stress.",
       "actions": "Do not water or apply insecticide today. Maintain full sun exposure and continue monitoring for any increase in pest activity.",
-      "next_steps": "Recheck moisture tomorrow midday and water only if levels fall below 40\u201345 mS/cm. Monitor leaves daily for changes in chew damage pattern before considering treatment.",
+      "next_steps": "Recheck moisture tomorrow midday and water only if levels fall below 40\\u201345 mS/cm. Monitor leaves daily for changes in chew damage pattern before considering treatment.",
       "q_and_a_summary": "Discussed whether observed leaf holes are new chew damage and whether insecticide is warranted; confirmed damage is minor and does not justify treatment at this time.",
       "follow_up": [],
       "photos": [
@@ -146,7 +146,7 @@
     {
       "date": "12/18/2025",
       "time": "12:55 PM",
-      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.36",
@@ -164,7 +164,7 @@
       },
       "observations": "The plant continues healthy early vegetative growth with expanding leaf size, upright stems, and even green coloration. New growth appears slightly lighter green, consistent with active expansion. Soil is fully saturated from morning rainfall but remains well-structured, with no signs of pooling, collapse, or plant stress.",
       "actions": "Do not water today. Maintain full sun exposure and allow soil to dry naturally following rainfall.",
-      "next_steps": "Recheck moisture tomorrow afternoon after drainage and evaporation. Water only if moisture falls below 45\u201350 mS/cm. Continue monitoring leaf expansion and overall vigor.",
+      "next_steps": "Recheck moisture tomorrow afternoon after drainage and evaporation. Water only if moisture falls below 45\\u201350 mS/cm. Continue monitoring leaf expansion and overall vigor.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -183,7 +183,7 @@
     {
       "date": "12/16/2025",
       "time": "11:53 AM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.16",
@@ -201,7 +201,7 @@
       },
       "observations": "The plants continue healthy early vegetative growth with broadening true leaves, upright stems, and even green coloration. Leaf posture remains firm and responsive to light with no signs of wilt or stress. The soil surface was dry and lightly crusted from wind exposure, but the root zone remains adequately moist and well aerated after gentle surface fluffing.",
       "actions": "Do not water today. Maintain full sun exposure and allow possible overnight rain to contribute to rehydration.",
-      "next_steps": "Recheck moisture after overnight weather passes. Water only if moisture drops below 35\u201340 mS/cm and rainfall does not occur. Continue light surface loosening if wind causes crusting.",
+      "next_steps": "Recheck moisture after overnight weather passes. Water only if moisture drops below 35\\u201340 mS/cm and rainfall does not occur. Continue light surface loosening if wind causes crusting.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -225,7 +225,7 @@
     {
       "date": "12/15/2025",
       "time": "10:34 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.29",
@@ -267,7 +267,7 @@
     {
       "date": "12/14/2025",
       "time": "2:34 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.26",
@@ -304,7 +304,7 @@
     {
       "date": "12/12/2025",
       "time": "1:15 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.21",
@@ -341,7 +341,7 @@
     {
       "date": "12/11/2025",
       "time": "4:51 PM",
-      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.33",
@@ -360,7 +360,7 @@
       "observations": "The plant appears healthy and stable with expanding true leaves that are beginning to lay flatter as growth shifts from vertical to lateral development. Leaf color remains evenly pepper-green with firm structure and upright stems. Soil surface is settled and well-aerated with no signs of crusting, collapse, or excess moisture. No visual indicators of cold stress, wilting, or nutrient imbalance are present.",
       "actions": "Do not water today. Maintain full sun exposure to continue strengthening stems and supporting leaf expansion.",
       "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 40 mS/cm. Continue monitoring overnight temperatures and early leaf progression.",
-      "q_and_a_summary": "Discussed whether overnight temperatures in the low 50s\u00b0F are a concern; confirmed these conditions are safe for pepper seedlings and do not require intervention.",
+      "q_and_a_summary": "Discussed whether overnight temperatures in the low 50s\\xb0F are a concern; confirmed these conditions are safe for pepper seedlings and do not require intervention.",
       "follow_up": [],
       "photos": [
         {
@@ -378,7 +378,7 @@
     {
       "date": "12/10/2025",
       "time": "8:36 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.21",
@@ -415,7 +415,7 @@
     {
       "date": "12/8/2025",
       "time": "10:53 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.91",
         "ec_mScm": "0.31",
@@ -453,7 +453,7 @@
       "plant": "Orange Cal Wonder",
       "date": "12/07/2025",
       "time": "12:37 PM",
-      "conditions": "Sunny with a high near 86\u00b0F, patchy morning fog, light south winds 5\u20138 mph. Tonight partly cloudy with a low around 66\u00b0F. Tomorrow mostly sunny with a high near 87\u00b0F and a slight chance of showers.",
+      "conditions": "Sunny with a high near 86\\xb0F, patchy morning fog, light south winds 5\\u20138 mph. Tonight partly cloudy with a low around 66\\xb0F. Tomorrow mostly sunny with a high near 87\\xb0F and a slight chance of showers.",
       "digital_probe": {
         "ph": "5.39",
         "ec_mScm": "0.40",
@@ -500,7 +500,7 @@
       "plant": "Orange Cal Wonder",
       "date": "12/04/2025",
       "time": "4:49 PM",
-      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight. Soil was fully dried out by early afternoon before watering.",
+      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight. Soil was fully dried out by early afternoon before watering.",
       "digital_probe": {
         "ph": "5.71",
         "ec_mScm": "0.39",
@@ -549,7 +549,7 @@
       "plant": "Orange Cal Wonder",
       "date": "12/03/2025",
       "time": "1:40 PM",
-      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.21",
         "ec_mScm": "0.14",
@@ -567,7 +567,7 @@
       },
       "observation": "Seedlings show healthy growth with enlarging cotyledons and emerging true leaves. Soil has transitioned out of the saturated phase and is now drying appropriately.",
       "actions": "Water today due to moisture reading of 37 mS/cm. Apply 1/4 cup of water.",
-      "next_steps": "Recheck moisture tomorrow morning for stability in the 45\u201360 range.",
+      "next_steps": "Recheck moisture tomorrow morning for stability in the 45\\u201360 range.",
       "q_and_a_summary": "",
       "follow_up": [
         "[1:50 PM] Added 1/4 cup of water due to low moisture reading."
@@ -598,7 +598,7 @@
       "plant": "Orange Cal Wonder",
       "date": "11/28/2025",
       "time": "10:31 AM",
-      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight. Clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "5.03",
         "ec_mScm": "0.50",
@@ -645,7 +645,7 @@
       "plant": "Orange Cal Wonder",
       "date": "11/27/2025",
       "time": "11:06 AM",
-      "conditions": "Cloudy with a high of 81\u00b0F dropping to 65\u00b0F. Rainy conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 81\\xb0F dropping to 65\\xb0F. Rainy conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "5.29",
         "ec_mScm": "0.44",
@@ -691,7 +691,7 @@
       "plant": "Orange Cal Wonder",
       "date": "11/26/2025",
       "time": "10:47 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "5.61",
         "ec_mScm": "0.57",
@@ -735,7 +735,7 @@
       "plant": "Orange Cal Wonder",
       "date": "11/24/2025",
       "time": "10:44 AM",
-      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.93",
         "ec_mScm": "0.32",
@@ -778,7 +778,7 @@
     {
       "date": "11/21/2025",
       "time": "3:24 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.45",
         "ec_mScm": "0.52",
@@ -794,7 +794,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Soil remains in ideal germination range with stable pH at 6.45, moderate moisture at 57 mS/cm, and warm soil temperature of 82\u00b0F. Nutrients are balanced with low salt levels, and the soil surface in the photo appears even, moist but not saturated, and free of crusting or fungus. No sprouts are visible yet, but conditions are the most germination-ready recorded so far.",
+      "observations": "Soil remains in ideal germination range with stable pH at 6.45, moderate moisture at 57 mS/cm, and warm soil temperature of 82\\xb0F. Nutrients are balanced with low salt levels, and the soil surface in the photo appears even, moist but not saturated, and free of crusting or fungus. No sprouts are visible yet, but conditions are the most germination-ready recorded so far.",
       "actions": "No actions needed. Do not water or amend today.",
       "next_steps": "Check moisture in 24 hours and water lightly only if it drops below 40 mS/cm. Continue full sun exposure. Watch for soil lifting as a sign of imminent sprouting.",
       "q_and_a_summary": "",
@@ -810,7 +810,7 @@
     {
       "date": "11/20/2025",
       "time": "12:08 PM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.78",
@@ -826,9 +826,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "No sprouts visible. Soil moisture at 60.00 mS/cm is ideal for pepper germination. pH at 6.20 is within optimal range. EC and salt are mildly elevated but still safe. Fertility has increased as nutrients redistributed following earlier overwatering. Soil surface appears even, moist but not saturated, and free of compaction. Photos show stable surface texture and intact seed placement area. Soil temperature around 82\u00b0F is highly favorable for germination.",
+      "observations": "No sprouts visible. Soil moisture at 60.00 mS/cm is ideal for pepper germination. pH at 6.20 is within optimal range. EC and salt are mildly elevated but still safe. Fertility has increased as nutrients redistributed following earlier overwatering. Soil surface appears even, moist but not saturated, and free of compaction. Photos show stable surface texture and intact seed placement area. Soil temperature around 82\\xb0F is highly favorable for germination.",
       "actions": "No actions needed today. Do not water or amend. Maintain full sun exposure to support soil warmth.",
-      "next_steps": "Recheck moisture and pH in 24 hours. Water lightly only if moisture falls below 40 mS/cm. Continue full sun exposure. Expect possible sprouting within the next 3\u20137 days if soil temperatures remain above 75\u00b0F.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Water lightly only if moisture falls below 40 mS/cm. Continue full sun exposure. Expect possible sprouting within the next 3\\u20137 days if soil temperatures remain above 75\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -842,7 +842,7 @@
     {
       "date": "11/19/2025",
       "time": "9:24 AM",
-      "conditions": "Mostly sunny with a high around 82-85\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.93",
         "ec_mScm": "0.37",
@@ -881,7 +881,7 @@
     {
       "date": "11/18/2025",
       "time": "8:46 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.85",
         "ec_mScm": "0.50",
@@ -899,13 +899,13 @@
       },
       "observations": "No sprouts visible. Soil remains moderately moist with a moisture reading of 62.00 mS/cm. pH at 6.85 is close to ideal. EC and salt levels remain low. Fertility is low but acceptable for pre-germination. Soil surface is even and undisturbed. Lime in neighboring areas is not affecting the center section.",
       "actions": "No actions needed today. Do not water or amend.",
-      "next_steps": "Recheck moisture and pH in 24 hours. Expect germination once soil consistently reaches 70\u201375\u00b0F.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Expect germination once soil consistently reaches 70\\u201375\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Pepper box planter showing the Orange Cal Wonder center section with lime-treated Scotch Bonnet and Jalape\u00f1o sections on either side.",
+          "caption": "Pepper box planter showing the Orange Cal Wonder center section with lime-treated Scotch Bonnet and Jalape\\xf1o sections on either side.",
           "tags": "pepper-box, planter, orange-cal-wonder, scotch-bonnet, jalapeno"
         }
       ]
@@ -913,7 +913,7 @@
     {
       "date": "11/17/2025",
       "time": "9:00 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.49",
         "ec_mScm": "0.66",
@@ -939,7 +939,7 @@
     {
       "date": "11/16/2025",
       "time": "10:17 AM",
-      "conditions": "Partly sunny with afternoon temperatures around 73\u00b0F and an expected overnight low in the upper 50s\u00b0F.",
+      "conditions": "Partly sunny with afternoon temperatures around 73\\xb0F and an expected overnight low in the upper 50s\\xb0F.",
       "digital_probe": {
         "ph": "4.30",
         "ec_mScm": "0.61",
@@ -965,7 +965,7 @@
     {
       "date": "11/13/2025",
       "time": "9:13 AM",
-      "conditions": "Mostly sunny with morning temperature near 67\u00b0F, rising to about 74\u00b0F by noon and cooling to 57\u00b0F overnight.",
+      "conditions": "Mostly sunny with morning temperature near 67\\xb0F, rising to about 74\\xb0F by noon and cooling to 57\\xb0F overnight.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -978,10 +978,10 @@
       },
       "analog_probe": {
         "fertility": "End of Yellow toward Green",
-        "moisture": "6\u20137 (green)",
+        "moisture": "6\\u20137 (green)",
         "ph": "6 (green)"
       },
-      "observations": "No sprouts visible. Analog readings show moisture in the ideal 6\u20137 range, fertility moving upward, and pH around 6. The soil surface looks evenly moist without compaction.",
+      "observations": "No sprouts visible. Analog readings show moisture in the ideal 6\\u20137 range, fertility moving upward, and pH around 6. The soil surface looks evenly moist without compaction.",
       "actions": "Added about one-third quart of diluted fertilizer to boost nutrients.",
       "next_steps": "Monitor moisture and avoid more fertilizer until after germination.",
       "q_and_a_summary": "User asked for notes; guidance emphasized avoiding further fertilizer and watching moisture.",
@@ -991,7 +991,7 @@
     {
       "date": "11/12/2025",
       "time": "9:22 AM",
-      "conditions": "Cool clear morning around 62\u00b0F with full sun.",
+      "conditions": "Cool clear morning around 62\\xb0F with full sun.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1007,9 +1007,9 @@
         "moisture": "Red (DRY)",
         "ph": "8 (alkaline)"
       },
-      "observations": "Seeds were sown at roughly \u00bc inch depth in dry, alkaline soil with low fertility. Soil appeared dry and slightly coarse before watering.",
+      "observations": "Seeds were sown at roughly \\xbc inch depth in dry, alkaline soil with low fertility. Soil appeared dry and slightly coarse before watering.",
       "actions": "Moistened the entire box with mild vinegar water to begin lowering pH.",
-      "next_steps": "Recheck soil pH and moisture within 24\u201348 hours.",
+      "next_steps": "Recheck soil pH and moisture within 24\\u201348 hours.",
       "q_and_a_summary": "User asked whether more steps were needed; guidance was to wait and monitor.",
       "follow_up": [],
       "photos": [

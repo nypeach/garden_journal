@@ -1,7 +1,7 @@
 {
   "id": "pepper_003",
   "status": "Active",
-  "plant": "Jalape\u00f1o",
+  "plant": "Jalape\\xf1o",
   "physical_location": "Loxahatchee, FL",
   "garden_location": "Panel 7",
   "full_sun_start": "9:10 AM EST",
@@ -10,7 +10,7 @@
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Seeds planted on Nov 12, 2025 in the left section.",
-    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left.",
+    "Planted in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" left.",
     "Shares the window box with Scotch Bonnet and Orange Cal Wonder."
   ],
   "whats_been_logged": "The plant has progressed from early emergence into steady true-leaf development, with attention focused on stabilizing moisture and pH after oversaturation. Monitoring has emphasized the vigor of the seedling cluster, the resolution of early pest activity, and improvements in soil structure as the plant transitions into active vegetative growth.",
@@ -42,11 +42,11 @@
       "date_range": "Jan 25 - Feb 10, 2026"
     },
     {
-      "what_i_should_see": "Early fruit set (tiny green jalape\u00f1os)",
+      "what_i_should_see": "Early fruit set (tiny green jalape\\xf1os)",
       "date_range": "Feb 10 - Feb 25, 2026"
     },
     {
-      "what_i_should_see": "Full-sized green jalape\u00f1os",
+      "what_i_should_see": "Full-sized green jalape\\xf1os",
       "date_range": "Feb 25 - Mar 15, 2026"
     },
     {
@@ -58,7 +58,7 @@
     {
       "date": "12/20/2025",
       "time": "7:51 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.20",
@@ -74,9 +74,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalape\u00f1o cluster is upright and actively expanding with evenly lengthening stems and broadening leaves. Foliage remains uniformly light green without wilting or distortion. Soil surface appears evenly moist with good structure and no crusting or pooling.",
+      "observations": "The jalape\\xf1o cluster is upright and actively expanding with evenly lengthening stems and broadening leaves. Foliage remains uniformly light green without wilting or distortion. Soil surface appears evenly moist with good structure and no crusting or pooling.",
       "actions": "Do not water or fertilize today. Allow the soil to continue drying naturally under full sun.",
-      "next_steps": "Recheck probe readings tomorrow morning or early afternoon. Plan to water once moisture reaches 40\u201345. Prepare for a light feeding once fertility drops below 10.",
+      "next_steps": "Recheck probe readings tomorrow morning or early afternoon. Plan to water once moisture reaches 40\\u201345. Prepare for a light feeding once fertility drops below 10.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -100,7 +100,7 @@
     {
       "date": "12/19/2025",
       "time": "10:16 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.41",
@@ -116,15 +116,15 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalape\u00f1o cluster shows improved vigor with larger leaves, upright stems, and a slightly deeper green coloration compared to previous days. Growth is uniform across the planter, and no wilting or structural stress is present. A few small cosmetic leaf spots are visible on older leaves, consistent with recent weather stress rather than disease. Soil remains moderately moist and stable.",
+      "observations": "The jalape\\xf1o cluster shows improved vigor with larger leaves, upright stems, and a slightly deeper green coloration compared to previous days. Growth is uniform across the planter, and no wilting or structural stress is present. A few small cosmetic leaf spots are visible on older leaves, consistent with recent weather stress rather than disease. Soil remains moderately moist and stable.",
       "actions": "Do not water or fertilize today. Allow the soil to continue drying naturally through tonight and tomorrow.",
-      "next_steps": "Recheck moisture late morning or early afternoon tomorrow. Plan to water only if moisture drops to 40\u201345. Monitor fertility trend before scheduling any feeding.",
+      "next_steps": "Recheck moisture late morning or early afternoon tomorrow. Plan to water only if moisture drops to 40\\u201345. Monitor fertility trend before scheduling any feeding.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "pepper_003-20251219-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o cluster showing upright posture and active vegetative growth.",
+          "caption": "Wide view of the jalape\\xf1o cluster showing upright posture and active vegetative growth.",
           "tags": "jalapeno, seedlings, vegetative-growth, planter"
         },
         {
@@ -142,7 +142,7 @@
     {
       "date": "12/18/2025",
       "time": "12:55 PM",
-      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.00",
         "ec_mScm": "0.76",
@@ -158,7 +158,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalape\u00f1o plants remain upright and actively growing with expanding leaves and no wilting despite morning rain. Foliage color is lighter green overall, consistent with temporary nutrient lockout rather than stress. Soil is visibly wet following steady rainfall from early morning through mid-morning, and drainage appears adequate.",
+      "observations": "The jalape\\xf1o plants remain upright and actively growing with expanding leaves and no wilting despite morning rain. Foliage color is lighter green overall, consistent with temporary nutrient lockout rather than stress. Soil is visibly wet following steady rainfall from early morning through mid-morning, and drainage appears adequate.",
       "actions": "Do not water or fertilize today. Allow soil to drain and dry naturally to rebalance pH and nutrient availability.",
       "next_steps": "Recheck probe readings once moisture drops below 50.00. Monitor leaf color for improvement as pH stabilizes. Delay any corrective action unless low pH persists after dry-down.",
       "q_and_a_summary": "",
@@ -166,7 +166,7 @@
       "photos": [
         {
           "file_name": "pepper_003-20251218-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o cluster after morning rain showing upright posture and evenly expanding foliage.",
+          "caption": "Wide view of the jalape\\xf1o cluster after morning rain showing upright posture and evenly expanding foliage.",
           "tags": "jalapeno, seedlings, vegetative-growth, post-rain"
         },
         {
@@ -179,7 +179,7 @@
     {
       "date": "12/16/2025",
       "time": "11:54 AM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.17",
@@ -195,15 +195,15 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalape\u00f1o seedlings remain upright and actively growing with expanding leaves and healthy structure. Foliage color is lighter green overall, consistent with declining fertility rather than stress. Soil surface had crusted from yesterday\u2019s wind, making probe insertion difficult; after readings were taken, the surface was fluffed to restore aeration and infiltration. No pest damage or wilting is visible.",
+      "observations": "The jalape\\xf1o seedlings remain upright and actively growing with expanding leaves and healthy structure. Foliage color is lighter green overall, consistent with declining fertility rather than stress. Soil surface had crusted from yesterday\\u2019s wind, making probe insertion difficult; after readings were taken, the surface was fluffed to restore aeration and infiltration. No pest damage or wilting is visible.",
       "actions": "Do not water today unless rain bypasses the planter entirely. Allow natural rainfall and restored soil aeration to rebalance moisture. No fertilizer is applied today.",
-      "next_steps": "Recheck moisture and fertility within 24\u201348 hours after rain. Plan a light feeding once moisture stabilizes and fertility remains below 10.0. Continue monitoring canopy color and density.",
+      "next_steps": "Recheck moisture and fertility within 24\\u201348 hours after rain. Plan a light feeding once moisture stabilizes and fertility remains below 10.0. Continue monitoring canopy color and density.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "pepper_003-20251216-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o cluster showing upright posture and evenly expanding leaves after wind exposure.",
+          "caption": "Wide view of the jalape\\xf1o cluster showing upright posture and evenly expanding leaves after wind exposure.",
           "tags": "jalapeno, seedlings, vegetative-growth, planter"
         },
         {
@@ -221,7 +221,7 @@
     {
       "date": "12/15/2025",
       "time": "10:35 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.24",
@@ -237,15 +237,15 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalape\u00f1o seedlings continue strong vegetative expansion with noticeably larger leaves and upright, sturdy stems. Foliage color is slightly lighter green but uniform, with no signs of pest damage or wilting. Soil moisture has settled into an ideal range following recent rain, and surface texture appears well aerated.",
+      "observations": "The jalape\\xf1o seedlings continue strong vegetative expansion with noticeably larger leaves and upright, sturdy stems. Foliage color is slightly lighter green but uniform, with no signs of pest damage or wilting. Soil moisture has settled into an ideal range following recent rain, and surface texture appears well aerated.",
       "actions": "Do not water today. Allow wind and sun to continue drying the soil naturally. No fertilizer is applied at this time.",
-      "next_steps": "Recheck moisture and fertility in 24\u201348 hours after dry-down completes. Consider light feeding if fertility drops below 10.0. Continue monitoring canopy density and stem strength.",
+      "next_steps": "Recheck moisture and fertility in 24\\u201348 hours after dry-down completes. Consider light feeding if fertility drops below 10.0. Continue monitoring canopy density and stem strength.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "pepper_003-20251215-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o cluster showing expanded leaf size and upright early vegetative growth.",
+          "caption": "Wide view of the jalape\\xf1o cluster showing expanded leaf size and upright early vegetative growth.",
           "tags": "jalapeno, seedlings, vegetative-growth, planter"
         },
         {
@@ -263,7 +263,7 @@
     {
       "date": "12/14/2025",
       "time": "2:35 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.42",
@@ -279,20 +279,20 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalape\u00f1o seedlings show clear vegetative momentum with larger, well-spread leaves and upright posture across the cluster. Foliage color is healthy and uniform with no visible pest damage or stress. Soil is visibly saturated from recent weather but drainage appears adequate and the plants are responding positively.",
+      "observations": "The jalape\\xf1o seedlings show clear vegetative momentum with larger, well-spread leaves and upright posture across the cluster. Foliage color is healthy and uniform with no visible pest damage or stress. Soil is visibly saturated from recent weather but drainage appears adequate and the plants are responding positively.",
       "actions": "Do not water today. Allow excess moisture to dissipate naturally through drainage and evaporation.",
-      "next_steps": "Recheck moisture after tomorrow\u2019s cooler, drier conditions. Resume watering only if moisture drops below 45.00. Continue monitoring canopy density as growth accelerates.",
+      "next_steps": "Recheck moisture after tomorrow\\u2019s cooler, drier conditions. Resume watering only if moisture drops below 45.00. Continue monitoring canopy density as growth accelerates.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "pepper_003-20251214-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o cluster showing increased leaf size, upright posture, and dense early vegetative growth.",
+          "caption": "Wide view of the jalape\\xf1o cluster showing increased leaf size, upright posture, and dense early vegetative growth.",
           "tags": "jalapeno, seedlings, vegetative-growth, planter"
         },
         {
           "file_name": "pepper_003-20251214-03.jpeg",
-          "caption": "Closer view of the jalape\u00f1o foliage showing healthy green coloration, smooth leaf surfaces, and active expansion.",
+          "caption": "Closer view of the jalape\\xf1o foliage showing healthy green coloration, smooth leaf surfaces, and active expansion.",
           "tags": "jalapeno, leaves, foliage, healthy-growth"
         }
       ]
@@ -300,7 +300,7 @@
     {
       "date": "12/12/2025",
       "time": "1:16 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight. Tonight: Partly cloudy. Tomorrow: Clouds and sunshine with a high of 81\u00b0F.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight. Tonight: Partly cloudy. Tomorrow: Clouds and sunshine with a high of 81\\xb0F.",
       "digital_probe": {
         "ph": "8.4",
         "ec_mScm": "0.16",
@@ -319,12 +319,12 @@
       "observations": "The seedlings are still vigorous, with bright green foliage and expanding true leaves. No visible pest damage. Soil moisture is moderate, and the plant's posture remains strong and healthy.",
       "actions": "Do not water today. Continue to inspect leaves closely for any new chew marks. No additional pest treatment is needed unless fresh damage appears.",
       "next_steps": "Check again tomorrow morning for any new chew marks or stem damage. Recheck moisture at the next morning window and only consider watering if moisture drops below 40.00.",
-      "q_and_a_summary": "Discussed whether tonight\u2019s low temperature is concerning; confirmed 53\u00b0F is cool but not dangerous for jalape\u00f1o seedlings and may only slow growth slightly overnight.",
+      "q_and_a_summary": "Discussed whether tonight\\u2019s low temperature is concerning; confirmed 53\\xb0F is cool but not dangerous for jalape\\xf1o seedlings and may only slow growth slightly overnight.",
       "follow_up": [],
       "photos": [
         {
           "file_name": "pepper_003-20251212-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o seedlings in the planter showing overall posture and soil surface condition.",
+          "caption": "Wide view of the jalape\\xf1o seedlings in the planter showing overall posture and soil surface condition.",
           "tags": "jalapeno, seedlings, wide-view, planter"
         },
         {
@@ -337,7 +337,7 @@
     {
       "date": "12/11/2025",
       "time": "4:53 PM",
-      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.30",
@@ -353,15 +353,15 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The seedlings are upright and stable with expanding true leaves and no visible wilting. A few leaves show small chew marks that appear older, with no obvious fresh feeding patterns visible in today\u2019s photos. Overall color is a lighter green but growth posture remains strong and consistent.",
+      "observations": "The seedlings are upright and stable with expanding true leaves and no visible wilting. A few leaves show small chew marks that appear older, with no obvious fresh feeding patterns visible in today\\u2019s photos. Overall color is a lighter green but growth posture remains strong and consistent.",
       "actions": "Do not water today. Continue to inspect leaves closely for any new chew marks. No additional pest treatment is needed unless fresh damage appears.",
       "next_steps": "Check again tomorrow morning for any new chew marks or stem damage. Recheck moisture at the next morning window and only consider watering if moisture drops below 40.00.",
-      "q_and_a_summary": "Discussed whether tonight\u2019s low temperature is concerning; confirmed 53\u00b0F is cool but not dangerous for jalape\u00f1o seedlings and may only slow growth slightly overnight.",
+      "q_and_a_summary": "Discussed whether tonight\\u2019s low temperature is concerning; confirmed 53\\xb0F is cool but not dangerous for jalape\\xf1o seedlings and may only slow growth slightly overnight.",
       "follow_up": [],
       "photos": [
         {
           "file_name": "pepper_003-20251211-02.jpeg",
-          "caption": "Wide view of the jalape\u00f1o seedlings in the planter showing overall posture and soil surface condition.",
+          "caption": "Wide view of the jalape\\xf1o seedlings in the planter showing overall posture and soil surface condition.",
           "tags": "jalapeno, seedlings, wide-view, planter"
         },
         {
@@ -379,7 +379,7 @@
     {
       "date": "12/10/2025",
       "time": "8:37 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.37",
@@ -403,7 +403,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Morning view of Jalape\u00f1o seedlings with dew-covered leaves showing bright color and upright growth.",
+          "caption": "Morning view of Jalape\\xf1o seedlings with dew-covered leaves showing bright color and upright growth.",
           "tags": "jalapeno, seedlings, dew, foliage"
         },
         {
@@ -413,7 +413,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Overhead view of the Jalape\u00f1o seedlings with consistent color and no new visible pest damage.",
+          "caption": "Overhead view of the Jalape\\xf1o seedlings with consistent color and no new visible pest damage.",
           "tags": "jalapeno, seedlings, top-view"
         }
       ]
@@ -421,7 +421,7 @@
     {
       "date": "12/9/2025",
       "time": "7:45 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.18",
         "ec_mScm": "0.45",
@@ -443,7 +443,7 @@
       "q_and_a_summary": "",
       "follow_up": [
         "[7:45 AM] Filled in the probe hole, fluffed the soil lightly, and added a small amount of Miracle-Gro Moisture Control Potting Mix.",
-        "[4:38 PM] Sprayed Captain Jack\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+        "[4:38 PM] Sprayed Captain Jack\\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
       ],
       "photos": [
         {
@@ -453,12 +453,12 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings showing bright green foliage, upright posture, and continued true leaf development.",
+          "caption": "Jalape\\xf1o seedlings showing bright green foliage, upright posture, and continued true leaf development.",
           "tags": "jalapeno, seedlings, foliage, soil"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Side view of the Jalape\u00f1o cluster with improved soil aeration after light fluffing and added potting mix.",
+          "caption": "Side view of the Jalape\\xf1o cluster with improved soil aeration after light fluffing and added potting mix.",
           "tags": "jalapeno, seedlings, soil, aeration"
         },
         {
@@ -471,7 +471,7 @@
     {
       "date": "12/8/2025",
       "time": "10:54 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.39",
         "ec_mScm": "0.57",
@@ -495,31 +495,31 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today's Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today's Jalape\\xf1o soil readings.",
           "tags": "jalapeno, probe, readings"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings showing upright growth, bright green leaves, and early true leaf development.",
+          "caption": "Jalape\\xf1o seedlings showing upright growth, bright green leaves, and early true leaf development.",
           "tags": "jalapeno, seedlings, foliage, soil"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Side angle of the Jalape\u00f1o cluster showing healthy leaf posture and moist soil from recent rain.",
+          "caption": "Side angle of the Jalape\\xf1o cluster showing healthy leaf posture and moist soil from recent rain.",
           "tags": "jalapeno, seedlings, soil, moisture"
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Additional view of the Jalape\u00f1o seedlings showing consistent color and early vegetative growth.",
+          "caption": "Additional view of the Jalape\\xf1o seedlings showing consistent color and early vegetative growth.",
           "tags": "jalapeno, seedlings, foliage"
         }
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "12/07/2025",
       "time": "12:38 PM",
-      "conditions": "Patchy morning fog, then sunny with a high near 86\u00b0F. Light south wind 5\u20138 mph. Evening partly cloudy with a low around 66\u00b0F. Patchy fog expected overnight.",
+      "conditions": "Patchy morning fog, then sunny with a high near 86\\xb0F. Light south wind 5\\u20138 mph. Evening partly cloudy with a low around 66\\xb0F. Patchy fog expected overnight.",
       "digital_probe": {
         "ph": "4.91",
         "ec_mScm": "0.30",
@@ -537,7 +537,7 @@
       },
       "observation": "Seedlings remain healthy, upright, and vigorously growing. Cotyledons show no new chewing damage compared to prior photos, indicating that pest activity has stopped following the 12/04 spinosad treatment. Moisture is very high due to recent watering and calm, foggy conditions, and soil appears evenly saturated. No signs of wilt, mold, or stress are present.",
       "actions": "Do not water today. No pest treatment required, as no new chew holes are visible and prior damage has not progressed.",
-      "next_steps": "Check moisture again tomorrow late morning. Monitor for the emergence of the first true leaf pair within the next several days. Only reapply spinosad if new holes appear within 5\u20137 days.",
+      "next_steps": "Check moisture again tomorrow late morning. Monitor for the emergence of the first true leaf pair within the next several days. Only reapply spinosad if new holes appear within 5\\u20137 days.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -552,7 +552,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings with no new chewing damage and healthy upright posture.",
+          "caption": "Jalape\\xf1o seedlings with no new chewing damage and healthy upright posture.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -563,10 +563,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "12/04/2025",
       "time": "4:50 PM",
-      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.92",
         "ec_mScm": "0.71",
@@ -584,7 +584,7 @@
       },
       "observation": "Seedlings remain upright and vigorous but now exhibit multiple new pin-holes across cotyledons. Damage is consistent with active flea beetle or small chewing insect activity. No signs of disease or nutrient stress. Soil is well-hydrated following a necessary watering earlier in the afternoon due to rapid drying in Florida sun.",
       "actions": "Apply a light, targeted mist of Captain Jack's Deadbug (spinosad) at dusk. Focus on tops and bottoms of leaves and the soil surface around stems. Do not use neem oil. No additional watering needed today.",
-      "next_steps": "Check seedlings tomorrow morning for any new holes. Evaluate moisture level and apply the next watering based on probe readings. If new damage appears, consider a follow-up spinosad treatment in 5\u20137 days.",
+      "next_steps": "Check seedlings tomorrow morning for any new holes. Evaluate moisture level and apply the next watering based on probe readings. If new damage appears, consider a follow-up spinosad treatment in 5\\u20137 days.",
       "q_and_a_summary": "",
       "follow_up": [
         "[4:45 PM] Observed numerous new pin-holes on cotyledons indicating active pest feeding."
@@ -615,10 +615,10 @@
       "[5:35 PM] Applied Captain Jack's Deadbug as instructed, using a light mist over leaves (top and underside) and soil surface."
     ],
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "12/03/2025",
       "time": "1:40 PM",
-      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.32",
         "ec_mScm": "0.21",
@@ -642,7 +642,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today's Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today's Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -651,7 +651,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings showing upright growth and stable cotyledons with no new pest damage.",
+          "caption": "Jalape\\xf1o seedlings showing upright growth and stable cotyledons with no new pest damage.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -662,10 +662,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "12/02/2025",
       "time": "10:47 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight; wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight; wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "4.99",
         "ec_mScm": "0.47",
@@ -691,7 +691,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today's Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today's Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -700,7 +700,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings with healthy upright cotyledons and a visible chewing hole on one leaf.",
+          "caption": "Jalape\\xf1o seedlings with healthy upright cotyledons and a visible chewing hole on one leaf.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -711,10 +711,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "11/28/2025",
       "time": "10:33 AM",
-      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight; clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight; clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "6.65",
         "ec_mScm": "0.52",
@@ -738,7 +738,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today's Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today's Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -747,7 +747,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings showing healthy upright cotyledons with soil evenly moist after recent rain.",
+          "caption": "Jalape\\xf1o seedlings showing healthy upright cotyledons with soil evenly moist after recent rain.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -758,10 +758,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "11/27/2025",
       "time": "11:12 AM",
-      "conditions": "Cloudy with a high of 81\u00b0F dropping to 65\u00b0F overnight; rain expected around 6 PM.",
+      "conditions": "Cloudy with a high of 81\\xb0F dropping to 65\\xb0F overnight; rain expected around 6 PM.",
       "digital_probe": {
         "ph": "4.88",
         "ec_mScm": "0.35",
@@ -785,7 +785,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today's Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today's Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -794,7 +794,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Cluster of Jalape\u00f1o seedlings showing upright cotyledons and newly leveled soil surface.",
+          "caption": "Cluster of Jalape\\xf1o seedlings showing upright cotyledons and newly leveled soil surface.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -815,10 +815,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "11/26/2025",
       "time": "10:48 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight; thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight; thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "5.58",
         "ec_mScm": "0.28",
@@ -842,7 +842,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today\u2019s Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today\\u2019s Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -851,7 +851,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings showing healthy upright growth with moist soil prior to incoming storms.",
+          "caption": "Jalape\\xf1o seedlings showing healthy upright growth with moist soil prior to incoming storms.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -862,10 +862,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "11/24/2025",
       "time": "10:49 AM",
-      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.46",
         "ec_mScm": "0.10",
@@ -891,7 +891,7 @@
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today\u2019s Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today\\u2019s Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -900,7 +900,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o seedlings showing expanded cotyledons and dry soil surface under morning sun.",
+          "caption": "Jalape\\xf1o seedlings showing expanded cotyledons and dry soil surface under morning sun.",
           "tags": [
             "jalapeno",
             "seedlings",
@@ -911,10 +911,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "11/23/2025",
       "time": "1:19 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.64",
         "ec_mScm": "0.35",
@@ -930,15 +930,15 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Multiple new sprouts have emerged since yesterday, indicating strong germination success within the expected window. Seedlings appear healthy, upright, and evenly colored with no signs of damping-off or stress. Soil pH has risen slightly from yesterday\u2019s low and remains mildly acidic but non-harmful. EC and salts have increased as soil temperature climbed, reflecting normal ion mobility. Moisture remains in an ideal range for early seedlings, and the soil surface is aerated with no fungal growth.",
+      "observation": "Multiple new sprouts have emerged since yesterday, indicating strong germination success within the expected window. Seedlings appear healthy, upright, and evenly colored with no signs of damping-off or stress. Soil pH has risen slightly from yesterday\\u2019s low and remains mildly acidic but non-harmful. EC and salts have increased as soil temperature climbed, reflecting normal ion mobility. Moisture remains in an ideal range for early seedlings, and the soil surface is aerated with no fungal growth.",
       "actions": "No watering needed. Do not add lime or fertilizer. Maintain sunlight exposure and avoid disturbing the dense cluster of emerging seedlings.",
-      "next_steps": "Monitor seedlings over the next 24\u201348 hours for cotyledon expansion. Recheck moisture and pH tomorrow. Begin watching for early stem lengthening as sprouts stabilize.",
+      "next_steps": "Monitor seedlings over the next 24\\u201348 hours for cotyledon expansion. Recheck moisture and pH tomorrow. Begin watching for early stem lengthening as sprouts stabilize.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today\u2019s Jalape\u00f1o soil readings.",
+          "caption": "Digital probe screenshot showing today\\u2019s Jalape\\xf1o soil readings.",
           "tags": [
             "jalapeno",
             "probe",
@@ -947,7 +947,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Multiple new Jalape\u00f1o sprouts emerging around the support pole in the left section of the pepper window box.",
+          "caption": "Multiple new Jalape\\xf1o sprouts emerging around the support pole in the left section of the pepper window box.",
           "tags": [
             "jalapeno",
             "sprouts",
@@ -958,10 +958,10 @@
       ]
     },
     {
-      "plant": "Jalape\u00f1o",
+      "plant": "Jalape\\xf1o",
       "date": "11/22/2025",
       "time": "10:45 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.42",
         "ec_mScm": "0.19",
@@ -979,13 +979,13 @@
       },
       "observation": "Two sprouts have emerged on either side of the support pole, marking successful germination and entry into the seedling emergence stage. Soil moisture continues to decline steadily and remains appropriate for early seedlings. The sharp drop in pH and EC reflects cooler morning temperatures, reduced ion mobility, and natural microbial shifts during sprout emergence. Surface lime remains in patches but is not impeding growth. Soil appears loose and well-aerated with no signs of damping-off or fungal growth.",
       "actions": "No watering required today. Do not add lime or fertilizer. Maintain sunlight exposure and avoid disturbing the cotyledons as they open fully.",
-      "next_steps": "Monitor sprouts over the next 24\u201348 hours for cotyledon expansion. Recheck moisture and pH tomorrow. Begin watching for early signs of stem elongation and ensure the surface stays lightly aerated.",
+      "next_steps": "Monitor sprouts over the next 24\\u201348 hours for cotyledon expansion. Recheck moisture and pH tomorrow. Begin watching for early signs of stem elongation and ensure the surface stays lightly aerated.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today\u2019s soil readings for the Jalape\u00f1o.",
+          "caption": "Digital probe screenshot showing today\\u2019s soil readings for the Jalape\\xf1o.",
           "tags": [
             "jalapeno",
             "probe",
@@ -994,7 +994,7 @@
         },
         {
           "file_name": "<<put filename here>>",
-          "caption": "Two newly emerged Jalape\u00f1o sprouts visible near the support pole with lime residue on the soil surface.",
+          "caption": "Two newly emerged Jalape\\xf1o sprouts visible near the support pole with lime residue on the soil surface.",
           "tags": [
             "jalapeno",
             "sprouts",
@@ -1008,7 +1008,7 @@
     {
       "date": "11/21/2025",
       "time": "3:25 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.34",
         "ec_mScm": "0.48",
@@ -1026,13 +1026,13 @@
       },
       "observations": "Moisture has continued its steady decline from the oversaturation event and is now within an appropriate upper range for germination. pH has risen consistently over multiple days and is now mildly acidic but stable, aided by remaining lime dissolving at the surface. Soil temperature is excellent for germination and surface texture appears loose, aerated, and free of fungal growth. No sprout is visible yet, consistent with the early germination window.",
       "actions": "No watering required. Do not add lime or fertilizer. Maintain planter in full sun and allow natural drying.",
-      "next_steps": "Recheck moisture, pH, and temperature within 24\u201348 hours. Watch for the first signs of seedling emergence during the current germination window.",
+      "next_steps": "Recheck moisture, pH, and temperature within 24\\u201348 hours. Watch for the first signs of seedling emergence during the current germination window.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o planter surface showing lime residue and improving soil structure.",
+          "caption": "Jalape\\xf1o planter surface showing lime residue and improving soil structure.",
           "tags": "jalapeno, soil, planter, lime"
         }
       ]
@@ -1040,7 +1040,7 @@
     {
       "date": "11/20/2025",
       "time": "12:09 PM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.91",
         "ec_mScm": "0.51",
@@ -1058,13 +1058,13 @@
       },
       "observations": "Soil moisture remains elevated but continues to improve after the oversaturation event. pH shows slight upward correction but remains acidic. No sprouts are visible. Soil texture appears loose with scattered lime on the surface. Warm soil temperature supports germination.",
       "actions": "No watering required. Do not add lime or fertilizer. Allow soil to dry naturally in full sun.",
-      "next_steps": "Recheck moisture and pH within 24\u201348 hours. Maintain sunlight and avoid watering until moisture decreases.",
+      "next_steps": "Recheck moisture and pH within 24\\u201348 hours. Maintain sunlight and avoid watering until moisture decreases.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o planter showing surface lime distribution and soil condition.",
+          "caption": "Jalape\\xf1o planter showing surface lime distribution and soil condition.",
           "tags": "jalapeno, soil, planter"
         }
       ]
@@ -1072,7 +1072,7 @@
     {
       "date": "11/19/2025",
       "time": "9:25 AM",
-      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high around 82\\u201385\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.64",
         "ec_mScm": "0.40",
@@ -1090,7 +1090,7 @@
       },
       "observations": "Soil remained heavily saturated following previous watering, with pH still strongly acidic. Lime was partially dissolved and uneven across the surface. No sprouts observed and no signs of pests or mold.",
       "actions": "No watering required. Do not add lime or fertilizer. Allow soil to dry in sun.",
-      "next_steps": "Recheck soil moisture and pH within 24\u201348 hours. Allow continued drying before further adjustments.",
+      "next_steps": "Recheck soil moisture and pH within 24\\u201348 hours. Allow continued drying before further adjustments.",
       "q_and_a_summary": "",
       "follow_up": [
         "[2:52 PM] Planter was heavily watered accidentally by grandson; soil became fully saturated and most remaining lime dissolved. No additional lime will be added; allow planter to dry naturally."
@@ -1111,7 +1111,7 @@
     {
       "date": "11/18/2025",
       "time": "8:47 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.04",
         "ec_mScm": "0.48",
@@ -1129,13 +1129,13 @@
       },
       "observations": "Soil was still wet but drying from previous watering. pH showed modest improvement. No sprouting visible. Surface lime remained in patches and soil texture appeared loose.",
       "actions": "No watering needed. Do not add lime or fertilizer. Allow continued drying.",
-      "next_steps": "Recheck pH and moisture within 24\u201348 hours.",
+      "next_steps": "Recheck pH and moisture within 24\\u201348 hours.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Pepper box showing lime distribution across Scotch Bonnet, Orange Cal Wonder, and Jalape\u00f1o sections.",
+          "caption": "Pepper box showing lime distribution across Scotch Bonnet, Orange Cal Wonder, and Jalape\\xf1o sections.",
           "tags": "planter, lime, jalapeno, soil"
         }
       ]
@@ -1143,7 +1143,7 @@
     {
       "date": "11/17/2025",
       "time": "9:01 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.94",
         "ec_mScm": "0.44",
@@ -1161,13 +1161,13 @@
       },
       "observations": "Soil was wet but not waterlogged, with pH strongly acidic following earlier adjustments. No sprouting present. Soil surface intact with scattered lime and good sunlight exposure.",
       "actions": "Apply 2 teaspoons of dolomitic lime as a surface top-dress. Do not water until the surface dries. No fertilizer.",
-      "next_steps": "Recheck moisture and pH within 24\u201348 hours.",
+      "next_steps": "Recheck moisture and pH within 24\\u201348 hours.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
           "file_name": "<<put filename here>>",
-          "caption": "Jalape\u00f1o planter section showing initial lime application.",
+          "caption": "Jalape\\xf1o planter section showing initial lime application.",
           "tags": "jalapeno, soil, lime"
         }
       ]

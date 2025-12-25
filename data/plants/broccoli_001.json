@@ -10,7 +10,7 @@
   "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
   "origin_history": [
     "Broccoli seedlings started in tray, surrounded by chive planting zones.",
-    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" center",
+    "Planted in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" center",
     "Added potting mix on top of sand-heavy layer for better moisture and pH balance."
   ],
   "whats_been_logged": "The plant has progressed from early establishment into rapid vegetative growth, with expanding leaf mass and increasing nutrient demand. Soil moisture, pH stability, and fertility levels have been closely monitored and adjusted to support sustained, healthy canopy development.",
@@ -19,42 +19,42 @@
   "timeline": [
     {
       "what_i_should_see": "Seedling Emergence with First True Leaves",
-      "date_range": "Nov 18 \u2013 Nov 24, 2025"
+      "date_range": "Nov 18 \\u2013 Nov 24, 2025"
     },
     {
       "what_i_should_see": "Leaves Expand, Canopy Widening",
-      "date_range": "Nov 25 \u2013 Dec 3, 2025"
+      "date_range": "Nov 25 \\u2013 Dec 3, 2025"
     },
     {
       "what_i_should_see": "Leaves Lengthen, Shading Chives",
-      "date_range": "Dec 4 \u2013 Dec 10, 2025"
+      "date_range": "Dec 4 \\u2013 Dec 10, 2025"
     },
     {
       "what_i_should_see": "Crown Thickens, Plant Becomes Sturdy",
-      "date_range": "Dec 11 \u2013 Dec 16, 2025"
+      "date_range": "Dec 11 \\u2013 Dec 16, 2025"
     },
     {
       "what_i_should_see": "Dense Foliage, Soil Mostly Covered",
-      "date_range": "Dec 17 \u2013 Dec 22, 2025"
+      "date_range": "Dec 17 \\u2013 Dec 22, 2025"
     },
     {
       "what_i_should_see": "Pre-Heading Vegetative Mass Established",
-      "date_range": "Dec 23, 2025 \u2013 Jan 10, 2026"
+      "date_range": "Dec 23, 2025 \\u2013 Jan 10, 2026"
     },
     {
       "what_i_should_see": "Central Head Forms at Crown",
-      "date_range": "Mar 1 \u2013 Mar 25, 2026"
+      "date_range": "Mar 1 \\u2013 Mar 25, 2026"
     },
     {
       "what_i_should_see": "Heads Enlarge, Ready to Harvest",
-      "date_range": "Mar 25 \u2013 Apr 15, 2026"
+      "date_range": "Mar 25 \\u2013 Apr 15, 2026"
     }
   ],
   "journal": [
     {
       "date": "12/20/2025",
       "time": "8:10 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.08",
@@ -72,7 +72,7 @@
       },
       "observations": "The broccoli shows rapid vegetative expansion with noticeably larger leaves, elongated petioles, and increased vertical lift at the crown. Foliage is evenly colored, turgid, and healthy with no signs of heat stress, pest damage, or nutrient burn.",
       "actions": "Apply a light feeding using Purived 4-5-5 mixed at 1/2 teaspoon in 2 cups of water, applied evenly across the entire window box. Do not add additional water beyond the feed solution.",
-      "next_steps": "Monitor leaf expansion and stem thickening over the next 2\u20134 days. Recheck fertility and moisture daily, watering only if moisture drops below 25\u201330. Continue avoiding pH-altering amendments.",
+      "next_steps": "Monitor leaf expansion and stem thickening over the next 2\\u20134 days. Recheck fertility and moisture daily, watering only if moisture drops below 25\\u201330. Continue avoiding pH-altering amendments.",
       "q_and_a_summary": "Discussed whether feeding should still be applied; confirmed today is an ideal time due to rapid leaf expansion and low fertility readings.",
       "follow_up": [],
       "photos": [
@@ -101,7 +101,7 @@
     {
       "date": "12/19/2025",
       "time": "10:26 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.30",
         "ec_mScm": "0.11",
@@ -119,7 +119,7 @@
       },
       "observations": "The broccoli shows vigorous vegetative growth with upright stems and broad, well-expanded true leaves. Foliage is healthy blue-green with no visible pest damage, wilting, or nutrient burn. Overall structure is stable and actively expanding.",
       "actions": "Do not water today as soil moisture is ideal. Apply a light feeding using Purived 4-5-5 mixed at 1/2 teaspoon in 2 cups of water, applied evenly across the entire window box. Do not add lime.",
-      "next_steps": "Recheck moisture tomorrow morning and water only if it drops below 25\u201330. Monitor pH on future readings and watch for continued leaf expansion over the next several days.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if it drops below 25\\u201330. Monitor pH on future readings and watch for continued leaf expansion over the next several days.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -143,7 +143,7 @@
     {
       "date": "12/16/2025",
       "time": "12:09 PM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.31",
@@ -161,7 +161,7 @@
       },
       "observations": "Broccoli plants are upright with thickening stems and healthy upper foliage following removal of lower leaves. The soil line is now clear of foliage, improving airflow around the stem bases. Leaf color is uniform green, and central growing points remain intact and actively producing new growth. Soil surface appears evenly moist at the time of the reading.",
       "actions": "Do not water or fertilize today. Leave plants undisturbed to continue vegetative growth.",
-      "next_steps": "Recheck probe readings in 2\u20133 days. Continue monitoring stem thickening and leaf expansion. No pruning needed unless leaves become damaged or contact the soil again.",
+      "next_steps": "Recheck probe readings in 2\\u20133 days. Continue monitoring stem thickening and leaf expansion. No pruning needed unless leaves become damaged or contact the soil again.",
       "q_and_a_summary": "Discussed appropriate container options for transplanting broccoli in a fully mobile setup; confirmed that a 10-gallon fabric grow bag provides sufficient root volume, natural drainage without added holes, and suitability for Florida sun and heat.",
       "follow_up": [],
       "photos": [
@@ -180,7 +180,7 @@
     {
       "date": "12/15/2025",
       "time": "10:55 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.20",
         "ec_mScm": "0.07",
@@ -224,7 +224,7 @@
     {
       "date": "12/14/2025",
       "time": "2:46 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.31",
@@ -242,7 +242,7 @@
       },
       "observations": "The broccoli plants show vigorous vegetative growth with large, firm leaves, thickening upright stems, and healthy blue-green coloration. The entire window box was fertilized with diluted Purived 4-5-5 prior to this reading, resulting in elevated but safe fertility and EC levels. Lower broccoli leaves that were shading the chives were selectively pruned, opening the canopy while preserving the central growing points. Soil is evenly hydrated following feeding, and the shared planter shows balanced growth between broccoli and chives.",
       "actions": "Do not water today as moisture is very high and rain is expected. Do not apply additional fertilizer. Leave plants undisturbed to allow nutrients to distribute evenly through the root zone.",
-      "next_steps": "Recheck probe readings in 2\u20133 days once moisture drops into the moderate range. Monitor for continued stem thickening and crown development. Avoid further pruning unless leaves are damaged or diseased.",
+      "next_steps": "Recheck probe readings in 2\\u20133 days once moisture drops into the moderate range. Monitor for continued stem thickening and crown development. Avoid further pruning unless leaves are damaged or diseased.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -266,7 +266,7 @@
     {
       "date": "12/12/2025",
       "time": "1:36 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.15",
@@ -284,7 +284,7 @@
       },
       "observations": "Broccoli plants show strong vegetative growth with upright posture, firm stems, and broad healthy leaves. The center broccoli remains dominant with a fuller canopy, while both side plants remain smaller but stable and vigorous. Leaf color is healthy light-to-medium green with no signs of heat stress, wilting, or nutrient deficiency. Soil appears evenly moist and well structured, supporting continued root expansion across the shared planter with chives.",
       "actions": "No fertilizer or watering applied this afternoon. Allow soil to continue drying slightly overnight in preparation for morning feeding.",
-      "next_steps": "Tomorrow morning, prune first by removing up to two of the lowest outer broccoli leaves that are directly shading the chives, cutting cleanly at the stem base and avoiding the central growing tip. After pruning, water and fertilize together. Mix exactly 1 capful of Purived 4-5-5 into 1 gallon of water, then apply exactly 1 quart (4 cups) of this solution evenly across the entire 23.5\" \u00d7 6\" window planter, feeding both the center broccoli and the chives on each side. Pour slowly to allow even infiltration and avoid runoff. Do not apply additional plain water afterward unless soil surface remains dry. Recheck probe readings in 2\u20133 days to confirm fertility rebound and moisture stabilization.",
+      "next_steps": "Tomorrow morning, prune first by removing up to two of the lowest outer broccoli leaves that are directly shading the chives, cutting cleanly at the stem base and avoiding the central growing tip. After pruning, water and fertilize together. Mix exactly 1 capful of Purived 4-5-5 into 1 gallon of water, then apply exactly 1 quart (4 cups) of this solution evenly across the entire 23.5\" \\xd7 6\" window planter, feeding both the center broccoli and the chives on each side. Pour slowly to allow even infiltration and avoid runoff. Do not apply additional plain water afterward unless soil surface remains dry. Recheck probe readings in 2\\u20133 days to confirm fertility rebound and moisture stabilization.",
       "q_and_a_summary": "Discussed whether broccoli leaves shading the chives could be pruned. Confirmed that selectively removing the lowest outer broccoli leaves is safe and beneficial when limited in number and avoiding the central growing point.",
       "follow_up": [],
       "photos": [
@@ -308,7 +308,7 @@
     {
       "date": "12/10/2025",
       "time": "9:06 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.27",
@@ -326,7 +326,7 @@
       },
       "observations": "Broccoli seedlings show their strongest growth yet with a broadening canopy, rich medium-green foliage, and excellent turgor after a cool, hydrated morning. Dew-coated leaves indicate stable hydration, and the amended soil appears evenly moist and well aerated with no surface compaction. The central crown is beginning to thicken, signaling entry into a faster vegetative growth phase. No signs of stress, discoloration, or active pest pressure were observed.",
       "actions": "Do not water today as moisture is high and conditions are cool. Do not fertilize; nutrient levels are abundant. Allow the soil to remain undisturbed to continue integrating the added potting mix.",
-      "next_steps": "Expect moisture to gradually fall into the 50\u201360% range over the next 1\u20132 days. Plan for a light fertilizer application once moisture stabilizes near the mid-40s to low-50s. Continue monitoring lower leaves for chewing but no treatment is needed at this time. Prepare for a pre-transplant assessment within about a week as crown thickening progresses.",
+      "next_steps": "Expect moisture to gradually fall into the 50\\u201360% range over the next 1\\u20132 days. Plan for a light fertilizer application once moisture stabilizes near the mid-40s to low-50s. Continue monitoring lower leaves for chewing but no treatment is needed at this time. Prepare for a pre-transplant assessment within about a week as crown thickening progresses.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -350,7 +350,7 @@
     {
       "date": "12/9/2025",
       "time": "8:18 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.36",
         "ec_mScm": "0.19",
@@ -368,7 +368,7 @@
       },
       "observations": "Broccoli seedlings show vigorous leaf expansion with strong posture and healthy medium-green color. Canopy density is increasing, and chewing damage remains minor relative to size. Soil appears more open and aerated after today's light fluffing and the addition of Miracle-Gro Moisture Control Potting Mix, correcting compaction from the sand-heavy base. Probe readings are balanced and stable across both zones with ideal moisture and pH conditions for active vegetative growth.",
       "actions": "Do not water today as moisture is ideal and rain is expected. Do not fertilize; current fertility is adequate and soil was recently amended. Leave soil undisturbed for the next day to allow the new potting mix to integrate naturally.",
-      "next_steps": "Recheck moisture tomorrow morning after possible overnight rainfall. Continue monitoring chewing but no treatment is needed at this time. Expect pH to stabilize further as the potting mix blends with the sand-heavy layer. Consider light fertilizer in 3\u20135 days depending on moisture stability.",
+      "next_steps": "Recheck moisture tomorrow morning after possible overnight rainfall. Continue monitoring chewing but no treatment is needed at this time. Expect pH to stabilize further as the potting mix blends with the sand-heavy layer. Consider light fertilizer in 3\\u20135 days depending on moisture stability.",
       "q_and_a_summary": "",
       "follow_up": [
         "[Morning] Fluffed compacted soil, filled probe hole, and added Miracle-Gro Moisture Control Potting Mix to improve structure and probe accuracy."
@@ -394,7 +394,7 @@
     {
       "date": "12/8/2025",
       "time": "11:26 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.31",
         "ec_mScm": "0.23",
@@ -410,9 +410,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Broccoli seedlings appear exceptionally vigorous today with strong turgor, enlarged leaves, and healthy medium-green coloration. Recent rehydration has fully corrected yesterday\u2019s dryness, giving the plants a refreshed and balanced look. Chewing damage remains minimal and stable without signs of active pest feeding. Soil is well-hydrated and evenly settled, and the overall growth posture reflects ideal pH and nutrient availability.",
+      "observations": "Broccoli seedlings appear exceptionally vigorous today with strong turgor, enlarged leaves, and healthy medium-green coloration. Recent rehydration has fully corrected yesterday\\u2019s dryness, giving the plants a refreshed and balanced look. Chewing damage remains minimal and stable without signs of active pest feeding. Soil is well-hydrated and evenly settled, and the overall growth posture reflects ideal pH and nutrient availability.",
       "actions": "No watering needed now as moisture is high and showers are expected later today. Do not fertilize; nutrient availability is already strong and additional feeding could increase salts unnecessarily. No pest treatments or pruning required as current chewing damage is minor and not increasing.",
-      "next_steps": "Recheck moisture tomorrow morning after overnight showers. Expect moisture to remain elevated. Consider light fertilizer in 3\u20135 days only if moisture stabilizes and readings remain balanced. Continue monitoring for any uptick in chewing on lower leaves.",
+      "next_steps": "Recheck moisture tomorrow morning after overnight showers. Expect moisture to remain elevated. Consider light fertilizer in 3\\u20135 days only if moisture stabilizes and readings remain balanced. Continue monitoring for any uptick in chewing on lower leaves.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -431,7 +431,7 @@
     {
       "date": "12/7/2025",
       "time": "1:10 PM",
-      "conditions": "Patchy fog before 8:00 AM, otherwise sunny with a high near 86\u00b0F dropping to 66\u00b0F overnight. Calm wind becoming south 5 to 8 mph in the morning. Sunday brings 20 percent chance of showers after 1:00 PM with patchy fog before 9:00 AM.",
+      "conditions": "Patchy fog before 8:00 AM, otherwise sunny with a high near 86\\xb0F dropping to 66\\xb0F overnight. Calm wind becoming south 5 to 8 mph in the morning. Sunday brings 20 percent chance of showers after 1:00 PM with patchy fog before 9:00 AM.",
       "digital_probe": {
         "ph": "3.85",
         "ec_mScm": "0.06",
@@ -447,10 +447,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Both plants display healthy vigorous growth entering rapid vegetative expansion with left plant showing 4\u20136 mature true leaves and right plant slightly behind but equally healthy. Leaf chewing damage continues but plants maintain strong turgor and vibrant green color. Left broccoli probe reading failed completely with 0.00 pH and extremely low moisture due to bone-dry soil preventing electrode contact, while right broccoli registered dangerously low moisture at 16 mS/cm. Averaged readings show critical dryness across the container with uneven soil moisture distribution despite recent probe hole filling efforts. Solar predator light visible in photo shows integrated pest deterrent system in place. Container demonstrates rapid drying behavior typical of Florida sun and wind exposure with shallow soil volume accelerating moisture loss.",
-      "actions": "Apply gentle even watering immediately until moisture distributes clearly across entire root zone, addressing bone-dry left side and critically low right side. Ensure water penetrates full soil depth rather than running off surface. No fertilizing today despite low fertility readings; wait 3\u20135 days until moisture stabilizes and pH readings become reliable. No transplanting yet; plants approaching ideal size with 6\u20138 mature leaves expected in 10\u201314 days.",
-      "next_steps": "Monitor moisture daily given container's extreme drying rate in sunny 86\u00b0F conditions. Plan transplant in 10\u201314 days when central crown thickens and 6\u20138 mature true leaves are present. Consider fertilizing with Purived 4-5-5 or Gardenwise 10-10-10 Plus in 3\u20135 days once soil moisture remains consistent and pH stabilizes. Continue filling probe holes after readings to maintain soil contact accuracy. Watch for improved pH readings tomorrow after rehydration eliminates false low values caused by dry electrode contact.",
-      "q_and_a_summary": "Discussed whether to water today given bone-dry probe failure on left plant and critically low 16 mS/cm reading on right plant, confirming immediate watering is essential. Addressed transplant timing and confirmed plants need 1\u20132 more weeks before moving to larger containers when 6\u20138 mature leaves develop and central crown thickens. Explained fertilizing should wait 3\u20135 days until moisture stabilizes to avoid stacking stress after recent Dead Bug application and current dryness crisis. Clarified that extreme pH values of 0.00 and 7.70 result from uneven dryness and poor probe contact rather than true soil chemistry, with reliable readings expected after rehydration.",
+      "observations": "Both plants display healthy vigorous growth entering rapid vegetative expansion with left plant showing 4\\u20136 mature true leaves and right plant slightly behind but equally healthy. Leaf chewing damage continues but plants maintain strong turgor and vibrant green color. Left broccoli probe reading failed completely with 0.00 pH and extremely low moisture due to bone-dry soil preventing electrode contact, while right broccoli registered dangerously low moisture at 16 mS/cm. Averaged readings show critical dryness across the container with uneven soil moisture distribution despite recent probe hole filling efforts. Solar predator light visible in photo shows integrated pest deterrent system in place. Container demonstrates rapid drying behavior typical of Florida sun and wind exposure with shallow soil volume accelerating moisture loss.",
+      "actions": "Apply gentle even watering immediately until moisture distributes clearly across entire root zone, addressing bone-dry left side and critically low right side. Ensure water penetrates full soil depth rather than running off surface. No fertilizing today despite low fertility readings; wait 3\\u20135 days until moisture stabilizes and pH readings become reliable. No transplanting yet; plants approaching ideal size with 6\\u20138 mature leaves expected in 10\\u201314 days.",
+      "next_steps": "Monitor moisture daily given container's extreme drying rate in sunny 86\\xb0F conditions. Plan transplant in 10\\u201314 days when central crown thickens and 6\\u20138 mature true leaves are present. Consider fertilizing with Purived 4-5-5 or Gardenwise 10-10-10 Plus in 3\\u20135 days once soil moisture remains consistent and pH stabilizes. Continue filling probe holes after readings to maintain soil contact accuracy. Watch for improved pH readings tomorrow after rehydration eliminates false low values caused by dry electrode contact.",
+      "q_and_a_summary": "Discussed whether to water today given bone-dry probe failure on left plant and critically low 16 mS/cm reading on right plant, confirming immediate watering is essential. Addressed transplant timing and confirmed plants need 1\\u20132 more weeks before moving to larger containers when 6\\u20138 mature leaves develop and central crown thickens. Explained fertilizing should wait 3\\u20135 days until moisture stabilizes to avoid stacking stress after recent Dead Bug application and current dryness crisis. Clarified that extreme pH values of 0.00 and 7.70 result from uneven dryness and poor probe contact rather than true soil chemistry, with reliable readings expected after rehydration.",
       "follow_up": [],
       "photos": [
         {
@@ -463,7 +463,7 @@
     {
       "date": "12/4/2025",
       "time": "5:10 PM",
-      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.32",
         "ec_mScm": "0.43",
@@ -481,7 +481,7 @@
       },
       "observations": "Both plants appear healthy with continued growth, particularly the left seedling which now displays much larger leaves and a more established canopy. Chewing damage is increasing and now visible on multiple new leaves with irregular holes that enlarge over time, consistent with caterpillar or beetle feeding rather than soft-bodied pests. No sliminess or damage patterns suggesting snails are present. The bone-dry soil at 2:00 PM prevented any probe reading until after watering, demonstrating how Florida sun and wind create extremely rapid soil drying in this container.",
       "actions": "Apply Captain Jack's Dead Bug Brew (Spinosad) between 5:15 PM and sunset. Shake bottle well and spray all leaf surfaces with emphasis on undersides and deep inner growth tips where caterpillars hide. Spray soil surface lightly without soaking. Do not water afterward to allow product to remain on foliage overnight. Avoid application if wind exceeds 10 mph.",
-      "next_steps": "Reapply Dead Bug every 6\u20137 days or sooner if chewing continues. Increase watering volume slightly and consider earlier morning watering around 8\u20139 AM to prevent midday bone-dry conditions. Adjust pH after Dead Bug treatment settles and moisture stabilizes. Monitor for continued caterpillar activity and inspect undersides of leaves for larvae or frass.",
+      "next_steps": "Reapply Dead Bug every 6\\u20137 days or sooner if chewing continues. Increase watering volume slightly and consider earlier morning watering around 8\\u20139 AM to prevent midday bone-dry conditions. Adjust pH after Dead Bug treatment settles and moisture stabilizes. Monitor for continued caterpillar activity and inspect undersides of leaves for larvae or frass.",
       "q_and_a_summary": "Discussed whether to apply neem or Dead Bug for increased chewing damage. Explained that Dead Bug is more effective for caterpillars and beetles causing the irregular chewing pattern, while neem risks leaf burn in mid-80s Florida sun and is better suited for soft-bodied pests. Confirmed Dead Bug is safe for plants at current size and should be applied late afternoon or at sunset.",
       "follow_up": [
         "[2:00 PM] Attempted probe reading but soil was bone dry from Florida sun exposure, causing complete reading failure. Applied water to rehydrate container.",
@@ -508,7 +508,7 @@
     {
       "date": "12/3/2025",
       "time": "1:21 PM",
-      "conditions": "Mostly sunny with a high near 82\u00b0F and overnight low near 62\u00b0F.",
+      "conditions": "Mostly sunny with a high near 82\\xb0F and overnight low near 62\\xb0F.",
       "digital_probe": {
         "ph": "8.78",
         "ec_mScm": "0.03",
@@ -550,7 +550,7 @@
     {
       "date": "12/2/2025",
       "time": "11:08 AM",
-      "conditions": "Mostly cloudy with a high near 84\u00b0F and overnight low near 67\u00b0F. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high near 84\\xb0F and overnight low near 67\\xb0F. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "7.79",
         "ec_mScm": "0.16",
@@ -592,7 +592,7 @@
     {
       "date": "11/29/2025",
       "time": "2:38 PM",
-      "conditions": "Mostly sunny with a high of 77\u00b0F dropping to 66\u00b0F overnight. Partly cloudy conditions expected around 1:00 PM. Wind gusts up to 15 mph.",
+      "conditions": "Mostly sunny with a high of 77\\xb0F dropping to 66\\xb0F overnight. Partly cloudy conditions expected around 1:00 PM. Wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "5.96",
         "ec_mScm": "0.08",
@@ -626,7 +626,7 @@
     {
       "date": "11/28/2025",
       "time": "11:13 AM",
-      "conditions": "Cloudy with a high near 72\u00b0F and overnight low near 57\u00b0F. Clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high near 72\\xb0F and overnight low near 57\\xb0F. Clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "8.88",
         "ec_mScm": "0.15",
@@ -668,7 +668,7 @@
     {
       "date": "11/26/2025",
       "time": "12:23 PM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4:00 PM.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Thunderstorms expected around 4:00 PM.",
       "digital_probe": {
         "ph": "6.82",
         "ec_mScm": "0.09",
@@ -686,7 +686,7 @@
       },
       "observations": "Both broccoli seedlings continue expanding leaves with the left plant remaining dominant, displaying strong upright leaf posture and vigorous development. The right plant is smaller but healthy, showing steady growth without stress. Several leaves now show minor holes consistent with flea beetles, tiny caterpillar nibbling, or minor leaf miner entry points, though none show active spreading or plant stress. Soil surface displays pockets and dips created by the large probe compacting and shifting coarse bark pieces, causing uneven areas that hold water differently or dry faster and alter readings. Two probe readings from left and right zones averaged to 25 mS/cm moisture, with differences explainable by uneven watering absorption and surface crusting on the left side causing higher pH readings there.",
       "actions": "Do not water today; incoming thunderstorms around 4:00 PM will provide natural deep watering with current moisture average of 25 mS/cm adequate pre-storm. Add a light layer of potting mix to level probe pockets and dips, stabilizing the soil surface without compressing the entire bed. Gently pat down only loose areas to avoid excessive compaction. Monitor small leaf holes for multiplication to identify exact pest species if damage increases. No fertilizer or pH amendments needed; averaged values are within acceptable ranges for seedling stage.",
-      "next_steps": "Check post-storm moisture tomorrow after soil drains for at least 2\u20133 hours of sun; expect temporary moisture spike likely reaching 70\u2013100 mS/cm range. Watch for potential bark displacement, temporary pH rise, or soil compaction from heavy pounding rain, though none should cause lasting harm. Continue taking averaged single log entries unless left and right sides sharply diverge again as seen on 11/22. Monitor leaf holes for pest activity escalation requiring identification and treatment.",
+      "next_steps": "Check post-storm moisture tomorrow after soil drains for at least 2\\u20133 hours of sun; expect temporary moisture spike likely reaching 70\\u2013100 mS/cm range. Watch for potential bark displacement, temporary pH rise, or soil compaction from heavy pounding rain, though none should cause lasting harm. Continue taking averaged single log entries unless left and right sides sharply diverge again as seen on 11/22. Monitor leaf holes for pest activity escalation requiring identification and treatment.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -705,7 +705,7 @@
     {
       "date": "11/25/2025",
       "time": "3:16 PM",
-      "conditions": "Sunny all day with a high near 84\u00b0F and overnight low near 65\u00b0F.",
+      "conditions": "Sunny all day with a high near 84\\xb0F and overnight low near 65\\xb0F.",
       "digital_probe": {
         "ph": "5.32",
         "ec_mScm": "0.15",
@@ -744,7 +744,7 @@
     {
       "date": "11/24/2025",
       "time": "12:23 PM",
-      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.84",
         "ec_mScm": "0.23",
@@ -783,7 +783,7 @@
     {
       "date": "11/23/2025",
       "time": "2:00 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.24",
         "ec_mScm": "0.11",
@@ -878,8 +878,8 @@
         "ph": ""
       },
       "observations": "Seedlings appear healthy with upright posture and expanding true leaves. Soil surface is slightly dry and crusty in spots but plants show no stress. pH and fertility are within ideal tolerances for young broccoli.",
-      "actions": "Plan moderate watering within the next 12\u201324 hours to bring moisture into the 40\u201350 range. Loosen the top layer of soil for improved aeration. Avoid fertilizing for now.",
-      "next_steps": "Water moderately within the next 12\u201324 hours to bring moisture into the 40\u201350 range. Avoid fertilizing for now. Monitor leaf turgor during hot afternoon sun.",
+      "actions": "Plan moderate watering within the next 12\\u201324 hours to bring moisture into the 40\\u201350 range. Loosen the top layer of soil for improved aeration. Avoid fertilizing for now.",
+      "next_steps": "Water moderately within the next 12\\u201324 hours to bring moisture into the 40\\u201350 range. Avoid fertilizing for now. Monitor leaf turgor during hot afternoon sun.",
       "q_and_a_summary": "Discussed interpretation of moisture and pH readings, confirmed seedlings are in good early-stage condition, and established a short-term watering plan.",
       "follow_up": [],
       "photos": [
@@ -893,7 +893,7 @@
     {
       "date": "11/20/2025",
       "time": "1:33 PM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.32",
         "ec_mScm": "0.09",
@@ -925,7 +925,7 @@
     {
       "date": "11/19/2025",
       "time": "9:49 AM",
-      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high around 82\\u201385\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.96",
         "ec_mScm": "0.22",
@@ -962,7 +962,7 @@
     {
       "date": "11/18/2025",
       "time": "9:11 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.13",
         "ec_mScm": "0.16",
@@ -994,7 +994,7 @@
     {
       "date": "11/17/2025",
       "time": "9:11 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.48",
         "ec_mScm": "0.19",
@@ -1026,7 +1026,7 @@
     {
       "date": "11/16/2025",
       "time": "10:22 AM",
-      "conditions": "Cool, clear morning in the mid-60s\u00b0F with full sun.",
+      "conditions": "Cool, clear morning in the mid-60s\\xb0F with full sun.",
       "digital_probe": {
         "ph": "4.75",
         "ec_mScm": "0.12",
@@ -1058,7 +1058,7 @@
     {
       "date": "11/12/2025",
       "time": "10:09 AM",
-      "conditions": "Cool full-sun morning around 65\u00b0F.",
+      "conditions": "Cool full-sun morning around 65\\xb0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1090,7 +1090,7 @@
     {
       "date": "11/11/2025",
       "time": "2:45 PM",
-      "conditions": "Mild sunny afternoon around the mid-60s\u00b0F.",
+      "conditions": "Mild sunny afternoon around the mid-60s\\xb0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

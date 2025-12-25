@@ -14,43 +14,43 @@
     "Soil mix: Miracle-Gro Moisture Control + Skoon pebbles (1:3 ratio)."
   ],
   "whats_been_logged": "Lavender (Left) has been tracked from initial sowing and first watering through early analog probe checks, a light fertilizer application, the switch to the YINMIK digital probe, repeated episodes of dry, acidic soil under strong sun, and ongoing adjustments in watering, shading, and pH planning while the pot remains in the pre-germination stage with no visible sprouts.",
-  "current_stage": "Germination \u2013 Tiny Seedling Visible",
+  "current_stage": "Germination \\u2013 Tiny Seedling Visible",
   "current_state": "First lavender sprout emerged on Day 12; early cotyledons forming and soil moisture now stable in the upper germination zone.",
   "timeline": [
     {
       "what_i_should_see": "Initial Sprouts Breaking Through The Soil",
-      "date_range": "Nov 23 \u2013 Nov 27, 2025"
+      "date_range": "Nov 23 \\u2013 Nov 27, 2025"
     },
     {
       "what_i_should_see": "First True Leaves Forming",
-      "date_range": "Nov 28 \u2013 Dec 9, 2025"
+      "date_range": "Nov 28 \\u2013 Dec 9, 2025"
     },
     {
       "what_i_should_see": "Multiple True Leaves With Compact, Sturdy Appearance",
-      "date_range": "Dec 10 \u2013 Dec 22, 2025"
+      "date_range": "Dec 10 \\u2013 Dec 22, 2025"
     },
     {
       "what_i_should_see": "Small Bushlet Forming With Denser Leaf Clusters",
-      "date_range": "Dec 23, 2025 \u2013 Jan 9, 2026"
+      "date_range": "Dec 23, 2025 \\u2013 Jan 9, 2026"
     },
     {
       "what_i_should_see": "New Light-Green Leaf Push, Faster Growth",
-      "date_range": "Late Feb \u2013 Mar 2026"
+      "date_range": "Late Feb \\u2013 Mar 2026"
     },
     {
       "what_i_should_see": "First Flower Buds Visible Above Foliage",
-      "date_range": "Apr \u2013 May 2026"
+      "date_range": "Apr \\u2013 May 2026"
     },
     {
       "what_i_should_see": "Peak Flowering Elongated Stems (Harvest Window)",
-      "date_range": "May \u2013 Sep 2026"
+      "date_range": "May \\u2013 Sep 2026"
     }
   ],
   "journal": [
     {
       "date": "12/20/2025",
       "time": "7:48 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight. Tonight: 10% chance of showers then patchy fog. Tomorrow: Patchy fog then mostly sunny with a high of 82\u00b0F.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight. Tonight: 10% chance of showers then patchy fog. Tomorrow: Patchy fog then mostly sunny with a high of 82\\xb0F.",
       "digital_probe": {
         "ph": "5.6",
         "ec_mScm": "0.31",
@@ -92,7 +92,7 @@
     {
       "date": "12/19/2025",
       "time": "10:14 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.20",
         "ec_mScm": "0.13",
@@ -110,7 +110,7 @@
       },
       "observations": "The lavender seedling shows continued healthy development with firm, upright leaves and active central growth. Leaf color is even and green with no wilting, yellowing, or stem stress. Soil surface appears evenly moist without saturation, and overall plant posture indicates normal transpiration and root function.",
       "actions": "Do not water tonight. Allow overnight dry-down and avoid disturbing the soil. Do not apply fertilizer or soil amendments.",
-      "next_steps": "Recheck moisture tomorrow late morning. Water only if moisture drops below 25\u201330 mS/cm. Monitor leaf firmness and continued leaf expansion.",
+      "next_steps": "Recheck moisture tomorrow late morning. Water only if moisture drops below 25\\u201330 mS/cm. Monitor leaf firmness and continued leaf expansion.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -129,7 +129,7 @@
     {
       "date": "12/16/2025",
       "time": "12:04 PM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.14",
@@ -147,7 +147,7 @@
       },
       "observations": "The lavender seedling remains upright and healthy with firm, evenly green leaves and compact structure. No wilting, yellowing, or stem stress is visible. The soil surface appeared dry and crusted due to wind exposure, while subsurface moisture remained present. After the probe reading, the soil surface was lightly fluffed, improving aeration without disturbing the plant.",
       "actions": "Do not water today. Keep the pot sheltered from rainfall if possible and allow natural dry-down. Do not apply fertilizer or soil amendments.",
-      "next_steps": "Recheck moisture tomorrow or the following day. Water only if moisture drops below 25\u201330 mS/cm. Continue monitoring leaf posture and color for steady vegetative growth.",
+      "next_steps": "Recheck moisture tomorrow or the following day. Water only if moisture drops below 25\\u201330 mS/cm. Continue monitoring leaf posture and color for steady vegetative growth.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -166,7 +166,7 @@
     {
       "date": "12/15/2025",
       "time": "10:24 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.11",
@@ -203,7 +203,7 @@
     {
       "date": "12/14/2025",
       "time": "2:32 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.43",
@@ -221,7 +221,7 @@
       },
       "observations": "The lavender seedling remains upright and structurally stable with multiple true leaves showing healthy green coloration. Leaf posture is open with no wilting or collapse. The soil surface appears dark and heavily moist, indicating reduced aeration compared to previous days. No signs of damping-off, yellowing, or disease are visible.",
       "actions": "Do not water today or tomorrow. Keep the pot sheltered from rainfall and maintain full morning sun exposure to encourage drying. Do not apply fertilizer or soil amendments.",
-      "next_steps": "Allow the soil to dry down naturally over the next 24\u201348 hours. Recheck moisture and delay watering until readings fall below 30\u201335 mS/cm. Monitor leaf color and posture for continued stability.",
+      "next_steps": "Allow the soil to dry down naturally over the next 24\\u201348 hours. Recheck moisture and delay watering until readings fall below 30\\u201335 mS/cm. Monitor leaf color and posture for continued stability.",
       "q_and_a_summary": "",
       "follow_up": [
         "[7:00 PM] The lavender pot was exposed to rain and could not be moved under cover. Soil became further saturated, but the plant remained upright with no visible stress at the time of observation."
@@ -242,7 +242,7 @@
     {
       "date": "12/12/2025",
       "time": "1:11 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.16",
@@ -260,7 +260,7 @@
       },
       "observations": "The lavender seedling is upright and well established with multiple true leaves showing healthy green coloration. Leaf spacing is compact with no signs of legginess, wilting, or damping-off. The soil surface appears evenly moist and well aerated, with no compaction or crusting. Overall structure indicates successful transition from germination into early vegetative growth.",
       "actions": "Do not water today, as soil moisture is ideal for root expansion. Maintain full morning sun exposure and provide light afternoon protection only if soil temperatures rise further. Do not apply fertilizer or soil amendments.",
-      "next_steps": "Allow the soil to dry gradually over the next 24\u201348 hours. Recheck moisture tomorrow morning and water only if readings fall below 25\u201330 mS/cm. Continue monitoring leaf expansion and stem thickness as the plant strengthens.",
+      "next_steps": "Allow the soil to dry gradually over the next 24\\u201348 hours. Recheck moisture tomorrow morning and water only if readings fall below 25\\u201330 mS/cm. Continue monitoring leaf expansion and stem thickness as the plant strengthens.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -279,7 +279,7 @@
     {
       "date": "12/11/2025",
       "time": "4:43 PM",
-      "conditions": "Mostly Sunny with a high of 73\u00b0F dropping to 53\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.11",
@@ -297,8 +297,8 @@
       },
       "observations": "The lavender seedling remains upright and stable with evenly colored true leaves and no signs of stress. Leaf posture is open and flat, indicating adequate hydration without saturation. The soil surface shows continued dry-down since the previous day, especially toward the outer edges, with good aeration and no compaction. Overall appearance reflects healthy early seedling establishment.",
       "actions": "Do not water tonight, as current moisture is sufficient through morning. Keep the pot under cover overnight to limit radiational cooling and prevent dew accumulation. Resume full morning sun exposure tomorrow to support continued drying and steady growth.",
-      "next_steps": "Check moisture tomorrow morning and apply a light watering only if readings fall below 20 mS/cm. Continue monitoring overnight lows, noting that temperatures above 50\u00b0F remain safe for lavender seedlings. Watch for continued leaf expansion as the plant progresses through early seedling development.",
-      "q_and_a_summary": "Discussed whether the overnight low of 53\u00b0F posed a risk; confirmed it is safe for lavender seedlings when soil is not saturated.",
+      "next_steps": "Check moisture tomorrow morning and apply a light watering only if readings fall below 20 mS/cm. Continue monitoring overnight lows, noting that temperatures above 50\\xb0F remain safe for lavender seedlings. Watch for continued leaf expansion as the plant progresses through early seedling development.",
+      "q_and_a_summary": "Discussed whether the overnight low of 53\\xb0F posed a risk; confirmed it is safe for lavender seedlings when soil is not saturated.",
       "follow_up": [],
       "photos": [
         {
@@ -321,7 +321,7 @@
     {
       "date": "12/10/2025",
       "time": "8:29 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.29",
@@ -339,7 +339,7 @@
       },
       "observations": "The lavender seedling appears strong and upright with expanding true leaves showing healthy green coloration. No signs of damping-off or stress are visible. The soil surface is darker and wetter than yesterday, reflecting the very high moisture reading. Cooler overnight temperatures have slowed evaporation, and the potting mix is holding more water than ideal for young lavender.",
       "actions": "Avoid watering today, as moisture is far above the seedling's safe range. Move the pot into bright indirect light for several hours to encourage gentle surface drying. Loosen only the outer ring of the upper quarter inch of soil to promote aeration while keeping the area near the seedling undisturbed. Keep the pot under cover tonight to prevent additional cooling of already-wet soil.",
-      "next_steps": "Recheck moisture tomorrow morning aiming for a gradual return to 35\u201350 mS/cm. Continue providing morning sun and afternoon protection as the seedling strengthens. Delay fertilizer until further leaf expansion occurs. If moisture remains elevated, consider small adjustments to improve surface drying.",
+      "next_steps": "Recheck moisture tomorrow morning aiming for a gradual return to 35\\u201350 mS/cm. Continue providing morning sun and afternoon protection as the seedling strengthens. Delay fertilizer until further leaf expansion occurs. If moisture remains elevated, consider small adjustments to improve surface drying.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -358,7 +358,7 @@
     {
       "date": "12/9/2025",
       "time": "7:39 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.65",
         "ec_mScm": "0.24",
@@ -376,7 +376,7 @@
       },
       "observations": "The lavender seedling is upright and sturdy with multiple true leaves expanding, indicating a healthy transition into early seedling growth. Leaf color is a consistent soft green with no wilting, yellowing, or damping-off at the stem. The soil surface looks freshly loosened and leveled, with the former probe hole filled in and a light addition of Miracle-Gro Moisture Control Potting Mix blended into the upper layer. Probe values show ideal moisture, a stable near-neutral pH, and low EC suitable for young lavender.",
       "actions": "Do not water today, as soil moisture is ideal for early seedling development. Keep the pot in bright morning sun and move it under cover before storms arrive so heavy rain does not compact the surface or disturb the seedling. Avoid fertilizer or additional amendments while the roots continue to establish.",
-      "next_steps": "Recheck moisture tomorrow morning after the weather system passes, aiming to keep readings in roughly the 35\u201350 mS/cm range for steady growth. Continue providing morning sun and light afternoon protection until the seedling becomes more robust. Watch for continued true leaf expansion as the plant moves further into active vegetative growth.",
+      "next_steps": "Recheck moisture tomorrow morning after the weather system passes, aiming to keep readings in roughly the 35\\u201350 mS/cm range for steady growth. Continue providing morning sun and light afternoon protection until the seedling becomes more robust. Watch for continued true leaf expansion as the plant moves further into active vegetative growth.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -395,7 +395,7 @@
     {
       "date": "12/8/2025",
       "time": "10:49 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.76",
         "ec_mScm": "0.27",
@@ -411,7 +411,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The lavender seedling appears upright, healthy, and actively expanding its first true leaves. The soil surface is evenly moist with a loose, aerated structure, indicating stable hydration after yesterday\u2019s dry conditions. No signs of damping-off, yellowing, or heat stress are visible. Probe readings show ideal moisture, seedling-safe pH, and low EC appropriate for early growth.",
+      "observations": "The lavender seedling appears upright, healthy, and actively expanding its first true leaves. The soil surface is evenly moist with a loose, aerated structure, indicating stable hydration after yesterday\\u2019s dry conditions. No signs of damping-off, yellowing, or heat stress are visible. Probe readings show ideal moisture, seedling-safe pH, and low EC appropriate for early growth.",
       "actions": "No watering needed today due to ideal soil moisture. Keep the pot in morning sun and move it under cover before storms begin to avoid direct rainfall on the seedling. No fertilizer or soil amendments applied.",
       "next_steps": "Recheck moisture tomorrow morning as cooler temperatures may slow drying. Continue avoiding fertilizer until several true leaves develop. Protect the seedling from heavy rain and midday heat while it strengthens.",
       "q_and_a_summary": "",
@@ -427,7 +427,7 @@
     {
       "date": "12/7/2025",
       "time": "12:33 PM",
-      "conditions": "Sunny with a high of 86\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 86\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.98",
         "ec_mScm": "0.05",
@@ -444,8 +444,8 @@
         "ph": ""
       },
       "observations": "The seedling remains upright and healthy with open early leaves and no signs of damping-off or stress. The soil surface is dry and flaky, indicating insufficient moisture in the upper germination zone. The elevated pH reading is consistent with the probe being inserted into a dry zone rather than reflecting an actual soil shift. Light intensity is extremely high at midday, and soil temperature is elevated but not causing visible heat stress.",
-      "actions": "Add 1\u20132 tablespoons of water around the seedling, keeping at least half an inch away from the stem, to re-moisten the upper soil layer. Move the pot into bright shade for a few hours to help stabilize moisture around the root zone. No fertilizer or amendments applied.",
-      "next_steps": "Recheck moisture tomorrow morning to ensure levels return to the 35\u201345 mS/cm range. Keep the pot covered or sheltered before expected rain to prevent soil disturbance. Continue providing morning sun and avoiding harsh midday heat until the seedling strengthens.",
+      "actions": "Add 1\\u20132 tablespoons of water around the seedling, keeping at least half an inch away from the stem, to re-moisten the upper soil layer. Move the pot into bright shade for a few hours to help stabilize moisture around the root zone. No fertilizer or amendments applied.",
+      "next_steps": "Recheck moisture tomorrow morning to ensure levels return to the 35\\u201345 mS/cm range. Keep the pot covered or sheltered before expected rain to prevent soil disturbance. Continue providing morning sun and avoiding harsh midday heat until the seedling strengthens.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -459,7 +459,7 @@
     {
       "date": "12/3/2025",
       "time": "1:44 PM",
-      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.45",
         "ec_mScm": "0.26",
@@ -501,7 +501,7 @@
     {
       "date": "12/2/2025",
       "time": "10:44 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "6.54",
         "ec_mScm": "0.34",
@@ -548,7 +548,7 @@
     {
       "date": "11/29/2025",
       "time": "1:29 PM",
-      "conditions": "Mostly sunny with a high of 77-80\u00b0F dropping to 66-68\u00b0F overnight. Partly cloudy conditions expected around 11 AM returning to sunny again at 1 PM. Wind gusts up to 20 mph. Watered at 9:40 AM.",
+      "conditions": "Mostly sunny with a high of 77-80\\xb0F dropping to 66-68\\xb0F overnight. Partly cloudy conditions expected around 11 AM returning to sunny again at 1 PM. Wind gusts up to 20 mph. Watered at 9:40 AM.",
       "digital_probe": {
         "ph": "6.24",
         "ec_mScm": "0.44",
@@ -585,7 +585,7 @@
     {
       "date": "11/28/2025",
       "time": "3:45 PM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. The pot remained on the picnic table to avoid yesterday's expected rain. Additional soil was added around the outer edges of the pot today, leaving the sprout area untouched.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. The pot remained on the picnic table to avoid yesterday's expected rain. Additional soil was added around the outer edges of the pot today, leaving the sprout area untouched.",
       "digital_probe": {
         "ph": "8.99",
         "ec_mScm": "0.09",
@@ -629,7 +629,7 @@
     {
       "date": "11/26/2025",
       "time": "10:44 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4 PM. A light rain occurred shortly after the readings.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Thunderstorms expected around 4 PM. A light rain occurred shortly after the readings.",
       "digital_probe": {
         "ph": "5.39",
         "ec_mScm": "0.33",
@@ -671,7 +671,7 @@
     {
       "date": "11/25/2025",
       "time": "2:53 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 65\u00b0F overnight. Watered at 2:33 PM and readings taken 1.5 hours later.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 65\\xb0F overnight. Watered at 2:33 PM and readings taken 1.5 hours later.",
       "digital_probe": {
         "ph": "6.29",
         "ec_mScm": "0.12",
@@ -713,7 +713,7 @@
     {
       "date": "11/24/2025",
       "time": "10:36 AM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.38",
         "ec_mScm": "0.28",
@@ -757,7 +757,7 @@
     {
       "date": "11/23/2025",
       "time": "12:58 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.84",
         "ec_mScm": "0.27",
@@ -799,7 +799,7 @@
     {
       "date": "11/22/2025",
       "time": "10:30 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.90",
         "ec_mScm": "0.60",
@@ -817,7 +817,7 @@
       },
       "observations": "No sprouts visible on Day 11 from sowing. The surface and mid-zone of the pot remain relatively dry, which matches note that pH would not register until the probe reached the moist bottom layer. The bottom of the pot is well hydrated, leading to measurable pH, EC, and fertility values, while the upper germination zone continues to dry quickly in this small container. Soil structure remains healthy with no crusting, mold, algae, or pests. Moisture distribution is still uneven, which can slow germination.",
       "actions": "Add 1-2 tablespoons of water to re-moisten the upper 1/2 inch of soil. Keep the pot in bright light but out of intense midday sun to avoid rapid drying. No fertilizer or lime added.",
-      "next_steps": "Monitor surface moisture over the next 24 hours, keeping the top layer evenly damp but not saturated. Expect more reliable pH readings once the upper zone remains hydrated. Prepare for a small lime top-dress only if no sprouts appear by Day 16-18. Protect the pot only if temperatures drop near 45\u00b0F.",
+      "next_steps": "Monitor surface moisture over the next 24 hours, keeping the top layer evenly damp but not saturated. Expect more reliable pH readings once the upper zone remains hydrated. Prepare for a small lime top-dress only if no sprouts appear by Day 16-18. Protect the pot only if temperatures drop near 45\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [
         "[10:36 AM] Fluffed the top 1/4 inch of soil to improve surface moisture distribution."
@@ -838,7 +838,7 @@
     {
       "date": "11/21/2025",
       "time": "3:21 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.02",
@@ -856,7 +856,7 @@
       },
       "observations": "No sprouts visible on Day 10 from sowing. The soil surface is completely dry, matching the 0.00 moisture reading. The 0.00 pH is characteristic of the YINMIK probe being unable to measure in very dry soil rather than an actual pH value. The potting mix remains fluffy with no algae, mold, pests, or surface crusting. Strong sun and lower humidity are causing extremely fast drying in the small pot.",
       "actions": "Water with 2-3 tablespoons applied slowly to re-moisten the upper 3/4 inch of soil. Move the pot to partial shade during the hottest hours to slow evaporation. No fertilizer added.",
-      "next_steps": "Maintain a lightly damp surface for the remaining germination window. Recheck moisture within 12-24 hours. Expect pH to return to normal once moisture is restored. If no sprouts appear by Day 14-16, consider a tiny dolomitic lime top-dress to stabilize pH. Protect the pot only if temperatures approach 45\u00b0F.",
+      "next_steps": "Maintain a lightly damp surface for the remaining germination window. Recheck moisture within 12-24 hours. Expect pH to return to normal once moisture is restored. If no sprouts appear by Day 14-16, consider a tiny dolomitic lime top-dress to stabilize pH. Protect the pot only if temperatures approach 45\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -875,7 +875,7 @@
     {
       "date": "11/20/2025",
       "time": "11:15 AM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.18",
         "ec_mScm": "0.05",
@@ -893,7 +893,7 @@
       },
       "observations": "No sprouts visible. Soil is extremely dry as shown by the 0.00 moisture reading and dry, crumbly surface. The potting mix with Skoon remains loose and well-aerated with no algae, mold, or pests. pH is still low for lavender but has improved slightly compared with earlier readings. Intense full sun and warm soil temperatures are accelerating evaporation.",
       "actions": "Water with 2-3 tablespoons of water applied slowly and evenly, adding a small additional amount as needed to re-moisten the top layer. Move the pot to light shade around midday to slow surface drying. No fertilizer applied.",
-      "next_steps": "Recheck moisture within 24 hours and keep the top 1/2 inch lightly damp during germination. If no sprouts emerge by Day 14-16, prepare a very small dolomitic lime top-dress to gradually raise pH. Protect the pot if temperatures drop below 45\u00b0F.",
+      "next_steps": "Recheck moisture within 24 hours and keep the top 1/2 inch lightly damp during germination. If no sprouts emerge by Day 14-16, prepare a very small dolomitic lime top-dress to gradually raise pH. Protect the pot if temperatures drop below 45\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -912,7 +912,7 @@
     {
       "date": "11/19/2025",
       "time": "9:20 AM",
-      "conditions": "Mostly sunny with a high around 82-85\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.95",
         "ec_mScm": "0.13",
@@ -930,7 +930,7 @@
       },
       "observations": "No sprouts visible. Soil moisture is moderately low with the surface beginning to dry, but the mix still looks loose and healthy with no compaction, algae, or mold. The large YINMIK probe occupies much of the pot but has not disturbed the soil structure. pH remains too acidic for lavender and fertility is minimal but acceptable for pre-germination. Light intensity is very high under direct sun.",
       "actions": "Lightly mist the top 1/2 inch of soil to maintain gentle, even moisture. Leave the pot in full morning sun and move it to partial shade around midday to prevent rapid drying. No fertilizer added.",
-      "next_steps": "Recheck moisture within 24 hours and keep the surface lightly damp. If no sprouts appear by Day 14-16, prepare a small dolomitic lime top-dress to gradually raise pH. Protect from overnight temperatures below 45\u00b0F.",
+      "next_steps": "Recheck moisture within 24 hours and keep the surface lightly damp. If no sprouts appear by Day 14-16, prepare a small dolomitic lime top-dress to gradually raise pH. Protect from overnight temperatures below 45\\xb0F.",
       "q_and_a_summary": "Asked whether the large YINMIK probe was safe to use in such a small pot; the answer was that it is safe as long as it is inserted gently in one spot without twisting or disturbing the seed zone.",
       "follow_up": [],
       "photos": [
@@ -959,7 +959,7 @@
     {
       "date": "11/18/2025",
       "time": "8:34 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.34",
         "ec_mScm": "0.10",
@@ -977,7 +977,7 @@
       },
       "observations": "No sprouts visible. Soil is moderately moist but trending dry at the surface, with the mix still loose and well-aerated. pH has risen into a much better range for lavender germination. Fertility remains very low, appropriate for seed stage. Light levels are high under strong morning sun, and there are no signs of pests, algae, or mold.",
       "actions": "Lightly mist the topsoil to maintain even surface moisture. No fertilizer applied. Keep the pot in full morning sun and move it into light shade around midday to slow evaporation.",
-      "next_steps": "Recheck moisture in 24 hours and keep the surface lightly damp during germination. If no sprouts appear by Day 14-16, plan a very small lime top-dress to help stabilize pH. Protect the pot if temperatures drop below 45\u00b0F.",
+      "next_steps": "Recheck moisture in 24 hours and keep the surface lightly damp during germination. If no sprouts appear by Day 14-16, plan a very small lime top-dress to help stabilize pH. Protect the pot if temperatures drop below 45\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1001,7 +1001,7 @@
     {
       "date": "11/17/2025",
       "time": "8:57 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.05",
         "ec_mScm": "0.29",
@@ -1019,7 +1019,7 @@
       },
       "observations": "No sprouts visible. Soil is evenly moist with no pooling, and the potting mix with Skoon looks loose and well-aerated with no mold, algae, or compaction. pH remains low for lavender and fertility is on the lean side but acceptable for pre-germination. Strong morning sun provides high light levels typical for the planting location.",
       "actions": "No watering needed and no fertilizer applied. Keep the pot in full morning sun with a plan to move it to light shade around midday to reduce surface drying.",
-      "next_steps": "Recheck moisture within 24 hours and maintain lightly damp topsoil. If no sprouts by around Day 14, prepare for a small dolomitic lime top-dress to nudge pH upward. Protect from nights near or below 45\u00b0F.",
+      "next_steps": "Recheck moisture within 24 hours and maintain lightly damp topsoil. If no sprouts by around Day 14, prepare for a small dolomitic lime top-dress to nudge pH upward. Protect from nights near or below 45\\xb0F.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1033,7 +1033,7 @@
     {
       "date": "11/16/2025",
       "time": "10:15 AM",
-      "conditions": "Warm, mostly sunny morning with temperatures in the mid-70s\u00b0F.",
+      "conditions": "Warm, mostly sunny morning with temperatures in the mid-70s\\xb0F.",
       "digital_probe": {
         "ph": "5.06",
         "ec_mScm": "0.51",
@@ -1075,7 +1075,7 @@
     {
       "date": "11/13/2025",
       "time": "8:55 AM",
-      "conditions": "Cool, mostly sunny morning around 65\u00b0F.",
+      "conditions": "Cool, mostly sunny morning around 65\\xb0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1101,7 +1101,7 @@
     {
       "date": "11/12/2025",
       "time": "9:02 AM",
-      "conditions": "Cool morning around 60\u00b0F with full sun exposure expected until mid-afternoon.",
+      "conditions": "Cool morning around 60\\xb0F with full sun exposure expected until mid-afternoon.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1127,7 +1127,7 @@
     {
       "date": "11/11/2025",
       "time": "2:22 PM",
-      "conditions": "Cool, partly sunny afternoon around 64\u00b0F.",
+      "conditions": "Cool, partly sunny afternoon around 64\\xb0F.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

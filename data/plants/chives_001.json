@@ -10,7 +10,7 @@
   "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
   "origin_history": [
     "Seeded on Nov 13, 2025 as a ring around the broccoli tray.",
-    "Planted in black planter 23.5\" \u00d7 7.85\" \u00d7 6\" left",
+    "Planted in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" left",
     "Added potting mix on top of sand-heavy layer for better moisture and pH balance.",
     "Reseeded chives after soil improvement to support proper germination."
   ],
@@ -55,7 +55,7 @@
     {
       "date": "12/20/2025",
       "time": "8:12 AM",
-      "conditions": "Sunny with a high of 82\u00b0F dropping to 66\u00b0F overnight.",
+      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.50",
         "ec_mScm": "0.03",
@@ -72,7 +72,7 @@
         "ph": ""
       },
       "observations": "Multiple fine, bright-green chive seedlings are visible across the planting area, appearing as short, thread-like blades emerging just above the soil surface. The soil surface looks damp from dew and humidity, but the root zone is very dry, as confirmed by the probe inserted to depth. Seedlings remain upright and green, indicating viability despite repeated exposure and rapid internal dry-down.",
-      "actions": "Water now using a gentle hose flow for approximately 45\u201360 seconds to rehydrate the upper 2\u20133 inches of soil. Distribute water evenly across the chive section and avoid disturbing the soil surface afterward.",
+      "actions": "Water now using a gentle hose flow for approximately 45\\u201360 seconds to rehydrate the upper 2\\u20133 inches of soil. Distribute water evenly across the chive section and avoid disturbing the soil surface afterward.",
       "next_steps": "Allow the surface to dry slightly overnight to stabilize the soil. Recheck probe readings tomorrow morning to confirm moisture recovery. Continue protecting the planting area from wind-driven wash-over during this early establishment phase.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -92,7 +92,7 @@
     {
       "date": "12/19/2025",
       "time": "10:25 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\u00b0F dropping to around 61\u00b0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.09",
@@ -129,7 +129,7 @@
     {
       "date": "12/18/2025",
       "time": "1:10 PM",
-      "conditions": "Partly sunny with a high of 83\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.26",
@@ -161,7 +161,7 @@
     {
       "date": "12/16/2025",
       "time": "12:09 PM",
-      "conditions": "Mostly sunny with a high near 80\u00b0F dropping to around 65\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.22",
@@ -193,7 +193,7 @@
     {
       "date": "12/15/2025",
       "time": "10:54 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "8.20",
         "ec_mScm": "0.14",
@@ -211,7 +211,7 @@
       },
       "observations": "Early-stage chive seedlings remain thin and flexible, with several blades laid over from recent wind exposure. Shoots are green and intact with no pinching, collapse, or discoloration at the soil line. Soil moisture has begun to dry down appropriately, and light exposure remains strong following earlier canopy reduction.",
       "actions": "Do not water or fertilize. Allow soil to continue drying naturally. Optionally provide temporary wind protection today to reduce mechanical stress on the seedlings.",
-      "next_steps": "Monitor for new blades emerging thicker and more upright over the next 3\u20135 calm days. Recheck probe readings once moisture drops below 35 mS/cm. Avoid thinning or disturbance until blade thickness visibly increases.",
+      "next_steps": "Monitor for new blades emerging thicker and more upright over the next 3\\u20135 calm days. Recheck probe readings once moisture drops below 35 mS/cm. Avoid thinning or disturbance until blade thickness visibly increases.",
       "q_and_a_summary": "Asked whether the fragile appearance of the chives was concerning and if anything could be done to help; explained this is normal at this stage and advised restraint with optional wind protection.",
       "follow_up": [],
       "photos": [
@@ -225,7 +225,7 @@
     {
       "date": "12/14/2025",
       "time": "2:45 PM",
-      "conditions": "Showers likely with a high of 81\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.35",
@@ -257,7 +257,7 @@
     {
       "date": "12/12/2025",
       "time": "1:37 PM",
-      "conditions": "Mostly sunny with a high of 79\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.14",
@@ -274,8 +274,8 @@
         "ph": ""
       },
       "observations": "Multiple chive seedlings are visible with thin, upright shoots emerging across the left section of the window box. Growth is early but healthy, with no signs of wilting or discoloration. Nearby broccoli foliage is extending over the chive area and beginning to cast shade.",
-      "actions": "Reduce shading by repositioning the broccoli or trimming 1\u20132 outer broccoli leaves that overhang the chive area. Do not water today as soil moisture is ideal. Do not fertilize at this stage.",
-      "next_steps": "Monitor light exposure over the next several days to ensure the chives receive at least 4\u20136 hours of direct sun. Recheck probe readings tomorrow or the next morning. Watch for thicker, more upright chive blades as light improves.",
+      "actions": "Reduce shading by repositioning the broccoli or trimming 1\\u20132 outer broccoli leaves that overhang the chive area. Do not water today as soil moisture is ideal. Do not fertilize at this stage.",
+      "next_steps": "Monitor light exposure over the next several days to ensure the chives receive at least 4\\u20136 hours of direct sun. Recheck probe readings tomorrow or the next morning. Watch for thicker, more upright chive blades as light improves.",
       "q_and_a_summary": "Asked whether broccoli shading the chives is acceptable and if the chives should be moved; advised to manage broccoli shading instead and avoid transplanting chives at this stage.",
       "follow_up": [],
       "photos": [
@@ -294,7 +294,7 @@
     {
       "date": "12/10/2025",
       "time": "9:04 AM",
-      "conditions": "Mostly Sunny with a high of 77\u00b0F dropping to 52\u00b0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.09",
@@ -326,7 +326,7 @@
     {
       "date": "12/9/2025",
       "time": "8:15 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.42",
         "ec_mScm": "0.22",
@@ -358,7 +358,7 @@
     {
       "date": "12/8/2025",
       "time": "11:24 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.99",
         "ec_mScm": "0.22",
@@ -376,7 +376,7 @@
       },
       "observations": "The soil surface is noticeably darker and more cohesive than yesterday, confirming that the light surface watering successfully restored top-layer moisture. Seedlings appear upright, green, and better anchored, with no signs of damping-off or heat stress. The reading reflects ideal moisture and a pH of 5.99, placing conditions squarely within the optimal germination and early-growth range. The planter structure remains stable with no pooling or crusting present.",
       "actions": "Do not water today. Incoming showers will provide additional natural hydration, and the current moisture at 60 mS/cm is already ideal. Do not apply lime or amendments because the pH reading is now within the preferred range for chive seedlings.",
-      "next_steps": "Monitor the surface after tonight\u2019s showers to ensure no oversaturation occurs. Recheck moisture and stability tomorrow as cooler weather sets in. Expect seedlings to strengthen further over the next 48 hours under moderated temperatures.",
+      "next_steps": "Monitor the surface after tonight\\u2019s showers to ensure no oversaturation occurs. Recheck moisture and stability tomorrow as cooler weather sets in. Expect seedlings to strengthen further over the next 48 hours under moderated temperatures.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -390,7 +390,7 @@
     {
       "date": "12/7/2025",
       "time": "1:07 PM",
-      "conditions": "Sunny with a high near 86\u00b0F, calm wind becoming south 5\u20138 mph. Patchy fog early. Overnight low around 66\u00b0F with partly cloudy skies expected, and a 20% chance of showers tomorrow afternoon.",
+      "conditions": "Sunny with a high near 86\\xb0F, calm wind becoming south 5\\u20138 mph. Patchy fog early. Overnight low around 66\\xb0F with partly cloudy skies expected, and a 20% chance of showers tomorrow afternoon.",
       "digital_probe": {
         "ph": "4.83",
         "ec_mScm": "0.15",
@@ -422,7 +422,7 @@
     {
       "date": "12/4/2025",
       "time": "5:10 PM",
-      "conditions": "Mostly sunny with a high of 84\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.34",
         "ec_mScm": "0.23",
@@ -454,7 +454,7 @@
     {
       "date": "12/3/2025",
       "time": "1:22 PM",
-      "conditions": "Mostly sunny with a high of 82\u00b0F dropping to 62\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.14",
@@ -486,7 +486,7 @@
     {
       "date": "12/2/2025",
       "time": "11:08 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.09",
         "ec_mScm": "0.31",
@@ -518,7 +518,7 @@
     {
       "date": "12/1/2025",
       "time": "5:17 PM",
-      "conditions": "Mostly cloudy with temperatures in the mid-70s\u00b0F dropping to 69\u00b0F overnight. Stable weather through the day with possible showers around 6:00 PM.",
+      "conditions": "Mostly cloudy with temperatures in the mid-70s\\xb0F dropping to 69\\xb0F overnight. Stable weather through the day with possible showers around 6:00 PM.",
       "digital_probe": {
         "ph": "5.28",
         "ec_mScm": "0.33",
@@ -565,7 +565,7 @@
     {
       "date": "11/28/2025",
       "time": "11:10 AM",
-      "conditions": "Cloudy with a high of 72\u00b0F dropping to 57\u00b0F overnight. Clear conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight. Clear conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.09",
         "ec_mScm": "0.06",
@@ -597,7 +597,7 @@
     {
       "date": "11/27/2025",
       "time": "2:01 PM",
-      "conditions": "Cloudy with a high of 81\u00b0F dropping down to 65\u00b0F overnight. Rainy conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81\\xb0F dropping down to 65\\xb0F overnight. Rainy conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.37",
@@ -629,7 +629,7 @@
     {
       "date": "11/26/2025",
       "time": "12:21 PM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight. Thunderstorms expected around 4:00 PM.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Thunderstorms expected around 4:00 PM.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.17",
@@ -661,7 +661,7 @@
     {
       "date": "11/25/2025",
       "time": "3:15 PM",
-      "conditions": "Sunny all day with a high of 84\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Sunny all day with a high of 84\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "7.81",
         "ec_mScm": "0.38",
@@ -693,7 +693,7 @@
     {
       "date": "11/24/2025",
       "time": "12:21 PM",
-      "conditions": "Partly cloudy with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.16",
@@ -725,7 +725,7 @@
     {
       "date": "11/23/2025",
       "time": "1:59 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 63\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
       "digital_probe": {
         "ph": "6.59",
         "ec_mScm": "0.14",
@@ -764,7 +764,7 @@
     {
       "date": "11/22/2025",
       "time": "11:37 AM",
-      "conditions": "Mostly cloudy with a high of 84\u00b0F dropping to 67\u00b0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.39",
         "ec_mScm": "0.23",
@@ -803,7 +803,7 @@
     {
       "date": "11/21/2025",
       "time": "3:35 PM",
-      "conditions": "Sunny with a high of 84\u00b0F dropping to 60\u00b0F overnight.",
+      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.66",
         "ec_mScm": "0.16",
@@ -842,7 +842,7 @@
     {
       "date": "11/20/2025",
       "time": "1:32 PM",
-      "conditions": "Mostly sunny with a high of 83\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.02",
         "ec_mScm": "0.22",
@@ -874,7 +874,7 @@
     {
       "date": "11/19/2025",
       "time": "9:48 AM",
-      "conditions": "Mostly sunny with a high around 82\u201385\u00b0F dropping to 64\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high around 82\\u201385\\xb0F dropping to 64\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.03",
         "ec_mScm": "0.35",
@@ -906,7 +906,7 @@
     {
       "date": "11/18/2025",
       "time": "9:10 AM",
-      "conditions": "Partly cloudy with a high of 82\u00b0F dropping to 65\u00b0F overnight.",
+      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.88",
         "ec_mScm": "0.35",
@@ -938,7 +938,7 @@
     {
       "date": "11/17/2025",
       "time": "9:08 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "5.62",
         "ec_mScm": "0.17",
@@ -957,7 +957,7 @@
       "observations": "No chive sprouts are visible, but the soil is evenly moist with a healthy, dark structure and good aeration. pH has risen toward a more favorable range compared with earlier tray readings. No pests, algae, or surface disturbances are present.",
       "actions": "No changes applied; soil and light conditions left stable to support germination.",
       "next_steps": "Continue monitoring moisture and pH daily while waiting for germination within the expected window.",
-      "q_and_a_summary": "Discussed that the lack of visible sprouts is still normal for this stage and that germination often takes 10\u201321 days.",
+      "q_and_a_summary": "Discussed that the lack of visible sprouts is still normal for this stage and that germination often takes 10\\u201321 days.",
       "follow_up": [],
       "photos": [
         {
@@ -970,7 +970,7 @@
     {
       "date": "11/16/2025",
       "time": "10:22 AM",
-      "conditions": "Mostly sunny with a high of 81\u00b0F dropping to 61\u00b0F overnight.",
+      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
       "digital_probe": {
         "ph": "4.75",
         "ec_mScm": "0.12",
@@ -988,7 +988,7 @@
       },
       "observations": "The chive section remains unsprouted, with soil slightly moist and structurally improved after potting mix was added. The pH is quite acidic, which could slow germination if not adjusted over time. No signs of pests or fungal issues are present.",
       "actions": "No direct amendment added to this section yet; readings were used to plan gentle pH correction with small lime applications later.",
-      "next_steps": "Recheck pH within 48\u201372 hours and consider a very light application of lime once readings begin to move toward the target range.",
+      "next_steps": "Recheck pH within 48\\u201372 hours and consider a very light application of lime once readings begin to move toward the target range.",
       "q_and_a_summary": "Reviewed that pH around 4.7 is too low for chive germination and discussed a plan for careful lime use.",
       "follow_up": [],
       "photos": [

@@ -373,6 +373,40 @@
       }, 2000);
     }
   </script>
+
+  <script>
+    // Auto-populate photo number when context changes to Follow-Up
+    document.getElementById('context').addEventListener('change', async function () {
+      const context = this.value;
+      const plantIdInput = document.getElementById('plant_id');
+      const photoNumberInput = document.getElementById('starting_number');
+
+      if (context === 'Follow-Up' && plantIdInput.value) {
+        const plantId = plantIdInput.value.trim();
+
+        try {
+          const response = await fetch(`/api/plant/${plantId}/last-photo-number`);
+          const data = await response.json();
+
+          if (data.last_number !== undefined) {
+            const nextNumber = data.last_number + 1;
+            photoNumberInput.value = nextNumber;
+            photoNumberInput.placeholder = `Next number: ${String(nextNumber).padStart(2, '0')}`;
+          }
+        } catch (error) {
+          console.error('Error fetching last photo number:', error);
+        }
+      }
+    });
+
+    // Also trigger when plant_id changes (if context is already Follow-Up)
+    document.getElementById('plant_id').addEventListener('change', async function () {
+      const contextSelect = document.getElementById('context');
+      if (contextSelect.value === 'Follow-Up') {
+        contextSelect.dispatchEvent(new Event('change'));
+      }
+    });
+  </script>
 </body>
 
 </html>

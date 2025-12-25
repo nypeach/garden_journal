@@ -410,6 +410,8 @@ The **Plant Data** is the complete JSON structure containing both **Plant Main D
   "plant": "Plant Name (Variety)",
   "physical_location": "City, ST",
   "garden_location": "Location Description",
+  "full_sun_start": "H:MM AM EST",
+  "full_shade_start": "H:MM PM EST",
   "container": "Container Type",
   "soil_mix": "Soil Product Name",
   "origin_history": [
