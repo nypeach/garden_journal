@@ -13,9 +13,9 @@
     "Planted in mid-November 2025 in black planter 23.5\" × 7.85\" × 6\" right section",
     "Shared with Siberian Hardneck, Music Hardneck, and Scallions."
   ],
-  "whats_been_logged": "Early Chesnok Red emergence showed strong shoot growth in moist soil with low but improving pH. Lime application helped correct acidity, and a competing scallion near one sprout was identified for relocation to prevent crowding. Multiple shoots have emerged vigorously with upright green leaves as moisture and pH conditions stabilized.",
-  "current_stage": "Early top growth (shoots 1–3 inches above soil)",
-  "current_state": "Multiple Chesnok Red shoots are up and growing strongly with upright green leaves and only mild soil acidity remaining after planned lime application and careful watering. A competing scallion near one sprout has been identified for relocation to prevent crowding.",
+  "whats_been_logged": "Chesnok Red garlic emerged strongly and transitioned quickly into steady vegetative growth as soil moisture and pH stabilized after earlier correction. The plants are now producing tall, strap-like foliage with consistent inner growth, while older outer leaves show expected yellowing and tip browning. Soil conditions have remained stable in the window box, with monitoring centered on maintaining an ideal dry-down and avoiding overwatering during warm, sunny winter days.",
+  "current_stage": "Active vegetative growth (leaf production and elongation)",
+  "current_state": "The Chesnok Red garlic is producing tall, strap-like green leaves with firm bases and active inner growth. Several older outer leaves show yellowing and tip browning consistent with normal leaf turnover, while the crowns remain upright and healthy with no signs of rot or collapse. Soil conditions are stable with pH in the ideal range and evenly moist structure.",
   "timeline": [
     {
       "what_i_should_see": "Vernalization Complete",
@@ -35,14 +35,14 @@
     },
     {
       "what_i_should_see": "Tall Foliage & Dense Clumps",
-      "date_range": "Dec 19, 2025 - Jan 10, 2026"
+      "date_range": "Dec 7, 2025 - Jan 20, 2026"
     },
     {
-      "what_i_should_see": "Strap-Like Leaves Developing",
-      "date_range": "Jan 11 - Feb 10, 2026"
+      "what_i_should_see": "Thicker Leaves & Wider Clumps",
+      "date_range": "Jan 21 - Feb 10, 2026"
     },
     {
-      "what_i_should_see": "Tall Plants With Clustered Leaves",
+      "what_i_should_see": "Very Tall Leaves (Full Winter Size)",
       "date_range": "Feb 11 - Mar 10, 2026"
     },
     {
@@ -59,6 +59,38 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/25/2025",
+      "time": "1:14 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "138",
+        "moisture_mScm": "62.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "81.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chesnok Red garlic shows vigorous growth with firm bases and active green inner leaves. Several older outer leaves are yellowing and drying at the tips, while newer inner growth remains upright and healthy. Soil appears evenly moist and well settled with no signs of pooling or crown stress.",
+      "actions": "Do not water today as soil moisture is comfortably high. Leave yellowing leaves in place unless they are fully brown and papery; trim only completely dead leaves at the base if desired for cleanliness. Do not fertilize or adjust pH.",
+      "next_steps": "Recheck moisture tomorrow afternoon or Saturday morning. Allow the planter to dry down naturally; resume watering only when moisture readings fall into the mid-40s mS/cm or lower and the soil surface lightens. Continue monitoring leaf tip browning as warm sun and low humidity can accelerate outer leaf dry-down.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251225-02.jpeg",
+          "caption": "Overhead view of the Chesnok Red section showing multiple tall, strap-like green leaves with some older outer leaves yellowing and drying at the tips, consistent with normal leaf turnover in active winter growth.",
+          "tags": "garlic, chesnok_red, overhead, vegetative_growth, leaf_senescence, window_box"
+        }
+      ]
+    },
     {
       "date": "12/20/2025",
       "time": "7:57 AM",

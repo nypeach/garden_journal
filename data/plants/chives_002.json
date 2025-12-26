@@ -53,34 +53,34 @@
   ],
   "journal": [
     {
-      "date": "12/20/2025",
-      "time": "8:14 AM EST",
-      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
+      "date": "12/25/2025",
+      "time": "1:45 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
       "digital_probe": {
-        "ph": "6.7",
+        "ph": "6.40",
         "ec_mScm": "0.10",
-        "salt_mg_L": "54",
-        "moisture_mScm": "50",
+        "salt_mg_L": "53",
+        "moisture_mScm": "48.00",
         "light": "99",
-        "rh_percent": "64",
-        "fertility_percent": "5",
-        "soil_temp_f": "61.5"
+        "rh_percent": "37",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "83.7"
       },
       "analog_probe": {
         "fertility": "",
         "moisture": "",
         "ph": ""
       },
-      "observations": "Chive seedlings appear significantly more sparse and shorter today, with many previously visible shoots no longer apparent after repeated wind, rain, and surface soil movement. Only a few very short green blades remain visible above the soil surface. Remaining blades retain healthy green color with no yellowing, collapse, or damping-off observed. Surface soil appears dry and lightly crusted despite moderate moisture earlier in the morning, consistent with top-layer drying in a shallow window box.",
-      "actions": "Light surface watering recommended now to rehydrate the top inch of soil and protect remaining seedlings from crown desiccation. No fertilization, reseeding, or soil disturbance performed.",
-      "next_steps": "Maintain moisture stability and avoid further disturbance. Monitor remaining seedlings over the next 24–48 hours for continued green color and upright posture before making any reseeding decisions.",
-      "q_and_a_summary": "User expressed concern that chive seedlings are fading quickly. Assessment confirmed significant stress from repeated burial and surface drying but noted remaining viable green blades. Watering was recommended immediately due to elapsed time since the morning probe reading, full sun exposure, and seedling root depth.",
+      "observations": "Chive seedlings remain sparse but viable, with several thin green blades visible and upright. The soil surface appears very dry and bark-heavy with crusting, consistent with rapid top-layer drying under full sun and low humidity. No yellowing, collapse, or damping-off is visible.",
+      "actions": "Apply 1/2 cup water slowly and evenly over the chive section only to rehydrate the top 1/2 inch of soil. Do not fertilize today.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 30.00 mS/cm or if seedlings begin to look dull, limp, or flattened. Continue focusing on surface moisture stability rather than deep soaking while seedlings are still shallow-rooted.",
+      "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "chives_002-20251220-02.jpeg",
-          "caption": "Window box showing very sparse chive seedlings with only a few short green blades visible after wind and rain displaced surface soil.",
-          "tags": "chives, seedlings, sparse, stress, surface-drying"
+          "file_name": "chives_002-20251225-02.jpeg",
+          "caption": "Close view of the chive section showing sparse but upright green seedlings emerging through a bark-heavy, crusting soil surface under full sun.",
+          "tags": "chives, seedlings, sparse, surface-dry, bark-heavy-mix"
         }
       ]
     },
@@ -1030,6 +1030,38 @@
           "file_name": "<<put filename here>>",
           "caption": "Initial tray view showing broccoli center and bare right edge where chives will be reseeded.",
           "tags": "chives, tray, initial"
+        }
+      ]
+    },
+    {
+      "date": "12/20/2025",
+      "time": "8:14 AM EST",
+      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
+      "digital_probe": {
+        "ph": "6.7",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "50",
+        "light": "99",
+        "rh_percent": "64",
+        "fertility_percent": "5",
+        "soil_temp_f": "61.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chive seedlings appear significantly more sparse and shorter today, with many previously visible shoots no longer apparent after repeated wind, rain, and surface soil movement. Only a few very short green blades remain visible above the soil surface. Remaining blades retain healthy green color with no yellowing, collapse, or damping-off observed. Surface soil appears dry and lightly crusted despite moderate moisture earlier in the morning, consistent with top-layer drying in a shallow window box.",
+      "actions": "Light surface watering recommended now to rehydrate the top inch of soil and protect remaining seedlings from crown desiccation. No fertilization, reseeding, or soil disturbance performed.",
+      "next_steps": "Maintain moisture stability and avoid further disturbance. Monitor remaining seedlings over the next 24–48 hours for continued green color and upright posture before making any reseeding decisions.",
+      "q_and_a_summary": "User expressed concern that chive seedlings are fading quickly. Assessment confirmed significant stress from repeated burial and surface drying but noted remaining viable green blades. Watering was recommended immediately due to elapsed time since the morning probe reading, full sun exposure, and seedling root depth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251220-02.jpeg",
+          "caption": "Window box showing very sparse chive seedlings with only a few short green blades visible after wind and rain displaced surface soil.",
+          "tags": "chives, seedlings, sparse, stress, surface-drying"
         }
       ]
     }

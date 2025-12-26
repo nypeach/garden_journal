@@ -49,6 +49,43 @@
   ],
   "journal": [
     {
+      "date": "12/25/2025",
+      "time": "1:39 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "115",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula shows vigorous, fast regrowth with a dense canopy of healthy baby leaves and several taller leaves rising above the rest. Leaf posture is upright and overall color looks stronger and more uniform than earlier growth. No obvious wilting, spotting progression, or pest damage is visible in the canopy.",
+      "actions": "Harvest the tallest 25–35% of leaves evenly across the planter by cutting above the crowns, leaving about 1 inch of base intact. Do not water today because soil moisture is extremely high. Ensure the window box is draining freely ahead of tonight’s shower chance.",
+      "next_steps": "Recheck moisture tomorrow morning and continue withholding water until moisture drops into the 30–50 range. If moisture remains above 70 for more than 48 hours, increase airflow and confirm drainage is unobstructed. Plan the next light harvest in 4–7 days once leaves return to baby-leaf height.",
+      "q_and_a_summary": "Discussed when to harvest again; confirmed the arugula is ready for another light harvest today by removing only the tallest 25–35% of leaves and cutting above the crowns to support fast regrowth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251225-01.jpeg",
+          "caption": "Overhead view showing vigorous regrowth with a dense canopy of baby leaves and several taller leaves rising above the rest.",
+          "tags": "arugula, regrowth, baby-leaf, overhead, canopy"
+        },
+        {
+          "file_name": "arugula_001-20251225-02.jpeg",
+          "caption": "Overhead photo highlighting the even spread of regrowth across the planter and improved leaf color and fullness.",
+          "tags": "arugula, regrowth, dense-growth, leaf-color, healthy"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "11:27 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight. A 10% chance of showers tonight, then patchy fog. Tomorrow mostly sunny with a high of 82°F.",

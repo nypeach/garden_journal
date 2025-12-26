@@ -60,6 +60,48 @@
   ],
   "journal": [
     {
+      "date": "12/25/2025",
+      "time": "1:14 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "134",
+        "moisture_mScm": "61.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "82.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "No upright green Music Hardneck shoot is visible at the soil surface today, and the prior spear appears to have fully collapsed and disappeared. The soil remains visibly heavy and moist, consistent with the probe moisture reading, and the only remaining tissue appears as low, curled, pale-green leaf remnants rather than an actively extending spear.",
+      "actions": "Do not water or fertilize. Allow the container to dry down naturally to improve oxygen availability in the root zone. If confirming viability is desired, gently check one planting spot by scraping 1/2–1 inch down to assess whether the clove tissue is firm or rotted, then cover immediately.",
+      "next_steps": "Recheck moisture tomorrow or the next morning and avoid watering unless moisture drops below 35 mS/cm. If no new green spear emerges within 7–10 days under improved dry-down, plan to replant with vernalized cloves, as late December planting is still workable in this climate.",
+      "q_and_a_summary": "Discussed whether the plant has been lost and whether it is too late to plant more garlic; confirmed late December planting is still workable in Loxahatchee, though bulb size may be reduced compared with earlier planting.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251225-02.jpeg",
+          "caption": "Overhead view of the Music Hardneck section showing no visible upright shoot and a soil surface that remains dark and moisture-heavy.",
+          "tags": "garlic, Music Hardneck, dieback, soil moisture, overhead"
+        },
+        {
+          "file_name": "garlic_002-20251225-03.jpeg",
+          "caption": "Close-up of the former shoot area showing curled, collapsed pale-green leaf tissue near the soil line without an actively extending spear.",
+          "tags": "garlic, Music Hardneck, collapsed leaf, crown area, stress"
+        },
+        {
+          "file_name": "garlic_002-20251225-04.jpeg",
+          "caption": "Wider view of the planter surface showing heavy, clumped potting mix texture consistent with high moisture and reduced aeration.",
+          "tags": "garlic, Music Hardneck, soil structure, saturation, planter"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:56 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

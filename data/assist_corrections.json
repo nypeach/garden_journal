@@ -75,7 +75,7 @@
       "sub_category": "Workflow gating / unnecessary confirmation",
       "trigger_if": "The assistant does not output the Daily Journal Entry JSON immediately after the Expert Assessment (or asks for confirmation first)",
       "response_then": "Please present the Daily Journal Entry JSON immediately after your assessment (no confirmation step). Then continue the workflow.",
-      "count": 16,
+      "count": 17,
       "status": "active",
       "tags": [
         "json",
@@ -142,7 +142,7 @@
       "sub_category": "Schema / field names",
       "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
       "response_then": "Regenerate the Daily Journal Entry JSON using this exact schema and field names from the guide—no added or renamed fields.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative (High/Low/Condition)\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
-      "count": 16,
+      "count": 18,
       "status": "active",
       "tags": [
         "json",
@@ -188,7 +188,7 @@
       "sub_category": "Filename / order preservation",
       "trigger_if": "The assistant includes probe screenshots in the photos array, uses placeholder names, changes filename order, or assigns captions that do not match the actual plant photos",
       "response_then": "Rebuild the photos array using ONLY filenames that correspond to actual plant photos (exclude all probe screenshots), preserve the exact filenames and order I provided, and write captions that accurately describe each specific photo.",
-      "count": 1,
+      "count": 2,
       "status": "active",
       "tags": [
         "photos",
@@ -486,7 +486,7 @@
       "sub_category": "Review workflow",
       "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
       "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why. You need to do this every day immediately following the Daily Journal Entry JSON.",
-      "count": 52,
+      "count": 53,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -508,7 +508,7 @@
       "sub_category": "Multi-attribute updates",
       "trigger_if": "The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one",
       "response_then": "Stop. Do not resume from any intermediate point.\n\nFirst give me just the bulleted list of attributes for what needs changing.\nThen ask \"Ready to go one-by-one?\"\n\nThen one-by-one for each attribute...\n- Present the CURRENT attribute only\n- restate why it needs updating\n- restate the proposed updated wording (no code block)\nThen wait for the user to explicitly confirm or revise it before proceeding.",
-      "count": 2,
+      "count": 6,
       "status": "active",
       "tags": [
         "plant-main-data",

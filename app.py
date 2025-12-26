@@ -459,24 +459,67 @@ def photo_prep():
         plant_message = request.form.get('plant_message', '').strip()
         files = request.files.getlist('photos')
 
-        # Validation
+        # Validation - re-render form with existing data on error
+        all_plants = data_manager.get_all_plants()
+        available_plant_ids = sorted([p.get('id') for p in all_plants if p.get('id') and p.get('status') != 'Inactive'])
+
         if not plant_id:
-            flash('Plant ID is required', 'error')
-            return redirect(url_for('photo_prep'))
+            return render_template(
+                'photo_prep.html',
+                current_date=date_str if date_str else datetime.now().strftime('%Y-%m-%d'),
+                available_plants=available_plant_ids,
+                error=True,
+                error_message='Plant ID is required',
+                plant_id='',
+                context=context,
+                starting_number=starting_number,
+                global_message=global_message,
+                plant_message=plant_message
+            )
 
         # Verify plant exists
         plant = data_manager.get_plant(plant_id)
         if not plant:
-            flash(f'Plant not found: {plant_id}. Please check the Plant ID and try again.', 'error')
-            return redirect(url_for('photo_prep'))
+            return render_template(
+                'photo_prep.html',
+                current_date=date_str if date_str else datetime.now().strftime('%Y-%m-%d'),
+                available_plants=available_plant_ids,
+                error=True,
+                error_message=f'Plant not found: {plant_id}. Please check the Plant ID and try again.',
+                plant_id=plant_id,
+                context=context,
+                starting_number=starting_number,
+                global_message=global_message,
+                plant_message=plant_message
+            )
 
         if context == 'Initial' and (not files or files[0].filename == ''):
-            flash('At least one photo is required for Initial context', 'error')
-            return redirect(url_for('photo_prep'))
+            return render_template(
+                'photo_prep.html',
+                current_date=date_str if date_str else datetime.now().strftime('%Y-%m-%d'),
+                available_plants=available_plant_ids,
+                error=True,
+                error_message='At least one photo is required for Initial context',
+                plant_id=plant_id,
+                context=context,
+                starting_number=starting_number,
+                global_message=global_message,
+                plant_message=plant_message
+            )
 
         if not date_str:
-            flash('Date is required', 'error')
-            return redirect(url_for('photo_prep'))
+            return render_template(
+                'photo_prep.html',
+                current_date=datetime.now().strftime('%Y-%m-%d'),
+                available_plants=available_plant_ids,
+                error=True,
+                error_message='Date is required',
+                plant_id=plant_id,
+                context=context,
+                starting_number=starting_number,
+                global_message=global_message,
+                plant_message=plant_message
+            )
 
         # Parse date and create filename date format (YYYYMMDD)
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')

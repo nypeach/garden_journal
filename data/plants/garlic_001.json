@@ -13,9 +13,9 @@
     "Planted in mid-November 2025 in black planter 23.5\" × 7.85\" × 6\" left section",
     "Shared with Music Hardneck, Chesnok Red Hardneck, and Scallions."
   ],
-  "whats_been_logged": "The cloves transitioned from newly emerged shoots in acidic but evenly moist soil to vigorous, upright foliage as moisture fluctuated and garden lime was introduced for pH correction. Early lime application helped stabilize pH into a healthier range. One nearby scallion was relocated to protect garlic spacing. Shoots have strengthened steadily as soil moisture stabilized and pH continued rising into the ideal range.",
+  "whats_been_logged": "The garlic has progressed from early emergence in acidic soil into stronger upright growth as lime buffering and moisture stability improved. Recently, the plants have shown stress from elevated salts/EC and high soil temperatures, with older outer leaves collapsing while green center growth and crown firmness remain the key recovery indicators.",
   "current_stage": "Early top growth (shoots 1–3 inches)",
-  "current_state": "Shoots are upright, green, and strengthening as soil moisture has stabilized and pH continues to rise into a healthier range. Early foliage shows no stress despite earlier fluctuations in moisture, and the plants are now benefiting from steady sun and improved soil balance. Conditions are favorable for continued leaf elongation as the planter settles into consistent hydration and buffering.",
+  "current_state": "Several shoots show collapse and browning of older outer leaves while central growth remains green and upright. Leaf damage appears dry and papery rather than soft, and crowns remain intact with no visible signs of rot. Soil conditions are moderately moist but elevated salts/EC and high soil temperatures are contributing to visible stress, making crown firmness and continued green center growth the key indicators of recovery.",
   "timeline": [
     {
       "what_i_should_see": "Vernalization Complete",
@@ -59,6 +59,43 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/25/2025",
+      "time": "1:12 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.45",
+        "salt_mg_L": "228",
+        "moisture_mScm": "64.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "27.0",
+        "soil_temp_f": "88.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Several shoots show collapse and browning of older outer leaves while central growth remains green. Leaf damage appears dry and papery rather than soft, and the crowns remain upright with no visible signs of rot. Soil surface appears uneven and dry-looking in places despite moderate internal moisture, consistent with heat stress and elevated salts.",
+      "actions": "Do not water today. Trim only fully brown, collapsed outer leaf tissue using clean scissors, leaving any green tissue intact. Reduce afternoon heat load on the black window box by providing light shade or insulation around the container.",
+      "next_steps": "Recheck probe readings in 48 hours to monitor moisture dry-down and whether salts and EC decline. Resume watering only when moisture drops below approximately 40 mS/cm. Watch the crown for firmness and continued green center-leaf growth; softening or collapse at the soil line would indicate rot risk.",
+      "q_and_a_summary": "Discussed whether the struggling garlic plant will survive; confirmed the plant can recover if the crown remains firm and central growth stays green, but elevated salts and hot soil are driving visible leaf decline.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251225-02.jpeg",
+          "caption": "Planter section showing Siberian Hardneck garlic with a mix of green central leaves and collapsed, browned outer leaves under strong sun exposure.",
+          "tags": "garlic, siberian-hardneck, leaf-collapse, stress, window-box"
+        },
+        {
+          "file_name": "garlic_001-20251225-03.jpeg",
+          "caption": "Close-up view of garlic shoots showing dry, papery leaf dieback on older tissue while inner growth remains green and the crown appears intact.",
+          "tags": "garlic, foliage-damage, dry-leaf, crown, recovery-watch"
+        }
+      ]
+    },
     {
       "date": "12/20/2025",
       "time": "7:54 AM",

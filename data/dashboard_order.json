@@ -106,16 +106,16 @@
         "chamomile_001"
       ]
     },
-    {
-      "parent_order": 4,
-      "parent": "Medicinals",
-      "name": "Lavender",
-      "emoji": "🪻",
-      "anchor": "lavender",
-      "plants": [
-        "lavender_004"
-      ]
-    },
+    // {
+    //   "parent_order": 4,
+    //   "parent": "Medicinals",
+    //   "name": "Lavender",
+    //   "emoji": "🪻",
+    //   "anchor": "lavender",
+    //   "plants": [
+    //     "lavender_004"
+    //   ]
+    // },
     {
       "parent_order": 5,
       "parent": "Herbs & Greens",
@@ -157,6 +157,7 @@
         "lavender_001",
         "lavender_002",
         "lavender_003",
+        "lavender_004",
         "lavender_005",
         "zucchini_003"
       ]

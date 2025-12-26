@@ -61,6 +61,48 @@
   ],
   "journal": [
     {
+      "date": "12/25/2025",
+      "time": "2:13 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.30",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "48",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The bush bean remains upright and healthy with active flowering at multiple nodes, showing open white blossoms and developing bud clusters. Foliage is largely intact with no visible disease and only minor cosmetic blemishing on a few leaves. Soil is evenly hydrated following recent watering, supporting strong flower retention and early pod set potential.",
+      "actions": "Do not water again today unless the plant shows visible wilting before sunset, as soil moisture is already in an ideal range for flowering. Continue morning watering as the primary schedule, and use late-afternoon watering only as a rescue if soil dries rapidly or moisture falls into the low range.",
+      "next_steps": "Check moisture tomorrow morning before watering. Skip evening watering unless the plant droops noticeably and the top few inches of soil feel dry. Watch for tiny pods forming behind spent blossoms over the next 3–7 days and monitor for any blossom drop during hotter afternoons.",
+      "q_and_a_summary": "Discussed whether continuing watering at night and again in the morning is appropriate; confirmed that morning watering is ideal and a second daily watering should be used only as needed based on moisture and plant wilt, especially during early flowering.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251225-02.jpeg",
+          "caption": "Wide view of the bean plant in the raised bed showing overall structure, upright posture, and spacing around the stake.",
+          "tags": "green-beans, wide-view, raised-bed, structure, stake"
+        },
+        {
+          "file_name": "green_beans_001-20251225-03.jpeg",
+          "caption": "Overhead view highlighting active flowering clusters at the nodes with multiple open white blossoms.",
+          "tags": "green-beans, overhead, flowering, blossoms, nodes"
+        },
+        {
+          "file_name": "green_beans_001-20251225-04.jpeg",
+          "caption": "Close-up of flower clusters and nearby foliage showing healthy leaf texture and developing buds behind blossoms.",
+          "tags": "green-beans, closeup, blossoms, buds, early-pod-stage"
+        }
+      ]
+    },
+    {
       "date": "12/23/2025",
       "time": "4:09 PM",
       "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",

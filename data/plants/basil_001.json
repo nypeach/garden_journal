@@ -52,6 +52,48 @@
   ],
   "journal": [
     {
+      "date": "12/25/2025",
+      "time": "12:28 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.61",
+        "salt_mg_L": "306",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "37.0",
+        "soil_temp_f": "70.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil shows strong, dense regrowth with broad, turgid leaves and multiple active growth tips following pruning recovery. Overall structure is upright and vigorous with no visible wilt or stress, and the soil surface appears dark and evenly moist. Leaf color is slightly light in some areas but consistent with rapid vegetative expansion under strong sun.",
+      "actions": "Do not water today, as moisture is already ideal. Do not fertilize, since fertility and EC are elevated and additional feeding may increase salt stress. Rotate the pot 1/4 turn to keep canopy growth even.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if the reading drops into the mid-40s or lower. Continue monitoring leaf color as the plant expands; allow nutrients to draw down naturally before any feeding. Begin light pinching once new tips extend enough to shape the canopy without reducing vigor.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251225-02.jpeg",
+          "caption": "Top-down view showing dense regrowth and broad, healthy basil leaves filling out the canopy after pruning recovery.",
+          "tags": "basil, overhead, canopy, regrowth, healthy"
+        },
+        {
+          "file_name": "basil_001-20251225-03.jpeg",
+          "caption": "Side view showing upright stems and full leaf expansion with strong structure and no visible wilting.",
+          "tags": "basil, side-view, posture, vigorous-growth, leaves"
+        },
+        {
+          "file_name": "basil_001-20251225-04.jpeg",
+          "caption": "Angled view showing multiple growth clusters and a well-balanced, bushy form with evenly moist soil beneath the canopy.",
+          "tags": "basil, angled-view, bushy, clusters, soil-moisture"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "07:40 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight. Tonight: 10% chance of showers then patchy fog. Tomorrow: Patchy fog then mostly sunny with a high of 82°F.",
