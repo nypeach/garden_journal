@@ -385,16 +385,23 @@
         const plantId = plantIdInput.value.trim();
 
         try {
-          const response = await fetch(`/api/plant/${plantId}/last-photo-number`);
+          const dateInput = document.getElementById('date');
+          const dateValue = dateInput.value;
+          const response = await fetch(`/api/plant/${plantId}/last-photo-number?date=${dateValue}`);
           const data = await response.json();
 
-          if (data.last_number !== undefined) {
+          if (data.error) {
+            alert(data.error);
+            photoNumberInput.value = '';
+            photoNumberInput.placeholder = 'No journal entry for this date';
+          } else if (data.last_number !== undefined) {
             const nextNumber = data.last_number + 1;
             photoNumberInput.value = nextNumber;
             photoNumberInput.placeholder = `Next number: ${String(nextNumber).padStart(2, '0')}`;
           }
         } catch (error) {
           console.error('Error fetching last photo number:', error);
+          alert('Error checking for journal entry. Please verify the date has an existing entry.');
         }
       }
     });

@@ -10,11 +10,11 @@
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Vernalized the garlic for 6 weeks prior to planting.",
-    "Planted in mid-November 2025 in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" left section",
+    "Planted in mid-November 2025 in black planter 23.5\" × 7.85\" × 6\" left section",
     "Shared with Music Hardneck, Chesnok Red Hardneck, and Scallions."
   ],
   "whats_been_logged": "The cloves transitioned from newly emerged shoots in acidic but evenly moist soil to vigorous, upright foliage as moisture fluctuated and garden lime was introduced for pH correction. Early lime application helped stabilize pH into a healthier range. One nearby scallion was relocated to protect garlic spacing. Shoots have strengthened steadily as soil moisture stabilized and pH continued rising into the ideal range.",
-  "current_stage": "Early top growth (shoots 1\\u20133 inches)",
+  "current_stage": "Early top growth (shoots 1–3 inches)",
   "current_state": "Shoots are upright, green, and strengthening as soil moisture has stabilized and pH continues to rise into a healthier range. Early foliage shows no stress despite earlier fluctuations in moisture, and the plants are now benefiting from steady sun and improved soil balance. Conditions are favorable for continued leaf elongation as the planter settles into consistent hydration and buffering.",
   "timeline": [
     {
@@ -62,7 +62,7 @@
     {
       "date": "12/20/2025",
       "time": "7:54 AM",
-      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
+      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.44",
@@ -80,7 +80,7 @@
       },
       "observations": "Several garlic plants show yellowing and collapse of older outer leaves while inner leaves remain green and upright. Leaf damage appears dry and papery rather than soft, and crowns remain firm with no visible signs of rot. Soil conditions are saturated, consistent with elevated moisture and salt readings.",
       "actions": "Do not water. Avoid fertilization and bulb disturbance. Lightly loosen the top half-inch of soil between plants to improve aeration and confirm drainage openings are unobstructed.",
-      "next_steps": "Allow soil to dry naturally over the next 24\\u201348 hours. Take the next probe reading only after visible dry-down. Monitor for stabilization of leaf yellowing and continued firmness at the crown.",
+      "next_steps": "Allow soil to dry naturally over the next 24–48 hours. Take the next probe reading only after visible dry-down. Monitor for stabilization of leaf yellowing and continued firmness at the crown.",
       "q_and_a_summary": "Discussed whether the plant condition is concerning; confirmed stress is due to excess moisture and salts rather than disease or rot.",
       "follow_up": [],
       "photos": [
@@ -104,7 +104,7 @@
     {
       "date": "12/19/2025",
       "time": "10:17 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",
       "digital_probe": {
         "ph": "5.90",
         "ec_mScm": "0.36",
@@ -146,7 +146,7 @@
     {
       "date": "12/18/2025",
       "time": "12:56 PM",
-      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Partly sunny with a high of 83°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.24",
@@ -164,7 +164,7 @@
       },
       "observations": "Garlic plants show improved leaf posture with firmer, more upright leaves compared to earlier in the week. Bases remain thick and stable with no signs of collapse, narrowing, or yellowing. Soil remains moist from morning rain but shows improved structure and aeration, and no pooling or surface saturation is visible.",
       "actions": "Do not water or fertilize. Leave the planter exposed to sun and airflow to continue natural dry-down.",
-      "next_steps": "Continue monitoring moisture and resume watering only when levels fall to approximately 40\\u201345 mS/cm. Watch for continued leaf stiffening over the next 24 hours.",
+      "next_steps": "Continue monitoring moisture and resume watering only when levels fall to approximately 40–45 mS/cm. Watch for continued leaf stiffening over the next 24 hours.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -183,7 +183,7 @@
     {
       "date": "12/16/2025",
       "time": "11:56 AM",
-      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
       "digital_probe": {
         "ph": "6.10",
         "ec_mScm": "0.25",
@@ -201,7 +201,7 @@
       },
       "observations": "Garlic plants remain upright at the base but show softer leaf posture and gentle downward curvature compared to prior days, indicating a response to saturated soil conditions. Leaf color remains green with no yellowing, collapse, or narrowing at the stem bases. Cut leaf stubs remain dry and sealed, and no signs of rot or disease are present. Soil is visibly saturated following repeated rain events.",
       "actions": "Do not water or fertilize. Leave the planter undisturbed and fully exposed to sun and wind to encourage oxygen return to the root zone.",
-      "next_steps": "Recheck moisture once levels fall below approximately 60 mS/cm and observe for improved leaf firmness. Resume normal watering only when moisture reaches around 40\\u201345 mS/cm.",
+      "next_steps": "Recheck moisture once levels fall below approximately 60 mS/cm and observe for improved leaf firmness. Resume normal watering only when moisture reaches around 40–45 mS/cm.",
       "q_and_a_summary": "Discussed visible differences in leaf posture compared to previous days; confirmed changes reflect temporary saturation response rather than plant stress or disease.",
       "follow_up": [],
       "photos": [
@@ -230,7 +230,7 @@
     {
       "date": "12/15/2025",
       "time": "10:37 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.29",
@@ -272,7 +272,7 @@
     {
       "date": "12/14/2025",
       "time": "2:36 PM",
-      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.15",
@@ -314,7 +314,7 @@
     {
       "date": "12/12/2025",
       "time": "1:17 PM",
-      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.27",
@@ -332,7 +332,7 @@
       },
       "observations": "Garlic plants are upright and actively growing with strong central leaves and healthy green coloration. Outer leaves show minor, stable tip browning consistent with earlier moisture fluctuations, while cut leaf stubs appear dry and clean with no signs of rot. Soil is fully saturated and cohesive throughout the planter, explaining the maximum moisture reading. Overall plant vigor remains strong with no visible stress.",
       "actions": "Do not water or fertilize. Allow the soil to dry naturally and keep the surface undisturbed to encourage even moisture reduction.",
-      "next_steps": "Recheck moisture in 24\\u201348 hours and resume watering only once levels fall below approximately 45 mS/cm. Continue monitoring center-leaf posture and elongation for steady growth.",
+      "next_steps": "Recheck moisture in 24–48 hours and resume watering only once levels fall below approximately 45 mS/cm. Continue monitoring center-leaf posture and elongation for steady growth.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -356,7 +356,7 @@
     {
       "date": "12/11/2025",
       "time": "4:54 PM",
-      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
       "digital_probe": {
         "ph": "6.60",
         "ec_mScm": "0.44",
@@ -374,7 +374,7 @@
       },
       "observations": "Garlic plants remain upright with actively elongating center leaves and healthy green coloration. Older leaves continue to show stable tip browning from earlier stress, with no progression or signs of disease. Soil is very moist and cohesive following recent rain and amendment, explaining the elevated moisture, EC, and salt readings. Overall plant condition remains strong with no visual indicators of rot, wilt, or decline.",
       "actions": "Do not water or fertilize. Allow the soil to dry naturally and avoid disturbing the amended surface.",
-      "next_steps": "Monitor moisture over the next 24\\u201348 hours as it dries back toward the mid-range. Resume watering only once moisture approaches 40\\u201345 mS/cm. Continue watching center-leaf posture and elongation for signs of steady growth.",
+      "next_steps": "Monitor moisture over the next 24–48 hours as it dries back toward the mid-range. Resume watering only once moisture approaches 40–45 mS/cm. Continue watching center-leaf posture and elongation for signs of steady growth.",
       "q_and_a_summary": "Discussed whether current temperatures pose a risk; confirmed that short-term daytime warmth with cool nights is safe for garlic and not a cause for concern.",
       "follow_up": [],
       "photos": [
@@ -398,7 +398,7 @@
     {
       "date": "12/10/2025",
       "time": "8:45 AM",
-      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.19",
@@ -414,7 +414,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Garlic shoots remain upright and vigorous with bright green new leaves emerging cleanly from each clove. Older, previously damaged leaves show stable tip browning and tearing consistent with earlier mechanical stress, but no signs of disease or nutrient imbalance. Soil structure appears noticeably improved from yesterday\\u2019s amendment, showing better aeration and consistent moisture retention. Overall plant condition is strong with continued top growth and healthy color.",
+      "observations": "Garlic shoots remain upright and vigorous with bright green new leaves emerging cleanly from each clove. Older, previously damaged leaves show stable tip browning and tearing consistent with earlier mechanical stress, but no signs of disease or nutrient imbalance. Soil structure appears noticeably improved from yesterday’s amendment, showing better aeration and consistent moisture retention. Overall plant condition is strong with continued top growth and healthy color.",
       "actions": "Do not water today as moisture is ideal and weather conditions are mild. Leave all foliage intact and allow the amended soil to continue settling without further disturbance.",
       "next_steps": "Recheck moisture tomorrow morning as the soil gradually dries. Resume watering once levels fall toward 40 mS/cm. Continue monitoring for increasing leaf height and base thickening over the next several days.",
       "q_and_a_summary": "",
@@ -440,7 +440,7 @@
     {
       "date": "12/9/2025",
       "time": "7:47 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "5.97",
         "ec_mScm": "0.13",
@@ -487,7 +487,7 @@
     {
       "date": "12/8/2025",
       "time": "10:54 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "5.76",
         "ec_mScm": "0.27",
@@ -505,7 +505,7 @@
       },
       "observations": "Garlic shoots remain upright, green, and actively elongating with healthy new foliage emerging from each plant. Several leaves display minor tip browning consistent with earlier dry-to-wet swings and normal mechanical wear, but the central growth points are strong and vibrant. Soil structure appears well-aerated with moderate moisture following prior hydration, and no signs of disease, wilt, or nutrient stress are present.",
       "actions": "Do not water today, as incoming rainfall will supply additional moisture. Leave all foliage intact and avoid lime or fertilizer at this time.",
-      "next_steps": "Recheck moisture after rainfall passes tomorrow. Resume watering only when moisture readings decline toward 40\\u201350 mS/cm. Continue monitoring for steady leaf emergence and overall shoot thickening.",
+      "next_steps": "Recheck moisture after rainfall passes tomorrow. Resume watering only when moisture readings decline toward 40–50 mS/cm. Continue monitoring for steady leaf emergence and overall shoot thickening.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -534,7 +534,7 @@
     {
       "date": "12/7/2025",
       "time": "12:41 PM",
-      "conditions": "Sunny with a high near 86\\xb0F, patchy fog early, calm to light south wind. Overnight low around 66\\xb0F.",
+      "conditions": "Sunny with a high near 86°F, patchy fog early, calm to light south wind. Overnight low around 66°F.",
       "digital_probe": {
         "ph": "5.77",
         "ec_mScm": "0.22",
@@ -581,7 +581,7 @@
     {
       "date": "12/4/2025",
       "time": "4:52 PM",
-      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "5.77",
         "ec_mScm": "0.20",
@@ -630,7 +630,7 @@
     {
       "date": "12/3/2025",
       "time": "1:36 PM",
-      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "7.83",
         "ec_mScm": "0.14",
@@ -674,7 +674,7 @@
     {
       "date": "12/2/2025",
       "time": "10:47 AM",
-      "conditions": "Partly sunny with temperatures in the mid 70s\\xb0F and overnight lows near 69\\xb0F.",
+      "conditions": "Partly sunny with temperatures in the mid 70s°F and overnight lows near 69°F.",
       "digital_probe": {
         "ph": "6.17",
         "ec_mScm": "0.31",
@@ -716,7 +716,7 @@
     {
       "date": "11/28/2025",
       "time": "10:34 AM",
-      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight. Clear conditions expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight. Clear conditions expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.12",
         "ec_mScm": "0.20",
@@ -753,7 +753,7 @@
     {
       "date": "11/27/2025",
       "time": "11:18 AM",
-      "conditions": "Cloudy with a high of 81\\xb0F dropping to 65\\xb0F overnight. Rain expected around 6:00 PM.",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight. Rain expected around 6:00 PM.",
       "digital_probe": {
         "ph": "5.17",
         "ec_mScm": "0.56",
@@ -795,7 +795,7 @@
     {
       "date": "11/26/2025",
       "time": "10:50 AM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Thunderstorms expected around 4:00 PM.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Thunderstorms expected around 4:00 PM.",
       "digital_probe": {
         "ph": "5.37",
         "ec_mScm": "0.30",
@@ -832,7 +832,7 @@
     {
       "date": "11/25/2025",
       "time": "3:00 PM",
-      "conditions": "Sunny all day with a high of 84\\xb0F dropping to 65\\xb0F overnight.",
+      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight.",
       "digital_probe": {
         "ph": "5.44",
         "ec_mScm": "0.35",
@@ -871,7 +871,7 @@
     {
       "date": "11/24/2025",
       "time": "11:31 AM",
-      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
       "digital_probe": {
         "ph": "7.73",
         "ec_mScm": "0.41",
@@ -910,7 +910,7 @@
     {
       "date": "11/23/2025",
       "time": "1:27 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.28",
         "ec_mScm": "0.19",
@@ -944,7 +944,7 @@
     {
       "date": "11/22/2025",
       "time": "10:50 AM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "4.85",
         "ec_mScm": "0.34",
@@ -961,7 +961,7 @@
         "ph": ""
       },
       "observations": "Siberian Hardneck shoots remain upright, plump, and healthy with no signs of stress. Soil moisture is stable and well-balanced, and surface dryness does not reflect the strong internal moisture reading. The pH dip to 4.85 is consistent with lime dissolving unevenly through soil layers and does not indicate a true setback. Lime residue remains visible on the surface, confirming ongoing buffering. Overall growth is steady, and the shoot in the upper-right corner appears consistent with Music Hardneck rather than Siberian based on thickness and position.",
-      "actions": "Do not water today, as moisture levels are ideal. Do not add lime, as buffering is still in progress. Avoid fertilizing until shoots reach 6\\u20138 inches.",
+      "actions": "Do not water today, as moisture levels are ideal. Do not add lime, as buffering is still in progress. Avoid fertilizing until shoots reach 6–8 inches.",
       "next_steps": "Recheck pH and moisture in 24 hours to confirm continued buffering. Monitor ongoing shoot elongation and foliage development. Resume watering only when moisture drops below approximately 30 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -976,7 +976,7 @@
     {
       "date": "11/21/2025",
       "time": "3:26 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
       "digital_probe": {
         "ph": "5.33",
         "ec_mScm": "0.25",
@@ -994,7 +994,7 @@
       },
       "observations": "Siberian Hardneck shoots appear healthy, upright, and strengthening, with several sprouts showing continued elongation. Soil moisture is now in an optimal range compared to earlier dryness, and remaining visible lime on the surface indicates ongoing pH buffering. The pH trend shows consistent improvement from the low 4s to 5.33, confirming that the lime is dissolving effectively. No signs of stress, discoloration, or deformity are present. Light exposure is excellent and the planter conditions are stable.",
       "actions": "No watering needed at this moment as moisture is well-balanced. Do not apply any more lime today since pH is rising steadily. Maintain full sun exposure and avoid fertilizer at this early growth stage.",
-      "next_steps": "Recheck pH and moisture in 24 hours to confirm continued upward pH movement. Monitor for additional shoot emergence and early foliage extension. Hold off on fertilizing until shoots reach the 6\\u20138 inch stage to avoid early nutrient burn.",
+      "next_steps": "Recheck pH and moisture in 24 hours to confirm continued upward pH movement. Monitor for additional shoot emergence and early foliage extension. Hold off on fertilizing until shoots reach the 6–8 inch stage to avoid early nutrient burn.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1008,7 +1008,7 @@
     {
       "date": "11/20/2025",
       "time": "12:23 PM",
-      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "4.65",
         "ec_mScm": "0.20",
@@ -1026,7 +1026,7 @@
       },
       "observations": "Multiple healthy garlic shoots are present, including a new sprout emerging from the lower-left area of the box. Early growth appears strong with green, firm shoots. Soil is very dry at 8.0 mS/cm, and surface texture shows loose, dry conditions with visible lime still dissolving. The scallion relocation improved spacing and did not disturb the garlic. pH is low at 4.65, but existing lime is still dissolving and gradually buffering the soil. No signs of disease or stress.",
       "actions": "Apply a light, even watering to rehydrate the upper soil layer and help dissolve remaining lime. Do not add more lime today. No fertilizer needed at this stage. Maintain full sun exposure.",
-      "next_steps": "Recheck moisture and pH in 24 hours. Monitor additional shoots emerging over the next week. If pH remains below 5.5 after lime dissolves and soil rehydrates, apply a small follow-up lime dose. Continue avoiding fertilizer until leaves reach 6\\u20138 inches.",
+      "next_steps": "Recheck moisture and pH in 24 hours. Monitor additional shoots emerging over the next week. If pH remains below 5.5 after lime dissolves and soil rehydrates, apply a small follow-up lime dose. Continue avoiding fertilizer until leaves reach 6–8 inches.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -1040,7 +1040,7 @@
     {
       "date": "11/19/2025",
       "time": "9:29 AM",
-      "conditions": "Mostly sunny with a high around 82\\u201385\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high around 82–85°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "4.48",
         "ec_mScm": "0.02",
@@ -1080,7 +1080,7 @@
     {
       "date": "11/18/2025",
       "time": "8:52 AM",
-      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
       "digital_probe": {
         "ph": "5.19",
         "ec_mScm": "0.09",
@@ -1098,7 +1098,7 @@
       },
       "observations": "Siberian Hardneck shows early sprout development with upright green tips just above the soil line. Leaf color is healthy and the planter soil is moderately moist with no compaction or crusting.",
       "actions": "Apply light watering in the morning to offset the warming day while avoiding waterlogging. Hold fertilizer and additional amendments until pH correction is underway.",
-      "next_steps": "Recheck soil moisture later in the day and continue monitoring sprout height and color over the next 24\\u201348 hours.",
+      "next_steps": "Recheck soil moisture later in the day and continue monitoring sprout height and color over the next 24–48 hours.",
       "q_and_a_summary": "Confirmed that future logs can be generated directly from photos and screenshots and that this workflow would continue to work.",
       "follow_up": [],
       "photos": [
@@ -1112,7 +1112,7 @@
     {
       "date": "11/17/2025",
       "time": "9:01 AM",
-      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
       "digital_probe": {
         "ph": "4.92",
         "ec_mScm": "0.23",

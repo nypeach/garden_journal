@@ -49,9 +49,9 @@
   ],
   "journal": [
     {
-      "date": "12/23/2025",
+      "date": "12/25/2025",
       "time": "4:07 PM",
-      "conditions": "Sunny with a high of 80\\xb0F dropping to 60\\xb0F overnight. Wind gusts as high as 28 mph.",
+      "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",
       "digital_probe": {
         "ph": "8.40",
         "ec_mScm": "0.06",
@@ -67,53 +67,106 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The plant remains vigorous and upright with a broad, healthy canopy and strong petioles. Multiple buds and developing fruit structures are present near the crown, and one lower zucchini fruit is reported as soft and mushy, consistent with an aborted/failed set. Lower foliage is close to the soil line and ready for selective removal to support vertical training and airflow.",
-      "actions": "Remove the soft/mushy zucchini fruit by cutting the stem cleanly 1 inch above the attachment point. Prune 1\\u20132 lowest leaves that are closest to the soil to improve airflow and keep foliage off the soil surface. Provide a deep, slow watering using a hose trickle for 2 minutes, pause 2 minutes, then repeat another 2 minutes, keeping water off foliage and the crown.",
-      "next_steps": "Recheck probe readings tomorrow morning after watering to confirm moisture recovery and verify whether pH normalizes with better soil contact. Continue monitoring new female buds and plan morning hand-pollination when blooms open. Keep developing fruits elevated and dry, and maintain a clean, airy crown as vertical training continues.",
-      "q_and_a_summary": "Discussed whether the soft/mushy lower zucchini should be removed; confirmed it should be cut off cleanly to prevent rot and pest attraction. Reviewed pruning of bottom leaves for vertical training and confirmed selective removal of 1\\u20132 lowest leaves is appropriate. Interpreted the high pH reading as possibly skewed by dry soil and recommended rechecking after deep watering.",
-      "follow_up": [],
+      "observations": "The plant remains vigorous with a broad canopy, thick upright petioles, and an active crown producing multiple developing buds. One small lower fruit shows visible failure and is reported as soft and mushy, consistent with early collapse or rot. The soil surface appears dry and crumbly in multiple areas, consistent with late-day dry-down under sunny, windy conditions.",
+      "actions": "Remove the soft/mushy lower zucchini immediately with a clean cut close to the stem and discard it. Water the plant this afternoon with a slow, thorough base watering to re-wet the root zone, avoiding the crown and any developing fruits. Remove only the lowest 1–2 leaves that are touching soil or interfering with the vertical training zone by cutting petioles cleanly at the base.",
+      "next_steps": "Recheck probe readings tomorrow morning to confirm moisture recovery and to see if pH remains elevated. Monitor the remaining developing fruit for firmness and steady lengthening over the next 24–48 hours. Continue vertical training by keeping the stem supported and maintaining airflow by gradually removing lower leaves as they age or crowd the base.",
+      "q_and_a_summary": "Discussed whether the soft, mushy lower fruit should be removed; confirmed it should be cut off immediately. Discussed removing lower leaves as part of vertical growth; confirmed removing the lowest 1–2 soil-contact leaves is appropriate. User asked whether the plant will make it; confirmed the plant remains structurally strong and actively growing. User asked whether another tie should be added tomorrow; confirmed a tie can be added if cut sites look dry and sealed.",
+      "follow_up": [
+        "[4:40 PM] Removed lower leaves to support vertical training and improve airflow at the base, allowing the petiole cut sites to heal and dry.",
+        "[4:45 PM] Gave the plant a thorough base watering to re-wet the root zone after late-day dry-down in sunny, windy conditions."
+      ],
       "photos": [
         {
           "file_name": "zucchini_002-20251223-02.jpeg",
-          "caption": "Overhead view of the zucchini showing a wide, healthy canopy with strong leaf structure and minor leaf-edge damage consistent with chewing.",
-          "tags": "zucchini, overhead, canopy, vigor, leaf-damage"
+          "caption": "Overhead view showing a wide, vigorous zucchini canopy with large leaves and an upright structure in the raised bed.",
+          "tags": "zucchini, overhead, canopy, vigor, raised-bed"
         },
         {
           "file_name": "zucchini_002-20251223-03.jpeg",
-          "caption": "Low-angle view of a developing zucchini fruit with the spent blossom attached, positioned near the plant base.",
-          "tags": "zucchini, developing-fruit, spent-blossom, base, fruit-set"
+          "caption": "Side view of the lower stem showing a small developing fruit with a spent blossom and a second small fruit below it near the training stake.",
+          "tags": "zucchini, fruit, side-view, blossom, vertical-training"
+        }
+      ]
+    },
+    {
+      "date": "12/23/2025",
+      "time": "4:07 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",
+      "digital_probe": {
+        "ph": "8.40",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "34",
+        "moisture_mScm": "20.00",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "74.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant remains vigorous with a broad canopy, thick upright petioles, and an active crown producing multiple developing buds. One small lower fruit shows visible failure and is reported as soft and mushy, consistent with early collapse or rot. The soil surface appears dry and crumbly in multiple areas, consistent with late-day dry-down under sunny, windy conditions.",
+      "actions": "Remove the soft/mushy lower zucchini immediately with a clean cut close to the stem and discard it. Water the plant this afternoon with a slow, thorough base watering to re-wet the root zone, avoiding the crown and any developing fruits. Remove only the lowest 1–2 leaves that are touching soil or interfering with the vertical training zone by cutting petioles cleanly at the base.",
+      "next_steps": "Recheck probe readings tomorrow morning to confirm moisture recovery and to see if pH remains elevated. Monitor the remaining developing fruit for firmness and steady lengthening over the next 24–48 hours. Continue vertical training by keeping the stem supported and maintaining airflow by gradually removing lower leaves as they age or crowd the base.",
+      "q_and_a_summary": "Discussed whether the soft, mushy lower fruit should be removed; confirmed it should be cut off immediately. Discussed removing lower leaves as part of vertical growth; confirmed removing the lowest 1–2 soil-contact leaves is appropriate. User asked whether the plant will make it; confirmed the plant remains structurally strong and actively growing. User asked whether another tie should be added tomorrow; confirmed a tie can be added if cut sites look dry and sealed.",
+      "follow_up": [
+        "[4:40 PM] Removed lower leaves to support vertical training and improve airflow at the base, allowing the petiole cut sites to heal and dry.",
+        "[4:45 PM] Gave the plant a thorough base watering to re-wet the root zone after late-day dry-down in sunny, windy conditions."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251223-02.jpeg",
+          "caption": "Overhead view showing a wide, vigorous zucchini canopy with large leaves and an upright structure in the raised bed.",
+          "tags": "zucchini, overhead, canopy, vigor, raised-bed"
+        },
+        {
+          "file_name": "zucchini_002-20251223-03.jpeg",
+          "caption": "Side view of the lower stem showing a small developing fruit with a spent blossom and a second small fruit below it near the training stake.",
+          "tags": "zucchini, fruit, side-view, blossom, vertical-training"
         },
         {
           "file_name": "zucchini_002-20251223-04.jpeg",
-          "caption": "Crown and lower stem area showing vertical training tie placement and multiple fruit/bud structures developing near the main stem.",
-          "tags": "zucchini, crown, stem, vertical-training, buds, fruiting"
+          "caption": "Lower stem and crown junction showing the training tie placement and multiple developing structures near the fruiting zone.",
+          "tags": "zucchini, stem, crown, training-tie, fruiting"
         },
         {
           "file_name": "zucchini_002-20251223-05.jpeg",
-          "caption": "Close view of the main stem with multiple nodes and developing buds, showing thick, healthy structure and good airflow potential after lower leaf removal.",
-          "tags": "zucchini, stem, nodes, buds, structure, airflow"
+          "caption": "Close-up of the mid-stem area showing developing buds and petiole spacing around the vertical training support.",
+          "tags": "zucchini, buds, stem, petioles, training"
         },
         {
           "file_name": "zucchini_002-20251223-06.jpeg",
-          "caption": "Interior crown view showing several developing buds at different stages clustered near the growth point.",
-          "tags": "zucchini, crown, buds, flowering, close-up"
+          "caption": "Upper stem view showing multiple developing buds clustered near the active crown, indicating ongoing reproductive cycling.",
+          "tags": "zucchini, crown, buds, flowering, growth"
         },
         {
           "file_name": "zucchini_002-20251223-07.jpeg",
-          "caption": "Soil surface view beneath the canopy showing exposed soil and spacing around the plant base prior to watering.",
-          "tags": "zucchini, soil, bed-surface, dry, watering-context"
+          "caption": "Angled view across the bed surface showing dry, loose soil texture around the plant base beneath the canopy.",
+          "tags": "zucchini, soil, dry, raised-bed, moisture"
         },
         {
           "file_name": "zucchini_002-20251223-08.jpeg",
-          "caption": "Lower leaf on the soil surface showing mild yellowing and wear, indicating a good candidate for removal during vertical training cleanup.",
-          "tags": "zucchini, lower-leaf, pruning-candidate, senescence, training"
+          "caption": "Plant view taken before pruning, showing the lower foliage and the existing vertical training support setup.",
+          "tags": "zucchini, before-pruning, canopy, vertical-training, lower-leaves"
+        },
+        {
+          "file_name": "zucchini_002-20251223-09.jpeg",
+          "caption": "After-pruning view showing the lower leaf removal and a cleaner stem zone to support airflow and vertical training.",
+          "tags": "zucchini, after-pruning, lower-leaves-removed, airflow, stem-zone"
+        },
+        {
+          "file_name": "zucchini_002-20251223-10.jpeg",
+          "caption": "Second after-pruning angle highlighting the cleaned lower stem area and improved space around the crown for drying and healing.",
+          "tags": "zucchini, after-pruning, crown, stem, healing-cuts"
         }
       ]
     },
     {
       "date": "12/20/2025",
       "time": "7:27 AM",
-      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
+      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.12",
@@ -131,7 +184,7 @@
       },
       "observations": "The plant appears vigorous and upright with healthy green foliage and strong, turgid petioles. A white, webby patch of fungal-looking growth is present on the soil surface and remains visible into mid-afternoon, consistent with active decomposition in organic-rich soil. Multiple female flowers and developing fruits are visible, and at least one previously pollinated fruit appears to be elongating and darkening, consistent with early successful set. The crown and lower stem area appear structurally sound with no obvious collapse or wet rot visible in the provided photos.",
       "actions": "Do not water until the next probe reading. Leave the white soil mycelium in place (no treatment needed); optionally lightly rake the surface only if you want it less visible. Maintain vertical training with gentle ties and keep any leaves from resting directly on the soil when possible to reduce rot and splash risk.",
-      "next_steps": "Over the next 24\\u201336 hours, watch the pollinated fruit for steady daily lengthening and firm texture; this is the clearest confirmation of a successful set. Continue monitoring for new female buds at the crown and plan hand-pollination in the morning when blooms are fully open. Maintain airflow around the crown and avoid overwatering while fruit is setting.",
+      "next_steps": "Over the next 24–36 hours, watch the pollinated fruit for steady daily lengthening and firm texture; this is the clearest confirmation of a successful set. Continue monitoring for new female buds at the crown and plan hand-pollination in the morning when blooms are fully open. Maintain airflow around the crown and avoid overwatering while fruit is setting.",
       "q_and_a_summary": "Reviewed whether the white growth on the soil surface is harmful; it appears consistent with saprophytic fungal mycelium associated with organic decomposition rather than a plant disease. Evaluated whether the previously pollinated fruit is setting; visible elongation and darkening are consistent with a successful set. Confirmed the plant has additional female flowers/buds developing and that morning pollination is the preferred timing. Confirmed the full photo set can be reviewed without inventing details.",
       "follow_up": [
         "[2:30 PM] Observed widespread leaf drooping and folding from inside the house. Applied a slow, steady watering for approximately one minute using the hose. Leaves visibly perked back up within about 30 minutes, indicating effective rehydration without overwatering."
@@ -217,7 +270,7 @@
     {
       "date": "12/19/2025",
       "time": "10:25 PM",
-      "conditions": "Partly sunny earlier with a high near 84\\xb0F; evening is partly cloudy with overnight lows around 61\\xb0F.",
+      "conditions": "Partly sunny earlier with a high near 84°F; evening is partly cloudy with overnight lows around 61°F.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.05",
@@ -234,7 +287,7 @@
         "ph": ""
       },
       "observations": "Lower leaf petioles are encroaching into adjacent green bean space. Prior leaf miner damage required earlier partial petiole removals, leaving small inactive nubs near the stem. Plant structure remains vigorous with strong crown development and multiple active growth points.",
-      "actions": "Reviewed selective pruning strategy for vertical training. Confirmed that one encroaching lower petiole can be removed safely, and that up to one additional lower petiole may be removed to create a clean 1.5\\u20132 inch stem section for tying. Confirmed that old, dead petiole nubs from prior leaf miner damage may be trimmed flush without harming the plant.",
+      "actions": "Reviewed selective pruning strategy for vertical training. Confirmed that one encroaching lower petiole can be removed safely, and that up to one additional lower petiole may be removed to create a clean 1.5–2 inch stem section for tying. Confirmed that old, dead petiole nubs from prior leaf miner damage may be trimmed flush without harming the plant.",
       "next_steps": "Carefully trim dead petiole nubs flush with the stem without shaving or gouging living tissue. Allow cuts to air-dry before tying. Proceed slowly and limit cleanup to inactive tissue only. Additional photos and timestamp to be logged after cleanup is complete.",
       "q_and_a_summary": "User asked whether an encroaching leaf petiole could be removed and whether removing two lower petioles would support vertical training. Guidance confirmed both actions are safe at this stage. User also asked if remaining petiole nubs from earlier leaf miner pruning could now be cleaned flush; guidance confirmed this is appropriate if tissue is dead and inactive.",
       "follow_up": [],
@@ -259,7 +312,7 @@
     {
       "date": "12/18/2025",
       "time": "1:39 PM",
-      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight. A 20% chance of precipitation today.",
+      "conditions": "Partly sunny with a high of 83°F dropping to 67°F overnight. A 20% chance of precipitation today.",
       "digital_probe": {
         "ph": "7.40",
         "ec_mScm": "0.06",
@@ -328,7 +381,7 @@
     {
       "date": "12/17/2025",
       "time": "11:08 AM",
-      "conditions": "Mostly sunny with a high near 79\\xb0F dropping to around 67\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 79°F dropping to around 67°F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.06",
@@ -346,7 +399,7 @@
       },
       "observations": "The plant remains upright and vigorous with a clean, open crown and multiple mature flower structures present. A primary female bud opened late in the afternoon following a cool, cloudy morning, allowing for successful hand pollination using two male flowers. Overall canopy posture is stable with no visible signs of wilt, rot, or disease.",
       "actions": "No additional watering or fertilization planned for the remainder of the day following light corrective irrigation. Avoid wetting developing fruit and flowers.",
-      "next_steps": "Check soil moisture tomorrow morning after overnight conditions and any rainfall. Monitor the newly pollinated ovary for firmness and growth over the next 24\\u201348 hours. Avoid overhead watering and unnecessary handling.",
+      "next_steps": "Check soil moisture tomorrow morning after overnight conditions and any rainfall. Monitor the newly pollinated ovary for firmness and growth over the next 24–48 hours. Avoid overhead watering and unnecessary handling.",
       "q_and_a_summary": "Discussed delayed female flower opening due to cool, cloudy morning conditions and confirmed late-day opening was still viable for pollination. Reviewed handling and storage of cut male flowers to preserve pollen. Confirmed gentle handling did not damage the female flower. Discussed interpreting zero moisture readings caused by surface crusting and confirmed that light corrective watering was appropriate after afternoon dry-down.",
       "follow_up": [
         "[11:45 AM] Removed three leaves showing leaf miner tunneling, including one fully senesced brown leaf, by cutting each petiole cleanly at the base to improve airflow and remove nonfunctional tissue.",
@@ -435,7 +488,7 @@
     {
       "date": "12/16/2025",
       "time": "12:25 PM",
-      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.22",
@@ -453,8 +506,8 @@
       },
       "observations": "The plant is in active sustained fruiting with four visible female fruits forming at the crown. One established zucchini continues to enlarge evenly with firm texture and healthy color. Petioles are thick and upright, and the canopy remains open with good airflow. No signs of stress, rot, or disease are present.",
       "actions": "No additional watering today following thorough irrigation. Keep mulch in place beneath developing fruits. Do not fertilize today.",
-      "next_steps": "Check female flowers at first light each morning over the next 1\\u20132 days and hand pollinate immediately when petals open. Monitor soil moisture closely during this pollination window and prepare for initial vertical training as fruit weight increases.",
-      "q_and_a_summary": "Discussed rapid fruit growth and timing for hand pollination, confirming that the largest female flower is likely to open within 12\\u201336 hours and should be pollinated the morning it opens.",
+      "next_steps": "Check female flowers at first light each morning over the next 1–2 days and hand pollinate immediately when petals open. Monitor soil moisture closely during this pollination window and prepare for initial vertical training as fruit weight increases.",
+      "q_and_a_summary": "Discussed rapid fruit growth and timing for hand pollination, confirming that the largest female flower is likely to open within 12–36 hours and should be pollinated the morning it opens.",
       "follow_up": [
         "[12:35 PM] Thoroughly watered the bed after initial dry probe readings to restore proper soil moisture.",
         "[6:25 PM] Adjusted the training tie to sit between the soil line and the developing zucchini so only the main stem is inside the loop, leaving fruit and leaf stalks completely free."
@@ -505,7 +558,7 @@
     {
       "date": "12/15/2025",
       "time": "11:37 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "7.50",
         "ec_mScm": "0.07",
@@ -523,8 +576,8 @@
       },
       "observations": "The plant is actively producing multiple new female flowers at the crown, each with clearly defined ovaries. One existing zucchini fruit continues to elongate evenly with firm texture and healthy color. Stems and petioles remain thick and upright, and canopy spacing is open with no signs of disease or stress.",
       "actions": "Apply a deep, slow watering at the base to restore moisture into the mid-range. Keep mulch in place beneath all developing fruits. Do not fertilize today.",
-      "next_steps": "Check female flowers each morning over the next 1\\u20132 days for opening and hand pollinate immediately when petals open. Monitor soil moisture closely during this pollination window and prepare for the first vertical tie as fruit weight increases.",
-      "q_and_a_summary": "Discussed how to determine when a female flower is ready to open for hand pollination, confirming that buds typically open once the ovary reaches about 1.5\\u20132 inches and the petals appear puffy and loosened. Confirmed that the largest bud is very close and likely to open within 24\\u201348 hours.",
+      "next_steps": "Check female flowers each morning over the next 1–2 days for opening and hand pollinate immediately when petals open. Monitor soil moisture closely during this pollination window and prepare for the first vertical tie as fruit weight increases.",
+      "q_and_a_summary": "Discussed how to determine when a female flower is ready to open for hand pollination, confirming that buds typically open once the ovary reaches about 1.5–2 inches and the petals appear puffy and loosened. Confirmed that the largest bud is very close and likely to open within 24–48 hours.",
       "follow_up": [],
       "photos": [
         {
@@ -567,7 +620,7 @@
     {
       "date": "12/14/2025",
       "time": "1:45 PM",
-      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.10",
@@ -585,8 +638,8 @@
       },
       "observations": "The plant is actively producing new female flower buds at the crown, each with a clearly formed ovary. The first zucchini fruit continues to elongate with uniform color and a firm stem connection. Canopy structure remains open and vigorous, and stems are thick and upright with no signs of stress or disease.",
       "actions": "Do not water today as soil moisture is ideal and rain is expected. Leave fresh mulch in place beneath the developing fruit to maintain airflow and prevent soil contact. Do not fertilize today.",
-      "next_steps": "Check female flowers each morning over the next 1\\u20133 days for opening and perform hand pollination immediately when petals open. Continue monitoring moisture after rainfall and prepare for early vertical training as the stem elongates.",
-      "q_and_a_summary": "Discussed when female flowers become ready for hand pollination and confirmed that pollination should occur the morning the flower opens, typically within 24\\u201372 hours based on current bud development.",
+      "next_steps": "Check female flowers each morning over the next 1–3 days for opening and perform hand pollination immediately when petals open. Continue monitoring moisture after rainfall and prepare for early vertical training as the stem elongates.",
+      "q_and_a_summary": "Discussed when female flowers become ready for hand pollination and confirmed that pollination should occur the morning the flower opens, typically within 24–72 hours based on current bud development.",
       "follow_up": [
         "[1:30 PM] Added fresh mulch beneath the first developing zucchini fruit to improve airflow and reduce soil contact during rainy conditions."
       ],
@@ -626,7 +679,7 @@
     {
       "date": "12/12/2025",
       "time": "1:45 PM",
-      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.10",
@@ -644,7 +697,7 @@
       },
       "observations": "The plant is actively growing with a well-spread canopy and healthy leaf structure. New blossoms are visible, and the fruit is elongating nicely, with healthy skin coloration. No signs of disease or rot. The crown is vibrant with new growth and multiple male blossoms.",
       "actions": "Remove spent blossoms from the soil surface to reduce moisture retention and insect attraction. No watering needed today. Continue supporting the developing fruit with light mulch until upgraded support is needed. No fertilizer required today.",
-      "next_steps": "Monitor moisture tomorrow morning and upgrade fruit support in 1\\u20132 days. Watch for emerging female blossoms and confirm pruning stub continues to dry and seal. Continue monitoring the plant's growth as it prepares for vertical training.",
+      "next_steps": "Monitor moisture tomorrow morning and upgrade fruit support in 1–2 days. Watch for emerging female blossoms and confirm pruning stub continues to dry and seal. Continue monitoring the plant's growth as it prepares for vertical training.",
       "q_and_a_summary": "Discussed whether low overnight temperatures in the low 50s were concerning; confirmed these are safe for zucchini. Confirmed presence of early female buds forming within the crown.",
       "follow_up": [
         "[7:42 AM] Confirmed the leaf was cut correctly at the proper petiole position.",
@@ -686,7 +739,7 @@
     {
       "date": "12/11/2025",
       "time": "5:07 PM",
-      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight.",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight.",
       "digital_probe": {
         "ph": "9.00",
         "ec_mScm": "0.06",
@@ -704,7 +757,7 @@
       },
       "observations": "The plant shows strong overall growth with vigorous new leaves emerging from the crown and multiple male blossoms opening today. The first developing fruit continues to elongate with healthy skin coloration and no signs of rot. The pruning cut from earlier has dried cleanly and shows normal healing. Soil surface remains dry despite light showers, consistent with improved but still quick-draining bed conditions.",
       "actions": "Remove spent blossoms from soil surface to reduce moisture retention and insect attraction. No watering is needed this evening. Continue supporting the developing fruit with light mulch until upgraded support is needed. No fertilizer required today.",
-      "next_steps": "Recheck moisture tomorrow morning and upgrade fruit support in 1\\u20132 days as it lengthens. Monitor crown for additional female buds and confirm pruning stub continues to dry and seal. Watch overnight temperatures, though current forecast remains safe for growth.",
+      "next_steps": "Recheck moisture tomorrow morning and upgrade fruit support in 1–2 days as it lengthens. Monitor crown for additional female buds and confirm pruning stub continues to dry and seal. Watch overnight temperatures, though current forecast remains safe for growth.",
       "q_and_a_summary": "Discussed whether low overnight temperatures in the low 50s were concerning; confirmed these are safe for zucchini. Confirmed presence of early female buds forming within the crown. Clarified that the pruning cut was correct and that adding a light mulch pad under the developing fruit was acceptable.",
       "follow_up": [
         "[7:42 AM] Confirmed the leaf was cut correctly at the proper petiole position.",
@@ -756,7 +809,7 @@
     {
       "date": "12/9/2025",
       "time": "8:59 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "7.65",
         "ec_mScm": "0.05",
@@ -803,7 +856,7 @@
     {
       "date": "12/8/2025",
       "time": "11:45 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.09",
@@ -850,7 +903,7 @@
     {
       "date": "12/7/2025",
       "time": "1:20 PM",
-      "conditions": "Sunny with a high near 86\\xb0F, patchy fog early. Night partly cloudy with a low around 66\\xb0F. Next day mostly sunny near 87\\xb0F with a slight chance of afternoon showers.",
+      "conditions": "Sunny with a high near 86°F, patchy fog early. Night partly cloudy with a low around 66°F. Next day mostly sunny near 87°F with a slight chance of afternoon showers.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.01",
@@ -892,7 +945,7 @@
     {
       "date": "12/5/2025",
       "time": "4:34 PM",
-      "conditions": "Mostly sunny with a high around 84\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high around 84°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "6.80",
         "ec_mScm": "0.14",
@@ -936,7 +989,7 @@
     {
       "date": "12/4/2025",
       "time": "5:26 PM",
-      "conditions": "Mostly sunny with a high near 84\\xb0F, low around 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 84°F, low around 64°F overnight.",
       "digital_probe": {
         "ph": "6.64",
         "ec_mScm": "0.11",
@@ -980,7 +1033,7 @@
     {
       "date": "12/3/2025",
       "time": "12:54 PM",
-      "conditions": "Mostly sunny with a high around 82\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high around 82°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.16",
         "ec_mScm": "0.15",
@@ -1024,7 +1077,7 @@
     {
       "date": "12/2/2025",
       "time": "11:13 AM",
-      "conditions": "Mostly cloudy with a high near 84\\xb0F and wind gusts up to 19 mph, low around 67\\xb0F overnight.",
+      "conditions": "Mostly cloudy with a high near 84°F and wind gusts up to 19 mph, low around 67°F overnight.",
       "digital_probe": {
         "ph": "7.03",
         "ec_mScm": "0.12",
@@ -1066,7 +1119,7 @@
     {
       "date": "12/1/2025",
       "time": "5:35 PM",
-      "conditions": "Mostly cloudy day with temperatures in the mid-70s\\xb0F, possible showers around 6 PM, low near 69\\xb0F overnight.",
+      "conditions": "Mostly cloudy day with temperatures in the mid-70s°F, possible showers around 6 PM, low near 69°F overnight.",
       "digital_probe": {
         "ph": "5.98",
         "ec_mScm": "0.09",
@@ -1108,7 +1161,7 @@
     {
       "date": "11/23/2025",
       "time": "2:28 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.00",
@@ -1167,7 +1220,7 @@
     {
       "date": "11/22/2025",
       "time": "12:03 PM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "8.50",
         "ec_mScm": "0.08",
@@ -1214,7 +1267,7 @@
     {
       "date": "11/21/2025",
       "time": "3:42 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
       "digital_probe": {
         "ph": "6.67",
         "ec_mScm": "0.08",
@@ -1261,7 +1314,7 @@
     {
       "date": "11/20/2025",
       "time": "1:41 PM",
-      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "7.53",
         "ec_mScm": "0.08",
@@ -1303,7 +1356,7 @@
     {
       "date": "11/19/2025",
       "time": "9:17 AM",
-      "conditions": "Mostly sunny with a high around 82-85\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "6.37",
         "ec_mScm": "0.04",
@@ -1340,7 +1393,7 @@
     {
       "date": "11/18/2025",
       "time": "9:17 AM",
-      "conditions": "Partly cloudy with high of 82\\xb0F dropping to 65\\xb0F overnight.",
+      "conditions": "Partly cloudy with high of 82°F dropping to 65°F overnight.",
       "digital_probe": {
         "ph": "6.37",
         "ec_mScm": "0.04",
@@ -1379,7 +1432,7 @@
     {
       "date": "11/17/2025",
       "time": "9:17 AM",
-      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
       "digital_probe": {
         "ph": "6.72",
         "ec_mScm": "0.06",
@@ -1416,7 +1469,7 @@
     {
       "date": "11/16/2025",
       "time": "10:24 AM",
-      "conditions": "Morning sun around 66\\xb0F with clear skies and calm conditions.",
+      "conditions": "Morning sun around 66°F with clear skies and calm conditions.",
       "digital_probe": {
         "ph": "5.56",
         "ec_mScm": "0.05",

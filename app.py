@@ -209,7 +209,7 @@ def channel_start():
                 after_json_content = f.read()
 
             # Get plant JSON
-            plant_json = json.dumps(plant, indent=2)
+            plant_json = json.dumps(plant, indent=2, ensure_ascii=False)
 
             # Assemble the output
             output_lines = []
@@ -468,8 +468,8 @@ def photo_prep():
             flash(f'Plant not found: {plant_id}. Please check the Plant ID and try again.', 'error')
             return redirect(url_for('photo_prep'))
 
-        if not files or files[0].filename == '':
-            flash('At least one photo is required', 'error')
+        if context == 'Initial' and (not files or files[0].filename == ''):
+            flash('At least one photo is required for Initial context', 'error')
             return redirect(url_for('photo_prep'))
 
         if not date_str:
@@ -555,70 +555,106 @@ def photo_prep():
 
         # Generate output message
         output_lines = []
+        import pytz
+        eastern = pytz.timezone('US/Eastern')
 
-        # Replace variables in global message with plant data
-        def replace_variables(text, plant_data):
-            """Replace {variable_name} with values from plant JSON"""
-            import re
-
-            # Find all {variable} patterns
-            pattern = r'\{([^}]+)\}'
-
-            def replace_match(match):
-                var_name = match.group(1)
-                # Look up variable in plant data
-                value = plant_data.get(var_name)
-
-                if value is None:
-                    return "NO VARIABLE"
-
-                # Convert to string
-                return str(value)
-
-            return re.sub(pattern, replace_match, text)
-
-        # Save original global message (with variables) for next plant
+        # Save original global message for form reload
         original_global_message = global_message
 
-        # Apply variable replacement to global message for OUTPUT only
-        if global_message:
-            global_message = replace_variables(global_message, plant)
+        if context == 'Follow-Up':
+            # FOLLOW-UP TEMPLATE
+            current_time = datetime.now(eastern).strftime('%-I:%M %p')
 
-        # Combine global and plant-specific messages
-        combined_message = []
-        if global_message:
-            combined_message.append(global_message)
-        if plant_message:
-            combined_message.append(plant_message)
+            output_lines.append('Follow-up (same day — this belongs in TODAY\'S existing Daily Journal Entry JSON, not a new day):')
+            output_lines.append('')
+            output_lines.append(f'Current time now: {current_time}')
+            output_lines.append('')
+            output_lines.append('Follow-up / question(s):')
+            output_lines.append(plant_message if plant_message else '[your follow-up text here]')
+            output_lines.append('')
 
-        if combined_message:
-            output_lines.append('\n\n'.join(combined_message))
-            output_lines.append('')  # Blank line
-
-        output_lines.append('Here are the photo names:')
-        for idx, filename in enumerate(processed_files, 1):
-            # Check if this photo was marked as probe reading
-            probe_checkbox = request.form.get(f'probe_reading_{idx-1}')
-            if probe_checkbox:
-                output_lines.append(f'{idx}. {filename}  ← (probe reading)')
+            # Photo list or "No Photos"
+            if processed_files:
+                output_lines.append('New photo(s) to log:')
+                for idx, filename in enumerate(processed_files, 1):
+                    output_lines.append(f'{idx}. {filename}')
             else:
-                output_lines.append(f'{idx}. {filename}')
+                output_lines.append('New photo(s) to log:')
+                output_lines.append('"No Photos"')
 
-        # Add watering assessment prompt if checkbox is checked
-        include_watering = request.form.get('include_watering')
-        if include_watering:
-            import pytz
+            output_lines.append('')
+            output_lines.append('✅ Respond naturally first:')
+            output_lines.append('- Answer my question(s) directly in horticulturist voice')
+            output_lines.append('- Address the new observation(s)')
+            output_lines.append('- Do NOT repeat the full daily assessment, probe interpretation, weather analysis, or photo captions')
+            output_lines.append('')
+            output_lines.append('Then ask EXACTLY: "Want me to log that?"')
+            output_lines.append('❌ If No — wait for further instructions.')
+            output_lines.append('✅ If Yes — update TODAY\'S most recent Daily Journal Entry JSON already in this chat (use it as the base record) and re-issue the COMPLETE JSON (exact schema).')
+            output_lines.append('')
+            output_lines.append('Change NOTHING except:')
+            output_lines.append(f'- append this follow-up to `follow_up` using the Current time now provided: `[{current_time}] {{summary}}`')
+            output_lines.append('- update `q_and_a_summary` ONLY if this follow-up included a real question + your answer')
+            if processed_files:
+                output_lines.append('- append any new photos to the existing `photos` array (preserve all prior photos and order)')
+            output_lines.append('')
+            output_lines.append('IMPORTANT:')
+            output_lines.append('- Do NOT change the Daily Journal Entry `time` field (it stays the probe time).')
+            output_lines.append('- Output valid JSON only. No invented fields.')
+            output_lines.append('- After responding and/or logging, continue normally using this Plant Channel\'s root context and the Master Garden Assistant Guide.')
 
-            # Get Eastern timezone
-            eastern = pytz.timezone('US/Eastern')
-            current_time = datetime.now(eastern).strftime('%-I:%M %p %Z')  # e.g., "3:45 PM EST"
+        else:
+            # INITIAL TEMPLATE (existing behavior)
+            # Replace variables in global message with plant data
+            def replace_variables(text, plant_data):
+                """Replace {variable_name} with values from plant JSON"""
+                pattern = r'\{([^}]+)\}'
 
-            output_lines.append('')  # Blank line
-            output_lines.append('')  # Extra blank line
-            output_lines.append(f'It is now {current_time}.')
+                def replace_match(match):
+                    var_name = match.group(1)
+                    value = plant_data.get(var_name)
+                    if value is None:
+                        return "NO VARIABLE"
+                    return str(value)
+
+                return re.sub(pattern, replace_match, text)
+
+            # Save original global message (with variables) for next plant
+            original_global_message = global_message
+
+            # Apply variable replacement to global message for OUTPUT only
+            if global_message:
+                global_message = replace_variables(global_message, plant)
+
+            # Combine global and plant-specific messages
+            combined_message = []
+            if global_message:
+                combined_message.append(global_message)
+            if plant_message:
+                combined_message.append(plant_message)
+
+            if combined_message:
+                output_lines.append('\n\n'.join(combined_message))
+                output_lines.append('')  # Blank line
+
+            output_lines.append('Here are the photo names:')
+            for idx, filename in enumerate(processed_files, 1):
+                # Check if this photo was marked as probe reading
+                probe_checkbox = request.form.get(f'probe_reading_{idx-1}')
+                if probe_checkbox:
+                    output_lines.append(f'{idx}. {filename}  ← (probe reading)')
+                else:
+                    output_lines.append(f'{idx}. {filename}')
+
+            # Add watering assessment prompt if checkbox is checked
+            include_watering = request.form.get('include_watering')
+            if include_watering:
+                current_time = datetime.now(eastern).strftime('%-I:%M %p %Z')
+                output_lines.append('')
+                output_lines.append('')
+                output_lines.append(f'It is now {current_time}.')
 
         output_message = '\n'.join(output_lines)
-
         # Render success page with output
         return render_template(
             'photo_prep.html',
@@ -631,8 +667,22 @@ def photo_prep():
         )
 
     except Exception as e:
-        flash(f'Error processing photos: {str(e)}', 'error')
-        return redirect(url_for('photo_prep'))
+        # Re-render form with existing data instead of redirecting
+        all_plants = data_manager.get_all_plants()
+        available_plant_ids = sorted([p.get('id') for p in all_plants if p.get('id') and p.get('status') != 'Inactive'])
+
+        return render_template(
+            'photo_prep.html',
+            current_date=date_str if 'date_str' in locals() else datetime.now().strftime('%Y-%m-%d'),
+            available_plants=available_plant_ids,
+            error=True,
+            error_message=f'Error processing photos: {str(e)}',
+            plant_id=plant_id if 'plant_id' in locals() else '',
+            context=context if 'context' in locals() else 'Initial',
+            starting_number=starting_number if 'starting_number' in locals() else '',
+            global_message=global_message if 'global_message' in locals() else '',
+            plant_message=plant_message if 'plant_message' in locals() else ''
+        )
 
 
 @app.route('/upload-placeholder-photo', methods=['POST'])
@@ -924,23 +974,40 @@ def create_correction():
 
 @app.route('/api/plant/<plant_id>/last-photo-number', methods=['GET'])
 def get_last_photo_number(plant_id):
-    """Get the last photo number from the most recent journal entry"""
+    """Get the last photo number from the most recent journal entry for today's date"""
     try:
+        # Get date from query parameter (format: YYYY-MM-DD)
+        date_str = request.args.get('date', '')
+
+        if not date_str:
+            return jsonify({'last_number': 0})
+
+        # Convert to M/D/YYYY format for matching journal entries
+        from datetime import datetime
+        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+        journal_date = date_obj.strftime('%-m/%-d/%Y')
+
         plant = data_manager.get_plant(plant_id)
-        if not plant or 'journal' not in plant or len(plant['journal']) == 0:
+        if not plant or 'journal' not in plant:
             return jsonify({'last_number': 0})
 
-        # Get most recent journal entry (journal is sorted newest first)
-        latest_entry = plant['journal'][0]
+        # Find journal entry matching the selected date
+        matching_entry = None
+        for entry in plant['journal']:
+            if entry.get('date') == journal_date:
+                matching_entry = entry
+                break
 
-        if 'photos' not in latest_entry or len(latest_entry['photos']) == 0:
+        if not matching_entry:
+            return jsonify({'error': f'No journal entry found for {journal_date}. Follow-ups must be on the same day as an existing journal entry.'}), 404
+
+        if 'photos' not in matching_entry or len(matching_entry['photos']) == 0:
             return jsonify({'last_number': 0})
 
-        # Get last photo filename
-        last_photo = latest_entry['photos'][-1]['file_name']
+        # Get last photo filename from matching entry
+        last_photo = matching_entry['photos'][-1]['file_name']
 
         # Extract number from filename: plantname_001-20251224-05.jpeg -> 05
-        import re
         match = re.search(r'-(\d{2})\.(jpeg|jpg|png|heic)$', last_photo)
         if match:
             last_number = int(match.group(1))

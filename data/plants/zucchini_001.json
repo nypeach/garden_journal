@@ -9,8 +9,8 @@
   "container": "Raised Bed (Stake 4)",
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
-    "Seed started in black window planter 23.5\" \\xd7 7.85\" \\xd7 6\".",
-    "Moved to brown raised bed 2' \\xd7 6' \\xd7 10\" at the fourth stake.",
+    "Seed started in black window planter 23.5\" × 7.85\" × 6\".",
+    "Moved to brown raised bed 2' × 6' × 10\" at the fourth stake.",
     "Experienced transplant stress."
   ],
   "whats_been_logged": "The focus has been on recovery from transplant stress while tracking moisture patterns, pH fluctuation from high to stabilized levels, and emergence of new center growth. Early logs documented pale outer leaves from shock and high-pH nutrient lockout, followed by gradual greening and the appearance of a male blossom. Soil adjustments with potting mix improved structure and stability.",
@@ -50,7 +50,7 @@
     {
       "date": "12/23/2025",
       "time": "4:06 PM",
-      "conditions": "Sunny with a high of 80\\xb0F dropping to 60\\xb0F overnight. Wind gusts as high as 28 mph.",
+      "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",
       "digital_probe": {
         "ph": "8.30",
         "ec_mScm": "0.05",
@@ -68,7 +68,7 @@
       },
       "observations": "The plant shows a clear rebound with noticeably greener foliage and improved overall posture. Petioles are upright and the crown is actively producing new growth, indicating improved root function and recovery momentum. Minor cosmetic leaf damage is present but does not appear progressive.",
       "actions": "Water the root zone today with a slow, deep soak applied in a wide ring around the plant to eliminate dry pockets and restore even moisture. Do not fertilize today. Take a fresh probe reading tomorrow morning from a new insertion point at a slight angle for better soil contact.",
-      "next_steps": "Recheck probe readings tomorrow morning after rehydration and compare pH to prior mid-6 values to confirm today\\u2019s pH was a dry-contact artifact. Monitor for continued deepening green color and expansion of the newest crown leaves over the next 48\\u201372 hours. Avoid watering again unless moisture remains very low or the top 2\\u20133 inches are dry.",
+      "next_steps": "Recheck probe readings tomorrow morning after rehydration and compare pH to prior mid-6 values to confirm today’s pH was a dry-contact artifact. Monitor for continued deepening green color and expansion of the newest crown leaves over the next 48–72 hours. Avoid watering again unless moisture remains very low or the top 2–3 inches are dry.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -87,7 +87,7 @@
     {
       "date": "12/20/2025",
       "time": "7:32 AM",
-      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
+      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.15",
@@ -131,7 +131,7 @@
     {
       "date": "12/19/2025",
       "time": "9:54 PM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.14",
@@ -149,8 +149,8 @@
       },
       "observations": "The plant remains alive with a green, active crown and continued emergence of small new leaves. Petioles are upright and firm, indicating adequate hydration. Older leaves remain pale with cosmetic damage consistent with earlier stress and are not expected to recover. Empty petioles from earlier male blossoms were trimmed without affecting overall plant function.",
       "actions": "No watering tonight. No fertilization. No further pruning.",
-      "next_steps": "Recheck moisture and plant posture tomorrow late morning. Continue to watch for meaningful expansion of the newest central leaves over the next 3\\u20135 days as the primary indicator of recovery trajectory.",
-      "q_and_a_summary": "Reviewed the plant\\u2019s status and whether intervention was needed. Determined the plant is still recovering slowly but remains viable, and that watering tonight would be unnecessary given current soil moisture, plant behavior, and overnight conditions.",
+      "next_steps": "Recheck moisture and plant posture tomorrow late morning. Continue to watch for meaningful expansion of the newest central leaves over the next 3–5 days as the primary indicator of recovery trajectory.",
+      "q_and_a_summary": "Reviewed the plant’s status and whether intervention was needed. Determined the plant is still recovering slowly but remains viable, and that watering tonight would be unnecessary given current soil moisture, plant behavior, and overnight conditions.",
       "follow_up": [],
       "photos": [
         {
@@ -168,7 +168,7 @@
     {
       "date": "12/18/2025",
       "time": "1:41 PM",
-      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight. A 20% chance of precipitation today.",
+      "conditions": "Partly sunny with a high of 83°F dropping to 67°F overnight. A 20% chance of precipitation today.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.14",
@@ -187,7 +187,7 @@
       "observations": "The crown remains green and structurally intact with small, active central growth, while older leaves stay pale and show cosmetic damage without collapse. Morning rainfall (intermittent drizzle to hard rain) supported hydration, consistent with the current moisture level. The pH reading of 0.00 is invalid and reflects probe/sensor error rather than soil conditions, so it should not be used for decision-making today.",
       "actions": "Do not water or fertilize today since the root zone is well hydrated from rain. Avoid pruning; keep maximum leaf area to support recovery. Recheck pH tomorrow with a fresh insertion point to confirm a valid value.",
       "next_steps": "Use the next 5 days as a prove-it window: watch for clear expansion of the newest central leaf and the emergence of an additional leaf. Recheck moisture tomorrow; maintain even hydration and avoid letting the root zone swing from wet to dry.",
-      "q_and_a_summary": "Discussed whether the plant is on its last legs and if it\\u2019s time to call it quits. The crown still shows active new growth and stable structure, so removal isn\\u2019t warranted today, but the plant is at a decision threshold. Agreed to use a short prove-it window focused on visible new leaf expansion to determine whether recovery is gaining momentum or stalling.",
+      "q_and_a_summary": "Discussed whether the plant is on its last legs and if it’s time to call it quits. The crown still shows active new growth and stable structure, so removal isn’t warranted today, but the plant is at a decision threshold. Agreed to use a short prove-it window focused on visible new leaf expansion to determine whether recovery is gaining momentum or stalling.",
       "follow_up": [],
       "photos": [
         {
@@ -205,7 +205,7 @@
     {
       "date": "12/17/2025",
       "time": "1:06 PM",
-      "conditions": "Mostly sunny with a high near 79\\xb0F dropping to around 67\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 79°F dropping to around 67°F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.06",
@@ -223,7 +223,7 @@
       },
       "observations": "The plant shows clear signs of active recovery with a new leaf emerging at the crown and firm, upright petioles. Crown tissue remains green, fuzzy, and expanding, indicating continued meristem activity. Older leaves remain pale with minor cosmetic damage but show no wilting or collapse. Overall structure is stable with no signs of crown rot or terminal decline.",
       "actions": "Apply approximately 1 cup of plain water around the root zone today to maintain moisture as levels drift downward. Do not fertilize or prune.",
-      "next_steps": "Monitor the central new leaf over the next 3\\u20135 days for continued expansion or the emergence of an additional leaf. Recheck moisture tomorrow, especially with warmer temperatures expected.",
+      "next_steps": "Monitor the central new leaf over the next 3–5 days for continued expansion or the emergence of an additional leaf. Recheck moisture tomorrow, especially with warmer temperatures expected.",
       "q_and_a_summary": "Discussed whether the plant should be removed due to slow progress. Determined that active new growth at the crown, upright structure, and supportive soil conditions indicate the plant is still recovering and worth continuing to support at this stage.",
       "follow_up": [],
       "photos": [
@@ -242,7 +242,7 @@
     {
       "date": "12/16/2025",
       "time": "12:30 PM",
-      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.19",
@@ -260,7 +260,7 @@
       },
       "observations": "Leaf color shows modest improvement with less washed-out green, and new central growth is visible at the crown. Leaves remain upright with firm petioles, indicating improved hydration and nutrient uptake. Surface soil had crusted due to wind and sun but was loosened after the reading, improving aeration and moisture penetration. No signs of wilting, crown collapse, or disease are present.",
       "actions": "Do not water, fertilize, or prune today. Allow soil to settle naturally and take advantage of any overnight rainfall.",
-      "next_steps": "Monitor for new leaf emergence and increased petiole thickness over the next 48\\u201372 hours. Recheck probe readings tomorrow or after any rainfall to confirm moisture stability.",
+      "next_steps": "Monitor for new leaf emergence and increased petiole thickness over the next 48–72 hours. Recheck probe readings tomorrow or after any rainfall to confirm moisture stability.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -279,7 +279,7 @@
     {
       "date": "12/15/2025",
       "time": "11:40 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.03",
@@ -296,8 +296,8 @@
         "ph": ""
       },
       "observations": "The plant remains upright with turgid leaves and an intact male blossom, indicating continued biological activity. Leaf posture does not reflect true drought stress despite a 0% moisture probe reading, which is inconsistent with the visual condition and likely caused by poor probe contact in dry, uneven surface soil following wind and sun exposure. The crown remains green and active with no signs of collapse or rot.",
-      "actions": "Apply 1\\xbd\\u20132 cups of plain water slowly around the root zone to rehydrate deeper soil layers and improve probe contact. Do not fertilize or prune today.",
-      "next_steps": "Take a follow-up probe reading 60\\u201390 minutes after watering with the probe inserted at a slight angle into established soil. Monitor leaf posture and crown growth over the next 24 hours, especially with ongoing wind exposure.",
+      "actions": "Apply 1½–2 cups of plain water slowly around the root zone to rehydrate deeper soil layers and improve probe contact. Do not fertilize or prune today.",
+      "next_steps": "Take a follow-up probe reading 60–90 minutes after watering with the probe inserted at a slight angle into established soil. Monitor leaf posture and crown growth over the next 24 hours, especially with ongoing wind exposure.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -316,7 +316,7 @@
     {
       "date": "12/14/2025",
       "time": "2:56 PM",
-      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.70",
         "ec_mScm": "0.07",
@@ -334,7 +334,7 @@
       },
       "observations": "The plant remains alive and biologically active with an upright crown and continued production of a male blossom. Leaf color is pale but leaves remain turgid and structurally intact, indicating functional water uptake. Minor chewing damage is visible on older leaves, but no progressive disease or crown collapse is present. Soil conditions remain supportive with no signs of rot or saturation stress.",
       "actions": "Do not water today due to incoming showers. Do not fertilize. Leave all foliage and blossoms intact.",
-      "next_steps": "Reassess moisture after rainfall clears. Monitor the crown for new leaf emergence over the next 3\\u20135 days. Delay any feeding until consistent new growth shows improved color.",
+      "next_steps": "Reassess moisture after rainfall clears. Monitor the crown for new leaf emergence over the next 3–5 days. Delay any feeding until consistent new growth shows improved color.",
       "q_and_a_summary": "Discussed whether the plant is still viable and identifying realistic ways to support recovery without forcing growth. The assessment confirmed the plant remains biologically active and not in decline. Guidance emphasized patience, maintaining consistent moisture, avoiding premature fertilization, and allowing root recovery to drive gradual improvement rather than aggressive intervention.",
       "follow_up": [],
       "photos": [
@@ -348,7 +348,7 @@
     {
       "date": "12/12/2025",
       "time": "1:47 PM",
-      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.50",
         "ec_mScm": "0.08",
@@ -385,7 +385,7 @@
     {
       "date": "12/10/2025",
       "time": "7:37 AM",
-      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
       "digital_probe": {
         "ph": "6.20",
         "ec_mScm": "0.12",
@@ -402,7 +402,7 @@
         "ph": ""
       },
       "observations": "The plant shows stable posture with several developing buds and new growth forming at the crown. Leaf color remains pale but not worsening. Soil appears healthier and more organic after previous corrections. The stem is slightly exposed but structurally sound, and the plant would benefit from gentle soil mounding for stability. Moisture is moderate and pH remains ideal for nutrient uptake.",
-      "actions": "Add 1/2\\u20131 inch of potting mix around the stem base without covering any leaf stems, then lightly water to settle the soil. Do not fertilize or prune today.",
+      "actions": "Add 1/2–1 inch of potting mix around the stem base without covering any leaf stems, then lightly water to settle the soil. Do not fertilize or prune today.",
       "next_steps": "Monitor moisture tomorrow morning, especially after cooler overnight temperatures. Watch for gradual greening in new crown leaves. Maintain full sun exposure.",
       "q_and_a_summary": "",
       "follow_up": [
@@ -424,7 +424,7 @@
     {
       "date": "12/9/2025",
       "time": "9:05 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.97",
         "ec_mScm": "0.07",
@@ -441,7 +441,7 @@
         "ph": ""
       },
       "observations": "Two readings were taken today due to corrective soil work. The initial reading showed stable pH at 6.97 and moisture of 34 mS/cm, indicating a slightly dry but functional root zone. After carefully removing the compacted topsoil/sand layer without disturbing the root ball, a second reading showed pH at 7.43 and moisture dropping to 23 mS/cm. This shift reflects exposure of deeper, previously inaccessible dry soil layers rather than a decline in plant condition. The plant continues to produce new growth at the crown, with several intact developing buds. Overall leaf color remains pale but not worsening, and older damage from previous stress is unchanged. Soil texture now appears looser, better-aerated, and more capable of holding moisture evenly.",
-      "actions": "Provide 1\\u20132 cups of slow, gentle watering to rehydrate the newly exposed lower soil layers. Do not add fertilizer or prune any leaves today. Keep the support stake in place to prevent root movement.",
+      "actions": "Provide 1–2 cups of slow, gentle watering to rehydrate the newly exposed lower soil layers. Do not add fertilizer or prune any leaves today. Keep the support stake in place to prevent root movement.",
       "next_steps": "Recheck soil moisture after expected rainfall or within 24 hours if rain is light. Monitor new crown leaves for gradual greening as hydration stabilizes. Delay fertilization until consistent color improvement is seen across new growth.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -461,7 +461,7 @@
     {
       "date": "12/8/2025",
       "time": "11:50 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "6.69",
         "ec_mScm": "0.11",
@@ -477,9 +477,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The soil is now well hydrated, allowing full probe contact and producing a stable pH of 6.69\\u2014ideal for zucchini nutrient uptake. Moisture at 48 mS/cm is in the optimal recovery range. The plant remains pale overall but shows slight improvement in the new central leaves, which appear firmer and marginally greener than yesterday. Older leaves retain previous stress spotting and mild chewing, but no progression is visible. The developing bud remains intact, and the crown is producing new tissue, indicating continued recovery.",
+      "observations": "The soil is now well hydrated, allowing full probe contact and producing a stable pH of 6.69—ideal for zucchini nutrient uptake. Moisture at 48 mS/cm is in the optimal recovery range. The plant remains pale overall but shows slight improvement in the new central leaves, which appear firmer and marginally greener than yesterday. Older leaves retain previous stress spotting and mild chewing, but no progression is visible. The developing bud remains intact, and the crown is producing new tissue, indicating continued recovery.",
       "actions": "Do not water today as soil moisture is ideal and rain is likely. Avoid fertilizer to prevent additional stress while the plant stabilizes. Leave all leaves intact and maintain full sun exposure.",
-      "next_steps": "Recheck soil moisture tomorrow, especially if rain is light or scattered. Monitor the newest central leaves for deepening green over the next 1\\u20132 days. Delay fertilizing until growth and color show clearer improvement.",
+      "next_steps": "Recheck soil moisture tomorrow, especially if rain is light or scattered. Monitor the newest central leaves for deepening green over the next 1–2 days. Delay fertilizing until growth and color show clearer improvement.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -498,7 +498,7 @@
     {
       "date": "12/7/2025",
       "time": "1:22 PM",
-      "conditions": "Patchy morning fog giving way to sun with a high near 86\\xb0F and a low around 66\\xb0F. Light south breeze 5-8 mph and mostly sunny overall, with only a slight chance of showers the following afternoon.",
+      "conditions": "Patchy morning fog giving way to sun with a high near 86°F and a low around 66°F. Light south breeze 5-8 mph and mostly sunny overall, with only a slight chance of showers the following afternoon.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.08",
@@ -514,8 +514,8 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Before watering, the soil was again extremely dry, making it difficult to get stable readings. After some rehydration, moisture registered at 36 mS/cm\\u2014on the dry end of acceptable for zucchini in full Florida sun. Fertility and salt levels have drifted downward into a mild, safe range. The plant remains small and stressed but continues to push new buds and maintain a core of healthy foliage.",
-      "actions": "Advise a slow, deep watering to bring moisture back into the mid-range and protect the plant from further drought stress under the 86\\xb0F sun. No fertilizer, lime, or fungicide applied today.",
+      "observations": "Before watering, the soil was again extremely dry, making it difficult to get stable readings. After some rehydration, moisture registered at 36 mS/cm—on the dry end of acceptable for zucchini in full Florida sun. Fertility and salt levels have drifted downward into a mild, safe range. The plant remains small and stressed but continues to push new buds and maintain a core of healthy foliage.",
+      "actions": "Advise a slow, deep watering to bring moisture back into the mid-range and protect the plant from further drought stress under the 86°F sun. No fertilizer, lime, or fungicide applied today.",
       "next_steps": "Perform finger checks down 2-3 inches each late morning and water whenever that zone feels dry, especially on hot, sunny days. Maintain current fertility level without additional feeding until the root system shows more vigorous top growth. Continue sanitation pruning of any new necrotic leaves and monitor buds for progression toward healthy female flowers.",
       "q_and_a_summary": "Asked whether watering was needed given the latest readings and warm, sunny forecast, expressing concern that the plant was 'hanging on by a thread.' Confirmed that moisture was indeed too low for comfort and recommended a thorough watering to stabilize the plant.",
       "follow_up": [],
@@ -535,7 +535,7 @@
     {
       "date": "12/4/2025",
       "time": "5:29 PM",
-      "conditions": "Mostly sunny with a high of 84\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.17",
@@ -572,7 +572,7 @@
     {
       "date": "12/3/2025",
       "time": "12:48 PM",
-      "conditions": "Mostly sunny with a high of 82\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.23",
         "ec_mScm": "0.12",
@@ -611,7 +611,7 @@
     {
       "date": "12/2/2025",
       "time": "11:15 AM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight. Wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight. Wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "5.91",
         "ec_mScm": "0.15",
@@ -650,7 +650,7 @@
     {
       "date": "12/1/2025",
       "time": "5:36 PM",
-      "conditions": "Mostly sunny with a high of 77\\xb0F dropping to 66\\xb0F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
+      "conditions": "Mostly sunny with a high of 77°F dropping to 66°F overnight. Partly cloudy conditions expected around 1 PM with wind gusts up to 15 mph.",
       "digital_probe": {
         "ph": "5.89",
         "ec_mScm": "0.13",
@@ -687,7 +687,7 @@
     {
       "date": "11/27/2025",
       "time": "2:24 PM",
-      "conditions": "Cloudy with a high of 81\\xb0F dropping down to 65\\xb0F overnight. Rainy conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 81°F dropping down to 65°F overnight. Rainy conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "6.02",
         "ec_mScm": "0.29",
@@ -724,7 +724,7 @@
     {
       "date": "11/26/2025",
       "time": "12:39 PM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping down to 67\\xb0F overnight, with thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping down to 67°F overnight, with thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "6.73",
         "ec_mScm": "0.14",
@@ -761,7 +761,7 @@
     {
       "date": "11/25/2025",
       "time": "3:27 PM",
-      "conditions": "Sunny all day with a high of 84\\xb0F dropping down to 65\\xb0F overnight.",
+      "conditions": "Sunny all day with a high of 84°F dropping down to 65°F overnight.",
       "digital_probe": {
         "ph": "7.00",
         "ec_mScm": "0.11",
@@ -798,7 +798,7 @@
     {
       "date": "11/24/2025",
       "time": "11:21 AM",
-      "conditions": "Partly cloudy with a high of 81\\xb0F dropping down to 61\\xb0F overnight.",
+      "conditions": "Partly cloudy with a high of 81°F dropping down to 61°F overnight.",
       "digital_probe": {
         "ph": "6.68",
         "ec_mScm": "0.07",
@@ -845,7 +845,7 @@
     {
       "date": "11/23/2025",
       "time": "2:28 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.00",
@@ -861,10 +861,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Initial probe readings showed complete contact failure (all zero values) caused by very dry new potting mix and uneven underlying sandy soil. The plant appeared slightly dry with a bit of leaf edge curl on older leaves, but the crown remained strong and structurally healthy. The blossom continued to fade normally, and new leaves at the crown were emerging. White spots appeared on several leaves but were sharply defined, bright white, and superficial\\u2014consistent with dried water droplets, mineral flecks from the soil backfill, or small sun-scalded points\\u2014not disease. The plant overall remains stable and in recovery with healthy new growth.",
+      "observations": "Initial probe readings showed complete contact failure (all zero values) caused by very dry new potting mix and uneven underlying sandy soil. The plant appeared slightly dry with a bit of leaf edge curl on older leaves, but the crown remained strong and structurally healthy. The blossom continued to fade normally, and new leaves at the crown were emerging. White spots appeared on several leaves but were sharply defined, bright white, and superficial—consistent with dried water droplets, mineral flecks from the soil backfill, or small sun-scalded points—not disease. The plant overall remains stable and in recovery with healthy new growth.",
       "actions": "Water the crown mound and base thoroughly (without touching leaves) to rehydrate the newly added potting mix and deeper soil layers. No fertilizer or amendments applied.",
       "next_steps": "Allow soil to settle for several hours after watering before taking new readings. Continue monitoring leaf turgor and emerging new leaves. Avoid additional watering until moisture falls below 15-20 mS/cm. Probe later or tomorrow at a slight angle to reach deeper established soil beneath the new fluffy potting mix.",
-      "q_and_a_summary": "Discussed why all probe readings were zero and whether watering was needed; explained that new dry potting mix and uneven underlying soil prevented probe contact, and watering the crown mound was correct. Asked when to take a follow-up reading; advised 60-90 minutes after watering for stable moisture distribution. Asked about increasing white spots; explained they are harmless dried droplets, minerals, or tiny sun-scorched points\\u2014not mildew or disease\\u2014and provided visual reasoning based on close-ups.",
+      "q_and_a_summary": "Discussed why all probe readings were zero and whether watering was needed; explained that new dry potting mix and uneven underlying soil prevented probe contact, and watering the crown mound was correct. Asked when to take a follow-up reading; advised 60-90 minutes after watering for stable moisture distribution. Asked about increasing white spots; explained they are harmless dried droplets, minerals, or tiny sun-scorched points—not mildew or disease—and provided visual reasoning based on close-ups.",
       "follow_up": [
         "[4:19 PM] Follow-up probe reading taken after watering, showing improved moisture and partial pH stabilization."
       ],
@@ -894,7 +894,7 @@
     {
       "date": "11/22/2025",
       "time": "12:15 PM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "9.28",
         "ec_mScm": "0.09",
@@ -941,7 +941,7 @@
     {
       "date": "11/21/2025",
       "time": "3:44 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to around 60\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to around 60°F overnight.",
       "digital_probe": {
         "ph": "6.04",
         "ec_mScm": "0.13",
@@ -960,7 +960,7 @@
       "observations": "The plant shows continued recovery with healthy new green growth forming at the crown. The male blossom is developing normally. Older lower leaves remain pale and marked from previous high-pH stress and transplant shock, which is expected. Soil pH is excellent at 6.04, fertility has risen significantly, and moisture is strong in the tested pocket. The main stem appears tall and thin due to early stretching and settling soil, but it remains structurally sound. The surrounding soil is drying and compacting unevenly due to the sand-heavy mix, contributing to inconsistent probe contact and the need for multiple readings.",
       "actions": "Do not add water or amendments other than recommending backfilling the base with 1-2 inches of potting mix to stabilize the stem and improve probe contact. No fertilizer or pruning performed.",
       "next_steps": "Backfill around the base with potting mix up to just below the lowest leaf node and lightly water to settle the soil. Avoid heavy watering today since moisture is already adequate. Continue monitoring new growth and probe readings. Expect more consistency once the potting mix stabilizes the root zone.",
-      "q_and_a_summary": "Discussed whether the tall thin stalk should be supported by adding potting soil beneath or around it, and expressed concern about hard, dry topsoil causing inconsistent probe readings. Explained that adding potting mix around the stem\\u2014not under the root ball\\u2014is safe and recommended to stabilize the plant and improve sensor readings.",
+      "q_and_a_summary": "Discussed whether the tall thin stalk should be supported by adding potting soil beneath or around it, and expressed concern about hard, dry topsoil causing inconsistent probe readings. Explained that adding potting mix around the stem—not under the root ball—is safe and recommended to stabilize the plant and improve sensor readings.",
       "follow_up": [],
       "photos": [
         {
@@ -983,7 +983,7 @@
     {
       "date": "11/20/2025",
       "time": "1:44 PM",
-      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "10.41",
         "ec_mScm": "0.03",
@@ -1025,7 +1025,7 @@
     {
       "date": "11/19/2025",
       "time": "10:06 AM",
-      "conditions": "Mostly sunny with a high around 82-85\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high around 82-85°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "6.09",
         "ec_mScm": "0.08",
@@ -1067,7 +1067,7 @@
     {
       "date": "11/18/2025",
       "time": "9:19 AM",
-      "conditions": "Partly cloudy with a high of 82\\xb0F dropping to 65\\xb0F overnight.",
+      "conditions": "Partly cloudy with a high of 82°F dropping to 65°F overnight.",
       "digital_probe": {
         "ph": "6.38",
         "ec_mScm": "0.02",
@@ -1114,7 +1114,7 @@
     {
       "date": "11/17/2025",
       "time": "9:19 AM",
-      "conditions": "Mostly sunny with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 81°F dropping to 61°F overnight.",
       "digital_probe": {
         "ph": "6.93",
         "ec_mScm": "0.02",
@@ -1156,7 +1156,7 @@
     {
       "date": "11/16/2025",
       "time": "10:25 AM",
-      "conditions": "Cool and mostly sunny with a daytime high in the mid-60s\\xb0F and a cooler night near 60\\xb0F.",
+      "conditions": "Cool and mostly sunny with a daytime high in the mid-60s°F and a cooler night near 60°F.",
       "digital_probe": {
         "ph": "8.03",
         "ec_mScm": "0.04",
@@ -1198,7 +1198,7 @@
     {
       "date": "11/13/2025",
       "time": "9:52 AM",
-      "conditions": "Cool morning around 68\\xb0F with mostly shade turning sunny within about 40 minutes.",
+      "conditions": "Cool morning around 68°F with mostly shade turning sunny within about 40 minutes.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1240,7 +1240,7 @@
     {
       "date": "11/12/2025",
       "time": "10:34 AM",
-      "conditions": "Cool morning around 67\\xb0F, mostly shade with sun beginning later, light breeze.",
+      "conditions": "Cool morning around 67°F, mostly shade with sun beginning later, light breeze.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -1287,7 +1287,7 @@
     {
       "date": "11/11/2025",
       "time": "2:45 PM",
-      "conditions": "Mostly sunny with temperatures in the mid-60s\\xb0F and light breeze.",
+      "conditions": "Mostly sunny with temperatures in the mid-60s°F and light breeze.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

@@ -3,6 +3,34 @@
 _Last Updated: December 14, 2025 6:00 AM_
 ===============================================
 
+In Plant Channels, when recommending treatments, always check whether my user-owned products are appropriate and use my products FIRST whenever they are applicable and safe:
+
+- White Vinegar
+- Baking Soda
+- Gardenwise 10-10-10 Plus (liquid concentrate)
+- Purived 4-5-5 (liquid concentrate)
+- E & Lay Dolomite Lime
+- Bonide Captain Jack's Neem Oil (Ready to Spray)
+- Bonide Captain Jack's Copper Fungicide (Ready to Spray)
+- Bonide Captain Jack's DeadBug (Ready to Spray)
+- Terro Cobweb Eliminator (Ready to Spray)
+- BioAdvance Complete Insect Killer for Soil & Turf (Ready to Spray)
+- Ortho Home Defense Insect Killer (Ready to Spray)
+- Miracle-Gro Moisture Control Potting Mix
+- Miracle-Gro Organic Potting Mix
+- Miracle-Gro Organic Mulch
+
+If none of my products are appropriate or safe, you may recommend alternatives.
+
+When giving product-based instructions, ALWAYS tailor quantities to my actual container size/volume/soil as defined in the plant’s data (do not ask me for it), and do NOT tell me to “follow the label” — if you need manufacturer instructions or dilution rates, look them up and then give me the exact measured amounts scaled to my container.
+___
+
+When the user asks for “weather for today,” if the direct NWS point-forecast URL fails, it is acceptable to reach the same forecast page by searching forecast.weather.gov using ZIP code 33470 and use that resulting point-forecast page as the fallback source.
+___
+
+When the user asks for “weather for today,” always perform a fresh web request to the National Weather Service point forecast for Loxahatchee, FL using the exact procedure they specified (direct URL with retries, fallback search if needed). Extract the first three forecast tiles (Today, Tonight, Tomorrow). Use tile values verbatim, but replace vague precipitation wording with the actual precipitation percentage from the Detailed Forecast rows. Include wind gust information only if gusts exceed 25 mph. Output must follow the exact markdown format provided by the user, include the current America/New_York date, list the NWS source URL, never invent weather, and never use any other local sources.
+___
+
 In Plant Channels, the assistant should always follow a dynamic, engaging format for each Expert Assessment, with:
 - Dynamic H2 headings with emojis for each major section. Examples:
   - 🌿 Expert Assessment

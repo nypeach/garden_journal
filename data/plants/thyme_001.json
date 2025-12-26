@@ -10,7 +10,7 @@
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Part of mixed Herb Planter seeded on Nov 12, 2025.",
-    "Planted in black planter 23.5\" \\xd7 7.85\" \\xd7 6\" right back.",
+    "Planted in black planter 23.5\" × 7.85\" × 6\" right back.",
     "Shares planter with Thai Basil, Cilantro, Oregano, and Parsley."
   ],
   "whats_been_logged": "The focus has been on tracking germination timing, seedling emergence patterns, and early moisture distribution as thyme progressed from seed to a dense carpet of tiny seedlings. Probe readings documented pH correction efforts using lime, moisture stability across the zone, and continued expansion of the seedling mat.",
@@ -54,7 +54,7 @@
     {
       "date": "12/20/2025",
       "time": "8:17 AM",
-      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
+      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
       "digital_probe": {
         "ph": "5.70",
         "ec_mScm": "0.28",
@@ -86,7 +86,7 @@
     {
       "date": "12/19/2025",
       "time": "10:30 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.47",
@@ -123,7 +123,7 @@
     {
       "date": "12/18/2025",
       "time": "1:27 PM",
-      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Partly sunny with a high of 83°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "5.70",
         "ec_mScm": "0.61",
@@ -160,7 +160,7 @@
     {
       "date": "12/16/2025",
       "time": "12:17 PM",
-      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
       "digital_probe": {
         "ph": "6.40",
         "ec_mScm": "0.43",
@@ -178,7 +178,7 @@
       },
       "observations": "Thyme remains upright and green with firm stems and no visible burn, rot, or collapse. Strong winds dried and crusted the soil surface, making probe insertion difficult, while deeper soil layers remained saturated. After taking readings, the soil surface was gently fluffed to restore aeration and break surface crusting. Elevated but declining EC, salt, and fertility reflect residual nutrients from earlier fertilization rather than active stress.",
       "actions": "Do not water or fertilize today. Leave the soil undisturbed after fluffing and allow natural drying and rainfall to rebalance moisture and nutrients.",
-      "next_steps": "Recheck probe readings in 24\\u201348 hours and expect moisture, EC, and salt to continue declining. Lightly fluff again only if surface crusting reforms after rain or wind.",
+      "next_steps": "Recheck probe readings in 24–48 hours and expect moisture, EC, and salt to continue declining. Lightly fluff again only if surface crusting reforms after rain or wind.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -192,7 +192,7 @@
     {
       "date": "12/15/2025",
       "time": "11:03 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "5.40",
         "ec_mScm": "0.62",
@@ -210,7 +210,7 @@
       },
       "observations": "Thyme remains upright and green with no visible burn, collapse, or rot despite very wet soil conditions. The root zone is fully saturated following recent rainfall and fertilization, and additional Miracle-Gro Potting Mix was added to fill probe holes and even out the soil surface. Elevated EC, salt, and fertility readings reflect lingering nutrients in solution rather than plant stress.",
       "actions": "Do not water or fertilize today. Allow wind and sun to dry the soil naturally and avoid pressing or compacting the newly added potting mix.",
-      "next_steps": "Recheck moisture and EC after 24\\u201348 hours of drying. Expect nutrient and salt levels to decline as oxygen returns to the root zone. Continue monitoring for yellowing or softening at the stem base.",
+      "next_steps": "Recheck moisture and EC after 24–48 hours of drying. Expect nutrient and salt levels to decline as oxygen returns to the root zone. Continue monitoring for yellowing or softening at the stem base.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -224,7 +224,7 @@
     {
       "date": "12/14/2025",
       "time": "2:51 PM",
-      "conditions": "Showers likely with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Showers likely with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.60",
@@ -240,9 +240,9 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "Thyme shows stable, healthy growth with upright stems and green leaves, with no visible burn, spotting, or collapse. The soil is visibly moist from rain, and the entire herb box was fertilized with 4 cups of diluted Purived 4-5-5, which aligns with today\\u2019s elevated EC, salt, and fertility readings.",
-      "actions": "Do not water today or tomorrow unless the soil dries unexpectedly. Do not fertilize again for 14\\u201321 days. Allow the planter to dry down naturally and avoid disturbing the soil surface while nutrient and salt levels redistribute.",
-      "next_steps": "Recheck probe readings after 48\\u201372 hours of drying and expect EC/salt/fertility to trend down as moisture normalizes. Watch thyme for leaf paling, curling, or slowed growth; if readings remain elevated after a dry-down, plan a controlled dilution watering later.",
+      "observations": "Thyme shows stable, healthy growth with upright stems and green leaves, with no visible burn, spotting, or collapse. The soil is visibly moist from rain, and the entire herb box was fertilized with 4 cups of diluted Purived 4-5-5, which aligns with today’s elevated EC, salt, and fertility readings.",
+      "actions": "Do not water today or tomorrow unless the soil dries unexpectedly. Do not fertilize again for 14–21 days. Allow the planter to dry down naturally and avoid disturbing the soil surface while nutrient and salt levels redistribute.",
+      "next_steps": "Recheck probe readings after 48–72 hours of drying and expect EC/salt/fertility to trend down as moisture normalizes. Watch thyme for leaf paling, curling, or slowed growth; if readings remain elevated after a dry-down, plan a controlled dilution watering later.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -256,7 +256,7 @@
     {
       "date": "12/12/2025",
       "time": "1:33 PM",
-      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.17",
@@ -274,7 +274,7 @@
       },
       "observations": "Thyme seedlings form a healthy green carpet with strong stems and evenly hydrated soil. No signs of wilting, discoloration, or pests. The seedlings are gradually expanding as they develop true leaves.",
       "actions": "No watering needed today; moisture is ideal. Optionally remove large bark pieces to allow better light access to smaller seedlings.",
-      "next_steps": "Monitor moisture tomorrow and watch for continued leaf development. Ensure surface doesn\\u2019t dry out too much over the next few days.",
+      "next_steps": "Monitor moisture tomorrow and watch for continued leaf development. Ensure surface doesn’t dry out too much over the next few days.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -293,7 +293,7 @@
     {
       "date": "12/10/2025",
       "time": "8:59 AM",
-      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
       "digital_probe": {
         "ph": "6.10",
         "ec_mScm": "0.27",
@@ -335,7 +335,7 @@
     {
       "date": "12/9/2025",
       "time": "8:13 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "5.76",
         "ec_mScm": "0.27",
@@ -356,7 +356,7 @@
       "next_steps": "Recheck moisture and pH tomorrow once rainfall distribution stabilizes. Expect continued mat thickening and steady true-leaf development over the next several days.",
       "q_and_a_summary": "",
       "follow_up": [
-        "[4:38 PM] Sprayed Captain Jack\\u2019s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
       ],
       "photos": [
         {
@@ -379,7 +379,7 @@
     {
       "date": "12/8/2025",
       "time": "11:20 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "4.45",
         "ec_mScm": "0.51",
@@ -397,7 +397,7 @@
       },
       "observations": "Thyme seedlings appear healthy and upright with increasingly defined true leaves. Color remains bright with only minor cotyledon yellowing typical of early-stage transitions. Soil is well rehydrated from the morning storms, and seedlings show no signs of wilting or stress. EC and salt are elevated due to rapid wetting of previously dry soil but pose no visible concern.",
       "actions": "Do not water today. Allow the soil to continue settling after rainfall. Avoid fertilizer or lime adjustments. Lightly crumble only the loosest surface bark pieces without disturbing seedlings.",
-      "next_steps": "Recheck moisture and pH tomorrow once soil redistribution stabilizes. Expect EC and salt values to normalize within 24\\u201348 hours. Continue monitoring for mat thickening and expansion of true leaves.",
+      "next_steps": "Recheck moisture and pH tomorrow once soil redistribution stabilizes. Expect EC and salt values to normalize within 24–48 hours. Continue monitoring for mat thickening and expansion of true leaves.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -416,7 +416,7 @@
     {
       "date": "12/7/2025",
       "time": "1:01 PM",
-      "conditions": "Sunny with a high of 86\\xb0F dropping to 66\\xb0F overnight.",
+      "conditions": "Sunny with a high of 86°F dropping to 66°F overnight.",
       "digital_probe": {
         "ph": "4.95",
         "ec_mScm": "0.06",
@@ -434,7 +434,7 @@
       },
       "observations": "Thyme seedlings appear healthy and upright with early true leaves forming. Color remains bright green with no signs of wilting or stress. The soil surface is extremely dry, preventing reliable moisture readings, though the seedlings themselves are tolerating conditions well. No damping-off or discoloration observed.",
       "actions": "Gently moisten the thyme zone with no more than 1/2 cup of water to restore surface hydration and improve probe contact. Avoid deep watering today. Loosen only the driest surface crust without disturbing seedlings.",
-      "next_steps": "Recheck moisture after tomorrow\\u2019s expected rainfall to confirm even hydration. Continue monitoring for mat thickening and early true leaf expansion. Avoid additional watering unless the surface becomes powder-dry.",
+      "next_steps": "Recheck moisture after tomorrow’s expected rainfall to confirm even hydration. Continue monitoring for mat thickening and early true leaf expansion. Avoid additional watering unless the surface becomes powder-dry.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -453,7 +453,7 @@
     {
       "date": "12/2/2025",
       "time": "11:06 AM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight; wind gusts up to 19 mph.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; wind gusts up to 19 mph.",
       "digital_probe": {
         "ph": "4.86",
         "ec_mScm": "0.53",
@@ -490,7 +490,7 @@
     {
       "date": "11/28/2025",
       "time": "11:06 AM",
-      "conditions": "Cloudy with a high of 72\\xb0F dropping to 57\\xb0F overnight; clear conditions expected around 6 PM.",
+      "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight; clear conditions expected around 6 PM.",
       "digital_probe": {
         "ph": "0.00",
         "ec_mScm": "0.24",
@@ -527,7 +527,7 @@
     {
       "date": "11/27/2025",
       "time": "12:19 PM",
-      "conditions": "Cloudy with a high of 81\\xb0F dropping to 65\\xb0F overnight; rain expected around 6 PM.",
+      "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight; rain expected around 6 PM.",
       "digital_probe": {
         "ph": "5.20",
         "ec_mScm": "0.19",
@@ -564,7 +564,7 @@
     {
       "date": "11/26/2025",
       "time": "12:19 PM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight; thunderstorms expected around 4 PM.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; thunderstorms expected around 4 PM.",
       "digital_probe": {
         "ph": "5.53",
         "ec_mScm": "0.43",
@@ -611,7 +611,7 @@
     {
       "date": "11/25/2025",
       "time": "3:13 PM",
-      "conditions": "Sunny all day with a high of 84\\xb0F dropping to 65\\xb0F overnight.",
+      "conditions": "Sunny all day with a high of 84°F dropping to 65°F overnight.",
       "digital_probe": {
         "ph": "4.38",
         "ec_mScm": "0.42",
@@ -637,7 +637,7 @@
     {
       "date": "11/24/2025",
       "time": "12:20 PM",
-      "conditions": "Partly cloudy with a high of 81\\xb0F dropping to 61\\xb0F overnight.",
+      "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
       "digital_probe": {
         "ph": "4.92",
         "ec_mScm": "0.37",
@@ -674,7 +674,7 @@
     {
       "date": "11/23/2025",
       "time": "1:57 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "4.28",
         "ec_mScm": "0.22",
@@ -706,7 +706,7 @@
     {
       "date": "11/22/2025",
       "time": "11:27 AM",
-      "conditions": "Mostly cloudy with a high of 84\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "4.15",
         "ec_mScm": "0.18",
@@ -738,7 +738,7 @@
     {
       "date": "11/21/2025",
       "time": "3:33 PM",
-      "conditions": "Sunny with a high of 84\\xb0F dropping to 60\\xb0F overnight.",
+      "conditions": "Sunny with a high of 84°F dropping to 60°F overnight.",
       "digital_probe": {
         "ph": "4.76",
         "ec_mScm": "0.32",
@@ -770,7 +770,7 @@
     {
       "date": "11/20/2025",
       "time": "1:31 PM",
-      "conditions": "Mostly sunny with a high of 83\\xb0F dropping to 64\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 83°F dropping to 64°F overnight.",
       "digital_probe": {
         "ph": "4.33",
         "ec_mScm": "0.12",
@@ -802,7 +802,7 @@
     {
       "date": "11/19/2025",
       "time": "9:45 AM",
-      "conditions": "Cool morning around 69.1\\xb0F in full sun with clear weather.",
+      "conditions": "Cool morning around 69.1°F in full sun with clear weather.",
       "digital_probe": {
         "ph": "4.20",
         "ec_mScm": "0.14",
@@ -823,7 +823,7 @@
       "next_steps": "Monitor density for thinning later.",
       "q_and_a_summary": "",
       "follow_up": [
-        "[3:07 PM] Lime added across herb box; soil very dry two knuckles down\\u2014light surface watering recommended to re-moisten the upper layer without washing lime deeper."
+        "[3:07 PM] Lime added across herb box; soil very dry two knuckles down—light surface watering recommended to re-moisten the upper layer without washing lime deeper."
       ],
       "photos": [
         {
@@ -841,7 +841,7 @@
     {
       "date": "11/18/2025",
       "time": "9:08 AM",
-      "conditions": "Cool morning around 64.6\\xb0F in full sun with partly cloudy weather, high 82\\xb0F, low 65\\xb0F.",
+      "conditions": "Cool morning around 64.6°F in full sun with partly cloudy weather, high 82°F, low 65°F.",
       "digital_probe": {
         "ph": "5.42",
         "ec_mScm": "0.19",
@@ -873,7 +873,7 @@
     {
       "date": "11/17/2025",
       "time": "9:07 AM",
-      "conditions": "Cool morning around 60.6\\xb0F in full sun with mostly sunny weather, high 81\\xb0F, low 61\\xb0F.",
+      "conditions": "Cool morning around 60.6°F in full sun with mostly sunny weather, high 81°F, low 61°F.",
       "digital_probe": {
         "ph": "4.58",
         "ec_mScm": "0.20",
@@ -905,7 +905,7 @@
     {
       "date": "11/13/2025",
       "time": "9:35 AM",
-      "conditions": "Cool morning around 67\\xb0F in morning shade then sun with clear weather.",
+      "conditions": "Cool morning around 67°F in morning shade then sun with clear weather.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",
@@ -937,7 +937,7 @@
     {
       "date": "11/12/2025",
       "time": "10:09 AM",
-      "conditions": "Cool morning around 65\\xb0F in full sun with clear weather.",
+      "conditions": "Cool morning around 65°F in full sun with clear weather.",
       "digital_probe": {
         "ph": "",
         "ec_mScm": "",

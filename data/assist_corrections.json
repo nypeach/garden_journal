@@ -875,6 +875,30 @@
       "include_footer": true,
       "count": 0,
       "applies_when": ""
+    },
+    {
+      "id": "TITLE-002",
+      "title": "User Products Not Used First",
+      "category": "Daily Workflow",
+      "sub_category": "Product Use Priority / Owned Products",
+      "trigger_if": "The assistant recommends treatments, fertilizers, sprays, amendments, or pH corrections without first checking and recommending the user-owned products listed in the channel-start guide under **Product Use Priority**, OR asks what products the user has on hand even though that list already exists in the guide.",
+      "response_then": "Stop.\n\nRe-issue the recommendation using the user-owned products listed in the chatGPT saved memories FIRST whenever applicable and safe.\n\nIf none of the user-owned products are appropriate:\n- say so explicitly, and\n- recommend the safest alternative.\n\nDo not ask what products the user has on hand if the product list is already present in the channel-start guide.\n\nThen continue the workflow as my professional horticulturist.",
+      "anti_patterns": [
+        "Recommending generic “compost + organic acidifiers” without checking the owned product list  ",
+        "Asking “what fertilizer do you have?” when the guide already lists owned products  ",
+        "Suggesting new products before evaluating owned products  ",
+        "Giving treatment advice that ignores container-specific scaling requirements"
+      ],
+      "tags": [
+        "products",
+        "owned-products",
+        "product-priority",
+        "recommendations",
+        "workflow"
+      ],
+      "include_footer": true,
+      "count": 1,
+      "applies_when": ""
     }
   ]
 }

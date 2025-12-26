@@ -33,7 +33,7 @@
     {
       "date": "12/20/2025",
       "time": "7:39 AM",
-      "conditions": "Sunny with a high of 82\\xb0F dropping to 66\\xb0F overnight.",
+      "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
       "digital_probe": {
         "ph": "5.40",
         "ec_mScm": "0.26",
@@ -80,7 +80,7 @@
     {
       "date": "12/19/2025",
       "time": "10:08 AM",
-      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84\\xb0F dropping to around 61\\xb0F overnight.",
+      "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",
       "digital_probe": {
         "ph": "5.50",
         "ec_mScm": "0.36",
@@ -98,7 +98,7 @@
       },
       "observations": "The plant shows widespread and coordinated bud initiation across nearly all active stems, with firm structure, healthy green foliage, and no signs of stress despite elevated moisture and nutrient levels from recent rainfall. Soil remains saturated, and the canopy is beginning to visually thicken as the plant transitions toward bloom.",
       "actions": "Do not water today or tonight. Do not fertilize. Allow soil to dry naturally following recent rain and elevated moisture levels.",
-      "next_steps": "Recheck moisture late tomorrow morning or early afternoon. Plan selective watering only once moisture drops below 35\\u201340 mS/cm. Monitor for bud swelling and early color development.",
+      "next_steps": "Recheck moisture late tomorrow morning or early afternoon. Plan selective watering only once moisture drops below 35–40 mS/cm. Monitor for bud swelling and early color development.",
       "q_and_a_summary": "Confirmed that all buds on this chrysanthemum will bloom the same color, as chrysanthemums do not produce mixed-color flowers on a single plant.",
       "follow_up": [],
       "photos": [
@@ -117,7 +117,7 @@
     {
       "date": "12/18/2025",
       "time": "12:44 PM",
-      "conditions": "Partly sunny with a high of 83\\xb0F dropping to 67\\xb0F overnight.",
+      "conditions": "Partly sunny with a high of 83°F dropping to 67°F overnight.",
       "digital_probe": {
         "ph": "5.50",
         "ec_mScm": "0.39",
@@ -135,7 +135,7 @@
       },
       "observations": "The plant remains structurally sound with firm stems and intact bud clusters despite a recent pot tip-over and significant rainfall earlier today. Foliage is turgid and green with no signs of wilting, breakage, or nutrient burn. Soil moisture and nutrient readings are elevated due to rain mobilizing existing nutrients, not over-application.",
       "actions": "Do not water today. Do not apply fertilizer. Leave the plant undisturbed and allow the soil to dry naturally.",
-      "next_steps": "Allow soil to dry over the next 2\\u20133 days. Recheck probe readings once moisture drops below 35 mS/cm. Monitor for continued bud swelling and canopy fill.",
+      "next_steps": "Allow soil to dry over the next 2–3 days. Recheck probe readings once moisture drops below 35 mS/cm. Monitor for continued bud swelling and canopy fill.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -159,7 +159,7 @@
     {
       "date": "12/16/2025",
       "time": "11:37 AM",
-      "conditions": "Mostly sunny with a high near 80\\xb0F dropping to around 65\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high near 80°F dropping to around 65°F overnight.",
       "digital_probe": {
         "ph": "6.00",
         "ec_mScm": "0.18",
@@ -201,7 +201,7 @@
     {
       "date": "12/15/2025",
       "time": "10:03 AM",
-      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "A 20 percent chance of showers and thunderstorms, partly sunny with a high of 81°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "5.80",
         "ec_mScm": "0.08",
@@ -219,7 +219,7 @@
       },
       "observations": "The plant shows strong, even regrowth across all pruned stems with firm structure and increasing bud cluster formation at stem tips and nodes. Leaf color is healthy green with no signs of wilting, burn, or disease. The canopy remains open but is filling in steadily, and the plant appears resilient despite windy conditions.",
       "actions": "Do not water today, as soil moisture is ideal and rain chances are present. Do not fertilize yet. Maintain current placement and allow wind exposure to pass naturally.",
-      "next_steps": "Recheck moisture in 1\\u20132 days once winds subside. Plan a light fertilizer application at the next watering if moisture drops below 25 mS/cm. Monitor for continued canopy fill and bud enlargement.",
+      "next_steps": "Recheck moisture in 1–2 days once winds subside. Plan a light fertilizer application at the next watering if moisture drops below 25 mS/cm. Monitor for continued canopy fill and bud enlargement.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -243,7 +243,7 @@
     {
       "date": "12/12/2025",
       "time": "1:03 PM",
-      "conditions": "Mostly sunny with a high of 79\\xb0F dropping to 62\\xb0F overnight.",
+      "conditions": "Mostly sunny with a high of 79°F dropping to 62°F overnight.",
       "digital_probe": {
         "ph": "6.90",
         "ec_mScm": "0.10",
@@ -280,7 +280,7 @@
     {
       "date": "12/11/2025",
       "time": "4:46 PM",
-      "conditions": "Mostly Sunny with a high of 73\\xb0F dropping to 53\\xb0F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 78\\xb0F.",
+      "conditions": "Mostly Sunny with a high of 73°F dropping to 53°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 78°F.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.02",
@@ -327,7 +327,7 @@
     {
       "date": "12/10/2025",
       "time": "8:07 AM",
-      "conditions": "Mostly Sunny with a high of 77\\xb0F dropping to 52\\xb0F overnight.",
+      "conditions": "Mostly Sunny with a high of 77°F dropping to 52°F overnight.",
       "digital_probe": {
         "ph": "6.30",
         "ec_mScm": "0.07",
@@ -344,7 +344,7 @@
         "ph": ""
       },
       "observations": "The plant shows noticeable fresh leaf expansion compared to the previous day, with firm stems and healthy green new growth emerging along the pruned framework. Bud clusters are present and beginning to swell. Soil texture is markedly improved following earlier loosening and the addition of fresh potting mix, with even hydration and good aeration. The soil pH now falls within an ideal chrysanthemum range, and moisture has settled into a healthy morning dry-down.",
-      "actions": "Do not water today. Do not apply any lime, as the current pH is ideal. Begin preparing to fertilize in 1\\u20132 days using 2 teaspoons Purived 4-5-5 mixed into 2 cups of water, to be applied once moisture conditions are appropriate.",
+      "actions": "Do not water today. Do not apply any lime, as the current pH is ideal. Begin preparing to fertilize in 1–2 days using 2 teaspoons Purived 4-5-5 mixed into 2 cups of water, to be applied once moisture conditions are appropriate.",
       "next_steps": "Recheck moisture levels tomorrow morning. If moisture remains above 25 mS/cm, plan to fertilize tomorrow. Monitor for accelerated leaf expansion over the next several days as the plant moves through active vegetative refill.",
       "q_and_a_summary": "",
       "follow_up": [],
@@ -364,7 +364,7 @@
     {
       "date": "12/9/2025",
       "time": "9:39 AM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "4.69",
         "ec_mScm": "0.08",
@@ -382,7 +382,7 @@
       },
       "observations": "The soil surface shows a dense mat of fine roots typical of a root-bound chrysanthemum, and loosening the top layer has greatly improved aeration. Several slow-release fertilizer prills are visible within the soil, consistent with the original nursery media. The plant exhibits fresh, bright green new growth along stems and at the crown, with stems remaining firm and upright following the prior hard prune. Moisture is ideal, and pH has begun to rise slightly following soil loosening and the addition of fresh potting mix, even without any lime applied.",
       "actions": "Do not apply lime today, as the pH is already moving upward after soil loosening and the addition of fresh potting mix. Hold off on fertilizing until pH improves further. Lightly stabilize the loosened topsoil by gently firming the top half inch without compressing it.",
-      "next_steps": "Recheck probe readings tomorrow morning. Expect pH to continue increasing gradually over the next several days. Plan for a light fertilizer application in 5\\u20137 days once pH approaches the mid-5 range. Monitor for continued leaf expansion and fresh shoot growth.",
+      "next_steps": "Recheck probe readings tomorrow morning. Expect pH to continue increasing gradually over the next several days. Plan for a light fertilizer application in 5–7 days once pH approaches the mid-5 range. Monitor for continued leaf expansion and fresh shoot growth.",
       "q_and_a_summary": "Confirmed that the metallic green balls in the soil are slow-release fertilizer prills. Explained the dense root mat as typical of heavily root-bound nursery chrysanthemums and affirmed that loosening the soil and adding potting mix were beneficial.",
       "follow_up": [],
       "photos": [
@@ -406,7 +406,7 @@
     {
       "date": "12/8/2025",
       "time": "12:44 PM",
-      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83\\xb0F dropping to 63\\xb0F overnight.",
+      "conditions": "Slight Chance T-storms then Showers Likely with a high of 83°F dropping to 63°F overnight.",
       "digital_probe": {
         "ph": "4.37",
         "ec_mScm": "0.11",
@@ -424,7 +424,7 @@
       },
       "observations": "The plant shows clear signs of having passed its bloom cycle, with spent flowers and browned petals common for chrysanthemums at this stage. After pruning, the plant structure appears clean with firm stems and emerging new leaf buds. The soil surface is densely matted with old feeder roots typical of a root-bound nursery mum, making probe insertion difficult. Probe readings indicate strongly acidic soil that could impede nutrient uptake despite early signs of rebound.",
       "actions": "Apply 1 tablespoon of dolomite lime evenly across the soil surface to begin correcting severe acidity if lime is available. Avoid watering immediately afterward in favor of allowing rainfall or a later light watering to draw the amendment into the soil. Hold off on applying fertilizer until pH begins to improve.",
-      "next_steps": "Recheck probe readings in 24\\u201348 hours after natural rainfall or a light watering. Begin light fertilization in 5\\u20137 days once pH has risen toward the chrysanthemum-preferred range. Monitor for fresh green growth at leaf tips as a sign of recovery, and avoid watering unless moisture drops below 25 mS/cm.",
+      "next_steps": "Recheck probe readings in 24–48 hours after natural rainfall or a light watering. Begin light fertilization in 5–7 days once pH has risen toward the chrysanthemum-preferred range. Monitor for fresh green growth at leaf tips as a sign of recovery, and avoid watering unless moisture drops below 25 mS/cm.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
