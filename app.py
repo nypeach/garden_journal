@@ -12,6 +12,8 @@ from data_manager import DataManager
 from PIL import Image
 import io
 import re
+import requests
+from bs4 import BeautifulSoup
 
 # Register HEIC support
 try:
@@ -1017,6 +1019,196 @@ def get_last_photo_number(plant_id):
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/weather/current', methods=['GET'])
+def get_current_weather():
+    """
+    Fetch current weather forecast for Loxahatchee, FL from National Weather Service
+    Returns formatted weather string with tiles and detailed forecast data
+    """
+    try:
+        # Primary URL for Loxahatchee, FL
+        primary_url = 'https://forecast.weather.gov/MapClick.php?lat=26.683680000000038&lon=-80.27976999999998'
+
+        # Try primary URL up to 3 times
+        html_content = None
+        for attempt in range(3):
+            try:
+                response = requests.get(primary_url, timeout=10)
+                if response.status_code == 200:
+                    html_content = response.text
+                    break
+            except Exception as e:
+                print(f"Primary URL attempt {attempt + 1} failed: {e}")
+                if attempt == 2:  # Last attempt
+                    print("Primary URL failed after 3 attempts, trying fallback...")
+
+        # Fallback: Search within NWS site
+        if not html_content:
+            search_url = 'https://forecast.weather.gov/'
+            for attempt in range(3):
+                try:
+                    # Search for Loxahatchee, FL
+                    search_response = requests.get(search_url, params={'q': 'Loxahatchee, FL'}, timeout=10)
+                    if search_response.status_code == 200:
+                        # Parse to find the forecast link
+                        soup = BeautifulSoup(search_response.text, 'html.parser')
+                        # Try to find forecast link (this is simplified - may need adjustment)
+                        forecast_link = soup.find('a', href=re.compile(r'MapClick\.php'))
+                        if forecast_link:
+                            fallback_url = 'https://forecast.weather.gov' + forecast_link['href']
+                            response = requests.get(fallback_url, timeout=10)
+                            if response.status_code == 200:
+                                html_content = response.text
+                                break
+                except Exception as e:
+                    print(f"Fallback attempt {attempt + 1} failed: {e}")
+
+        # If both primary and fallback failed
+        if not html_content:
+            return jsonify({
+                'error': True,
+                'formatted_weather': 'Weather unavailable - please add manually'
+            })
+
+        # Parse the HTML
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        # Extract forecast tiles (first 3: Today, Tonight, Tomorrow)
+        tombstone_container = soup.find('div', id='seven-day-forecast-container')
+        if not tombstone_container:
+            return jsonify({
+                'error': True,
+                'formatted_weather': 'Weather unavailable - please add manually'
+            })
+
+        tombstones = tombstone_container.find_all('div', class_='tombstone-container')
+        if len(tombstones) < 3:
+            return jsonify({
+                'error': True,
+                'formatted_weather': 'Weather unavailable - please add manually'
+            })
+
+        # Extract tile data
+        tiles = []
+        for i in range(3):
+            period_name = tombstones[i].find('p', class_='period-name')
+            short_desc = tombstones[i].find('p', class_='short-desc')
+            temp = tombstones[i].find('p', class_='temp')
+
+            tiles.append({
+                'period': period_name.get_text(strip=True) if period_name else '',
+                'condition': short_desc.get_text(strip=True) if short_desc else '',
+                'temp': temp.get_text(strip=True) if temp else ''
+            })
+
+        # Extract detailed forecasts (first 3 rows)
+        detailed_container = soup.find('div', id='detailed-forecast-body')
+        if not detailed_container:
+            return jsonify({
+                'error': True,
+                'formatted_weather': 'Weather unavailable - please add manually'
+            })
+
+        detailed_rows = detailed_container.find_all('div', class_='row')[:3]
+        detailed_forecasts = []
+        for row in detailed_rows:
+            forecast_text_div = row.find('div', class_='forecast-text')
+            if forecast_text_div:
+                detailed_forecasts.append(forecast_text_div.get_text(strip=True))
+            else:
+                detailed_forecasts.append('')
+
+        # Apply precipitation and wind rules
+        def process_tile_with_detailed(tile, detailed_text):
+            """Apply precipitation % and wind rules from detailed forecast"""
+            condition = tile['condition']
+            temp = tile['temp']
+
+            # Precipitation rule: Replace vague wording with explicit %
+            precip_keywords = ['Chance', 'Slight', 'Likely', 'Showers', 'T-storms', 'Rain']
+            has_precip_mention = any(keyword.lower() in condition.lower() for keyword in precip_keywords)
+
+            if has_precip_mention and detailed_text:
+                # Look for explicit percentage in detailed forecast
+                precip_match = re.search(r'(\d+)\s*percent', detailed_text, re.IGNORECASE)
+                if precip_match:
+                    percent = precip_match.group(1)
+                    condition = f"{percent}% chance of precipitation"
+
+            # Wind rule: Only include if gusts > 25 mph
+            wind_info = ''
+            if detailed_text:
+                gust_match = re.search(r'gusts?\s+as\s+high\s+as\s+(\d+)\s*mph', detailed_text, re.IGNORECASE)
+                if gust_match:
+                    gust_speed = int(gust_match.group(1))
+                    if gust_speed > 25:
+                        wind_info = f" with gusts up to {gust_speed} mph"
+
+            return condition, temp, wind_info
+
+        # Process each tile
+        today_condition, today_temp, today_wind = process_tile_with_detailed(tiles[0], detailed_forecasts[0])
+        tonight_condition, tonight_temp, tonight_wind = process_tile_with_detailed(tiles[1], detailed_forecasts[1])
+        tomorrow_condition, tomorrow_temp, tomorrow_wind = process_tile_with_detailed(tiles[2], detailed_forecasts[2])
+
+        # Extract temperature values
+        def extract_temp(temp_str):
+            """Extract numeric temperature from string like 'High: 82 °F'"""
+            match = re.search(r'(\d+)', temp_str)
+            return match.group(1) if match else temp_str
+
+        today_high = extract_temp(today_temp)
+        tonight_low = extract_temp(tonight_temp)
+        tomorrow_high = extract_temp(tomorrow_temp)
+
+        # Get current date
+        current_date = datetime.now().strftime('%-m/%-d/%Y')
+
+        # Build formatted weather string
+        formatted_parts = []
+        formatted_parts.append(f"Today {current_date}: {today_condition} with a high of {today_high}°F dropping to {tonight_low}°F overnight")
+
+        # Add wind/precip modifiers for today if present
+        if today_wind:
+            formatted_parts.append(today_wind.strip())
+
+        formatted_parts.append(f". Tonight: {tonight_condition}")
+
+        # Add wind for tonight if present
+        if tonight_wind:
+            formatted_parts.append(tonight_wind.strip())
+
+        formatted_parts.append(f". Tomorrow: {tomorrow_condition} with a high of {tomorrow_high}°F")
+
+        # Add wind for tomorrow if present
+        if tomorrow_wind:
+            formatted_parts.append(tomorrow_wind.strip())
+
+        formatted_parts.append(".")
+
+        formatted_weather = ''.join(formatted_parts)
+
+        # Return data
+        return jsonify({
+            'error': False,
+            'date': current_date,
+            'tiles': {
+                'today': {'condition': today_condition, 'temp': today_high, 'wind': today_wind},
+                'tonight': {'condition': tonight_condition, 'temp': tonight_low, 'wind': tonight_wind},
+                'tomorrow': {'condition': tomorrow_condition, 'temp': tomorrow_high, 'wind': tomorrow_wind}
+            },
+            'detailed_forecasts': detailed_forecasts,
+            'formatted_weather': formatted_weather
+        })
+
+    except Exception as e:
+        print(f"Weather API error: {str(e)}")
+        return jsonify({
+            'error': True,
+            'formatted_weather': 'Weather unavailable - please add manually'
+        })
 
 
 if __name__ == '__main__':

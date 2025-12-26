@@ -49,46 +49,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "4:07 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",
-      "digital_probe": {
-        "ph": "8.40",
-        "ec_mScm": "0.06",
-        "salt_mg_L": "34",
-        "moisture_mScm": "20.00",
-        "light": "99",
-        "rh_percent": "44",
-        "fertility_percent": "3.0",
-        "soil_temp_f": "74.8"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The plant remains vigorous with a broad canopy, thick upright petioles, and an active crown producing multiple developing buds. One small lower fruit shows visible failure and is reported as soft and mushy, consistent with early collapse or rot. The soil surface appears dry and crumbly in multiple areas, consistent with late-day dry-down under sunny, windy conditions.",
-      "actions": "Remove the soft/mushy lower zucchini immediately with a clean cut close to the stem and discard it. Water the plant this afternoon with a slow, thorough base watering to re-wet the root zone, avoiding the crown and any developing fruits. Remove only the lowest 1–2 leaves that are touching soil or interfering with the vertical training zone by cutting petioles cleanly at the base.",
-      "next_steps": "Recheck probe readings tomorrow morning to confirm moisture recovery and to see if pH remains elevated. Monitor the remaining developing fruit for firmness and steady lengthening over the next 24–48 hours. Continue vertical training by keeping the stem supported and maintaining airflow by gradually removing lower leaves as they age or crowd the base.",
-      "q_and_a_summary": "Discussed whether the soft, mushy lower fruit should be removed; confirmed it should be cut off immediately. Discussed removing lower leaves as part of vertical growth; confirmed removing the lowest 1–2 soil-contact leaves is appropriate. User asked whether the plant will make it; confirmed the plant remains structurally strong and actively growing. User asked whether another tie should be added tomorrow; confirmed a tie can be added if cut sites look dry and sealed.",
-      "follow_up": [
-        "[4:40 PM] Removed lower leaves to support vertical training and improve airflow at the base, allowing the petiole cut sites to heal and dry.",
-        "[4:45 PM] Gave the plant a thorough base watering to re-wet the root zone after late-day dry-down in sunny, windy conditions."
-      ],
-      "photos": [
-        {
-          "file_name": "zucchini_002-20251223-02.jpeg",
-          "caption": "Overhead view showing a wide, vigorous zucchini canopy with large leaves and an upright structure in the raised bed.",
-          "tags": "zucchini, overhead, canopy, vigor, raised-bed"
-        },
-        {
-          "file_name": "zucchini_002-20251223-03.jpeg",
-          "caption": "Side view of the lower stem showing a small developing fruit with a spent blossom and a second small fruit below it near the training stake.",
-          "tags": "zucchini, fruit, side-view, blossom, vertical-training"
-        }
-      ]
-    },
-    {
       "date": "12/23/2025",
       "time": "4:07 PM",
       "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",

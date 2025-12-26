@@ -60,7 +60,7 @@
         <!-- Form Fields -->
         <div class="field-label">Plant ID *</div>
         <input type="text" id="plant_id" name="plant_id" class="form-input" required
-          placeholder="e.g., basil_001, strawberry_002" list="plant-ids">
+          placeholder="e.g., basil_001, strawberry_002" list="plant-ids" value="{{ plant_id if plant_id else '' }}">
         <datalist id="plant-ids">
           {% for plant_id in available_plants %}
           <option value="{{ plant_id }}">
@@ -77,15 +77,15 @@
           <div class="form-group">
             <div class="field-label">Starting Photo #</div>
             <input type="number" id="starting_number" name="starting_number" class="form-input" min="1"
-              placeholder="Leave blank for 01">
+              placeholder="Leave blank for 01" value="{{ starting_number if starting_number else '' }}">
             <div class="form-hint">Optional - defaults to 01</div>
           </div>
         </div>
 
         <div class="field-label">Context *</div>
         <select id="context" name="context" class="form-select" required>
-          <option value="Initial">Initial</option>
-          <option value="Follow-Up">Follow-Up</option>
+          <option value="Initial" {% if context=='Initial' or not context %}selected{% endif %}>Initial</option>
+          <option value="Follow-Up" {% if context=='Follow-Up' %}selected{% endif %}>Follow-Up</option>
         </select>
         <div class="form-hint">Initial = first check-in of the day, Follow-Up = additional same-day updates</div>
 
@@ -96,15 +96,18 @@
           </label>
         </div>
 
-        <div class="field-label" style="margin-top: 16px;">Global Message (Weather)</div>
-        <textarea id="global_message" name="global_message" class="form-textarea"
-          placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight..."></textarea>
-        <div class="form-hint">Weather conditions - this will be saved for the next plant. Use {variable_name} for
-          dynamic plant data (e.g., {id}, {garden_location}, {full_sun_start})</div>
+        <div id="global_message_container">
+          <div class="field-label" style="margin-top: 16px;">Global Message (Weather)</div>
+          <textarea id="global_message" name="global_message" class="form-textarea"
+            placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight...">{{ global_message if global_message else '' }}</textarea>
+          <div class="form-hint">Weather conditions - this will be saved for the next plant.
+            Use {variable_name} for
+            dynamic plant data (e.g., {id}, {garden_location}, {full_sun_start})</div>
+        </div>
 
         <div class="field-label">Plant-Specific Message</div>
         <textarea id="plant_message" name="plant_message" class="form-textarea"
-          placeholder="Plant observations, questions, follow-ups..."></textarea>
+          placeholder="Plant observations, questions, follow-ups...">{{ plant_message if plant_message else '' }}</textarea>
         <div class="form-hint">Observations for this specific plant</div>
 
         <button type="submit" class="submit-btn">📤 Process Photos</button>
@@ -165,6 +168,7 @@
         function startFresh() {
           // Clear everything including global message
           localStorage.removeItem('garden_global_message');
+          // Keep weather cache - it will auto-fill on page load
           window.location.href = '/photo-prep';
         }
       </script>
@@ -173,32 +177,6 @@
   </div>
 
   <script>
-    // Pre-fill from URL parameters ONLY, or clear localStorage if no params
-    document.addEventListener('DOMContentLoaded', function () {
-      const urlParams = new URLSearchParams(window.location.search);
-      const globalMsgFromUrl = urlParams.get('global_message');
-      const dateFromUrl = urlParams.get('date');
-
-      // If NO URL parameters, clear localStorage and show fresh form
-      if (!globalMsgFromUrl && !dateFromUrl) {
-        localStorage.removeItem('garden_global_message');
-        return; // Leave form empty
-      }
-
-      // If URL parameters exist, use them and save to localStorage
-      if (globalMsgFromUrl) {
-        const globalMsg = globalMsgFromUrl; // URLSearchParams auto-decodes
-        document.getElementById('global_message').value = globalMsg;
-        localStorage.setItem('garden_global_message', globalMsg);
-      }
-
-      // Save global message to localStorage when typing
-      const globalInput = document.getElementById('global_message');
-      globalInput.addEventListener('input', function () {
-        localStorage.setItem('garden_global_message', this.value);
-      });
-    });
-
     // Drag and drop functionality
     const uploadZone = document.getElementById('uploadZone');
     const fileInput = document.getElementById('fileInput');
@@ -375,12 +353,160 @@
   </script>
 
   <script>
+    // Weather auto-fill functionality
+    async function loadWeather(preserveOnError = false) {
+      const globalMessageInput = document.getElementById('global_message');
+      const today = new Date().toLocaleDateString('en-US');
+
+      // If preserveOnError is true, keep existing value on error
+      const currentValue = globalMessageInput.value;
+
+      // ALWAYS try to fetch fresh weather first to validate cache is still reachable
+      try {
+        const response = await fetch('/api/weather/current');
+        const data = await response.json();
+
+        if (data.error) {
+          if (preserveOnError) {
+            // Keep current value if error occurred during form interaction
+            globalMessageInput.value = currentValue;
+          } else {
+            // Show error message on initial load
+            globalMessageInput.value = data.formatted_weather;  // "Weather unavailable - please add manually"
+            // Clear stale cache
+            localStorage.removeItem('garden_weather_cache');
+          }
+        } else {
+          // Cache the weather data
+          const cacheData = {
+            date: today,
+            tiles: data.tiles,
+            detailed_forecasts: data.detailed_forecasts,
+            formatted_weather: data.formatted_weather
+          };
+          localStorage.setItem('garden_weather_cache', JSON.stringify(cacheData));
+
+          // Fill global message
+          globalMessageInput.value = data.formatted_weather;
+        }
+      } catch (error) {
+        console.error('Error fetching weather:', error);
+
+        if (preserveOnError) {
+          // Keep current value on error during form interaction
+          globalMessageInput.value = currentValue;
+        } else {
+          // On fresh load, check if we have cached weather from today
+          const cached = localStorage.getItem('garden_weather_cache');
+          let usedCache = false;
+
+          if (cached) {
+            try {
+              const weatherData = JSON.parse(cached);
+              // Only use cache if it's from today AND we're offline (not a real error)
+              if (weatherData.date === today) {
+                globalMessageInput.value = weatherData.formatted_weather;
+                usedCache = true;
+              }
+            } catch (e) {
+              console.error('Error parsing cached weather:', e);
+            }
+          }
+
+          // If no valid cache, show error message
+          if (!usedCache) {
+            globalMessageInput.value = 'Weather unavailable - please add manually';
+            localStorage.removeItem('garden_weather_cache');
+          }
+        }
+      }
+    }
+
+    // Show/hide global message based on context
+    function updateGlobalMessageVisibility() {
+      const context = document.getElementById('context').value;
+      const container = document.getElementById('global_message_container');
+
+      if (context === 'Follow-Up') {
+        container.style.display = 'none';
+      } else {
+        container.style.display = 'block';
+        // Load weather when showing Initial context
+        loadWeather();
+      }
+    }
+
+    // SINGLE DOMContentLoaded handler - combines all initialization logic
+    document.addEventListener('DOMContentLoaded', function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const globalMsgFromUrl = urlParams.get('global_message');
+      const dateFromUrl = urlParams.get('date');
+      const globalMessageInput = document.getElementById('global_message');
+      const plantIdInput = document.getElementById('plant_id');
+      const plantMessageInput = document.getElementById('plant_message');
+
+      // Check if any form field has a value (indicates error re-render from server)
+      const hasExistingValue = globalMessageInput.value.trim() !== '' ||
+        plantIdInput.value.trim() !== '' ||
+        plantMessageInput.value.trim() !== '';
+
+      // Handle URL parameter pre-fill (for Process Another Plant)
+      if (globalMsgFromUrl) {
+        const globalMsg = globalMsgFromUrl;
+        globalMessageInput.value = globalMsg;
+        localStorage.setItem('garden_global_message', globalMsg);
+
+        // Show/hide container based on context
+        const context = document.getElementById('context').value;
+        const container = document.getElementById('global_message_container');
+        if (context === 'Follow-Up') {
+          container.style.display = 'none';
+        } else {
+          container.style.display = 'block';
+        }
+      } else if (hasExistingValue) {
+        // Error re-render - keep ALL existing values from server, don't load weather
+        const context = document.getElementById('context').value;
+        const container = document.getElementById('global_message_container');
+
+        if (context === 'Follow-Up') {
+          container.style.display = 'none';
+        } else {
+          container.style.display = 'block';
+          // Keep existing value, don't overwrite with fresh weather
+        }
+
+        // Don't clear localStorage - preserve everything
+        isErrorRerender = true; // Set flag to prevent clearing on first change event  ← NEW LINE ADDED HERE
+      } else if (!dateFromUrl) {
+        // Fresh load (no URL params) - clear localStorage and load weather
+        localStorage.removeItem('garden_global_message');
+        updateGlobalMessageVisibility();
+      } else {
+        // Has date param but no global message - show/hide and potentially load weather
+        updateGlobalMessageVisibility();
+      }
+
+      // Save global message to localStorage when typing
+      const globalInput = document.getElementById('global_message');
+      globalInput.addEventListener('input', function () {
+        localStorage.setItem('garden_global_message', this.value);
+      });
+    });
+
     // Auto-populate photo number when context changes to Follow-Up
     document.getElementById('context').addEventListener('change', async function () {
       const context = this.value;
       const plantIdInput = document.getElementById('plant_id');
       const photoNumberInput = document.getElementById('starting_number');
 
+      // Clear starting photo number when switching to Initial
+      if (context === 'Initial') {
+        photoNumberInput.value = '';
+        photoNumberInput.placeholder = 'Leave blank for 01';
+      }
+
+      // Handle Follow-Up photo number auto-population
       if (context === 'Follow-Up' && plantIdInput.value) {
         const plantId = plantIdInput.value.trim();
 
@@ -404,16 +530,38 @@
           alert('Error checking for journal entry. Please verify the date has an existing entry.');
         }
       }
+
+      // Update global message visibility
+      updateGlobalMessageVisibility();
     });
 
-    // Also trigger when plant_id changes (if context is already Follow-Up)
+    // When plant ID changes
+    let isErrorRerender = false; // Flag to track error re-render
+
     document.getElementById('plant_id').addEventListener('change', async function () {
-      const contextSelect = document.getElementById('context');
-      if (contextSelect.value === 'Follow-Up') {
-        contextSelect.dispatchEvent(new Event('change'));
+      const context = document.getElementById('context').value;
+
+      // Don't clear plant message on error re-render (first load)
+      if (!isErrorRerender) {
+        // Clear plant-specific message only on user interaction
+        document.getElementById('plant_message').value = '';
+      }
+
+      // After first change, reset the flag
+      isErrorRerender = false;
+
+      // Handle Follow-Up photo number auto-population
+      if (context === 'Follow-Up') {
+        document.getElementById('context').dispatchEvent(new Event('change'));
+      }
+
+      // Load fresh weather for Initial context
+      if (context === 'Initial') {
+        loadWeather(false);
       }
     });
   </script>
+
 </body>
 
 </html>
