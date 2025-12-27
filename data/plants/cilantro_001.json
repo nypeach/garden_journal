@@ -44,43 +44,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "1:40 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "7.60",
-        "ec_mScm": "0.22",
-        "salt_mg_L": "111",
-        "moisture_mScm": "90.00",
-        "light": "99",
-        "rh_percent": "37",
-        "fertility_percent": "11.0",
-        "soil_temp_f": "81.5"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "Cilantro is upright and established but shows slowed growth with pale yellow-green foliage and uneven density across the planter. Several stems appear elongated and more open, consistent with a root zone that is staying too wet and a slightly high pH limiting nutrient uptake. Soil surface appears very moist and dark, matching the elevated moisture reading.",
-      "actions": "Do not water or fertilize today. Allow the planter to dry down naturally. Harvest-prune by cutting the tallest and leggier cilantro stems (no more than 25–30% total) to encourage branching and improved airflow.",
-      "next_steps": "Recheck moisture in 1–2 days. Plan light feeding only once moisture drops below 50 mS/cm. If pH remains above 7.2 after dry-down, plan a gentle pH correction alongside the next feeding to improve nutrient availability and leaf color.",
-      "q_and_a_summary": "Discussed why cilantro appears to be struggling compared to arugula; confirmed high moisture and elevated pH can stall cilantro growth and cause pale foliage even when fertility is moderate. Recommended dry-down and selective harvest-pruning instead of a full topping.",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "cilantro_001-20251225-02.jpeg",
-          "caption": "Overhead view of the cilantro section showing uneven density and pale yellow-green foliage with moist, dark soil across the planter.",
-          "tags": "cilantro, overhead, pale-foliage, uneven-growth, wet-soil, window-box"
-        },
-        {
-          "file_name": "cilantro_001-20251225-03.jpeg",
-          "caption": "Angled view showing upright cilantro stems with a slightly leggy structure and lighter leaf color, consistent with slowed growth under high moisture and elevated pH.",
-          "tags": "cilantro, angled-view, leggy-stems, pale-green, slow-growth, window-box"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "8:08 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

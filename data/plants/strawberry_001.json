@@ -44,58 +44,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "12:35 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "6.60",
-        "ec_mScm": "0.40",
-        "salt_mg_L": "201",
-        "moisture_mScm": "80.00",
-        "light": "99",
-        "rh_percent": "35",
-        "fertility_percent": "23.0",
-        "soil_temp_f": "89.6"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The strawberry shows a clear growth spurt with a fuller, denser canopy and multiple flowers and buds forming at once. Leaves appear firm and evenly green, and the crown remains active and upright. One fruitlet appears darkened and aborted while nearby blooms and developing sets look healthy.",
-      "actions": "Do not water today as moisture remains high. Remove the dark, aborted fruitlet by snipping it cleanly from the truss to reduce rot risk and redirect energy to viable flowers and fruit. Maintain mulch under fruit while keeping the crown fully exposed.",
-      "next_steps": "Allow the container to dry down naturally and recheck moisture tomorrow or the next morning; resume watering only once moisture drops into mid-range. Watch for new fruitlets forming behind the current bloom wave and remove any additional fully dark/aborted sets promptly. Continue monitoring older leaves for any renewed leaf-spot activity, especially after any rain tonight.",
-      "q_and_a_summary": "User asked whether the dark fruitlet should be removed; confirmed it is likely aborted and should be cut off now to prevent rot and redirect energy to healthy sets.",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "strawberry_001-20251225-02.jpeg",
-          "caption": "Overhead view showing a fuller canopy with multiple healthy leaves and open flowers, indicating strong regrowth and active blooming.",
-          "tags": "strawberry, overhead, canopy, flowering, vigor"
-        },
-        {
-          "file_name": "strawberry_001-20251225-03.jpeg",
-          "caption": "Angled view of the container showing balanced leaf posture and multiple blooms at different stages of opening.",
-          "tags": "strawberry, container, flowers, leaf-posture, growth-spurt"
-        },
-        {
-          "file_name": "strawberry_001-20251225-04.jpeg",
-          "caption": "Side view highlighting open flowers and buds extending out from the crown, showing active reproductive growth.",
-          "tags": "strawberry, side-view, buds, flowers, crown"
-        },
-        {
-          "file_name": "strawberry_001-20251225-05.jpeg",
-          "caption": "Front angle showing the plant’s compact structure, clean foliage, and multiple flowering stems positioned above the mulch layer.",
-          "tags": "strawberry, structure, foliage, flowering, mulch"
-        },
-        {
-          "file_name": "strawberry_001-20251225-06.jpeg",
-          "caption": "Close-up of a darkened, aborted fruitlet with collapsed petals; this set should be removed cleanly to prevent rot and redirect energy.",
-          "tags": "strawberry, aborted-set, fruitlet, pruning, close-up"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "7:43 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight. 10% chance of showers, then patchy fog.",

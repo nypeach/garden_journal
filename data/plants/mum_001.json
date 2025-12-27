@@ -31,43 +31,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "12:20 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "5.60",
-        "ec_mScm": "0.17",
-        "salt_mg_L": "86",
-        "moisture_mScm": "57.00",
-        "light": "99",
-        "rh_percent": "51",
-        "fertility_percent": "9.0",
-        "soil_temp_f": "76.8"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The chrysanthemum is actively flowering with multiple buds and several blooms open. Foliage is healthy green and fairly dense, with upright stems overall and a few slightly leggy shoots typical of bloom-stage growth. A small number of flowers are spent or fading, and the soil appears evenly settled and consistently moist.",
-      "actions": "Do not water today as soil moisture is already high and there is a chance of rain tonight. Deadhead spent blooms by clipping just above the first healthy leaf set to redirect energy into bud development. Rotate the pot one quarter turn to promote even structure and reduce leaning.",
-      "next_steps": "Recheck moisture tomorrow morning or the following morning and water only if the moisture reading drops to 35.00 or lower. Monitor pH over the next several days to ensure it does not continue drifting downward. Continue deadheading as blooms finish to encourage continued bud opening.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "mum_001-20251225-02.jpeg",
-          "caption": "Top-down view showing a full, healthy canopy with multiple buds and several blooms open, with a few spent flowers visible that are ready for deadheading.",
-          "tags": "chrysanthemum, canopy, buds, blooms, deadheading"
-        },
-        {
-          "file_name": "mum_001-20251225-03.jpeg",
-          "caption": "Angled side view showing upright stems, active flowering, and developing bud clusters across multiple shoots, with overall strong recovery and bloom-stage vigor.",
-          "tags": "chrysanthemum, stems, buds, flowering, structure"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "7:38 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

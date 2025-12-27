@@ -97,7 +97,13 @@
         </div>
 
         <div id="global_message_container">
-          <div class="field-label" style="margin-top: 16px;">Global Message (Weather)</div>
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 16px;">
+            <div class="field-label" style="margin: 0;">Global Message (Weather)</div>
+            <button type="button" onclick="refreshWeather()" class="submit-btn"
+              style="padding: 6px 12px; font-size: 0.85rem; background: var(--accent);">
+              🌤️ Refresh Weather
+            </button>
+          </div>
           <textarea id="global_message" name="global_message" class="form-textarea"
             placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight...">{{ global_message if global_message else '' }}</textarea>
           <div class="form-hint">Weather conditions - this will be saved for the next plant.
@@ -422,6 +428,11 @@
       }
     }
 
+    // Manual refresh weather button handler
+    function refreshWeather() {
+      loadWeather(false);
+    }
+
     // Show/hide global message based on context
     function updateGlobalMessageVisibility() {
       const context = document.getElementById('context').value;
@@ -431,8 +442,7 @@
         container.style.display = 'none';
       } else {
         container.style.display = 'block';
-        // Load weather when showing Initial context
-        loadWeather();
+        // Don't auto-load weather - user can click Refresh Weather button if needed
       }
     }
 
@@ -477,13 +487,15 @@
         }
 
         // Don't clear localStorage - preserve everything
-        isErrorRerender = true; // Set flag to prevent clearing on first change event  ← NEW LINE ADDED HERE
+        isErrorRerender = true; // Set flag to prevent clearing on first change event
       } else if (!dateFromUrl) {
         // Fresh load (no URL params) - clear localStorage and load weather
         localStorage.removeItem('garden_global_message');
         updateGlobalMessageVisibility();
+        // Auto-load weather on fresh page load only
+        loadWeather();
       } else {
-        // Has date param but no global message - show/hide and potentially load weather
+        // Has date param but no global message - show/hide but don't load weather
         updateGlobalMessageVisibility();
       }
 
@@ -531,7 +543,7 @@
         }
       }
 
-      // Update global message visibility
+      // Update global message visibility (don't auto-load weather)
       updateGlobalMessageVisibility();
     });
 
@@ -555,10 +567,7 @@
         document.getElementById('context').dispatchEvent(new Event('change'));
       }
 
-      // Load fresh weather for Initial context
-      if (context === 'Initial') {
-        loadWeather(false);
-      }
+      // Don't auto-load weather when changing plant ID
     });
   </script>
 

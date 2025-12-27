@@ -52,43 +52,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "2:09 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "6.60",
-        "ec_mScm": "0.22",
-        "salt_mg_L": "112",
-        "moisture_mScm": "80.00",
-        "light": "97",
-        "rh_percent": "31",
-        "fertility_percent": "11.0",
-        "soil_temp_f": "88.2"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The cilantro canopy is lush, full, and actively growing with healthy green leaves and no visible spotting, yellowing, or wilting. The planting is now dense and beginning to overlap with neighboring herbs in the shared window box, reducing airflow in the center. Soil appears very moist at the time of the reading under warm, sunny afternoon conditions.",
-      "actions": "Do not water today. Harvest approximately 25% of the outer cilantro stems by cutting near the base while leaving the center crown intact to restore airflow and reduce crowding in the shared herb box.",
-      "next_steps": "Recheck moisture tomorrow morning before watering any zones. Continue regular cilantro harvesting every 2–4 days to prevent crowding and reduce bolting risk in warm weather. Watch for taller upright stems with smaller leaves, which can signal early bolting.",
-      "q_and_a_summary": "Discussed whether herbs encroaching on each other is acceptable; confirmed mild overlap is normal but dense crowding reduces airflow and increases cilantro bolting risk, so harvesting is the best way to manage space.",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "cilantro_002-20251225-02.jpeg",
-          "caption": "Overhead view showing a dense, vibrant cilantro canopy with broad serrated leaves and healthy coloration, beginning to overlap with neighboring herbs in the shared window box.",
-          "tags": "cilantro, herb-box, dense-canopy, healthy-growth, crowding"
-        },
-        {
-          "file_name": "cilantro_002-20251225-03.jpeg",
-          "caption": "Angled view showing cilantro stems and leaf layers with noticeable encroachment from adjacent herbs, indicating the box is entering a harvest-and-thin management phase.",
-          "tags": "cilantro, shared-container, encroachment, airflow, harvest-phase"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "8:15 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

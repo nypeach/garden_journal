@@ -48,43 +48,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "2:09 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "6.70",
-        "ec_mScm": "0.21",
-        "salt_mg_L": "109",
-        "moisture_mScm": "70.00",
-        "light": "99",
-        "rh_percent": "31",
-        "fertility_percent": "11.0",
-        "soil_temp_f": "90.7"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "Thai basil appears vigorous with upright stems and broad, evenly green leaves. The plant is actively expanding and beginning to share canopy space with neighboring herbs in the window box, with some foliage overlap and crowding beginning at the edges. No visible wilting, discoloration, or pest damage is present.",
-      "actions": "Do not water today; moisture is already high enough for the current heat. Pinch the tallest Thai basil stems by removing the top 1–2 inches just above a leaf node to encourage branching and reduce outward crowding. Harvest outer leaves from neighboring herbs that are leaning into the basil zone to improve airflow.",
-      "next_steps": "Recheck moisture tomorrow late morning; water only if moisture drops to 45.00 or lower, especially if conditions remain sunny and warm. Continue weekly pinching/harvesting to prevent the mixed herb box from becoming overcrowded and to reduce mildew risk as the canopy thickens.",
-      "q_and_a_summary": "Discussed whether herbs encroaching on each other in the shared window box is OK; confirmed it is fine short-term, but ongoing pinching and harvesting is needed to maintain airflow, reduce mildew risk, and prevent one herb from shading or outcompeting another.",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "basil_003-20251225-02.jpeg",
-          "caption": "Overhead view of Thai basil in the shared herb window box showing vigorous upright growth and broad healthy leaves as nearby herbs begin to encroach.",
-          "tags": "thai basil, vegetative growth, shared planter, overhead, crowding"
-        },
-        {
-          "file_name": "basil_003-20251225-03.jpeg",
-          "caption": "Angled side view of Thai basil showing strong stems and active leaf expansion, with surrounding herbs creating early canopy overlap in the window box.",
-          "tags": "thai basil, upright stems, leaf expansion, shared planter, canopy overlap"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "8:15 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

@@ -48,53 +48,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "12:29 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "7.10",
-        "ec_mScm": "0.51",
-        "salt_mg_L": "258",
-        "moisture_mScm": "100.00",
-        "light": "89",
-        "rh_percent": "40",
-        "fertility_percent": "31.0",
-        "soil_temp_f": "71.6"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The basil shows strong post-prune regrowth with upright stems, firm leaf posture, and multiple active growth tips. The canopy is filling back in evenly and overall color is healthy, with a few lighter leaves and minor cosmetic spotting consistent with recent wet conditions. Soil is fully saturated based on probe readings, which can temporarily limit root oxygen despite the plant’s outward vigor.",
-      "actions": "Do not water or fertilize today. Keep the pot draining freely and maximize sun and airflow to encourage dry-down and improve root oxygen. Avoid wetting foliage and maintain soil-level watering only once moisture falls back into a healthy range.",
-      "next_steps": "Recheck moisture and salts tomorrow morning. Continue dry-down until moisture drops below 70 mS/cm before any watering. If salt remains above 240 mg/L once moisture is back in the 40–60 range, plan a gentle plain-water flush on a dry-down day to reduce salt concentration.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "basil_002-20251225-02.jpeg",
-          "caption": "Overhead view showing dense post-prune regrowth with multiple stems and firm, upright leaves filling in across the pot.",
-          "tags": "basil, overhead, post-prune, regrowth, canopy"
-        },
-        {
-          "file_name": "basil_002-20251225-03.jpeg",
-          "caption": "Side view showing strong leaf posture and a compact, bushy structure rebuilding after pruning.",
-          "tags": "basil, side-view, structure, bushy, regrowth"
-        },
-        {
-          "file_name": "basil_002-20251225-04.jpeg",
-          "caption": "Angled view showing even canopy spread and healthy new growth tips, with minor cosmetic leaf blemishes visible on a few leaves.",
-          "tags": "basil, angled-view, new-growth, leaves, minor-spotting"
-        },
-        {
-          "file_name": "basil_002-20251225-05.jpeg",
-          "caption": "Low side angle showing overall vigor and the reopened post-prune architecture with multiple branching points actively producing foliage.",
-          "tags": "basil, side-view, branching, vigor, post-prune"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "7:42 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

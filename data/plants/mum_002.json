@@ -31,48 +31,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "12:21 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "5.80",
-        "ec_mScm": "0.24",
-        "salt_mg_L": "124",
-        "moisture_mScm": "80.00",
-        "light": "94",
-        "rh_percent": "52",
-        "fertility_percent": "13.0",
-        "soil_temp_f": "70.5"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The chrysanthemum is actively blooming with multiple open flowers and many buds at different stages across the canopy. Foliage is healthy green and stems appear firm with no visible wilting. Soil appears very moist, consistent with the high moisture reading.",
-      "actions": "Do not water today due to very high moisture. Do not fertilize today. Deadhead spent blooms by snipping flower heads above the next set of leaves to redirect energy into unopened buds.",
-      "next_steps": "Recheck probe readings tomorrow or the following morning. Do not water until moisture drops below 35 mS/cm. If moisture drops and the plant continues heavy blooming, plan a light feeding at the next watering.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "mum_002-20251225-02.jpeg",
-          "caption": "Overhead view showing active blooming with multiple open flowers and many developing buds across the canopy.",
-          "tags": "chrysanthemum, overhead, buds, bloom, canopy"
-        },
-        {
-          "file_name": "mum_002-20251225-03.jpeg",
-          "caption": "Side view showing firm stems, dense bud formation, and several open flowers above the pot rim.",
-          "tags": "chrysanthemum, side-view, stems, buds, bloom"
-        },
-        {
-          "file_name": "mum_002-20251225-04.jpeg",
-          "caption": "Close view highlighting open blooms and nearby buds preparing to open, with healthy green foliage and no visible wilting.",
-          "tags": "chrysanthemum, close-up, flowers, buds, foliage"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "7:39 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

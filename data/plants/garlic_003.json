@@ -60,38 +60,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "1:14 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "6.10",
-        "ec_mScm": "0.27",
-        "salt_mg_L": "138",
-        "moisture_mScm": "62.00",
-        "light": "99",
-        "rh_percent": "31",
-        "fertility_percent": "15.0",
-        "soil_temp_f": "81.9"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "Chesnok Red garlic shows vigorous growth with firm bases and active green inner leaves. Several older outer leaves are yellowing and drying at the tips, while newer inner growth remains upright and healthy. Soil appears evenly moist and well settled with no signs of pooling or crown stress.",
-      "actions": "Do not water today as soil moisture is comfortably high. Leave yellowing leaves in place unless they are fully brown and papery; trim only completely dead leaves at the base if desired for cleanliness. Do not fertilize or adjust pH.",
-      "next_steps": "Recheck moisture tomorrow afternoon or Saturday morning. Allow the planter to dry down naturally; resume watering only when moisture readings fall into the mid-40s mS/cm or lower and the soil surface lightens. Continue monitoring leaf tip browning as warm sun and low humidity can accelerate outer leaf dry-down.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "garlic_003-20251225-02.jpeg",
-          "caption": "Overhead view of the Chesnok Red section showing multiple tall, strap-like green leaves with some older outer leaves yellowing and drying at the tips, consistent with normal leaf turnover in active winter growth.",
-          "tags": "garlic, chesnok_red, overhead, vegetative_growth, leaf_senescence, window_box"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "7:57 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

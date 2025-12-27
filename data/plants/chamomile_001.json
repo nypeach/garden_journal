@@ -48,48 +48,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "1:16 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "5.83",
-        "ec_mScm": "0.53",
-        "salt_mg_L": "269",
-        "moisture_mScm": "83.33",
-        "light": "98",
-        "rh_percent": "31",
-        "fertility_percent": "32.3",
-        "soil_temp_f": "79.6"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "The chamomile shows vigorous, bright green feathery foliage with healthy posture and strong cluster development across the planter. Growth is compact and spreading laterally, with no visible yellowing, collapse, or disease symptoms. Soil chemistry varies across zones, with the left side reading notably higher EC and salts than the center and right.",
-      "actions": "Do not water today. Do not fertilize. If the soil surface is crusting or feels dense, gently fluff only the top 1/4 inch in bare areas to improve airflow without disturbing roots.",
-      "next_steps": "Recheck readings tomorrow late morning or early afternoon. Allow the planter to dry down naturally and avoid watering unless moisture drops substantially and the soil surface becomes dry below the top layer. Continue monitoring EC and salts on the left side; if they remain elevated after the planter dries down, a gentle future flush may be needed.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "chamomile_001-20251225-02.jpeg",
-          "caption": "Wide view of the shared window box showing multiple chamomile clusters with bright green feathery foliage and strong lateral spread.",
-          "tags": "chamomile, window-box, shared-container, foliage, healthy"
-        },
-        {
-          "file_name": "chamomile_001-20251225-04.jpeg",
-          "caption": "Top-down view showing the spacing between chamomile clusters and the soil surface texture across the planter.",
-          "tags": "chamomile, overhead, spacing, soil-surface, growth"
-        },
-        {
-          "file_name": "chamomile_001-20251225-06.jpeg",
-          "caption": "Angled planter view showing chamomile clusters holding upright posture in full sun, with shallots visible in the shared container.",
-          "tags": "chamomile, full-sun, upright, shared-container, shallots"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "8:02 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

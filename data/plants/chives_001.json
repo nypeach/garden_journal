@@ -53,38 +53,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "1:41 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "7.10",
-        "ec_mScm": "0.02",
-        "salt_mg_L": "13",
-        "moisture_mScm": "5.00",
-        "light": "99",
-        "rh_percent": "37",
-        "fertility_percent": "1.0",
-        "soil_temp_f": "84.0"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "Sparse but visible chive seedlings remain present with thin, bright-green blades emerging in the chive section. The soil surface appears dry and loose with bark-heavy pieces that can create fast-drying pockets in full sun. No collapse, discoloration, or rot is visible in the seedlings that are up, but the probe confirms critically low root-zone moisture.",
-      "actions": "Water now using a gentle hose flow for 60–75 seconds to rehydrate the upper 2–3 inches of soil. Distribute water evenly across the chive section and avoid spraying directly onto the seedlings. Do not fertilize today.",
-      "next_steps": "Recheck moisture tomorrow morning, especially after another sunny day. Water again only if moisture remains below 20.00 mS/cm or the soil surface becomes pale and dusty within 24 hours. Continue minimizing soil disturbance while seedlings are establishing.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "chives_001-20251225-01.jpeg",
-          "caption": "Overhead view of the chive section showing sparse, thin green seedlings emerging from a dry, bark-heavy soil surface in full sun.",
-          "tags": "chives, seedlings, sparse, dry-soil, window-box, overhead"
-        }
-      ]
-    },
-    {
       "date": "12/20/2025",
       "time": "8:12 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

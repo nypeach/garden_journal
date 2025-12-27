@@ -142,7 +142,7 @@
       "sub_category": "Schema / field names",
       "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
       "response_then": "Regenerate the Daily Journal Entry JSON using this exact schema and field names from the guide—no added or renamed fields.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative (High/Low/Condition)\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
-      "count": 18,
+      "count": 20,
       "status": "active",
       "tags": [
         "json",
@@ -375,7 +375,7 @@
       "sub_category": "Required probe summary format compliance",
       "trigger_if": "The assistant labels the probe reading section with an instructional or meta heading such as: \"🌞 Probe Readings — Interpretation (Required Format)\" or any other non-dynamic, descriptive heading",
       "response_then": "Remove that heading entirely and instead use the dynamic probe summary headline itself as the H2 section heading, exactly as defined in the guide, for example:\n- 🌞 **Your readings today are excellent**\n- 🌤️ **Your readings are generally good with a few things to watch**\n- ⚠️ **Your readings today show some issues that need attention**\n\nDo not add any extra headings that describe formatting, requirements, or workflow.\nThe dynamic probe summary headline is the section heading.",
-      "count": 2,
+      "count": 3,
       "status": "active",
       "tags": [
         "probe",

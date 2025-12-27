@@ -53,38 +53,6 @@
   ],
   "journal": [
     {
-      "date": "12/25/2025",
-      "time": "1:45 PM",
-      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
-      "digital_probe": {
-        "ph": "6.40",
-        "ec_mScm": "0.10",
-        "salt_mg_L": "53",
-        "moisture_mScm": "48.00",
-        "light": "99",
-        "rh_percent": "37",
-        "fertility_percent": "5.0",
-        "soil_temp_f": "83.7"
-      },
-      "analog_probe": {
-        "fertility": "",
-        "moisture": "",
-        "ph": ""
-      },
-      "observations": "Chive seedlings remain sparse but viable, with several thin green blades visible and upright. The soil surface appears very dry and bark-heavy with crusting, consistent with rapid top-layer drying under full sun and low humidity. No yellowing, collapse, or damping-off is visible.",
-      "actions": "Apply 1/2 cup water slowly and evenly over the chive section only to rehydrate the top 1/2 inch of soil. Do not fertilize today.",
-      "next_steps": "Recheck moisture tomorrow morning. Water only if moisture drops below 30.00 mS/cm or if seedlings begin to look dull, limp, or flattened. Continue focusing on surface moisture stability rather than deep soaking while seedlings are still shallow-rooted.",
-      "q_and_a_summary": "",
-      "follow_up": [],
-      "photos": [
-        {
-          "file_name": "chives_002-20251225-02.jpeg",
-          "caption": "Close view of the chive section showing sparse but upright green seedlings emerging through a bark-heavy, crusting soil surface under full sun.",
-          "tags": "chives, seedlings, sparse, surface-dry, bark-heavy-mix"
-        }
-      ]
-    },
-    {
       "date": "12/19/2025",
       "time": "10:27 AM",
       "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",
