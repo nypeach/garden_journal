@@ -54,6 +54,38 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "2:53 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: IncreasingClouds. Tomorrow: DecreasingClouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.50",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "21",
+        "moisture_mScm": "18",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "2",
+        "soil_temp_f": "81.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant is actively fruiting with multiple tomatoes at green-to-orange/red stages. Main stems are trained to stakes and lower canopy is thinned. Soil surface appears very dry and crusted, and probe readings varied significantly between two attempts, consistent with dry pockets and/or inconsistent probe contact/placement.",
+      "actions": "Water now with 2 gallons total split into 1 gallon slowly at the root zone, wait 15–30 minutes, then 1 gallon slowly again. Add Purived 4-5-5 to the second gallon using the same dilution used previously, preferably at half strength while re-wetting dry soil. Keep watering directed near the base and retake probe readings next time 3–6 inches from the stem in the primary root zone.",
+      "next_steps": "Tomorrow morning, water only if the root zone is drying again (check 2–3 inches down). Continue harvesting any fully colored tomatoes and keep lower diseased/spotted foliage removed. If the plant outgrows the current stake height, add a taller stake or additional support and tie growth upward.",
+      "q_and_a_summary": "The probe results looked unbelievable and differed between two attempts, especially with the first showing zero moisture and nutrients. Based on the dry soil and the more believable second reading, the plan is to rehydrate the root zone with two gallons split over time and include fertilizer in the second pass so it moves evenly through newly moistened soil rather than hitting dry roots all at once.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251229-03.jpeg",
+          "caption": "Probe placed far from the stem in very dry, crusted soil with fruiting stems visible, showing the need to water closer to the active root zone for reliable readings and steadier moisture.",
+          "tags": "tomato, raised bed, dry soil, probe placement, fruiting, staking"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:07 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",

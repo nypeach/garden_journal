@@ -49,6 +49,192 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "3:33 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: IncreasingClouds. Tomorrow: DecreasingClouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.2",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "52.00",
+        "light": "83",
+        "rh_percent": "37",
+        "fertility_percent": "7",
+        "soil_temp_f": "77.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant remains vigorous with large, thick petioles and a healthy green canopy overall. Significant chewing damage is present, including one very large leaf that is heavily eaten, torn, and flopping. Bugs were found on other plants in the same raised bed as well. The most recently fertilized female fruit remains firm, though the blossom is still attached and has not dropped yet. Probe was placed near the plant and readings were taken in the afternoon.",
+      "actions": "Spray Bonide Captain Jack's DeadBug at dusk, focusing on the undersides of leaves and treating the whole bed area where pests were found. Leave the large damaged leaf in place for now unless it begins to rot or show disease, since it is feeding nearby developing fruit. Do not automatically water at 6:00 AM; check soil texture first and water only if the top 2 inches are dry.",
+      "next_steps": "Monitor the firm developing fruit daily for continued firmness, uniform color, and gradual growth; watch the blossom end and remove it gently only if it becomes wet or mushy. Recheck for active chewing pests the morning after spraying and repeat dusk applications as needed per label interval. Keep probe measurements consistently taken 4–8 inches from the stem and 4–6 inches deep for comparable readings. With cooler weather expected tomorrow, anticipate slower drying and adjust watering accordingly.",
+      "q_and_a_summary": "Discussed using DeadBug at dusk to address chewing pests found across the bed, keeping the badly damaged leaf for now to support the nearby developing fruit, and confirming that firm fruit is a good sign even if the blossom is still attached. Discussed probe placement being close enough as long as it is in the root zone rather than right against the stem, and agreed to avoid automatic morning watering since moisture is still moderate, using a quick soil-feel check instead.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251229-01.jpeg",
+          "caption": "Close view of the underside of a leaf showing an insect on the leaf surface.",
+          "tags": "zucchini, insect, pest, underside, leaf"
+        },
+        {
+          "file_name": "zucchini_002-20251229-02.jpeg",
+          "caption": "Wide view of the zucchini plant in the raised bed showing overall canopy size and leaf condition.",
+          "tags": "zucchini, raised bed, canopy, overall health"
+        },
+        {
+          "file_name": "zucchini_002-20251229-03.jpeg",
+          "caption": "Angled wide view of the zucchini plant showing spacing and surrounding bed conditions.",
+          "tags": "zucchini, raised bed, spacing, garden bed"
+        },
+        {
+          "file_name": "zucchini_002-20251229-04.jpeg",
+          "caption": "Developing female fruit near the base with blossom still attached and fruit appearing firm.",
+          "tags": "zucchini, fruit set, female flower, blossom attached"
+        },
+        {
+          "file_name": "zucchini_002-20251229-05.jpeg",
+          "caption": "Close view of the probe positioned in the soil near the plant to monitor root-zone conditions.",
+          "tags": "zucchini, probe, soil, monitoring, placement"
+        },
+        {
+          "file_name": "zucchini_002-20251229-06.jpeg",
+          "caption": "Large damaged leaf showing heavy chewing and tearing but still green and functional.",
+          "tags": "zucchini, leaf damage, chewing, pest pressure"
+        },
+        {
+          "file_name": "zucchini_002-20251229-07.jpeg",
+          "caption": "Digital probe reading showing current pH, moisture, fertility, and soil temperature.",
+          "tags": "zucchini, digital probe, readings, pH, moisture, fertility, temperature"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "3:33 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: IncreasingClouds. Tomorrow: DecreasingClouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.2",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "52.00",
+        "light": "83",
+        "rh_percent": "37",
+        "fertility_percent": "7",
+        "soil_temp_f": "77.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant remains vigorous with large, thick petioles and a healthy green canopy overall. Significant chewing damage is present, including one very large leaf that is heavily eaten, torn, and flopping. Bugs were found on other plants in the same raised bed as well. The most recently fertilized female fruit remains firm, though the blossom is still attached and has not dropped yet. Probe was placed near the plant and readings were taken in the afternoon.",
+      "actions": "Spray Bonide Captain Jack's DeadBug at dusk, focusing on the undersides of leaves and treating the whole bed area where pests were found. Leave the large damaged leaf in place for now unless it begins to rot or show disease, since it is feeding nearby developing fruit. Do not automatically water at 6:00 AM; check soil texture first and water only if the top 2 inches are dry.",
+      "next_steps": "Monitor the firm developing fruit daily for continued firmness, uniform color, and gradual growth; watch the blossom end and remove it gently only if it becomes wet or mushy. Recheck for active chewing pests the morning after spraying and repeat dusk applications as needed per label interval. Keep probe measurements consistently taken 4–8 inches from the stem and 4–6 inches deep for comparable readings. With cooler weather expected tomorrow, anticipate slower drying and adjust watering accordingly.",
+      "q_and_a_summary": "Discussed using DeadBug at dusk to address chewing pests found across the bed, keeping the badly damaged leaf for now to support the nearby developing fruit, and confirming that firm fruit is a good sign even if the blossom is still attached. Discussed probe placement being close enough as long as it is in the root zone rather than right against the stem, and agreed to avoid automatic morning watering since moisture is still moderate, using a quick soil-feel check instead.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251229-01.jpeg",
+          "caption": "Close view of the underside of a leaf showing an insect on the leaf surface.",
+          "tags": "zucchini, insect, pest, underside, leaf"
+        },
+        {
+          "file_name": "zucchini_002-20251229-02.jpeg",
+          "caption": "Wide view of the zucchini plant in the raised bed showing overall canopy size and leaf condition.",
+          "tags": "zucchini, raised bed, canopy, overall health"
+        },
+        {
+          "file_name": "zucchini_002-20251229-03.jpeg",
+          "caption": "Angled wide view of the zucchini plant showing spacing and surrounding bed conditions.",
+          "tags": "zucchini, raised bed, spacing, garden bed"
+        },
+        {
+          "file_name": "zucchini_002-20251229-04.jpeg",
+          "caption": "Developing female fruit near the base with blossom still attached and fruit appearing firm.",
+          "tags": "zucchini, fruit set, female flower, blossom attached"
+        },
+        {
+          "file_name": "zucchini_002-20251229-05.jpeg",
+          "caption": "Close view of the probe positioned in the soil near the plant to monitor root-zone conditions.",
+          "tags": "zucchini, probe, soil, monitoring, placement"
+        },
+        {
+          "file_name": "zucchini_002-20251229-06.jpeg",
+          "caption": "Large damaged leaf showing heavy chewing and tearing but still green and functional.",
+          "tags": "zucchini, leaf damage, chewing, pest pressure"
+        },
+        {
+          "file_name": "zucchini_002-20251229-07.jpeg",
+          "caption": "Digital probe reading showing current pH, moisture, fertility, and soil temperature.",
+          "tags": "zucchini, digital probe, readings, pH, moisture, fertility, temperature"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "3:33 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: IncreasingClouds. Tomorrow: DecreasingClouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.2",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "52.00",
+        "light": "83",
+        "rh_percent": "37",
+        "fertility_percent": "7",
+        "soil_temp_f": "77.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant remains vigorous with large, thick petioles and a healthy green canopy overall. Significant chewing damage is present, including one very large leaf that is heavily eaten, torn, and flopping. Bugs were found on other plants in the same raised bed as well. The most recently fertilized female fruit remains firm, though the blossom is still attached and has not dropped yet. Probe was placed near the plant and readings were taken in the afternoon.",
+      "actions": "Spray Bonide Captain Jack's DeadBug at dusk, focusing on the undersides of leaves and treating the whole bed area where pests were found. Leave the large damaged leaf in place for now unless it begins to rot or show disease, since it is feeding nearby developing fruit. Do not automatically water at 6:00 AM; check soil texture first and water only if the top 2 inches are dry.",
+      "next_steps": "Monitor the firm developing fruit daily for continued firmness, uniform color, and gradual growth; watch the blossom end and remove it gently only if it becomes wet or mushy. Recheck for active chewing pests the morning after spraying and repeat dusk applications as needed per label interval. Keep probe measurements consistently taken 4–8 inches from the stem and 4–6 inches deep for comparable readings. With cooler weather expected tomorrow, anticipate slower drying and adjust watering accordingly.",
+      "q_and_a_summary": "Discussed using DeadBug at dusk to address chewing pests found across the bed, keeping the badly damaged leaf for now to support the nearby developing fruit, and confirming that firm fruit is a good sign even if the blossom is still attached. Discussed probe placement being close enough as long as it is in the root zone rather than right against the stem, and agreed to avoid automatic morning watering since moisture is still moderate, using a quick soil-feel check instead.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251229-01.jpeg",
+          "caption": "Close view of the underside of a leaf showing an insect on the leaf surface.",
+          "tags": "zucchini, insect, pest, underside, leaf"
+        },
+        {
+          "file_name": "zucchini_002-20251229-02.jpeg",
+          "caption": "Wide view of the zucchini plant in the raised bed showing overall canopy size and leaf condition.",
+          "tags": "zucchini, raised bed, canopy, overall health"
+        },
+        {
+          "file_name": "zucchini_002-20251229-03.jpeg",
+          "caption": "Angled wide view of the zucchini plant showing spacing and surrounding bed conditions.",
+          "tags": "zucchini, raised bed, spacing, garden bed"
+        },
+        {
+          "file_name": "zucchini_002-20251229-04.jpeg",
+          "caption": "Developing female fruit near the base with blossom still attached and fruit appearing firm.",
+          "tags": "zucchini, fruit set, female flower, blossom attached"
+        },
+        {
+          "file_name": "zucchini_002-20251229-05.jpeg",
+          "caption": "Close view of the probe positioned in the soil near the plant to monitor root-zone conditions.",
+          "tags": "zucchini, probe, soil, monitoring, placement"
+        },
+        {
+          "file_name": "zucchini_002-20251229-06.jpeg",
+          "caption": "Large damaged leaf showing heavy chewing and tearing but still green and functional.",
+          "tags": "zucchini, leaf damage, chewing, pest pressure"
+        },
+        {
+          "file_name": "zucchini_002-20251229-07.jpeg",
+          "caption": "Digital probe reading showing current pH, moisture, fertility, and soil temperature.",
+          "tags": "zucchini, digital probe, readings, pH, moisture, fertility, temperature"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:10 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",

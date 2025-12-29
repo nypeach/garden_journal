@@ -395,6 +395,172 @@ def journal_update():
             error_details=str(e)
         )
 
+
+@app.route('/assist-corrections')
+def assist_corrections():
+    """
+    Assist Corrections - IF/THEN correction management
+    Browse, search, and copy corrections for ChatGPT plant channels
+    """
+    try:
+        # Load corrections from JSON
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        corrections = corrections_data.get('corrections', [])
+
+        # Sort corrections by count (most used first)
+        corrections = sorted(corrections, key=lambda x: x.get('count', 0), reverse=True)
+
+        # Get unique categories and sub_categories for filters
+        categories = sorted(set(c.get('category') for c in corrections if c.get('category')))
+
+        # Get top 5 most used
+        top_corrections = sorted(corrections, key=lambda x: x.get('count', 0), reverse=True)[:5]
+
+        return render_template(
+            'assist_corrections.html',
+            corrections=corrections,
+            categories=categories,
+            top_corrections=top_corrections,
+            schema_version=corrections_data.get('schema_version'),
+            last_updated=corrections_data.get('last_updated')
+        )
+
+    except Exception as e:
+        return f"Error loading corrections: {str(e)}", 500
+
+
+@app.route('/api/correction/copy/<correction_id>', methods=['POST'])
+def copy_correction(correction_id):
+    """
+    Increment count when correction is copied
+    """
+    try:
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        # Find and increment count
+        for correction in corrections_data['corrections']:
+            if correction['id'] == correction_id:
+                correction['count'] = correction.get('count', 0) + 1
+                break
+
+        # Save updated data
+        with open(corrections_file, 'w', encoding='utf-8') as f:
+            json.dump(corrections_data, f, indent=2, ensure_ascii=False)
+
+        return jsonify({'success': True, 'new_count': correction.get('count', 0)})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/correction/update/<correction_id>', methods=['POST'])
+def update_correction(correction_id):
+    """
+    Update correction fields
+    """
+    try:
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        # Get update data from request
+        update_data = request.get_json()
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        # Find and update correction
+        found = False
+        for correction in corrections_data['corrections']:
+            if correction['id'] == correction_id:
+                # Update fields
+                if 'trigger_if' in update_data:
+                    correction['trigger_if'] = update_data['trigger_if']
+                if 'response_then' in update_data:
+                    correction['response_then'] = update_data['response_then']
+                if 'anti_patterns' in update_data:
+                    correction['anti_patterns'] = update_data['anti_patterns']
+                if 'tags' in update_data:
+                    correction['tags'] = update_data['tags']
+                found = True
+                break
+
+        if not found:
+            return jsonify({'error': 'Correction not found'}), 404
+
+        # Save updated data
+        with open(corrections_file, 'w', encoding='utf-8') as f:
+            json.dump(corrections_data, f, indent=2, ensure_ascii=False)
+
+        return jsonify({'success': True})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/correction/create', methods=['POST'])
+def create_correction():
+    """
+    Create a new correction
+    """
+    try:
+        corrections_file = Path(__file__).parent / 'data' / 'assist_corrections.json'
+
+        # Get new correction data from request
+        new_data = request.get_json()
+
+        with open(corrections_file, 'r', encoding='utf-8') as f:
+            corrections_data = json.load(f)
+
+        # Use provided ID if present, otherwise generate new one
+        if 'id' in new_data and new_data['id']:
+            new_id = new_data['id']
+        else:
+            # Generate new ID
+            existing_ids = [c['id'] for c in corrections_data['corrections']]
+            max_num = 0
+            for existing_id in existing_ids:
+                if existing_id.startswith('PROBE-FORMAT-') or existing_id.startswith('TITLE-'):
+                    try:
+                        num = int(existing_id.split('-')[-1])
+                        max_num = max(max_num, num)
+                    except:
+                        pass
+
+            new_id = f"TITLE-{str(max_num + 1).zfill(3)}"
+
+        # Create new correction object
+        new_correction = {
+            'id': new_id,
+            'title': new_data['title'],
+            'category': new_data['category'],
+            'sub_category': new_data['sub_category'],
+            'trigger_if': new_data['trigger_if'],
+            'response_then': new_data['response_then'],
+            'anti_patterns': new_data.get('anti_patterns', []),
+            'tags': new_data.get('tags', []),
+            'include_footer': new_data.get('include_footer', True),
+            'count': 0,
+            'applies_when': ''
+        }
+
+        # Add to corrections list
+        corrections_data['corrections'].append(new_correction)
+
+        # Save updated data
+        with open(corrections_file, 'w', encoding='utf-8') as f:
+            json.dump(corrections_data, f, indent=2, ensure_ascii=False)
+
+        return jsonify({'success': True, 'id': new_id})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/photo-prep', methods=['GET', 'POST'])
 def photo_prep():
     """
@@ -551,13 +717,8 @@ def photo_prep():
                         # Clean up temp file
                         temp_path.unlink()
 
-                        # Check if this was marked as a probe reading
-                        probe_checkbox_name = f"probe_reading_{len(processed_files)}"
-                        is_probe = request.form.get(probe_checkbox_name) == 'on'
-
-                        if not is_probe:
-                            processed_files.append(new_filename)
-
+                        # Add to processed files (always include, probe indicator added later)
+                        processed_files.append(new_filename)
                         current_num += 1
 
                     except Exception as img_error:
@@ -601,7 +762,14 @@ def photo_prep():
                 output_lines.append('')
                 output_lines.append('New photo(s) to append to existing `photos` array (generate a real caption + tags for each — no blanks):')
                 for idx, filename in enumerate(processed_files, 1):
-                    output_lines.append(f'{idx}. {filename}')
+                    # Check if this photo was marked as a probe reading
+                    probe_checkbox_name = f"probe_reading_{idx - 1}"  # 0-indexed in form
+                    is_probe = request.form.get(probe_checkbox_name) == 'on'
+
+                    if is_probe:
+                        output_lines.append(f'{idx}. {filename}  ← (probe reading)')
+                    else:
+                        output_lines.append(f'{idx}. {filename}')
 
             # Always add follow-up section
             output_lines.append('')
@@ -618,7 +786,7 @@ def photo_prep():
             output_lines.append('Output valid JSON only (exact schema, no invented fields).')
             output_lines.append('Do NOT change the Daily Journal Entry `time` (it remains the probe timestamp).')
             output_lines.append('Do NOT reconstruct or invent a replacement JSON.')
-
+            output_lines.append('If any required inputs are missing or photos are referenced and not provided, ask me for them before beginning.')
 
         else:
             # INITIAL TEMPLATE (EXISTING)
@@ -640,9 +808,13 @@ def photo_prep():
                 output_lines.append('')
 
             if processed_files:
+                output_lines.append('Here are the photo names:')
                 for idx, filename in enumerate(processed_files, 1):
-                    # Check if first photo in list to add probe indicator
-                    if idx == 1:
+                    # Check if this photo was marked as a probe reading
+                    probe_checkbox_name = f"probe_reading_{idx - 1}"  # 0-indexed in form
+                    is_probe = request.form.get(probe_checkbox_name) == 'on'
+
+                    if is_probe:
                         output_lines.append(f'{idx}. {filename}  ← (probe reading)')
                     else:
                         output_lines.append(f'{idx}. {filename}')
@@ -669,11 +841,14 @@ def photo_prep():
                     output_lines.append(f'It is now {display_time}. Should I water?')
 
                 output_lines.append('')
-                output_lines.append('Please provide:')
-                output_lines.append('Full Expert Assessment → Daily Journal Entry JSON → Plant Main Data Review (silently) → Result')
-                output_lines.append('')
-                output_lines.append('If any required inputs are missing, ask me for them before beginning.')
-                output_lines.append('')
+
+            # Always include these instructions for Initial context
+            output_lines.append('')
+            output_lines.append('Please provide:')
+            output_lines.append('Full Expert Assessment → Daily Journal Entry JSON → Plant Main Data Review (silently) → Result')
+            output_lines.append('')
+            output_lines.append('If any required inputs are missing or photos are referenced and not provided, ask me for them before beginning.')
+            output_lines.append('')
 
         output_message = '\n'.join(output_lines)
         # Render success page with output
@@ -947,9 +1122,13 @@ def get_current_weather():
             short_desc = tombstones[i].find('p', class_='short-desc')
             temp = tombstones[i].find('p', class_='temp')
 
+            # Replace line breaks/multiple spaces with single space
+            condition_text = short_desc.get_text(strip=True) if short_desc else ''
+            condition_text = ' '.join(condition_text.split())  # Normalize whitespace
+
             tiles.append({
                 'period': period_name.get_text(strip=True) if period_name else '',
-                'condition': short_desc.get_text(strip=True) if short_desc else '',
+                'condition': condition_text,
                 'temp': temp.get_text(strip=True) if temp else ''
             })
 

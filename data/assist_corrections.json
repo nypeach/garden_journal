@@ -485,8 +485,8 @@
       "category": "Plant Main Data",
       "sub_category": "Review workflow",
       "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
-      "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why. You need to do this every day immediately following the Daily Journal Entry JSON.",
-      "count": 57,
+      "response_then": "Perform the Plant Main Data Review (silently) using the “When to suggest update” rules.\n\nImportant definition:\nAn attribute is “outdated” ONLY if the CURRENT Plant Main Data value is wrong (i.e., it differs from what’s true now or the plant materially changed). Do NOT treat “newly confirmed details” as outdated.\n\nThen output ONE of the following only:\n- Exactly: No Plant Main Data updates necessary\nOR\n- A list of outdated attribute names and why they are wrong.\n\nDo NOT output headings (e.g., “Plant Main Data Review → Result”) and do NOT list “confirmed” attributes.\n",
+      "count": 59,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -902,7 +902,7 @@
     },
     {
       "id": "TITLE-003",
-      "title": "q_and_a_summary Written as “User asked…” / Meta Narration Instead of Narrative Summary",
+      "title": "Q and A Summary Written as “User asked…” / Meta Narration Instead of Narrative Summary",
       "category": "Daily Journal Entry JSON",
       "sub_category": "q_and_a_summary Format / Meta Language",
       "trigger_if": "The assistant populates `q_and_a_summary` using meta or procedural phrasing such as “Asked whether…”, “User asked…”, “Advised…”, “Confirmed…”, or otherwise writes the entry like a transcript/log of what happened instead of a natural narrative summary (or the user did not ask any question).",
@@ -922,7 +922,7 @@
         "inferred-questions"
       ],
       "include_footer": true,
-      "count": 10,
+      "count": 11,
       "applies_when": ""
     },
     {
@@ -1006,6 +1006,34 @@
       "include_footer": true,
       "count": 4,
       "applies_when": ""
+    },
+    {
+      "id": "FU-FORMAT-001",
+      "title": "follow_up Written as Meta Narration Instead of Narrative Garden Log",
+      "category": "Daily Workflow",
+      "sub_category": "Follow-up Format / Meta Language",
+      "trigger_if": "The assistant writes any `follow_up` entry using meta/procedural phrasing such as “Shared photos…”, “Reviewed…”, “Confirmed…”, “Advised…”, “Discussed…”, “Answered…”, “User asked…”, or otherwise narrates the follow-up like a transcript/log of the conversation instead of a natural garden-journal entry.",
+      "response_then": "Rewrite each `follow_up` entry as a natural narrative garden-journal log of what happened and what was recommended.\n\n- No meta/procedural phrasing like “Shared photos…”, “Reviewed…”, “Confirmed…”, “Advised…”, “Discussed…”, “User asked…”.\n- No transcript-style narration.\n- Write it like a real entry (e.g., “Transplant completed into a 25 oz pot; seedlings look intact and appropriately spaced. Keep moisture steady for recovery.”).\n\nThen regenerate the Daily Journal Entry JSON with the corrected `follow_up` text (change nothing else).",
+      "count": 0,
+      "status": "active",
+      "tags": [
+        "follow_up",
+        "meta-language",
+        "narrative",
+        "workflow",
+        "format"
+      ],
+      "applies_when": [
+        "Same Day Follow-up"
+      ],
+      "anti_patterns": [
+        "Shared photos of the completed transplant...",
+        "Reviewed the photos...",
+        "Confirmed the seedlings look...",
+        "Advised maintaining steady moisture...",
+        "Discussed whether...",
+        "User asked..."
+      ]
     }
   ]
 }
