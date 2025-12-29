@@ -60,6 +60,159 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:28 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.38",
+        "salt_mg_L": "190",
+        "moisture_mScm": "69.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "22.0",
+        "soil_temp_f": "86.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Siberian Hardneck shoots show ongoing recovery with green central growth, while older tissue remains trimmed back from prior burn. A small amount of Miracle-Gro Moisture Control potting mix was added to fill and level a compressed probe area, then lightly watered to settle the soil, and mulch was replaced with a finer version for better soil shading. Soil remains quite moist and warm, consistent with the elevated moisture, salts, and temperature readings.",
+      "actions": "Do not water tomorrow morning. Keep the mulch layer thin and evenly distributed while maintaining a 1–2 inch bare ring around each crown. Do not fertilize. Continue trimming only fully dead, crispy leaf tissue and avoid cutting into green sections.",
+      "next_steps": "Take the next probe reading tomorrow afternoon. Resume watering only when moisture drops to approximately 40–45 mS/cm. If salts remain above 180–200 while moisture is high, continue holding water and prioritize dry-down and soil cooling; salt pressure should ease as the planter cycles toward a healthier moisture range.",
+      "q_and_a_summary": "Discussed whether to water at 6:00 AM tomorrow; advised skipping watering because moisture and salts remain elevated and garlic benefits from dry-down before the next irrigation.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251228-02.jpeg",
+          "caption": "Mulched soil surface around the Siberian Hardneck section showing thin, finer mulch coverage with garlic shoots remaining green and upright.",
+          "tags": "garlic, siberian-hardneck, mulch, soil-surface, recovery"
+        },
+        {
+          "file_name": "garlic_001-20251228-03.jpeg",
+          "caption": "Close-up of the smaller garlic shoot near the front showing a green growth point and trimmed older tissue, with soil leveled where the probe previously compressed the surface.",
+          "tags": "garlic, siberian-hardneck, close-up, small-shoot, recovery, soil-leveling"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:09 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "83",
+        "moisture_mScm": "52.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Siberian Hardneck shoots show green central growth with older leaf tissue previously browned and burned. Mulch has been added across the soil surface to shade the root zone, and fully burned/browned tops have been trimmed off, leaving cleaner remaining green foliage. Crowns remain intact at the soil line with no visible signs of rot, and overall leaf posture appears lighter and more stable after trimming.",
+      "actions": "Do not water tomorrow morning. Keep mulch in place at a thin, even layer while ensuring it does not touch the crowns. Do not fertilize. Continue trimming only fully dead, crispy leaf tissue and avoid cutting into green sections.",
+      "next_steps": "Take the next probe reading tomorrow afternoon. Resume watering only when moisture drops to approximately 40–45 mS/cm. Continue monitoring for firm crowns and steady green center elongation; new growth should show reduced tip burn now that salts and soil temperature are improved.",
+      "q_and_a_summary": "Reviewed mulch application and trimming of burned tops; confirmed both were appropriate and beneficial. Discussed whether to water at 6:00 AM tomorrow; advised skipping watering because moisture remains above the garlic watering trigger range.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251227-01.jpeg",
+          "caption": "Before-trim close view showing older garlic leaves with dry, browned burn and some collapse while central growth remains green.",
+          "tags": "garlic, siberian-hardneck, before, leaf-burn, stress, close-up"
+        },
+        {
+          "file_name": "garlic_001-20251227-02.jpeg",
+          "caption": "Before-trim wider view of the Siberian Hardneck section showing mixed leaf condition and exposure of the soil surface prior to mulching.",
+          "tags": "garlic, siberian-hardneck, before, window-box, foliage, stress"
+        },
+        {
+          "file_name": "garlic_001-20251227-03.jpeg",
+          "caption": "After mulching view showing a thin mulch layer applied across the soil surface to shade and cool the root zone while keeping crowns exposed.",
+          "tags": "garlic, siberian-hardneck, mulch, soil-surface, cooling, window-box"
+        },
+        {
+          "file_name": "garlic_001-20251227-05.jpeg",
+          "caption": "After-trim overhead view showing cleaned garlic shoots with trimmed browned tissue and mulch in place, highlighting intact crowns and remaining green growth.",
+          "tags": "garlic, siberian-hardneck, after, trimmed, mulch, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:27 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "89.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Several shoots show ongoing dry, papery browning on older leaves with some flopping and curling, while central growth remains green. Crowns appear intact at the soil line with no visible signs of rot. Soil remains very moist, consistent with the elevated moisture reading and daily morning watering pattern.",
+      "actions": "Do not water tomorrow morning. Apply a 1/4–1/2 inch layer of mulch over the soil surface to reduce soil temperature, keeping mulch away from the crowns. Do not fertilize. Snip only leaves that are fully brown and crispy; leave any tissue that is still partially green.",
+      "next_steps": "Take the next probe reading tomorrow afternoon and continue holding water unless moisture drops to approximately 40–45 mS/cm. If moisture remains above 55–60 mS/cm, skip watering again and prioritize airflow and soil cooling. Continue monitoring for firm crowns and stable green center growth as the main indicators of recovery.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning given afternoon-only readings; advised skipping watering because moisture remains high, and confirmed mulch can be applied in the morning even without watering to help reduce soil temperature and ongoing stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251226-02.jpeg",
+          "caption": "Planter view showing Siberian Hardneck shoots with mixed leaf condition, including older browned tissue and a curling/flopping leaf while central growth remains green.",
+          "tags": "garlic, siberian-hardneck, leaf-browning, curling, stress, window-box"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:12 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.45",
+        "salt_mg_L": "228",
+        "moisture_mScm": "64.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "27.0",
+        "soil_temp_f": "88.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Several shoots show dry, papery browning on older leaf tops while central growth remains green. A few leaves are flopping from mid-leaf weakness, consistent with stress rather than rot. Crowns appear intact at the soil line, and the overall growth points remain active despite visible tip burn.",
+      "actions": "Do not water today. Add a thin 1/4–1/2 inch layer of mulch over the soil surface to reduce soil temperature, keeping mulch away from the crowns. Snip only leaves that are fully brown and crispy; leave any leaf tissue that is still partially green.",
+      "next_steps": "Recheck moisture and salts in 24–48 hours, ideally in the morning before full sun heats the soil. Resume watering only when moisture drops to approximately 40–45 mS/cm, and on the next watering apply water slowly until a small amount drains through to help reduce salt concentration. Continue watching for firm crowns and steady green center growth as the primary recovery indicators.",
+      "q_and_a_summary": "Discussed whether the brown leaf tops are normal; confirmed this is typical older-leaf dieback from heat and elevated salts rather than disease or rot, and recommended cooling the soil and avoiding watering today.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251225-02.jpeg",
+          "caption": "Wide view of the Siberian Hardneck section showing mixed leaf condition with some older leaves browning and one leaf flopping while other shoots remain upright and green.",
+          "tags": "garlic, siberian-hardneck, leaf-browning, stress, window-box"
+        },
+        {
+          "file_name": "garlic_001-20251225-03.jpeg",
+          "caption": "Close-up of a garlic shoot showing a green central growth point with dry browning on older leaf tissue and intact crown at the soil line.",
+          "tags": "garlic, siberian-hardneck, close-up, leaf-tip-burn, crown"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:54 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

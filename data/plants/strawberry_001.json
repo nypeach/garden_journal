@@ -44,6 +44,219 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:07 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "59",
+        "fertility_percent": "9",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The strawberry plant looks healthy and vigorous with dense green foliage, multiple open blooms, several buds, and early fruit set forming. Leaves appear firm and well-hydrated with no visible wilting. Soil looks evenly moist and the plant is actively flowering.",
+      "actions": "Do not water tomorrow morning unless the top 1–2 inches of soil feels dry. If the surface is dry and the pot feels lighter, give a small, careful morning watering just to re-moisten the upper root zone without saturating the container.",
+      "next_steps": "Continue monitoring moisture daily and prioritize steady hydration without overnight saturation. Watch the developing fruit and remove any blooms that collapse or show browning to reduce rot risk. If EC and fertility remain low over the next few days while flowering continues, plan a light feeding to support fruiting.",
+      "q_and_a_summary": "With midday moisture sitting at a healthy 60% and mild overnight temperatures, skipping the 6:00 AM watering is the safest choice to avoid oversaturation. Water only if the soil surface is dry and the pot feels noticeably lighter, using a small support watering rather than a full soak.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251228-02.jpeg",
+          "caption": "Top-down view showing a compact, healthy strawberry plant with two bright red blooms and multiple developing buds.",
+          "tags": "strawberry, flowers, buds, top_view, healthy_foliage"
+        },
+        {
+          "file_name": "strawberry_001-20251228-03.jpeg",
+          "caption": "Front view of the container showing upright foliage and several blooms in strong sunlight with no signs of wilt.",
+          "tags": "strawberry, container, blooms, foliage, sunlight"
+        },
+        {
+          "file_name": "strawberry_001-20251228-04.jpeg",
+          "caption": "Side view highlighting dense leaf growth and a balanced canopy with visible flower stems and buds.",
+          "tags": "strawberry, canopy, leaf_growth, buds, side_view"
+        },
+        {
+          "file_name": "strawberry_001-20251228-05.jpeg",
+          "caption": "Angled view showing multiple blooms and buds with evenly moist soil surface and good overall plant posture.",
+          "tags": "strawberry, blooms, buds, soil_surface, vigor"
+        },
+        {
+          "file_name": "strawberry_001-20251228-06.jpeg",
+          "caption": "Wide side view showing the plant’s spread and flowering stems extending outward, with early fruit development visible near the rim.",
+          "tags": "strawberry, flowering, fruit_set, container_garden, healthy"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "3:50 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.39",
+        "salt_mg_L": "199",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "23.0",
+        "soil_temp_f": "74.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Canopy looks healthy and perky with solid green leaves and good turgor. Multiple blooms are open and several fruitlets are forming. Soil appears very wet and heavy, consistent with the 100% moisture reading. Earlier today, leaves and bad blooms were snipped and the old soggy mulch was removed and the surface fluffed to improve airflow.",
+      "actions": "Skip watering tomorrow at 6:00 AM. Keep the crown and forming fruit off wet soil and lightly fluff only the top surface if it is crusting to improve evaporation.",
+      "next_steps": "Take the next probe reading tomorrow afternoon if possible. Resume watering only after moisture drops to roughly 45–60% and the top couple inches feel drier and the pot feels lighter. Continue removing spent blooms/rotting fruit promptly to reduce rot and fungus pressure.",
+      "q_and_a_summary": "The best move is to skip the 6:00 AM watering because the root zone is fully saturated, and keeping it that wet increases the risk of oxygen deprivation and fruit rot. The plan is to let the pot dry down and use the next afternoon reading to decide when to resume watering, targeting a moisture range closer to 45–60% before the next irrigation.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251227-02.jpeg",
+          "caption": "Top-down view showing a healthy strawberry canopy with multiple open blooms and developing fruitlets.",
+          "tags": "strawberry, canopy, blooms, fruitlet, container"
+        },
+        {
+          "file_name": "strawberry_001-20251227-03.jpeg",
+          "caption": "Side view showing leaf turgor and flower clusters with fruitlets forming near the crown.",
+          "tags": "strawberry, side view, flower cluster, fruit set, leaves"
+        },
+        {
+          "file_name": "strawberry_001-20251227-04.jpeg",
+          "caption": "Angled view showing the plant structure and bloom distribution with moist soil visible at the surface.",
+          "tags": "strawberry, structure, blooms, moist soil, airflow"
+        },
+        {
+          "file_name": "strawberry_001-20251227-05.jpeg",
+          "caption": "Another angled view showing active flowering and developing fruit with a visibly wet potting mix surface.",
+          "tags": "strawberry, flowering, developing fruit, wet soil, container"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:46 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "62",
+        "moisture_mScm": "56.00",
+        "light": "93",
+        "rh_percent": "37",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "92.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The strawberry shows strong vigor with a full, evenly green canopy and a clean, exposed crown. Multiple blooms are open and actively flowering, with at least two developing green fruitlets forming on low trusses. One to two flower/fruit sets show darkened centers and collapsing petals consistent with aborted sets that should be removed to redirect energy toward viable fruit.",
+      "actions": "Do not water tomorrow morning because soil moisture remains in a healthy mid-range. Remove the clearly aborted flower/failed sets by cutting their stems cleanly at the truss. Remove loose dead petals resting on the mulch to reduce moisture trapping around the crown.",
+      "next_steps": "Recheck moisture and plant posture tomorrow midday; water only if leaves lose firmness or moisture drops into a dry zone. Continue removing only clearly failed or collapsing sets while leaving healthy green fruitlets intact. Avoid midday watering due to high soil temperature and keep the crown exposed for airflow.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning given the inability to take readings until afternoon; advised skipping the morning watering because moisture is adequate and using a small rescue drink only if wilting occurs. Identified which aborted bloom/failed sets should be removed and confirmed which developing fruitlets to leave.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251226-02.jpeg",
+          "caption": "Overhead view showing a full canopy with multiple active blooms and healthy leaf color across the container.",
+          "tags": "strawberry, overhead, canopy, flowering, vigor"
+        },
+        {
+          "file_name": "strawberry_001-20251226-03.jpeg",
+          "caption": "Side view showing multiple flower trusses extending outward with several blooms at different stages and a clean crown area.",
+          "tags": "strawberry, side-view, crown, flowering, trusses"
+        },
+        {
+          "file_name": "strawberry_001-20251226-04.jpeg",
+          "caption": "Angled view highlighting bloom density and leaf turgor with no visible wilting under sunny conditions.",
+          "tags": "strawberry, angle, blooms, leaf-turgor, healthy"
+        },
+        {
+          "file_name": "strawberry_001-20251226-05.jpeg",
+          "caption": "Close view showing an open red bloom and adjacent buds, indicating ongoing flowering activity.",
+          "tags": "strawberry, bloom, buds, flowering, close-up"
+        },
+        {
+          "file_name": "strawberry_001-20251226-06.jpeg",
+          "caption": "Close-up of a developing green fruitlet with well-formed seed pattern, indicating successful early fruit set.",
+          "tags": "strawberry, fruitlet, green-fruit, developing, close-up"
+        },
+        {
+          "file_name": "strawberry_001-20251226-07.jpeg",
+          "caption": "Close-up of a flower/fruit set with darkened center and collapsing petals consistent with an aborted set that should be removed.",
+          "tags": "strawberry, aborted-set, failed-bloom, close-up, remove"
+        },
+        {
+          "file_name": "strawberry_001-20251226-08.jpeg",
+          "caption": "Close-up of a small developing set with browned tissue and stalled development consistent with a failing/aborted set that should be removed.",
+          "tags": "strawberry, aborted-set, failing, fruit-set, remove"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:35 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.40",
+        "salt_mg_L": "201",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "23.0",
+        "soil_temp_f": "89.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The strawberry shows a rapid growth surge with a fuller canopy of upright, evenly green leaves and multiple active blooms. The crown appears clean and elevated with good airflow, and mulch remains positioned to protect developing fruit from soil contact. One close-up flower/fruit set shows darkened, collapsed petals and appears stalled, consistent with an aborted set.",
+      "actions": "Do not water today as moisture is very high. Remove the clearly aborted flower/failed set by cutting its stem back to the truss using clean scissors. Avoid midday watering due to high soil temperature and maintain airflow around the crown.",
+      "next_steps": "Allow the container to dry down naturally and recheck moisture tomorrow morning before making any watering decision. Continue removing only clearly failed or collapsing sets to redirect energy toward viable flowers and developing fruit. If the pot becomes very hot in afternoon sun, provide brief shade for 60–90 minutes to reduce root-zone heat stress.",
+      "q_and_a_summary": "Reviewed whether a zoomed-in flower/fruit set was failing; confirmed it appears aborted and should be removed cleanly to redirect energy toward viable blooms and fruit.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251225-02.jpeg",
+          "caption": "Overhead view showing a fuller canopy with multiple blooms and strong, upright leaf posture in full sun.",
+          "tags": "strawberry, overhead, canopy, flowering, vigor"
+        },
+        {
+          "file_name": "strawberry_001-20251225-03.jpeg",
+          "caption": "Side view showing clean crown structure, active blooms, and healthy foliage density across the pot.",
+          "tags": "strawberry, side-view, crown, flowering, foliage"
+        },
+        {
+          "file_name": "strawberry_001-20251225-04.jpeg",
+          "caption": "Angled view highlighting multiple flower clusters and good leaf turgor with no visible wilting or collapse.",
+          "tags": "strawberry, flowers, clusters, posture, healthy"
+        },
+        {
+          "file_name": "strawberry_001-20251225-05.jpeg",
+          "caption": "Top view showing strong new growth and numerous blooms after recent removal of dead buds.",
+          "tags": "strawberry, top-view, new-growth, bloom-flush"
+        },
+        {
+          "file_name": "strawberry_001-20251225-06.jpeg",
+          "caption": "Close-up of a small flower/fruit set with darkened, collapsed petals and stalled development consistent with an aborted set that should be removed.",
+          "tags": "strawberry, aborted-set, flower, fruitlet, close-up"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:43 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight. 10% chance of showers, then patchy fog.",

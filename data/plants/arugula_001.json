@@ -14,21 +14,13 @@
     "Reseeded on Nov 5, 2025 and topped with potting mix.",
     "Shares window planter with Cilantro"
   ],
-  "whats_been_logged": "After thinning damage, the tray was reseeded and closely monitored for moisture, light, and pH. Early focus centered on dry topsoil and careful watering to re-establish even moisture while seedlings filled in. As the stand thickened, pH settled into an ideal range and moisture stayed consistently adequate without overwatering. The dense seedlings are now approaching baby-leaf stage with vigorous growth, while a small stable area of earlier stress remains cosmetic only.",
-  "current_stage": "Early baby-leaf stage",
-  "current_state": "Dense, vigorous seedlings are now beginning to show their first true leaves and are close to forming a continuous baby-leaf canopy. Moisture and pH are within an ideal range, and the tray is stable with only minor cosmetic stress where earlier thinning occurred. The planting is nearly ready for its first light baby-leaf harvests once leaves size up a bit more.",
+  "whats_been_logged": "This arugula planting has progressed from reseeded recovery into a successful first baby-leaf harvest and is now rebuilding a dense regrowth canopy from intact crowns. Over time, soil moisture has been the main variable, with intentional dry-down and occasional saturation periods monitored to prevent root stress while supporting steady leaf rebound. Leaf posture, canopy thickness, and color have remained strong overall, keeping the planting on track for repeat cut-and-come harvests.",
+  "current_stage": "Post-Harvest Regrowth (Cut-And-Come Phase)",
+  "current_state": "The arugula is actively regrowing after its first baby-leaf harvest, producing a dense, vigorous canopy of upright new leaves from intact crowns. Leaf color and posture are strong with no visible wilt, spotting spread, or pest damage. The root zone is currently very wet, so the planting is being allowed to dry down to maintain healthy oxygen levels and prevent saturation stress.",
   "timeline": [
     {
-      "what_i_should_see": "Dense Baby-Leaf Carpet Formed",
-      "date_range": "Nov 21 - Nov 26, 2025"
-    },
-    {
-      "what_i_should_see": "Taller Baby Leaves Above Canopy",
-      "date_range": "Nov 26 - Dec 1, 2025"
-    },
-    {
-      "what_i_should_see": "Baby Leaves Ready For First Cut",
-      "date_range": "Dec 2 - Dec 6, 2025"
+      "what_i_should_see": "New Sprouts - First Cut",
+      "date_range": "Nov 21 - Dec 6, 2025"
     },
     {
       "what_i_should_see": "Fresh Regrowth After First Cut",
@@ -45,9 +37,199 @@
     {
       "what_i_should_see": "Leaves Elongating And Maturing",
       "date_range": "Dec 20 - Dec 28, 2025"
+    },
+    {
+      "what_i_should_see": "Repeat Harvests Every 3–7 Days (Maintain Baby Leaves)",
+      "date_range": "Dec 26 - Jan 5, 2026"
+    },
+    {
+      "what_i_should_see": "Larger, More Serrated Leaves If Left Uncut",
+      "date_range": "Jan 5 - Jan 20, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/28/2025",
+      "time": "1:39 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula shows vigorous, upright baby-leaf growth with strong leaf posture and increasing leaf size suitable for continued light harvests. Canopy density remains high with no visible wilt, disease, or pest damage. A second probe reading taken nearby showed a 1% moisture value with very low EC/salt, which is consistent with probe contact failure rather than true tray dryness; the tray appears evenly moist and stable overall.",
+      "actions": "Do not water today or tomorrow morning because moisture is still elevated for a window box planting. If desired, perform a light harvest by cutting only the tallest leaves while leaving crowns intact to improve airflow and encourage a healthy dry-down cycle.",
+      "next_steps": "Recheck probe readings tomorrow afternoon and resume watering only if moisture drops to 35.00 or lower. Continue monitoring for steady dry-down in sunny weather and avoid scheduled watering while readings remain near 60 to prevent saturation stress.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning and confirmed watering should be skipped because moisture remains elevated; also reviewed that the second probe reading showing 1% moisture is consistent with probe contact failure rather than true dryness.",
+      "follow_up": [
+        "[9:00 AM] Fluffed the soil across the tray to improve airflow and even drying, pinched off old dead leaves, and trimmed the largest leaves to even out canopy height and encourage more uniform regrowth."
+      ],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251228-03.jpeg",
+          "caption": "Overhead view showing dense, vigorous arugula regrowth with upright leaves and strong canopy structure under full sun.",
+          "tags": "arugula, regrowth, canopy, baby-leaf, overhead"
+        },
+        {
+          "file_name": "arugula_001-20251228-04.jpeg",
+          "caption": "Overhead follow-up view after soil fluffing and cleanup, showing improved airflow zones and a more even baby-leaf canopy after trimming larger leaves.",
+          "tags": "arugula, follow-up, canopy-evening, pruning, dead-leaf-removal, soil-fluffing"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "1:39 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "58.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula shows vigorous, upright baby-leaf growth with strong leaf posture and increasing leaf size suitable for continued light harvests. Canopy density remains high with no visible wilt, disease, or pest damage. A second probe reading taken nearby showed a 1% moisture value with very low EC/salt, which is consistent with probe contact failure rather than true tray dryness; the tray appears evenly moist and stable overall.",
+      "actions": "Do not water today or tomorrow morning because moisture is still elevated for a window box planting. If desired, perform a light harvest by cutting only the tallest leaves while leaving crowns intact to improve airflow and encourage a healthy dry-down cycle.",
+      "next_steps": "Recheck probe readings tomorrow afternoon and resume watering only if moisture drops to 35.00 or lower. Continue monitoring for steady dry-down in sunny weather and avoid scheduled watering while readings remain near 60 to prevent saturation stress.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning and confirmed watering should be skipped because moisture remains elevated; also reviewed that the second probe reading showing 1% moisture is consistent with probe contact failure rather than true dryness.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251228-03.jpeg",
+          "caption": "Overhead view showing dense, vigorous arugula regrowth with upright leaves and strong canopy structure under full sun.",
+          "tags": "arugula, regrowth, canopy, baby-leaf, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:17 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "84",
+        "moisture_mScm": "56.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "67.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula shows strong, upright regrowth with thicker canopy density and increasing leaf size suitable for continued baby-leaf harvests. Leaf posture is firm with no visible wilt, pest damage, or spreading spotting. Soil moisture is slightly elevated and the surface appears evenly moist, indicating the root zone should be allowed to dry down before the next irrigation.",
+      "actions": "Do not water today because moisture is slightly high for a window box planting. If desired, perform a light harvest by cutting only the tallest leaves while leaving crowns intact to maintain regrowth and improve airflow.",
+      "next_steps": "Recheck probe readings tomorrow around the same time and resume watering only if moisture drops to 35.00 or lower. Continue maintaining full sun exposure and monitor leaf posture and color after any harvest to ensure steady regrowth without saturation stress.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251227-02.jpeg",
+          "caption": "Overhead view showing vigorous cut-and-come regrowth with thicker canopy density and larger baby leaves rising above the tray.",
+          "tags": "arugula, regrowth, canopy, baby-leaf, overhead"
+        },
+        {
+          "file_name": "arugula_001-20251227-03.jpeg",
+          "caption": "Angled view highlighting upright leaf posture and increased leaf size, with a moist but stable root zone supporting strong growth.",
+          "tags": "arugula, regrowth, leaf-size, upright, canopy, angled"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:37 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula shows dense, vigorous regrowth with upright leaves and thickening canopy structure suitable for continued baby-leaf harvests. Leaf posture is strong with no visible wilt, spotting progression, or pest damage. Soil moisture is stable in the mid-range and the surface appears evenly moist without saturation.",
+      "actions": "Skip watering tomorrow morning because soil moisture is already ideal. Continue normal sun exposure and maintain airflow. If desired, harvest lightly by cutting only the tallest leaves while leaving crowns intact.",
+      "next_steps": "Take the next probe readings tomorrow between 12–1 PM and water only if moisture drops to 35.00 or lower. Continue moisture-driven watering rather than daily watering to avoid returning the root zone to saturation. Monitor leaf color and posture after any harvest for steady regrowth.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning despite not being able to take readings until early afternoon; confirmed to skip morning watering and base watering on the 12–1 PM readings, watering only if moisture falls to 35.00 or lower.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251226-02.jpeg",
+          "caption": "Overhead view showing dense regrowth and an even baby-leaf canopy rebuilding strongly across the arugula section of the window box.",
+          "tags": "arugula, regrowth, baby-leaf, canopy, overhead"
+        },
+        {
+          "file_name": "arugula_001-20251226-03.jpeg",
+          "caption": "Angled close-up showing upright leaf posture and larger leaves emerging above the canopy, indicating strong post-harvest recovery.",
+          "tags": "arugula, regrowth, leaf-posture, canopy, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:39 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "115",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula shows strong, dense regrowth with upright leaf posture and a thickening baby-leaf canopy. Leaves appear healthy and turgid with no visible wilt or active spotting. The soil remains heavily saturated, consistent with the high moisture reading and dark, moisture-retentive surface.",
+      "actions": "Do not water or fertilize today due to very high soil moisture. Confirm planter drainage is clear and avoid disturbing crowns while the root zone dries. Optionally loosen only the top 1/4 inch of soil in a small area to improve surface evaporation.",
+      "next_steps": "Recheck moisture tomorrow mid-morning and continue holding water until readings fall into the low-to-mid 30s. Retest pH once soil moisture returns to the mid-range to confirm whether alkalinity persists. Monitor for any yellowing or softness at the base that could indicate prolonged saturation.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251225-02.jpeg",
+          "caption": "Overhead view showing dense, healthy regrowth forming a thick baby-leaf canopy across the arugula section of the window box.",
+          "tags": "arugula, regrowth, baby-leaf, canopy, overhead"
+        },
+        {
+          "file_name": "arugula_001-20251225-03.jpeg",
+          "caption": "Angled side view highlighting upright leaf posture and vigorous new growth emerging above the canopy under bright sun.",
+          "tags": "arugula, regrowth, leaf-posture, canopy, side-view"
+        }
+      ]
+    },
     {
       "date": "12/20/2025",
       "time": "11:27 AM",

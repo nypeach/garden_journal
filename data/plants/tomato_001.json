@@ -15,9 +15,9 @@
     "Compacted topsoil/sand layer removed on Dec 9, 2025.",
     "Replaced with Miracle-Gro Potting Mix to improve aeration and root conditions."
   ],
-  "whats_been_logged": "The plant has been progressing from early flowering into heavy fruit set while repeatedly balancing soil moisture and foliar health. Initial leaf-spot on older foliage was managed with selective pruning, but renewed spotting on mid-canopy leaves led to more extensive sanitation pruning and a temporary thinning of the canopy. Persistent probe and moisture issues traced to a compacted topsoil/sand layer were corrected on Dec 9, 2025 by replacing the upper root zone with potting mix, and current tracking focuses on canopy regrowth, disease recovery, and stable fruit development under improved soil conditions.",
-  "current_stage": "Early Ripening (First Blush)",
-  "current_state": "The plant is actively transitioning from fruit set into early ripening, with at least one lower fruit showing clear first-blush coloration while surrounding clusters remain firm and green. The canopy is healthy and well-aerated following prior sanitation pruning, and the central stem is upright and stable under increasing fruit weight. Ongoing flowering continues in the upper canopy, indicating the plant is simultaneously supporting ripening fruit and new production without visible stress.",
+  "whats_been_logged": "The focus has been on guiding the plant through heavy fruit set into active ripening while keeping soil moisture stable under full sun and very low humidity. Earlier leaf-spot pressure was managed with sanitation pruning and improved airflow, and current tracking emphasizes harvest timing, tie/support adjustments as fruit weight increases, and light 4-5-5 feeding to sustain continued flowering and fruit fill without stressing the root zone.",
+  "current_stage": "Active Ripening & Harvest (Multi-Truss)",
+  "current_state": "The plant is tall, vigorous, and heavily loaded with fruit clusters across the canopy, with multiple tomatoes now progressing through blush and orange stages and several fully red fruits ready for harvest. Foliage remains a healthy green and productive, and the main stems are upright and well supported by stakes despite increasing fruit weight. Ongoing flowering and active fruit fill continue simultaneously, making consistent moisture and support tie management essential to prevent stress during peak ripening.",
   "timeline": [
     {
       "what_i_should_see": "Early vegetative growth – First fruit set",
@@ -40,11 +40,251 @@
       "date_range": "Dec 15 - Dec 28, 2025"
     },
     {
-      "what_i_should_see": "Ongoing flowering & fruiting continues",
-      "date_range": "Jan 2026 - Mar 31, 2026"
+      "what_i_should_see": "Peak Harvest (Daily Picking)",
+      "date_range": "Dec 25 - Jan 10, 2026"
+    },
+    {
+      "what_i_should_see": "Ongoing Truss Ripening & New Fruit Set",
+      "date_range": "Jan 5 - Feb 15, 2026"
+    },
+    {
+      "what_i_should_see": "Continued Flowering & Production (Support + Moisture Management)",
+      "date_range": "Feb 1 - Mar 31, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/28/2025",
+      "time": "2:07 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",
+      "digital_probe": {
+        "ph": "5.0",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "16",
+        "moisture_mScm": "17%",
+        "light": "99%",
+        "rh_percent": "38%",
+        "fertility_percent": "2%",
+        "soil_temp_f": "80.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Tomato plant is actively fruiting with multiple clusters at different ripeness stages. Canopy remains mostly green and upright, but the soil became very dry (probe initially struggled to register values). Lower foliage has been thinned and fruiting is concentrated along the main stems with good sun exposure.",
+      "actions": "Water early in the morning to correct the dry soil condition and stabilize moisture. Water slowly in split doses to fully rehydrate the root zone without runoff. Continue removing only clearly damaged or spotted leaves to improve airflow while preserving healthy foliage for ripening support.",
+      "next_steps": "Re-check soil moisture and pH after watering to confirm readings stabilize when the medium is properly hydrated. Maintain consistent daily morning watering to avoid stress swings during heavy fruiting. Plan to resume light feeding once moisture is stable to support new flowering and continued fruit development.",
+      "q_and_a_summary": "Because the soil was too dry to get stable probe values, watering first thing in the morning is the right move. The plant should continue producing flowers once moisture and nutrition stabilize, and it can outgrow the current stake if it continues indeterminate growth.",
+      "follow_up": [
+        "[8:15 AM] Watered using the hose in two slow passes totaling about two gallons, split into roughly one gallon, a short wait, then another gallon to rehydrate the bed evenly."
+      ],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251228-02.jpeg",
+          "caption": "Full plant view showing active fruiting clusters and a mostly healthy canopy with reduced lower foliage.",
+          "tags": "tomato, fruiting, canopy, staking, overall health"
+        },
+        {
+          "file_name": "tomato_001-20251228-03.jpeg",
+          "caption": "Alternate angle of the plant highlighting fruit clusters at multiple ripeness stages and airflow around the lower stem zone.",
+          "tags": "tomato, fruit clusters, ripening, pruning, airflow"
+        },
+        {
+          "file_name": "tomato_001-20251228-04.jpeg",
+          "caption": "Close view showing the plant structure and fruit set with good sunlight exposure and thinned lower foliage.",
+          "tags": "tomato, structure, fruit set, sunlight, support"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "2:07 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",
+      "digital_probe": {
+        "ph": "5.0",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "16",
+        "moisture_mScm": "17%",
+        "light": "99%",
+        "rh_percent": "38%",
+        "fertility_percent": "2%",
+        "soil_temp_f": "80.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Tomato plant is actively fruiting with multiple clusters at different ripeness stages. Canopy remains mostly green and upright, but the soil became very dry (probe initially struggled to register values). Lower foliage has been thinned and fruiting is concentrated along the main stems with good sun exposure.",
+      "actions": "Water early in the morning to correct the dry soil condition and stabilize moisture. Water slowly in split doses to fully rehydrate the root zone without runoff. Continue removing only clearly damaged or spotted leaves to improve airflow while preserving healthy foliage for ripening support.",
+      "next_steps": "Re-check soil moisture and pH after watering to confirm readings stabilize when the medium is properly hydrated. Maintain consistent daily morning watering to avoid stress swings during heavy fruiting. Plan to resume light feeding once moisture is stable to support new flowering and continued fruit development.",
+      "q_and_a_summary": "Because the soil was too dry to get stable probe values, watering first thing in the morning is the right move. The plant should continue producing flowers once moisture and nutrition stabilize, and it can outgrow the current stake if it continues indeterminate growth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251228-02.jpeg",
+          "caption": "Full plant view showing active fruiting clusters and a mostly healthy canopy with reduced lower foliage.",
+          "tags": "tomato, fruiting, canopy, staking, overall health"
+        },
+        {
+          "file_name": "tomato_001-20251228-03.jpeg",
+          "caption": "Alternate angle of the plant highlighting fruit clusters at multiple ripeness stages and airflow around the lower stem zone.",
+          "tags": "tomato, fruit clusters, ripening, pruning, airflow"
+        },
+        {
+          "file_name": "tomato_001-20251228-04.jpeg",
+          "caption": "Close view showing the plant structure and fruit set with good sunlight exposure and thinned lower foliage.",
+          "tags": "tomato, structure, fruit set, sunlight, support"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "3:56 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "6.4",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "76",
+        "moisture_mScm": "80",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "8",
+        "soil_temp_f": "68.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Tomato_001 is upright and fruiting heavily with multiple clusters at mixed stages (green to red). Lower canopy has been cleaned up and diseased/spotted leaves were removed, leaving an open lower structure with good airflow. Remaining foliage looks mostly healthy with a few minor blemishes, and the plant is actively filling and ripening fruit.",
+      "actions": "Skip watering at 6:00 AM tomorrow because the root zone is currently saturated (80% moisture). Keep fruit harvested as it turns fully red, and continue removing only clearly spotted/diseased leaves while keeping enough foliage to support flowering and fruit fill.",
+      "next_steps": "Check plant posture tomorrow morning (perky = perfect). If you can take a midday reading tomorrow, use moisture as the decision driver; only water if the top few inches are drying and the plant shows real midday wilt. Continue gentle training/ties as the top grows; plan for taller support or a tie-off point as it will likely outgrow the current stake.",
+      "q_and_a_summary": "More flowers should continue coming as long as the top keeps growing and you avoid stripping too many healthy leaves; new blooms typically appear as new growth expands. The plant is very likely to grow past the stake because it is behaving like an indeterminate tomato, so you’ll want to extend support or train it higher. With moisture at 80% after today’s deep watering, watering again at 6:00 AM tomorrow would be unnecessary and could increase root stress and fungal pressure.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251227-01.jpeg",
+          "caption": "Lower fruit clusters show ripening tomatoes after pruning improved airflow around the stem.",
+          "tags": "tomato, fruiting, ripening, pruning, airflow"
+        },
+        {
+          "file_name": "tomato_001-20251227-02.jpeg",
+          "caption": "Ripening cluster close-up with good color development and healthy truss structure.",
+          "tags": "tomato, ripening, cluster, fruit, close-up"
+        },
+        {
+          "file_name": "tomato_001-20251227-03.jpeg",
+          "caption": "A previously damaged leaf with spotting was identified and removed to reduce disease pressure.",
+          "tags": "tomato, leaf spot, disease management, pruning"
+        },
+        {
+          "file_name": "tomato_001-20251227-04.jpeg",
+          "caption": "Overall plant structure shows an open lower canopy and active fruit set across multiple clusters.",
+          "tags": "tomato, structure, canopy, fruit set, staking"
+        },
+        {
+          "file_name": "tomato_001-20251227-06.jpeg",
+          "caption": "Green fruit cluster is sizing well and should continue to fill with steady moisture and nutrition.",
+          "tags": "tomato, green fruit, fruit development, cluster"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:38 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "14",
+        "moisture_mScm": "17.00",
+        "light": "99",
+        "rh_percent": "46",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant remains tall and productive with multiple fruit clusters progressing from green to blush and fully red. The lower canopy is clean and open from continued leaf removal, improving airflow and reducing disease pressure. Late-afternoon readings show the root zone has dried to a level that can trigger midday softening and slowed fruit fill if not corrected with a deep morning watering.",
+      "actions": "Water tomorrow morning at 6:00 AM with 2 gallons total applied slowly (1 gallon, wait 10–15 minutes, then 1 gallon). Mix 1 capful of Purived 4-5-5 into the first gallon only and apply as the first pass, using plain water for the second gallon. Harvest fully red tomatoes in the morning to maintain ripening momentum and reduce load stress.",
+      "next_steps": "Continue morning watering during hot, sunny stretches when afternoon readings fall below 30 mS/cm. Recheck probe readings tomorrow between 12–1 PM if possible to confirm the deep soak restored moisture into the 35–55 range. Continue selective removal of only spotted or yellowing lower leaves and avoid stripping healthy mid-canopy foliage needed for fruit ripening.",
+      "q_and_a_summary": "Discussed watering timing when readings can only be taken midday; confirmed morning watering is recommended when moisture is low to prevent midday stress. Confirmed that feeding and harvesting at 6 AM is appropriate, and recommended 2 gallons total water with Purived 4-5-5 applied only in the first gallon to support ripening without overfeeding.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251226-02.jpeg",
+          "caption": "Full raised-bed view showing a tall, staked tomato with strong structure and multiple fruit clusters at mixed ripening stages.",
+          "tags": "tomato, full-plant, raised-bed, staking, structure, fruit, ripening"
+        },
+        {
+          "file_name": "tomato_001-20251226-03.jpeg",
+          "caption": "Overhead view highlighting canopy density, branching, and heavy fruit set throughout the plant.",
+          "tags": "tomato, overhead, canopy, foliage, fruit-set, vigor"
+        },
+        {
+          "file_name": "tomato_001-20251226-04.jpeg",
+          "caption": "Close-up of lower fruit trusses showing several tomatoes turning orange and red with surrounding fruit still firm and green.",
+          "tags": "tomato, fruit, trusses, ripening, close-up, lower-canopy"
+        },
+        {
+          "file_name": "tomato_001-20251226-05.jpeg",
+          "caption": "Angled side view showing the plant’s height, sturdy stems, and multiple clusters supported along the stakes.",
+          "tags": "tomato, side-view, height, staking, trusses, structure"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:11 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "27",
+        "moisture_mScm": "32.00",
+        "light": "99",
+        "rh_percent": "29",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "75.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The tomato plant is tall, vigorous, and heavily loaded with fruit clusters at multiple ripening stages, including several fully red tomatoes and many green-to-blush fruits. The canopy remains healthy and productive with strong stems supported by stakes. Soil appears moderately dry at the surface, and today’s low humidity increases water demand during peak fruit fill.",
+      "actions": "Apply 1 gallon of water slowly across the entire root zone today. Mix 1 capful of Purived 4-5-5 into that 1 gallon and apply as the full drench to support active ripening and continued flowering. Harvest fully red tomatoes and check all support ties, loosening any that are beginning to constrict thickening stems.",
+      "next_steps": "Recheck moisture tomorrow morning before full sun and water with 1 gallon only if moisture drops below 30 mS/cm or midday softening appears. Continue daily harvest of fully red fruit to maintain ripening momentum. Monitor ties and truss support as fruit weight increases.",
+      "q_and_a_summary": "Discussed whether more flowers should appear soon and confirmed that new flower trusses are expected within 3–7 days as the plant continues upward growth, especially with stable moisture, light 4-5-5 feeding, and prompt harvest of fully red fruit. Discussed lower-leaf removal and confirmed that continued sanitation pruning of spotted or yellowing lower leaves is beneficial for airflow and disease control, while avoiding excessive removal of healthy mid-canopy leaves. Discussed whether the plant will outgrow the stake and confirmed it is likely to grow beyond the current stake height; recommended either extending support to maximize yield or topping above the highest desired truss to focus energy on ripening existing fruit.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20251225-02.jpeg",
+          "caption": "Full raised-bed view showing a tall, staked tomato with strong structure and multiple fruit clusters progressing from green to blush and red.",
+          "tags": "tomato, full-plant, raised-bed, staking, structure, fruit, ripening"
+        },
+        {
+          "file_name": "tomato_001-20251225-03.jpeg",
+          "caption": "Mid-stem close-up showing dense fruit clusters with several tomatoes turning orange and red while surrounding fruit remains firm and green.",
+          "tags": "tomato, fruit-clusters, ripening, mid-stem, close-up"
+        },
+        {
+          "file_name": "tomato_001-20251225-04.jpeg",
+          "caption": "Overhead canopy view showing healthy green foliage, strong branching, and heavy fruit set across the plant.",
+          "tags": "tomato, overhead, canopy, foliage, fruit-set, vigor"
+        },
+        {
+          "file_name": "tomato_001-20251225-05.jpeg",
+          "caption": "Angled side view highlighting the plant’s height, upright stems, and multiple lower trusses with ripening fruit supported by stakes.",
+          "tags": "tomato, side-view, height, staking, trusses, ripening"
+        }
+      ]
+    },
     {
       "date": "12/23/2025",
       "time": "4:10 PM",

@@ -52,6 +52,158 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "2:06 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "103",
+        "moisture_mScm": "59.00",
+        "light": "83",
+        "rh_percent": "38",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme appears healthy and green with multiple upright stems and clean foliage, though the stand remains somewhat sparse with open soil space in front of the plant. No visible spotting, wilting, or burn is present. Soil surface appears dark and moist but is less saturated than the prior day, consistent with improving moisture readings.",
+      "actions": "Do not water right now; allow continued dry-down. Do not fertilize. If increasing thyme density, start new thyme seeds in a seed-starting tray to grow small plugs for transplanting into the open area, or direct sow lightly into bare soil and maintain only light misting until germination.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if the surface becomes dry and the probe moisture trends closer to mid-range. Monitor thyme for continued branching and fill-in. If starting seeds in a tray, transplant small plugs once seedlings have several true leaves to densify coverage without keeping the full window box overly wet.",
+      "q_and_a_summary": "Discussed whether to water early morning; confirmed watering should be skipped because soil is still moist. Discussed adding thyme to fill sparse areas; recommended starting seeds in a tray for plug transplanting, with direct sowing as an option if surface moisture is managed by misting.",
+      "follow_up": [
+        "[8:04 AM] Roughed up the top 1/4 inch of bare soil across the entire herb box to improve aeration and support faster, more even dry-down."
+      ],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251228-02.jpeg",
+          "caption": "Wider view of the thyme section showing a healthy but sparse stand with open soil space in front and a moist surface under bright sun.",
+          "tags": "thyme, herb-box, sparse-stand, vegetative-growth, soil-moisture"
+        },
+        {
+          "file_name": "thyme_001-20251228-03.jpeg",
+          "caption": "Close-up of thyme stems and foliage showing clean green leaves and upright growth, with moist soil texture and visible open spacing for potential fill-in planting.",
+          "tags": "thyme, foliage, stems, spacing, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "2:06 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "103",
+        "moisture_mScm": "59.00",
+        "light": "83",
+        "rh_percent": "38",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme appears healthy and green with multiple upright stems and clean foliage, though the stand remains somewhat sparse with open soil space in front of the plant. No visible spotting, wilting, or burn is present. Soil surface appears dark and moist but is less saturated than the prior day, consistent with improving moisture readings.",
+      "actions": "Do not water right now; allow continued dry-down. Do not fertilize. If increasing thyme density, start new thyme seeds in a seed-starting tray to grow small plugs for transplanting into the open area, or direct sow lightly into bare soil and maintain only light misting until germination.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if the surface becomes dry and the probe moisture trends closer to mid-range. Monitor thyme for continued branching and fill-in. If starting seeds in a tray, transplant small plugs once seedlings have several true leaves to densify coverage without keeping the full window box overly wet.",
+      "q_and_a_summary": "Discussed whether to water early morning; confirmed watering should be skipped because soil is still moist. Discussed adding thyme to fill sparse areas; recommended starting seeds in a tray for plug transplanting, with direct sowing as an option if surface moisture is managed by misting.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251228-02.jpeg",
+          "caption": "Wider view of the thyme section showing a healthy but sparse stand with open soil space in front and a moist surface under bright sun.",
+          "tags": "thyme, herb-box, sparse-stand, vegetative-growth, soil-moisture"
+        },
+        {
+          "file_name": "thyme_001-20251228-03.jpeg",
+          "caption": "Close-up of thyme stems and foliage showing clean green leaves and upright growth, with moist soil texture and visible open spacing for potential fill-in planting.",
+          "tags": "thyme, foliage, stems, spacing, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:26 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "150",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "64.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme shows healthy green foliage with multiple stems and compact, steady growth. No visible spotting, wilting, or burn is present. Soil surface appears dark and very moist, consistent with a fully saturated moisture reading.",
+      "actions": "Do not water tomorrow morning or today. Spray Captain Jack’s DeadBug this evening in shade across the entire herb box at soil level to address cutworm activity. Allow the root zone to dry down naturally and avoid fertilizing.",
+      "next_steps": "Recheck moisture tomorrow late morning or midday and continue withholding water unless moisture drops into the mid-range and the surface becomes dry and crumbly. Watch for any new overnight chewing or sudden stem collapse that would suggest continued cutworm activity. Recheck probe readings again within 48 hours to confirm moisture is trending downward.",
+      "q_and_a_summary": "Discussed whether watering at 6:00 AM tomorrow is appropriate; confirmed it should be skipped because soil moisture is fully saturated.",
+      "follow_up": [
+        "[5:21 PM] Sprayed Captain Jack’s DeadBug across the entire herb box in the evening to target cutworm activity at soil level."
+      ],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251227-02.jpeg",
+          "caption": "Wider view of the thyme section showing healthy green growth beside neighboring herbs, with visibly dark and wet soil indicating a saturated root zone.",
+          "tags": "thyme, herb-box, soil-moisture, vegetative-growth, overhead"
+        },
+        {
+          "file_name": "thyme_001-20251227-03.jpeg",
+          "caption": "Close-up of thyme stems and foliage showing healthy leaf color and active growth above a very moist soil surface.",
+          "tags": "thyme, foliage, stems, close-up, saturated-soil"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:10 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.44",
+        "salt_mg_L": "223",
+        "moisture_mScm": "68.00",
+        "light": "99",
+        "rh_percent": "29",
+        "fertility_percent": "26.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme appears compact and stable with multiple green stems and healthy leaf color. Growth is low and spreading with no visible spotting, wilting, or burn. Soil surface looks dark and moist, consistent with today’s higher moisture reading.",
+      "actions": "Do not water or fertilize today. Allow the soil to dry down naturally and keep the thyme crown area open to airflow. Lightly rough up only the top 1/4 inch of soil around the plant if the surface is staying damp.",
+      "next_steps": "Check soil moisture tomorrow morning and continue withholding water if the top inch remains damp, especially with a small chance of showers tonight. Water only after the surface becomes dry and crumbly, using a small amount to moisten rather than soak. Recheck probe readings within 48 hours to confirm moisture is trending downward.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251225-02.jpeg",
+          "caption": "Wider view of thyme showing compact, green growth with multiple stems and a moist soil surface in bright sun.",
+          "tags": "thyme, vegetative-growth, transplant, soil-moisture, overhead"
+        },
+        {
+          "file_name": "thyme_001-20251225-03.jpeg",
+          "caption": "Closer view of thyme foliage and stems showing healthy leaf color and low spreading structure with damp soil around the crown area.",
+          "tags": "thyme, foliage, stems, crown, soil-condition"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "8:17 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

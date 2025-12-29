@@ -41,6 +41,48 @@
     <!-- Form Card -->
     <div class="card">
       <form method="POST" enctype="multipart/form-data" id="photoForm">
+        <!-- CONTEXT FIRST -->
+        <div class="field-label">Context *</div>
+        <select id="context" name="context" class="form-select" required>
+          <option value="Initial" {% if context=='Initial' or not context %}selected{% endif %}>Initial</option>
+          <option value="Follow-Up" {% if context=='Follow-Up' %}selected{% endif %}>Follow-Up</option>
+        </select>
+        <div class="form-hint">Initial = first check-in of the day, Follow-Up = additional same-day updates</div>
+
+        <!-- DATE, PLANT ID, STARTING PHOTO #, TIME OVERRIDE - ALL ON SAME ROW -->
+        <div class="form-row"
+          style="display: grid; grid-template-columns: 1fr 1.5fr 1fr 1fr; gap: 12px; margin-top: 16px;">
+          <div class="form-group">
+            <div class="field-label">Date *</div>
+            <input type="date" id="date" name="date" class="form-input" value="{{ current_date }}" required>
+          </div>
+
+          <div class="form-group">
+            <div class="field-label">Plant ID *</div>
+            <input type="text" id="plant_id" name="plant_id" class="form-input" required placeholder="e.g., basil_001"
+              list="plant-ids" value="{{ plant_id if plant_id else '' }}">
+            <datalist id="plant-ids">
+              {% for plant_id in available_plants %}
+              <option value="{{ plant_id }}">
+                {% endfor %}
+            </datalist>
+          </div>
+
+          <div class="form-group">
+            <div class="field-label">Starting Photo #</div>
+            <input type="number" id="starting_number" name="starting_number" class="form-input" min="1"
+              placeholder="Leave blank for 01" value="{{ starting_number if starting_number else '' }}">
+          </div>
+
+          <div class="form-group">
+            <div class="field-label">Time Override</div>
+            <input type="text" id="time_override" name="time_override" class="form-input" placeholder="e.g., 8:09 AM"
+              value="{{ time_override if time_override else '' }}">
+          </div>
+        </div>
+        <div class="form-hint">Plant ID: Select from your garden • Photo #: Auto-fills for Follow-Up • Time: Overrides
+          current time if provided</div>
+
         <!-- File Upload Zone -->
         <div class="upload-zone" id="uploadZone">
           <div class="upload-icon">📷</div>
@@ -57,45 +99,20 @@
           <div id="filesList" class="selected-files-list"></div>
         </div>
 
-        <!-- Form Fields -->
-        <div class="field-label">Plant ID *</div>
-        <input type="text" id="plant_id" name="plant_id" class="form-input" required
-          placeholder="e.g., basil_001, strawberry_002" list="plant-ids" value="{{ plant_id if plant_id else '' }}">
-        <datalist id="plant-ids">
-          {% for plant_id in available_plants %}
-          <option value="{{ plant_id }}">
-            {% endfor %}
-        </datalist>
-        <div class="form-hint">Select or type a plant ID from your garden</div>
 
-        <div class="form-row">
-          <div class="form-group">
-            <div class="field-label">Date *</div>
-            <input type="date" id="date" name="date" class="form-input" value="{{ current_date }}" required>
-          </div>
-
-          <div class="form-group">
-            <div class="field-label">Starting Photo #</div>
-            <input type="number" id="starting_number" name="starting_number" class="form-input" min="1"
-              placeholder="Leave blank for 01" value="{{ starting_number if starting_number else '' }}">
-            <div class="form-hint">Optional - defaults to 01</div>
-          </div>
-        </div>
-
-        <div class="field-label">Context *</div>
-        <select id="context" name="context" class="form-select" required>
-          <option value="Initial" {% if context=='Initial' or not context %}selected{% endif %}>Initial</option>
-          <option value="Follow-Up" {% if context=='Follow-Up' %}selected{% endif %}>Follow-Up</option>
-        </select>
-        <div class="form-hint">Initial = first check-in of the day, Follow-Up = additional same-day updates</div>
-
-        <div style="margin-top: 16px;">
+        <!-- CHECKBOXES -->
+        <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 8px;">
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" name="include_watering" value="yes" checked>
             <span>Include watering assessment prompt (with current time)</span>
           </label>
+          <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+            <input type="checkbox" id="include_questions" name="include_questions" value="yes">
+            <span>Include questions section (for Follow-Up with Q&A)</span>
+          </label>
         </div>
 
+        <!-- GLOBAL MESSAGE (WEATHER) -->
         <div id="global_message_container">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 16px;">
             <div class="field-label" style="margin: 0;">Global Message (Weather)</div>
@@ -111,6 +128,7 @@
             dynamic plant data (e.g., {id}, {garden_location}, {full_sun_start})</div>
         </div>
 
+        <!-- PLANT-SPECIFIC MESSAGE -->
         <div class="field-label">Plant-Specific Message</div>
         <textarea id="plant_message" name="plant_message" class="form-textarea"
           placeholder="Plant observations, questions, follow-ups...">{{ plant_message if plant_message else '' }}</textarea>
@@ -446,6 +464,125 @@
       }
     }
 
+    // AUTO-FETCH starting photo number when Plant ID changes in Follow-Up mode
+    async function fetchStartingPhotoNumber() {
+      const context = document.getElementById('context').value;
+      const plantIdInput = document.getElementById('plant_id');
+      const photoNumberInput = document.getElementById('starting_number');
+      const dateInput = document.getElementById('date');
+
+      if (context === 'Follow-Up' && plantIdInput.value) {
+        const plantId = plantIdInput.value.trim();
+        const dateValue = dateInput.value;
+
+        try {
+          const response = await fetch(`/api/plant/${plantId}/last-photo-number?date=${dateValue}`);
+          const data = await response.json();
+
+          if (data.error) {
+            // Don't alert - just set placeholder
+            photoNumberInput.value = '';
+            photoNumberInput.placeholder = 'No journal entry';
+          } else if (data.last_number !== undefined) {
+            const nextNumber = data.last_number + 1;
+            photoNumberInput.value = nextNumber;
+            photoNumberInput.placeholder = `Next: ${String(nextNumber).padStart(2, '0')}`;
+          }
+        } catch (error) {
+          console.error('Error fetching last photo number:', error);
+          photoNumberInput.value = '';
+          photoNumberInput.placeholder = 'Error checking';
+        }
+      }
+    }
+
+    // VALIDATION ON SUBMIT
+    document.getElementById('photoForm').addEventListener('submit', async function (e) {
+      const context = document.getElementById('context').value;
+
+      if (context === 'Follow-Up') {
+        const plantId = document.getElementById('plant_id').value.trim();
+        const startingNumber = document.getElementById('starting_number').value.trim();
+        const plantMessage = document.getElementById('plant_message').value.trim();
+        const dateInput = document.getElementById('date').value;
+
+        // VALIDATION CASE A: Plant ID exists but no starting photo
+        if (plantId && (!startingNumber || startingNumber === '1')) {
+          e.preventDefault();
+
+          // Try to fetch it
+          try {
+            const response = await fetch(`/api/plant/${plantId}/last-photo-number?date=${dateInput}`);
+            const data = await response.json();
+
+            if (!data.error && data.last_number !== undefined) {
+              const nextNumber = data.last_number + 1;
+              document.getElementById('starting_number').value = nextNumber;
+              // Resubmit the form
+              this.submit();
+              return;
+            }
+          } catch (error) {
+            console.error('Error fetching photo number:', error);
+          }
+        }
+
+        // VALIDATION CASE B: Plant-Specific Message is blank
+        if (!plantMessage) {
+          e.preventDefault();
+
+          alert('Plant-Specific Message is required for Follow-Up');
+
+          // Fetch starting photo if needed
+          if (plantId && (!startingNumber || startingNumber === '1')) {
+            await fetchStartingPhotoNumber();
+          }
+
+          // Put cursor in Plant-Specific Message
+          document.getElementById('plant_message').focus();
+          return;
+        }
+        // VALIDATION CASE C is handled server-side - removed to avoid duplicate alerts
+      }
+    });
+
+    // SMART FIELD PERSISTENCE
+    let savedPlantMessage = '';
+    let savedPlantId = '';
+
+    // Save plant message when typing
+    document.getElementById('plant_message').addEventListener('input', function () {
+      savedPlantMessage = this.value;
+    });
+
+    // Save plant ID when changing
+    document.getElementById('plant_id').addEventListener('change', function () {
+      savedPlantId = this.value;
+    });
+
+    // Restore plant message when date changes
+    document.getElementById('date').addEventListener('change', function () {
+      if (savedPlantMessage) {
+        document.getElementById('plant_message').value = savedPlantMessage;
+      }
+      if (savedPlantId) {
+        document.getElementById('plant_id').value = savedPlantId;
+      }
+
+      // Refetch starting photo number if in Follow-Up mode
+      fetchStartingPhotoNumber();
+    });
+
+    // Restore plant message when plant ID changes
+    document.getElementById('plant_id').addEventListener('change', function () {
+      if (savedPlantMessage) {
+        document.getElementById('plant_message').value = savedPlantMessage;
+      }
+
+      // Auto-fetch starting photo in Follow-Up mode
+      fetchStartingPhotoNumber();
+    });
+
     // SINGLE DOMContentLoaded handler - combines all initialization logic
     document.addEventListener('DOMContentLoaded', function () {
       const urlParams = new URLSearchParams(window.location.search);
@@ -454,6 +591,10 @@
       const globalMessageInput = document.getElementById('global_message');
       const plantIdInput = document.getElementById('plant_id');
       const plantMessageInput = document.getElementById('plant_message');
+
+      // Initialize saved values
+      savedPlantMessage = plantMessageInput.value;
+      savedPlantId = plantIdInput.value;
 
       // Check if any form field has a value (indicates error re-render from server)
       const hasExistingValue = globalMessageInput.value.trim() !== '' ||
@@ -487,7 +628,6 @@
         }
 
         // Don't clear localStorage - preserve everything
-        isErrorRerender = true; // Set flag to prevent clearing on first change event
       } else if (!dateFromUrl) {
         // Fresh load (no URL params) - clear localStorage and load weather
         localStorage.removeItem('garden_global_message');
@@ -504,12 +644,14 @@
       globalInput.addEventListener('input', function () {
         localStorage.setItem('garden_global_message', this.value);
       });
+
+      // Auto-fetch starting photo on page load if in Follow-Up mode
+      fetchStartingPhotoNumber();
     });
 
     // Auto-populate photo number when context changes to Follow-Up
     document.getElementById('context').addEventListener('change', async function () {
       const context = this.value;
-      const plantIdInput = document.getElementById('plant_id');
       const photoNumberInput = document.getElementById('starting_number');
 
       // Clear starting photo number when switching to Initial
@@ -519,55 +661,12 @@
       }
 
       // Handle Follow-Up photo number auto-population
-      if (context === 'Follow-Up' && plantIdInput.value) {
-        const plantId = plantIdInput.value.trim();
-
-        try {
-          const dateInput = document.getElementById('date');
-          const dateValue = dateInput.value;
-          const response = await fetch(`/api/plant/${plantId}/last-photo-number?date=${dateValue}`);
-          const data = await response.json();
-
-          if (data.error) {
-            alert(data.error);
-            photoNumberInput.value = '';
-            photoNumberInput.placeholder = 'No journal entry for this date';
-          } else if (data.last_number !== undefined) {
-            const nextNumber = data.last_number + 1;
-            photoNumberInput.value = nextNumber;
-            photoNumberInput.placeholder = `Next number: ${String(nextNumber).padStart(2, '0')}`;
-          }
-        } catch (error) {
-          console.error('Error fetching last photo number:', error);
-          alert('Error checking for journal entry. Please verify the date has an existing entry.');
-        }
+      if (context === 'Follow-Up') {
+        await fetchStartingPhotoNumber();
       }
 
       // Update global message visibility (don't auto-load weather)
       updateGlobalMessageVisibility();
-    });
-
-    // When plant ID changes
-    let isErrorRerender = false; // Flag to track error re-render
-
-    document.getElementById('plant_id').addEventListener('change', async function () {
-      const context = document.getElementById('context').value;
-
-      // Don't clear plant message on error re-render (first load)
-      if (!isErrorRerender) {
-        // Clear plant-specific message only on user interaction
-        document.getElementById('plant_message').value = '';
-      }
-
-      // After first change, reset the flag
-      isErrorRerender = false;
-
-      // Handle Follow-Up photo number auto-population
-      if (context === 'Follow-Up') {
-        document.getElementById('context').dispatchEvent(new Event('change'));
-      }
-
-      // Don't auto-load weather when changing plant ID
     });
   </script>
 

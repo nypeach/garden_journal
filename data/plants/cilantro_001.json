@@ -44,6 +44,215 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "1:41 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "120",
+        "moisture_mScm": "72.00",
+        "light": "96",
+        "rh_percent": "39",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains healthy and upright with good leaf color but uneven canopy density across zones. Multi-zone probe readings show the right side is very wet while the left side is moderately moist, indicating moisture distribution is still uneven in the sandy-start window box. Overall vigor appears stable with the fullest cluster on the right, but excess moisture in that zone may reduce root-zone oxygen and slow growth.",
+      "actions": "Do not water tomorrow morning. Allow the planter to dry down naturally to restore oxygen in the wettest zone and support stronger cilantro growth.",
+      "next_steps": "Recheck moisture tomorrow afternoon. Resume watering only when the driest zone drops below 30 mS/cm, and avoid watering the entire planter if one side remains above 70 mS/cm. Continue monitoring whether zone-based watering is needed to prevent wet pockets.",
+      "q_and_a_summary": "Reviewed multi-zone readings after targeted watering and confirmed watering should be skipped tomorrow morning because overall moisture is high and the right side is nearing saturation.",
+      "follow_up": [
+        "[1:23 PM] Fluffed soil thoroughly around all cilantro plants to improve aeration and even moisture movement, and pinched off older yellowing leaves to redirect energy into new healthy growth."
+      ],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251228-04.jpeg",
+          "caption": "Overhead view of the cilantro window box showing overall canopy density and soil moisture appearance across zones after targeted watering.",
+          "tags": "cilantro, overhead, window-box, canopy, moisture-zones"
+        },
+        {
+          "file_name": "cilantro_001-20251228-05.jpeg",
+          "caption": "Overhead view showing cilantro clusters with healthy green foliage and uneven growth density, with soil visibly moist in portions of the planter.",
+          "tags": "cilantro, overhead, foliage, uneven-growth, soil-moisture"
+        },
+        {
+          "file_name": "cilantro_001-20251228-06.jpeg",
+          "caption": "Overhead view after full soil fluffing and removal of older yellowed leaves, showing improved airflow around stems and a cleaner, more open cilantro canopy.",
+          "tags": "cilantro, soil-fluffing, leaf-pruning, canopy-cleanup, aeration"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "1:41 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "120",
+        "moisture_mScm": "72.00",
+        "light": "96",
+        "rh_percent": "39",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "81.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains healthy and upright with good leaf color but uneven canopy density across zones. Multi-zone probe readings show the right side is very wet while the left side is moderately moist, indicating moisture distribution is still uneven in the sandy-start window box. Overall vigor appears stable with the fullest cluster on the right, but excess moisture in that zone may reduce root-zone oxygen and slow growth.",
+      "actions": "Do not water tomorrow morning. Allow the planter to dry down naturally to restore oxygen in the wettest zone and support stronger cilantro growth.",
+      "next_steps": "Recheck moisture tomorrow afternoon. Resume watering only when the driest zone drops below 30 mS/cm, and avoid watering the entire planter if one side remains above 70 mS/cm. Continue monitoring whether zone-based watering is needed to prevent wet pockets.",
+      "q_and_a_summary": "Reviewed multi-zone readings after targeted watering and confirmed watering should be skipped tomorrow morning because overall moisture is high and the right side is nearing saturation.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251228-04.jpeg",
+          "caption": "Overhead view of the cilantro window box showing overall canopy density and soil moisture appearance across zones after targeted watering.",
+          "tags": "cilantro, overhead, window-box, canopy, moisture-zones"
+        },
+        {
+          "file_name": "cilantro_001-20251228-05.jpeg",
+          "caption": "Overhead view showing cilantro clusters with healthy green foliage and uneven growth density, with soil visibly moist in portions of the planter.",
+          "tags": "cilantro, overhead, foliage, uneven-growth, soil-moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:18 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "51",
+        "moisture_mScm": "34.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "66.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains upright and healthy in color but is still short and uneven in canopy density, with most stems around 2 inches tall. Multi-zone probe readings show uneven moisture distribution, with the center zone significantly drier than the left and right, consistent with a sandy or crusted soil profile that channels water unevenly. A light harvest was attempted at 9:30 AM with only a small amount removed.",
+      "actions": "Fluff only the top 1/2 inch of soil today, focusing on the center zone to reduce crusting and improve water penetration. Water tomorrow at 6:00 AM using a targeted 2-cup slow pour to the center zone only, avoiding watering the entire planter.",
+      "next_steps": "Recheck moisture tomorrow afternoon and continue zone-based watering, prioritizing the center area whenever readings fall below 30 mS/cm while allowing the left and right zones to dry down normally. Monitor for improved density and thicker stems over the next 5–7 days as moisture becomes more uniform.",
+      "q_and_a_summary": "Discussed whether soil fluffing would help and confirmed it improves penetration in sandy-start window boxes. Reviewed zone probe readings and confirmed watering should be targeted, with a 2-cup center-zone watering recommended at 6:00 AM tomorrow because the center measured very dry and mid-day watering may not be possible.",
+      "follow_up": [
+        "[5:15 PM] Fluffed the soil surface to improve aeration and help water penetrate evenly, especially through the dry center pocket."
+      ],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251227-01.jpeg",
+          "caption": "Overhead view of the full window box showing cilantro growth zones and overall canopy density across the planter.",
+          "tags": "cilantro, overhead, window-box, canopy, growth-zones"
+        },
+        {
+          "file_name": "cilantro_001-20251227-03.jpeg",
+          "caption": "Close-up view of the left-side cilantro zone showing moderate moisture and upright stems with small leaf clusters.",
+          "tags": "cilantro, left-zone, close-up, moisture-variation, foliage"
+        },
+        {
+          "file_name": "cilantro_001-20251227-05.jpeg",
+          "caption": "Close-up view of the center cilantro zone showing smaller plants and soil surface conditions consistent with a dry pocket and uneven water penetration.",
+          "tags": "cilantro, center-zone, dry-pocket, soil-surface, uneven-moisture"
+        },
+        {
+          "file_name": "cilantro_001-20251227-07.jpeg",
+          "caption": "Overhead view of the right-side cilantro zone showing denser foliage than the center with moderately moist soil conditions.",
+          "tags": "cilantro, right-zone, overhead, foliage, moisture"
+        },
+        {
+          "file_name": "cilantro_001-20251227-08.jpeg",
+          "caption": "Overhead view after soil fluffing, showing a more open and aerated soil surface around the cilantro clusters to improve oxygen exchange and water penetration.",
+          "tags": "cilantro, overhead, soil-fluffing, aeration, moisture-penetration"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:37 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "66",
+        "moisture_mScm": "56.00",
+        "light": "96",
+        "rh_percent": "47",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains upright and alive with active leaf growth, but appears more open and uneven than earlier entries, with some stems showing elongation and reduced canopy density compared to peak lush growth. Soil appears evenly moist and dark, consistent with a moderate-to-high moisture reading. No visible leaf spotting, collapse, or pest damage is apparent.",
+      "actions": "Do not water tomorrow morning as soil moisture is still moderate. Begin thinning or harvesting the leggiest stems from the base to reduce crowding and encourage denser regrowth. Allow the planter to dry down naturally and only water again once moisture drops below 30 mS/cm.",
+      "next_steps": "Take the next probe reading tomorrow afternoon as planned and continue skipping watering unless visible wilting occurs. If cilantro droops before the next reading, apply a small emergency top-up of 2 cups of water at soil level to the cilantro area only. Monitor for continued stem stretching and consider light afternoon shade to reduce warm soil stress and slow bolting.",
+      "q_and_a_summary": "Discussed whether watering should continue tomorrow morning; recommended skipping because moisture is still moderate and daily watering can keep cilantro too wet. Reviewed why cilantro may look behind arugula in the same planter and confirmed the best support is a dry-down cycle, thinning/harvesting leggy stems, and reducing afternoon heat load when possible.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251226-02.jpeg",
+          "caption": "Overhead view showing cilantro with uneven canopy density and some stem elongation despite healthy leaf color, with soil appearing evenly moist across the planting zone.",
+          "tags": "cilantro, overhead, canopy, uneven-growth, moisture"
+        },
+        {
+          "file_name": "cilantro_001-20251226-03.jpeg",
+          "caption": "Angled view showing upright cilantro growth with several taller stems and a more open structure, consistent with warm conditions and a need for thinning to encourage denser regrowth.",
+          "tags": "cilantro, angled-view, stems, leggy-growth, thinning"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:40 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.60",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "111",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "81.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro remains healthy and upright with two main growth clusters. The left cluster is dense and vigorous, while the right cluster is thinner with more open stem structure. Soil appears dark and heavily moist with no visible signs of disease, collapse, or pest damage.",
+      "actions": "Do not water today as soil moisture is very high. Allow the planter to dry down naturally and gently fluff only the top 1/2 inch of soil in any crusted areas to improve airflow. Do not fertilize today.",
+      "next_steps": "Recheck moisture tomorrow or the following morning and water only once moisture drops below 30 mS/cm. Watch for increased stem stretching or early bolting behavior as warm soil temperatures can accelerate cilantro flowering. Continue harvesting outer stems only as needed to preserve crown growth.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251225-02.jpeg",
+          "caption": "Overhead view showing two main cilantro clusters, with the left side dense and vigorous and the right side thinner with more open growth. Soil appears dark and heavily moist.",
+          "tags": "cilantro, overhead, window-box, moisture, growth-clusters"
+        },
+        {
+          "file_name": "cilantro_001-20251225-03.jpeg",
+          "caption": "Angled view showing upright cilantro stems and leafy growth with slightly more elongation in the thinner section, consistent with warm conditions and high soil moisture.",
+          "tags": "cilantro, angled-view, stems, foliage, warm-weather"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "8:08 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

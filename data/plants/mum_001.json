@@ -12,9 +12,9 @@
     "Found dying plant by a dumpster on December 7, 2025.",
     "Hard Pruned to 8\""
   ],
-  "whats_been_logged": "The focus has been on reviving a severely stressed, discarded chrysanthemum through hard pruning, correcting extreme soil alkalinity, breaking up a dense surface root mat, and monitoring early shoot emergence as the plant begins recovery.",
-  "current_stage": "Early Shoot Recovery",
-  "current_state": "The plant is in early recovery after a hard prune, with multiple new shoots emerging along the stems and healthy green foliage beginning to return. The stems are firm with no signs of rot, and the surface soil shows a dense mat of fine roots typical of a root-bound chrysanthemum.",
+  "whats_been_logged": "The focus has shifted from rescue recovery into supporting active bud development and flowering, maintaining stable moisture in the 2-gallon container, and monitoring pH drift toward acidic conditions to keep nutrient uptake efficient. Deadheading and bloom-cycle support have become the primary ongoing care priorities.",
+  "current_stage": "Active Flowering (Post-Rescue Stabilization)",
+  "current_state": "The plant is vigorous and actively flowering, with a full, leafy canopy and multiple buds at varying stages of development alongside several open blooms. Stems are upright and structurally sound with no visible wilt or collapse, and foliage is healthy green. Blooms and buds show reddish-bronze tones on petals and bracts under strong sun exposure, consistent with current flowering conditions and possible temperature/light influence.",
   "timeline": [
     {
       "what_i_should_see": "Early Shoot Recovery",
@@ -22,14 +22,200 @@
     },
     {
       "what_i_should_see": "Vegetative Refill and Canopy Rebuilding",
-      "date_range": "Dec 23, 2025 - Jan 20, 2026"
+      "date_range": "Dec 23 - Dec 24, 2025"
     },
     {
-      "what_i_should_see": "First post-rescue bud initiation",
-      "date_range": "Jan 21 - Feb 15, 2026"
+      "what_i_should_see": "Active Flowering and Bud Waves",
+      "date_range": "Dec 25, 2025 - Jan 20, 2026"
+    },
+    {
+      "what_i_should_see": "Deadheading Response and Continued Bloom Cycling",
+      "date_range": "Jan 21 - Feb 20, 2026"
+    },
+    {
+      "what_i_should_see": "Post-Flower Recovery and Vegetative Maintenance",
+      "date_range": "Feb 21 - Mar 31, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/28/2025",
+      "time": "11:57 AM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.60",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "74",
+        "moisture_mScm": "59.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "77.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum remains vigorous and actively flowering with a full canopy, multiple buds, and several open blooms showing reddish and yellow tones. Stems are upright and structurally sound with no visible wilting. The soil surface appears moist but no longer saturated, and overall plant condition remains stable and healthy.",
+      "actions": "Do not water tomorrow morning; moisture remains comfortably high and continued dry-down supports strong root oxygen exchange. Do not fertilize today as nutrient levels are adequate for flowering. Continue providing strong sun and airflow.",
+      "next_steps": "Recheck probe readings tomorrow if possible. Resume watering only when moisture drops to 45.00 or lower, ideally in the morning. Continue monitoring for any increase in leaf-edge browning or any bloom decline if soil stays too wet.",
+      "q_and_a_summary": "Discussed whether to water at 6:00 AM tomorrow; recommended skipping because moisture is still 59.00 and the plant benefits from continued dry-down.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251228-02.jpeg",
+          "caption": "Overhead view showing a dense canopy with multiple buds and several open blooms, with soil appearing moist but not saturated.",
+          "tags": "chrysanthemum, canopy, buds, blooms, overhead"
+        },
+        {
+          "file_name": "mum_001-20251228-03.jpeg",
+          "caption": "Closer view highlighting an open bloom and multiple buds at different stages with healthy green foliage.",
+          "tags": "chrysanthemum, bloom, buds, foliage, close-up"
+        },
+        {
+          "file_name": "mum_001-20251228-04.jpeg",
+          "caption": "Front view showing an open bloom and developing bud clusters with upright stems and stable structure.",
+          "tags": "chrysanthemum, flowering, buds, stems, structure"
+        },
+        {
+          "file_name": "mum_001-20251228-05.jpeg",
+          "caption": "Angled view showing multiple open blooms around the pot edge and an abundance of buds preparing to open.",
+          "tags": "chrysanthemum, blooms, buds, flowering, angle"
+        },
+        {
+          "file_name": "mum_001-20251228-06.jpeg",
+          "caption": "Side view showing the overall form of the plant with many bud clusters and continued flowering activity.",
+          "tags": "chrysanthemum, structure, bud-clusters, flowering"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "10:55 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "79",
+        "moisture_mScm": "80.00",
+        "light": "98",
+        "rh_percent": "52",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "75.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum remains vigorous and actively flowering with a full canopy, multiple buds, and several open blooms showing reddish-bronze tones. Stems are upright and the plant appears stable with no visible wilting. Soil moisture remains high but has improved from the prior day’s saturation, supporting better root-zone oxygen exchange.",
+      "actions": "Do not water tomorrow morning; moisture remains high and the root zone benefits more from continued dry-down. Do not fertilize today as nutrient levels are sufficient for flowering. Deadhead spent blooms to encourage continued bud opening and maintain bloom cycle momentum.",
+      "next_steps": "Recheck probe readings tomorrow afternoon if possible. Resume watering only when moisture drops to 45.00 or lower, ideally in the morning. Continue monitoring for any expansion of leaf-edge browning while soil dries down and maintain strong sun exposure.",
+      "q_and_a_summary": "Discussed whether to water at 6:00 AM tomorrow; recommended skipping due to moisture still reading high (80.00) and the need for continued dry-down for root oxygen.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251227-02.jpeg",
+          "caption": "Top-down view showing a dense, healthy canopy with multiple developing buds and ongoing flowering activity.",
+          "tags": "chrysanthemum, canopy, buds, flowering, healthy-growth"
+        },
+        {
+          "file_name": "mum_001-20251227-03.jpeg",
+          "caption": "Side view highlighting upright stems, multiple buds at different stages, and blooms with reddish-bronze tones under strong sun.",
+          "tags": "chrysanthemum, stems, buds, blooms, sunlight"
+        },
+        {
+          "file_name": "mum_001-20251227-04.jpeg",
+          "caption": "Angled view showing overall plant structure and continued flowering with stable foliage and no visible wilt.",
+          "tags": "chrysanthemum, structure, flowering, vigor"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:34 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "119",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "90.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum remains vigorous and actively flowering with multiple buds and open blooms across the canopy. Foliage is generally healthy green with minor browning visible along the edge of at least one leaf, consistent with mild stress rather than widespread decline. The soil appears very wet and the probe indicates saturated moisture, suggesting the root zone is holding more water than needed.",
+      "actions": "Do not water tomorrow morning; moisture is saturated and the root zone needs to dry down for oxygen exchange. Do not fertilize today as nutrient levels are sufficient for flowering. Deadhead spent blooms to encourage continued bud opening and snip any leaf that is more than 25% browned or crispy.",
+      "next_steps": "Recheck probe readings tomorrow afternoon. Resume watering only when moisture drops to 45.00 or lower and avoid returning to daily watering. Continue monitoring leaf edges for expansion of browning; if it increases while moisture remains high, prioritize dry-down and airflow.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning; recommended skipping due to saturated moisture and the inability to check readings until midday. Discussed whether to snip a leaf with brown edges; advised removing it only if more than 25% damaged or if browning is spreading.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251226-02.jpeg",
+          "caption": "Top-down view showing a full canopy with multiple buds and open blooms, with soil appearing very dark and wet across the pot surface.",
+          "tags": "chrysanthemum, canopy, buds, blooms, wet-soil"
+        },
+        {
+          "file_name": "mum_001-20251226-03.jpeg",
+          "caption": "Angled view showing several open blooms and numerous buds at different stages, with dense foliage and upright stems.",
+          "tags": "chrysanthemum, flowering, buds, stems, structure"
+        },
+        {
+          "file_name": "mum_001-20251226-04.jpeg",
+          "caption": "Side view highlighting bloom clusters and bud development with good overall vigor and no visible wilting.",
+          "tags": "chrysanthemum, blooms, buds, vigor"
+        },
+        {
+          "file_name": "mum_001-20251226-05.jpeg",
+          "caption": "Alternate angle showing the plant’s overall form and flowering progression, with the potting surface still appearing saturated.",
+          "tags": "chrysanthemum, structure, flowering, wet-soil"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:20 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.60",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "86",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "51",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "76.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum is actively flowering with multiple buds and several blooms opening, showing reddish-bronze tones on petals and bracts under strong sun exposure. Foliage is green and full with upright stems and no visible wilt or collapse. The plant appears stable and vigorous in the 2-gallon pot with healthy canopy density.",
+      "actions": "Do not water today as moisture is already ideal. Do not fertilize today; nutrient level is sufficient for bloom support without forcing soft growth. Deadhead spent blooms by snipping just below the flower head to encourage continued bud development.",
+      "next_steps": "Recheck probe readings in 2–3 days, focusing on pH stability. If pH remains below 5.80, apply 1 tablespoon of dolomite lime evenly across the soil surface and water in with 1 cup only if moisture has dropped. Water only if moisture drops to 35.00 or lower.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251225-02.jpeg",
+          "caption": "Top-down view showing a full, healthy canopy with multiple developing buds and an actively opening bloom with reddish-bronze coloration.",
+          "tags": "chrysanthemum, buds, bloom, canopy, healthy-growth"
+        },
+        {
+          "file_name": "mum_001-20251225-03.jpeg",
+          "caption": "Angled side view showing a dense, vigorous plant structure with upright stems, multiple bud sites, and several blooms opening at the outer edges.",
+          "tags": "chrysanthemum, structure, stems, buds, flowering"
+        }
+      ]
+    },
     {
       "date": "12/20/2025",
       "time": "7:38 AM",
@@ -444,7 +630,7 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "mum_002-20251207-01.jpeg",
           "caption": "Before photo showing the chrysanthemum with extensive browning and spent blooms prior to pruning.",
           "tags": "chrysanthemum, before, browning, wilted blooms"
         },

@@ -13,9 +13,9 @@
     "Moved to brown raised bed 2' × 6' × 10\" at the fourth stake.",
     "Experienced transplant stress."
   ],
-  "whats_been_logged": "The focus has been on recovery from transplant stress while tracking moisture patterns, pH fluctuation from high to stabilized levels, and emergence of new center growth. Early logs documented pale outer leaves from shock and high-pH nutrient lockout, followed by gradual greening and the appearance of a male blossom. Soil adjustments with potting mix improved structure and stability.",
-  "current_stage": "Recovering Transplant",
-  "current_state": "The plant is in recovery but improving. New center growth is emerging, showing the plant has stabilized and is exiting transplant shock. Outer leaves remain pale with evidence of earlier stress, but the crown is actively producing new foliage.",
+  "whats_been_logged": "The focus has been on recovery from transplant stress while stabilizing moisture and pH, correcting early nutrient lockout, and tracking the return of vigorous crown growth. Recent observations show a clear rebound with improved leaf color, stronger posture, and soil conditions that are now consistently supportive, allowing vegetative growth to resume.",
+  "current_stage": "Post-Transplant Stabilization (Vegetative Growth Resuming)",
+  "current_state": "The plant shows strong recovery with upright, firm petioles and more uniformly green foliage. The crown is actively producing multiple new leaves, and overall structure appears stable with no signs of collapse, rot, or progressive necrosis.",
   "timeline": [
     {
       "what_i_should_see": "Noticeably Greener New Growth / Stronger Vigor",
@@ -47,6 +47,189 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/28/2025",
+      "time": "2:11 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Mostly Clear tonight. Sunny with a high of 83°F tomorrow.",
+      "digital_probe": {
+        "ph": "6.4",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "43",
+        "light": "92",
+        "rh_percent": "38",
+        "fertility_percent": "5",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini plant appears vigorously recovered with improved leaf color and steady growth. Leaves are upright with healthy green tone and active crown development. No current necrotic leaves are visible in today’s set; plant looks stable and continuing to rebound strongly.",
+      "actions": "Water early morning with a moderate, slow soak at the base to maintain consistent moisture through the day. Keep leaves dry during watering. Do not remove any leaves today.",
+      "next_steps": "Continue morning watering routine and monitor midday leaf posture for any heat stress. Plan for a gentle first feeding soon because EC and fertility remain very low; reassess tomorrow after the next probe reading.",
+      "q_and_a_summary": "Morning watering is recommended because moisture was already trending moderate yesterday afternoon and zucchini uses water quickly in full sun; keeping moisture stable supports continued recovery and growth.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251228-02.jpeg",
+          "caption": "Top-down view showing expanded healthy canopy with consistent green color and improved vigor.",
+          "tags": "zucchini, canopy, top-down, recovery, vegetative growth"
+        },
+        {
+          "file_name": "zucchini_001-20251228-03.jpeg",
+          "caption": "Close-up of the crown showing active new growth and healthy leaf texture with no visible collapse.",
+          "tags": "zucchini, crown, new growth, vigor, recovery"
+        },
+        {
+          "file_name": "zucchini_001-20251228-04.jpeg",
+          "caption": "Wide view of the plant in the bed showing upright structure and steady development under full sun conditions.",
+          "tags": "zucchini, structure, raised bed, full sun, growth"
+        },
+        {
+          "file_name": "zucchini_001-20251228-05.jpeg",
+          "caption": "Comparison photo showing earlier-stage leaves with significantly paler coloration and stress symptoms prior to recovery.",
+          "tags": "zucchini, comparison, stress, pale leaves, recovery reference"
+        },
+        {
+          "file_name": "zucchini_001-20251228-06.jpeg",
+          "caption": "Comparison photo highlighting previous severe chlorosis and damage used to document improvement over time.",
+          "tags": "zucchini, comparison, chlorosis, damage, recovery reference"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "3:57 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "7.0",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "47",
+        "moisture_mScm": "46",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "5",
+        "soil_temp_f": "66.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini_001 is upright and actively pushing new growth from the center, with overall color improved. One older lower leaf shows a white blotchy/weak area and looks like the main remaining compromised leaf, while the newer leaves look healthier and more vigorous today.",
+      "actions": "Remove the single oldest damaged lower leaf by snipping the petiole cleanly near the main stem (do not tear). Water tomorrow morning at 6:00 AM with a light but steady soak (about 2 quarts) around the root zone; reduce to 1 quart only if the top inch is still clearly damp at that time.",
+      "next_steps": "Continue morning watering as a light, consistent routine while the plant is rebuilding, and reassess after tomorrow’s sun/heat to see if the schedule can shift to deeper, less frequent watering. Watch for any spread of white spotting to newer leaves and keep the crown area airy by avoiding wet foliage during irrigation.",
+      "q_and_a_summary": "Leaf removal is recommended for the single damaged lower leaf because it is no longer contributing well and can increase disease risk. Morning watering tomorrow is still appropriate, but kept light, because current moisture is in a usable range and the plant is actively growing going into another sunny warm day.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251227-02.jpeg",
+          "caption": "Overhead view showing improved posture and multiple leaves with active center growth.",
+          "tags": "zucchini, overall-plant, structure, recovery"
+        },
+        {
+          "file_name": "zucchini_001-20251227-03.jpeg",
+          "caption": "Wider view showing the plant’s spacing in the bed and overall leaf orientation under full sun.",
+          "tags": "zucchini, wide-shot, bed, sun, vigor"
+        },
+        {
+          "file_name": "zucchini_001-20251227-04.jpeg",
+          "caption": "Close-up of the older leaf showing the pale/white blotchy area on the blade.",
+          "tags": "zucchini, damaged-leaf, spotting, lower-leaf"
+        },
+        {
+          "file_name": "zucchini_001-20251227-05.jpeg",
+          "caption": "Close-up at the crown showing new growth emerging and leaf stems with good turgor.",
+          "tags": "zucchini, crown, new-growth, recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:44 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "35",
+        "moisture_mScm": "39.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "73.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant appears stable and clearly recovered from earlier decline, with firm upright petioles, more uniformly green foliage, and active crown growth pushing new leaves. No wilting, collapse, or progressive necrosis is visible. Soil appears evenly moist with a healthy dry-down beginning at the surface.",
+      "actions": "Do not water today since moisture is still in a healthy range and the plant shows no stress. Skip routine morning watering tomorrow unless the top 2–3 inches feel dry; if dry, apply 2 cups of water slowly in a ring around the plant. Do not fertilize today while monitoring the decline in EC and fertility for possible light feeding in the next few days.",
+      "next_steps": "Perform a 2–3 inch finger check tomorrow morning to decide on watering since mid-day watering may not be possible. Recheck probe readings within 1–2 days to confirm whether EC and fertility remain low or rebound with normal moisture cycling. Watch the crown for noticeable leaf expansion over the next 48–72 hours as the key sign of ongoing vegetative momentum.",
+      "q_and_a_summary": "Discussed whether morning watering should continue given today’s moisture reading and the inability to water mid-day. Recommended skipping routine morning watering and using a 2–3 inch finger check; if dry, apply 2 cups preventively in the morning.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251226-02.jpeg",
+          "caption": "Overhead view showing stable leaf spread, consistent green coloration, and an actively growing crown with new leaves emerging.",
+          "tags": "zucchini, overhead, canopy, crown, recovery, new-growth"
+        },
+        {
+          "file_name": "zucchini_001-20251226-03.jpeg",
+          "caption": "Angled close-up showing firm upright petioles and a developing cluster of new crown leaves with no signs of collapse or rot.",
+          "tags": "zucchini, side-view, petioles, crown, new-growth, recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:16 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "99",
+        "moisture_mScm": "63.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows a clear rebound with stronger posture, more uniform green foliage, and active crown growth. Petioles are upright and firm, and new leaves are expanding cleanly without signs of progressive necrosis or collapse. Soil appears evenly moist and supportive, with no visible stress response in the canopy.",
+      "actions": "Do not water today as soil moisture is already ideal and tonight has a chance of showers. Do not fertilize today because fertility and EC are already in a strong, supportive range. Keep the crown area clean and uncovered by mulch or piled soil to prevent moisture-related crown stress.",
+      "next_steps": "Monitor the newest crown leaves over the next 48–72 hours for noticeable expansion and continued deepening green color. Recheck moisture in 2–3 days or sooner if the top 2–3 inches dry quickly in sun and wind. Plan to water only when moisture drops below approximately 25–30 mS/cm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251225-01.jpeg",
+          "caption": "Overhead view showing improved canopy color and a more balanced, stable leaf spread with active crown growth.",
+          "tags": "zucchini, overhead, canopy, recovery, crown, green-growth"
+        },
+        {
+          "file_name": "zucchini_001-20251225-02.jpeg",
+          "caption": "Side view showing firm, upright petioles and healthy leaf structure with no collapse or wilting.",
+          "tags": "zucchini, side-view, petioles, posture, recovery"
+        },
+        {
+          "file_name": "zucchini_001-20251225-03.jpeg",
+          "caption": "Wide view of the plant in the raised bed showing improved vigor, consistent foliage color, and stable positioning near the support stake.",
+          "tags": "zucchini, raised-bed, wide-view, vigor, recovery"
+        },
+        {
+          "file_name": "zucchini_001-20251225-04.jpeg",
+          "caption": "Close-up of the crown showing multiple new leaf points emerging and healthy stem tissue with no signs of rot.",
+          "tags": "zucchini, crown, close-up, new-growth, recovery"
+        }
+      ]
+    },
     {
       "date": "12/23/2025",
       "time": "4:06 PM",

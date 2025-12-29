@@ -52,6 +52,144 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "2:00 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "10",
+        "moisture_mScm": "3.50",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "84.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli remains upright with a vigorous canopy, but the window box soil is extremely dry and the plant is beginning to show early softness in leaf posture. Both probe readings show severe dryness and classic probe-contact failure with pH reading as 0.00 and near-zero EC/salt/fertility values due to insufficient soil moisture for sensor function. Soil temperature is warm, increasing transpiration demand and accelerating dry-down in the shallow container.",
+      "actions": "Apply exactly 8 cups of water slowly across the entire window box to rehydrate the full root zone and restore probe contact.",
+      "next_steps": "Recheck probe readings tomorrow morning at 6:00 AM after overnight recovery. Water only if moisture remains below 25.00 mS/cm. Expect pH, EC, salts, and fertility readings to normalize once soil contact is restored.",
+      "q_and_a_summary": "Confirmed that tonight is the better watering window because the soil is already critically dry and the probe is failing from lack of contact; watering now allows the plant to rehydrate overnight so tomorrow morning becomes a check rather than a rescue, while waiting until 6:00 AM risks extended stress through the evening and night.",
+      "follow_up": [
+        "[8:05 AM] Began watering and observed pooling and runoff, then fluffed the soil only under the broccoli to restore infiltration and completed the full watering across the window box."
+      ],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251228-03.jpeg",
+          "caption": "Wide view of the broccoli window box showing a vigorous canopy with early leaf softness beginning, consistent with severe dry-down and rapid moisture loss in the shallow container.",
+          "tags": "broccoli, window-box, canopy, dry-down, moisture-stress"
+        },
+        {
+          "file_name": "broccoli_001-20251228-04.jpeg",
+          "caption": "Close view of the broccoli planting zone immediately after watering, showing surface pooling and runoff behavior before the soil was loosened.",
+          "tags": "broccoli, watering, pooling, runoff, soil-surface"
+        },
+        {
+          "file_name": "broccoli_001-20251228-05.jpeg",
+          "caption": "Chives side of the shared window box after watering, showing wet surface conditions and localized pooling in the low areas of the soil.",
+          "tags": "chives, shared-container, watering, pooling, wet-soil"
+        },
+        {
+          "file_name": "broccoli_001-20251228-06.jpeg",
+          "caption": "Broccoli zone after soil was fluffed and watering completed, showing loosened texture to improve infiltration and reduce channeling.",
+          "tags": "broccoli, soil-fluffed, infiltration, watering-completed, soil-texture"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:21 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.24",
+        "salt_mg_L": "119",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "41",
+        "fertility_percent": "13.0",
+        "soil_temp_f": "65.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli is vigorous with a broad blue-green canopy, upright stems, and strong turgor. Two zone readings show the left plant zone holding higher nutrient and salt levels while the right zone is lighter-fed with slightly lower pH and moisture. The window box was fed this morning with Purived 4-5-5 and later had chewed leaves and leaves contacting the soil selectively trimmed, improving airflow and reducing soil-contact risk while maintaining strong leaf mass.",
+      "actions": "Do not water today as moisture is comfortably high. Tomorrow morning, check moisture before watering; water only if the right zone drops near 30–35 mS/cm, applying water slowly and evenly across the entire window box to rebalance both plants.",
+      "next_steps": "Recheck moisture tomorrow morning and again the following day if conditions stay sunny and warm. Aim to keep both zones drying down evenly; if one side consistently runs higher after feeding or watering, adjust pour pattern to correct it. Continue removing only damaged or soil-touching leaves as needed while preserving healthy upper canopy.",
+      "q_and_a_summary": "Morning watering is held unless the root zone dries into the low-30s, using the right-side reading as the trigger so the smaller plant does not fall behind. Transplant timing is set for once the soil is moist but no longer heavy and wet from feeding, with the most favorable window landing about one to two days afterward to keep the plant fully turgid while minimizing handling stress.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251227-03.jpeg",
+          "caption": "Wide view of the window box showing vigorous broccoli growth with upright stems and strong canopy development after selective leaf trimming.",
+          "tags": "broccoli, window-box, canopy, vigorous-growth, upright-stems"
+        },
+        {
+          "file_name": "broccoli_001-20251227-04.jpeg",
+          "caption": "Overhead view showing the dense leaf spread across the container, with good overall color and healthy leaf structure.",
+          "tags": "broccoli, overhead, canopy, leaf-mass, healthy-color"
+        },
+        {
+          "file_name": "broccoli_001-20251227-05.jpeg",
+          "caption": "Side angle showing the right broccoli plant and the cleared lower stem area, indicating recent pruning for airflow and soil-contact prevention.",
+          "tags": "broccoli, side-view, pruning, airflow, lower-leaves"
+        },
+        {
+          "file_name": "broccoli_001-20251227-06.jpeg",
+          "caption": "Angled overhead view highlighting zone differences in plant size, with the center/left plant larger and the right plant smaller but healthy and upright.",
+          "tags": "broccoli, zone-variation, plant-size, canopy, healthy-growth"
+        },
+        {
+          "file_name": "broccoli_001-20251227-07.jpeg",
+          "caption": "Close view of the broccoli foliage after trimming, showing healthy remaining leaf structure with minor chewing damage on some leaves.",
+          "tags": "broccoli, leaf-trim, chewing-damage, healthy-foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:41 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.70",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "57.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli is in vigorous vegetative growth with a broad canopy, upright stems, and strong vertical lift at the crown. Leaves are large and turgid with minor chewing damage visible but no signs of wilting or burn. The container appears increasingly limiting as the plant’s leaf mass and root-zone demand continue expanding.",
+      "actions": "Do not water today as moisture is ideal and rain is possible tonight. Apply a light feeding using Purived 4-5-5 mixed at 1/2 teaspoon in 2 cups of water, applied evenly across the entire window box, and do not add additional plain water afterward.",
+      "next_steps": "Recheck moisture tomorrow morning and water only if moisture drops below 30.00. Monitor for any increase in fresh chewing damage over the next 48 hours and plan a dusk spinosad application if new holes continue appearing. Begin planning for transplanting soon, as the broccoli is approaching the window box’s root-volume limit.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251225-02.jpeg",
+          "caption": "Close view showing vigorous broccoli growth with tall upright stems, broad leaves, and active crown expansion in the window box.",
+          "tags": "broccoli, vigorous-growth, upright-stems, crown, window-box"
+        },
+        {
+          "file_name": "broccoli_001-20251225-03.jpeg",
+          "caption": "Overhead view showing the full canopy spread and the plant’s increasing size relative to the container, with minor chewing holes visible on some leaves.",
+          "tags": "broccoli, overhead, canopy, container-limiting, leaf-chewing"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "8:10 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

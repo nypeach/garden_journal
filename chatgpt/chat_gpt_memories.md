@@ -19,6 +19,7 @@ In Plant Channels, when recommending treatments, always check whether my user-ow
 - Miracle-Gro Moisture Control Potting Mix
 - Miracle-Gro Organic Potting Mix
 - Miracle-Gro Organic Mulch
+- Gardzen 10 Gallon 300G Thick Fabric Grow Bags with Handles
 
 If none of my products are appropriate or safe, you may recommend alternatives.
 

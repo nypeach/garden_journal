@@ -56,6 +56,164 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:25 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.80",
+        "ec_mScm": "1.54",
+        "salt_mg_L": "772",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "69.0",
+        "soil_temp_f": "88.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño section shows a clear jump in height and canopy expansion, with upright stems and healthy, turgid foliage. Leaves are broad and well-formed with no visible wilting, distortion, or pest chewing. Soil remains heavily saturated, consistent with a maximum moisture reading and still-elevated EC and salt levels that are trending down compared with the prior day.",
+      "actions": "Do not water tomorrow morning. Allow the planter to dry down naturally to restore root oxygen and continue reducing EC and salt concentration. Continue monitoring leaf tips for any browning as an early sign of salt stress.",
+      "next_steps": "Recheck probe readings tomorrow midday or early afternoon to confirm moisture decline and continued improvement in EC and salts. Resume watering only once moisture returns to 45.00–55.00. If moisture remains high for multiple days and EC/salts stay elevated, plan a controlled, light flush watering in a future session once the soil is no longer saturated.",
+      "q_and_a_summary": "Discussed whether the plant has gotten taller and confirmed visible height increase; discussed whether to water tomorrow morning and confirmed watering should be skipped because moisture remains fully saturated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251228-02.jpeg",
+          "caption": "Overhead view showing a fuller jalapeño canopy with visibly increased height and vigorous vegetative expansion in the shared window box.",
+          "tags": "jalapeno, overhead, canopy, height-increase, vegetative-growth, shared-planter"
+        },
+        {
+          "file_name": "pepper_003-20251228-03.jpeg",
+          "caption": "Side view highlighting taller upright stems and expanded leaf mass, showing the jalapeño’s dominance in the planter.",
+          "tags": "jalapeno, side-view, stems, height, vigor, foliage"
+        },
+        {
+          "file_name": "pepper_003-20251228-04.jpeg",
+          "caption": "Wider angled view showing the jalapeño section’s taller structure and dense growth habit within the pepper window box.",
+          "tags": "jalapeno, angled-view, structure, dense-growth, shared-planter"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:37 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "5.20",
+        "ec_mScm": "2.41",
+        "salt_mg_L": "1210",
+        "moisture_mScm": "100.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "88.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño section shows vigorous vegetative growth with a dense canopy of healthy, upright leaves and strong stem structure. Foliage appears smooth and well-formed with no visible pest damage or wilting. The shared pepper window box was watered at 10:30 AM prior to the 11:37 AM reading, and the soil is now fully saturated with a concentrated nutrient zone at the probe location, reflected by high EC, salts, and fertility.",
+      "actions": "Do not water tomorrow morning. Allow the planter to dry down naturally to restore root oxygen and reduce salt concentration. Monitor leaf tips for any browning or curling over the next 48 hours as an early indicator of salt stress.",
+      "next_steps": "Recheck probe readings tomorrow midday or early afternoon to confirm moisture decline and whether EC and salts begin trending downward. Resume watering only once moisture returns to 45.00–55.00. If EC and salts remain high after dry-down, plan a controlled, light flush watering in a future session to reduce salt buildup.",
+      "q_and_a_summary": "Discussed whether to water again tomorrow morning after watering today; confirmed watering should be skipped because moisture is fully saturated and EC/salt levels are elevated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251227-02.jpeg",
+          "caption": "Overhead view showing a dense, vigorous jalapeño canopy with broad healthy leaves and strong vegetative expansion.",
+          "tags": "jalapeno, overhead, canopy, vegetative-growth, vigorous"
+        },
+        {
+          "file_name": "pepper_003-20251227-03.jpeg",
+          "caption": "Closer view showing thickened stems and abundant foliage growth in the jalapeño section of the shared planter with saturated soil visible.",
+          "tags": "jalapeno, close-up, stems, foliage, saturated-soil, shared-planter"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:58 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "9.30",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "37",
+        "moisture_mScm": "22.00",
+        "light": "92",
+        "rh_percent": "40",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "85.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño section continues to show the most vigorous vegetative growth in the shared planter, with dense, upright foliage and healthy leaf expansion. Leaves appear turgid and well-formed with no visible pest damage. Soil appears noticeably drier than yesterday, and the unusually high pH reading is consistent with probe contact in a dry pocket rather than a true soil pH shift.",
+      "actions": "Water tomorrow morning between 6–7 AM with 4 cups (1 quart) total, poured slowly and evenly across the entire window box. Do not water again tomorrow midday unless the plant shows visible wilting. No fertilizer is applied today; reassess fertility after moisture stabilizes post-watering.",
+      "next_steps": "Take the next probe reading tomorrow midday (12–1 PM) after the morning watering to confirm whether pH and fertility normalize. If fertility remains below 8.0–10.0 with a normal pH, plan a light feeding to support continued vegetative growth and upcoming budding.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning given inability to take readings until midday; confirmed morning watering is appropriate at current low moisture to prevent stress and avoid midday watering.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251226-02.jpeg",
+          "caption": "Overhead view showing dense, healthy jalapeño foliage with active leaf expansion and a fuller canopy than the other peppers in the shared planter.",
+          "tags": "jalapeno, overhead, canopy, vegetative-growth, shared-planter"
+        },
+        {
+          "file_name": "pepper_003-20251226-03.jpeg",
+          "caption": "Side view highlighting multiple upright stems and vigorous vegetative structure, with soil surface appearing drier than the prior day.",
+          "tags": "jalapeno, side-view, stems, vigor, soil-surface, planter"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:51 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.34",
+        "salt_mg_L": "171",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "29",
+        "fertility_percent": "19.0",
+        "soil_temp_f": "89.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño section shows the most vigorous vegetative growth in the planter, with dense, bright green foliage and upright structure. Leaves appear healthy and expanding rapidly with no visible wilting or distortion. Soil surface looks evenly moist, consistent with a very high moisture reading.",
+      "actions": "Do not water today. Allow the soil to continue drying naturally to improve root oxygenation and support the transition toward budding. No fertilizer is applied at this time as fertility remains sufficient.",
+      "next_steps": "Recheck moisture in 24–48 hours and water only once moisture drops to 45.00–55.00. Watch for continued stem thickening and node development as indicators that buds are approaching. If growth remains very dense, plan for thinning later to encourage a stronger single plant and earlier flowering.",
+      "q_and_a_summary": "Discussed whether buds will take until the end of the month; confirmed flowering depends on maturity and root-zone balance, and buds may appear sooner if soil dries into a healthier range.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251225-02.jpeg",
+          "caption": "Overhead view showing dense, bright green leaf growth and strong vegetative expansion in the jalapeño section.",
+          "tags": "jalapeno, overhead, canopy, vegetative-growth, dense-growth"
+        },
+        {
+          "file_name": "pepper_003-20251225-03.jpeg",
+          "caption": "Side view of the planter showing a fuller jalapeño canopy with multiple upright stems and vigorous leaf mass.",
+          "tags": "jalapeno, side-view, stems, vigor, planter"
+        },
+        {
+          "file_name": "pepper_003-20251225-04.jpeg",
+          "caption": "Angled view showing the jalapeño cluster’s strong posture and healthy foliage in the shared pepper window box.",
+          "tags": "jalapeno, angled-view, structure, foliage, shared-planter"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:51 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",
@@ -195,7 +353,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The jalapeño seedlings remain upright and actively growing with expanding leaves and healthy structure. Foliage color is lighter green overall, consistent with declining fertility rather than stress. Soil surface had crusted from yesterday’s wind, making probe insertion difficult; after readings were taken, the surface was fluffed to restore aeration and infiltration. No pest damage or wilting is visible.",
+      "observations": "The jalapeño seedlings remain upright and actively growing with expanding leaves and healthy structure. Foliage color is lighter green overall, consistent with declining fertility rather than stress. Soil surface had crusted from yesterday's wind, making probe insertion difficult; after readings were taken, the surface was fluffed to restore aeration and infiltration. No pest damage or wilting is visible.",
       "actions": "Do not water today unless rain bypasses the planter entirely. Allow natural rainfall and restored soil aeration to rebalance moisture. No fertilizer is applied today.",
       "next_steps": "Recheck moisture and fertility within 24–48 hours after rain. Plan a light feeding once moisture stabilizes and fertility remains below 10.0. Continue monitoring canopy color and density.",
       "q_and_a_summary": "",
@@ -281,7 +439,7 @@
       },
       "observations": "The jalapeño seedlings show clear vegetative momentum with larger, well-spread leaves and upright posture across the cluster. Foliage color is healthy and uniform with no visible pest damage or stress. Soil is visibly saturated from recent weather but drainage appears adequate and the plants are responding positively.",
       "actions": "Do not water today. Allow excess moisture to dissipate naturally through drainage and evaporation.",
-      "next_steps": "Recheck moisture after tomorrow’s cooler, drier conditions. Resume watering only if moisture drops below 45.00. Continue monitoring canopy density as growth accelerates.",
+      "next_steps": "Recheck moisture after tomorrow's cooler, drier conditions. Resume watering only if moisture drops below 45.00. Continue monitoring canopy density as growth accelerates.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
@@ -319,7 +477,7 @@
       "observations": "The seedlings are still vigorous, with bright green foliage and expanding true leaves. No visible pest damage. Soil moisture is moderate, and the plant's posture remains strong and healthy.",
       "actions": "Do not water today. Continue to inspect leaves closely for any new chew marks. No additional pest treatment is needed unless fresh damage appears.",
       "next_steps": "Check again tomorrow morning for any new chew marks or stem damage. Recheck moisture at the next morning window and only consider watering if moisture drops below 40.00.",
-      "q_and_a_summary": "Discussed whether tonight’s low temperature is concerning; confirmed 53°F is cool but not dangerous for jalapeño seedlings and may only slow growth slightly overnight.",
+      "q_and_a_summary": "Discussed whether tonight's low temperature is concerning; confirmed 53°F is cool but not dangerous for jalapeño seedlings and may only slow growth slightly overnight.",
       "follow_up": [],
       "photos": [
         {
@@ -353,10 +511,10 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The seedlings are upright and stable with expanding true leaves and no visible wilting. A few leaves show small chew marks that appear older, with no obvious fresh feeding patterns visible in today’s photos. Overall color is a lighter green but growth posture remains strong and consistent.",
+      "observations": "The seedlings are upright and stable with expanding true leaves and no visible wilting. A few leaves show small chew marks that appear older, with no obvious fresh feeding patterns visible in today's photos. Overall color is a lighter green but growth posture remains strong and consistent.",
       "actions": "Do not water today. Continue to inspect leaves closely for any new chew marks. No additional pest treatment is needed unless fresh damage appears.",
       "next_steps": "Check again tomorrow morning for any new chew marks or stem damage. Recheck moisture at the next morning window and only consider watering if moisture drops below 40.00.",
-      "q_and_a_summary": "Discussed whether tonight’s low temperature is concerning; confirmed 53°F is cool but not dangerous for jalapeño seedlings and may only slow growth slightly overnight.",
+      "q_and_a_summary": "Discussed whether tonight's low temperature is concerning; confirmed 53°F is cool but not dangerous for jalapeño seedlings and may only slow growth slightly overnight.",
       "follow_up": [],
       "photos": [
         {
@@ -402,17 +560,17 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251210-01.jpeg",
           "caption": "Morning view of Jalapeño seedlings with dew-covered leaves showing bright color and upright growth.",
           "tags": "jalapeno, seedlings, dew, foliage"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251210-02.jpeg",
           "caption": "Side view of the seedling cluster showing healthy posture and true leaf expansion.",
           "tags": "jalapeno, seedlings, growth"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251210-03.jpeg",
           "caption": "Overhead view of the Jalapeño seedlings with consistent color and no new visible pest damage.",
           "tags": "jalapeno, seedlings, top-view"
         }
@@ -443,26 +601,26 @@
       "q_and_a_summary": "",
       "follow_up": [
         "[7:45 AM] Filled in the probe hole, fluffed the soil lightly, and added a small amount of Miracle-Gro Moisture Control Potting Mix.",
-        "[4:38 PM] Sprayed Captain Jack’s DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
+        "[4:38 PM] Sprayed Captain Jack's DeadBug lightly across the entire window box at soil level to eliminate or expose any cutworms that may have dropped into the soil and to prevent potential nighttime stem damage to cilantro and the other herbs."
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251209-01.jpeg",
           "caption": "Digital probe screenshot showing today's balanced readings with ideal pH and stable moisture.",
           "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251209-02.jpeg",
           "caption": "Jalapeño seedlings showing bright green foliage, upright posture, and continued true leaf development.",
           "tags": "jalapeno, seedlings, foliage, soil"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251209-03.jpeg",
           "caption": "Side view of the Jalapeño cluster with improved soil aeration after light fluffing and added potting mix.",
           "tags": "jalapeno, seedlings, soil, aeration"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251209-04.jpeg",
           "caption": "Overhead view showing dense but healthy cluster growth and evenly expanding true leaves.",
           "tags": "jalapeno, seedlings, top-view, foliage"
         }
@@ -494,30 +652,29 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251208-01.jpeg",
           "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
           "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251208-02.jpeg",
           "caption": "Jalapeño seedlings showing upright growth, bright green leaves, and early true leaf development.",
           "tags": "jalapeno, seedlings, foliage, soil"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251208-03.jpeg",
           "caption": "Side angle of the Jalapeño cluster showing healthy leaf posture and moist soil from recent rain.",
           "tags": "jalapeno, seedlings, soil, moisture"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251208-04.jpeg",
           "caption": "Additional view of the Jalapeño seedlings showing consistent color and early vegetative growth.",
           "tags": "jalapeno, seedlings, foliage"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
-      "date": "12/07/2025",
+      "date": "12/7/2025",
       "time": "12:38 PM",
       "conditions": "Patchy morning fog, then sunny with a high near 86°F. Light south wind 5–8 mph. Evening partly cloudy with a low around 66°F. Patchy fog expected overnight.",
       "digital_probe": {
@@ -535,36 +692,26 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings remain healthy, upright, and vigorously growing. Cotyledons show no new chewing damage compared to prior photos, indicating that pest activity has stopped following the 12/04 spinosad treatment. Moisture is very high due to recent watering and calm, foggy conditions, and soil appears evenly saturated. No signs of wilt, mold, or stress are present.",
+      "observations": "Seedlings remain healthy, upright, and vigorously growing. Cotyledons show no new chewing damage compared to prior photos, indicating that pest activity has stopped following the 12/04 spinosad treatment. Moisture is very high due to recent watering and calm, foggy conditions, and soil appears evenly saturated. No signs of wilt, mold, or stress are present.",
       "actions": "Do not water today. No pest treatment required, as no new chew holes are visible and prior damage has not progressed.",
       "next_steps": "Check moisture again tomorrow late morning. Monitor for the emergence of the first true leaf pair within the next several days. Only reapply spinosad if new holes appear within 5–7 days.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251207-01.jpeg",
           "caption": "Digital probe screenshot showing high moisture levels and stable seedling environment.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251207-02.jpeg",
           "caption": "Jalapeño seedlings with no new chewing damage and healthy upright posture.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "pest-check",
-            "cotyledons"
-          ]
+          "tags": "jalapeno, seedlings, pest-check, cotyledons"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
-      "date": "12/04/2025",
+      "date": "12/4/2025",
       "time": "4:50 PM",
       "conditions": "Mostly sunny with a high of 84°F dropping to 64°F overnight.",
       "digital_probe": {
@@ -582,41 +729,29 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings remain upright and vigorous but now exhibit multiple new pin-holes across cotyledons. Damage is consistent with active flea beetle or small chewing insect activity. No signs of disease or nutrient stress. Soil is well-hydrated following a necessary watering earlier in the afternoon due to rapid drying in Florida sun.",
+      "observations": "Seedlings remain upright and vigorous but now exhibit multiple new pin-holes across cotyledons. Damage is consistent with active flea beetle or small chewing insect activity. No signs of disease or nutrient stress. Soil is well-hydrated following a necessary watering earlier in the afternoon due to rapid drying in Florida sun.",
       "actions": "Apply a light, targeted mist of Captain Jack's Deadbug (spinosad) at dusk. Focus on tops and bottoms of leaves and the soil surface around stems. Do not use neem oil. No additional watering needed today.",
       "next_steps": "Check seedlings tomorrow morning for any new holes. Evaluate moisture level and apply the next watering based on probe readings. If new damage appears, consider a follow-up spinosad treatment in 5–7 days.",
       "q_and_a_summary": "",
       "follow_up": [
-        "[4:45 PM] Observed numerous new pin-holes on cotyledons indicating active pest feeding."
+        "[4:45 PM] Observed numerous new pin-holes on cotyledons indicating active pest feeding.",
+        "[5:35 PM] Applied Captain Jack's Deadbug as instructed, using a light mist over leaves (top and underside) and soil surface."
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251204-01.jpeg",
           "caption": "Digital probe screenshot showing today's soil readings after necessary watering.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251204-02.jpeg",
           "caption": "Seedlings with scattered pin-hole chewing damage on cotyledons, consistent with flea beetle activity.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "pest-damage",
-            "cotyledons"
-          ]
+          "tags": "jalapeno, seedlings, pest-damage, cotyledons"
         }
       ]
     },
-    [
-      "[5:35 PM] Applied Captain Jack's Deadbug as instructed, using a light mist over leaves (top and underside) and soil surface."
-    ],
     {
-      "plant": "Jalapeño",
-      "date": "12/03/2025",
+      "date": "12/3/2025",
       "time": "1:40 PM",
       "conditions": "Mostly sunny with a high of 82°F dropping to 62°F overnight.",
       "digital_probe": {
@@ -634,36 +769,26 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings remain upright, vigorous, and uniformly green. Cotyledons show the lifted, forward-tilting posture associated with imminent true leaf emergence. Chewing damage from yesterday appears unchanged with no new holes or signs of active pests. Soil surface is lightly crusted from sun but still evenly hydrated beneath.",
+      "observations": "Seedlings remain upright, vigorous, and uniformly green. Cotyledons show the lifted, forward-tilting posture associated with imminent true leaf emergence. Chewing damage from yesterday appears unchanged with no new holes or signs of active pests. Soil surface is lightly crusted from sun but still evenly hydrated beneath.",
       "actions": "No watering today. Pest control not required at this time as no new damage is observed.",
       "next_steps": "Recheck moisture tomorrow morning; watering will likely be needed within 24 hours if drying continues. Monitor closely for first true leaf emergence.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251203-01.jpeg",
           "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251203-02.jpeg",
           "caption": "Jalapeño seedlings showing upright growth and stable cotyledons with no new pest damage.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "cotyledons",
-            "soil"
-          ]
+          "tags": "jalapeno, seedlings, cotyledons, soil"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
-      "date": "12/02/2025",
+      "date": "12/2/2025",
       "time": "10:47 AM",
       "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; wind gusts up to 19 mph.",
       "digital_probe": {
@@ -681,7 +806,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings remain healthy and upright with cotyledons fully extended, though new chewing damage is visible on one leaf. Moisture is high but stable under cloudy conditions, and wind gusts have not caused structural stress. No signs of disease or overwatering are present.",
+      "observations": "Seedlings remain healthy and upright with cotyledons fully extended, though new chewing damage is visible on one leaf. Moisture is high but stable under cloudy conditions, and wind gusts have not caused structural stress. No signs of disease or overwatering are present.",
       "actions": "Do not water today. Inspect seedlings closely for hidden caterpillars or larvae. Apply a light, targeted mist of Captain Jack's Deadbug at dusk if additional chewing appears.",
       "next_steps": "Monitor seedling cluster tomorrow for new holes or expanding damage. Check for first true leaf emergence as upward growth continues.",
       "q_and_a_summary": "",
@@ -690,28 +815,18 @@
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251202-01.jpeg",
           "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251202-02.jpeg",
           "caption": "Jalapeño seedlings with healthy upright cotyledons and a visible chewing hole on one leaf.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "cotyledons",
-            "pest-damage"
-          ]
+          "tags": "jalapeno, seedlings, cotyledons, pest-damage"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
       "date": "11/28/2025",
       "time": "10:33 AM",
       "conditions": "Cloudy with a high of 72°F dropping to 57°F overnight; clear conditions expected around 6 PM.",
@@ -730,35 +845,25 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings remain upright and healthy with cotyledons that are beginning the subtle lift that precedes first true leaf formation. Soil is evenly moist from recent rain and the surface texture is stable with no signs of compaction or pooling. The cooler temperatures and elevated pH are well within a safe range for early growth.",
+      "observations": "Seedlings remain upright and healthy with cotyledons that are beginning the subtle lift that precedes first true leaf formation. Soil is evenly moist from recent rain and the surface texture is stable with no signs of compaction or pooling. The cooler temperatures and elevated pH are well within a safe range for early growth.",
       "actions": "Do not water today. Allow natural drying through the afternoon and evening.",
       "next_steps": "Recheck moisture and seedling posture tomorrow as temperatures rise slightly. Watch closely for the first true leaves.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251128-01.jpeg",
           "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251128-02.jpeg",
           "caption": "Jalapeño seedlings showing healthy upright cotyledons with soil evenly moist after recent rain.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "cotyledons",
-            "soil"
-          ]
+          "tags": "jalapeno, seedlings, cotyledons, soil"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
       "date": "11/27/2025",
       "time": "11:12 AM",
       "conditions": "Cloudy with a high of 81°F dropping to 65°F overnight; rain expected around 6 PM.",
@@ -777,45 +882,30 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings remain healthy and upright with consistent green cotyledons and no signs of damping-off. Soil is moderately moist and newly added soil around the probe holes has been leveled without stressing the plants. Leaves have small soil flecks from adjustments, but overall growth posture is stable.",
+      "observations": "Seedlings remain healthy and upright with consistent green cotyledons and no signs of damping-off. Soil is moderately moist and newly added soil around the probe holes has been leveled without stressing the plants. Leaves have small soil flecks from adjustments, but overall growth posture is stable.",
       "actions": "Apply a very light rinse to clean soil from the leaves and settle the added soil. Do not perform a full watering due to expected evening rain.",
       "next_steps": "Allow rain to provide deeper hydration later today. Recheck moisture and seedling posture tomorrow and ensure soil remains evenly settled.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251127-01.jpeg",
           "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251127-02.jpeg",
           "caption": "Cluster of Jalapeño seedlings showing upright cotyledons and newly leveled soil surface.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "cotyledons",
-            "soil"
-          ]
+          "tags": "jalapeno, seedlings, cotyledons, soil"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251127-03.jpeg",
           "caption": "Wider view of planter showing seedling cluster and soil condition prior to expected rain.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "planter",
-            "soil"
-          ]
+          "tags": "jalapeno, seedlings, planter, soil"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
       "date": "11/26/2025",
       "time": "10:48 AM",
       "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight; thunderstorms expected around 4 PM.",
@@ -834,35 +924,25 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings are vigorous with fully expanded cotyledons and upright stems. Soil was already well hydrated before the light rain, and moisture levels are expected to rise further as storms develop later today. No signs of foliar stress or damping-off are present.",
+      "observations": "Seedlings are vigorous with fully expanded cotyledons and upright stems. Soil was already well hydrated before the light rain, and moisture levels are expected to rise further as storms develop later today. No signs of foliar stress or damping-off are present.",
       "actions": "Do not water today. Allow natural rainfall to handle moisture. Avoid disturbing the seedling cluster and monitor for any pooling after thunderstorms.",
       "next_steps": "Check moisture and surface conditions after storms pass. Reassess hydration needs tomorrow once the soil has time to settle.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today’s Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "file_name": "pepper_003-20251126-01.jpeg",
+          "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251126-02.jpeg",
           "caption": "Jalapeño seedlings showing healthy upright growth with moist soil prior to incoming storms.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "cotyledons",
-            "soil"
-          ]
+          "tags": "jalapeno, seedlings, cotyledons, soil"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
       "date": "11/24/2025",
       "time": "10:49 AM",
       "conditions": "Partly cloudy with a high of 81°F dropping to 61°F overnight.",
@@ -881,7 +961,7 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Seedlings appear healthy with elongated cotyledons and upright early stems. Soil is visibly dry and the low moisture reading confirms that the planter is nearing the lower threshold for young seedlings. No signs of damping-off or foliar stress are present.",
+      "observations": "Seedlings appear healthy with elongated cotyledons and upright early stems. Soil is visibly dry and the low moisture reading confirms that the planter is nearing the lower threshold for young seedlings. No signs of damping-off or foliar stress are present.",
       "actions": "No corrective action needed beyond today's light shower. Avoid disturbing seedlings and maintain steady light exposure.",
       "next_steps": "Recheck moisture and general seedling posture tomorrow. Monitor for the first signs of true leaf formation as seedlings stabilize.",
       "q_and_a_summary": "",
@@ -890,28 +970,18 @@
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today’s Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "file_name": "pepper_003-20251124-01.jpeg",
+          "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251124-02.jpeg",
           "caption": "Jalapeño seedlings showing expanded cotyledons and dry soil surface under morning sun.",
-          "tags": [
-            "jalapeno",
-            "seedlings",
-            "cotyledons",
-            "soil"
-          ]
+          "tags": "jalapeno, seedlings, cotyledons, soil"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
       "date": "11/23/2025",
       "time": "1:19 PM",
       "conditions": "Sunny with a high of 84°F dropping to 63°F overnight.",
@@ -930,35 +1000,25 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Multiple new sprouts have emerged since yesterday, indicating strong germination success within the expected window. Seedlings appear healthy, upright, and evenly colored with no signs of damping-off or stress. Soil pH has risen slightly from yesterday’s low and remains mildly acidic but non-harmful. EC and salts have increased as soil temperature climbed, reflecting normal ion mobility. Moisture remains in an ideal range for early seedlings, and the soil surface is aerated with no fungal growth.",
+      "observations": "Multiple new sprouts have emerged since yesterday, indicating strong germination success within the expected window. Seedlings appear healthy, upright, and evenly colored with no signs of damping-off or stress. Soil pH has risen slightly from yesterday's low and remains mildly acidic but non-harmful. EC and salts have increased as soil temperature climbed, reflecting normal ion mobility. Moisture remains in an ideal range for early seedlings, and the soil surface is aerated with no fungal growth.",
       "actions": "No watering needed. Do not add lime or fertilizer. Maintain sunlight exposure and avoid disturbing the dense cluster of emerging seedlings.",
       "next_steps": "Monitor seedlings over the next 24–48 hours for cotyledon expansion. Recheck moisture and pH tomorrow. Begin watching for early stem lengthening as sprouts stabilize.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today’s Jalapeño soil readings.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "file_name": "pepper_003-20251123-01.jpeg",
+          "caption": "Digital probe screenshot showing today's Jalapeño soil readings.",
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251123-02.jpeg",
           "caption": "Multiple new Jalapeño sprouts emerging around the support pole in the left section of the pepper window box.",
-          "tags": [
-            "jalapeno",
-            "sprouts",
-            "seedlings",
-            "soil"
-          ]
+          "tags": "jalapeno, sprouts, seedlings, soil"
         }
       ]
     },
     {
-      "plant": "Jalapeño",
       "date": "11/22/2025",
       "time": "10:45 AM",
       "conditions": "Mostly cloudy with a high of 84°F dropping to 67°F overnight.",
@@ -977,31 +1037,21 @@
         "moisture": "",
         "ph": ""
       },
-      "observation": "Two sprouts have emerged on either side of the support pole, marking successful germination and entry into the seedling emergence stage. Soil moisture continues to decline steadily and remains appropriate for early seedlings. The sharp drop in pH and EC reflects cooler morning temperatures, reduced ion mobility, and natural microbial shifts during sprout emergence. Surface lime remains in patches but is not impeding growth. Soil appears loose and well-aerated with no signs of damping-off or fungal growth.",
+      "observations": "Two sprouts have emerged on either side of the support pole, marking successful germination and entry into the seedling emergence stage. Soil moisture continues to decline steadily and remains appropriate for early seedlings. The sharp drop in pH and EC reflects cooler morning temperatures, reduced ion mobility, and natural microbial shifts during sprout emergence. Surface lime remains in patches but is not impeding growth. Soil appears loose and well-aerated with no signs of damping-off or fungal growth.",
       "actions": "No watering required today. Do not add lime or fertilizer. Maintain sunlight exposure and avoid disturbing the cotyledons as they open fully.",
       "next_steps": "Monitor sprouts over the next 24–48 hours for cotyledon expansion. Recheck moisture and pH tomorrow. Begin watching for early signs of stem elongation and ensure the surface stays lightly aerated.",
       "q_and_a_summary": "",
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
-          "caption": "Digital probe screenshot showing today’s soil readings for the Jalapeño.",
-          "tags": [
-            "jalapeno",
-            "probe",
-            "readings"
-          ]
+          "file_name": "pepper_003-20251122-01.jpeg",
+          "caption": "Digital probe screenshot showing today's soil readings for the Jalapeño.",
+          "tags": "jalapeno, probe, readings"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251122-02.jpeg",
           "caption": "Two newly emerged Jalapeño sprouts visible near the support pole with lime residue on the soil surface.",
-          "tags": [
-            "jalapeno",
-            "sprouts",
-            "seedlings",
-            "soil",
-            "lime"
-          ]
+          "tags": "jalapeno, sprouts, seedlings, soil, lime"
         }
       ]
     },
@@ -1031,7 +1081,7 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251121-01.jpeg",
           "caption": "Jalapeño planter surface showing lime residue and improving soil structure.",
           "tags": "jalapeno, soil, planter, lime"
         }
@@ -1063,7 +1113,7 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251120-01.jpeg",
           "caption": "Jalapeño planter showing surface lime distribution and soil condition.",
           "tags": "jalapeno, soil, planter"
         }
@@ -1097,12 +1147,12 @@
       ],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251119-01.jpeg",
           "caption": "Morning planter photo showing surface lime and soil condition.",
           "tags": "jalapeno, soil, planter"
         },
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251119-02.jpeg",
           "caption": "Afternoon follow-up showing oversaturated soil after accidental watering.",
           "tags": "jalapeno, soil, follow-up, watering"
         }
@@ -1134,7 +1184,7 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251118-01.jpeg",
           "caption": "Pepper box showing lime distribution across Scotch Bonnet, Orange Cal Wonder, and Jalapeño sections.",
           "tags": "planter, lime, jalapeno, soil"
         }
@@ -1166,7 +1216,7 @@
       "follow_up": [],
       "photos": [
         {
-          "file_name": "<<put filename here>>",
+          "file_name": "pepper_003-20251117-01.jpeg",
           "caption": "Jalapeño planter section showing initial lime application.",
           "tags": "jalapeno, soil, lime"
         }

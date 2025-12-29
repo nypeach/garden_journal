@@ -13,9 +13,9 @@
     "Planted in black planter 23.5\" × 7.85\" × 6\" left front",
     "Shares planter with Cilantro, Parsley, Thyme, and Oregano."
   ],
-  "whats_been_logged": "The planting began with very dry, alkaline soil that was rehydrated and corrected with lime. Early germination was slow but steady as moisture stabilized and pH gradually shifted from alkaline to acidic, then naturally rebounded toward ideal range. Sprouts emerged healthy and upright, with first true-leaf tips now visible as the seedlings transition from germination into active early growth.",
-  "current_stage": "Early Vegetative Growth",
-  "current_state": "A healthy stand of Thai basil with upright stems and multiple sets of elongated true leaves actively expanding. Foliage is evenly green with no visible stress, wilting, or pest damage, and the soil is uniformly moist with good structure in the shared herb planter.",
+  "whats_been_logged": "The focus has shifted from early vegetative expansion into managing canopy size through topping, monitoring basil regrowth response, and protecting the shared herb window box from cutworm activity. Soil moisture, EC, and salt levels have become the main variables to watch, with attention on correcting uneven wet pockets and preventing root-zone stress while the basil branches back out.",
+  "current_stage": "Post-Harvest Branching Regrowth",
+  "current_state": "The Thai basil has been recently topped to reduce crowding and encourage branching, leaving multiple healthy stems and nodes positioned for regrowth. Remaining foliage is evenly green with no visible spotting or scorch, and the plant appears stable and upright in the shared herb window box. Soil conditions are currently very moist with uneven nutrient and salt distribution across zones, requiring dry-down to protect root oxygenation, and cutworm pressure has been confirmed and treated.",
   "timeline": [
     {
       "what_i_should_see": "Tiny Paired Leaves Emerging at Nodes",
@@ -44,9 +44,183 @@
     {
       "what_i_should_see": "First Harvestable Sprigs Visible",
       "date_range": "Dec 28, 2025 - Jan 10, 2026"
+    },
+    {
+      "what_i_should_see": "New Branch Shoots Appearing at Cut Nodes",
+      "date_range": "Dec 29 - Jan 3, 2026"
+    },
+    {
+      "what_i_should_see": "Bushier Canopy Re-Forming After Topping",
+      "date_range": "Jan 3 - Jan 10, 2026"
+    },
+    {
+      "what_i_should_see": "First Regrowth Harvestable Sprigs",
+      "date_range": "Jan 10 - Jan 20, 2026"
     }
   ],
   "journal": [
+    {
+      "date": "12/28/2025",
+      "time": "2:03 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.85",
+        "ec_mScm": "0.54",
+        "salt_mg_L": "271",
+        "moisture_mScm": "81.50",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "31.0",
+        "soil_temp_f": "92.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil is in early regrowth after a recent topping/harvest, with remaining stems upright and healthy and no visible spotting or scorch. Two probe readings taken from different sides of the shared window box show a major zone difference, with one side fully saturated and very high in EC/salts and the other side moderately moist with low EC/salts, indicating uneven moisture and nutrient distribution. Soil temperature is very warm, increasing root-zone oxygen risk if the planter remains wet.",
+      "actions": "Do not water or fertilize today. Do not water at 6:00 AM tomorrow morning. Allow the planter to dry down naturally to improve root-zone oxygenation and reduce the risk of salt stress, and gently loosen only the top 1/4 inch of bare soil areas away from stems to improve air exchange.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only when the drier zone drops into the 45–55 range and the wettest zone is no longer above 70. If EC remains above 0.60 and salts remain above 300 once moisture drops below 65, plan a controlled leaching flush only when the planter is drier.",
+      "q_and_a_summary": "Discussed whether to water at 6:00 AM tomorrow; confirmed no watering is needed because moisture remains high and readings show saturated pockets with elevated EC/salts.",
+      "follow_up": [
+        "[8:04 AM] Lightly roughed up the top 1/4 inch of bare soil across the entire shared herb window box to improve surface aeration and encourage more even dry-down."
+      ],
+      "photos": [
+        {
+          "file_name": "basil_003-20251228-03.jpeg",
+          "caption": "Overhead view of the shared herb window box showing Thai basil post-harvest with remaining stems and leaf clusters, alongside a dense cilantro section; soil appears dark and moist.",
+          "tags": "thai basil, post harvest, shared planter, overhead, soil moisture"
+        },
+        {
+          "file_name": "basil_003-20251228-04.jpeg",
+          "caption": "Closer overhead view showing Thai basil stems and remaining leaf sets after topping, with healthy green coloration and moist soil conditions in the shared planter.",
+          "tags": "thai basil, regrowth, topping, healthy foliage, shared planter"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "2:03 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.85",
+        "ec_mScm": "0.54",
+        "salt_mg_L": "271",
+        "moisture_mScm": "81.50",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "31.0",
+        "soil_temp_f": "92.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil is in early regrowth after a recent topping/harvest, with remaining stems upright and healthy and no visible spotting or scorch. Two probe readings taken from different sides of the shared window box show a major zone difference, with one side fully saturated and very high in EC/salts and the other side moderately moist with low EC/salts, indicating uneven moisture and nutrient distribution. Soil temperature is very warm, increasing root-zone oxygen risk if the planter remains wet.",
+      "actions": "Do not water or fertilize today. Do not water at 6:00 AM tomorrow morning. Allow the planter to dry down naturally to improve root-zone oxygenation and reduce the risk of salt stress, and gently loosen only the top 1/4 inch of bare soil areas away from stems to improve air exchange.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only when the drier zone drops into the 45–55 range and the wettest zone is no longer above 70. If EC remains above 0.60 and salts remain above 300 once moisture drops below 65, plan a controlled leaching flush only when the planter is drier.",
+      "q_and_a_summary": "Discussed whether to water at 6:00 AM tomorrow; confirmed no watering is needed because moisture remains high and readings show saturated pockets with elevated EC/salts.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20251228-03.jpeg",
+          "caption": "Overhead view of the shared herb window box showing Thai basil post-harvest with remaining stems and leaf clusters, alongside a dense cilantro section; soil appears dark and moist.",
+          "tags": "thai basil, post harvest, shared planter, overhead, soil moisture"
+        },
+        {
+          "file_name": "basil_003-20251228-04.jpeg",
+          "caption": "Closer overhead view showing Thai basil stems and remaining leaf sets after topping, with healthy green coloration and moist soil conditions in the shared planter.",
+          "tags": "thai basil, regrowth, topping, healthy foliage, shared planter"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:25 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.82",
+        "salt_mg_L": "413",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "51.0",
+        "soil_temp_f": "66.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil was harvested (topped) to reduce crowding in the shared herb window box and promote branching. The remaining stems appear healthy and upright with evenly green leaves and no visible spotting or scorch. A worm was found buried in the soil, raising concern for potential cutworm or caterpillar activity. Soil appears very moist, consistent with the high moisture reading and elevated EC/salt values.",
+      "actions": "Do not water or fertilize today. Allow the planter to dry down naturally to improve oxygen in the root zone and reduce stress from elevated salts. Spray Captain Jack’s DeadBug on the entire window box, targeting the soil surface and lower stems in late afternoon to prevent cutworm or caterpillar feeding overnight.",
+      "next_steps": "Monitor new basil regrowth tips and low stems over the next 48 hours for chewing or fresh damage. Recheck probe readings in 48 hours; if EC remains above 0.60 and salts remain above 300 after moisture drops, plan a controlled leaching flush only once the planter is drier. Expect branching at cut points within 3–6 days under warm, sunny conditions.",
+      "q_and_a_summary": "Discussed whether a worm found buried in the soil should trigger treatment; confirmed that spraying Captain Jack’s DeadBug on the entire window box is appropriate as a preventative for cutworms or caterpillars, applied to the soil surface and lower stems.",
+      "follow_up": [
+        "[5:21 PM] Sprayed Captain Jack’s DeadBug across the entire shared herb window box, focusing on the soil surface and base of stems to prevent cutworm feeding overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "basil_003-20251227-01.jpeg",
+          "caption": "Before-harvest overhead view of Thai basil showing taller growth and a fuller canopy occupying the front zone of the shared herb window box.",
+          "tags": "thai basil, before harvest, overhead, canopy, shared planter"
+        },
+        {
+          "file_name": "basil_003-20251227-02.jpeg",
+          "caption": "After-harvest side view showing Thai basil topped lower to the soil line with multiple nodes left for branching; cilantro remains dense behind it.",
+          "tags": "thai basil, after harvest, topping, branching nodes, shared planter"
+        },
+        {
+          "file_name": "basil_003-20251227-03.jpeg",
+          "caption": "After-harvest overhead view showing the Thai basil section opened up with more space and light penetration at the soil surface, supporting healthier regrowth.",
+          "tags": "thai basil, after harvest, overhead, regrowth, shared planter"
+        },
+        {
+          "file_name": "basil_003-20251227-05.jpeg",
+          "caption": "Close-up view of the shared herb window box showing Thai basil stems post-harvest and surrounding herbs; soil appears dark and very moist.",
+          "tags": "thai basil, shared planter, soil moisture, post harvest, herbs"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:09 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "109",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "90.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil shows vigorous vegetative growth with tall upright stems and multiple large, evenly green leaves. The plant appears full and healthy with no visible wilting, discoloration, or pest damage in the current photos. Soil appears evenly moist and stable across the shared herb window box.",
+      "actions": "Do not water today. Allow the planter to dry down naturally to improve root-zone oxygenation in the warm soil. If desired, pinch the very tip of 1–2 tallest basil stems to encourage branching and bushier growth.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon. Water only when moisture drops into the 45–55 range or if leaves lose turgor. Avoid fertilizing while moisture remains above 65 and soil temperatures stay very warm.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20251225-02.jpeg",
+          "caption": "Side view of Thai basil in the shared herb window box showing tall, upright stems and broad, healthy green leaves with strong vegetative growth.",
+          "tags": "thai basil, vegetative growth, upright stems, healthy foliage, shared planter"
+        },
+        {
+          "file_name": "basil_003-20251225-03.jpeg",
+          "caption": "Angled view of the Thai basil section showing vigorous leaf expansion and a fuller canopy developing alongside the companion herbs in the window box.",
+          "tags": "thai basil, canopy development, leaf expansion, shared planter, healthy growth"
+        }
+      ]
+    },
     {
       "date": "12/20/2025",
       "time": "8:15 AM",

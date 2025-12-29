@@ -53,6 +53,102 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "1:58 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "4.90",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "39",
+        "moisture_mScm": "34.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "88.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Several thin, bright-green chive seedlings are visible in a small cluster and remain upright, but emergence is still sparse and uneven across the section with minimal tufting. The soil surface is bark-heavy and uneven with dry-looking patches, while the probe confirms the root zone is moderately moist and able to support continued establishment. No signs of collapse, rot, or damping-off are visible at the soil line.",
+      "actions": "Do not apply fertilizer or amendments. Maintain moisture consistency by watering only when moisture drops below 25.00 mS/cm, using a gentle stream and avoiding surface disturbance.",
+      "next_steps": "Recheck moisture tomorrow morning to prevent a dry-down stall in full sun, and water lightly if moisture is below 30.00 mS/cm or the surface becomes pale and dusty. Continue monitoring for additional blades emerging from the same base over the next 7–10 days as consistency improves. Avoid pH amendments unless low readings persist while moisture remains stable for several days.",
+      "q_and_a_summary": "Discussed whether watering is needed early the following morning; confirmed a small, targeted watering is appropriate to maintain seedling moisture stability given the sunny, warm forecast and expected fast dry-down.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251228-02.jpeg",
+          "caption": "Overhead view of the chive section showing a small cluster of thin green seedlings emerging through a bark-heavy soil surface with uneven moisture appearance.",
+          "tags": "chives, seedlings, sparse, cluster, bark-heavy, window-box, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:20 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "8.00",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "25",
+        "moisture_mScm": "21.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "66.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A small number of thin, bright-green chive seedlings are visible and upright, but emergence remains sparse with minimal tufting across the section. The soil surface appears loose and bark-heavy with dry patches visible, consistent with low moisture for seedlings even after morning watering around 9:30 AM during nearby broccoli feeding; a small amount of diluted Purived fertilizer may have splashed onto the chive area without any visible burn or stress. No signs of collapse, rot, or damping-off are visible at the soil line.",
+      "actions": "Do not apply additional fertilizer. Plan a light early-morning watering tomorrow (30 seconds, gentle stream) focused on the chive section to prevent another dry-down stall. Do not disturb the soil surface after watering.",
+      "next_steps": "Check moisture tomorrow at 6:00 AM; water 45 seconds if moisture is below 20.00 mS/cm, water 30 seconds if 20.00–30.00 mS/cm, and skip if above 30.00 mS/cm. Continue monitoring for more blades emerging from the same base over the next 7–10 days as moisture consistency improves. Avoid pH amendments unless high readings persist while moisture is stable.",
+      "q_and_a_summary": "Discussed whether a 6:00 AM watering is needed tomorrow given the current low moisture reading and sunny forecast; confirmed that a light, targeted morning watering is appropriate unless moisture rises above 30.00 mS/cm and the soil remains dark and damp.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251227-02.jpeg",
+          "caption": "Overhead view of the chive section showing very sparse, thread-like green seedlings emerging through a bark-heavy soil surface with dry patches and minimal cohesion.",
+          "tags": "chives, seedlings, sparse, dry-patches, window-box, overhead"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:41 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "13",
+        "moisture_mScm": "5.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "84.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "A small number of thin green chive seedlings are still visible and upright, but emergence remains sparse and growth appears stalled. The soil surface is dry, loose, and bark-heavy with minimal visible cohesion, consistent with critically low moisture at depth. No signs of collapse, rot, or damping-off are visible at the soil line.",
+      "actions": "Water now using a gentle stream for 60 seconds over the chive section, pause 5 minutes, then water again for 30 seconds to help moisture penetrate evenly. Do not disturb or brush the surface afterward.",
+      "next_steps": "Check moisture tomorrow morning and water again only if moisture remains below 20.00 mS/cm or the surface becomes pale and dusty in full sun. Avoid fertilizing until moisture stabilizes and more consistent tufting is visible across the section. Continue monitoring for additional blades emerging from the same base over the next 7–10 days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20251225-02.jpeg",
+          "caption": "Overhead view of the chive section showing very sparse, thread-like green seedlings emerging from a dry, bark-heavy soil surface with minimal visible cohesion.",
+          "tags": "chives, seedlings, sparse, dry-soil, window-box, overhead"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "8:12 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

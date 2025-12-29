@@ -32,6 +32,168 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "2:06 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "105",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "85.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley is rebounding rapidly after yesterday’s harvest with dense, healthy green regrowth and strong, upright stems. Leaves appear turgid and full with no visible wilting, spotting, or burn. Soil moisture remains very high, indicating the planter should be allowed to dry down naturally before any additional irrigation.",
+      "actions": "Do not water today due to very high soil moisture. Do not fertilize. Allow natural dry-down under sunny conditions to keep the root zone well-oxygenated and support continued vigorous regrowth.",
+      "next_steps": "Recheck probe readings tomorrow morning or midday. Water only once moisture drops into the mid-range. Continue light harvesting from outer stems as needed to manage size and maintain airflow through the crown.",
+      "q_and_a_summary": "User asked whether watering at 6:52 AM is appropriate; advised not to water because soil moisture is still very high and sunny conditions will support natural dry-down.",
+      "follow_up": [
+        "[8:04 AM] Lightly roughed up the top 1/4 inch of bare soil across the entire herb window box to reduce surface crusting and improve aeration."
+      ],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251228-02.jpeg",
+          "caption": "Close-up view showing vigorous parsley regrowth with healthy green leaves and strong stem structure following yesterday’s harvest.",
+          "tags": "parsley, regrowth, healthy, vigorous, close-up"
+        },
+        {
+          "file_name": "parsley_001-20251228-03.jpeg",
+          "caption": "Wider view showing the parsley occupying the center zone of the herb window box with dense canopy recovery under bright sun conditions.",
+          "tags": "parsley, canopy, shared-planter, vigorous, sunlight"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "2:06 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.21",
+        "salt_mg_L": "105",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "85.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley is rebounding rapidly after yesterday’s harvest with dense, healthy green regrowth and strong, upright stems. Leaves appear turgid and full with no visible wilting, spotting, or burn. Soil moisture remains very high, indicating the planter should be allowed to dry down naturally before any additional irrigation.",
+      "actions": "Do not water today due to very high soil moisture. Do not fertilize. Allow natural dry-down under sunny conditions to keep the root zone well-oxygenated and support continued vigorous regrowth.",
+      "next_steps": "Recheck probe readings tomorrow morning or midday. Water only once moisture drops into the mid-range. Continue light harvesting from outer stems as needed to manage size and maintain airflow through the crown.",
+      "q_and_a_summary": "User asked whether watering at 6:52 AM is appropriate; advised not to water because soil moisture is still very high and sunny conditions will support natural dry-down.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251228-02.jpeg",
+          "caption": "Close-up view showing vigorous parsley regrowth with healthy green leaves and strong stem structure following yesterday’s harvest.",
+          "tags": "parsley, regrowth, healthy, vigorous, close-up"
+        },
+        {
+          "file_name": "parsley_001-20251228-03.jpeg",
+          "caption": "Wider view showing the parsley occupying the center zone of the herb window box with dense canopy recovery under bright sun conditions.",
+          "tags": "parsley, canopy, shared-planter, vigorous, sunlight"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:26 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "5.50",
+        "ec_mScm": "0.60",
+        "salt_mg_L": "303",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "37.0",
+        "soil_temp_f": "63.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley remains highly vigorous and lush with dense bright green foliage, and it shows improved structure after a morning harvest around 9:00 AM that opened the crown for better airflow. A cutworm was discovered buried in the soil, confirming active pest presence in the shared herb window box. Soil moisture is very high and fertility is elevated, supporting rapid growth but indicating the planter should be allowed to dry down before the next irrigation.",
+      "actions": "Do not water today or tomorrow morning due to very high soil moisture. Do not fertilize. Spray Captain Jack’s DeadBug this evening in the shade across the entire herb box, focusing on the soil surface and lower stems to address cutworm activity.",
+      "next_steps": "Recheck probe readings tomorrow morning or the following day. Do not water until moisture drops into a mid-range level. Monitor EC and salt trends; if they continue rising, avoid fertilizer and prioritize consistent dry-down cycles.",
+      "q_and_a_summary": "User asked whether watering at 6:00 AM tomorrow is appropriate; advised not to water because moisture is very high and sunny conditions will support natural dry-down.",
+      "follow_up": [
+        "[5:21 PM] Sprayed Captain Jack’s DeadBug across the entire herb window box, focusing on soil surface and lower stems to address cutworm activity."
+      ],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251227-01.jpeg",
+          "caption": "Before-harvest view showing the parsley canopy dense and sprawling outward, indicating vigorous growth and crowding in the shared herb window box.",
+          "tags": "parsley, before-harvest, canopy, crowded, vigorous"
+        },
+        {
+          "file_name": "parsley_001-20251227-02.jpeg",
+          "caption": "Before-harvest angled view showing the parsley leaning outward over the planter edge with heavy leaf mass and limited airflow through the crown.",
+          "tags": "parsley, before-harvest, sprawling, structure, dense-growth"
+        },
+        {
+          "file_name": "parsley_001-20251227-03.jpeg",
+          "caption": "Before-harvest overhead view showing parsley occupying much of the center section of the herb box and shading nearby herbs.",
+          "tags": "parsley, before-harvest, overhead, shared-planter, shading"
+        },
+        {
+          "file_name": "parsley_001-20251227-05.jpeg",
+          "caption": "After-harvest close-up showing improved crown openness and airflow with healthy green leaves and upright stems, indicating strong recovery potential and continued productivity.",
+          "tags": "parsley, after-harvest, healthy, airflow, crown, regrowth"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:09 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.56",
+        "salt_mg_L": "282",
+        "moisture_mScm": "69.00",
+        "light": "99",
+        "rh_percent": "29",
+        "fertility_percent": "34.0",
+        "soil_temp_f": "83.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley is extremely vigorous with dense, bright green foliage and long outer stems sprawling outward from the crown. Leaf color appears healthy and uniform with no visible wilting, spotting, or burn. Soil moisture is high and supports rapid growth under warm, sunny conditions.",
+      "actions": "Do not water or fertilize today. Harvest the longest outer stems first by cutting them low at the base to reduce sprawl and improve airflow through the crown.",
+      "next_steps": "Allow the soil to dry down naturally over the next 24–48 hours in sunny weather. Recheck probe readings tomorrow or the following day; avoid watering until moisture drops into the mid-range. Watch EC and salt trends and avoid additional fertilizer while fertility remains elevated.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251225-02.jpeg",
+          "caption": "Overhead view showing a dense, vigorous parsley canopy with healthy green leaves and strong outward expansion across the center of the herb window box.",
+          "tags": "parsley, canopy, vigorous, healthy-growth, overhead"
+        },
+        {
+          "file_name": "parsley_001-20251225-03.jpeg",
+          "caption": "Angled wide view showing parsley spreading outward with long stems extending over the edge of the window box, indicating mature growth and readiness for harvest.",
+          "tags": "parsley, sprawling, mature-growth, harvest-ready, structure"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "8:16 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

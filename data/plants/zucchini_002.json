@@ -49,6 +49,264 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "2:10 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "39",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "75.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant is upright again after severe leaning; a new support tie was added before pruning so it does not sit on fresh cut petioles. Two female fruits were removed due to progressive yellowing and softening, including one hand-pollinated female whose top became increasingly yellow/soft and one female that never opened and was turning light yellow. A healthy, darker green newly pollinated fruit remains firm and continues developing. A new female flower opened today but no male flowers were large enough to pollinate. Remaining leaf petioles are extremely large and vigorous, supporting strong canopy growth.",
+      "actions": "Water at the base in the morning as needed to maintain even moisture through the root zone, keeping irrigation off the crown and fresh cut sites. Continue supporting the main stem with loose figure-8 ties to prevent leaning while avoiding contact with fresh petiole cuts.",
+      "next_steps": "Monitor the remaining developing fruit for firmness and steady size increase over the next 48 hours. Watch for male flowers opening early in the morning to pollinate any new female blooms promptly. Continue checking ties daily and adjust to avoid constriction as the stem expands. Maintain consistent moisture in the raised bed during sunny days to reduce fruit abortion risk.",
+      "q_and_a_summary": "Discussed why some female fruits yellow and soften after missed or incomplete pollination and why removing aborted fruit helps redirect energy to the healthy developing fruit. Discussed expectations for an opened female flower without available male pollen and how quickly it may close and abort. Discussed whether morning watering is appropriate based on current moisture readings and raised-bed conditions.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251228-01.jpeg",
+          "caption": "Hand-pollinated female fruit showing increasing yellowing and softness prior to removal.",
+          "tags": "zucchini, female fruit, yellowing, soft, aborted fruit"
+        },
+        {
+          "file_name": "zucchini_002-20251228-02.jpeg",
+          "caption": "Side view showing the removed hand-pollinated female and nearby developing fruit on the main stem.",
+          "tags": "zucchini, fruit set, female, pruning, stem support"
+        },
+        {
+          "file_name": "zucchini_002-20251228-03.jpeg",
+          "caption": "Female fruit that never opened and began turning light yellow prior to removal to redirect energy.",
+          "tags": "zucchini, female bud, unopened, yellowing, aborted"
+        },
+        {
+          "file_name": "zucchini_002-20251228-04.jpeg",
+          "caption": "Top-down view of open female flower and plant structure within the raised bed.",
+          "tags": "zucchini, female flower, bloom, canopy, raised bed"
+        },
+        {
+          "file_name": "zucchini_002-20251228-06.jpeg",
+          "caption": "Full plant view showing vigorous canopy and improved posture after retie and pruning.",
+          "tags": "zucchini, canopy, vigor, staking, raised bed"
+        },
+        {
+          "file_name": "zucchini_002-20251228-07.jpeg",
+          "caption": "Mid-stem view showing plant tied for support with spacing kept away from fresh petiole cuts.",
+          "tags": "zucchini, staking, tie, figure-8, pruning wounds"
+        },
+        {
+          "file_name": "zucchini_002-20251228-08.jpeg",
+          "caption": "Close view of developing growth and flowers with strong, thick petioles supporting new production.",
+          "tags": "zucchini, petioles, new growth, flowering, vigor"
+        },
+        {
+          "file_name": "zucchini_002-20251228-09.jpeg",
+          "caption": "Top view showing multiple developing points and a healthy developing fruit alongside new buds.",
+          "tags": "zucchini, developing fruit, buds, growth stage, flowering"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "4:02 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "6.8",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "71",
+        "moisture_mScm": "56",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "7",
+        "soil_temp_f": "68.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini 002 is upright and vigorous with multiple female flowers and developing fruit. The first fruit remains firm, and the newly pollinated fruit is also firm. The plant leaned left mid-morning due to canopy/fruit weight and was retied using stretchy figure-8 ties while avoiding placement over freshly cut petiole zones. Leaves show prior chewing damage but current growth is active and green. Soil moisture is in a good range and the bed surface appears evenly moist.",
+      "actions": "Monitor soil moisture before watering tomorrow morning and water only if the top 2 inches are drying. Keep ties supportive but not constricting and continue to avoid placing ties over fresh petiole cuts. Recheck fruit firmness and growth daily, and remove any fruit that softens or yellows prematurely. Continue daily morning pollination while flowers are opening.",
+      "next_steps": "Watch for the next female flower to open in the next 1–2 days and hand pollinate early. Track fruit set by checking firmness and visible size increase over 24–48 hours. Keep airflow around the crown by maintaining the lower leaf pruning you started, and continue scouting for pests on leaf undersides.",
+      "q_and_a_summary": "Discussed that firm fruit is a positive sign of successful pollination and plant strength, that leaning is normal as weight increases and was corrected appropriately with careful re-tying, and that tomorrow’s watering should be based on a quick soil moisture check rather than automatic watering since moisture is currently in a good range.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251227-01.jpeg",
+          "caption": "Full plant view showing overall vigor, leaf canopy, and developing fruit in the raised bed.",
+          "tags": "zucchini, full plant, canopy, raised bed, vigor"
+        },
+        {
+          "file_name": "zucchini_002-20251227-02.jpeg",
+          "caption": "Close-up of the lower stem showing pruning points and supportive figure-8 ties positioned to avoid fresh cut zones.",
+          "tags": "zucchini, stem, pruning, ties, support, crown"
+        },
+        {
+          "file_name": "zucchini_002-20251227-03.jpeg",
+          "caption": "Wider view of the plant showing structure, tie placement, and soil condition around the root zone.",
+          "tags": "zucchini, structure, staking, ties, soil, raised bed"
+        },
+        {
+          "file_name": "zucchini_002-20251227-04.jpeg",
+          "caption": "Female flower and developing fruit shown with petals closing after pollination activity earlier in the day.",
+          "tags": "zucchini, female flower, pollination, fruit set, blossom"
+        },
+        {
+          "file_name": "zucchini_002-20251227-06.jpeg",
+          "caption": "Top-down view highlighting current leaf condition and new growth emerging from the center.",
+          "tags": "zucchini, leaves, new growth, canopy, health"
+        },
+        {
+          "file_name": "zucchini_002-20251227-07.jpeg",
+          "caption": "Close-up of developing fruit and nearby buds indicating continued flowering and fruit production.",
+          "tags": "zucchini, fruit, buds, flowering, development"
+        },
+        {
+          "file_name": "zucchini_002-20251227-08.jpeg",
+          "caption": "Close-up of a newly pollinated female flower with a firm fruit base attached to the stem.",
+          "tags": "zucchini, pollination, female flower, firm fruit, fruit set"
+        },
+        {
+          "file_name": "zucchini_002-20251227-09.jpeg",
+          "caption": "Close-up of a developing zucchini showing good color and firmness with the blossom still attached.",
+          "tags": "zucchini, developing fruit, firmness, blossom end"
+        },
+        {
+          "file_name": "zucchini_002-20251227-10.jpeg",
+          "caption": "Multiple developing fruits visible along the stem with active buds indicating ongoing production.",
+          "tags": "zucchini, multiple fruits, production, buds, growth"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:45 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight. Tonight: Clear.",
+      "digital_probe": {
+        "ph": "6.4",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "33",
+        "moisture_mScm": "42",
+        "light": "69",
+        "rh_percent": "48",
+        "fertility_percent": "3",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini plant is actively flowering and setting fruit. This morning the plant was hand pollinated. Bottom leaves were removed for airflow and the plant was retied using new stretchy garden ties in a figure-8 style for support. Leaves are overall green and vigorous with multiple large irregular holes consistent with chewing pest damage. Several female flowers are present; one is open/closing. Multiple developing zucchini are visible on the main stem. Soil readings show pH in range but very low fertility/EC, indicating the plant is underfed for its current fruiting demand.",
+      "actions": "Feed the plant today to raise soil fertility/EC and support fruit set. Treat for chewing pests to prevent further leaf loss (spray tops and undersides of leaves in late afternoon, avoiding direct spray into open flowers when possible). Monitor soil moisture and keep it steady as fruits enlarge.",
+      "next_steps": "Continue morning hand pollination on days female flowers open. Recheck probe readings in 48 hours to confirm fertility/EC rises after feeding. Inspect leaves daily for caterpillars/chewing insects and retreat as needed. Remove only 1–2 oldest leaves at a time to maintain airflow without stressing the plant. Watch developing fruits for steady swelling over the next 1–3 days.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251226-01.jpeg",
+          "caption": "Open yellow zucchini flower showing a healthy bloom on the plant.",
+          "tags": "zucchini, flower, bloom, pollination"
+        },
+        {
+          "file_name": "zucchini_002-20251226-02.jpeg",
+          "caption": "Close-up of the flower center showing pollen and stigma details.",
+          "tags": "zucchini, flower, pollen, stigma, pollination"
+        },
+        {
+          "file_name": "zucchini_002-20251226-04.jpeg",
+          "caption": "Top-down view of the zucchini plant showing overall canopy and leaf chewing damage.",
+          "tags": "zucchini, canopy, leaves, pest_damage, holes"
+        },
+        {
+          "file_name": "zucchini_002-20251226-05.jpeg",
+          "caption": "Developing zucchini fruit on the main stem with strong, healthy structure.",
+          "tags": "zucchini, fruit_set, developing_fruit"
+        },
+        {
+          "file_name": "zucchini_002-20251226-06.jpeg",
+          "caption": "Side view of a female flower closing with a developing fruit behind it.",
+          "tags": "zucchini, female_flower, fruit_set, closing_flower"
+        },
+        {
+          "file_name": "zucchini_002-20251226-07.jpeg",
+          "caption": "Crown and branching area showing multiple buds and developing fruits forming.",
+          "tags": "zucchini, buds, crown, growth, fruiting"
+        },
+        {
+          "file_name": "zucchini_002-20251226-08.jpeg",
+          "caption": "Close view of developing fruit and flower with visible stems and emerging buds.",
+          "tags": "zucchini, developing_fruit, bud, flower"
+        },
+        {
+          "file_name": "zucchini_002-20251226-09.jpeg",
+          "caption": "Lower stem area showing pruning and figure-8 ties providing support and airflow.",
+          "tags": "zucchini, pruning, support, ties, airflow"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:16 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "99",
+        "moisture_mScm": "63.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows vigorous, expansive leaf growth with a wide canopy and thick, upright petioles. The crown and lower stem zone appear clean and structurally strong, with multiple developing female flowers and small fruit structures visible in the fruiting zone. Leaf size is increasing rapidly, indicating strong uptake and active reproductive cycling with no visible signs of wilt, rot, or stress.",
+      "actions": "Remove 1–2 of the lowest soil-adjacent leaves by cutting petioles cleanly at the base to improve airflow and open the fruiting zone. Water in the morning only with a slow, deep base watering when moisture has clearly dropped; avoid routine night watering to reduce prolonged overnight wetness. Check for open female flowers at first light and hand pollinate the morning they open.",
+      "next_steps": "Take the daily probe reading in the morning before watering whenever possible to determine true watering need. Watch developing female buds closely over the next 24–48 hours and pollinate immediately when petals open. Monitor canopy density and continue gradual lower-leaf removal as needed to maintain airflow and keep developing fruits off the soil surface.",
+      "q_and_a_summary": "Discussed whether additional lower-leaf pruning is appropriate; confirmed removing 1–2 lowest soil-adjacent leaves is beneficial for airflow and fruit health. Discussed whether to continue morning and night watering; recommended morning-only deep watering unless clear late-day wilt occurs, using the daily probe reading taken before watering to guide irrigation.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20251225-01.jpeg",
+          "caption": "Overhead view showing a very wide zucchini canopy with large, healthy leaves and strong overall vigor in the raised bed.",
+          "tags": "zucchini, overhead, canopy, vigor, raised-bed"
+        },
+        {
+          "file_name": "zucchini_002-20251225-02.jpeg",
+          "caption": "Close-up of the lower stem junction and petiole attachments showing thick, healthy tissue and a clean structural base appropriate for continued vertical training.",
+          "tags": "zucchini, stem, petiole, crown, structure"
+        },
+        {
+          "file_name": "zucchini_002-20251225-03.jpeg",
+          "caption": "Low-angle view near the soil line showing the fruiting zone and a developing fruit with a drying, spent blossom end above the soil surface.",
+          "tags": "zucchini, fruit, blossom-end, soil-line, fruiting-zone"
+        },
+        {
+          "file_name": "zucchini_002-20251225-04.jpeg",
+          "caption": "Side view of the lower plant structure showing thick petioles, the training support area, and developing female structures forming near the crown.",
+          "tags": "zucchini, side-view, training, petioles, female-buds"
+        },
+        {
+          "file_name": "zucchini_002-20251225-05.jpeg",
+          "caption": "Close view of multiple large buds near the fruiting zone, including developing female flowers nearing opening for morning pollination.",
+          "tags": "zucchini, buds, female-flower, pollination, crown"
+        }
+      ]
+    },
+    {
       "date": "12/23/2025",
       "time": "4:07 PM",
       "conditions": "Sunny with a high of 80°F dropping to 60°F overnight. Wind gusts as high as 28 mph.",

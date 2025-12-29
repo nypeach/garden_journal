@@ -48,6 +48,201 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "1:27 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.49",
+        "salt_mg_L": "246",
+        "moisture_mScm": "82.50",
+        "light": "94",
+        "rh_percent": "49",
+        "fertility_percent": "29.25",
+        "soil_temp_f": "82.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile looks vigorous and green with dense growth, especially on the left side. The canopy is still somewhat crowded near the soil surface, limiting airflow in that section. Soil appears very wet across multiple zones today, consistent with the high moisture readings.",
+      "actions": "Do not water tomorrow morning. Thin the chamomile on the left side using selective pruning (remove a portion of stems at the base and any stems laying on the soil) to improve airflow and help the surface dry.",
+      "next_steps": "Recheck moisture tomorrow afternoon (or next day) to confirm the bed is drying down before any watering is considered. Continue monitoring for any signs of prolonged wetness stress (soft stems near soil line, drooping that does not recover, leaf yellowing).",
+      "q_and_a_summary": "A bit more left-side trimming is appropriate to improve airflow, and watering should be skipped tomorrow morning because soil moisture remains very high across the planter.",
+      "follow_up": [
+        "[1:54 PM] Cut back additional chamomile in the shared window box to improve airflow and give the baby shallot more breathing room."
+      ],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251228-02.jpeg",
+          "caption": "Left-side chamomile after recent thinning, still dense and leaning outward with limited airflow near the soil line.",
+          "tags": "chamomile,left side,density,airflow,canopy"
+        },
+        {
+          "file_name": "chamomile_001-20251228-04.jpeg",
+          "caption": "Wide view of the chamomile bed showing dense growth on the left and more open areas around the center.",
+          "tags": "chamomile,planter,wide view,spacing,structure"
+        },
+        {
+          "file_name": "chamomile_001-20251228-06.jpeg",
+          "caption": "Right-center area of the bed showing exposed soil and lower chamomile growth with room for airflow.",
+          "tags": "chamomile,right center,soil surface,airflow,spacing"
+        },
+        {
+          "file_name": "chamomile_001-20251228-08.jpeg",
+          "caption": "Right-side area showing chamomile growth with surrounding soil still visibly moist and compacted in places.",
+          "tags": "chamomile,right side,soil moisture,structure,airflow"
+        },
+        {
+          "file_name": "chamomile_001-20251228-09.jpeg",
+          "caption": "Post-trim view showing chamomile thinned back further to open airflow and reduce canopy crowding in the shared window box.",
+          "tags": "chamomile,post-trim,thinning,airflow,canopy"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:12 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "5.83",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "54",
+        "moisture_mScm": "19.33",
+        "light": "98",
+        "rh_percent": "42",
+        "fertility_percent": "5.3",
+        "soil_temp_f": "65.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows dense, healthy feathery foliage with bright green coloration and strong lateral spread across multiple clusters. The planter is exhibiting pronounced moisture imbalance, with one left-center zone remaining very wet while right-side zones are drying quickly. Soil surface was recently fluffed in bare zones to improve oxygen flow, and selective thinning was performed to improve airflow around the baby shallot area.",
+      "actions": "Water tomorrow at 6:00 AM using 2 cups total poured slowly into the right-center and right zones, with a light pass along the left side. Do not water the left-center wet pocket. Maintain the fluffed surface in bare areas to encourage even dry-down and oxygen flow.",
+      "next_steps": "Recheck multi-zone moisture tomorrow afternoon to confirm that the dry zones recovered without re-saturating the wet pocket. Continue watering by zone only, targeting any area that falls below 20.00 mS/cm while allowing zones above 55.00 mS/cm to dry naturally.",
+      "q_and_a_summary": "Discussed whether watering is recommended at 6:00 AM tomorrow; confirmed it is recommended but should be applied only to the dry zones to avoid keeping the left-center wet pocket saturated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251227-01.jpeg",
+          "caption": "Close-up view of a dense chamomile cluster showing bright green, feathery foliage and healthy lateral spread along the window box edge.",
+          "tags": "chamomile, close-up, foliage, healthy, feathery, window-box"
+        },
+        {
+          "file_name": "chamomile_001-20251227-02.jpeg",
+          "caption": "Close-up of a separate chamomile cluster with compact, vigorous growth and clean foliage over dark, recently fluffed soil.",
+          "tags": "chamomile, cluster, vigorous, foliage, soil, fluffing"
+        },
+        {
+          "file_name": "chamomile_001-20251227-04.jpeg",
+          "caption": "Wider view of the planter showing multiple chamomile clusters and a newly opened bare zone where soil was fluffed to improve airflow.",
+          "tags": "chamomile, wide-view, clusters, bare-zone, soil, airflow"
+        },
+        {
+          "file_name": "chamomile_001-20251227-06.jpeg",
+          "caption": "Planter view showing chamomile clusters spaced around the shallot area, with visible thinning to improve airflow and light access.",
+          "tags": "chamomile, shared-container, shallots, thinning, airflow, spacing"
+        },
+        {
+          "file_name": "chamomile_001-20251227-08.jpeg",
+          "caption": "Right-side view showing chamomile clusters and shallot foliage with pronounced soil texture differences across zones, consistent with uneven moisture retention.",
+          "tags": "chamomile, right-side, shared-container, soil-texture, moisture-variation"
+        },
+        {
+          "file_name": "chamomile_001-20251227-10.jpeg",
+          "caption": "Overhead view of the shared window box showing overall chamomile distribution and the open central soil zone that is being monitored for moisture balance.",
+          "tags": "chamomile, overhead, window-box, shared-container, moisture-zones, monitoring"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:32 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "5.70",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "151",
+        "moisture_mScm": "61.50",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "16.5",
+        "soil_temp_f": "80.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows dense, bright green feathery foliage with strong lateral spread and compact growth across multiple clusters. Soil appears evenly moist overall with micro-zone variation across the box. One probe reading showed an isolated low pH (4.0) inconsistent with nearby readings and was treated as a localized outlier pocket.",
+      "actions": "Do not water today. Fluff only the top 1/2 inch of soil in bare areas between chamomile clusters to increase oxygen flow, avoiding disturbance near crowns. Do not fertilize.",
+      "next_steps": "Skip morning watering tomorrow unless visible wilt occurs. Take multi-zone readings tomorrow afternoon to confirm which side dries faster and water only the driest zone if moisture falls below 45.00 mS/cm.",
+      "q_and_a_summary": "Discussed whether to water tomorrow morning; recommended skipping because afternoon moisture is already adequate and the priority is oxygen and controlled dry-down. Confirmed fluffing is preferred over watering when moisture remains high and midday watering may not be possible.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251226-02.jpeg",
+          "caption": "Overhead view showing two dense chamomile clusters with bright green feathery foliage over evenly moist soil in the shared window box.",
+          "tags": "chamomile, overhead, foliage, healthy, window-box, soil-moisture"
+        },
+        {
+          "file_name": "chamomile_001-20251226-03.jpeg",
+          "caption": "Mid-box view showing chamomile clusters growing near the shallot area, with healthy green foliage and stable crowns over dark, moist soil.",
+          "tags": "chamomile, shared-container, shallots, clusters, healthy, soil"
+        },
+        {
+          "file_name": "chamomile_001-20251226-06.jpeg",
+          "caption": "Closer view of chamomile near the shallots showing compact, vigorous feathery growth with open soil space between clusters for airflow.",
+          "tags": "chamomile, close-up, vigor, shared-container, airflow, soil"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:16 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.95",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "217",
+        "moisture_mScm": "85.00",
+        "light": "98",
+        "rh_percent": "31",
+        "fertility_percent": "25.5",
+        "soil_temp_f": "80.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chamomile shows dense, bright green feathery foliage with vigorous growth and strong color. Multiple clusters are spreading outward with some soft, sprawling posture consistent with very high soil moisture. Soil appears dark and saturated across much of the window box, while one probe zone showed notably higher EC, salt, and fertility suggesting a localized hot spot.",
+      "actions": "Do not water today. Gently fluff the top 1/2 inch of soil in bare areas between chamomile clusters to increase oxygen and promote even drying, avoiding disturbance at the crowns. Do not fertilize.",
+      "next_steps": "Recheck moisture tomorrow late morning or the following day. Water only if moisture drops below 55.00 mS/cm, applying targeted water only to the driest side of the window box if uneven drying is confirmed. Continue monitoring EC and salt; allow natural dry-down before considering any flushing.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251225-02.jpeg",
+          "caption": "Angled overhead view of the window box showing vigorous chamomile foliage with outward-spreading clusters over dark, saturated soil.",
+          "tags": "chamomile, window-box, overhead, vigorous, saturated-soil"
+        },
+        {
+          "file_name": "chamomile_001-20251225-04.jpeg",
+          "caption": "Top-down view of chamomile clusters near the shallots showing dense feathery growth and wet soil surface with open bare areas between plants.",
+          "tags": "chamomile, top-down, shared-container, shallots, wet-soil"
+        },
+        {
+          "file_name": "chamomile_001-20251225-06.jpeg",
+          "caption": "Wider view of the shared window box showing chamomile clusters distributed across the planter with strong green color and some sprawling posture in high moisture conditions.",
+          "tags": "chamomile, shared-container, wide-view, foliage, moisture-high"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "8:02 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

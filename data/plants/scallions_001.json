@@ -40,6 +40,154 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:28 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "116",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "12.7",
+        "soil_temp_f": "81.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion crowns remain firm and stable in the shared window box, with ongoing post-harvest regrowth and several shoots bending over as they elongate. Soil moisture is in an ideal mid-range and the surface appears evenly filled where probe compression had created localized depressions. No visible signs of crown rot or collapse are present in the scallion section, and overall conditions support continued thickening and upward growth before blanching begins.",
+      "actions": "Do not water today. Skip watering tomorrow morning at 6:00 AM because moisture is already ideal. Do not cut scallion leaves that are folding over; only snip dead tips if present. Do not mound soil yet; begin the first 1/2-inch blanching mound only once most scallion shoots reach 4 to 5 inches tall, keeping crown centers exposed.",
+      "next_steps": "Recheck shoot height in 1 to 2 days and start the first 1/2-inch mound as soon as most scallions reach 4 to 5 inches tall and are thickening. Continue mounding in 1/2-inch increments every 5 to 7 days up to 1.5 to 2 inches total, stopping if crowns remain overly wet or soften. Recheck probe moisture tomorrow afternoon to confirm it remains in the mid-range.",
+      "q_and_a_summary": "Reviewed whether to cut folding scallion tops and confirmed leaves should not be cut because it slows thickening and regrowth. Reviewed whether to water tomorrow morning and confirmed it should be skipped because moisture is already ideal. Reconfirmed that mounding should begin only when most shoots reach 4 to 5 inches and should be done in 1/2-inch increments while keeping crown centers exposed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251228-03.jpeg",
+          "caption": "Planter overview showing scallion regrowth with several leaves bending over during elongation, while crowns remain firm and soil moisture appears evenly balanced and suitable for continued growth before blanching mounds begin.",
+          "tags": "scallions, regrowth, bending-leaves, planter-overview, blanching-timing"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:09 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.45",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "75.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion crowns remain firm and stable in the shared window box, with visible regrowth still developing and not yet uniformly at blanching-ready height. Soil moisture has improved into an ideal mid-range that supports fast regrowth and makes future mounding safe once shoot height reaches the correct threshold. No signs of crown collapse or rot are visible in the scallion section.",
+      "actions": "Do not water today. Skip watering tomorrow morning at 6:00 AM to maintain the current ideal moisture level and encourage a gentle dry-down. Do not mound soil yet; begin the first 1/2-inch blanching mound only once most scallion shoots reach 4 to 5 inches tall, keeping crown centers exposed.",
+      "next_steps": "Recheck shoot height in 1 to 2 days and start the first 1/2-inch mound as soon as most scallions reach 4 to 5 inches. Continue mounding in 1/2-inch increments every 5 to 7 days up to 1.5 to 2 inches total, stopping if crowns remain overly wet or soften. Recheck probe readings tomorrow afternoon to confirm moisture remains in the mid-range.",
+      "q_and_a_summary": "Assessed whether scallions are ready for blanching mounds and confirmed shoot height is still slightly short for starting. Reviewed whether to water tomorrow morning and confirmed it should be skipped because moisture is already in the ideal range.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251227-02.jpeg",
+          "caption": "Planter overview showing scallion regrowth positions and current soil level, with soil moisture now in an ideal mid-range for continued regrowth before blanching begins.",
+          "tags": "scallions, planter-overview, regrowth, soil-moisture, blanching-timing"
+        },
+        {
+          "file_name": "scallions_001-20251227-04.jpeg",
+          "caption": "Closer view of the scallion area showing developing regrowth and the crown zone relative to soil level, helpful for gauging how much soil can be pulled up once shoots reach the blanching threshold height.",
+          "tags": "scallions, closeup, crown, regrowth, blanching-prep"
+        },
+        {
+          "file_name": "scallions_001-20251227-05.jpeg",
+          "caption": "Wider view of the shared window box showing overall allium growth and spacing, with scallion regrowth still developing and soil conditions stable for fast elongation.",
+          "tags": "scallions, window-box, spacing, regrowth, alliums"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:27 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "137",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "89.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion regrowth remains stable and upright in the shared window box, with several shoots approaching blanching-ready height. Soil appears consistently moist across much of the planter, matching a high moisture reading, and daily watering is keeping the root zone wetter than needed. A second probe reading showed a dry-pocket outlier pattern consistent with poor probe contact rather than true planter-wide conditions.",
+      "actions": "Skip watering tomorrow morning to allow proper dry-down since moisture is high. Only apply a rescue watering of 1/2 cup total along the scallion rows tomorrow afternoon if the surface becomes dry and scallions look less perky. Do not begin mounding at 6 PM unless the soil surface is dry to the touch and not sticky; if ready, start with a single 1/2-inch mound around the bases while keeping crown centers exposed.",
+      "next_steps": "Recheck probe readings next afternoon and aim for moisture to drift into the mid-range before beginning blanching mounds. Begin the first 1/2-inch mound once most shoots are 4 to 5 inches tall and the soil surface has dried slightly; continue in 1/2-inch increments every 5 to 7 days up to a total of 1.5 to 2 inches, stopping if crowns remain overly wet or soften.",
+      "q_and_a_summary": "Reviewed whether to water tomorrow morning and confirmed it should be skipped due to high moisture and rot risk. Discussed timing for mounding at 6 PM and confirmed it should only begin once soil surface is drier and most shoots are 4 to 5 inches tall, starting with a 1/2-inch mound while keeping crown centers exposed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251226-03.jpeg",
+          "caption": "Planter overview showing scallion regrowth height and posture relative to current soil level, with soil appearing consistently moist and suitable for blanching only after additional dry-down.",
+          "tags": "scallions, regrowth, planter-overview, moisture, blanching-timing"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:12 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "183",
+        "moisture_mScm": "63.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "21.0",
+        "soil_temp_f": "85.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallion crowns remain firm and stable in the shared window box, with soil texture loose and workable for future blanching. Soil moisture is moderately high and evenly distributed, supporting continued regrowth. No signs of crown collapse or rot are visible in the scallion section, and overall conditions support rapid shoot elongation in the warm sun.",
+      "actions": "Do not water today. Do not mound soil yet unless most scallion shoots are clearly 4 to 5 inches tall; once that threshold is reached, begin the first blanching mound by pulling 1/2 inch of soil up around the scallion bases while keeping crown centers exposed.",
+      "next_steps": "Recheck shoot height in 2 to 3 days and start the first 1/2-inch mound as soon as most scallion shoots reach 4 to 5 inches tall. Continue mounding in 1/2-inch increments every 5 to 7 days until a total of 1.5 to 2 inches of blanching height is achieved, stopping immediately if crowns appear overly wet or soft.",
+      "q_and_a_summary": "Reviewed when to begin soil mounding to increase the whiter scallion base; confirmed mounding should start once most shoots reach 4 to 5 inches and should be done in 1/2-inch increments while keeping crown centers exposed.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251225-03.jpeg",
+          "caption": "Close-up of the planter surface near the scallion section showing loose, workable soil texture and stable scallion bases suitable for future blanching mounds.",
+          "tags": "scallions, regrowth, soil-texture, blanching-prep, closeup"
+        },
+        {
+          "file_name": "scallions_001-20251225-04.jpeg",
+          "caption": "Wider view of the shared window box showing upright allium growth and spacing, with the scallion area appearing stable and ready for mounding once shoot height reaches the blanching threshold.",
+          "tags": "scallions, window-box, regrowth, spacing, blanching"
+        },
+        {
+          "file_name": "scallions_001-20251225-05.jpeg",
+          "caption": "Planter overview showing soil level relative to the base of allium stems, useful for gauging how much soil can be pulled up in staged 1/2-inch mounding increments for whitening.",
+          "tags": "scallions, planter-overview, soil-level, blanching, regrowth"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "07:54 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

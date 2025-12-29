@@ -53,6 +53,101 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "2:01 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "0.00",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "39.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "84.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive seedlings remain sparse but several thin green blades are still visible across the band. The soil surface appears drier and lighter than the previous day with a chunky texture, consistent with a healthy dry-down after prior saturation. The pH reading of 0.00 is treated as a probe contact failure rather than true soil pH, as the remaining nutrient and moisture values are coherent.",
+      "actions": "Apply 1/2 cup of water gently over the chive band early tomorrow morning to prevent surface crusting and protect seedlings during a hot, sunny day. Do not fertilize or disturb the soil surface after watering.",
+      "next_steps": "Recheck the probe reading tomorrow late morning from a slightly different spot in the chive band to confirm pH and track moisture. Maintain moisture between 35.00 and 55.00, and increase watering only if moisture drops below 30.00 on a sunny day.",
+      "q_and_a_summary": "Discussed whether watering is needed early the following morning after an ideal moisture reading and confirmed that a very small surface-focused watering is appropriate to prevent crusting and protect fragile seedlings during another hot, sunny day.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251228-02.jpeg",
+          "caption": "Overhead view of the window box showing a sparse chive section with several thin green blades still visible across a drier, lighter soil surface following a healthy dry-down.",
+          "tags": "chives, seedlings, sparse, dry-down, window-box"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:23 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "67.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive seedlings remain very small and sparse, with a few thin green blades still visible above the soil surface. The soil appears dark and clumpy following morning watering, consistent with the elevated moisture reading. No yellowing, collapse, or damping-off is visible, and the seedlings that remain are green and upright despite slow establishment. Some diluted Purived fertilizer may have lightly contacted this section during nearby broccoli feeding, but nutrient and salt readings remain within a safe range.",
+      "actions": "Do not water today or tomorrow morning. Allow the window box to dry down naturally and maintain surface stability by avoiding disturbance.",
+      "next_steps": "Recheck moisture tomorrow late morning and continue withholding water until moisture drops to 40.00 or below. Monitor seedlings for continued green color and look for tuft formation (multiple blades emerging from the same base) as moisture stabilizes.",
+      "q_and_a_summary": "Discussed whether a 6:00 AM watering is needed tomorrow morning and confirmed it should be skipped because the soil is still very wet today. Emphasized that allowing a gentle dry-down will better support these fragile seedlings and reduce risk from prolonged saturation.",
+      "photos": [
+        {
+          "file_name": "chives_002-20251227-02.jpeg",
+          "caption": "Overhead view of the window box showing very sparse chive seedlings with a few thin green blades visible across a dark, recently watered soil surface.",
+          "tags": "chives, seedlings, sparse, wet-soil, window-box"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:45 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.40",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "53",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "83.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive seedlings remain very small and sparse, with several tiny green blades still visible above the soil surface. The surface layer appears dry and chunky with bark pieces and uneven texture, which can contribute to burial and abrasion of the shallow shoots during wind or watering. No yellowing, collapse, or damping-off is visible in the remaining blades.",
+      "actions": "Apply 1 cup of water slowly and evenly across the chive band to rehydrate the top layer and reduce surface crusting. Do not disturb or brush the soil surface after watering.",
+      "next_steps": "Visually check tomorrow midday to confirm green tips remain visible and are not being reburied. Take the next probe reading from a slightly different spot in the same chive band to confirm stability. Water only if moisture drops to 30.00 or below on a sunny day.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251225-02.jpeg",
+          "caption": "Close-up of the chive section showing very sparse, short green blades emerging through a dry, chunky soil surface with bark pieces and uneven texture.",
+          "tags": "chives, seedlings, sparse, soil-surface, dry-top-layer"
+        }
+      ]
+    },
+    {
       "date": "12/19/2025",
       "time": "10:27 AM",
       "conditions": "Patchy fog before 8 AM, otherwise partly sunny with a high near 84°F dropping to around 61°F overnight.",

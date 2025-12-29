@@ -48,6 +48,194 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:04 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
+      "digital_probe": {
+        "ph": "6.6",
+        "ec_mScm": "0.52",
+        "salt_mg_L": "262",
+        "moisture_mScm": "100",
+        "light": "99",
+        "rh_percent": "57",
+        "fertility_percent": "31",
+        "soil_temp_f": "73.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil looks healthy and vigorous with bright green leaves and multiple active growing tips. Canopy is filling in well and stems appear upright with no visible wilting. Soil appears very wet and the root zone is fully saturated per probe.",
+      "actions": "Skip watering tomorrow morning and allow the pot to dry down so the roots can re-oxygenate. Keep the pot in full sun and continue monitoring for any new chewing damage.",
+      "next_steps": "Recheck moisture tomorrow midday if possible; resume watering only after the root zone has dried down meaningfully (pot feels lighter and top layer is drying). If leaves begin to droop during the warmest part of the day while soil remains wet, continue withholding water and prioritize airflow and sun exposure.",
+      "q_and_a_summary": "With the soil reading fully saturated today, the best choice is to skip the early watering tomorrow so the roots can breathe and the plant avoids staying waterlogged.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251228-02.jpeg",
+          "caption": "Top-down view showing a healthy, full basil canopy with bright green leaves and multiple shoots.",
+          "tags": "basil, canopy, top-view, healthy, growth"
+        },
+        {
+          "file_name": "basil_002-20251228-03.jpeg",
+          "caption": "Side view showing upright stems and fresh new growth with good leaf turgor in full sun.",
+          "tags": "basil, side-view, upright, new-growth, full-sun"
+        },
+        {
+          "file_name": "basil_002-20251228-04.jpeg",
+          "caption": "Angled view showing dense foliage and several active growing tips indicating strong vegetative growth.",
+          "tags": "basil, dense, foliage, vegetative, vigorous"
+        },
+        {
+          "file_name": "basil_002-20251228-05.jpeg",
+          "caption": "Close side view highlighting healthy leaf color and structure with minimal visible damage.",
+          "tags": "basil, leaves, color, structure, close-up"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "10:59 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.31",
+        "salt_mg_L": "157",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "62.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil remains bushy and vigorous with strong leaf turgor and multiple active growth tips. Leaf color is bright and healthy overall, with some localized chewing damage and a few older leaves declining that were pinched off today to monitor whether new damage persists. Soil chemistry is stabilizing with improved pH and reduced salts, but moisture remains high and the root zone is still wetter than ideal.",
+      "actions": "Do not water today because moisture remains high and roots need oxygen. Do not fertilize as fertility and salts are still sufficient. Continue monitoring for fresh chewing on new leaves and remove only damaged or dying leaves to improve airflow.",
+      "next_steps": "Recheck moisture tomorrow afternoon and continue holding water until moisture drops below 60 mS/cm. If new chewing appears on fresh leaves, apply Bonide Captain Jack’s DeadBug (Ready to Spray) in early morning or evening and recheck damage within 24–48 hours. Continue monitoring salts and EC to confirm they remain in the safer range.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251227-02.jpeg",
+          "caption": "Overhead view showing a dense, actively growing basil canopy with healthy leaf size and a few leaves previously showing minor chewing damage.",
+          "tags": "basil, overhead, canopy, vigorous-growth, leaf-damage"
+        },
+        {
+          "file_name": "basil_002-20251227-03.jpeg",
+          "caption": "Side view showing strong overall posture and multiple branching stems with good turgor in bright sun.",
+          "tags": "basil, side-view, structure, branching, turgor"
+        },
+        {
+          "file_name": "basil_002-20251227-04.jpeg",
+          "caption": "Wide shot of the container showing a full, bushy plant filling the pot and maintaining healthy structure.",
+          "tags": "basil, wide-view, container, bushy, healthy"
+        },
+        {
+          "file_name": "basil_002-20251227-05.jpeg",
+          "caption": "Front angle showing balanced growth across multiple stem clusters and generally bright leaf coloration after cleanup of damaged leaves.",
+          "tags": "basil, front-view, balanced-growth, leaf-color, cleaned-up"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:42 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.38",
+        "salt_mg_L": "193",
+        "moisture_mScm": "82.00",
+        "light": "88",
+        "rh_percent": "37",
+        "fertility_percent": "22.0",
+        "soil_temp_f": "84.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil remains full and vigorous with strong leaf turgor and multiple active growth tips. Leaf size is robust and the plant holds posture well in afternoon sun, with a few older leaves showing slightly lighter coloration consistent with a still-wet root zone. Soil readings show moisture remains high but salts, EC, and fertility are trending downward from the prior day.",
+      "actions": "Do not water today and skip watering tomorrow morning to allow the root zone to dry down and restore oxygen. Do not fertilize while salts and fertility remain elevated. Remove only fully yellow lower leaves if present to improve airflow.",
+      "next_steps": "Recheck moisture and salts tomorrow afternoon and continue holding water until moisture drops below 60 mS/cm. Plan a controlled flush only after the soil dries further if salts remain above 180 mg/L. Continue monitoring for yellowing on older leaves as moisture and pH stabilize.",
+      "q_and_a_summary": "Discussed whether watering should continue tomorrow morning since readings cannot be taken until midday; advised skipping watering because moisture remains high at 82% and continued watering would prolong low root oxygen and slow salt reduction.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251226-02.jpeg",
+          "caption": "Overhead view showing a full basil canopy with strong leaf turgor and multiple branching stems, with a few older leaves slightly lighter in color.",
+          "tags": "basil, overhead, canopy, branching, leaf-color"
+        },
+        {
+          "file_name": "basil_002-20251226-03.jpeg",
+          "caption": "Side view showing dense, healthy structure and good overall posture in late-day light, with the plant filling the pot rim.",
+          "tags": "basil, side-view, structure, vigorous, container"
+        },
+        {
+          "file_name": "basil_002-20251226-04.jpeg",
+          "caption": "Angled view highlighting multiple growth tips and balanced canopy spread across the container surface.",
+          "tags": "basil, angled-view, growth-tips, balanced-canopy, healthy"
+        },
+        {
+          "file_name": "basil_002-20251226-05.jpeg",
+          "caption": "Wide angle showing overall plant vigor and leaf size, with good turgor despite a still-wet root zone.",
+          "tags": "basil, wide-view, leaf-size, vigor, turgor"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:29 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.51",
+        "salt_mg_L": "258",
+        "moisture_mScm": "100.00",
+        "light": "89",
+        "rh_percent": "40",
+        "fertility_percent": "31.0",
+        "soil_temp_f": "71.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil appears vigorous and full with healthy leaf turgor and multiple active growth tips following earlier topping. Foliage is mostly bright green with a few lighter older leaves near the lower canopy, but no obvious wilt, collapse, or major spotting is visible. Soil readings indicate the root zone is saturated with elevated salts and fertility.",
+      "actions": "Do not water today because moisture is maxed out and the root zone needs oxygen. Remove only fully yellow or damaged older lower leaves to improve airflow. Do not fertilize or flush while the soil is saturated.",
+      "next_steps": "Allow the container to dry down in sunny conditions and recheck moisture tomorrow morning. Plan a controlled flush with 6 cups of plain water only after moisture drops to 60 mS/cm or lower to reduce salts from the current elevated level. Continue monitoring for yellowing on older leaves as salts and pH stabilize.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251225-02.jpeg",
+          "caption": "Overhead view showing a full, actively growing basil canopy with mostly bright green leaves and multiple branching stems.",
+          "tags": "basil, overhead, canopy, vigorous-growth, branching"
+        },
+        {
+          "file_name": "basil_002-20251225-03.jpeg",
+          "caption": "Side angle showing healthy leaf turgor and expanded leaf size, with the plant filling the container rim and holding strong posture.",
+          "tags": "basil, side-view, leaf-turgor, structure, container"
+        },
+        {
+          "file_name": "basil_002-20251225-04.jpeg",
+          "caption": "Wide view of the pot showing a dense, bushy structure and strong overall vigor in bright sun conditions.",
+          "tags": "basil, wide-view, bushy, vigorous, sunlight"
+        },
+        {
+          "file_name": "basil_002-20251225-05.jpeg",
+          "caption": "Angled view highlighting multiple growth tips and a balanced canopy across the pot surface, with a few older leaves slightly lighter near the lower canopy.",
+          "tags": "basil, angled-view, growth-tips, balanced-canopy, lower-leaves"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:42 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

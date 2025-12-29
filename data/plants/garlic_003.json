@@ -60,6 +60,159 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:30 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.18",
+        "salt_mg_L": "90",
+        "moisture_mScm": "59.00",
+        "light": "99",
+        "rh_percent": "47",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "78.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Chesnok Red garlic remains upright with firm crowns and healthy vegetative growth. Leaf tissue looks strong and green with previously burned tips removed, and the plants show no signs of wilting or collapse. Soil has been lightly topped off and leveled in compressed probe areas, and overall moisture appears evenly balanced.",
+      "actions": "Do not water today or tomorrow morning as moisture is ideal. Leave pH and fertility unchanged. Keep the soil surface gently leveled and avoid repeated probing in the same exact spot to prevent compaction.",
+      "next_steps": "Allow the window box to dry down naturally over the next 2–3 days. Recheck moisture tomorrow midday or late morning; water only when moisture drops below 40.00 mS/cm or leaf firmness begins to soften. Continue monitoring for steady inner leaf growth and normal older-leaf turnover.",
+      "q_and_a_summary": "Confirmed that watering tomorrow morning is not needed because the soil is in an ideal moisture range and another warm sunny day is ahead, and noted that adding a small amount of moisture-control potting mix to fill probe compression is appropriate for keeping the soil level and evenly hydrated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251228-02.jpeg",
+          "caption": "Wide view of the Chesnok Red garlic clumps showing upright crowns and healthy green foliage, with the soil surface lightly leveled after filling areas that had been compressed by probing.",
+          "tags": "garlic, chesnok_red, window_box, vegetative_growth, soil_leveling, healthy_foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:11 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "7.30",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "53",
+        "moisture_mScm": "37.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "68.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Chesnok Red garlic remains upright with firm crowns and healthy vegetative growth. Older leaf tips that were browned and burnt were trimmed cleanly, leaving strong green tissue intact. Soil surface appears dry and fluffy, matching the moderately low moisture reading, while overall plant posture remains stable and vigorous.",
+      "actions": "Water tomorrow morning at 6:00 AM with 1 cup total applied slowly around the garlic clumps, avoiding direct watering on the crowns. Do not fertilize or adjust pH today. Continue removing only fully dead leaf tissue if additional tip burn appears.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon after watering to confirm recovery into the 45.00–60.00 mS/cm range. Continue watering only when moisture drops below 40.00 mS/cm or leaves soften. Monitor whether pH settles closer to the mid-6s after moisture stabilizes.",
+      "q_and_a_summary": "Confirmed that the moisture level is low enough to justify watering tomorrow morning even with afternoon reading timing, and recommended a measured light watering to restore root-zone hydration without keeping the shallow window box overly wet during another sunny, warm day.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251227-01.jpeg",
+          "caption": "Before trimming: Chesnok Red garlic clumps with healthy upright crowns and a few older leaves showing browned, burnt tips from normal senescence and tip burn.",
+          "tags": "garlic, chesnok_red, before_trim, tip_burn, vegetative_growth"
+        },
+        {
+          "file_name": "garlic_003-20251227-02.jpeg",
+          "caption": "Before trimming: Wider view of the window box showing multiple garlic clumps with strong posture and a few browned outer leaf tips prior to cleanup.",
+          "tags": "garlic, chesnok_red, window_box, before_trim, clumps"
+        },
+        {
+          "file_name": "garlic_003-20251227-04.jpeg",
+          "caption": "After trimming: Garlic foliage remains strong and green with browned tips removed cleanly, improving appearance while keeping the majority of leaf tissue intact.",
+          "tags": "garlic, chesnok_red, after_trim, leaf_cleanup, healthy_growth"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "4:29 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "22",
+        "moisture_mScm": "5.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "84.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Chesnok Red garlic remains upright with firm crowns and strong vegetative growth, with blades measuring about 14 inches. Older outer leaves show expected browning and tip burn while inner leaves remain green. The probe reading shows extremely low moisture and nutrient values with a high pH, which is most consistent with a dry pocket or poor probe contact rather than true root-zone conditions given the plant’s healthy posture.",
+      "actions": "Do not water tomorrow morning based on this single likely outlier reading. Take the next reading tomorrow midday with the probe inserted slightly deeper; if moisture is confirmed below 40.00 mS/cm and leaf firmness softens, water in the late afternoon. Snip only the brown, dry leaf tips for cleanliness, leaving green tissue intact.",
+      "next_steps": "Recheck probe readings tomorrow between 12–1 PM and, if possible, take a second reading 2–3 inches away to confirm root-zone conditions. Avoid daily watering unless moisture repeatedly drops below 40.00 mS/cm. Continue monitoring that new inner leaves stay green and crowns remain firm as foliage continues elongating.",
+      "q_and_a_summary": "Discussed whether watering should continue in the early morning even though the next readings won’t be available until midday, and confirmed it’s better to skip morning watering and use the midday reading to decide on a late-day watering if needed. Also confirmed that trimming the brown tips is safe and purely cosmetic as long as green tissue is left intact.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251226-02.jpeg",
+          "caption": "Wider view of the window box showing multiple garlic clumps with upright crowns and older outer leaves browning near the tips while the central growth remains green.",
+          "tags": "garlic, chesnok_red, window_box, vegetative_growth, leaf_senescence"
+        },
+        {
+          "file_name": "garlic_003-20251226-03.jpeg",
+          "caption": "Close-up of the Chesnok Red section showing strong leaf blades and normal tip browning on older leaves without crown collapse or rot.",
+          "tags": "garlic, chesnok_red, closeup, leaf_tips, healthy_crown"
+        },
+        {
+          "file_name": "garlic_003-20251226-04.jpeg",
+          "caption": "Side view highlighting long strap-like leaves and firm upright bases with minor browning on the oldest leaves near the soil line.",
+          "tags": "garlic, chesnok_red, side_view, leaf_length, firm_bases"
+        },
+        {
+          "file_name": "garlic_003-20251226-05.jpeg",
+          "caption": "Overhead view showing spacing and clump structure, with older leaves yellowing/browning at the edges while inner leaves remain actively growing.",
+          "tags": "garlic, chesnok_red, overhead, clumps, active_growth"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "1:14 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.27",
+        "salt_mg_L": "138",
+        "moisture_mScm": "62.00",
+        "light": "99",
+        "rh_percent": "31",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "81.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Chesnok Red garlic remains upright with firm crowns and active inner growth. Several older outer leaves show browning and tip burn consistent with normal senescence and dry, sunny conditions. Soil appears evenly moist and settled with no signs of pooling or stress.",
+      "actions": "Do not water today as moisture is high and stable. Trim only fully brown, dry leaves or snip brown tips for cleanliness, leaving any green tissue intact. Maintain current sun exposure and avoid disturbing the root zone.",
+      "next_steps": "Allow the planter to dry down naturally over the next 2–3 days. Recheck moisture when readings approach 45.00 mS/cm; water only if moisture drops below 40.00 mS/cm or leaf firmness softens. Continue monitoring that new inner leaves remain green and vigorous.",
+      "q_and_a_summary": "Asked whether the brown leaves are okay; confirmed this is normal older-leaf senescence and minor tip burn, and recommended trimming only fully dead tissue.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251225-02.jpeg",
+          "caption": "Oblique view of the Chesnok Red garlic clumps showing upright crowns, long strap-like leaves, and normal browning on the oldest outer leaves and tips while inner growth remains green.",
+          "tags": "garlic, chesnok_red, vegetative_growth, leaf_senescence, tip_browning, window_box"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:57 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

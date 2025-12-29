@@ -52,6 +52,189 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:02 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "180",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "67",
+        "fertility_percent": "21",
+        "soil_temp_f": "76.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil looks upright and generally healthy with bright green leaves and steady growth across several stems in the same container. Some leaves show minor chewing damage from earlier pruning, but there is no obvious active decline visible in today’s photos. The soil surface appears dark and moist, and the probe confirms the root zone is still adequately hydrated.",
+      "actions": "Skip watering tomorrow morning. Keep the pot in full sun and monitor leaf posture through the afternoon; if leaves show heat limp, plan to water the following morning rather than adding extra water now.",
+      "next_steps": "Continue checking moisture daily and only water in the morning when the soil surface is drying and moisture drops meaningfully below today’s level. Watch for any new chewing damage on fresh growth and inspect leaf undersides if it reappears. If EC continues to trend downward over the next couple days, prepare for a light feeding to support growth.",
+      "q_and_a_summary": "You asked whether you should water at 6:00 AM tomorrow morning, and based on today’s moisture reading of 60% and the visibly moist soil, the best choice is to skip watering so the roots can breathe and the pot does not stay overly wet.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251228-02.jpeg",
+          "caption": "Top-down view of the basil showing multiple healthy stems and bright green leaves with moist soil visible around the plants.",
+          "tags": "basil, top view, container, healthy foliage, moist soil"
+        },
+        {
+          "file_name": "basil_001-20251228-03.jpeg",
+          "caption": "Side view of the basil pot showing the main clump with upright leaves and strong overall structure in full sun.",
+          "tags": "basil, side view, container, upright growth, sunlight"
+        },
+        {
+          "file_name": "basil_001-20251228-04.jpeg",
+          "caption": "Angled view showing the basil spread across the container with several stems and open space in the soil where new growth can fill in.",
+          "tags": "basil, container, multiple stems, growth pattern, garden setting"
+        },
+        {
+          "file_name": "basil_001-20251228-05.jpeg",
+          "caption": "Wide view of the basil pot showing overall plant size and shape with healthy leaves and evenly distributed growth across the container.",
+          "tags": "basil, wide shot, container garden, healthy plant, structure"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "12:59 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.8",
+        "ec_mScm": "0.52",
+        "salt_mg_L": "264",
+        "moisture_mScm": "70",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "31",
+        "soil_temp_f": "62.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil looks healthy and vigorous with upright growth and good leaf size. Minor chewing damage is present on some leaves, and you pinched off bug-chewed and dying leaves to monitor whether damage persists. No wilting is visible; overall the canopy remains full and green.",
+      "actions": "Skip watering right now because moisture is high (70%). Check leaf undersides for chewing pests and look for frass. Keep the pot in full sun and continue removing any newly chewed or failing leaves as you spot them.",
+      "next_steps": "Recheck around midday tomorrow. Water only if the plant shows mild droop and the top 1–2 inches feel dry. Monitor for fresh chewing; if new damage appears within 24–48 hours, apply Captain Jack’s DeadBug to the tops and undersides of leaves in early morning or late afternoon and reassess after 1–2 days.",
+      "q_and_a_summary": "Because moisture is still high and your next reliable check is midday, the best move is to skip any morning watering and let the pot use what’s already there. If the basil remains perky at noon, keep holding water; if it shows a slight droop and the surface has dried, give a small, targeted drink to carry it through the afternoon.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251227-02.jpeg",
+          "caption": "Top-down view of the basil pot showing several healthy green clusters with a few recently pinched areas and minor chewing on some leaves.",
+          "tags": "basil, top-view, canopy, leaf-damage, pinched, healthy"
+        },
+        {
+          "file_name": "basil_001-20251227-03.jpeg",
+          "caption": "Angled view of the basil pot showing multiple plants sharing the container, with the largest cluster on the left and smaller plants spaced around the rim.",
+          "tags": "basil, container, multi-plant, growth, structure, angled-view"
+        },
+        {
+          "file_name": "basil_001-20251227-04.jpeg",
+          "caption": "Side view of the basil pot showing a fuller mound of leaves on the right side and smaller plants on the left, with overall upright growth.",
+          "tags": "basil, side-view, canopy, growth, upright, container"
+        },
+        {
+          "file_name": "basil_001-20251227-05.jpeg",
+          "caption": "Closer angled view highlighting the healthiest, broadest leaves on the right side of the pot and smaller basil plants on the left after removing damaged leaves.",
+          "tags": "basil, close-up, leaves, healthy, pruning, monitoring"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:41 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.48",
+        "salt_mg_L": "241",
+        "moisture_mScm": "70.00",
+        "light": "88",
+        "rh_percent": "37",
+        "fertility_percent": "29.0",
+        "soil_temp_f": "86.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The basil shows strong, leafy regrowth with a dense canopy and multiple healthy clusters. Leaves appear mostly turgid with good structure, and no obvious chewing damage or spotting is visible. Soil appears dark and moist, matching the high moisture reading, and the plant is growing actively under full sun conditions.",
+      "actions": "Do not water tomorrow morning; allow the pot to dry down to improve root oxygenation. Maintain current sun exposure and do not fertilize while fertility and EC remain elevated. If the plant shows midday wilting and the top 1–2 inches are dry, apply a light watering to restore firmness without saturating the pot.",
+      "next_steps": "Recheck moisture tomorrow midday if possible and resume morning watering only once moisture drops into a clearly moderate range. Watch for softer leaves or slowed growth as signs the soil is staying too wet. Continue monitoring pH and salts; if moisture remains high for several days, reduce watering frequency to prevent root stress.",
+      "q_and_a_summary": "Discussed whether morning watering should continue given the high moisture reading; recommended skipping watering tomorrow morning and only watering midday if the plant shows visible wilt and the soil surface is dry.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251226-02.jpeg",
+          "caption": "Top-down view showing multiple basil clusters with strong leaf expansion and a moist, dark soil surface.",
+          "tags": "basil, top-view, canopy, moist-soil, regrowth"
+        },
+        {
+          "file_name": "basil_001-20251226-03.jpeg",
+          "caption": "Side view of the container showing a dense, leafy canopy with good structure under sunny outdoor conditions.",
+          "tags": "basil, side-view, canopy, container, outdoor"
+        },
+        {
+          "file_name": "basil_001-20251226-04.jpeg",
+          "caption": "Front angle showing the basil’s overall fullness and upright leaf posture, with soil still appearing well hydrated.",
+          "tags": "basil, structure, fullness, leaf-posture, hydrated-soil"
+        },
+        {
+          "file_name": "basil_001-20251226-05.jpeg",
+          "caption": "Angled view highlighting the main basil clump and smaller clusters around the pot, showing vigorous regrowth and dense foliage.",
+          "tags": "basil, regrowth, clusters, vigorous, foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:28 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.61",
+        "salt_mg_L": "306",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "37.0",
+        "soil_temp_f": "70.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows vigorous clustered regrowth with multiple dense shoot groups and strong upright leaf posture. Leaves are broad, clean, and evenly colored with no visible spotting, chewing, or wilt. Soil surface appears dark and evenly moist, matching the stable moisture reading.",
+      "actions": "Do not water today; allow natural dry-down. Do not fertilize because EC, salt, and fertility are elevated. Rotate the pot 1/4 turn to keep growth even.",
+      "next_steps": "Recheck moisture tomorrow morning. Water only when moisture drops below 40.00 mS/cm. Continue monitoring EC and salt; if they remain elevated on the next reading, plan a light runoff-style watering at the next irrigation to prevent salt concentration.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251225-02.jpeg",
+          "caption": "Top-down view showing vigorous regrowth with multiple dense basil clusters and evenly moist soil surface.",
+          "tags": "basil, overhead, canopy, regrowth, soil-moist"
+        },
+        {
+          "file_name": "basil_001-20251225-03.jpeg",
+          "caption": "Angled side view showing upright stems, broad healthy leaves, and strong clustered growth across the pot.",
+          "tags": "basil, side-view, stems, leaf-turgor, vigorous"
+        },
+        {
+          "file_name": "basil_001-20251225-04.jpeg",
+          "caption": "Another angle showing balanced canopy development with multiple shoots expanding and no visible leaf damage or disease.",
+          "tags": "basil, canopy, structure, healthy-growth, regrowth"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "07:40 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight. Tonight: 10% chance of showers then patchy fog. Tomorrow: Patchy fog then mostly sunny with a high of 82°F.",

@@ -60,6 +60,184 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:24 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.88",
+        "salt_mg_L": "441",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "52.0",
+        "soil_temp_f": "85.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows vigorous early vegetative growth with upright stems and active new leaf expansion. The canopy appears fuller and taller compared to yesterday’s comparison photo, consistent with a normal warm-weather growth spurt. Remaining foliage is evenly green and healthy with no clear fresh chewing on the newest leaves. Soil is still quite moist, and nutrient readings have risen sharply, which may increase risk of mild fertilizer stress if watering continues too frequently.",
+      "actions": "Do not water tomorrow morning. Do not apply fertilizer. Continue monitoring the newest leaves for any fresh chew holes and watch for early signs of fertilizer stress such as leaf edge burn or curling.",
+      "next_steps": "Recheck probe readings tomorrow midday or afternoon if possible. Water only if moisture drops below 45 mS/cm. If EC and salt remain high for two consecutive readings, prioritize dry-down before the next watering to help reduce root-zone salt concentration.",
+      "q_and_a_summary": "Discussed whether rapid overnight growth is normal; confirmed peppers can show fast growth spurts in warm soil with high moisture and nutrient availability. User asked whether to water tomorrow morning; advised skipping because moisture remains high and EC/salts are elevated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251228-02.jpeg",
+          "caption": "Overhead view of the Orange Cal Wonder section showing a fuller canopy and healthy green leaves with no obvious fresh chewing on new growth.",
+          "tags": "orange-cal-wonder, pepper, overhead, canopy, growth"
+        },
+        {
+          "file_name": "pepper_002-20251228-03.jpeg",
+          "caption": "Side view showing increased stem height and active new leaf expansion consistent with a warm-weather growth spurt.",
+          "tags": "orange-cal-wonder, pepper, side-view, stem-growth, new-leaves"
+        },
+        {
+          "file_name": "pepper_002-20251228-04.jpeg",
+          "caption": "Angled view showing plant structure and leaf posture; foliage appears healthy and upright with good vigor.",
+          "tags": "orange-cal-wonder, pepper, structure, vigor, leaf-posture"
+        },
+        {
+          "file_name": "pepper_002-20251228-05.jpeg",
+          "caption": "Comparison photo from the prior day showing the plant before today’s visible growth spurt, useful for tracking canopy expansion and pest damage progression.",
+          "tags": "orange-cal-wonder, pepper, comparison, yesterday, tracking"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:35 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.36",
+        "salt_mg_L": "182",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "21.0",
+        "soil_temp_f": "75.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows healthy early vegetative growth with firm stems, a stable canopy, and active new growth. Previously chewed leaves have been trimmed away, leaving a cleaner baseline for monitoring fresh pest activity. Remaining foliage is evenly green and upright with no signs of wilting or stress, and the soil is well hydrated following morning watering.",
+      "actions": "Do not water tomorrow morning. Monitor the newest leaves over the next 24–48 hours for any fresh chew holes now that damaged leaves were removed; reapply Captain Jack’s Dead Bug to the entire shared window box only if new damage appears.",
+      "next_steps": "Recheck moisture tomorrow midday or afternoon; water only if moisture drops below 45 mS/cm. Continue daily visual inspections of new growth for any renewed chewing activity, focusing on newly expanding leaves and tips.",
+      "q_and_a_summary": "Discussed whether watering is needed tomorrow morning after watering at 10:30 AM; recommended skipping because moisture is 70 mS/cm and the plant is already well hydrated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251227-02.jpeg",
+          "caption": "Wide view of the shared window box showing Orange Cal Wonder centered with surrounding sections, providing context for canopy size and soil condition after watering.",
+          "tags": "orange-cal-wonder, pepper, window-box, wide-view, context"
+        },
+        {
+          "file_name": "pepper_002-20251227-03.jpeg",
+          "caption": "Closer overhead view showing a cleaner canopy after removing chewed leaves, making new growth easier to monitor for fresh feeding.",
+          "tags": "orange-cal-wonder, pepper, overhead, pruning, baseline"
+        },
+        {
+          "file_name": "pepper_002-20251227-04.jpeg",
+          "caption": "Angled canopy view highlighting remaining healthy leaves and active new growth after trimming damaged foliage.",
+          "tags": "orange-cal-wonder, pepper, canopy, new-growth, after-trim"
+        },
+        {
+          "file_name": "pepper_002-20251227-05.jpeg",
+          "caption": "Wide angle view showing the Orange Cal Wonder section and adjacent plants, helpful for spotting any new chewing patterns across the shared container.",
+          "tags": "orange-cal-wonder, pepper, shared-container, monitoring, wide"
+        },
+        {
+          "file_name": "pepper_002-20251227-06.jpeg",
+          "caption": "Side/angled view showing plant structure, leaf posture, and the reduced leaf mass after removal of damaged leaves for clearer tracking of new chewing.",
+          "tags": "orange-cal-wonder, pepper, structure, leaf-posture, after-trim"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:57 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "42.00",
+        "light": "75",
+        "rh_percent": "40",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "86.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows healthy early vegetative growth with firm stems, expanding leaf mass, and active new growth at the center. Leaf color is an even healthy green with scattered chew holes on a few older leaves that appear stable. Soil surface is drying and the root zone moisture is approaching the lower edge of ideal for hot sunny conditions.",
+      "actions": "Water tomorrow morning (6–7 AM) using 2 cups of water applied slowly to the Orange Cal Wonder section only to prevent midday dry-down. Do not heavily water the entire window box today.",
+      "next_steps": "Recheck moisture at the next available reading tomorrow afternoon. Continue using the moisture reading to guide morning watering: skip if above 45 mS/cm, apply 2 cups if 40–44, and apply 4 cups if below 40. Monitor for any fresh chew damage on new leaves over the next 48 hours.",
+      "q_and_a_summary": "Discussed whether watering is needed tomorrow morning given inability to water midday; recommended a light morning bridge watering based on moisture reading of 42 mS/cm and hot sunny conditions.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251226-02.jpeg",
+          "caption": "Side view showing healthy early vegetative growth with firm stems, even green foliage, and a few older leaves showing stable chew holes.",
+          "tags": "orange-cal-wonder, pepper, early-vegetative, structure, chew-damage"
+        },
+        {
+          "file_name": "pepper_002-20251226-03.jpeg",
+          "caption": "Overhead/angled view highlighting expanding canopy, active new growth at the center, and a drying soil surface consistent with borderline moisture levels.",
+          "tags": "orange-cal-wonder, pepper, canopy, new-growth, soil-surface"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:50 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "140",
+        "moisture_mScm": "53.00",
+        "light": "99",
+        "rh_percent": "29",
+        "fertility_percent": "15.0",
+        "soil_temp_f": "85.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows healthy early vegetative growth with upright stems, expanding leaf mass, and evenly green foliage. Chew holes are present on several leaves, with most damage appearing older and stable and the newest center growth largely intact. Soil appears evenly moist and well structured with no signs of waterlogging or stress.",
+      "actions": "Do not water today. Inspect leaves tomorrow morning for any new chew damage; reapply Captain Jack’s Dead Bug to the entire shared window box only if fresh holes appear on new or expanding leaves.",
+      "next_steps": "Check for new holes within 24 hours to confirm whether feeding is still active. Recheck moisture tomorrow morning; water only if moisture drops below 40 mS/cm. Continue monitoring pH over the next few readings to ensure it does not drift lower than 5.7.",
+      "q_and_a_summary": "Discussed whether chew marks are old; confirmed most appear older and stable with a few that may be more recent, and recommended re-spraying only if fresh damage appears in the next 24 hours.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_002-20251225-02.jpeg",
+          "caption": "Overhead view showing healthy early vegetative growth with scattered chew holes on older leaves and stable, moist soil.",
+          "tags": "orange-cal-wonder, pepper, overhead, chew-damage, early-vegetative"
+        },
+        {
+          "file_name": "pepper_002-20251225-03.jpeg",
+          "caption": "Angled view of the canopy showing multiple established chew holes but strong leaf color and mostly intact new growth at the center.",
+          "tags": "orange-cal-wonder, pepper, canopy, chew-damage, new-growth"
+        },
+        {
+          "file_name": "pepper_002-20251225-04.jpeg",
+          "caption": "Side/angled view highlighting upright stems and continued expansion, with older leaf holes visible but no widespread fresh shredding.",
+          "tags": "orange-cal-wonder, pepper, structure, chew-damage, growth"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:51 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

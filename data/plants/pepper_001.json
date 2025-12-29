@@ -56,6 +56,149 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:23 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.99",
+        "salt_mg_L": "499",
+        "moisture_mScm": "60.00",
+        "light": "99",
+        "rh_percent": "52",
+        "fertility_percent": "55.0",
+        "soil_temp_f": "86.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling remains upright and stable with healthy leaf turgor and continued true-leaf development. Leaf shape is normal with no visible wilting, distortion, or pest damage. Soil appears evenly moist with adequate hydration, consistent with the moisture reading of 60.00 mS/cm. EC, salt, and fertility are elevated today, indicating a concentrated nutrient solution in the root zone.",
+      "actions": "Do not water tomorrow morning because soil moisture is still mid-high and EC/salt/fertility are elevated. Do not apply fertilizer. Allow the soil to dry down naturally through tomorrow.",
+      "next_steps": "Recheck moisture and EC/salt after the soil dries down further. Resume watering only once moisture drops into the mid-range (about 45–55 mS/cm) and avoid feeding until EC and salt values decline.",
+      "q_and_a_summary": "Discussed whether watering should be done tomorrow morning; confirmed it should be skipped because moisture remains adequate and EC/salt/fertility are elevated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251228-02.jpeg",
+          "caption": "Overhead view showing a stable Scotch Bonnet seedling with healthy leaf turgor and evenly moist soil in strong midday sun.",
+          "tags": "scotch-bonnet, seedling, overhead, true-leaves, soil-moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:34 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.00",
+        "ec_mScm": "0.85",
+        "salt_mg_L": "429",
+        "moisture_mScm": "70.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "51.0",
+        "soil_temp_f": "72.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling appears upright and vigorous with good leaf turgor and active new growth emerging from the center. Leaf shape is normal with no visible distortion, wilting, or pest damage. Water was applied at 10:30 AM, and soil appears evenly moist and darker in color afterward, consistent with the high moisture reading. EC, salt, and fertility are elevated today, likely reflecting dissolved nutrients or a localized nutrient pocket after watering.",
+      "actions": "Do not water tomorrow morning because moisture is high. Do not apply fertilizer today; allow the soil to dry down naturally through tomorrow under sunny conditions.",
+      "next_steps": "Recheck moisture and EC/salt at the next reading after the soil dries down; expect nutrient values to normalize as moisture declines. Resume watering only once moisture drops back into the mid-range (about 45–55 mS/cm).",
+      "q_and_a_summary": "Discussed whether watering should be done again tomorrow morning; confirmed it should be skipped because moisture is high and EC/salt/fertility are elevated today after watering.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251227-02.jpeg",
+          "caption": "Overhead view showing an upright Scotch Bonnet seedling with expanding true leaves and moist, darkened soil following watering.",
+          "tags": "scotch-bonnet, seedling, overhead, soil-moisture, true-leaves"
+        },
+        {
+          "file_name": "pepper_001-20251227-03.jpeg",
+          "caption": "Close angled view showing healthy leaf structure and active new growth at the center with evenly moist soil around the plant base.",
+          "tags": "scotch-bonnet, seedling, new-growth, leaf-structure, soil"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:56 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "36",
+        "moisture_mScm": "38.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "93.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling remains upright and stable with multiple true leaves and good leaf turgor. Foliage appears slightly lighter green overall, consistent with low fertility, but leaf shape is normal with no visible pest damage, wilting, or distortion. Soil surface appears dry and fast-draining under strong sun exposure.",
+      "actions": "Water tomorrow morning between 6–7 AM with 1/4 cup applied slowly in a wide ring around the plant (not against the stem). Do not water again later unless the plant visibly droops.",
+      "next_steps": "Recheck moisture and fertility at the next available midday reading. Plan a very light feeding once moisture stabilizes back into the mid-range (about 45–55 mS/cm) to support greener growth and faster leaf expansion.",
+      "q_and_a_summary": "Discussed whether morning watering should continue given the inability to take readings until midday; confirmed watering tomorrow morning is appropriate because moisture is already low and sunny conditions will drive fast dry-down.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251226-02.jpeg",
+          "caption": "Overhead view showing an upright Scotch Bonnet seedling with expanding true leaves and slightly lighter green coloration in drying soil.",
+          "tags": "scotch-bonnet, seedling, true-leaves, overhead, soil-drying"
+        },
+        {
+          "file_name": "pepper_001-20251226-03.jpeg",
+          "caption": "Angled view showing stable stem posture, developing leaf set, and healthy structure in strong sun exposure.",
+          "tags": "scotch-bonnet, seedling, early-vegetative, leaf-color, stake"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:48 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.23",
+        "salt_mg_L": "116",
+        "moisture_mScm": "58.00",
+        "light": "96",
+        "rh_percent": "28",
+        "fertility_percent": "12.0",
+        "soil_temp_f": "92.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet seedling appears healthy and upright with multiple developing true leaves and good leaf turgor. Foliage is bright green with normal shape and no visible pest damage, wilting, or distortion. Soil appears moist but not waterlogged, consistent with the mid-range moisture reading.",
+      "actions": "Do not water right now as moisture is ideal. Recheck moisture tomorrow morning; apply 1/4 cup of water in a wide ring around the seedling only if moisture drops below 45–50 mS/cm.",
+      "next_steps": "Monitor growth pace over the next 5–7 days for a root-establishment growth spurt, which is common for Scotch Bonnet. Recheck soil temperature and moisture during midday sun; consider providing slight afternoon shade if soil temperatures consistently remain above 95°F.",
+      "q_and_a_summary": "Discussed whether slower growth compared with the other peppers in the same planter is normal; confirmed Scotch Bonnets commonly develop more slowly and vary plant-to-plant even under identical conditions, and that current growth and leaf structure appear healthy.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251225-02.jpeg",
+          "caption": "Overhead view showing a compact Scotch Bonnet seedling with several true leaves and healthy green color in evenly moist soil.",
+          "tags": "scotch-bonnet, seedling, true-leaves, overhead, soil"
+        },
+        {
+          "file_name": "pepper_001-20251225-03.jpeg",
+          "caption": "Angled view showing upright stem posture, clean leaf structure, and stable early vegetative growth beside the support stake.",
+          "tags": "scotch-bonnet, seedling, early-vegetative, leaf-structure, stake"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:49 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight. Patchy fog tonight. Mostly sunny tomorrow with a high near 82°F.",

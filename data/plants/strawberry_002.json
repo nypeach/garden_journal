@@ -48,6 +48,239 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "12:09 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.8",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "85",
+        "moisture_mScm": "80",
+        "light": "99",
+        "rh_percent": "70",
+        "fertility_percent": "9",
+        "soil_temp_f": "90.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant appears healthy and vigorous with strong green foliage, multiple flower stalks, and active blooms/buds. No visible wilting. Some fine speckling or residue-like spotting is present on portions of leaf surfaces, but no clear signs of spreading leaf disease in today’s photos.",
+      "actions": "Skip watering tomorrow morning because moisture is still high. Monitor plant tomorrow midday for any droop; only water lightly if leaves look limp or the pot feels very light. Keep plant in strong sun and avoid unnecessary leaf wetness.",
+      "next_steps": "Recheck moisture and plant posture tomorrow midday if possible. Plan a gentle feeding once the pot dries down from the current wet level to support continued flowering. Monitor the leaf speckling; reassess if bronzing, increasing stippling, or webbing appears.",
+      "q_and_a_summary": "With moisture still reading high, watering at 6:00 AM tomorrow would likely keep the root zone too wet. Skipping the morning watering is safer, and the plant can be reassessed midday for any signs of droop before deciding on a light drink.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251228-02.jpeg",
+          "caption": "Top view showing a full, green canopy with active blooms and upright leaf posture.",
+          "tags": "strawberry, canopy, vigor, blooms, foliage"
+        },
+        {
+          "file_name": "strawberry_002-20251228-03.jpeg",
+          "caption": "Close view of the flower and surrounding leaves showing healthy structure and surface speckling/residue.",
+          "tags": "strawberry, flower, leaves, speckling, closeup"
+        },
+        {
+          "file_name": "strawberry_002-20251228-04.jpeg",
+          "caption": "Developing bloom/bud structure with healthy green sepals and upright stalk.",
+          "tags": "strawberry, bud, bloom, stalk, flowering"
+        },
+        {
+          "file_name": "strawberry_002-20251228-05.jpeg",
+          "caption": "Side view of the container showing leaf density, flowering stems, and overall plant posture.",
+          "tags": "strawberry, container, structure, blooms, posture"
+        },
+        {
+          "file_name": "strawberry_002-20251228-06.jpeg",
+          "caption": "Canopy-level view showing vigorous foliage and multiple flower stalks reaching upward.",
+          "tags": "strawberry, foliage, vigor, flower stalks, canopy"
+        },
+        {
+          "file_name": "strawberry_002-20251228-07.jpeg",
+          "caption": "Wider angle view showing overall plant size, leaf health, and flowering progression in full sun.",
+          "tags": "strawberry, full plant, health, flowering, sunlight"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "3:51 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.8",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "70",
+        "light": "99",
+        "rh_percent": "44",
+        "fertility_percent": "10",
+        "soil_temp_f": "72.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant appears healthy and vigorous with strong green foliage, multiple blooms, and developing fruit. Earlier today around 10:45 AM, leaves and bad blooms were snipped, leaf spot tissue was removed, and old soggy mulch was taken out and the surface fluffed to improve airflow after the probe reading. Canopy now looks more open and cleaner, with improved spacing for airflow and reduced disease pressure.",
+      "actions": "Check the top 1–2 inches of soil at 6:00 AM tomorrow. Skip watering if it still feels damp. If the surface feels dry and the pot feels lighter, give a small controlled watering (about 8–12 oz) and stop at first sign of drainage.",
+      "next_steps": "Continue removing spent blooms and any leaves that develop new spotting. Monitor moisture trend and aim for evenly moist soil rather than staying saturated. Consider a gentle feeding soon to support flowering and fruiting once moisture is closer to moderate.",
+      "q_and_a_summary": "With soil moisture still reading high at 70% in the afternoon, watering tomorrow morning should be based on a quick topsoil dryness check rather than routine. If the surface is still damp, skipping watering is best; if it is drying and the pot feels lighter, a small controlled watering will prevent mid-day stress without pushing the root zone too wet.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251227-02.jpeg",
+          "caption": "Overhead view showing a healthy strawberry canopy with strong green leaves and multiple blooms after cleanup.",
+          "tags": "strawberry, overall_health, canopy, blooms, post_pruning"
+        },
+        {
+          "file_name": "strawberry_002-20251227-03.jpeg",
+          "caption": "Side view of the plant showing an open canopy, several flower stalks, and good structure after removing leaf spot leaves and old mulch.",
+          "tags": "strawberry, structure, airflow, flowers, container"
+        },
+        {
+          "file_name": "strawberry_002-20251227-04.jpeg",
+          "caption": "Front view showing remaining blooms and healthy foliage with improved spacing for airflow.",
+          "tags": "strawberry, foliage, blooms, airflow, vigor"
+        },
+        {
+          "file_name": "strawberry_002-20251227-05.jpeg",
+          "caption": "Closer view of foliage and bloom area showing generally healthy leaves and active flowering.",
+          "tags": "strawberry, close_up, leaves, blooms, growth"
+        }
+      ]
+    },
+    {
+      "date": "12/26/2025",
+      "time": "3:48 PM",
+      "conditions": "Sunny with a high of 81°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "6.9",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "102",
+        "moisture_mScm": "80",
+        "light": "93",
+        "rh_percent": "37",
+        "fertility_percent": "10",
+        "soil_temp_f": "91.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant is full and vigorous with dense green foliage, multiple red blooms, and several developing fruitlets. Leaf spot lesions are visible on older leaves, and several blooms/fruitlets show browning or aborted tissue.",
+      "actions": "Skip watering tomorrow morning unless the top 1 inch of soil is dry and the pot feels noticeably lighter. At 6am, prune the leaf spot leaves and remove spent/bad blooms and aborted fruitlets to improve airflow and reduce fungal pressure.",
+      "next_steps": "Recheck moisture in the afternoon tomorrow; water only if soil surface is dry and plant shows slight midday wilt that does not recover by late afternoon. Monitor leaf spot progression over the next 3–5 days; if it spreads after pruning, prepare to treat with copper fungicide.",
+      "q_and_a_summary": "With afternoon moisture still reading high, watering in the early morning can be safely skipped even with limited midday availability, which helps avoid keeping the crown and roots overly wet and reduces disease risk. The pruning plan focuses on removing the leaf-spot leaves and the browning/aborted blooms and fruitlets so airflow improves and the plant can redirect energy into healthy fruit set.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251226-02.jpeg",
+          "caption": "Top-down view showing a dense, healthy strawberry canopy with multiple blooms and developing growth.",
+          "tags": "strawberry, canopy, vigor, blooms, container"
+        },
+        {
+          "file_name": "strawberry_002-20251226-03.jpeg",
+          "caption": "Side view of the container showing strong foliage and several flowers at different stages of bloom.",
+          "tags": "strawberry, container, flowers, growth, structure"
+        },
+        {
+          "file_name": "strawberry_002-20251226-04.jpeg",
+          "caption": "Angled view showing multiple blooms and healthy leaves with good overall plant fullness.",
+          "tags": "strawberry, blooms, foliage, healthy, container"
+        },
+        {
+          "file_name": "strawberry_002-20251226-05.jpeg",
+          "caption": "Full plant view showing abundant foliage and flowering stems extending outward from the crown.",
+          "tags": "strawberry, flowering, crown, foliage, container"
+        },
+        {
+          "file_name": "strawberry_002-20251226-06.jpeg",
+          "caption": "Close view showing leaf spot lesions on older leaves near the rim of the pot.",
+          "tags": "strawberry, leaf spot, disease, pruning, leaves"
+        },
+        {
+          "file_name": "strawberry_002-20251226-07.jpeg",
+          "caption": "Close view showing leaf spot on an older leaf and a nearby developing fruit structure.",
+          "tags": "strawberry, leaf spot, lesions, fruit set, foliage"
+        },
+        {
+          "file_name": "strawberry_002-20251226-08.jpeg",
+          "caption": "Developing fruitlet with darkened, stressed tissue that should be removed to reduce disease pressure.",
+          "tags": "strawberry, aborted fruit, pruning, bloom, disease prevention"
+        },
+        {
+          "file_name": "strawberry_002-20251226-09.jpeg",
+          "caption": "Developing berry with browning/aborted tissue indicating poor set; remove to redirect energy.",
+          "tags": "strawberry, fruit set, aborted, pruning, bloom removal"
+        },
+        {
+          "file_name": "strawberry_002-20251226-10.jpeg",
+          "caption": "Spent bloom with browning tissue that should be clipped off to reduce fungal risk and improve airflow.",
+          "tags": "strawberry, spent bloom, pruning, airflow, disease prevention"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "12:36 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "7.1",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "100%",
+        "light": "89%",
+        "rh_percent": "34%",
+        "fertility_percent": "11%",
+        "soil_temp_f": "85.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant has a full, dense canopy of healthy green leaves with multiple red blooms and active fruit set (green berry forming). Minor chewing holes are visible on several leaves. Soil appears very wet at time of reading.",
+      "actions": "Do not water again until the pot dries down from saturation. At the next watering, apply a light feeding with Purived 4-5-5 to support flowering and fruiting. At dusk, spray Captain Jack’s DeadBug on leaf undersides and crown to reduce chewing insects while avoiding open blooms.",
+      "next_steps": "Monitor pH trend (7.1 is high for strawberries) and watch for pale new growth that can indicate nutrient lockout. Continue checking for fresh chewing damage and reapply DeadBug as needed in the evening. Maintain even moisture by allowing partial dry-down between waterings, especially if showers occur tonight.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251225-02.jpeg",
+          "caption": "Top-down view showing a dense strawberry canopy with multiple red blooms and healthy green foliage.",
+          "tags": "strawberry, canopy, blooms, healthy foliage"
+        },
+        {
+          "file_name": "strawberry_002-20251225-03.jpeg",
+          "caption": "Side view showing open red strawberry flowers above the leaf canopy in bright sun.",
+          "tags": "strawberry, flowers, bloom, sunlight"
+        },
+        {
+          "file_name": "strawberry_002-20251225-04.jpeg",
+          "caption": "Close view of leaves showing minor chewing holes scattered across the foliage.",
+          "tags": "strawberry, leaf damage, chewing insects, holes"
+        },
+        {
+          "file_name": "strawberry_002-20251225-05.jpeg",
+          "caption": "Canopy view showing developing buds and vigorous leaf growth filling the container.",
+          "tags": "strawberry, buds, growth, container"
+        },
+        {
+          "file_name": "strawberry_002-20251225-06.jpeg",
+          "caption": "Close-up of a newly forming strawberry fruit with the flower fading and the berry beginning to swell.",
+          "tags": "strawberry, fruit set, developing berry, flowering"
+        },
+        {
+          "file_name": "strawberry_002-20251225-07.jpeg",
+          "caption": "Underside canopy view showing a spent bloom structure and surrounding leaves in good condition.",
+          "tags": "strawberry, spent bloom, canopy, foliage"
+        }
+      ]
+    },
+    {
       "date": "12/20/2025",
       "time": "7:46 AM",
       "conditions": "Sunny with a high of 82°F dropping to 66°F overnight.",

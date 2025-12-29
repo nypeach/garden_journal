@@ -8,8 +8,8 @@
       "category": "Daily Workflow",
       "sub_category": "Follow-up vs initial entry",
       "trigger_if": "The assistant adds user-provided actions or observations from the initial daily message (the same message that includes weather, photos, and probe readings) into the follow_up array",
-      "response_then": "Remove those entries from follow_up.\nUser actions and observations provided with the initial probe readings must be incorporated into the main Daily Journal Entry observation attribute summary, not logged as follow-ups.\nThe follow_up array is used ONLY for messages sent AFTER the initial daily entry.",
-      "count": 2,
+      "response_then": "Remove those entries from `follow_up`.\nUser actions, observations, and questions provided with the initial probe readings (including any watering questions, regardless of the time referenced) must be incorporated into the main Daily Journal Entry (`observations` / `actions` / `next_steps` and/or `q_and_a_summary`), not logged as follow-ups.\nThe `follow_up` array is used ONLY for messages sent AFTER the initial daily entry.\n",
+      "count": 16,
       "status": "active",
       "tags": [
         "follow-up",
@@ -31,7 +31,7 @@
       "sub_category": "Assessment order & depth",
       "trigger_if": "The assistant gives me Plant Daily Journal Entry Data JSON before providing an Expert Assessment",
       "response_then": "Stop — give me your Expert Assessment FIRST (natural, conversational), then immediately re-send the Daily Journal Entry JSON.",
-      "count": 2,
+      "count": 3,
       "status": "active",
       "tags": [
         "assessment",
@@ -75,7 +75,7 @@
       "sub_category": "Workflow gating / unnecessary confirmation",
       "trigger_if": "The assistant does not output the Daily Journal Entry JSON immediately after the Expert Assessment (or asks for confirmation first)",
       "response_then": "Please present the Daily Journal Entry JSON immediately after your assessment (no confirmation step). Then continue the workflow.",
-      "count": 17,
+      "count": 21,
       "status": "active",
       "tags": [
         "json",
@@ -141,8 +141,8 @@
       "category": "Daily Journal Entry JSON",
       "sub_category": "Schema / field names",
       "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
-      "response_then": "Regenerate the Daily Journal Entry JSON using this exact schema and field names from the guide—no added or renamed fields.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative (High/Low/Condition)\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
-      "count": 20,
+      "response_then": "Regenerate the Daily Journal Entry JSON using this exact schema and field names from the guide—no added or renamed fields.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative including High/Low/Condition\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Summary narrative of questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
+      "count": 28,
       "status": "active",
       "tags": [
         "json",
@@ -188,7 +188,7 @@
       "sub_category": "Filename / order preservation",
       "trigger_if": "The assistant includes probe screenshots in the photos array, uses placeholder names, changes filename order, or assigns captions that do not match the actual plant photos",
       "response_then": "Rebuild the photos array using ONLY filenames that correspond to actual plant photos (exclude all probe screenshots), preserve the exact filenames and order I provided, and write captions that accurately describe each specific photo.",
-      "count": 2,
+      "count": 5,
       "status": "active",
       "tags": [
         "photos",
@@ -279,7 +279,7 @@
       "sub_category": "Correction compliance / follow-through",
       "trigger_if": "The assistant acknowledges a correction, preference, or rule but does not immediately re-do the corrected step and continue the workflow",
       "response_then": "Stop. Acknowledgment alone is insufficient.\n\nImmediately:\n- re-do the corrected step exactly as instructed\n- re-issue the corrected section or output\n- resume the workflow from the correct point\n\nDo NOT explain internal reasoning.\nDo NOT restate the guide.\nDo NOT ask what to do next.",
-      "count": 2,
+      "count": 3,
       "status": "active",
       "tags": [
         "correction",
@@ -375,7 +375,7 @@
       "sub_category": "Required probe summary format compliance",
       "trigger_if": "The assistant labels the probe reading section with an instructional or meta heading such as: \"🌞 Probe Readings — Interpretation (Required Format)\" or any other non-dynamic, descriptive heading",
       "response_then": "Remove that heading entirely and instead use the dynamic probe summary headline itself as the H2 section heading, exactly as defined in the guide, for example:\n- 🌞 **Your readings today are excellent**\n- 🌤️ **Your readings are generally good with a few things to watch**\n- ⚠️ **Your readings today show some issues that need attention**\n\nDo not add any extra headings that describe formatting, requirements, or workflow.\nThe dynamic probe summary headline is the section heading.",
-      "count": 3,
+      "count": 7,
       "status": "active",
       "tags": [
         "probe",
@@ -486,7 +486,7 @@
       "sub_category": "Review workflow",
       "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
       "response_then": "Perform the Plant Main Data Review now (silently) using the \"When to suggest update\" rules, then either say exactly: No Plant Main Data updates necessary OR identify the outdated attributes and why. You need to do this every day immediately following the Daily Journal Entry JSON.",
-      "count": 53,
+      "count": 57,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -508,7 +508,7 @@
       "sub_category": "Multi-attribute updates",
       "trigger_if": "The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one",
       "response_then": "Stop. Do not resume from any intermediate point.\n\nFirst give me just the bulleted list of attributes for what needs changing.\nThen ask \"Ready to go one-by-one?\"\n\nThen one-by-one for each attribute...\n- Present the CURRENT attribute only\n- restate why it needs updating\n- restate the proposed updated wording (no code block)\nThen wait for the user to explicitly confirm or revise it before proceeding.",
-      "count": 6,
+      "count": 13,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -797,7 +797,7 @@
         "Adding advisory text to Q&A without a question mark or explicit as"
       ],
       "include_footer": true,
-      "count": 2,
+      "count": 5,
       "applies_when": ""
     },
     {
@@ -898,6 +898,113 @@
       ],
       "include_footer": true,
       "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-003",
+      "title": "q_and_a_summary Written as “User asked…” / Meta Narration Instead of Narrative Summary",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "q_and_a_summary Format / Meta Language",
+      "trigger_if": "The assistant populates `q_and_a_summary` using meta or procedural phrasing such as “Asked whether…”, “User asked…”, “Advised…”, “Confirmed…”, or otherwise writes the entry like a transcript/log of what happened instead of a natural narrative summary (or the user did not ask any question).",
+      "response_then": "Rewrite `q_and_a_summary` as either:\n- a **natural narrative summary** of the questions asked and answers given (no “User asked…”, no “Asked whether…”, no “Advised…”, no transcript style),",
+      "anti_patterns": [
+        "“Asked whether watering should continue…; advised…; confirmed…”",
+        "“User asked if… I advised…”",
+        "Transcript-style phrasing (“discussed X, confirmed Y, advised Z”)",
+        "Invented questions added to q_and_a_summary"
+      ],
+      "tags": [
+        "q_and_a_summary",
+        "meta-language",
+        "narrative-summary",
+        "json",
+        "schema-compliance",
+        "inferred-questions"
+      ],
+      "include_footer": true,
+      "count": 10,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-004",
+      "title": "Conditions Field Not Written as Weather Narrative",
+      "category": "Daily Journal Entry JSON",
+      "sub_category": "Conditions / Weather Narrative Format",
+      "trigger_if": "The assistant formats the `conditions` field as a shorthand template, tokenized summary, or parenthetical structure (examples: `\"Sunny (High 80°F / Low 58°F)\"`, `\"Sunny - 80/58\"`, `\"Sunny | 80°F / 58°F\"`) instead of writing it as a natural-language weather narrative.",
+      "response_then": "Rewrite the `conditions` field as a single natural-language sentence that includes:\n- the condition (e.g., Sunny, Mostly Sunny, Overcast, Showers likely)\n- the high temperature\n- the low temperature phrased as “dropping to __°F overnight” (or equivalent)\n- matching the user’s provided weather wording when available\n\n✅ Example:\n`\"conditions\": \"Sunny with a high of 80°F dropping to 58°F overnight.\"`\n\nDo NOT use parentheses, slashes, or shorthand formatting.\nRegenerate the COMPLETE Daily Journal Entry JSON with the corrected `conditions` field, changing NOTHING else.",
+      "anti_patterns": [
+        "\"Sunny (High 80°F / Low 58°F)\"",
+        "\"Sunny - 80/58\"",
+        "\"Sunny | High: 80 Low: 58\"",
+        "\"Mostly Sunny (81/62)\"",
+        "\"Clear (Low 58°F)\""
+      ],
+      "tags": [
+        "conditions",
+        "weather-narrative",
+        "json-formatting",
+        "shorthand",
+        "schema-compliance"
+      ],
+      "include_footer": true,
+      "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-005",
+      "title": "Assessment Started Without Uploaded Photos (Must Pause + Wait)",
+      "category": "Daily Workflow",
+      "sub_category": "Missing required inputs / Photos not uploaded",
+      "trigger_if": "I start a new day and include a photo filename list (or reference photos/screenshots), but I forget to actually upload the photos/screenshots — and the assistant proceeds with an Expert Assessment anyway (even if it includes disclaimers like “I don’t have photos”).",
+      "response_then": "Stop. Do NOT perform any assessment, probe interpretation, recommendations, or JSON logging.\n\nSay ONLY a short request to provide the missing uploads, using language like:\n“Please upload the photos/screenshots listed so I can assess the plant. I’ll wait.”\n\nRules:\n- Do not guess or infer plant condition from filenames.\n- Do not rely on weather alone to assess the plant.\n- Do not generate the Daily Journal Entry JSON.\n- Do not perform the Plant Main Data Review.\n- Preserve the user’s original message context and wait for the uploads.\n- When the photos are uploaded, resume normally using the original message (do not ask for weather/filenames again unless something is still missing).",
+      "anti_patterns": [
+        "Proceeding with assessment “based on weather only”",
+        "Making visual claims without photos",
+        "Generating JSON without photos",
+        "Asking the user to retype the entire message",
+        "Treating the missing photos as optional",
+        "Saying “I can still help” and then recommending actions anyway"
+      ],
+      "tags": [
+        "missing-photos",
+        "required-inputs",
+        "workflow-stop",
+        "no-hallucinations",
+        "wait-for-uploads",
+        "new-day"
+      ],
+      "include_footer": true,
+      "count": 0,
+      "applies_when": ""
+    },
+    {
+      "id": "TITLE-006",
+      "title": "Assistant Goes Completely Off the Rails (Hard Reset)",
+      "category": "Daily Workflow",
+      "sub_category": "Reset / Recovery / Multi-rule violations",
+      "trigger_if": "The assistant produces a “jacked up” Daily Journal Entry JSON (invented fields, wrong schema, probe readings in photos, invented follow-ups, or transcript-style `q_and_a_summary`) AND/OR fails to complete the required Plant Main Data Review after logging — especially after prior corrections.",
+      "response_then": "Stop. Regenerate the Daily Journal Entry JSON using the **exact schema and field names from the guide** — no added, removed, or renamed fields.\n\nRules (must all be followed):\n- `q_and_a_summary` must be either:\n  - an **empty string**, OR\n  - a **natural narrative summary** of the questions asked and answers given  \n    (no “User asked…”, no “Asked whether…”, no “Advised…”, no transcript style)\n- Do NOT make up follow-ups.\n  - User actions/observations included in the **initial daily message** must be incorporated into the main `observations` summary.\n  - The `follow_up` array is used **ONLY** for messages sent **after** the initial daily entry.\n- Do NOT include probe screenshots or probe readings in the `photos` array.\n- Preserve the user-provided photo filenames and order (excluding probe screenshot(s)).\n\nImmediately after the corrected Daily Journal Entry JSON:\nPerform the Plant Main Data Review now (silently) using the “When to suggest update” rules, then provide the outcome:\n- Say **EXACTLY**: No **Plant Main Data** updates necessary  \n  **OR**\n- Identify the outdated attributes (attribute names only) and why.\n\nAcknowledge the correction with **one brief sentence** confirming you will follow this approach going forward, then continue the workflow as my professional horticulturist or extension agent.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative including High/Low/Condition\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Summary narrative of questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
+      "anti_patterns": [
+        "Inventing new JSON fields (“plant_name”, “weather”, “probe_readings”, etc.)",
+        "Logging probe screenshots as photos",
+        "Creating follow-up entries that were never sent",
+        "Adding follow-ups for tomorrow / future plans",
+        "Using transcript-style q_and_a_summary (“User asked…”, “Advised…”)",
+        "Claiming Plant Main Data Review was done without providing the required outcome",
+        "Generating partial JSON fragments instead of the full entry"
+      ],
+      "tags": [
+        "reset",
+        "off-the-rails",
+        "schema-violation",
+        "invented-fields",
+        "follow-up-invention",
+        "q_and_a-summary-style",
+        "plant-main-data-missing",
+        "hard-reset"
+      ],
+      "include_footer": true,
+      "count": 4,
       "applies_when": ""
     }
   ]

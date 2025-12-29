@@ -13,9 +13,9 @@
     "Planted in black planter 23.5\" × 7.85\" × 6\" left back",
     "Shares planter with Thai Basil, Parsley, Oregano, and Thyme."
   ],
-  "whats_been_logged": "The cilantro has progressed into a dense, harvest-ready canopy with vigorous leaf production and steady green coloration. Soil pH and moisture have stabilized into an excellent range for continued growth, and the main ongoing pattern has become managing crowding in the shared herb box through regular harvesting, maintaining airflow, and preventing early bolting during warm spells.",
+  "whats_been_logged": "The focus has been on maintaining a dense, harvest-ready cilantro canopy while managing crowding in the shared herb box through regular harvesting, preserving airflow, and reducing warm-weather bolting risk. Soil moisture, pH, and nutrient concentration have been monitored for stability, and cutworm activity has been identified as an intermittent threat requiring occasional soil-level control and close stem monitoring.",
   "current_stage": "Mature Vegetative Stage (Pre-Bolting)",
-  "current_state": "The cilantro has formed a dense, lush canopy of broad serrated leaves with healthy green coloration and strong turgor. Growth is vigorous and harvest-ready, with stems layered and overlapping due to increasing density and encroachment from neighboring herbs in the shared window box. No visible pest damage, yellowing, or spotting is present, but warm soil conditions increase bolting risk if crowding persists.",
+  "current_state": "The cilantro remains vigorous and harvest-ready with healthy green serrated leaves and firm upright petioles. The canopy has been recently harvested and thinned to reduce crowding and improve airflow within the shared herb box. No visible yellowing, spotting, or wilting is present, but discovery of a cutworm in the soil indicates ongoing nighttime chewing risk that should be managed with targeted soil-level treatment and close stem monitoring.",
   "timeline": [
     {
       "what_i_should_see": "Thin Green Shoots Breaking The Soil Surface",
@@ -51,6 +51,163 @@
     }
   ],
   "journal": [
+    {
+      "date": "12/28/2025",
+      "time": "2:04 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.54",
+        "salt_mg_L": "271",
+        "moisture_mScm": "70.50",
+        "light": "94",
+        "rh_percent": "38",
+        "fertility_percent": "31.5",
+        "soil_temp_f": "93.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro remains healthy and harvestable with bright green serrated leaves and upright petioles following recent thinning. Two probe readings taken on opposite sides of the planter show strong zone variation, with one side running much hotter, wetter, and more nutrient-concentrated than the other. No obvious fresh clipping or wilted stems are visible today, suggesting cutworm pressure is currently controlled.",
+      "actions": "Do not water today or tomorrow morning as moisture remains high across both zones. Allow the planter to dry down naturally and avoid fertilizer while EC and salts show concentrated pockets.",
+      "next_steps": "Monitor tomorrow morning for any new clipped stems or sudden wilt that would indicate cutworm activity. Recheck moisture in 24 hours and water only if readings fall below 40 and the cilantro loses morning crispness. Continue harvesting lightly every 1–2 days to maintain airflow and reduce bolting pressure during warm soil conditions.",
+      "q_and_a_summary": "Discussed whether watering is needed tomorrow morning; confirmed to skip watering at 6:00 AM because moisture remains high and one zone is already hot and nutrient-concentrated.",
+      "follow_up": [
+        "[8:04 AM] Lightly roughed up the top 1/4 inch of bare soil across the entire shared herb box to improve airflow and reduce pest hiding spots."
+      ],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251228-03.jpeg",
+          "caption": "Overhead view of the cilantro patch showing healthy green leaves and upright growth after recent thinning, with exposed soil surface visible in the shared herb box.",
+          "tags": "cilantro, herb-box, overhead, healthy-growth, post-harvest"
+        },
+        {
+          "file_name": "cilantro_002-20251228-04.jpeg",
+          "caption": "Closer overhead view showing dense cilantro foliage with good coloration and structure, with the canopy still vigorous and harvestable.",
+          "tags": "cilantro, close-up, canopy, healthy, harvest-ready"
+        }
+      ]
+    },
+    {
+      "date": "12/28/2025",
+      "time": "2:04 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.54",
+        "salt_mg_L": "271",
+        "moisture_mScm": "70.50",
+        "light": "94",
+        "rh_percent": "38",
+        "fertility_percent": "31.5",
+        "soil_temp_f": "93.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro remains healthy and harvestable with bright green serrated leaves and upright petioles following recent thinning. Two probe readings taken on opposite sides of the planter show strong zone variation, with one side running much hotter, wetter, and more nutrient-concentrated than the other. No obvious fresh clipping or wilted stems are visible today, suggesting cutworm pressure is currently controlled.",
+      "actions": "Do not water today or tomorrow morning as moisture remains high across both zones. Allow the planter to dry down naturally and avoid fertilizer while EC and salts show concentrated pockets.",
+      "next_steps": "Monitor tomorrow morning for any new clipped stems or sudden wilt that would indicate cutworm activity. Recheck moisture in 24 hours and water only if readings fall below 40 and the cilantro loses morning crispness. Continue harvesting lightly every 1–2 days to maintain airflow and reduce bolting pressure during warm soil conditions.",
+      "q_and_a_summary": "Discussed whether watering is needed tomorrow morning; confirmed to skip watering at 6:00 AM because moisture remains high and one zone is already hot and nutrient-concentrated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251228-03.jpeg",
+          "caption": "Overhead view of the cilantro patch showing healthy green leaves and upright growth after recent thinning, with exposed soil surface visible in the shared herb box.",
+          "tags": "cilantro, herb-box, overhead, healthy-growth, post-harvest"
+        },
+        {
+          "file_name": "cilantro_002-20251228-04.jpeg",
+          "caption": "Closer overhead view showing dense cilantro foliage with good coloration and structure, with the canopy still vigorous and harvestable.",
+          "tags": "cilantro, close-up, canopy, healthy, harvest-ready"
+        }
+      ]
+    },
+    {
+      "date": "12/27/2025",
+      "time": "11:25 AM",
+      "conditions": "Sunny with a high of 80°F dropping to 58°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.84",
+        "salt_mg_L": "423",
+        "moisture_mScm": "69.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "51.0",
+        "soil_temp_f": "65.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro remains vigorous and harvest-ready with healthy green leaves and firm upright petioles. The canopy has been thinned and opened after a morning harvest, improving airflow and reducing crowding pressure in the shared herb box. A cutworm was found buried in the soil, indicating active nighttime chewing risk even though foliage currently shows no obvious damage.",
+      "actions": "Do not water today or tomorrow morning as moisture remains high. Apply Captain Jack’s DeadBug this evening at soil level across the entire herb box, focusing around stem bases to target cutworms before nighttime feeding.",
+      "next_steps": "Monitor tonight and tomorrow morning for any new clipped stems or sudden wilting that would indicate continued cutworm activity. Recheck moisture tomorrow afternoon and water only if readings fall below 40 or the canopy loses crispness in the morning. Do not fertilize while EC and salts remain elevated.",
+      "q_and_a_summary": "Discussed whether watering is needed tomorrow morning; confirmed to skip watering at 6:00 AM because moisture remains high and nutrients are already concentrated.",
+      "follow_up": [
+        "[5:21 PM] Sprayed Captain Jack’s DeadBug across the entire shared herb box at soil level to target cutworms ahead of nighttime feeding."
+      ],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251227-01.jpeg",
+          "caption": "Before-harvest view showing a dense cilantro canopy with heavy crowding and overlapping stems in the shared herb box.",
+          "tags": "cilantro, herb-box, before-harvest, dense-canopy, crowding"
+        },
+        {
+          "file_name": "cilantro_002-20251227-02.jpeg",
+          "caption": "After-harvest view showing the cilantro thinned and opened up with improved airflow and more upright structure.",
+          "tags": "cilantro, herb-box, after-harvest, thinned, airflow"
+        },
+        {
+          "file_name": "cilantro_002-20251227-04.jpeg",
+          "caption": "Close view of the cilantro patch after harvest showing healthy leaf color, upright petioles, and exposed soil surface where cutworms may hide.",
+          "tags": "cilantro, close-up, post-harvest, healthy-growth, cutworm-risk"
+        }
+      ]
+    },
+    {
+      "date": "12/25/2025",
+      "time": "2:09 PM",
+      "conditions": "Sunny with a high of 80°F dropping to 62°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "112",
+        "moisture_mScm": "80.00",
+        "light": "97",
+        "rh_percent": "31",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "88.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro canopy is lush, dense, and harvest-ready with broad serrated leaves and healthy green coloration. Leaves appear turgid and upright with no visible yellowing, spotting, or pest damage. Some center growth is rising slightly above the canopy, consistent with warm soil conditions and increasing density in the shared herb box.",
+      "actions": "Do not water today as moisture is high. Harvest approximately one-third of the cilantro canopy by cutting the largest outer leaves and any taller stretching stems at the base to reduce crowding and slow bolting risk in warm soil.",
+      "next_steps": "Monitor over the next 2–4 days for rapid upright stem growth that would indicate early bolting. Recheck moisture tomorrow or the next day and avoid watering unless moisture drops below 40. Continue harvesting every 1–2 days as needed to maintain airflow and extend leaf production.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251225-02.jpeg",
+          "caption": "Overhead view showing a dense, healthy cilantro canopy with broad serrated leaves and strong coloration under full sun.",
+          "tags": "cilantro, herb-box, healthy-canopy, harvest-ready, overhead"
+        },
+        {
+          "file_name": "cilantro_002-20251225-03.jpeg",
+          "caption": "Angled view showing upright cilantro petioles and thicker center growth beginning to rise above the canopy, with healthy leaf structure and no visible stress.",
+          "tags": "cilantro, leaves, structure, dense-growth, pre-bolting, shared-container"
+        }
+      ]
+    },
     {
       "date": "12/20/2025",
       "time": "8:15 AM",
