@@ -39,6 +39,58 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:22 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "27",
+        "moisture_mScm": "33.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "87.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chrysanthemum remains vigorous and actively flowering with multiple open blooms and many buds still developing throughout the canopy. Stems are upright and structurally sound with healthy green foliage and no visible wilting. The soil surface appears dry and the late-afternoon probe reading confirms the container is drying down while the root zone is warm.",
+      "actions": "Water tomorrow morning with 3 cups of water poured slowly around the pot edge to rehydrate evenly. Mix Purived 4-5-5 at 1 capful per 1 gallon of water and apply 3 cups of the mixed solution as a light feed to support buds and blooms. Deadhead spent blooms by snipping just below the flower head to encourage continued bud opening.",
+      "next_steps": "Recheck probe readings tomorrow afternoon after watering. Continue watering only when moisture drops to 35.00 or lower, ideally in the morning. Monitor bloom longevity and bud progression; hot late-afternoon soil temperature and low fertility can speed bloom decline if moisture is allowed to drop too far.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_001-20251229-02.jpeg",
+          "caption": "Overhead view showing a full canopy with multiple open blooms and many buds still developing, with the soil surface appearing dry across the container.",
+          "tags": "chrysanthemum, overhead, canopy, buds, blooms, dry-soil"
+        },
+        {
+          "file_name": "mum_001-20251229-03.jpeg",
+          "caption": "Close view of the soil surface and lower stems showing a dry top layer with perlite visible and bud clusters forming near the base.",
+          "tags": "chrysanthemum, soil, perlite, buds, base-growth"
+        },
+        {
+          "file_name": "mum_001-20251229-04.jpeg",
+          "caption": "Angled view showing multiple open blooms with reddish-bronze tones and many unopened buds tucked through the foliage.",
+          "tags": "chrysanthemum, blooms, buds, foliage, angled-view"
+        },
+        {
+          "file_name": "mum_001-20251229-05.jpeg",
+          "caption": "Front view showing upright stems, active flowering, and continued bud production across the upper canopy.",
+          "tags": "chrysanthemum, structure, stems, flowering, buds"
+        },
+        {
+          "file_name": "mum_001-20251229-06.jpeg",
+          "caption": "Full pot view showing strong overall form, multiple open blooms around the edges, and dense bud development indicating an ongoing bloom wave.",
+          "tags": "chrysanthemum, full-plant, pot, blooms, buds, vigor"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "11:57 AM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

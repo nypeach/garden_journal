@@ -52,6 +52,43 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "5:10 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "41.00",
+        "light": "68",
+        "rh_percent": "47",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro has rebounded quickly after the recent harvest, with upright petioles and fresh leafy regrowth forming a healthy, harvestable canopy. Leaf color remains vibrant green with no visible wilting or yellowing. Soil has dried down substantially compared to the prior day and appears evenly moist-to-dry across the cilantro zone.",
+      "actions": "Water the cilantro zone in the morning using a slow, controlled pour to rehydrate the root zone without soaking the entire herb box. Do not fertilize today as EC and salts are low and the plant is actively regrowing.",
+      "next_steps": "Recheck moisture tomorrow afternoon and water again only if readings fall below 40 and leaves lose morning crispness. Continue light harvesting every 1–2 days to maintain airflow and reduce bolting risk as warm soil conditions persist. Monitor for any new clipped stems that would suggest renewed cutworm activity.",
+      "q_and_a_summary": "Discussed whether watering is needed the following morning; confirmed to water with a controlled, moderate morning watering because moisture was already 41 and conditions remain warm and sunny.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20251229-02.jpeg",
+          "caption": "Overhead view of the shared herb box showing cilantro regrowth after harvest, with upright leafy stems and soil surface drying across the planter.",
+          "tags": "cilantro, herb-box, regrowth, post-harvest, overhead"
+        },
+        {
+          "file_name": "cilantro_002-20251229-03.jpeg",
+          "caption": "Angled view of the cilantro patch showing healthy, turgid leaves and new growth rebuilding the canopy, with no visible wilting or discoloration.",
+          "tags": "cilantro, regrowth, healthy, leaves, structure"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:04 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

@@ -44,6 +44,48 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "5:08 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "6.70",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "74.00",
+        "light": "78",
+        "rh_percent": "48",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "78.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro is small and a bit pale green overall, with uneven vigor across the planter. The right zone appears to be holding noticeably more moisture than the left, which can slow growth.",
+      "actions": "Do NOT water the entire planter tomorrow morning. Skip watering the right side. At 6:00 AM, only spot-water the left zone if the top 1–2 inches of soil feel dry, using a small amount to moisten that zone without soaking the planter.",
+      "next_steps": "Continue zone-based checks daily. Recheck moisture in both zones tomorrow afternoon; the goal is to prevent the right side from staying saturated while keeping the left evenly moist. Consider a light feeding only after moisture levels stabilize and container volume is confirmed so exact measured amounts can be provided.",
+      "q_and_a_summary": "Reviewed whether to water at 6:00 AM tomorrow; decided against watering the whole planter because the right side is still holding a lot of moisture, and recommended skipping that zone while only spot-watering the left side if the top couple inches feel dry.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20251229-01.jpeg",
+          "caption": "Digital probe reading taken from the left zone showing moderate moisture and low EC with a stable pH.",
+          "tags": "cilantro, probe reading, left zone, moisture, pH, EC, fertility"
+        },
+        {
+          "file_name": "cilantro_001-20251229-02.jpeg",
+          "caption": "Digital probe reading taken from the right zone showing very high moisture compared to the left zone, supporting zone-watering.",
+          "tags": "cilantro, probe reading, right zone, high moisture, zone watering, EC, fertility"
+        },
+        {
+          "file_name": "cilantro_001-20251229-03.jpeg",
+          "caption": "Cilantro plants in the window box showing small, pale-green growth with uneven vigor consistent with uneven moisture across the planter.",
+          "tags": "cilantro, plant photo, slow growth, pale leaves, uneven vigor, window box"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "1:41 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

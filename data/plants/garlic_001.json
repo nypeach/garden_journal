@@ -60,6 +60,43 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:33 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.60",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "77",
+        "moisture_mScm": "50.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "80.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Siberian Hardneck garlic shows continued recovery with green center growth and intact crowns, while older outer leaf tissue remains collapsed and dry. Soil moisture is uneven across the section, confirmed by an initial probe reading failure in a very dry pocket and a second, valid reading showing moderate moisture. Mulch coverage remains thin and uneven, contributing to localized dry-down.",
+      "actions": "Apply 1/2 cup total water to the Siberian Hardneck section, poured slowly and spread around the shoots while keeping water off the crowns. Redistribute mulch to create more even soil shading across the section while maintaining a 1–2 inch bare ring around each crown. Do not fertilize.",
+      "next_steps": "Take the next probe reading tomorrow afternoon after moisture redistributes. Resume light watering only if moisture remains below approximately 45 mS/cm; hold watering if moisture rises above approximately 55 mS/cm. Recheck pH after moisture stabilizes, as dry soil pockets can cause temporarily elevated pH readings.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20251229-03.jpeg",
+          "caption": "Probe placement photo showing the sensor inserted into a bare soil zone near the Siberian Hardneck section with mulch kept off the probe location for clearer contact.",
+          "tags": "garlic, siberian-hardneck, probe-placement, soil-surface, mulch"
+        },
+        {
+          "file_name": "garlic_001-20251229-04.jpeg",
+          "caption": "Close view of the Siberian Hardneck area showing green upright center growth alongside older collapsed leaf tissue and visibly dry, uneven soil moisture across the window box section.",
+          "tags": "garlic, siberian-hardneck, recovery, leaf-collapse, dry-soil, window-box"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:28 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

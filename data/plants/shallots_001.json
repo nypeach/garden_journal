@@ -35,6 +35,63 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:59 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "6.0",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "111",
+        "moisture_mScm": "45",
+        "light": "84",
+        "rh_percent": "46",
+        "fertility_percent": "11",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The shallots look generally healthy but several leaves are flopping/arching, which fits with today’s uneven moisture across the planter; a small new green shoot is emerging near the soil surface (your close-up), and the chamomile sharing the box is vigorous and crowding the shallot area. You used your Bio Stretch Soft Garden Plant Ties to gently gather the shallot leaves for support.",
+      "actions": "Keep the tie in place but ensure it stays loose and sits above the white base so it supports without constricting. Plan to water tomorrow morning at 6:00 AM with a targeted soak on the driest section first, then a light, even pass across the rest of the box to smooth out moisture differences.",
+      "next_steps": "Recheck posture after tomorrow’s watering; if leaves perk up within a few hours, the flopping was mostly hydration/heat-related. Continue occasional chamomile trimming to reduce competition, and monitor fertility over the next few days since readings are trending low.",
+      "q_and_a_summary": "Checked whether tying the flopping shallot leaves together was appropriate; confirmed it’s fine as a gentle support as long as the tie stays loose and doesn’t pinch near the base, and noted it should help the leaves stay upright while the plant strengthens.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20251229-02.jpeg",
+          "caption": "Wider view of the shared planter showing chamomile growth and spacing around the shallots.",
+          "tags": "planter, chamomile, spacing, competition"
+        },
+        {
+          "file_name": "shallots_001-20251229-03.jpeg",
+          "caption": "Close-up of a small emerging shoot near the soil surface that appears to be a new shallot sprout.",
+          "tags": "new shoot, sprout, emergence, growth"
+        },
+        {
+          "file_name": "shallots_001-20251229-05.jpeg",
+          "caption": "The shallots are gently gathered with a soft tie to reduce flopping and keep leaves upright.",
+          "tags": "shallots, support, plant ties, leaf flop"
+        },
+        {
+          "file_name": "shallots_001-20251229-06.jpeg",
+          "caption": "Side view of the supported shallots showing leaf posture after being gently bundled.",
+          "tags": "shallots, support, leaves, posture"
+        },
+        {
+          "file_name": "shallots_001-20251229-08.jpeg",
+          "caption": "A smaller shallot plant is visible with leaves leaning, consistent with uneven moisture in the bed.",
+          "tags": "shallots, leaf posture, moisture variability"
+        },
+        {
+          "file_name": "shallots_001-20251229-10.jpeg",
+          "caption": "Additional overview of the shallots and chamomile showing soil surface condition and spacing in the box.",
+          "tags": "overview, soil surface, spacing, mixed planting"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "1:17 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

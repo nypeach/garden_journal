@@ -61,6 +61,60 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "3:07 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing clouds. Tomorrow: Decreasing clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.60",
+        "ec_mScm": "0.01",
+        "salt_mg_L": "9",
+        "moisture_mScm": "0.00",
+        "light": "99",
+        "rh_percent": "35",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "87.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Green bean plant remains upright and green with active flower clusters forming. Leaves are turgid and not wilted, but probe readings indicate an extremely dry and nutrient-depleted soil pocket in the afternoon heat. Raised bed conditions are drying rapidly despite morning watering, likely due to high soil temperature and uneven moisture distribution. Close inspection shows small soft-bodied insects consistent with aphids or early whitefly activity on leaf surfaces.",
+      "actions": "Re-wet the root zone lightly this evening with a slow, gentle watering at the base for 30–45 seconds after sun exposure decreases. Apply Bonide Captain Jack’s DeadBug this evening, coating leaf undersides and stems where insects are present. Plan a light fertilizer application tomorrow morning using a diluted liquid feed to restore nutrient availability.",
+      "next_steps": "Feed tomorrow morning with a light soil drench once moisture is restored to support flowering and pod set. Continue monitoring afternoon moisture levels and expect increased water demand during hot days. Recheck insect pressure 48 hours after treatment and reapply if necessary. Adjust watering duration if probe readings continue to hit zero by mid-afternoon.",
+      "q_and_a_summary": "Reviewed the extreme mid-afternoon dryness despite morning watering and discussed how heat and uneven wetting in raised beds can create dry pockets even when the plant still looks perky. Decided on an immediate split watering (quart total in two intervals) to rehydrate the root zone, then a 6 PM recheck before choosing whether to fertilize and how much to water tomorrow morning. Confirmed the visible insects are true pests and that an evening Captain Jack’s DeadBug spray is appropriate.",
+      "follow_up": [
+        "[3:27 PM] Added a quart of water in two intervals to re-wet the root zone after extremely dry afternoon readings."
+      ],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251229-02.jpeg",
+          "caption": "Green bean plant viewed from above showing healthy green leaves and developing flower clusters despite afternoon heat.",
+          "tags": "green beans, healthy growth, flowering, raised bed"
+        },
+        {
+          "file_name": "green_beans_001-20251229-03.jpeg",
+          "caption": "Side view of the green bean plant near its support stake with partial shade from nearby plants.",
+          "tags": "green beans, structure, partial shade, support stake"
+        },
+        {
+          "file_name": "green_beans_001-20251229-04.jpeg",
+          "caption": "Close-up view of tender growth and flower nodes on the green bean plant.",
+          "tags": "flowering, nodes, pod set, green beans"
+        },
+        {
+          "file_name": "green_beans_001-20251229-05.jpeg",
+          "caption": "Close-up of small soft-bodied insects on a leaf surface, consistent with aphid or whitefly activity.",
+          "tags": "aphids, whiteflies, pests, leaf underside, infestation"
+        },
+        {
+          "file_name": "green_beans_001-20251229-06.jpeg",
+          "caption": "Raised bed soil around the green bean plant after a split quart watering, showing darker, freshly wetted soil concentrated near the base.",
+          "tags": "watering, rehydration, soil moisture, raised bed, green beans"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:09 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",

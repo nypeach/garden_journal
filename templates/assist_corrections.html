@@ -30,6 +30,7 @@
         <div class="search-filters-left">
           <div class="search-label">
             SEARCH:
+            <a href="#" onclick="copyPromptForChatGPT(event)" class="add-new-link">📋 Copy Prompt</a>
             <a href="#" onclick="toggleAddNewForm(event)" class="add-new-link">+ Add New</a>
           </div>
           <input type="text" id="searchInput" class="form-input" placeholder="Search by trigger or title..."
@@ -222,6 +223,123 @@ tag1, tag2, tag3"></textarea>
 
   <script>
     const ACKNOWLEDGMENT_FOOTER = "\n\nAcknowledge the correction with one brief sentence confirming you will follow this approach going forward, then immediately continue the workflow as my professional horticulturist or extension agent.";
+
+    // Store all correction IDs for prompt generation
+    const ALL_CORRECTION_IDS = [
+      {% for correction in corrections %}
+    '{{ correction.id }}'{% if not loop.last %}, {% endif %}
+    {% endfor %}
+    ];
+
+    function copyPromptForChatGPT(event) {
+      event.preventDefault();
+
+      // Parse all IDs to find highest number for each prefix
+      const prefixMap = {};
+
+      ALL_CORRECTION_IDS.forEach(id => {
+        // Split ID into prefix and number (e.g., "DW-ASSESSMENT-003" -> ["DW-ASSESSMENT", "003"])
+        const lastDash = id.lastIndexOf('-');
+        if (lastDash === -1) return;
+
+        const prefix = id.substring(0, lastDash);
+        const numberStr = id.substring(lastDash + 1);
+        const number = parseInt(numberStr, 10);
+
+        if (isNaN(number)) return;
+
+        if (!prefixMap[prefix] || prefixMap[prefix] < number) {
+          prefixMap[prefix] = number;
+        }
+      });
+
+      // Build comma-separated list of highest IDs
+      const highestIds = Object.keys(prefixMap)
+        .sort()
+        .map(prefix => `${prefix}-${String(prefixMap[prefix]).padStart(3, '0')}`)
+        .join(', ');
+
+      // Build the markdown prompt
+      const template = `Here is everything you need to create the entry.
+
+**List of Last Numerical ID for each parent category**
+
+${highestIds}
+
+**Copy Paste Markdown Template**
+
+\`\`\`markdown
+**ID**
+YOUR-ID-HERE
+
+**TITLE**
+Your Title Here
+
+**CATEGORY**
+Category Name
+
+**SUB-CATEGORY**
+Sub-Category Name
+
+**IF**
+The trigger condition goes here. This can be multiple paragraphs and sentences.
+
+**THEN**
+The correction response goes here. This can include:
+- Multiple paragraphs
+- Bullet points
+- Code blocks
+- Whatever formatting you need
+
+**ANTI-PATTERNS**
+Example of what it looked like when wrong
+Another example
+Third example
+
+**TAGS**
+tag1, tag2, tag3
+\`\`\`
+`;
+
+      // Copy to clipboard
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(template).then(() => {
+          // Show success feedback
+          const link = event.target;
+          const originalText = link.textContent;
+          link.textContent = '✓ Copied!';
+          link.style.color = 'var(--success, green)';
+          setTimeout(() => {
+            link.textContent = originalText;
+            link.style.color = '';
+          }, 2000);
+        }).catch(err => {
+          alert('Failed to copy. Please try again.');
+        });
+      } else {
+        // Fallback for older browsers
+        const textarea = document.createElement('textarea');
+        textarea.value = template;
+        textarea.style.position = 'absolute';
+        textarea.style.left = '-9999px';
+        document.body.appendChild(textarea);
+        textarea.select();
+
+        try {
+          document.execCommand('copy');
+          const link = event.target;
+          const originalText = link.textContent;
+          link.textContent = '✓ Copied!';
+          setTimeout(() => {
+            link.textContent = originalText;
+          }, 2000);
+        } catch (err) {
+          alert('Failed to copy. Please manually select and copy the template.');
+        }
+
+        document.body.removeChild(textarea);
+      }
+    }
 
     function toggleAddNewForm(event) {
       event.preventDefault();
@@ -529,7 +647,6 @@ tag1, tag2, tag3"></textarea>
 
       document.getElementById('noResults').style.display = 'none';
     }
-
     // Update subcategory dropdown when category changes
     document.getElementById('categoryFilter').addEventListener('change', function () {
       const category = this.value;

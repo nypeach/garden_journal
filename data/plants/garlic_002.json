@@ -53,6 +53,70 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:34 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "34",
+        "moisture_mScm": "16.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Music Hardneck zone shows an evenly settled, aerated soil surface with no signs of pooling or oversaturation. No new Music shoot is visible above the soil line yet, which remains appropriate for this early rooting stage. Soil appears dry on the surface, consistent with the low moisture reading.",
+      "actions": "Apply 1/3 cup of water slowly and evenly across the Music Hardneck zone only to support clove root initiation. Do not fertilize and do not disturb the soil surface.",
+      "next_steps": "Recheck moisture tomorrow late morning and repeat the same light watering only if moisture remains below 25. Avoid any additional watering if moisture rebounds into the 30–55 range. Continue watching for new green tips in early January.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251229-02.jpeg",
+          "caption": "Overhead view of the Music Hardneck zone showing a dry, crumbly, well-aerated soil surface with stable structure and no signs of saturation or pooling.",
+          "tags": "garlic, Music Hardneck, soil surface, aeration, dry-down, window box"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:34 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.06",
+        "salt_mg_L": "34",
+        "moisture_mScm": "16.00",
+        "light": "99",
+        "rh_percent": "43",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "80.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Music Hardneck zone shows an evenly settled, aerated soil surface with no signs of pooling or oversaturation. No new Music shoot is visible above the soil line yet, which remains appropriate for this early rooting stage. Soil appears dry on the surface, consistent with the low moisture reading.",
+      "actions": "Apply 1/3 cup of water slowly and evenly across the Music Hardneck zone only to support clove root initiation. Do not fertilize and do not disturb the soil surface.",
+      "next_steps": "Recheck moisture tomorrow late morning and repeat the same light watering only if moisture remains below 25. Avoid any additional watering if moisture rebounds into the 30–55 range. Continue watching for new green tips in early January.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20251229-02.jpeg",
+          "caption": "Overhead view of the Music Hardneck zone showing a dry, crumbly, well-aerated soil surface with stable structure and no signs of saturation or pooling.",
+          "tags": "garlic, Music Hardneck, soil surface, aeration, dry-down, window box"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:30 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

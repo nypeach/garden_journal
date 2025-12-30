@@ -39,6 +39,53 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:24 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.4",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "10",
+        "moisture_mScm": "0",
+        "light": "93",
+        "rh_percent": "40",
+        "fertility_percent": "1",
+        "soil_temp_f": "82.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This plant is actively blooming with multiple open flowers and many buds forming. Foliage is generally green, but the container media is extremely dry. Three probe attempts were taken because the soil was so dry it was difficult to get stable readings, and the pH values varied widely, consistent with poor sensor contact in very dry soil.",
+      "actions": "Water slowly and deeply right now to fully rehydrate the pot. Use a slow soak method so the water penetrates the full root zone (water until it drains, wait 10–15 minutes, then water again). Do not fertilize today; allow the root zone to rehydrate first.",
+      "next_steps": "Tomorrow morning, check the top 1–2 inches of soil by touch and re-check moisture with the probe if possible. If moisture is still low or the pot feels light, repeat a slow soak watering. Once moisture readings return to the normal range for 24–48 hours, fertility can be reassessed and a light feed can be considered.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20251229-04.jpeg",
+          "caption": "This plant shows multiple open blooms with a dense set of buds forming across the canopy.",
+          "tags": "mum, chrysanthemum, buds, blooms, container, full plant"
+        },
+        {
+          "file_name": "mum_002-20251229-05.jpeg",
+          "caption": "A closer view of the canopy shows healthy green foliage and many developing buds with several fresh blooms open.",
+          "tags": "mum, chrysanthemum, buds, fresh blooms, foliage, close-up"
+        },
+        {
+          "file_name": "mum_002-20251229-06.jpeg",
+          "caption": "This angle highlights bud density and bloom progression across the plant, with no clearly spent flowers visible.",
+          "tags": "mum, chrysanthemum, bud clusters, bloom cycle, deadheading check"
+        },
+        {
+          "file_name": "mum_002-20251229-07.jpeg",
+          "caption": "Multiple fresh blooms are open with many buds still emerging, showing the plant is still in an active flowering phase.",
+          "tags": "mum, chrysanthemum, active bloom, emerging buds, container plant"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:20 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",

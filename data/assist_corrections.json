@@ -9,7 +9,7 @@
       "sub_category": "Follow-up vs initial entry",
       "trigger_if": "The assistant adds user-provided actions or observations from the initial daily message (the same message that includes weather, photos, and probe readings) into the follow_up array",
       "response_then": "Remove those entries from `follow_up`.\nUser actions, observations, and questions provided with the initial probe readings (including any watering questions, regardless of the time referenced) must be incorporated into the main Daily Journal Entry (`observations` / `actions` / `next_steps` and/or `q_and_a_summary`), not logged as follow-ups.\nThe `follow_up` array is used ONLY for messages sent AFTER the initial daily entry.\n",
-      "count": 16,
+      "count": 18,
       "status": "active",
       "tags": [
         "follow-up",
@@ -142,7 +142,7 @@
       "sub_category": "Schema / field names",
       "trigger_if": "The assistant's Daily Journal Entry JSON uses the wrong schema, field names, or adds new fields",
       "response_then": "Regenerate the Daily Journal Entry JSON using this exact schema and field names from the guide—no added or renamed fields.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative including High/Low/Condition\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Summary narrative of questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
-      "count": 29,
+      "count": 32,
       "status": "active",
       "tags": [
         "json",
@@ -797,7 +797,7 @@
         "Adding advisory text to Q&A without a question mark or explicit as"
       ],
       "include_footer": true,
-      "count": 5,
+      "count": 7,
       "applies_when": ""
     },
     {
@@ -906,7 +906,7 @@
       "category": "Daily Journal Entry JSON",
       "sub_category": "q_and_a_summary Format / Meta Language",
       "trigger_if": "The assistant populates `q_and_a_summary` using meta or procedural phrasing such as “Asked whether…”, “User asked…”, “Advised…”, “Confirmed…”, or otherwise writes the entry like a transcript/log of what happened instead of a natural narrative summary (or the user did not ask any question).",
-      "response_then": "Rewrite `q_and_a_summary` as:\n- a **natural narrative summary** of the questions asked and answers given (no “User asked…”, no “Asked whether…”, no “Advised…”, no transcript style)",
+      "response_then": "Regenerate the Daily Journal Entry and rewrite `q_and_a_summary` as:\n- a **natural narrative summary** of the questions asked and answers given (no “User asked…”, no “Asked whether…”, no “Advised…”, no transcript style)\n\n**🚫 Bad Example**\nThe user mentioned filling probe holes. Discussed amendments.\n\n**🚫 Bad Example**\nYes — gently bundling the shallot leaves was fine as long as the tie is soft and loose, isn’t cinched at soil level, and doesn’t crease or pinch the leaves; it should act like a light brace while the plants strengthen.\n\n**✅ Good Example**\nDiscussed whether broken blossom was concerning; confirmed it naturally falls off. User asked about adding potting mix; confirmed recommended for stability.",
       "anti_patterns": [
         "“Asked whether watering should continue…; advised…; confirmed…”",
         "“User asked if… I advised…”",
@@ -922,7 +922,7 @@
         "inferred-questions"
       ],
       "include_footer": true,
-      "count": 13,
+      "count": 16,
       "applies_when": ""
     },
     {
@@ -1004,7 +1004,7 @@
         "hard-reset"
       ],
       "include_footer": true,
-      "count": 5,
+      "count": 6,
       "applies_when": ""
     },
     {
@@ -1029,6 +1029,31 @@
       ],
       "include_footer": true,
       "count": 2,
+      "applies_when": ""
+    },
+    {
+      "id": "DW-PRODUCTS-002",
+      "title": "Vague Fertilizer Dilution Instructions Given Instead of Exact Measured Amounts",
+      "category": "Daily Workflow",
+      "sub_category": "Products / Fertilizer Measurement Precision",
+      "trigger_if": "The assistant recommends using a fertilizer (including a user-owned product like Purived 4-5-5 or Gardenwise 10-10-10) but gives vague dilution guidance such as “¼-strength,” “half strength,” “go light,” “use a weak mix,” or “follow the label,” instead of providing exact measured amounts scaled to the user’s actual container.",
+      "response_then": "Do NOT use vague dilution language. Provide exact measured amounts scaled to the user’s container.\n\nIf you do not know the correct dilution rate or manufacturer instructions, use the web tool to look it up first — do not guess.\n\n**🚫 Bad Examples**\n\"Go light (¼-strength) so we don’t swing the EC upward abruptly.\"\n\"Feed lightly using Purived 4-5-5 (1 capful per gallon), then apply 3 cups of the mixed solution.\"\n\n**✅ Good Examples**\n\"Mix 1/4 capful with 2 cups of water, then apply slowly at the base until the top 1–2 inches of soil is evenly moistened.\"\n\"Mix 3/8 teaspoon of Purived 4-5-5 into 3 cups of water, then apply the full 3 cups slowly at the base.\"\n",
+      "anti_patterns": [
+        "\"Use ¼-strength / half strength.\"",
+        "\"Go light / weak mix.\"",
+        "\"Follow the label.\"",
+        "\"Use manufacturer’s rate and divide by 4.\""
+      ],
+      "tags": [
+        "products",
+        "fertilizer",
+        "dilution",
+        "measurements",
+        "no-vague-instructions",
+        "web-lookup"
+      ],
+      "include_footer": true,
+      "count": 1,
       "applies_when": ""
     }
   ]

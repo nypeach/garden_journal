@@ -60,6 +60,43 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:36 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "5.60",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "40",
+        "moisture_mScm": "28.50",
+        "light": "66",
+        "rh_percent": "42",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "80.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Chesnok Red garlic remains upright with firm crowns and healthy strap-like foliage. Older outer leaves show mild yellowing and tip wear consistent with normal leaf turnover, while inner growth remains green. The soil surface appears very dry and loose, and one probe reading showed contact failure (0% moisture), so two stable readings were used to represent the root-zone conditions.",
+      "actions": "Apply 1.5 cups of water total poured slowly around the Chesnok Red clumps, avoiding direct pouring on crowns. Do not fertilize or adjust pH today. Take future probe readings slightly deeper and 2–3 inches away from the previous hole for more consistent contact.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon after today’s watering. Water only if moisture remains below 40.00 mS/cm or leaves lose firmness. Monitor newer inner leaves for paling; consider a light feeding only if new growth begins to fade while moisture remains stable.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20251229-04.jpeg",
+          "caption": "Wider view of the Chesnok Red section showing upright crowns and strong strap-like leaves, with very dry, loose soil and the probe insertion area visible near the center.",
+          "tags": "garlic, chesnok_red, window_box, vegetative_growth, dry_soil, probe_location"
+        },
+        {
+          "file_name": "garlic_003-20251229-05.jpeg",
+          "caption": "Close-up of the Chesnok Red garlic clumps showing firm bases and healthy green inner leaves, with mild yellowing on older outer foliage and dry soil structure around the probe spot.",
+          "tags": "garlic, chesnok_red, closeup, crowns, leaf_turnover, dry_soil"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:30 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

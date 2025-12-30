@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 29, 2025 6:59 PM_
+_Last Updated: December 30, 2025 4:45 PM_
 ===============================================
 
 ## Purpose
@@ -44,6 +44,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
    - When user uploads files, they expect you to read and understand them fully
    - Check uploaded files against project knowledge to spot differences
    - Don't recreate entire files unless necessary - provide find/replace when possible
+   - **CRITICAL:** When user provides file in parts, reconstruct EXACTLY as provided with ONLY requested changes
 
 5. **Testing cycle**
    - User will say "Testing now!!!" when ready to test
@@ -64,6 +65,10 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 8. **"Does this make sense?" means the user wants confirmation you understand**
    - Respond with your understanding and ask clarifying questions if needed
    - Don't just say "yes" - demonstrate comprehension
+
+9. **When asked "tell me what you see" - ONLY answer that question and STOP**
+   - Do NOT proceed with any work until explicitly told to
+   - Wait for confirmation with "yes, proceed" or similar
 
 ### File Creation Protocol
 
@@ -127,9 +132,9 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Photo Prep Tool Refinements - December 29, 2025
+**Current Phase:** Photo Prep Tool Refinements - December 30, 2025
 
-### ✅ Completed Today (Dec 29, 2025)
+### ✅ Completed Today (Dec 30, 2025)
 
 **Major Photo Prep Overhaul:**
 1. **Form Restructuring**
@@ -140,10 +145,12 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 
 2. **Follow-Up Template (New Format)**
    - Cleaner "{time} Same Day Follow-up" format
+   - Upfront check for JSON in context
    - Conditional photos section (only if photos uploaded)
    - Conditional q_and_a_summary section (Questions checkbox)
    - Proper single blank line spacing between sections
    - Time override used throughout when provided
+   - Removed redundant validation lines (commented out)
 
 3. **Smart Watering Prompt**
    - Detects if form date is today vs yesterday
@@ -160,21 +167,34 @@ This file maintains context for AI assistants working on the **Garden Journal** 
    - Auto-fetch starting photo if blank or 1
    - Alert + focus if Plant-Specific Message blank
    - Server-side journal entry validation
+   - Removed duplicate client-side validation
 
 6. **Smart Field Persistence**
    - Plant-Specific Message persists through date/plant changes
    - Plant ID persists through date changes
    - Prevents accidental data loss
 
-7. **Bug Fixes**
+7. **Assist Corrections Tool Enhancement**
+   - Added "📋 Copy Prompt" button
+   - Generates ChatGPT prompt with:
+     - List of highest numerical ID for each parent category
+     - Complete markdown template
+   - Copies to clipboard with visual feedback
+   - Helps ensure correct ID sequencing for new corrections
+
+8. **Bug Fixes**
    - Fixed dashboard.html timeline display (stage → what_i_should_see)
    - Fixed pepper_003.json schema compliance
    - Restored missing assist_corrections routes
    - Fixed probe checkbox behavior (was filtering photos, now just adds indicator)
    - Fixed "Here are the photo names:" missing in Initial output
    - Fixed final instructions missing for Initial context
-   - Fixed weather text concatenation (NWS line breaks)
+   - Fixed weather text concatenation (NWS line breaks using `<br>` tags)
    - Fixed instructions line missing in Follow-Up ("Do NOT reconstruct...")
+   - Fixed probe indicators missing in Follow-Up output
+   - Fixed assist_corrections create route to use user-provided ID
+   - Fixed Initial context instructions (separated watering from final instructions)
+   - Fixed Follow-Up context instructions (photo-specific validation only when photos present)
 
 ### 🐛 Known Issues
 - None currently
@@ -240,6 +260,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [x] **Follow-Up Support** - Auto-fetch photo numbers, smart validation
 - [x] **Weather Integration** - Manual refresh button, caching
 - [x] **Smart Persistence** - Form field persistence across changes
+- [x] **Assist Corrections Enhancement** - Copy Prompt for ChatGPT
 
 ---
 
@@ -362,6 +383,7 @@ git add -A && git commit -m "type: Brief description
 - **Demonstrate understanding** - When user asks "does this make sense?"
 - **Find/replace over full files** - When possible
 - **Investigate before explaining** - Don't make up reasons
+- **When asked "what do you see?" - ONLY answer that and STOP**
 
 ---
 
@@ -393,7 +415,7 @@ Here are the photo names:
 Please provide:
 Full Expert Assessment → Daily Journal Entry JSON → Plant Main Data Review (silently) → Result
 
-If any required inputs are missing or photos are referenced and not provided, ask me for them before beginning.
+If any required inputs are missing, ask me for them before beginning.
 ```
 
 ### Follow-Up Context Output Format
@@ -402,11 +424,13 @@ If any required inputs are missing or photos are referenced and not provided, as
 
 {plant_specific_message}
 
-First respond naturally. Then re-issue today's COMPLETE Daily Journal Entry JSON and change nothing other than the following:
+First, make sure you have today's most recent Daily Journal Entry JSON in context because I will have you update it after we discuss and I don't want you reconstructing or inventing a replacement JSON.
+
+Then, respond naturally. Then re-issue today's most recent COMPLETE Daily Journal Entry JSON (above in this chat) and change nothing other than the following:
 
 [Photos section if photos uploaded]
 New photo(s) to append to existing `photos` array (generate a real caption + tags for each — no blanks):
-1. filename.jpeg
+1. filename.jpeg ← (probe reading)
 2. filename.jpeg
 
 New follow-up to append to existing `follow_up` array:
@@ -415,10 +439,15 @@ New follow-up to append to existing `follow_up` array:
 [Q&A section if Questions checkbox checked]
 Update `q_and_a_summary` by APPENDING a short narrative summary of the new question(s) + answer(s) to the existing text (do not overwrite).
 
+[Photo reminder if photos uploaded]
+If photo filenames are listed but no photos were uploaded, reply only: "Please provide the photos referenced." and wait for them before responding further.
+```
+
+**Commented out lines (kept for reference):**
+```
 Output valid JSON only (exact schema, no invented fields).
 Do NOT change the Daily Journal Entry `time` (it remains the probe timestamp).
 Do NOT reconstruct or invent a replacement JSON.
-If any required inputs are missing or photos are referenced and not provided, ask me for them before beginning.
 ```
 
 ### Key Behaviors
@@ -430,6 +459,20 @@ If any required inputs are missing or photos are referenced and not provided, as
 - **Manual refresh** - User controls when to fetch fresh weather
 - **Conditional sections** - Photos and Q&A only show when applicable
 - **Probe indicators** - Checkbox adds "← (probe reading)" to output, doesn't filter
+
+---
+
+## 📚 Assist Corrections Tool - Current State
+
+### Copy Prompt Feature
+- **📋 Copy Prompt** button next to "+ Add New"
+- Generates ChatGPT-ready prompt containing:
+  - List of highest numerical ID for each parent category
+  - Complete markdown template for new corrections
+- Automatically parses all correction IDs
+- Finds highest number per prefix (e.g., DW-ASSESSMENT-003, PMD-TIMELINE-004)
+- Copies to clipboard with visual feedback (✓ Copied!)
+- Ensures correct ID sequencing when creating new corrections
 
 ---
 
@@ -462,5 +505,6 @@ When significant progress is made:
 - Incremental progress over big changes
 - Token efficiency
 - Historical context
+- **EXACT file reconstruction when provided in parts**
 
 When in doubt, **ask first, implement second**.

@@ -39,6 +39,10 @@ In individual plant threads, when providing a Daily Journal Entry, the assistant
     }
   ]
 }
+```
+- User actions, observations, and questions provided with the initial probe readings are not follow-ups.
+- The `follow_up` array is used ONLY for messages sent AFTER the initial daily entry.
+- Do not populate `q_and_a_summary` unless the user clearly asks a question (ends with “?” or is explicitly phrased as a question).
 
 This schema is authoritative and must be followed verbatim whenever a Daily Journal Entry is produced.
 ___
@@ -47,8 +51,8 @@ In Plant Channels, when recommending treatments, always check whether my user-ow
 
 - White Vinegar
 - Baking Soda
-- Gardenwise 10-10-10 Plus (liquid concentrate)
-- Purived 4-5-5 (liquid concentrate)
+- Gardenwise 10-10-10 Plus (liquid concentrate: dilute 1-2 ounces per gallon)
+- Purived 4-5-5 (liquid concentrate: Mix 1 capful (2 tsp) per gallon of water)
 - E & Lay Dolomite Lime
 - Bonide Captain Jack's Neem Oil (Ready to Spray)
 - Bonide Captain Jack's Copper Fungicide (Ready to Spray)
