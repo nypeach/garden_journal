@@ -755,7 +755,9 @@ def photo_prep():
             output_lines.append('')
             output_lines.append(plant_message if plant_message else '[your follow-up text here]')
             output_lines.append('')
-            output_lines.append('First respond naturally. Then re-issue today’s most recent COMPLETE Daily Journal Entry JSON (above in this chat) and change nothing other than the following:')
+            output_lines.append('First, make sure you have today\'s most recent Daily Journal Entry JSON in context because I will have you update it after we discuss and I don\'t want you reconstructing or inventing a replacement JSON.')
+            output_lines.append('')
+            output_lines.append('Then, respond naturally. Then re-issue today\'s most recent COMPLETE Daily Journal Entry JSON (above in this chat) and change nothing other than the following:')
 
             # Conditionally add photos section
             if processed_files:
@@ -781,12 +783,16 @@ def photo_prep():
                 output_lines.append('')
                 output_lines.append('Update `q_and_a_summary` by APPENDING a short narrative summary of the new question(s) + answer(s) to the existing text (do not overwrite).')
 
-            # Always add final instructions
-            output_lines.append('')
-            output_lines.append('Output valid JSON only (exact schema, no invented fields).')
-            output_lines.append('Do NOT change the Daily Journal Entry `time` (it remains the probe timestamp).')
-            output_lines.append('Do NOT reconstruct or invent a replacement JSON.')
-            output_lines.append('If any required inputs are missing or photos are referenced and not provided, ask me for them before beginning.')
+            # Add photo reminder only if photos were uploaded
+            if processed_files:
+                output_lines.append('')
+                output_lines.append('If photo filenames are listed but no photos were uploaded, reply only: "Please provide the photos referenced." and wait for them before responding further.')
+
+            # COMMENTED OUT - Keep for reference if needed
+            # output_lines.append('')
+            # output_lines.append('Output valid JSON only (exact schema, no invented fields).')
+            # output_lines.append('Do NOT change the Daily Journal Entry `time` (it remains the probe timestamp).')
+            # output_lines.append('Do NOT reconstruct or invent a replacement JSON.')
 
         else:
             # INITIAL TEMPLATE (EXISTING)
@@ -847,7 +853,7 @@ def photo_prep():
             output_lines.append('Please provide:')
             output_lines.append('Full Expert Assessment → Daily Journal Entry JSON → Plant Main Data Review (silently) → Result')
             output_lines.append('')
-            output_lines.append('If any required inputs are missing or photos are referenced and not provided, ask me for them before beginning.')
+            output_lines.append('If any required inputs are missing, ask me for them before beginning.')
             output_lines.append('')
 
         output_message = '\n'.join(output_lines)
@@ -1122,9 +1128,9 @@ def get_current_weather():
             short_desc = tombstones[i].find('p', class_='short-desc')
             temp = tombstones[i].find('p', class_='temp')
 
-            # Replace line breaks/multiple spaces with single space
-            condition_text = short_desc.get_text(strip=True) if short_desc else ''
-            condition_text = ' '.join(condition_text.split())  # Normalize whitespace
+            # Replace line breaks with spaces (NWS uses <br> tags)
+            condition_text = short_desc.get_text(separator=' ', strip=True) if short_desc else ''
+            condition_text = ' '.join(condition_text.split())  # Normalize multiple spaces
 
             tiles.append({
                 'period': period_name.get_text(strip=True) if period_name else '',
@@ -1177,10 +1183,15 @@ def get_current_weather():
 
             return condition, temp, wind_info
 
-        # Process each tile
+        # Process each tile and normalize whitespace
         today_condition, today_temp, today_wind = process_tile_with_detailed(tiles[0], detailed_forecasts[0])
+        today_condition = ' '.join(today_condition.split())  # Normalize whitespace
+
         tonight_condition, tonight_temp, tonight_wind = process_tile_with_detailed(tiles[1], detailed_forecasts[1])
+        tonight_condition = ' '.join(tonight_condition.split())  # Normalize whitespace
+
         tomorrow_condition, tomorrow_temp, tomorrow_wind = process_tile_with_detailed(tiles[2], detailed_forecasts[2])
+        tomorrow_condition = ' '.join(tomorrow_condition.split())  # Normalize whitespace
 
         # Extract temperature values
         def extract_temp(temp_str):

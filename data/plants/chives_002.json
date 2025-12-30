@@ -53,6 +53,136 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "1:36 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "20.00",
+        "light": "89",
+        "rh_percent": "53",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive section remains extremely sparse with only a few thin green blades visible above the soil. The surface layer appears very dry and crusty/crumbly, consistent with rapid dry-down in bright sun. The probe indicates the root zone is currently too dry for fragile seedlings to remain stable, supporting the decision to transplant for better moisture control.",
+      "actions": "Apply 2 cups of water slowly over the chive band 15–20 minutes before lifting to bind the root zone and reduce root tearing. Keep the lifted root mass shaded from direct sun while transplanting today.",
+      "next_steps": "After transplanting, keep the plant in bright shade or morning-only sun for 48 hours to reduce stress and stabilize moisture. Recheck a probe reading tomorrow late morning once the medium settles around the roots and continue monitoring for new green tips over the next week.",
+      "q_and_a_summary": "Discussed transplant timing and confirmed moisture stability is the urgent priority for survival. Reviewed post-transplant condition and confirmed the seedlings look viable in the new container, with guidance to keep the pot in bright shade and maintain gentle surface moisture over the next 48 hours.",
+      "follow_up": [
+        "[6:16 PM] Transplanted the surviving chive seedlings into an old Bonnie Plant Foodie Fresh 25 oz round pot with at least 8 drainage holes to improve moisture stability and reduce rapid dry-down."
+      ],
+      "photos": [
+        {
+          "file_name": "chives_002-20251229-02.jpeg",
+          "caption": "Overhead view of the chive section showing very sparse surviving green blades and a dry, crusty soil surface in the window box.",
+          "tags": "chives, seedlings, sparse, dry-soil, window-box"
+        },
+        {
+          "file_name": "chives_002-20251229-03.jpeg",
+          "caption": "Overhead view after transplant showing several surviving chive blades spaced across the newly filled pot with a darker, evenly moist surface layer.",
+          "tags": "chives, seedlings, transplant, overhead, moist-soil, recovery-pot"
+        },
+        {
+          "file_name": "chives_002-20251229-04.jpeg",
+          "caption": "Side-angle view of the transplanted chive seedlings showing thin green blades standing above a freshly settled, uniform soil surface in the 25 oz pot.",
+          "tags": "chives, seedlings, transplant, side-view, establishment"
+        },
+        {
+          "file_name": "chives_002-20251229-05.jpeg",
+          "caption": "Wider view of the recovery pot showing the full planting area with multiple visible chive shoots and improved moisture retention compared to the window box.",
+          "tags": "chives, transplant, pot, recovery, moisture-stability"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "1:36 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "20.00",
+        "light": "89",
+        "rh_percent": "53",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive section remains extremely sparse with only a few thin green blades visible above the soil. The surface layer appears very dry and crusty/crumbly, consistent with rapid dry-down in bright sun. The probe indicates the root zone is currently too dry for fragile seedlings to remain stable, supporting the decision to transplant for better moisture control.",
+      "actions": "Apply 2 cups of water slowly over the chive band 15–20 minutes before lifting to bind the root zone and reduce root tearing. Keep the lifted root mass shaded from direct sun while transplanting today.",
+      "next_steps": "After transplanting, keep the plant in bright shade or morning-only sun for 48 hours to reduce stress and stabilize moisture. Recheck a probe reading tomorrow late morning once the medium settles around the roots and continue monitoring for new green tips over the next week.",
+      "q_and_a_summary": "Discussed transplant timing and confirmed moisture stability is the urgent priority for survival. Reviewed post-transplant condition and confirmed the seedlings look viable in the new container, with guidance to keep the pot in bright shade and maintain gentle surface moisture over the next 48 hours.",
+      "follow_up": [
+        "[6:16 PM] Transplanted the surviving chive seedlings into an old Bonnie Plant Foodie Fresh 25 oz round pot with at least 8 drainage holes to improve moisture stability and reduce rapid dry-down."
+      ],
+      "photos": [
+        {
+          "file_name": "chives_002-20251229-02.jpeg",
+          "caption": "Overhead view of the chive section showing very sparse surviving green blades and a dry, crusty soil surface in the window box.",
+          "tags": "chives, seedlings, sparse, dry-soil, window-box"
+        },
+        {
+          "file_name": "chives_002-20251229-03.jpeg",
+          "caption": "Overhead view after transplant showing several surviving chive blades spaced across the newly filled pot with a darker, evenly moist surface layer.",
+          "tags": "chives, seedlings, transplant, overhead, moist-soil, recovery-pot"
+        },
+        {
+          "file_name": "chives_002-20251229-04.jpeg",
+          "caption": "Side-angle view of the transplanted chive seedlings showing thin green blades standing above a freshly settled, uniform soil surface in the 25 oz pot.",
+          "tags": "chives, seedlings, transplant, side-view, establishment"
+        },
+        {
+          "file_name": "chives_002-20251229-05.jpeg",
+          "caption": "Wider view of the recovery pot showing the full planting area with multiple visible chive shoots and improved moisture retention compared to the window box.",
+          "tags": "chives, transplant, pot, recovery, moisture-stability"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "1:36 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.80",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "20.00",
+        "light": "89",
+        "rh_percent": "53",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "79.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The chive section remains extremely sparse with only a few thin green blades visible above the soil. The surface layer appears very dry and crusty/crumbly, consistent with rapid dry-down in bright sun. The probe indicates the root zone is currently too dry for fragile seedlings to remain stable, supporting the decision to transplant for better moisture control.",
+      "actions": "Apply 2 cups of water slowly over the chive band 15–20 minutes before lifting to bind the root zone and reduce root tearing. Keep the lifted root mass shaded from direct sun while transplanting today.",
+      "next_steps": "After transplanting, keep the plant in bright shade or morning-only sun for 48 hours to reduce stress and stabilize moisture. Recheck a probe reading tomorrow late morning once the medium settles around the roots and continue monitoring for new green tips over the next week.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_002-20251229-02.jpeg",
+          "caption": "Overhead view of the chive section showing very sparse surviving green blades and a dry, crusty soil surface in the window box.",
+          "tags": "chives, seedlings, sparse, dry-soil, window-box"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:01 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

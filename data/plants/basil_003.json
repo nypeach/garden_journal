@@ -60,6 +60,43 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "5:10 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.10",
+        "ec_mScm": "0.20",
+        "salt_mg_L": "101",
+        "moisture_mScm": "41.00",
+        "light": "60",
+        "rh_percent": "47",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "78.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thai basil is visibly reduced in canopy density following a recent topping/harvest, leaving multiple cut stems and exposed nodes positioned for branching regrowth. Remaining foliage appears evenly green and upright with no visible spotting, scorch, or wilt. Soil moisture is in a comfortable regrowth range and root-zone salts are low, supporting healthy recovery and new shoot development.",
+      "actions": "Water this morning with 2 cups of plain water applied evenly across the entire herb window box. Do not fertilize today.",
+      "next_steps": "Watch for new branch shoots forming at cut nodes over the next 3–6 days. Recheck moisture tomorrow late morning; water again only if readings fall below 35. Begin light feeding only after visible regrowth begins and moisture cycling is stable.",
+      "q_and_a_summary": "Discussed whether the basil was pruned too much and whether it will become bushier again; confirmed the topping was appropriate and will trigger branching at nodes. Discussed whether to water in the early morning; recommended a light watering because the prior evening moisture reading was in the low 40s and will likely be lower by morning. Discussed how to approximate 2 cups using a hose shower nozzle; estimated that 2 cups typically equals about 5–10 seconds of gentle flow and recommended a one-time measuring-cup calibration for accuracy.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20251229-02.jpeg",
+          "caption": "Overhead view of the shared herb window box showing Thai basil post-topping with multiple cut stems and remaining green leaves positioned for branching regrowth; cilantro occupies the back section.",
+          "tags": "thai basil, post harvest, topping, regrowth, shared planter, overhead"
+        },
+        {
+          "file_name": "basil_003-20251229-03.jpeg",
+          "caption": "Angled overhead view showing Thai basil stems and nodes after pruning with healthy green remaining foliage and moist soil conditions in the shared window box.",
+          "tags": "thai basil, pruning, nodes, regrowth, shared planter, soil moisture"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:03 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

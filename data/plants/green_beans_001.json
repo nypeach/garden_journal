@@ -61,6 +61,40 @@
   ],
   "journal": [
     {
+      "date": "12/28/2025",
+      "time": "2:09 PM",
+      "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 83°F.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "45",
+        "moisture_mScm": "46.00",
+        "light": "99",
+        "rh_percent": "37",
+        "fertility_percent": "5.0",
+        "soil_temp_f": "77.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant appears healthy and vigorous with strong green leaves and upright growth. No visible wilting or leaf curl. Positioned near a zucchini plant that is casting some shade, but leaf size and structure still indicate good active growth. Soil conditions appear stable and evenly moist based on probe readings.",
+      "actions": "Water in the early morning before heat builds (moderate watering at the base). Continue monitoring for any signs of pale new growth due to low nutrient availability (low EC and fertility).",
+      "next_steps": "If leaves begin to lighten or growth slows over the next few days, apply a light feeding to support flowering and pod set. Continue consistent morning watering on sunny days, especially as blooms and pods begin forming. Reduce watering only if moisture readings remain consistently above the mid-to-high 50% range.",
+      "q_and_a_summary": "Discussed whether morning watering was needed given the afternoon moisture reading; recommended a moderate early watering today to prevent midday stress during another hot, sunny day and to maintain steady moisture for flowering and pod development.",
+      "follow_up": [
+        "[8:10 AM] Watered slowly at the base of the plant for 45–75 seconds to keep the root zone evenly moist heading into another hot, sunny day."
+      ],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20251228-02.jpeg",
+          "caption": "Green bean plant growing beside a support stake with healthy green leaves; nearby zucchini foliage is casting partial shade over the area.",
+          "tags": "green beans, healthy foliage, partial shade, stake support, raised bed"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "3:07 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing clouds. Tomorrow: Decreasing clouds with a high of 69°F.",

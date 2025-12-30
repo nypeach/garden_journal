@@ -52,6 +52,102 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:14 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.9",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "42",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "9",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil is upright and actively growing, but leaf color is shifting toward pale yellow-green rather than a deep healthy green. The canopy looks slightly uneven with multiple plant clusters in the pot, and some leaves show mild stress appearance consistent with low nutrition and high root-zone pH. Soil surface appears somewhat dry and crumbly in photos.",
+      "actions": "Water early in the morning to rehydrate before the heat of the day. Restore nutrients with a gentle liquid feed using Purived 4-5-5 or Gardenwise 10-10-10 Plus to address low EC and fertility. Begin correcting high pH by avoiding plain water-only cycles and monitoring the next pH reading after feeding.",
+      "next_steps": "Take the next probe reading after the next watering/feed cycle to see if pH begins moving down and EC/fertility rise. Watch new growth for improved green color over the next 5–7 days. Continue morning watering based on moisture trends, keeping basil evenly moist but not saturated.",
+      "q_and_a_summary": "The leaves looking more yellow than green led to a check on what to do next, and with moisture already trending low plus a hot, sunny pattern, watering first thing in the morning is the right move. The readings also show the soil is both underfed and running very high in pH, which can make basil look pale from nutrient shortage and lockout, so pairing that morning watering with a gentle feed is the most direct way to support greener growth and get the root zone back into a better range. To avoid mixing a full gallon at half dilution, a practical measure is 1/4 teaspoon Purived in 1 quart of water (or 1/2 teaspoon in 1/2 gallon), which keeps the feed gentle while matching the smaller watering volume this pot needs.",
+      "follow_up": [
+        "[6:16 AM] Half-strength Purived mix for this pot is 1/4 teaspoon Purived in 1 quart of water (or about 1/2 teaspoon in 1/2 gallon) so you can feed without making a full gallon, keeping the dose gentle while supporting greener new growth."
+      ],
+      "photos": [
+        {
+          "file_name": "basil_001-20251229-02.jpeg",
+          "caption": "Top-down view of the basil planter showing multiple clusters of basil with leaves trending pale yellow-green and a soil surface that looks dry in spots.",
+          "tags": "basil, top view, pale leaves, multiple plants, soil surface, container garden"
+        },
+        {
+          "file_name": "basil_001-20251229-03.jpeg",
+          "caption": "Angled side view of the pot showing the basil canopy and overall plant structure, with lighter leaf coloration and uneven growth across clusters.",
+          "tags": "basil, side view, canopy, light green leaves, uneven growth, container"
+        },
+        {
+          "file_name": "basil_001-20251229-04.jpeg",
+          "caption": "Closer top view highlighting leaf color shift toward yellow-green and the spacing between plant clusters within the same container.",
+          "tags": "basil, close-up, chlorosis, leaf color, clusters, container planting"
+        },
+        {
+          "file_name": "basil_001-20251229-05.jpeg",
+          "caption": "Side angle showing the largest basil cluster and surrounding smaller clusters, with overall pale coloration and exposed soil areas in the pot.",
+          "tags": "basil, side angle, pale foliage, growth clusters, exposed soil, container garden"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:14 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.9",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "42",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "9",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil is upright and actively growing, but leaf color is shifting toward pale yellow-green rather than a deep healthy green. The canopy looks slightly uneven with multiple plant clusters in the pot, and some leaves show mild stress appearance consistent with low nutrition and high root-zone pH. Soil surface appears somewhat dry and crumbly in photos.",
+      "actions": "Water early in the morning to rehydrate before the heat of the day. Restore nutrients with a gentle liquid feed using Purived 4-5-5 or Gardenwise 10-10-10 Plus to address low EC and fertility. Begin correcting high pH by avoiding plain water-only cycles and monitoring the next pH reading after feeding.",
+      "next_steps": "Take the next probe reading after the next watering/feed cycle to see if pH begins moving down and EC/fertility rise. Watch new growth for improved green color over the next 5–7 days. Continue morning watering based on moisture trends, keeping basil evenly moist but not saturated.",
+      "q_and_a_summary": "The leaves looking more yellow than green led to a check on what to do next, and with moisture already trending low plus a hot, sunny pattern, watering first thing in the morning is the right move. The readings also show the soil is both underfed and running very high in pH, which can make basil look pale from nutrient shortage and lockout, so pairing that morning watering with a gentle feed is the most direct way to support greener growth and get the root zone back into a better range.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_001-20251229-02.jpeg",
+          "caption": "Top-down view of the basil planter showing multiple clusters of basil with leaves trending pale yellow-green and a soil surface that looks dry in spots.",
+          "tags": "basil, top view, pale leaves, multiple plants, soil surface, container garden"
+        },
+        {
+          "file_name": "basil_001-20251229-03.jpeg",
+          "caption": "Angled side view of the pot showing the basil canopy and overall plant structure, with lighter leaf coloration and uneven growth across clusters.",
+          "tags": "basil, side view, canopy, light green leaves, uneven growth, container"
+        },
+        {
+          "file_name": "basil_001-20251229-04.jpeg",
+          "caption": "Closer top view highlighting leaf color shift toward yellow-green and the spacing between plant clusters within the same container.",
+          "tags": "basil, close-up, chlorosis, leaf color, clusters, container planting"
+        },
+        {
+          "file_name": "basil_001-20251229-05.jpeg",
+          "caption": "Side angle showing the largest basil cluster and surrounding smaller clusters, with overall pale coloration and exposed soil areas in the pot.",
+          "tags": "basil, side angle, pale foliage, growth clusters, exposed soil, container garden"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:02 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

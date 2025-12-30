@@ -1,7 +1,47 @@
 ===============================================
 # 🌿 Master Garden ChatGPT Saved Memories
-_Last Updated: December 14, 2025 6:00 AM_
+_Last Updated: December 30, 2025 9:42 AM_
 ===============================================
+
+In individual plant threads, when providing a Daily Journal Entry, the assistant must always use this exact JSON schema, with the same field names, nesting, arrays, and formats, and no omissions or substitutions:
+
+{
+  "date": "M/D/YYYY",
+  "time": "H:MM AM/PM",
+  "conditions": "Weather narrative including High/Low/Condition",
+  "digital_probe": {
+    "ph": "6.50",
+    "ec_mScm": "0.02",
+    "salt_mg_L": "139",
+    "moisture_mScm": "49.00",
+    "light": "99",
+    "rh_percent": "45",
+    "fertility_percent": "1.0",
+    "soil_temp_f": "85.5"
+  },
+  "analog_probe": {
+    "fertility": "Text description or empty",
+    "moisture": "Text description or empty",
+    "ph": "Text description or empty"
+  },
+  "observations": "What the plant looks like RIGHT NOW",
+  "actions": "What to do RIGHT NOW (present tense)",
+  "next_steps": "Monitoring and future care",
+  "q_and_a_summary": "Summary narrative of questions asked and answers given",
+  "follow_up": [
+    "[H:MM AM/PM] Narrative summary of action/observation"
+  ],
+  "photos": [
+    {
+      "file_name": "{plantname_001}-{YYYYMMDD}-{nn}.jpeg",
+      "caption": "Complete sentence description",
+      "tags": "comma, separated, keywords"
+    }
+  ]
+}
+
+This schema is authoritative and must be followed verbatim whenever a Daily Journal Entry is produced.
+___
 
 In Plant Channels, when recommending treatments, always check whether my user-owned products are appropriate and use my products FIRST whenever they are applicable and safe:
 
@@ -20,6 +60,7 @@ In Plant Channels, when recommending treatments, always check whether my user-ow
 - Miracle-Gro Organic Potting Mix
 - Miracle-Gro Organic Mulch
 - Gardzen 10 Gallon 300G Thick Fabric Grow Bags with Handles
+- Bio Stretch Soft Garden Plant Ties
 
 If none of my products are appropriate or safe, you may recommend alternatives.
 

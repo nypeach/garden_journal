@@ -52,6 +52,80 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "1:37 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli remains vigorous with a broad blue-green canopy and upright stems, showing no visible wilting or collapse. Probe readings show a severe moisture imbalance across the window box: the left zone is extremely dry (1%) with classic probe-contact failure causing near-zero EC/salt/fertility, while the right zone is saturated (90%) with normal nutrient values. Soil temperature is warm, increasing transpiration demand and accelerating dry-down on the left side.",
+      "actions": "Do not water the entire window box today. At sunset, apply exactly 2 cups of water slowly to the left broccoli zone only to begin rebalancing moisture without over-saturating the right side. Transplant only after sunset or early tomorrow morning to avoid heat-stress during handling.",
+      "next_steps": "Recheck left and right moisture tomorrow at 6:00 AM. Water only the left side if it remains dry; do not water the right side until it drops into a moderate range. Continue adjusting pour pattern so future watering favors the left zone until the moisture split narrows.",
+      "q_and_a_summary": "Discussed whether transplanting can be done immediately; confirmed it should wait until after sunset or early morning to avoid heat-stress and post-transplant wilt. User asked whether to water at 6:00 AM tomorrow; confirmed watering should be conditional and targeted to the left side only if dryness persists, since the right zone is already saturated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251229-02.jpeg",
+          "caption": "Front view of the broccoli in the window box showing a vigorous canopy, upright stems, and strong vegetative growth, with soil appearing drier on the left side and heavier on the right.",
+          "tags": "broccoli, window-box, canopy, vigorous-growth, moisture-imbalance"
+        },
+        {
+          "file_name": "broccoli_001-20251229-04.jpeg",
+          "caption": "Angled side view showing the broccoli structure and leaf posture in bright sun, with the planting zone and soil surface illustrating uneven moisture distribution across the container.",
+          "tags": "broccoli, side-view, leaf-posture, sun, uneven-moisture"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "1:37 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.20",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "90.00",
+        "light": "99",
+        "rh_percent": "53",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "79.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The broccoli remains vigorous with a broad blue-green canopy and upright stems, showing no visible wilting or collapse. Probe readings show a severe moisture imbalance across the window box: the left zone is extremely dry (1%) with classic probe-contact failure causing near-zero EC/salt/fertility, while the right zone is saturated (90%) with normal nutrient values. Soil temperature is warm, increasing transpiration demand and accelerating dry-down on the left side.",
+      "actions": "Do not water the entire window box today. At sunset, apply exactly 2 cups of water slowly to the left broccoli zone only to begin rebalancing moisture without over-saturating the right side. Transplant only after sunset or early tomorrow morning to avoid heat-stress during handling.",
+      "next_steps": "Recheck left and right moisture tomorrow at 6:00 AM. Water only the left side if it remains dry; do not water the right side until it drops into a moderate range. Continue adjusting pour pattern so future watering favors the left zone until the moisture split narrows.",
+      "q_and_a_summary": "Discussed whether transplanting can be done immediately; confirmed it should wait until after sunset or early morning to avoid heat-stress and post-transplant wilt. User asked whether to water at 6:00 AM tomorrow; confirmed watering should be conditional and targeted to the left side only if dryness persists, since the right zone is already saturated.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "broccoli_001-20251229-02.jpeg",
+          "caption": "Front view of the broccoli in the window box showing a vigorous canopy, upright stems, and strong vegetative growth, with soil appearing drier on the left side and heavier on the right.",
+          "tags": "broccoli, window-box, canopy, vigorous-growth, moisture-imbalance"
+        },
+        {
+          "file_name": "broccoli_001-20251229-04.jpeg",
+          "caption": "Angled side view showing the broccoli structure and leaf posture in bright sun, with the planting zone and soil surface illustrating uneven moisture distribution across the container.",
+          "tags": "broccoli, side-view, leaf-posture, sun, uneven-moisture"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:00 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

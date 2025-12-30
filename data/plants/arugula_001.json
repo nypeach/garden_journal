@@ -49,6 +49,43 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "5:06 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "114",
+        "moisture_mScm": "60.00",
+        "light": "77",
+        "rh_percent": "47",
+        "fertility_percent": "11.0",
+        "soil_temp_f": "81.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The arugula is actively regrowing after the recent thinning and cleanup, with a more open canopy and clearer spacing between clusters. Leaves are upright and generally healthy-looking, with a mix of smaller new growth and some larger leaves. Overall density is uneven but improving, and the soil surface appears moderately moist rather than dry.",
+      "actions": "Skip watering right now. Let the planter dry down a bit more, especially with the cooler day coming. If the surface looks dry later today, you can mist or lightly water only the driest sections rather than soaking the whole planter.",
+      "next_steps": "Tomorrow, reassess moisture by feel and/or a quick probe check before watering. Aim to water only when the top 1 inch is drying and the planter feels lighter. Keep watching for uneven dry-down across the tray and adjust watering to target the driest zones first.",
+      "q_and_a_summary": "With moisture still moderate-to-high in both sections (60–70%) and a cooler day ahead, watering now would keep the root zone too wet and slow recovery. The best move is to hold water this morning and resume only once the planter clearly dries down.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20251229-02.jpeg",
+          "caption": "Close-up of the arugula canopy showing improved spacing and upright regrowth after thinning and cleanup.",
+          "tags": "arugula, regrowth, thinning, spacing, canopy"
+        },
+        {
+          "file_name": "arugula_001-20251229-04.jpeg",
+          "caption": "Top-down view showing uneven density across the planter with open lanes and clusters of new growth.",
+          "tags": "arugula, top-down, density, clusters, airflow"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "1:39 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

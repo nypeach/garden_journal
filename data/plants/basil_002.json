@@ -48,6 +48,53 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:15 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.30",
+        "ec_mScm": "0.14",
+        "salt_mg_L": "72",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "7",
+        "soil_temp_f": "82.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil 002 looks compact and bushy with multiple stems and generally healthy posture, but the foliage reads slightly pale/light in several areas consistent with running lean on available nutrients; soil is trending drier by late afternoon compared to recent days.",
+      "actions": "Water now at the next available morning window using a slow, even soak until the first light drainage appears, then stop; keep the pot evenly moist today to prevent a midday dry slide.",
+      "next_steps": "Recheck moisture and plant posture tomorrow afternoon; monitor for any new chewing or distortion on fresh tips; because EC/fertility are very low and pH is high, plan a gentle, measured feeding strategy soon and watch whether new growth deepens in color over the next several days.",
+      "q_and_a_summary": "Watering first thing in the morning is the best move here because the pot was already trending toward dry by late afternoon, the air is dry and warm, and missing the morning window risks the plant spending the hottest part of the day under-watered.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_002-20251229-02.jpeg",
+          "caption": "Top-down view showing a compact basil canopy with multiple stems and slightly pale foliage in spots.",
+          "tags": "basil, canopy, leaf color, container"
+        },
+        {
+          "file_name": "basil_002-20251229-03.jpeg",
+          "caption": "Angled view of basil growth habit showing bushy structure and generally healthy leaf shape.",
+          "tags": "basil, structure, vigor, leaves"
+        },
+        {
+          "file_name": "basil_002-20251229-04.jpeg",
+          "caption": "Wider view of the pot showing overall plant fullness and soil surface condition.",
+          "tags": "basil, container, soil surface, overall health"
+        },
+        {
+          "file_name": "basil_002-20251229-05.jpeg",
+          "caption": "Side view highlighting multiple stems and new growth points with mild paling on some leaves.",
+          "tags": "basil, new growth, stems, pale leaves"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:04 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",

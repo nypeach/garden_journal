@@ -48,6 +48,53 @@
   ],
   "journal": [
     {
+      "date": "12/29/2025",
+      "time": "4:58 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "6.45",
+        "ec_mScm": "0.22",
+        "salt_mg_L": "110",
+        "moisture_mScm": "43.00",
+        "light": "89",
+        "rh_percent": "47",
+        "fertility_percent": "11.5",
+        "soil_temp_f": "79.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile appears bright green and actively growing with a healthy, feathery canopy. Plants are spreading outward and look stable with no visible yellowing, collapse, or leaf burn. Soil surface shows mixed texture with some bare zones and some crumbly areas, consistent with recent fluffing for aeration.",
+      "actions": "Skip the 6:00 AM watering tomorrow. At 6:00 AM, check the left-center soil by hand; if the top 1–2 inches feel dry and dusty, give only a small targeted watering to that spot. If it feels cool or moist, do not water. Keep the canopy open with light trimming only if foliage is laying dense against the soil surface.",
+      "next_steps": "Re-check moisture tomorrow afternoon when evap demand is higher. Continue monitoring for uneven drying across the planter, especially the left-center zone, and maintain airflow by preventing dense foliage mats from resting on damp soil.",
+      "q_and_a_summary": "Morning watering was considered, but today’s readings show the planter is comfortably moist overall and tomorrow is cooler, so watering at 6:00 AM should be skipped unless the left-center area feels dry by hand.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20251229-02.jpeg",
+          "caption": "Left side of the planter showing a healthy, airy chamomile canopy and moist, crumbly soil surface.",
+          "tags": "chamomile, left zone, canopy, soil surface, airflow"
+        },
+        {
+          "file_name": "chamomile_001-20251229-04.jpeg",
+          "caption": "Closer view of the chamomile near the center area showing upright, vigorous green growth with open spacing.",
+          "tags": "chamomile, center zone, vigorous growth, spacing, foliage"
+        },
+        {
+          "file_name": "chamomile_001-20251229-06.jpeg",
+          "caption": "Right-center area of the planter showing chamomile growth with improved openness and exposed soil for airflow.",
+          "tags": "chamomile, right center, airflow, exposed soil, pruning results"
+        },
+        {
+          "file_name": "chamomile_001-20251229-08.jpeg",
+          "caption": "Right end of the planter showing chamomile foliage and soil condition consistent with even moisture and good structure.",
+          "tags": "chamomile, right zone, soil structure, moisture balance, foliage"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "1:27 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",
