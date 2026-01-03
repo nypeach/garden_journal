@@ -48,6 +48,182 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:46 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 72°F.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "27",
+        "moisture_mScm": "10.00",
+        "light": "82",
+        "rh_percent": "37",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "56.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Young zucchini plant is upright and continuing to produce new growth from the center. Older leaves show past stress damage (minor crusting/scarring and torn edges) but remain mostly green. Soil surface appears dry and crumbly.",
+      "actions": "Water slowly at the base in two passes (wet the soil, wait 5–10 minutes, then water again) until the root zone is evenly moist. Do not fertilize today; allow hydration to stabilize first. Keep crusty leaves for now unless they become mostly brown, touch soil, or show spreading disease.",
+      "next_steps": "If the soil remains moist and the plant looks stable, provide a light feeding with Purived 4-5-5 at the next watering (within ~48 hours). Monitor overnight conditions; covering is not required at 45°F but may help if windy. Remove any leaves that become more than 50% damaged or develop powdery mildew.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        ""
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20260101-02.jpeg",
+          "caption": "Top-down view of zucchini_001 showing several green leaves with some older leaf surface scarring and minor edge damage; soil surface appears dry.",
+          "tags": "zucchini, top-down, leaf damage, dry soil, young plant"
+        },
+        {
+          "file_name": "zucchini_001-20260101-03.jpeg",
+          "caption": "Wider view of zucchini_001 in the planter showing upright stems and active center growth; older leaves show mild stress marks while overall color remains green.",
+          "tags": "zucchini, planter, growth stage, upright, stress recovery"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "11:46 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 72°F.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "27",
+        "moisture_mScm": "10.00",
+        "light": "82",
+        "rh_percent": "37",
+        "fertility_percent": "3.0",
+        "soil_temp_f": "56.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Young zucchini plant is upright and continuing to produce new growth from the center. Older leaves show past stress damage (minor crusting/scarring and torn edges) but remain mostly green. Soil surface appears dry and crumbly.",
+      "actions": "Water slowly at the base in two passes (wet the soil, wait 5–10 minutes, then water again) until the root zone is evenly moist. Do not fertilize today; allow hydration to stabilize first. Keep crusty leaves for now unless they become mostly brown, touch soil, or show spreading disease.",
+      "next_steps": "If the soil remains moist and the plant looks stable, provide a light feeding with Purived 4-5-5 at the next watering (within ~48 hours). Monitor overnight conditions; covering is not required at 45°F but may help if windy. Remove any leaves that become more than 50% damaged or develop powdery mildew.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        ""
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20260101-02.jpeg",
+          "caption": "Top-down view of zucchini_001 showing several green leaves with some older leaf surface scarring and minor edge damage; soil surface appears dry.",
+          "tags": "zucchini, top-down, leaf damage, dry soil, young plant"
+        },
+        {
+          "file_name": "zucchini_001-20260101-03.jpeg",
+          "caption": "Wider view of zucchini_001 in the planter showing upright stems and active center growth; older leaves show mild stress marks while overall color remains green.",
+          "tags": "zucchini, planter, growth stage, upright, stress recovery"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "3:43 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.60",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "41",
+        "moisture_mScm": "32.00",
+        "light": "88",
+        "rh_percent": "37",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The zucchini is in active vegetative growth with a stable, upright structure and fresh crown growth. Older leaves show residual stress with crusty edges and minor spotting, while newer leaves appear greener and more vigorous. No collapse at the crown is visible, and overall growth looks steady despite prior damage.",
+      "actions": "Keep the crusty older leaves for now. Provide a slow, even watering to prevent further dry-down (about 2 cups applied in a wide ring around the plant, avoiding the stem). Do not fertilize and do not prune today.",
+      "next_steps": "Monitor new leaf expansion and color over the next 48–72 hours. Recheck moisture soon and aim to keep it from dipping further as zucchini accelerates growth. Consider removing older damaged leaves later only if they become mostly dead, touch soil, or show clear worsening, once multiple strong new leaves are established.",
+      "q_and_a_summary": "You asked whether to keep the crusty leaves. Recommendation: keep them for now because they still contribute energy and removing them during recovery can stress the plant; remove later only when they are mostly dead or problematic and new growth is clearly dominant.",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and covered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was covered again given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251229-02.jpeg",
+          "caption": "Overhead view of the zucchini showing the overall plant structure with several leaves radiating from the crown and a support stake nearby.",
+          "tags": "zucchini, whole plant, overhead, structure, stake"
+        },
+        {
+          "file_name": "zucchini_001-20251229-03.jpeg",
+          "caption": "Closer view of the plant showing newer, healthier leaves near the crown and an older leaf below with visible stress spotting and crusty areas.",
+          "tags": "zucchini, crown, new growth, old leaf, leaf damage"
+        },
+        {
+          "file_name": "zucchini_001-20251229-04.jpeg",
+          "caption": "Close-up of an older leaf with pale crusty patches and speckling on the surface, consistent with prior stress rather than fresh tearing.",
+          "tags": "zucchini, leaf closeup, crusty patches, spotting, stress"
+        },
+        {
+          "file_name": "zucchini_001-20251229-05.jpeg",
+          "caption": "Close-up of a leaf with slight edge wear and mottling near the margins, showing minor residual damage while the leaf remains mostly intact.",
+          "tags": "zucchini, leaf, edge damage, mottling, monitoring"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "3:43 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "7.60",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "41",
+        "moisture_mScm": "32.00",
+        "light": "88",
+        "rh_percent": "37",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "82.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant shows continued recovery with an active, clean crown producing multiple new leaves. Newer foliage appears healthier and more uniformly green, while older leaves show residual edge necrosis, light spotting, and surface residue consistent with prior stress rather than active disease. Petioles are upright and firm, and overall structure is stable with no signs of collapse or crown rot.",
+      "actions": "Apply approximately 2 cups of plain water slowly in a wide ring around the root zone to prevent further dry-down. Do not fertilize and do not prune any leaves today.",
+      "next_steps": "Monitor expansion and color of new crown leaves over the next 48–72 hours. Recheck moisture with the next probe reading and maintain moisture in the mid-30s to low-40s range. Plan selective removal of older damaged leaves only after stronger new foliage is established.",
+      "q_and_a_summary": "Discussed whether to remove crusty older leaves; confirmed they should be left in place for now because they are still contributing energy and removal would create unnecessary stress during recovery.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20251229-02.jpeg",
+          "caption": "Overhead view showing overall plant structure with active crown growth and a mix of older and newer leaves.",
+          "tags": "zucchini, overhead, canopy, recovery"
+        },
+        {
+          "file_name": "zucchini_001-20251229-03.jpeg",
+          "caption": "Mid-range view highlighting healthy new leaf expansion from the crown and upright petioles.",
+          "tags": "zucchini, crown, new-growth, vigor"
+        },
+        {
+          "file_name": "zucchini_001-20251229-04.jpeg",
+          "caption": "Close-up of an older leaf showing edge necrosis and surface residue consistent with historical stress.",
+          "tags": "zucchini, leaf, stress, edge-necrosis"
+        },
+        {
+          "file_name": "zucchini_001-20251229-05.jpeg",
+          "caption": "Detailed view of leaf texture and color showing recovery progression with no active disease indicators.",
+          "tags": "zucchini, leaf, texture, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:11 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Mostly Clear tonight. Sunny with a high of 83°F tomorrow.",

@@ -47,6 +47,8 @@ In individual plant threads, when providing a Daily Journal Entry, the assistant
 This schema is authoritative and must be followed verbatim whenever a Daily Journal Entry is produced.
 ___
 
+Add this saved memory exactly the way I am sending it to you.
+
 In Plant Channels, when recommending treatments, always check whether my user-owned products are appropriate and use my products FIRST whenever they are applicable and safe:
 
 - White Vinegar
@@ -63,12 +65,22 @@ In Plant Channels, when recommending treatments, always check whether my user-ow
 - Miracle-Gro Moisture Control Potting Mix
 - Miracle-Gro Organic Potting Mix
 - Miracle-Gro Organic Mulch
+- Gardzen 2 Gallon 300G Thick Fabric Grow Bags with Handles
+- Gardzen 5 Gallon 300G Thick Fabric Grow Bags with Handles
 - Gardzen 10 Gallon 300G Thick Fabric Grow Bags with Handles
+- Garden Trellis, Tomato Cage Tall Plant Support Climbing Vines Flowers Stands Cucumber Trellis Plant cage
 - Bio Stretch Soft Garden Plant Ties
+- Window planter 23.5\"W top, 20.3\"W bottom x 7.8\"L × 6\"D, black
+- Raised bed 2'L × 6'W × 10\"D, brown
+- Bonnie Plants Foodie Fresh Pot, 0.94 gal, white (round)
+- Bonnie Plants, 2.32 qt pot, black (round)
+- Bonnie Plants Foodie Fresh Pot, 25 oz pot, white (round)
+- Style Selections Round 6.0-in W x 6.0-in L Black Plastic Indoor/Outdoor Planter (Round pot, 6\" 5 qt, black)
+- Style Selections Round 8.0-in W x 8.0-in L Black Plastic Indoor/Outdoor Planter (Round pot, 8\" 1.5 gal, black)
 
 If none of my products are appropriate or safe, you may recommend alternatives.
 
-When giving product-based instructions, ALWAYS tailor quantities to my actual container size/volume/soil as defined in the plant’s data (do not ask me for it), and do NOT tell me to “follow the label” — if you need manufacturer instructions or dilution rates, look them up and then give me the exact measured amounts scaled to my container.
+When giving product-based instructions, ALWAYS tailor quantities to my actual container. Do not ask me for it. It is provided in the `container` attribute of the Plant Main Data.  Do NOT tell me to “follow the label” — if you need manufacturer instructions or dilution rates, look them up and then give me the exact measured amounts scaled to my container.
 ___
 
 When the user asks for “weather for today,” if the direct NWS point-forecast URL fails, it is acceptable to reach the same forecast page by searching forecast.weather.gov using ZIP code 33470 and use that resulting point-forecast page as the fallback source.

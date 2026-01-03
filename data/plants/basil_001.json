@@ -52,6 +52,55 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "6:59 AM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40 early. Tonight: Mostly clear, with a low around 44°F. Tomorrow: Mostly sunny, with a high near 73°F. Frost advisory until 9:00 AM. Temp reaches ~55°F by 10:00 AM, ~60°F by noon, and ~63°F by 5:00 PM before dropping again.",
+      "digital_probe": {
+        "ph": "7.10",
+        "ec_mScm": "0.43",
+        "salt_mg_L": "219",
+        "moisture_mScm": "70.00",
+        "light": "3",
+        "rh_percent": "55",
+        "fertility_percent": "25.0",
+        "soil_temp_f": "57.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant is indoors due to frost advisory. Basil canopy appears lush, upright, and bright green with multiple stems. No visible cold damage, blackening, or wilt. Soil surface appears dark and moist.",
+      "actions": "Keep basil indoors until at least 10:00 AM when temperatures reach ~55°F. Move outdoors into direct sun around 10:00 AM for light and warmth. Do not water this morning because moisture is already adequate and soil temperature is cool. Bring plant back indoors around 6:00 PM before temperatures drop again.",
+      "next_steps": "Monitor for midday droop once outside. Only water if the pot dries significantly (pot feels light, top 1–2 inches dry, or leaves lose turgor). If watering is needed today, water lightly between 12:00 PM and 2:00 PM. Continue bringing indoors on nights with lows below ~50°F until the cold spell passes.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        ""
+      ],
+      "photos": [
+        {
+          "file_name": "basil_001-20260101-03.jpeg",
+          "caption": "Top-down view of basil_001 showing multiple healthy stems with bright green leaves; soil surface looks dark and evenly moist.",
+          "tags": "basil, top-down, healthy, canopy, moist soil, multiple stems"
+        },
+        {
+          "file_name": "basil_001-20260101-04.jpeg",
+          "caption": "Side view of basil_001 in a white pot showing dense, upright growth with good leaf turgor and no visible cold damage.",
+          "tags": "basil, side view, upright, vigorous, turgor, healthy"
+        },
+        {
+          "file_name": "basil_001-20260101-05.jpeg",
+          "caption": "Angled view of basil_001 showing clustered growth and many fresh green leaves; stems appear sturdy and well-hydrated.",
+          "tags": "basil, angled view, clustered growth, green leaves, sturdy stems"
+        },
+        {
+          "file_name": "basil_001-20260101-06.jpeg",
+          "caption": "Close side view focusing on the basil canopy with prominent midribs and glossy leaves; new growth tips are visible.",
+          "tags": "basil, close-up, canopy, new growth, glossy leaves, healthy"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:14 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -75,7 +124,10 @@
       "next_steps": "Take the next probe reading after the next watering/feed cycle to see if pH begins moving down and EC/fertility rise. Watch new growth for improved green color over the next 5–7 days. Continue morning watering based on moisture trends, keeping basil evenly moist but not saturated.",
       "q_and_a_summary": "The leaves looking more yellow than green led to a check on what to do next, and with moisture already trending low plus a hot, sunny pattern, watering first thing in the morning is the right move. The readings also show the soil is both underfed and running very high in pH, which can make basil look pale from nutrient shortage and lockout, so pairing that morning watering with a gentle feed is the most direct way to support greener growth and get the root zone back into a better range. To avoid mixing a full gallon at half dilution, a practical measure is 1/4 teaspoon Purived in 1 quart of water (or 1/2 teaspoon in 1/2 gallon), which keeps the feed gentle while matching the smaller watering volume this pot needs.",
       "follow_up": [
-        "[6:16 AM] Half-strength Purived mix for this pot is 1/4 teaspoon Purived in 1 quart of water (or about 1/2 teaspoon in 1/2 gallon) so you can feed without making a full gallon, keeping the dose gentle while supporting greener new growth."
+        "[6:16 AM] Half-strength Purived mix for this pot is 1/4 teaspoon Purived in 1 quart of water (or about 1/2 teaspoon in 1/2 gallon) so you can feed without making a full gallon, keeping the dose gentle while supporting greener new growth.",
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
       ],
       "photos": [
         {
@@ -123,7 +175,11 @@
       "actions": "Water early in the morning to rehydrate before the heat of the day. Restore nutrients with a gentle liquid feed using Purived 4-5-5 or Gardenwise 10-10-10 Plus to address low EC and fertility. Begin correcting high pH by avoiding plain water-only cycles and monitoring the next pH reading after feeding.",
       "next_steps": "Take the next probe reading after the next watering/feed cycle to see if pH begins moving down and EC/fertility rise. Watch new growth for improved green color over the next 5–7 days. Continue morning watering based on moisture trends, keeping basil evenly moist but not saturated.",
       "q_and_a_summary": "The leaves looking more yellow than green led to a check on what to do next, and with moisture already trending low plus a hot, sunny pattern, watering first thing in the morning is the right move. The readings also show the soil is both underfed and running very high in pH, which can make basil look pale from nutrient shortage and lockout, so pairing that morning watering with a gentle feed is the most direct way to support greener growth and get the root zone back into a better range.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "basil_001-20251229-02.jpeg",

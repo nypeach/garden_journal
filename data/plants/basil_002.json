@@ -48,6 +48,104 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:00 AM",
+      "conditions": "Sunny with a high near 66°F; wind chill as low as 40°F early. Frost advisory until 9:00 AM. Tonight mostly clear with a low around 44°F.",
+      "digital_probe": {
+        "ph": "6.75",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133",
+        "moisture_mScm": "63.00",
+        "light": "2",
+        "rh_percent": "54",
+        "fertility_percent": "14.5",
+        "soil_temp_f": "57.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil is currently indoors due to frost advisory. Canopy looks healthy and upright with good leaf turgor, but the pot is drying unevenly with one side noticeably drier than the other. Leaves are mostly healthy green with mild lightening on some foliage consistent with cool weather and indoor low-light conditions.",
+      "actions": "Keep the pot indoors until the frost advisory ends. Do not water the entire pot; either skip watering today or apply a targeted ~1 cup (8 oz) of water to the drier side only to even out moisture. Move the pot outside into full sun around 10:00 AM when temperatures are above ~55°F, then bring it back inside around 6:00 PM before evening cooling.",
+      "next_steps": "Continue using temperature thresholds to protect basil: keep inside when lows are below ~50°F or frost is possible. On the next true watering day (when the drier side drops closer to the low-40% range), you can resume gentle feeding with a half-dilution of Purived. Monitor for yellowing lower leaves, which would suggest the wet side is staying too moist indoors.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        ""
+      ],
+      "photos": [
+        {
+          "file_name": "basil_002-20260101-03.jpeg",
+          "caption": "Top-down view showing a healthy basil canopy with multiple stems and generally good leaf color while the pot is kept indoors for frost protection.",
+          "tags": "basil, indoors, canopy, top view, frost protection"
+        },
+        {
+          "file_name": "basil_002-20260101-04.jpeg",
+          "caption": "Side view showing upright stems and good leaf turgor with mild unevenness in growth across the pot.",
+          "tags": "basil, foliage, indoor growth, structure, turgor"
+        },
+        {
+          "file_name": "basil_002-20260101-05.jpeg",
+          "caption": "Angled view showing clustered stems and mostly healthy leaves with a few lighter-toned leaves consistent with cool weather and indoor conditions.",
+          "tags": "basil, leaves, indoor, cool stress, clustered stems"
+        },
+        {
+          "file_name": "basil_002-20260101-06.jpeg",
+          "caption": "Close side view of the basil showing healthy leaf shape and density with the potting surface visible and no signs of collapse or severe stress.",
+          "tags": "basil, close-up, healthy leaves, potting mix, indoor"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "7:00 AM",
+      "conditions": "Sunny with a high near 66°F; wind chill as low as 40°F early. Frost advisory until 9:00 AM. Tonight mostly clear with a low around 44°F.",
+      "digital_probe": {
+        "ph": "6.75",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "133",
+        "moisture_mScm": "63.00",
+        "light": "2",
+        "rh_percent": "54",
+        "fertility_percent": "14.5",
+        "soil_temp_f": "57.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil is currently indoors due to frost advisory. Canopy looks healthy and upright with good leaf turgor, but the pot is drying unevenly with one side noticeably drier than the other. Leaves are mostly healthy green with mild lightening on some foliage consistent with cool weather and indoor low-light conditions.",
+      "actions": "Keep the pot indoors until the frost advisory ends. Do not water the entire pot; either skip watering today or apply a targeted ~1 cup (8 oz) of water to the drier side only to even out moisture. Move the pot outside into full sun around 10:00 AM when temperatures are above ~55°F, then bring it back inside around 6:00 PM before evening cooling.",
+      "next_steps": "Continue using temperature thresholds to protect basil: keep inside when lows are below ~50°F or frost is possible. On the next true watering day (when the drier side drops closer to the low-40% range), you can resume gentle feeding with a half-dilution of Purived. Monitor for yellowing lower leaves, which would suggest the wet side is staying too moist indoors.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        ""
+      ],
+      "photos": [
+        {
+          "file_name": "basil_002-20260101-03.jpeg",
+          "caption": "Top-down view showing a healthy basil canopy with multiple stems and generally good leaf color while the pot is kept indoors for frost protection.",
+          "tags": "basil, indoors, canopy, top view, frost protection"
+        },
+        {
+          "file_name": "basil_002-20260101-04.jpeg",
+          "caption": "Side view showing upright stems and good leaf turgor with mild unevenness in growth across the pot.",
+          "tags": "basil, foliage, indoor growth, structure, turgor"
+        },
+        {
+          "file_name": "basil_002-20260101-05.jpeg",
+          "caption": "Angled view showing clustered stems and mostly healthy leaves with a few lighter-toned leaves consistent with cool weather and indoor conditions.",
+          "tags": "basil, leaves, indoor, cool stress, clustered stems"
+        },
+        {
+          "file_name": "basil_002-20260101-06.jpeg",
+          "caption": "Close side view of the basil showing healthy leaf shape and density with the potting surface visible and no signs of collapse or severe stress.",
+          "tags": "basil, close-up, healthy leaves, potting mix, indoor"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:15 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
@@ -70,7 +168,11 @@
       "actions": "Water now at the next available morning window using a slow, even soak until the first light drainage appears, then stop; keep the pot evenly moist today to prevent a midday dry slide.",
       "next_steps": "Recheck moisture and plant posture tomorrow afternoon; monitor for any new chewing or distortion on fresh tips; because EC/fertility are very low and pH is high, plan a gentle, measured feeding strategy soon and watch whether new growth deepens in color over the next several days.",
       "q_and_a_summary": "Watering first thing in the morning is the best move here because the pot was already trending toward dry by late afternoon, the air is dry and warm, and missing the morning window risks the plant spending the hottest part of the day under-watered.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "basil_002-20251229-02.jpeg",

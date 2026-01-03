@@ -52,6 +52,79 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:44 AM/PM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40 early. Tonight: Mostly clear, with a low around 44°F. Tomorrow: Mostly sunny, with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.0",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "61",
+        "moisture_mScm": "39",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "6",
+        "soil_temp_f": "58.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This thyme is a small but healthy clump with upright stems and good green color. It is currently indoors and planned to be moved outside around 10:00 AM. The soil surface in front of the plant looks dry and loose with a fairly large bare area.",
+      "actions": "Water lightly this morning before moving it outside so the root zone is evenly moist but not saturated. Place the planter outside around 10:00 AM in full sun with a bit of wind protection.",
+      "next_steps": "This thyme can remain outside overnight at the expected low in the mid-40s as long as it is sheltered from strong wind. If you want the front area to fill in, scatter a small amount of thyme seed directly into the bare soil and keep the top layer consistently lightly moist until germination.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "thyme_001-20260101-02.jpeg",
+          "caption": "The thyme sits indoors in the shared herb planter with a large bare soil area in front of it.",
+          "tags": "thyme, herb box, indoor, planter, bare soil"
+        },
+        {
+          "file_name": "thyme_001-20260101-03.jpeg",
+          "caption": "Close view shows multiple upright thyme stems with healthy green leaves and no obvious damage.",
+          "tags": "thyme, close-up, foliage, healthy, stems"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "5:12 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "98",
+        "moisture_mScm": "52.00",
+        "light": "54",
+        "rh_percent": "48",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "77.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Thyme appears healthy and green with steady upright growth and increasing leaf mass, though some stems remain slightly leggy. The stand is still filling in but looks stable with no visible spotting, wilting, or burn. The soil surface appears more crumbly and less saturated than earlier in the week, consistent with improving moisture readings.",
+      "actions": "Do not water today. Do not fertilize. Allow continued dry-down and avoid overwatering the thyme zone; if other herbs need water, apply it away from thyme to keep this section drier.",
+      "next_steps": "Recheck moisture tomorrow late morning or midday and water only if moisture drops closer to mid-range and the soil surface becomes dry. Continue monitoring for thicker lateral spread as the plant fills in, and avoid frequent surface wetting that can slow thyme's establishment.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "thyme_001-20251229-02.jpeg",
+          "caption": "Close-up of the thyme section showing healthy green foliage and steady growth above a soil surface that appears drier and more crumbly than earlier saturated days.",
+          "tags": "thyme, herb-box, vegetative-growth, soil-drydown, close-up"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:06 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

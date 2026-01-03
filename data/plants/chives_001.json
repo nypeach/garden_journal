@@ -6,17 +6,17 @@
   "garden_location": "Panel 13",
   "full_sun_start": "10:43 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Window Box",
+  "container": "25 oz round, white pot",
   "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
   "origin_history": [
     "Seeded on Nov 13, 2025 as a ring around the broccoli tray.",
-    "Planted in black planter 23.5\" × 7.85\" × 6\" left",
-    "Added potting mix on top of sand-heavy layer for better moisture and pH balance.",
-    "Reseeded chives after soil improvement to support proper germination."
+    "Added potting mix on top of Topsoil/Sand.",
+    "Reseeded chives after soil improvement to support proper germination.",
+    "Transplanted on Dec 29, 2025 to improve moisture and protect seedlings."
   ],
-  "whats_been_logged": "The chives progressed from initial germination into early post-emergence development, with thin green shoots breaking the soil surface and reappearing after intermittent burial from wind and rain. While emergence has been uneven and sparse due to surface disturbance, surviving seedlings remain green and upright, indicating continued viability as roots establish in the shared window box.",
+  "whats_been_logged": "The focus has shifted from tracking uneven emergence and surface disturbance in the window box to stabilizing sparse seedlings after transplanting into a small pot for improved moisture control and cold-night protection, while monitoring for recovery and continued emergence.",
   "current_stage": "Early Post-Emergence Seedlings",
-  "current_state": "The chive seedlings are newly emerged and very small, with thin green shoots intermittently visible just above the soil surface. Repeated wind and rain events have caused temporary burial, resulting in uneven spacing and reduced height, but visible shoots remain upright and green with no signs of collapse or rot at the soil line.",
+  "current_state": "The chive seedlings remain very small and sparse but are upright and green in the 25 oz pot, with thin blades visible above a dark, evenly moist soil surface. No collapse, yellowing, or damping-off is visible, and the transplant has improved moisture stability around the seedlings.",
   "timeline": [
     {
       "what_i_should_see": "Germination Begins",
@@ -53,6 +53,43 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:16 AM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40 early. Tonight: Mostly clear, with a low around 44°F. Mostly sunny, with a high near 73°F.",
+      "digital_probe": {
+        "ph": "5.50",
+        "ec_mScm": "0.26",
+        "salt_mg_L": "131",
+        "moisture_mScm": "57.00",
+        "light": "3",
+        "rh_percent": "53",
+        "fertility_percent": "14.0",
+        "soil_temp_f": "57.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Transplanted chive seedlings are intact and upright in the new 25 oz pot, with multiple thin green blades visible including one taller blade, and no visible collapse, yellowing, or rot. The soil appears evenly moist and dark, consistent with the high moisture reading, and the plant is currently indoors with very low light exposure.",
+      "actions": "Do not water today because moisture is high. Do not fertilize or adjust pH during transplant recovery. Bring the pot outside around 10:00 AM once temperatures reach about 55°F to provide several hours of real sun, then bring it back inside before evening temperatures drop.",
+      "next_steps": "Keep moisture steady but not wet; only water when the top inch lightens and the pot feels noticeably lighter. Prioritize daily outdoor sun during the warmest part of the day for the next 3–5 days to strengthen blades and support root re-establishment. Recheck pH after the plant stabilizes; if it remains below 6.0 for multiple readings, consider a gentle pH-raising approach later using a light dusting of dolomite lime.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chives_001-20260101-02.jpeg",
+          "caption": "Top-down view of the 25 oz pot showing several small chive seedlings scattered across the soil surface, with thin green blades emerging and soil appearing evenly moist.",
+          "tags": "chives, seedlings, transplant, top-view, moist-soil, indoor"
+        },
+        {
+          "file_name": "chives_001-20260101-03.jpeg",
+          "caption": "Angled side view of the pot indoors showing upright chive blades, including one noticeably taller blade, indicating the seedlings remained intact after transplanting.",
+          "tags": "chives, seedlings, transplant, side-view, upright, indoor"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "1:35 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -77,7 +114,10 @@
       "q_and_a_summary": "Discussed the best low-risk method to transplant the chive seedlings into a 25 oz pot using intact soil plugs, gentle water-in, and a short shaded recovery period. Confirmed the seedling clusters appear appropriate for transplanting, recommended combining clusters 2 and 3 to form a stronger starter clump, and explained that more blades should emerge once moisture stays stable and crowns begin tufting. Confirmed the transplant outcome looks successful overall, with seedlings still visible and appropriately set, and emphasized keeping the pot evenly moist (not soggy) for the next 48 hours to reduce shock and encourage new blade emergence.",
       "follow_up": [
         "[2:44 PM] Reviewed the circled seedling clusters for transplanting; confirmed they are appropriate to move, recommended combining clusters 2 and 3 if they can be lifted as one plug, and explained that blade count should increase after the new pot stabilizes and seedlings begin producing multiple blades from each base.",
-        "[5:55 PM] Completed the transplant into the 25 oz pot; seedlings look intact and well-settled, and the new mix was set up to hold steadier moisture for recovery and continued establishment."
+        "[5:55 PM] Completed the transplant into the 25 oz pot; seedlings look intact and well-settled, and the new mix was set up to hold steadier moisture for recovery and continued establishment.",
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
       ],
       "photos": [
         {
@@ -131,7 +171,8 @@
       "next_steps": "Recheck moisture tomorrow morning and water only if moisture drops below 25.00 mS/cm. Maintain consistent moisture to encourage multiple blades emerging from the same base. If transplanting this chive section into its own pot, aim to move the root zone as intact as possible and keep the new container evenly moist during the first 48 hours after the move.",
       "q_and_a_summary": "Discussed the best low-risk method to transplant the chive seedlings into a 25 oz pot using intact soil plugs, gentle water-in, and a short shaded recovery period. Confirmed the seedling clusters appear appropriate for transplanting, recommended combining clusters 2 and 3 to form a stronger starter clump, and explained that more blades should emerge once moisture stays stable and crowns begin tufting.",
       "follow_up": [
-        "[2:44 PM] Reviewed the circled seedling clusters for transplanting; confirmed they are appropriate to move, recommended combining clusters 2 and 3 if they can be lifted as one plug, and explained that blade count should increase after the new pot stabilizes and seedlings begin producing multiple blades from each base."
+        "[2:44 PM] Reviewed the circled seedling clusters for transplanting; confirmed they are appropriate to move, recommended combining clusters 2 and 3 if they can be lifted as one plug, and explained that blade count should increase after the new pot stabilizes and seedlings begin producing multiple blades from each base.",
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight."
       ],
       "photos": [
         {
@@ -170,7 +211,8 @@
       "next_steps": "Recheck moisture tomorrow morning and water only if moisture drops below 25.00 mS/cm. Maintain consistent moisture to encourage multiple blades emerging from the same base. If transplanting this chive section into its own pot, aim to move the root zone as intact as possible and keep the new container evenly moist during the first 48 hours after the move.",
       "q_and_a_summary": "Discussed the best low-risk method to transplant the chive seedlings into a 25 oz pot using intact soil plugs, gentle water-in, and a short shaded recovery period. Confirmed the seedling clusters appear appropriate for transplanting, recommended combining clusters 2 and 3 to form a stronger starter clump, and explained that more blades should emerge once moisture stays stable and crowns begin tufting.",
       "follow_up": [
-        "[2:44 PM] Reviewed the circled seedling clusters for transplanting; confirmed they are appropriate to move, recommended combining clusters 2 and 3 if they can be lifted as one plug, and explained that blade count should increase after the new pot stabilizes and seedlings begin producing multiple blades from each base."
+        "[2:44 PM] Reviewed the circled seedling clusters for transplanting; confirmed they are appropriate to move, recommended combining clusters 2 and 3 if they can be lifted as one plug, and explained that blade count should increase after the new pot stabilizes and seedlings begin producing multiple blades from each base.",
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight."
       ],
       "photos": [
         {
@@ -208,7 +250,9 @@
       "actions": "Do not water today as moisture is ideal for seedlings. Do not apply fertilizer or pH amendments. Keep the soil surface undisturbed to protect shallow roots.",
       "next_steps": "Recheck moisture tomorrow morning and water only if moisture drops below 25.00 mS/cm. Maintain consistent moisture to encourage multiple blades emerging from the same base. If transplanting this chive section into its own pot, aim to move the root zone as intact as possible and keep the new container evenly moist during the first 48 hours after the move.",
       "q_and_a_summary": "Discussed the best low-risk method to transplant the chive seedlings into a 25 oz pot using intact soil plugs, gentle water-in, and a short shaded recovery period.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight."
+      ],
       "photos": [
         {
           "file_name": "chives_001-20251229-02.jpeg",

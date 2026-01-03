@@ -49,6 +49,48 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:19 AM",
+      "conditions": "Sunny with a high near 66°F and a low around 44°F. Wind chill values as low as 40 early.",
+      "digital_probe": {
+        "ph": "6.25",
+        "ec_mScm": "0.29",
+        "salt_mg_L": "146",
+        "moisture_mScm": "75.00",
+        "light": "2",
+        "rh_percent": "53",
+        "fertility_percent": "16.0",
+        "soil_temp_f": "59.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Arugula is growing steadily with a dense canopy of mixed-size leaves. Several older lower leaves and cotyledons show yellowing and some purpling, while newer growth looks upright and healthy. Soil appears quite moist and the planter was indoors at the time of readings, so light exposure was low during measurement.",
+      "actions": "Do not water right now because moisture is already high. Bring the planter outside around 10:00 AM as planned once temperatures reach the mid-50s, and place it in full sun with good airflow. Remove any remaining dead or yellowed leaves that detach easily to keep airflow open.",
+      "next_steps": "Monitor moisture and wait to water until the planter dries down closer to mid-range moisture levels. Watch the newest leaves over the next couple of days; if they stay pale once watering is under control, consider a light feeding later, but prioritize drying rhythm and airflow first.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "arugula_001-20260101-03.jpeg",
+          "caption": "Top-down view of the arugula planter showing dense growth with a mix of mature and younger leaves and some thinning gaps in the center.",
+          "tags": "arugula, planter, top-down, dense growth, leaf color variation"
+        },
+        {
+          "file_name": "arugula_001-20260101-04.jpeg",
+          "caption": "Angled view of the canopy showing upright newer leaves and older lower leaves with some yellowing and purpling.",
+          "tags": "arugula, leaf health, older leaves, yellowing, canopy"
+        },
+        {
+          "file_name": "arugula_001-20260101-05.jpeg",
+          "caption": "Side view of the planter indoors showing overall plant density and uneven height from mixed maturity across the bed.",
+          "tags": "arugula, indoor, planter, growth stage, uneven canopy"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "5:06 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
@@ -71,7 +113,11 @@
       "actions": "Skip watering right now. Let the planter dry down a bit more, especially with the cooler day coming. If the surface looks dry later today, you can mist or lightly water only the driest sections rather than soaking the whole planter.",
       "next_steps": "Tomorrow, reassess moisture by feel and/or a quick probe check before watering. Aim to water only when the top 1 inch is drying and the planter feels lighter. Keep watching for uneven dry-down across the tray and adjust watering to target the driest zones first.",
       "q_and_a_summary": "With moisture still moderate-to-high in both sections (60–70%) and a cooler day ahead, watering now would keep the root zone too wet and slow recovery. The best move is to hold water this morning and resume only once the planter clearly dries down.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was not watered but was covered given the temperature was forecased to drop down to 42°F overnight.",
+        "[9:00 AM] 12/31/2025 - This window box was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This window box was brought inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "arugula_001-20251229-02.jpeg",

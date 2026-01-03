@@ -39,6 +39,53 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:23 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 72°F.",
+      "digital_probe": {
+        "ph": "7.9",
+        "ec_mScm": "0.10",
+        "salt_mg_L": "51",
+        "moisture_mScm": "53",
+        "light": "99",
+        "rh_percent": "49",
+        "fertility_percent": "5",
+        "soil_temp_f": "52.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This plant is blooming actively with multiple fresh red/orange flowers open and many buds still swelling and preparing to open. Foliage is dense and green with good overall structure, and the potting mix appears evenly moist and dark with no obvious wilt or stress.",
+      "actions": "Do not water today. Leave blooms and buds intact; remove only any fully brown, crispy, collapsed flower heads if present. Keep in full sun.",
+      "next_steps": "Recheck moisture tomorrow morning or at next opportunity; water only when the top 1–2 inches are dry or moisture drops into the low 40s/high 30s. At the next normal watering, apply a light feeding using Purived 4-5-5 at 2 tsp per gallon to support bud opening and bloom longevity.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "mum_002-20260101-02.jpeg",
+          "caption": "Top-down view showing multiple open blooms and dense bud clusters across the canopy.",
+          "tags": "mum, chrysanthemum, blooms, buds, canopy, top-view"
+        },
+        {
+          "file_name": "mum_002-20260101-03.jpeg",
+          "caption": "Side view showing the full pot with healthy flowering stems and many buds preparing to open.",
+          "tags": "mum, chrysanthemum, container, flowering, buds, structure"
+        },
+        {
+          "file_name": "mum_002-20260101-04.jpeg",
+          "caption": "Side view highlighting multiple open blooms and vigorous foliage growth across the plant.",
+          "tags": "mum, chrysanthemum, blooms, foliage, container, health"
+        },
+        {
+          "file_name": "mum_002-20260101-05.jpeg",
+          "caption": "Side view showing abundant buds and a strong branching canopy with active bloom progression.",
+          "tags": "mum, chrysanthemum, buds, branching, canopy, container"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:24 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
@@ -61,7 +108,11 @@
       "actions": "Water slowly and deeply right now to fully rehydrate the pot. Use a slow soak method so the water penetrates the full root zone (water until it drains, wait 10–15 minutes, then water again). Do not fertilize today; allow the root zone to rehydrate first.",
       "next_steps": "Tomorrow morning, check the top 1–2 inches of soil by touch and re-check moisture with the probe if possible. If moisture is still low or the pot feels light, repeat a slow soak watering. Once moisture readings return to the normal range for 24–48 hours, fertility can be reassessed and a light feed can be considered.",
       "q_and_a_summary": "",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and covered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[9:00 AM] 12/31/2025 - This window box was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This window box was brought inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "mum_002-20251229-04.jpeg",

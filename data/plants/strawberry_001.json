@@ -44,6 +44,178 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:06 AM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40 early. Tonight: Mostly clear, with a low around 44°F. Tomorrow: Mostly sunny, with a high near 73°F.",
+      "digital_probe": {
+        "ph": "8.20",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "32.00",
+        "light": "2",
+        "rh_percent": "53",
+        "fertility_percent": "5",
+        "soil_temp_f": "57.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Strawberry_001 is indoors and looks vigorous with a dense green canopy and multiple open deep pink-red blooms. Several flowers have transitioned into early fruit set with green, swelling centers, and a few buds/fruitlets look questionable where petals are collapsing unevenly. The pot is drying unevenly, with the back side noticeably drier than the front, and overall moisture is trending down compared to the prior check. No major wilting is visible, but the plant is ready for a controlled watering before going back outside around 10:00 AM.",
+      "actions": "Water this morning before you take the plant outside. Use a two-step pour to re-wet evenly without flooding: (1) First pass: pour EXACTLY 8 oz of plain water slowly around the surface, focusing on the driest back quadrant. Wait 5–10 minutes. (2) Second pass (fertilized): mix EXACTLY 16 oz of water with EXACTLY 1/4 tsp Purived 4-5-5, stir well, then pour the entire 16 oz slowly and evenly around the pot. This total of 24 oz is scaled to your 2.32-qt container and should rehydrate thoroughly; stop early only if you see steady runoff. After watering, keep the plant indoors until outdoor temps reach at least 55°F (your 10:00 AM plan is perfect), then move it outside into full sun.",
+      "next_steps": "Watch the pot moisture over the next 24–36 hours for continued uneven drying; rotate the pot 1/4 turn daily to balance sun/wind exposure. Because pH is reading high on these spot checks, avoid adding lime or alkaline amendments; focus on steady moisture and consistent light first, then re-check pH/EC after the next watering cycle when conditions are more stable. For fruit and bud management, keep developing berries off wet soil and remove only clearly failed fruitlets (brown/black centers that are shrinking or moldy). Healthy set berries should stay firm and green with a swelling center.",
+      "q_and_a_summary": "With one side of the pot drying faster than the other, a measured two-step watering is the best way to re-wet evenly without waterlogging. Fertilizer can be applied today during the second pass since you missed the prior feed and the plant is actively flowering and setting fruit. For the questionable buds, keep any that have a firm, green swelling center and remove only those that have collapsed into a brown, shrinking, or moldy fruitlet.",
+      "follow_up": [
+        "[11:00 AM] Watered using the two-pass method: 8 oz of plain water first, followed by 16 oz of water mixed with 1/4 tsp Purived 4-5-5 fertilizer."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20260101-04.jpeg",
+          "caption": "Top-down view of strawberry_001 indoors showing a dense green canopy with two open deep pink-red blooms and multiple buds around the crown.",
+          "tags": "strawberry, top view, canopy, indoor, blooms"
+        },
+        {
+          "file_name": "strawberry_001-20260101-05.jpeg",
+          "caption": "Side view showing the full plant in the black pot on a counter with multiple blooms, buds, and early fruit set visible around the rim.",
+          "tags": "strawberry, side view, container, flowering, indoor"
+        },
+        {
+          "file_name": "strawberry_001-20260101-06.jpeg",
+          "caption": "Close-up of a developing green strawberry fruitlet with the petals fully dropped and the green center swelling.",
+          "tags": "strawberry, close-up, developing fruit, fruitlet, calyx"
+        },
+        {
+          "file_name": "strawberry_001-20260101-07.jpeg",
+          "caption": "Close-up of a questionable fruitlet where the petals are collapsing and curling while the center is beginning to form.",
+          "tags": "strawberry, close-up, questionable fruitlet, petals, early set"
+        },
+        {
+          "file_name": "strawberry_001-20260101-08.jpeg",
+          "caption": "Close-up showing two early-stage fruitlets on stems near the rim, both with green centers forming as the petals fade.",
+          "tags": "strawberry, close-up, fruit set, multiple fruitlets, stems"
+        },
+        {
+          "file_name": "strawberry_001-20260101-09.jpeg",
+          "caption": "Close-up of a flower/fruit transition stage showing the red petals dropping and the central disk exposed as it begins to set.",
+          "tags": "strawberry, close-up, flower transition, fruit set, petals"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "7:06 AM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40 early. Tonight: Mostly clear, with a low around 44°F. Tomorrow: Mostly sunny, with a high near 73°F.",
+      "digital_probe": {
+        "ph": "8.20",
+        "ec_mScm": "0.09",
+        "salt_mg_L": "46",
+        "moisture_mScm": "32.00",
+        "light": "2",
+        "rh_percent": "53",
+        "fertility_percent": "5",
+        "soil_temp_f": "57.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Strawberry_001 is indoors and looks vigorous with a dense green canopy and multiple open deep pink-red blooms. Several flowers have transitioned into early fruit set with green, swelling centers, and a few buds/fruitlets look questionable where petals are collapsing unevenly. The pot is drying unevenly, with the back side noticeably drier than the front, and overall moisture is trending down compared to the prior check. No major wilting is visible, but the plant is ready for a controlled watering before going back outside around 10:00 AM.",
+      "actions": "Water this morning before you take the plant outside. Use a two-step pour to re-wet evenly without flooding: (1) First pass: pour EXACTLY 8 oz of plain water slowly around the surface, focusing on the driest back quadrant. Wait 5–10 minutes. (2) Second pass (fertilized): mix EXACTLY 16 oz of water with EXACTLY 1/4 tsp Purived 4-5-5, stir well, then pour the entire 16 oz slowly and evenly around the pot. This total of 24 oz is scaled to your 2.32-qt container and should rehydrate thoroughly; stop early only if you see steady runoff. After watering, keep the plant indoors until outdoor temps reach at least 55°F (your 10:00 AM plan is perfect), then move it outside into full sun.",
+      "next_steps": "Watch the pot moisture over the next 24–36 hours for continued uneven drying; rotate the pot 1/4 turn daily to balance sun/wind exposure. Because pH is reading high on these spot checks, avoid adding lime or alkaline amendments; focus on steady moisture and consistent light first, then re-check pH/EC after the next watering cycle when conditions are more stable. For fruit and bud management, keep developing berries off wet soil and remove only clearly failed fruitlets (brown/black centers that are shrinking or moldy). Healthy set berries should stay firm and green with a swelling center.",
+      "q_and_a_summary": "With one side of the pot drying faster than the other, a measured two-step watering is the best way to re-wet evenly without waterlogging. Fertilizer can be applied today during the second pass since you missed the prior feed and the plant is actively flowering and setting fruit. For the questionable buds, keep any that have a firm, green swelling center and remove only those that have collapsed into a brown, shrinking, or moldy fruitlet.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20260101-04.jpeg",
+          "caption": "Top-down view of strawberry_001 indoors showing a dense green canopy with two open deep pink-red blooms and multiple buds around the crown.",
+          "tags": "strawberry, top view, canopy, indoor, blooms"
+        },
+        {
+          "file_name": "strawberry_001-20260101-05.jpeg",
+          "caption": "Side view showing the full plant in the black pot on a counter with multiple blooms, buds, and early fruit set visible around the rim.",
+          "tags": "strawberry, side view, container, flowering, indoor"
+        },
+        {
+          "file_name": "strawberry_001-20260101-06.jpeg",
+          "caption": "Close-up of a developing green strawberry fruitlet with the petals fully dropped and the green center swelling.",
+          "tags": "strawberry, close-up, developing fruit, fruitlet, calyx"
+        },
+        {
+          "file_name": "strawberry_001-20260101-07.jpeg",
+          "caption": "Close-up of a questionable fruitlet where the petals are collapsing and curling while the center is beginning to form.",
+          "tags": "strawberry, close-up, questionable fruitlet, petals, early set"
+        },
+        {
+          "file_name": "strawberry_001-20260101-08.jpeg",
+          "caption": "Close-up showing two early-stage fruitlets on stems near the rim, both with green centers forming as the petals fade.",
+          "tags": "strawberry, close-up, fruit set, multiple fruitlets, stems"
+        },
+        {
+          "file_name": "strawberry_001-20260101-09.jpeg",
+          "caption": "Close-up of a flower/fruit transition stage showing the red petals dropping and the central disk exposed as it begins to set.",
+          "tags": "strawberry, close-up, flower transition, fruit set, petals"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:17 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "76",
+        "moisture_mScm": "48.00",
+        "light": "99",
+        "rh_percent": "38",
+        "fertility_percent": "8",
+        "soil_temp_f": "83.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Strawberry plant has a full, healthy green canopy with multiple open deep pink-red blooms and several newly set green berries. Foliage looks turgid overall with a few minor cosmetic spots. Potting mix surface appears quite moist.",
+      "actions": "Do not water right now unless the top 1 inch of soil is drying. Support pollination by gently tapping flower stems or using a soft brush mid-morning. When the plant next needs water, feed lightly by mixing Purived 4-5-5 at 0.5 tsp per 1 quart of water and water in slowly until a small amount of runoff appears.",
+      "next_steps": "Keep moisture even but avoid staying constantly wet, especially with warm soil temperatures. Recheck pH/EC 24–48 hours after the next fertilized watering; if pH remains near 7.0 and growth/fruiting slows, plan a gentle, gradual pH correction rather than a sudden swing. Keep developing berries from touching wet soil by propping fruiting stems and maintaining a clean, dry barrier under fruiting areas.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_001-20251229-02.jpeg",
+          "caption": "Top-down view of strawberry_001 showing a dense canopy with multiple blooms and early fruit set in a black round pot.",
+          "tags": "strawberry, top view, canopy, flowering, fruit set"
+        },
+        {
+          "file_name": "strawberry_001-20251229-03.jpeg",
+          "caption": "Front view of strawberry_001 in the pot labeled “Strawberry Left,” showing several blossoms above moist potting mix.",
+          "tags": "strawberry, pot, label, blossoms, container"
+        },
+        {
+          "file_name": "strawberry_001-20251229-04.jpeg",
+          "caption": "Close view of an open bloom and surrounding leaves, highlighting flower structure and healthy foliage over damp media.",
+          "tags": "strawberry, close-up, bloom, leaves, soil moisture"
+        },
+        {
+          "file_name": "strawberry_001-20251229-05.jpeg",
+          "caption": "Side view showing low-hanging fruiting/flowering stems near the soil surface, indicating potential soil-contact risk for developing berries.",
+          "tags": "strawberry, side view, fruiting stems, soil contact"
+        },
+        {
+          "file_name": "strawberry_001-20251229-06.jpeg",
+          "caption": "Angled view showing an open bloom and multiple green berries forming, including fruit hanging close to the pot rim.",
+          "tags": "strawberry, bloom, green berries, fruit set, pot rim"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:07 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Sunny with a high of 82°F.",

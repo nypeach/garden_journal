@@ -35,6 +35,63 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:33 AM",
+      "conditions": "Sunny with a high near 66°F and wind chill as low as 40 early; mostly clear tonight with a low around 44°F; mostly sunny tomorrow with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "64",
+        "moisture_mScm": "28.25",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "6.5",
+        "soil_temp_f": "59.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Planter is currently inside and will be moved outside around 10:00 AM for warmer daytime conditions. Shallots are upright but somewhat floppy/leaning and gently bundled with soft plant ties for support. Chamomile is vigorous and spreading through the box. Moisture varies across the planter with one notably drier pocket, and overall fertility is low.",
+      "actions": "Bring planter outside around 10:00 AM once temperatures reach the mid-50s. Perform a 2-inch finger test in multiple spots; water only if the soil is dry at that depth, using a light, even watering to moisten rather than saturate. Keep the planter in full sun during the warm part of the day and bring it back inside before temperatures drop again.",
+      "next_steps": "Continue using temperature timing to reduce stress during cold nights. If dry pockets repeat, consider watering targeted sections rather than the entire planter. Recheck moisture with either a quick finger test or probe readings when possible, and plan a gentle feeding once temperatures stabilize and growth resumes more strongly.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "shallots_001-20260101-02.jpeg",
+          "caption": "Top-down view shows chamomile spreading densely around the planter with small open soil areas between plant clusters.",
+          "tags": "shallots, chamomile, top-down, container garden, foliage, shared planter"
+        },
+        {
+          "file_name": "shallots_001-20260101-03.jpeg",
+          "caption": "Close-up shows a small emerging green shoot in the soil near chamomile foliage.",
+          "tags": "shallots, new growth, shoot, seedling, close-up, soil surface"
+        },
+        {
+          "file_name": "shallots_001-20260101-05.jpeg",
+          "caption": "Indoor view shows the shallot clump leaning slightly with leaves bundled gently for support near surrounding chamomile.",
+          "tags": "shallots, floppy leaves, plant tie, indoor, support, container"
+        },
+        {
+          "file_name": "shallots_001-20260101-06.jpeg",
+          "caption": "Wider indoor photo shows the planter with chamomile surrounding the shallots and open soil zones between clusters.",
+          "tags": "shallots, chamomile, indoor, shared planter, container garden, overview"
+        },
+        {
+          "file_name": "shallots_001-20260101-08.jpeg",
+          "caption": "Indoor close view shows bundled shallot leaves rising above the planter with chamomile filling the edges.",
+          "tags": "shallots, plant tie, support, indoor, chamomile, container"
+        },
+        {
+          "file_name": "shallots_001-20260101-10.jpeg",
+          "caption": "Side view shows the shallot base and surrounding soil surface with chamomile foliage nearby in the shared container.",
+          "tags": "shallots, soil, base, chamomile, container garden, indoor"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:59 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
@@ -53,11 +110,15 @@
         "moisture": "",
         "ph": ""
       },
-      "observations": "The shallots look generally healthy but several leaves are flopping/arching, which fits with today’s uneven moisture across the planter; a small new green shoot is emerging near the soil surface (your close-up), and the chamomile sharing the box is vigorous and crowding the shallot area. You used your Bio Stretch Soft Garden Plant Ties to gently gather the shallot leaves for support.",
+      "observations": "The shallots look generally healthy but several leaves are flopping/arching, which fits with today's uneven moisture across the planter; a small new green shoot is emerging near the soil surface (your close-up), and the chamomile sharing the box is vigorous and crowding the shallot area. You used your Bio Stretch Soft Garden Plant Ties to gently gather the shallot leaves for support.",
       "actions": "Keep the tie in place but ensure it stays loose and sits above the white base so it supports without constricting. Plan to water tomorrow morning at 6:00 AM with a targeted soak on the driest section first, then a light, even pass across the rest of the box to smooth out moisture differences.",
-      "next_steps": "Recheck posture after tomorrow’s watering; if leaves perk up within a few hours, the flopping was mostly hydration/heat-related. Continue occasional chamomile trimming to reduce competition, and monitor fertility over the next few days since readings are trending low.",
-      "q_and_a_summary": "Checked whether tying the flopping shallot leaves together was appropriate; confirmed it’s fine as a gentle support as long as the tie stays loose and doesn’t pinch near the base, and noted it should help the leaves stay upright while the plant strengthens.",
-      "follow_up": [],
+      "next_steps": "Recheck posture after tomorrow's watering; if leaves perk up within a few hours, the flopping was mostly hydration/heat-related. Continue occasional chamomile trimming to reduce competition, and monitor fertility over the next few days since readings are trending low.",
+      "q_and_a_summary": "Checked whether tying the flopping shallot leaves together was appropriate; confirmed it's fine as a gentle support as long as the tie stays loose and doesn't pinch near the base, and noted it should help the leaves stay upright while the plant strengthens.",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was not watered but was covered given the temperature was forecased to drop down to 42°F overnight.",
+        "[9:00 AM] 12/31/2025 - This window box was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This window box was brought inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "shallots_001-20251229-02.jpeg",

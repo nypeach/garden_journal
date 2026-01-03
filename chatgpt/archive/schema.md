@@ -1,4 +1,5 @@
-# 🌿 Master Garden Data Structure
+===============================================
+  # 🌿 Master Garden Data Structure
 _Last Updated: December 8, 2025 6:39 PM_
 ===============================================
 # Garden Journal Data Structure
@@ -255,40 +256,40 @@ Each **Plant Data** profile must follow this structure:
     }
   ],
   "journal": [
-        {
-      "date": "M/D/YYYY",
-      "time": "H:MM AM/PM",
-      "conditions": "Weather narrative (High/Low/Condition)",
-      "digital_probe": {
-        "ph": "6.50",
-        "ec_mScm": "0.02",
-        "salt_mg_L": "139",
-        "moisture_mScm": "49.00",
-        "light": "99",
-        "rh_percent": "45",
-        "fertility_percent": "1.0",
-        "soil_temp_f": "85.5"
-      },
-      "analog_probe": {
-        "fertility": "Text description or empty",
-        "moisture": "Text description or empty",
-        "ph": "Text description or empty"
-      },
-      "observations": "What the plant looks like RIGHT NOW",
-      "actions": "What to do RIGHT NOW (present tense)",
-      "next_steps": "Monitoring and future care",
-      "q_and_a_summary": "Questions asked and answers given",
-      "follow_up": [
-        "[H:MM AM/PM] Narrative summary of action/observation"
-      ],
-      "photos": [
-        {
-          "file_name": "{plantname_001}-{YYYYMMDD}-{nn}.jpeg",
-          "caption": "Complete sentence description",
-          "tags": "comma, separated, keywords"
-        }
-      ]
+{
+  "date": "M/D/YYYY",
+  "time": "H:MM AM/PM",
+  "conditions": "Weather narrative including High/Low/Condition",
+  "digital_probe": {
+    "ph": "#0.00",
+    "ec_mScm": "#0.00",
+    "salt_mg_L": "##0",
+    "moisture_mScm": "#0",
+    "light": "#0",
+    "rh_percent": "#0%",
+    "fertility_percent": "#0.0",
+    "soil_temp_f": "#0.0"
+  },
+  "analog_probe": {
+    "fertility": "Text description or empty",
+    "moisture": "Text description or empty",
+    "ph": "Text description or empty"
+  },
+  "observations": "What the plant looks like RIGHT NOW",
+  "actions": "What to do RIGHT NOW (present tense)",
+  "next_steps": "Monitoring and future care",
+  "q_and_a_summary": "Summary Narrative of real questions asked and answers given",
+  "follow_up": [
+    "[H:MM AM/PM] Narrative summary of action/observation"
+  ],
+  "photos": [
+    {
+      "file_name": "{plantname_001}-{YYYYMMDD}-{nn}.jpeg",
+      "caption": "Complete sentence description",
+      "tags": "comma, separated, keywords"
     }
+  ]
+}
   ]
 }
 ```

@@ -32,6 +32,84 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:42 AM",
+      "conditions": "Sunny with a high near 66°F and wind chill values as low as 40°F early; Tonight mostly clear with a low around 44°F; Tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.28",
+        "salt_mg_L": "141",
+        "moisture_mScm": "80",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "15",
+        "soil_temp_f": "58.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This plant is indoors and looks vigorous with dense, healthy green foliage and strong upright stems. The canopy is full and actively regrowing from recent harvesting, with no visible wilting, discoloration, or pest damage. Moisture is uneven across the root zone, with one area reading very wet while the opposite side is moderately moist. The plan is to move the planter outside around 10:00 AM once temperatures rise into the mid-50s.",
+      "actions": "Do not water right now. Move the planter outside around 10:00 AM. After it warms (about 10:30–11:30 AM), check the moderately moist side of the soil; if the top 1–2 inches feels dry, spot-water lightly only in that area and avoid soaking the entire bed ahead of tonight’s cool temperatures.",
+      "next_steps": "Leave outside through the warm part of the day and avoid late-day watering. Tonight’s low around 44°F is acceptable for parsley outdoors, but keep soil on the wet side from staying saturated. Re-check soil moisture tomorrow morning and take probe readings when time allows to confirm the planter has evened out moisture across the root zone.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "parsley_001-20260101-03.jpeg",
+          "caption": "Top-down indoor view showing a dense, healthy canopy with bright green leaves and strong regrowth.",
+          "tags": "parsley, indoors, regrowth, dense canopy, healthy foliage"
+        },
+        {
+          "file_name": "parsley_001-20260101-04.jpeg",
+          "caption": "Side-angle indoor view showing upright stems, active new growth, and no visible stress symptoms.",
+          "tags": "parsley, indoors, upright stems, vigorous growth, healthy"
+        },
+        {
+          "file_name": "parsley_001-20260101-05.jpeg",
+          "caption": "Close side view showing abundant leaf production and a full canopy along the planter edge.",
+          "tags": "parsley, indoors, full canopy, leaf density, vigorous growth"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "5:12 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.30",
+        "ec_mScm": "0.48",
+        "salt_mg_L": "244",
+        "moisture_mScm": "60.00",
+        "light": "69",
+        "rh_percent": "48",
+        "fertility_percent": "29.0",
+        "soil_temp_f": "78.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The parsley is fully rebounding after recent harvesting with dense, upright regrowth and healthy green leaves. The canopy appears vigorous and turgid with no visible yellowing, scorch, or spotting. Soil moisture has dried down into an ideal mid-range level, supporting strong growth while keeping the root zone well oxygenated.",
+      "actions": "Do not water today as moisture is ideal. Do not fertilize today because EC and salts are elevated. Harvest only a small amount from the longest outer stems if needed to manage size and keep airflow through the crown.",
+      "next_steps": "Recheck probe readings tomorrow morning or midday. Water only if moisture drops into the low range. Continue harvesting regularly from outer stems to prevent crowding and maintain continuous tender leaf production.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "parsley_001-20251229-02.jpeg",
+          "caption": "Close-up view showing dense, upright parsley regrowth with healthy green leaves and strong structure after recent harvesting.",
+          "tags": "parsley, regrowth, healthy, dense, upright, canopy"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "2:06 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

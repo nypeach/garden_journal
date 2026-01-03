@@ -60,6 +60,80 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:31 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "85",
+        "moisture_mScm": "55.00",
+        "light": "98",
+        "rh_percent": "39",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "59.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Siberian Hardneck shoots show stable recovery with upright green center growth and older damaged outer tissue already trimmed back. Crowns appear intact at the soil line with no signs of soft rot or collapse. The mulch layer remains thin and evenly distributed, and the soil surface looks dry in patches while the root zone moisture remains moderate.",
+      "actions": "Do not water today. Do not fertilize. Keep mulch thin and evenly distributed while maintaining a 1–2 inch bare ring around each crown so mulch does not touch the bases.",
+      "next_steps": "Recheck probe readings in 2 days, ideally late morning. Resume watering only when moisture drops to approximately 40–45 mS/cm. Continue watching for steady elongation of the green center leaves and firm crowns as the primary indicators of continued recovery.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20260101-02.jpeg",
+          "caption": "Wide view of the Siberian Hardneck section showing upright green shoots with thin mulch coverage and intact crowns at the soil line.",
+          "tags": "garlic, siberian-hardneck, window-box, mulch, upright-growth, recovery"
+        },
+        {
+          "file_name": "garlic_001-20260101-03.jpeg",
+          "caption": "Close view with hand for scale showing two green shoots emerging from the crown with dry surface soil and mulch nearby, indicating stable early growth and recovery.",
+          "tags": "garlic, siberian-hardneck, close-up, scale, shoots, crown, recovery"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "11:31 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight.",
+      "digital_probe": {
+        "ph": "6.20",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "85",
+        "moisture_mScm": "55.00",
+        "light": "98",
+        "rh_percent": "39",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "59.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Siberian Hardneck shoots show stable recovery with upright green center growth and older damaged outer tissue already trimmed back. Crowns appear intact at the soil line with no signs of soft rot or collapse. The mulch layer remains thin and evenly distributed, and the soil surface looks dry in patches while the root zone moisture remains moderate.",
+      "actions": "Do not water today. Do not fertilize. Keep mulch thin and evenly distributed while maintaining a 1–2 inch bare ring around each crown so mulch does not touch the bases.",
+      "next_steps": "Recheck probe readings in 2 days, ideally late morning. Resume watering only when moisture drops to approximately 40–45 mS/cm. Continue watching for steady elongation of the green center leaves and firm crowns as the primary indicators of continued recovery.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_001-20260101-02.jpeg",
+          "caption": "Wide view of the Siberian Hardneck section showing upright green shoots with thin mulch coverage and intact crowns at the soil line.",
+          "tags": "garlic, siberian-hardneck, window-box, mulch, upright-growth, recovery"
+        },
+        {
+          "file_name": "garlic_001-20260101-03.jpeg",
+          "caption": "Close view with hand for scale showing two green shoots emerging from the crown with dry surface soil and mulch nearby, indicating stable early growth and recovery.",
+          "tags": "garlic, siberian-hardneck, close-up, scale, shoots, crown, recovery"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:33 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -82,7 +156,11 @@
       "actions": "Apply 1/2 cup total water to the Siberian Hardneck section, poured slowly and spread around the shoots while keeping water off the crowns. Redistribute mulch to create more even soil shading across the section while maintaining a 1–2 inch bare ring around each crown. Do not fertilize.",
       "next_steps": "Take the next probe reading tomorrow afternoon after moisture redistributes. Resume light watering only if moisture remains below approximately 45 mS/cm; hold watering if moisture rises above approximately 55 mS/cm. Recheck pH after moisture stabilizes, as dry soil pockets can cause temporarily elevated pH readings.",
       "q_and_a_summary": "",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and left uncovered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was left uncovered to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was left uncovered again even though the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "garlic_001-20251229-03.jpeg",

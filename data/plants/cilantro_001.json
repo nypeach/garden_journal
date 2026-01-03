@@ -44,6 +44,43 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:21 AM",
+      "conditions": "Sunny with a high near 66°F. Tonight mostly clear with a low around 44°F. Tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.95",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "53",
+        "moisture_mScm": "42.50",
+        "light": "2.5",
+        "rh_percent": "53",
+        "fertility_percent": "5.5",
+        "soil_temp_f": "59.7"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Cilantro is alive and green but still small and slow-growing, with stronger growth in the center/right clumps than the left side. Older leaves show some minor yellowing and the planter continues to behave unevenly by zone.",
+      "actions": "Bring the planter outside around 10:00 AM for full sun. Do not water immediately; wait until around noon and check the left zone 1–2 inches down. If that section feels dry and crumbly, give a small targeted watering only to the left side; if it feels damp, skip watering today.",
+      "next_steps": "Keep monitoring moisture by zone and avoid heavy watering before cool nights. Prioritize consistent daylight exposure during warm hours and continue gentle cleanup of yellowing leaves. Plan for a light, consistent fertility boost once temperatures stabilize and the soil warms more reliably.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_001-20260101-03.jpeg",
+          "caption": "Indoor photo of the full cilantro planter showing uneven growth, with the center clump fuller than the left and right sections.",
+          "tags": "cilantro, planter, indoor, uneven growth, stunted, container garden"
+        },
+        {
+          "file_name": "cilantro_001-20260101-04.jpeg",
+          "caption": "Indoor top-down photo of the cilantro planter showing small leaf clusters, patchy spacing, and exposed soil between clumps.",
+          "tags": "cilantro, close-up, patchy growth, small leaves, thin stand, soil surface"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "5:08 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
@@ -66,7 +103,11 @@
       "actions": "Do NOT water the entire planter tomorrow morning. Skip watering the right side. At 6:00 AM, only spot-water the left zone if the top 1–2 inches of soil feel dry, using a small amount to moisten that zone without soaking the planter.",
       "next_steps": "Continue zone-based checks daily. Recheck moisture in both zones tomorrow afternoon; the goal is to prevent the right side from staying saturated while keeping the left evenly moist. Consider a light feeding only after moisture levels stabilize and container volume is confirmed so exact measured amounts can be provided.",
       "q_and_a_summary": "Reviewed whether to water at 6:00 AM tomorrow; decided against watering the whole planter because the right side is still holding a lot of moisture, and recommended skipping that zone while only spot-watering the left side if the top couple inches feel dry.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was not watered but was covered given the temperature was forecased to drop down to 42°F overnight.",
+        "[9:00 AM] 12/31/2025 - This window box was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This window box was brought inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "cilantro_001-20251229-01.jpeg",

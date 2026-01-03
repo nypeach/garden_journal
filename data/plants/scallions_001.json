@@ -40,6 +40,89 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:33 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 72°F.",
+      "digital_probe": {
+        "ph": "6.95",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "88",
+        "moisture_mScm": "52.50",
+        "light": "90",
+        "rh_percent": "38",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "57.1"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions are actively growing with several shoots between ~4–8 inches tall. Some blades are folding/flopping, likely from length, wind exposure, and uneven moisture zones in the planter. Overall color is green and plants appear stable with no major stress signals.",
+      "actions": "Do not water today because moisture is still adequate. Tomorrow morning, begin first mounding by pulling 1–2 inches of soil up around the bases to start whitening the shanks. Keep soil below the leaf split and do not bury the growing point.",
+      "next_steps": "Mound in stages over time for maximum white base length. After mounding, water lightly only if the top inch of soil is dry. Re-check probe readings after mounding once conditions stabilize, and consider a light feeding later if fertility continues to decline.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "scallions_001-20260101-03.jpeg",
+          "caption": "Wide view of the scallion planter showing multiple shoots at varying heights with several leaves bending/folding; soil surface appears uneven and slightly loose, and the plants are now tall enough for the first staged mounding to whiten the bases.",
+          "tags": "scallions, planter, growth, folding leaves, outdoor, mounding ready"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:41 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.45",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "33",
+        "moisture_mScm": "15.00",
+        "light": "97",
+        "rh_percent": "43",
+        "fertility_percent": "3.5",
+        "soil_temp_f": "78.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Scallions show strong post-harvest regrowth with multiple shoots exceeding 4 inches and some approaching 8 inches. Crown bases are firm and upright with healed cut surfaces. Soil moisture varies across the planter due to probe compression and dry pockets, but averaged scallion-zone conditions indicate a safe dry-down stage appropriate for watering and initial blanching.",
+      "actions": "Water today to rehydrate the scallion zone into a moderate moisture range, then begin the first blanching mound by pulling 1/2 inch of loose soil around each scallion base while keeping crown centers exposed.",
+      "next_steps": "Monitor regrowth over the next 5 to 7 days and apply additional 1/2-inch mounds as long as growth remains upright and crowns stay firm, stopping at 1.5 to 2 inches total mound height. Avoid automatic daily watering; only water when the top inch of soil is dry and scallions lose turgor.",
+      "q_and_a_summary": "Confirmed scallions have reached sufficient height to begin blanching and approved starting the first mounding today. Reviewed multi-location probe readings, averaged valid zones for journaling, and adjusted watering strategy to support white base development without trapping moisture.",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and left uncovered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was left uncovered to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was left uncovered again even though the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "scallions_001-20251229-02.jpeg",
+          "caption": "Scallion crowns showing healed cut surfaces and upright regrowth, indicating readiness for initial blanching mound.",
+          "tags": "scallions, regrowth, crown-health, blanching-ready"
+        },
+        {
+          "file_name": "scallions_001-20251229-04.jpeg",
+          "caption": "Mid-planter view showing multiple scallion shoots exceeding 4 inches, with soil surface dry enough to safely mound without trapping moisture.",
+          "tags": "scallions, shoot-height, mounding, blanching"
+        },
+        {
+          "file_name": "scallions_001-20251229-06.jpeg",
+          "caption": "Close view of scallion bases and surrounding soil texture prior to first 1/2-inch blanching mound.",
+          "tags": "scallions, soil-texture, blanching-prep"
+        },
+        {
+          "file_name": "scallions_001-20251229-07.jpeg",
+          "caption": "Wider view of scallion section showing scattered planting pattern and uniform regrowth response across the window box.",
+          "tags": "scallions, planter-overview, regrowth, blanching-start"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:28 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

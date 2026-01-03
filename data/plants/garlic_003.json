@@ -60,6 +60,38 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:33 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight.",
+      "digital_probe": {
+        "ph": "6.90",
+        "ec_mScm": "0.19",
+        "salt_mg_L": "96",
+        "moisture_mScm": "54.00",
+        "light": "80",
+        "rh_percent": "37",
+        "fertility_percent": "10.0",
+        "soil_temp_f": "57.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Chesnok Red garlic shows long, strap-like leaves that are draping and lying over the soil surface, consistent with mature vegetative leaf length and recent wind exposure. Leaf color remains healthy green overall with minor tip wear on older leaves. The crowns appear stable with no visible signs of collapse or rot, and the soil surface looks dry while the root zone moisture reading remains in an ideal range.",
+      "actions": "Do not water today as moisture is ideal. If wind continues, loosely gather the longest leaves using soft plant ties to prevent kinking and keep foliage off the soil surface. Avoid disturbing the crowns and keep the planter uncovered.",
+      "next_steps": "Recheck moisture in 2 days as sunny weather continues and the shallow window box can dry quickly. Water only when moisture drops below 40.00 mS/cm or if leaf firmness softens alongside dry soil at depth. Continue monitoring that crowns remain firm and upright while leaves continue elongating.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_003-20260101-02.jpeg",
+          "caption": "Overhead view of the Chesnok Red section showing long, strap-like garlic leaves draping across the soil surface, with healthy green coloration and stable crowns in a window box under bright sun.",
+          "tags": "garlic, chesnok_red, window_box, vegetative_growth, leaf_draping, healthy_foliage, overhead"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:36 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -80,9 +112,13 @@
       },
       "observations": "The Chesnok Red garlic remains upright with firm crowns and healthy strap-like foliage. Older outer leaves show mild yellowing and tip wear consistent with normal leaf turnover, while inner growth remains green. The soil surface appears very dry and loose, and one probe reading showed contact failure (0% moisture), so two stable readings were used to represent the root-zone conditions.",
       "actions": "Apply 1.5 cups of water total poured slowly around the Chesnok Red clumps, avoiding direct pouring on crowns. Do not fertilize or adjust pH today. Take future probe readings slightly deeper and 2–3 inches away from the previous hole for more consistent contact.",
-      "next_steps": "Recheck moisture tomorrow late morning or early afternoon after today’s watering. Water only if moisture remains below 40.00 mS/cm or leaves lose firmness. Monitor newer inner leaves for paling; consider a light feeding only if new growth begins to fade while moisture remains stable.",
+      "next_steps": "Recheck moisture tomorrow late morning or early afternoon after today's watering. Water only if moisture remains below 40.00 mS/cm or leaves lose firmness. Monitor newer inner leaves for paling; consider a light feeding only if new growth begins to fade while moisture remains stable.",
       "q_and_a_summary": "",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and left uncovered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was left uncovered to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was left uncovered again even though the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "garlic_003-20251229-04.jpeg",

@@ -48,6 +48,110 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:33 AM",
+      "conditions": "Sunny, with a high near 66°F and wind chill as low as 40°F early; tonight mostly clear with a low around 44°F; tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "35.00",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "59.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile is indoors this morning with healthy green, feathery foliage and good overall vigor; growth is spreading and slightly floppy in areas from its natural habit and the recent cool-weather handling, but no obvious discoloration or collapse is visible in the photos.",
+      "actions": "Water all four chamomile zones today, but not equally: (1) Right zone (16% moisture): slow pour ~1/2 cup, wait 1 minute, then add another ~1/4 cup only if the surface still looks dusty/dry; (2) Left center zone (17% moisture): slow pour ~1/2 cup, wait 1 minute, then add another ~1/4 cup only if still dusty/dry; (3) Left zone (35% moisture): slow pour ~1/4 cup; (4) Right center zone (36% moisture): slow pour ~1/4 cup. Stop early if water pools and does not soak in within ~15–20 seconds.",
+      "next_steps": "Bring the planter outside around 10:00 AM once temperatures reach ~55°F, keep it in sun, and monitor for any midday wilt; avoid adding fertilizer until moisture is stabilized and the plant is actively growing outdoors again. Re-check probe readings tomorrow morning if possible to confirm moisture evenness across zones.",
+      "q_and_a_summary": "You asked whether “gentle pour focused on the chamomile zones” meant watering all four labeled zones, and the answer is yes — water all four, but prioritize the driest zones (right and left center) with more water and give the other two zones a lighter drink.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20260101-02.jpeg",
+          "caption": "Overhead view of the chamomile planter indoors showing multiple green, feathery clumps and exposed soil between plantings.",
+          "tags": "chamomile, overhead, indoor, planter, foliage, soil"
+        },
+        {
+          "file_name": "chamomile_001-20260101-03.jpeg",
+          "caption": "Side angle view of the chamomile planter indoors showing dense green foliage and overall plant structure across the box.",
+          "tags": "chamomile, indoor, planter, foliage, structure, green"
+        },
+        {
+          "file_name": "chamomile_001-20260101-04.jpeg",
+          "caption": "Closer view of a chamomile clump showing healthy green, fine-textured leaves and upright new growth.",
+          "tags": "chamomile, close-up, foliage, new growth, healthy"
+        },
+        {
+          "file_name": "chamomile_001-20260101-06.jpeg",
+          "caption": "Mid-box view highlighting chamomile foliage spread with open soil spaces and overall canopy density indoors.",
+          "tags": "chamomile, indoor, canopy, planter, foliage density, soil"
+        },
+        {
+          "file_name": "chamomile_001-20260101-08.jpeg",
+          "caption": "Wide view of the planter showing chamomile foliage distribution and the current spacing across the container.",
+          "tags": "chamomile, wide view, planter, spacing, foliage, indoor"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "7:33 AM",
+      "conditions": "Sunny, with a high near 66°F and wind chill as low as 40°F early; tonight mostly clear with a low around 44°F; tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "65",
+        "moisture_mScm": "35.00",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "59.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Chamomile is indoors this morning with healthy green, feathery foliage and good overall vigor; growth is spreading and slightly floppy in areas from its natural habit and the recent cool-weather handling, but no obvious discoloration or collapse is visible in the photos.",
+      "actions": "Water all four chamomile zones today, but not equally: (1) Right zone (16% moisture): slow pour ~1/2 cup, wait 1 minute, then add another ~1/4 cup only if the surface still looks dusty/dry; (2) Left center zone (17% moisture): slow pour ~1/2 cup, wait 1 minute, then add another ~1/4 cup only if still dusty/dry; (3) Left zone (35% moisture): slow pour ~1/4 cup; (4) Right center zone (36% moisture): slow pour ~1/4 cup. Stop early if water pools and does not soak in within ~15–20 seconds.",
+      "next_steps": "Bring the planter outside around 10:00 AM once temperatures reach ~55°F, keep it in sun, and monitor for any midday wilt; avoid adding fertilizer until moisture is stabilized and the plant is actively growing outdoors again. Re-check probe readings tomorrow morning if possible to confirm moisture evenness across zones.",
+      "q_and_a_summary": "You asked whether “gentle pour focused on the chamomile zones” meant watering all four labeled zones, and the answer is yes — water all four, but prioritize the driest zones (right and left center) with more water and give the other two zones a lighter drink.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "chamomile_001-20260101-02.jpeg",
+          "caption": "Overhead view of the chamomile planter indoors showing multiple green, feathery clumps and exposed soil between plantings.",
+          "tags": "chamomile, overhead, indoor, planter, foliage, soil"
+        },
+        {
+          "file_name": "chamomile_001-20260101-03.jpeg",
+          "caption": "Side angle view of the chamomile planter indoors showing dense green foliage and overall plant structure across the box.",
+          "tags": "chamomile, indoor, planter, foliage, structure, green"
+        },
+        {
+          "file_name": "chamomile_001-20260101-04.jpeg",
+          "caption": "Closer view of a chamomile clump showing healthy green, fine-textured leaves and upright new growth.",
+          "tags": "chamomile, close-up, foliage, new growth, healthy"
+        },
+        {
+          "file_name": "chamomile_001-20260101-06.jpeg",
+          "caption": "Mid-box view highlighting chamomile foliage spread with open soil spaces and overall canopy density indoors.",
+          "tags": "chamomile, indoor, canopy, planter, foliage density, soil"
+        },
+        {
+          "file_name": "chamomile_001-20260101-08.jpeg",
+          "caption": "Wide view of the planter showing chamomile foliage distribution and the current spacing across the container.",
+          "tags": "chamomile, wide view, planter, spacing, foliage, indoor"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:58 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing Clouds. Tomorrow: Decreasing Clouds with a high of 69°F.",
@@ -69,8 +173,12 @@
       "observations": "Chamomile appears bright green and actively growing with a healthy, feathery canopy. Plants are spreading outward and look stable with no visible yellowing, collapse, or leaf burn. Soil surface shows mixed texture with some bare zones and some crumbly areas, consistent with recent fluffing for aeration.",
       "actions": "Skip the 6:00 AM watering tomorrow. At 6:00 AM, check the left-center soil by hand; if the top 1–2 inches feel dry and dusty, give only a small targeted watering to that spot. If it feels cool or moist, do not water. Keep the canopy open with light trimming only if foliage is laying dense against the soil surface.",
       "next_steps": "Re-check moisture tomorrow afternoon when evap demand is higher. Continue monitoring for uneven drying across the planter, especially the left-center zone, and maintain airflow by preventing dense foliage mats from resting on damp soil.",
-      "q_and_a_summary": "Morning watering was considered, but today’s readings show the planter is comfortably moist overall and tomorrow is cooler, so watering at 6:00 AM should be skipped unless the left-center area feels dry by hand.",
-      "follow_up": [],
+      "q_and_a_summary": "Morning watering was considered, but today's readings show the planter is comfortably moist overall and tomorrow is cooler, so watering at 6:00 AM should be skipped unless the left-center area feels dry by hand.",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was not watered but was covered given the temperature was forecased to drop down to 42°F overnight.",
+        "[9:00 AM] 12/31/2025 - This window box was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This window box was brought inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "chamomile_001-20251229-02.jpeg",

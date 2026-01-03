@@ -61,6 +61,48 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:42 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 72°F.",
+      "digital_probe": {
+        "ph": "7.50",
+        "ec_mScm": "0.03",
+        "salt_mg_L": "18",
+        "moisture_mScm": "3.00",
+        "light": "83",
+        "rh_percent": "37",
+        "fertility_percent": "2.0",
+        "soil_temp_f": "61.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Green bean plant appears healthy and upright with strong green leaves and active flowering nodes. Early pod formation is visible at several nodes, indicating successful pollination and beginning pod set. Despite healthy top growth, probe readings show the root zone is critically dry with very low nutrient availability, which could cause flower or baby pod drop if not corrected quickly.",
+      "actions": "Rehydrate the root zone today with deep slow watering at the base: water gently for 60–90 seconds, wait 10 minutes, then water again for 45–60 seconds to fully soak the root zone. Avoid fertilizing until after moisture is restored; plan a light half-strength feeding tomorrow morning as a soil drench. Cover is optional tonight; only use a light cover if your microclimate runs colder than forecast, and remove mid-morning tomorrow once temperatures rise.",
+      "next_steps": "Tomorrow morning, if soil remains dry or plants look stressed, water again and apply a half-strength liquid feed to support pod set. Continue monitoring for rapid dry-down during sunny days and prioritize consistent moisture during flowering and pod development. If pods begin to shrivel or flowers drop, increase watering soak duration and frequency while temperatures remain warm.",
+      "q_and_a_summary": "Discussed whether the small structures at the nodes were baby pods and confirmed they are early pods forming after flowering. Reviewed critically low soil moisture and very low nutrient readings and determined deep slow watering is needed today to protect pod set, with fertilizing delayed until after the root zone is re-wetted.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "green_beans_001-20260101-02.jpeg",
+          "caption": "Green bean plant with healthy green foliage and upright growth in the raised bed with a support stake beside it.",
+          "tags": "green beans, healthy foliage, raised bed, stake support, vigorous growth"
+        },
+        {
+          "file_name": "green_beans_001-20260101-03.jpeg",
+          "caption": "Close view of flower nodes and early pod formation along the stems near the support stake.",
+          "tags": "green beans, pod set, flowering nodes, early pods, developing fruit"
+        },
+        {
+          "file_name": "green_beans_001-20260101-04.jpeg",
+          "caption": "Detailed close-up of multiple developing nodes showing tiny early pods and fresh growth at the junctions.",
+          "tags": "pod formation, developing beans, nodes, early pods, active growth"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "3:07 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: Increasing clouds. Tomorrow: Decreasing clouds with a high of 69°F.",
@@ -84,7 +126,10 @@
       "next_steps": "Feed tomorrow morning with a light soil drench once moisture is restored to support flowering and pod set. Continue monitoring afternoon moisture levels and expect increased water demand during hot days. Recheck insect pressure 48 hours after treatment and reapply if necessary. Adjust watering duration if probe readings continue to hit zero by mid-afternoon.",
       "q_and_a_summary": "Reviewed the extreme mid-afternoon dryness despite morning watering and discussed how heat and uneven wetting in raised beds can create dry pockets even when the plant still looks perky. Decided on an immediate split watering (quart total in two intervals) to rehydrate the root zone, then a 6 PM recheck before choosing whether to fertilize and how much to water tomorrow morning. Confirmed the visible insects are true pests and that an evening Captain Jack’s DeadBug spray is appropriate.",
       "follow_up": [
-        "[3:27 PM] Added a quart of water in two intervals to re-wet the root zone after extremely dry afternoon readings."
+        "[3:27 PM] Added a quart of water in two intervals to re-wet the root zone after extremely dry afternoon readings.",
+        "[3:30 PM] 12/30/2025 - This window box was watered and covered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was covered again given the temperature was forecased to drop down to 40°F overnight."
       ],
       "photos": [
         {

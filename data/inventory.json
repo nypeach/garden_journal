@@ -1,0 +1,595 @@
+[
+  {
+    "common_name": "White Vinegar",
+    "type": "ph_balance",
+    "manufacturer": "Generic",
+    "manufacturer_instructions": "See Notes",
+    "ready_to_use": false,
+    "dilution_instructions": "Dilute with water as needed for pH adjustment",
+    "notes": "Give usage based on pH needs and container size/volume"
+  },
+  {
+    "common_name": "Baking Soda",
+    "type": "ph_balance",
+    "manufacturer": "Arm & Hammer",
+    "manufacturer_instructions": "See Notes",
+    "ready_to_use": false,
+    "dilution_instructions": "Dissolve in water as needed for pH adjustment",
+    "notes": "Give usage based on pH needs and container size/volume"
+  },
+  {
+    "common_name": "E & Lay Dolomite Lime",
+    "type": "ph_balance",
+    "manufacturer": "E & Lay",
+    "manufacturer_instructions": "See Notes",
+    "ready_to_use": true,
+    "notes": "Give usage based on pH needs and container size/volume. Raises pH and adds calcium and magnesium"
+  },
+  {
+    "common_name": "Gardenwise 10-10-10 Plus (liquid concentrate)",
+    "type": "plant_nutrition",
+    "manufacturer": "Gardenwise",
+    "manufacturer_instructions": "Dilute 1-2 ounces per gallon",
+    "ready_to_use": false,
+    "dilution_instructions": "Mix 1-2 oz per gallon of water",
+    "conversions": [
+      {
+        "water_volume": "1/2 cup",
+        "product_amount": "2.8 mL"
+      },
+      {
+        "water_volume": "1.5 cup",
+        "product_amount": "4.2 mL"
+      },
+      {
+        "water_volume": "1 pint",
+        "product_amount": "5.5 mL"
+      },
+      {
+        "water_volume": "1 quart",
+        "product_amount": "11 mL"
+      },
+      {
+        "water_volume": "1/2 gallon",
+        "product_amount": "22 mL"
+      },
+      {
+        "water_volume": "1 gallon",
+        "product_amount": "44 mL"
+      },
+      {
+        "water_volume": "2 gallon",
+        "product_amount": "89 mL"
+      }
+    ]
+  },
+  {
+    "common_name": "Purived 4-5-5 (liquid concentrate)",
+    "type": "plant_nutrition",
+    "manufacturer": "Purived",
+    "manufacturer_instructions": "Mix 1 capful (2 tsp) per gallon of water",
+    "ready_to_use": false,
+    "dilution_instructions": "Mix 2 tsp per gallon of water",
+    "conversions": [
+      {
+        "water_volume": "1/2 cup",
+        "product_amount": "1/8 tsp"
+      },
+      {
+        "water_volume": "1.5 cup",
+        "product_amount": "1/4 tsp"
+      },
+      {
+        "water_volume": "1 pint",
+        "product_amount": "1/4 tsp"
+      },
+      {
+        "water_volume": "1 quart",
+        "product_amount": "1/2 tsp"
+      },
+      {
+        "water_volume": "1/2 gallon",
+        "product_amount": "1 tsp"
+      },
+      {
+        "water_volume": "1 gallon",
+        "product_amount": "2 tsp"
+      },
+      {
+        "water_volume": "2 gallon",
+        "product_amount": "4 tsp"
+      }
+    ]
+  },
+  {
+    "common_name": "Bonide Captain Jack's Neem Oil",
+    "type": "pest_control",
+    "manufacturer": "Bonide",
+    "manufacturer_instructions": "Insecticide for control of whiteflies, mealy bugs, armyworms, hornworms, leafhoppers, bagworms, leafminers, psyllids, fruit flies, loopers, budworms, beetles, aphids, scales, caterpillars, midges, and mites. Use on roses, flowers, houseplants, ornamental trees and shrubs, fruits, nuts, and vegetables. Apply at first sign of insects/mites on 7-14 day schedule. For heavy insect populations apply on 7-day schedule. Spray to run off with complete coverage of all plant tissue.",
+    "ready_to_use": true,
+    "notes": "Bonide Captain Jack's Neem Oil (Ready to Use)"
+  },
+  {
+    "common_name": "Bonide Captain Jack's Copper Fungicide",
+    "type": "pest_control",
+    "manufacturer": "Bonide",
+    "manufacturer_instructions": "Controls common fungal diseases including downy mildew, black rot, leaf spot, powdery mildew, blight, and peach leaf curl. Shake well, attach to garden hose and apply thoroughly to tops and undersides of leaves and all plant surfaces. Repeat every 7-10 days as needed. Can be used up to day of harvest. Approved for organic gardening.",
+    "ready_to_use": true,
+    "notes": "Bonide Captain Jack's Copper Fungicide (Ready to Spray)"
+  },
+  {
+    "common_name": "Bonide Captain Jack's DeadBug",
+    "type": "pest_control",
+    "manufacturer": "Bonide",
+    "manufacturer_instructions": "Contains Spinosad derived from naturally occurring soil bacterium. Controls caterpillars and other listed insects. Does not significantly impact beneficial insects, predatory mites, and spiders. Shake well before use. Apply directly from container as thin, uniform film to tops and undersides of leaves. Apply when wind is light or absent (early morning or evening). Repeat applications as needed per label. For trees taller than 6 ft use concentrate with sprayer equipment.",
+    "ready_to_use": true,
+    "notes": "Bonide Captain Jack's DeadBug (Ready to Use)"
+  },
+  {
+    "common_name": "Terro Cobweb Eliminator",
+    "type": "pest_control",
+    "manufacturer": "Terro",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "Terro Cobweb Eliminator (Ready to Spray)"
+  },
+  {
+    "common_name": "BioAdvance Complete Insect Killer",
+    "type": "pest_control",
+    "manufacturer": "BioAdvance",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "BioAdvance Complete Insect Killer for Soil & Turf (Ready to Spray)"
+  },
+  {
+    "common_name": "Ortho Home Defense Insect Killer",
+    "type": "pest_control",
+    "manufacturer": "Ortho",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "Ortho Home Defense Insect Killer (Ready to Spray)"
+  },
+  {
+    "common_name": "Moisture Control Potting Mix",
+    "type": "soil_amendment",
+    "manufacturer": "Miracle-Gro",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "Miracle-Gro Moisture Control Potting Mix"
+  },
+  {
+    "common_name": "Organic Potting Mix",
+    "type": "soil_amendment",
+    "manufacturer": "Miracle-Gro",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "Miracle-Gro Organic Potting Mix"
+  },
+  {
+    "common_name": "Organic Mulch",
+    "type": "soil_amendment",
+    "manufacturer": "Miracle-Gro",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "Miracle-Gro Organic Mulch"
+  },
+  {
+    "common_name": "Coconut Coir",
+    "type": "soil_amendment",
+    "manufacturer": "Burpee",
+    "manufacturer_instructions": "Use as directed",
+    "ready_to_use": true,
+    "notes": "Burpee Natural & Organic Coconut Coir, 8 Quart, (1 Pack)"
+  },
+  {
+    "common_name": "2 Gallon Fabric Grow Bag",
+    "type": "container",
+    "manufacturer": "Gardzen",
+    "container_dimensions": {
+      "volume": "2 gallon",
+      "dimensions": "9.8 inch diameter × 7 inch height",
+      "material": "fabric"
+    },
+    "suitable_for_plants": [
+      "basil (monster)",
+      "rosemary (great size)",
+      "sage (great)",
+      "lavender (great for dwarf variety)",
+      "chamomile (great)",
+      "mint (very happy)",
+      "oregano (very happy)",
+      "thyme (very happy)",
+      "parsley (big)",
+      "dill (big)",
+      "kale (1-2 plants)",
+      "Swiss chard (1-2 plants)",
+      "lettuce (leaf types, lots of harvest)",
+      "spinach (cool season)",
+      "arugula",
+      "radishes",
+      "beets (6-10 depending on spacing)",
+      "carrots (short varieties)",
+      "strawberries (1-2 plants)",
+      "bush beans (1-2 plants, small yields)",
+      "peppers (1 small pepper plant, but better in 5 gal)"
+    ],
+    "notes": "Gardzen 2 Gallon 300G Thick Fabric Grow Bags with Handles"
+  },
+  {
+    "common_name": "5 Gallon Fabric Grow Bag",
+    "type": "container",
+    "manufacturer": "Gardzen",
+    "container_dimensions": {
+      "volume": "5 gallon",
+      "dimensions": "12.6 inch diameter × 10 inch height",
+      "material": "fabric"
+    },
+    "suitable_for_plants": [
+      "tomatoes (1 determinate or compact indeterminate with support)",
+      "peppers (1 plant)",
+      "eggplant (1 plant)",
+      "bush beans (4-6 plants)",
+      "cucumbers (1 plant with trellis)",
+      "zucchini (1 plant only if okay with it taking over)",
+      "potatoes (1-2 seed potatoes)",
+      "sweet potatoes (1 slip, but 10 gal is better)",
+      "carrots (full-depth varieties)",
+      "beets (excellent)",
+      "onions (bulb onions, multiple)",
+      "garlic (multiple)",
+      "kale (2-3 plants)",
+      "Swiss chard (2-3 plants)",
+      "collards (1-2 plants)",
+      "strawberries (3-5 plants)",
+      "rosemary (very happy long-term)",
+      "lavender (excellent long-term)",
+      "chamomile (can do a full patch)"
+    ],
+    "notes": "Gardzen 5 Gallon 300G Thick Fabric Grow Bags with Handles"
+  },
+  {
+    "common_name": "10 Gallon Fabric Grow Bag",
+    "type": "container",
+    "manufacturer": "Gardzen",
+    "container_dimensions": {
+      "volume": "10 gallon",
+      "dimensions": "16 inch diameter × 12 inch height",
+      "material": "fabric"
+    },
+    "suitable_for_plants": [
+      "tomatoes (1 indeterminate or large determinate)",
+      "peppers (1-2 plants)",
+      "eggplant (1-2 plants)",
+      "cucumbers (1-2 with trellis)",
+      "zucchini (1 plant comfortably)",
+      "squash (1 plant, smaller types)",
+      "potatoes (2-4 seed potatoes)",
+      "sweet potatoes (2-3 slips)",
+      "bush beans (8-12 plants)",
+      "okra (1-2 plants)",
+      "onions (lots)",
+      "garlic (lots)",
+      "carrots (excellent)",
+      "beets (excellent)",
+      "strawberries (6-10 plants)",
+      "rosemary (long-term, very good)",
+      "lavender (long-term, very good)"
+    ],
+    "notes": "Gardzen 10 Gallon 300G Thick Fabric Grow Bags with Handles"
+  },
+  {
+    "common_name": "Lomnyiy Garden Trellis/Cage",
+    "type": "tools_accessories",
+    "manufacturer": "Lomnyiy",
+    "notes": "Garden Trellis, Tomato Cage Tall Plant Support Climbing Vines Flowers Stands Cucumber Trellis Plant cage. 11.8 inch diameter circles, 17.3 inch per tier, 55.5 inch total height. Suitable for tomatoes, climbing vines, flowers, cucumbers, pole beans"
+  },
+  {
+    "common_name": "Bio Stretch Soft Garden Plant Ties",
+    "type": "tools_accessories",
+    "manufacturer": "Generic",
+    "notes": "Bio Stretch Soft Garden Plant Ties"
+  },
+  {
+    "common_name": "13.12 qt Black Window Planter",
+    "type": "container",
+    "manufacturer": "Style Selections",
+    "container_dimensions": {
+      "volume": "13.12 quart (3.28 gallon)",
+      "dimensions": "23.5 inch W top, 20.3 inch W bottom × 7.8 inch L × 6 inch D",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "cilantro row (multiple plants)",
+      "parsley row",
+      "basil (2-3 plants)",
+      "chives row",
+      "thyme + oregano combo (mediterranean herb trough)",
+      "mint (contained row, will fill it)",
+      "chamomile (2-3 plants)",
+      "lettuce mix (excellent)",
+      "arugula (excellent)",
+      "spinach (cool season)",
+      "baby bok choy (multiple)",
+      "radishes (excellent)",
+      "beets (great)",
+      "carrots (short varieties)",
+      "green onions/scallions (excellent)",
+      "strawberries (2-4 plants)",
+      "bush beans (small number)"
+    ],
+    "notes": "Window planter 23.5 inch W top, 20.3 inch W bottom × 7.8 inch L × 6 inch D, black. Purchased at Lowe's"
+  },
+  {
+    "common_name": "Brown Raised Bed - Stake 1 of 4 (1.5' × 2' each)",
+    "type": "container",
+    "manufacturer": "EMSCO",
+    "container_dimensions": {
+      "volume": "9.5 gallon (37.5 quart)",
+      "dimensions": "1.5' × 2' × 5 inch (section of 2' × 6' × 5 inch raised bed)",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "tomatoes (indeterminate + compact indeterminate + determinate; 1 plant per stake section)",
+      "cherry/grape tomatoes (indeterminate; 1 plant per stake section)",
+      "tomatillos (1 plant per stake section; needs strong staking/cage)",
+      "cucumbers (slicing, pickling, Persian, Armenian; 1 plant per stake section)",
+      "pole beans (4-6 plants per stake section)",
+      "yardlong beans/asparagus beans (4-6 plants per stake section)",
+      "peas (snap peas, snow peas, shelling peas; cool season)",
+      "vining zucchini/zucchini trained vertically (1 plant; support + pruning)",
+      "vining summer squash trained vertically (1 plant; support + pruning)",
+      "winter squash (butternut, acorn, delicata, kabocha) trained vertically (1 plant; heavy support + slings)",
+      "pumpkins (mini/small varieties only) trained vertically (1 plant; heavy support + slings)",
+      "melons (small varieties only: sugar baby watermelon, cantaloupe, honeydew) trained vertically (1 plant; heavy support + slings)",
+      "sweet potatoes trained vertically (vine trellis) - foliage trained up, tubers in bed (1-2 slips per stake section)",
+      "bitter melon (1 plant; climbs aggressively, loves heat)",
+      "loofah/luffa gourd (1 plant; vigorous climber, needs strong trellis)",
+      "bottle gourd (1 plant; vigorous climber, needs strong trellis)",
+      "tromboncino squash (climbing summer squash; 1 plant; excellent vertical squash option)",
+      "climbing nasturtium (edible; trained up support; can be companion but still staked)",
+      "Malabar spinach (vining spinach substitute; 1 plant; climbs well in heat)",
+      "vining passionfruit (if you ever want a perennial vine; heavy support, long-term commitment)"
+    ],
+    "notes": "EMSCO Raised Bed Garden Bed Boards, 4 x 4 Feet configured as 2'L × 6'W × 5 inch D with 4 evenly distributed stakes, purchased at Lowe's. STAKED/TRAINED ONLY - all plants require vertical support"
+  },
+  {
+    "common_name": "Brown Raised Bed - Stake 2 of 4 (1.5' × 2' each)",
+    "type": "container",
+    "manufacturer": "EMSCO",
+    "container_dimensions": {
+      "volume": "9.5 gallon (37.5 quart)",
+      "dimensions": "1.5' × 2' × 5 inch (section of 2' × 6' × 5 inch raised bed)",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "tomatoes (indeterminate + compact indeterminate + determinate; 1 plant per stake section)",
+      "cherry/grape tomatoes (indeterminate; 1 plant per stake section)",
+      "tomatillos (1 plant per stake section; needs strong staking/cage)",
+      "cucumbers (slicing, pickling, Persian, Armenian; 1 plant per stake section)",
+      "pole beans (4-6 plants per stake section)",
+      "yardlong beans/asparagus beans (4-6 plants per stake section)",
+      "peas (snap peas, snow peas, shelling peas; cool season)",
+      "vining zucchini/zucchini trained vertically (1 plant; support + pruning)",
+      "vining summer squash trained vertically (1 plant; support + pruning)",
+      "winter squash (butternut, acorn, delicata, kabocha) trained vertically (1 plant; heavy support + slings)",
+      "pumpkins (mini/small varieties only) trained vertically (1 plant; heavy support + slings)",
+      "melons (small varieties only: sugar baby watermelon, cantaloupe, honeydew) trained vertically (1 plant; heavy support + slings)",
+      "sweet potatoes trained vertically (vine trellis) - foliage trained up, tubers in bed (1-2 slips per stake section)",
+      "bitter melon (1 plant; climbs aggressively, loves heat)",
+      "loofah/luffa gourd (1 plant; vigorous climber, needs strong trellis)",
+      "bottle gourd (1 plant; vigorous climber, needs strong trellis)",
+      "tromboncino squash (climbing summer squash; 1 plant; excellent vertical squash option)",
+      "climbing nasturtium (edible; trained up support; can be companion but still staked)",
+      "Malabar spinach (vining spinach substitute; 1 plant; climbs well in heat)",
+      "vining passionfruit (if you ever want a perennial vine; heavy support, long-term commitment)"
+    ],
+    "notes": "EMSCO Raised Bed Garden Bed Boards, 4 x 4 Feet configured as 2'L × 6'W × 5 inch D with 4 evenly distributed stakes, purchased at Lowe's. STAKED/TRAINED ONLY - all plants require vertical support"
+  },
+  {
+    "common_name": "Brown Raised Bed - Stake 3 of 4 (1.5' × 2' each)",
+    "type": "container",
+    "manufacturer": "EMSCO",
+    "container_dimensions": {
+      "volume": "9.5 gallon (37.5 quart)",
+      "dimensions": "1.5' × 2' × 5 inch (section of 2' × 6' × 5 inch raised bed)",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "tomatoes (indeterminate + compact indeterminate + determinate; 1 plant per stake section)",
+      "cherry/grape tomatoes (indeterminate; 1 plant per stake section)",
+      "tomatillos (1 plant per stake section; needs strong staking/cage)",
+      "cucumbers (slicing, pickling, Persian, Armenian; 1 plant per stake section)",
+      "pole beans (4-6 plants per stake section)",
+      "yardlong beans/asparagus beans (4-6 plants per stake section)",
+      "peas (snap peas, snow peas, shelling peas; cool season)",
+      "vining zucchini/zucchini trained vertically (1 plant; support + pruning)",
+      "vining summer squash trained vertically (1 plant; support + pruning)",
+      "winter squash (butternut, acorn, delicata, kabocha) trained vertically (1 plant; heavy support + slings)",
+      "pumpkins (mini/small varieties only) trained vertically (1 plant; heavy support + slings)",
+      "melons (small varieties only: sugar baby watermelon, cantaloupe, honeydew) trained vertically (1 plant; heavy support + slings)",
+      "sweet potatoes trained vertically (vine trellis) - foliage trained up, tubers in bed (1-2 slips per stake section)",
+      "bitter melon (1 plant; climbs aggressively, loves heat)",
+      "loofah/luffa gourd (1 plant; vigorous climber, needs strong trellis)",
+      "bottle gourd (1 plant; vigorous climber, needs strong trellis)",
+      "tromboncino squash (climbing summer squash; 1 plant; excellent vertical squash option)",
+      "climbing nasturtium (edible; trained up support; can be companion but still staked)",
+      "Malabar spinach (vining spinach substitute; 1 plant; climbs well in heat)",
+      "vining passionfruit (if you ever want a perennial vine; heavy support, long-term commitment)"
+    ],
+    "notes": "EMSCO Raised Bed Garden Bed Boards, 4 x 4 Feet configured as 2'L × 6'W × 5 inch D with 4 evenly distributed stakes, purchased at Lowe's. STAKED/TRAINED ONLY - all plants require vertical support"
+  },
+  {
+    "common_name": "Brown Raised Bed - Stake 4 of 4 (1.5' × 2' each)",
+    "type": "container",
+    "manufacturer": "EMSCO",
+    "container_dimensions": {
+      "volume": "9.5 gallon (37.5 quart)",
+      "dimensions": "1.5' × 2' × 5 inch (section of 2' × 6' × 5 inch raised bed)",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "tomatoes (indeterminate + compact indeterminate + determinate; 1 plant per stake section)",
+      "cherry/grape tomatoes (indeterminate; 1 plant per stake section)",
+      "tomatillos (1 plant per stake section; needs strong staking/cage)",
+      "cucumbers (slicing, pickling, Persian, Armenian; 1 plant per stake section)",
+      "pole beans (4-6 plants per stake section)",
+      "yardlong beans/asparagus beans (4-6 plants per stake section)",
+      "peas (snap peas, snow peas, shelling peas; cool season)",
+      "vining zucchini/zucchini trained vertically (1 plant; support + pruning)",
+      "vining summer squash trained vertically (1 plant; support + pruning)",
+      "winter squash (butternut, acorn, delicata, kabocha) trained vertically (1 plant; heavy support + slings)",
+      "pumpkins (mini/small varieties only) trained vertically (1 plant; heavy support + slings)",
+      "melons (small varieties only: sugar baby watermelon, cantaloupe, honeydew) trained vertically (1 plant; heavy support + slings)",
+      "sweet potatoes trained vertically (vine trellis) - foliage trained up, tubers in bed (1-2 slips per stake section)",
+      "bitter melon (1 plant; climbs aggressively, loves heat)",
+      "loofah/luffa gourd (1 plant; vigorous climber, needs strong trellis)",
+      "bottle gourd (1 plant; vigorous climber, needs strong trellis)",
+      "tromboncino squash (climbing summer squash; 1 plant; excellent vertical squash option)",
+      "climbing nasturtium (edible; trained up support; can be companion but still staked)",
+      "Malabar spinach (vining spinach substitute; 1 plant; climbs well in heat)",
+      "vining passionfruit (if you ever want a perennial vine; heavy support, long-term commitment)"
+    ],
+    "notes": "EMSCO Raised Bed Garden Bed Boards, 4 x 4 Feet configured as 2'L × 6'W × 5 inch D with 4 evenly distributed stakes, purchased at Lowe's. STAKED/TRAINED ONLY - all plants require vertical support"
+  },
+  {
+    "common_name": "0.94 gal White Round Pot",
+    "type": "container",
+    "manufacturer": "Bonnie Plants",
+    "container_dimensions": {
+      "volume": "0.94 gallon (3.76 quart)",
+      "dimensions": "8 inch diameter × 6-7 inch height",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "basil",
+      "cilantro (bigger plant)",
+      "parsley (excellent size)",
+      "dill (1 plant)",
+      "rosemary (small start; will want larger later)",
+      "sage",
+      "thyme (thrives)",
+      "oregano (thrives)",
+      "chives",
+      "mint (great container choice)",
+      "chamomile (German chamomile)",
+      "lavender (dwarf varieties/young plant - will want larger long-term)",
+      "arugula",
+      "lettuce (leaf types)",
+      "spinach (cool season)",
+      "baby bok choy",
+      "radishes (small round types)"
+    ],
+    "notes": "Bonnie Plants Foodie Fresh Nursery pot was repurposed after original plant was transplanted"
+  },
+  {
+    "common_name": "2.32 qt Black Round Pot",
+    "type": "container",
+    "manufacturer": "Bonnie Plants",
+    "container_dimensions": {
+      "volume": "2.32 quart (0.58 gallon)",
+      "dimensions": "6-6.5 inch diameter × 5-6 inch height",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "basil (small/frequent pruning)",
+      "cilantro",
+      "parsley (curly or flat-leaf)",
+      "dill (1 plant)",
+      "arugula",
+      "baby lettuce mixes",
+      "spinach (cooler months)",
+      "green onions/scallions",
+      "thyme",
+      "oregano",
+      "sage (small start)",
+      "chamomile (German chamomile, 1 plant)"
+    ],
+    "notes": "Bonnie Plants Foodie Fresh Nursery pot was repurposed after original plant was transplanted"
+  },
+  {
+    "common_name": "25 oz White Round Pot",
+    "type": "container",
+    "manufacturer": "Bonnie Plants",
+    "container_dimensions": {
+      "volume": "25 oz (0.78 quart, 0.20 gallon)",
+      "dimensions": "5 inch diameter × 4-5 inch height",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "microgreens (any: radish, broccoli, arugula, mustard)",
+      "baby leaf lettuce (mini harvests)",
+      "cilantro (short-term/baby stage only)",
+      "chives (a few clumps only)",
+      "thyme (small start)",
+      "oregano (small start)",
+      "mint (ONLY if you want it contained - will still outgrow this fast)"
+    ],
+    "notes": "Bonnie Plants Foodie Fresh Nursery pot was repurposed after original plant was transplanted"
+  },
+  {
+    "common_name": "5 qt Black Round Pot (6 inch)",
+    "type": "container",
+    "manufacturer": "Style Selections",
+    "container_dimensions": {
+      "volume": "5 quart (1.25 gallon)",
+      "dimensions": "6.0 inch W × 6.0 inch L",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "basil (full-size)",
+      "parsley (lush)",
+      "cilantro (great size)",
+      "dill (great size)",
+      "rosemary (small-to-medium start)",
+      "sage (excellent)",
+      "thyme (excellent)",
+      "oregano (excellent)",
+      "mint (excellent)",
+      "chives (very happy)",
+      "chamomile (great)",
+      "lavender (dwarf varieties)",
+      "leaf lettuce (full productivity)",
+      "arugula (full productivity)",
+      "spinach (cool season)",
+      "kale (1 plant)",
+      "Swiss chard (1 plant)",
+      "radishes (great)",
+      "beets (small varieties/4-6 plants)"
+    ],
+    "notes": "Style Selections Round 6.0-in W x 6.0-in L Black Plastic Indoor/Outdoor Planter purchased at Lowe's"
+  },
+  {
+    "common_name": "1.5 gal Black Round Pot (8 inch)",
+    "type": "container",
+    "manufacturer": "Style Selections",
+    "container_dimensions": {
+      "volume": "1.5 gallon (6 quart)",
+      "dimensions": "8.0 inch W × 8.0 inch L",
+      "material": "plastic"
+    },
+    "suitable_for_plants": [
+      "basil (large, bushy)",
+      "rosemary",
+      "sage",
+      "lavender (better long-term than smaller pots)",
+      "chamomile (very good)",
+      "mint (big, thriving)",
+      "oregano (big)",
+      "thyme (big)",
+      "parsley (huge)",
+      "cilantro (great)",
+      "dill (great)",
+      "kale (1 plant)",
+      "Swiss chard (1 plant)",
+      "collards (1 plant)",
+      "leaf lettuce (large harvests)",
+      "arugula (large harvests)",
+      "beets",
+      "radishes",
+      "carrots (short/root types like Nantes or Parisian)",
+      "green onions/scallions",
+      "strawberries (1 plant, good size)"
+    ],
+    "notes": "Style Selections Round 8.0-in W x 8.0-in L Black Plastic Indoor/Outdoor Planter purchased at Lowe's"
+  }
+]

@@ -52,6 +52,48 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:40 AM",
+      "conditions": "Sunny with a high near 66°F and wind chill as low as 40°F early, dropping to around 44°F overnight. Tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.80",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "85",
+        "moisture_mScm": "33.00",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "59.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The cilantro looks healthy and vigorous indoors with strong green foliage and quick regrowth after the last harvest. The canopy is full and upright with no obvious stress, but the root zone is drying down based on the moisture reading.",
+      "actions": "Water lightly to moderately this morning to re-wet the root zone evenly without flooding. Move the planter outdoors around 10:00 AM once temperatures reach the mid-50s, then bring it back inside by early evening as temperatures begin dropping.",
+      "next_steps": "Maintain even moisture over the next few days and continue the bring-in/bring-out routine on cooler nights. Watch for any droop or leaf curl after outdoor exposure and adjust timing if winds increase or evenings cool faster. Harvest outer stems only once the canopy thickens again.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "cilantro_002-20260101-02.jpeg",
+          "caption": "Top-down view of the cilantro indoors showing healthy green regrowth and a full canopy after prior harvesting.",
+          "tags": "cilantro, indoors, canopy, regrowth, healthy foliage, herb box"
+        },
+        {
+          "file_name": "cilantro_002-20260101-03.jpeg",
+          "caption": "Side view of the cilantro indoors showing upright stems and dense leaf growth with no visible wilting.",
+          "tags": "cilantro, indoors, upright growth, vegetative, healthy"
+        },
+        {
+          "file_name": "cilantro_002-20260101-04.jpeg",
+          "caption": "Wider view of the planter showing the cilantro area indoors and the surrounding soil surface condition.",
+          "tags": "planter, herb box, cilantro, indoors, soil surface, container garden"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "5:10 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -74,7 +116,11 @@
       "actions": "Water the cilantro zone in the morning using a slow, controlled pour to rehydrate the root zone without soaking the entire herb box. Do not fertilize today as EC and salts are low and the plant is actively regrowing.",
       "next_steps": "Recheck moisture tomorrow afternoon and water again only if readings fall below 40 and leaves lose morning crispness. Continue light harvesting every 1–2 days to maintain airflow and reduce bolting risk as warm soil conditions persist. Monitor for any new clipped stems that would suggest renewed cutworm activity.",
       "q_and_a_summary": "Discussed whether watering is needed the following morning; confirmed to water with a controlled, moderate morning watering because moisture was already 41 and conditions remain warm and sunny.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "cilantro_002-20251229-02.jpeg",

@@ -297,17 +297,28 @@ def journal_update():
                 error_message="JSON input is required"
             )
 
-        # Remove markdown code fences if present
-        json_input = re.sub(r'^```json\s*\n', '', json_input, flags=re.MULTILINE)
-        json_input = re.sub(r'\n```\s*$', '', json_input, flags=re.MULTILINE)
-        json_input = json_input.strip()
+# Clean JSON (remove trailing commas and wrap fragments in braces if needed)
+        cleaned_json = json_input.strip()
 
-        # Handle trailing commas (common JSON error from GPT)
-        json_input = re.sub(r',(\s*[}\]])', r'\1', json_input)
+        # Remove leading whitespace from each line (for indented fragments)
+        lines = cleaned_json.split('\n')
+        cleaned_json = '\n'.join(line.lstrip() for line in lines)
 
-        # Parse JSON
+        # Remove trailing commas before closing braces/brackets
+        cleaned_json = re.sub(r',(\s*[}\]])', r'\1', cleaned_json)
+
+        # Remove trailing comma at the very end
+        cleaned_json = re.sub(r',\s*$', '', cleaned_json)
+
+        # If it doesn't start with { and isn't a journal entry, wrap it
+        if not cleaned_json.startswith('{'):
+            cleaned_json = '{' + cleaned_json + '}'
+        elif cleaned_json.startswith('{') and cleaned_json.endswith(','):
+            cleaned_json = cleaned_json.rstrip(',')
+
+        # Parse the JSON
         try:
-            parsed_data = json.loads(json_input)
+            parsed_data = json.loads(cleaned_json)
         except json.JSONDecodeError as e:
             return render_template(
                 'journal_update.html',
@@ -327,10 +338,18 @@ def journal_update():
                 error_message=f"Plant not found: {plant_id}"
             )
 
-        # Determine action type and field
-        action_type = ""
+        # Handle based on action type
+        if action == 'plant_main':
+            # UPDATE PLANT MAIN DATA (fragment)
+            # Replace any attributes present in the fragment
+            for key, value in parsed_data.items():
+                if key != 'journal':  # Don't update journal this way
+                    plant[key] = value
 
-        if action == 'journal':
+            action_type = f"Plant main data updated ({len(parsed_data)} attribute(s))"
+
+        else:
+            # UPDATE JOURNAL ENTRY (default)
             # Validate journal entry has required fields
             required_fields = ['date', 'time', 'conditions', 'digital_probe', 'observations']
             missing_fields = [f for f in required_fields if f not in parsed_data]
@@ -349,27 +368,6 @@ def journal_update():
 
             plant['journal'].insert(0, parsed_data)  # Insert at beginning (newest first)
             action_type = "Journal Entry Added"
-
-        elif action == 'plant_main':
-            # Update plant main data fields
-            # Only update fields that exist in the parsed data
-            updatable_fields = ['whats_been_logged', 'current_stage', 'current_state', 'timeline']
-
-            updated_fields = []
-            for field in updatable_fields:
-                if field in parsed_data:
-                    plant[field] = parsed_data[field]
-                    updated_fields.append(field)
-
-            if not updated_fields:
-                return render_template(
-                    'journal_update.html',
-                    plants=data_manager.get_all_plants(),
-                    error=True,
-                    error_message="No valid plant main data fields found to update"
-                )
-
-            action_type = f"Plant Main Data Updated ({', '.join(updated_fields)})"
 
         # Save updated plant
         data_manager.save_plant(plant_id, plant)
@@ -746,6 +744,15 @@ def photo_prep():
         else:
             display_time = datetime.now(eastern).strftime('%-I:%M %p')
 
+        # Check if user wants to include latest journal entry
+        include_latest_entry = request.form.get('include_latest_entry')
+        latest_entry_json = None
+
+        if include_latest_entry and plant:
+            journal = plant.get('journal', [])
+            if journal and len(journal) > 0:
+                latest_entry_json = json.dumps(journal[0], indent=2, ensure_ascii=False)
+
         # Save original global message for form reload
         original_global_message = global_message
 
@@ -793,6 +800,15 @@ def photo_prep():
             # output_lines.append('Output valid JSON only (exact schema, no invented fields).')
             # output_lines.append('Do NOT change the Daily Journal Entry `time` (it remains the probe timestamp).')
             # output_lines.append('Do NOT reconstruct or invent a replacement JSON.')
+            # Add latest journal entry if requested
+            if latest_entry_json:
+                output_lines.append('')
+                output_lines.append('Here is the last journal entry so you have it in context:')
+                output_lines.append('')
+                output_lines.append('```json')
+                output_lines.append(latest_entry_json)
+                output_lines.append('```')
+                output_lines.append('')
 
         else:
             # INITIAL TEMPLATE (EXISTING)
@@ -802,6 +818,8 @@ def photo_prep():
                 global_message = global_message.replace('{plant}', plant.get('plant', plant_id))
                 global_message = global_message.replace('{garden_location}', plant.get('garden_location', ''))
                 global_message = global_message.replace('{full_sun_start}', plant.get('full_sun_start', ''))
+                output_lines.append('Keep Plant Main Data in context (use attributes from `id` through `timeline`).')
+                output_lines.append('')
                 output_lines.append(global_message)
                 output_lines.append('')
 
@@ -853,8 +871,17 @@ def photo_prep():
             output_lines.append('Please provide:')
             output_lines.append('Full Expert Assessment → Daily Journal Entry JSON → Plant Main Data Review (silently) → Result')
             output_lines.append('')
-            output_lines.append('If any required inputs are missing, ask me for them before beginning.')
+            output_lines.append('If weather, probe readings, or photos are missing, ask me for them before beginning.')
             output_lines.append('')
+
+            # Add latest journal entry if requested
+            if latest_entry_json:
+                output_lines.append('Here is the last journal entry so you have it in context:')
+                output_lines.append('')
+                output_lines.append('```json')
+                output_lines.append(latest_entry_json)
+                output_lines.append('```')
+                output_lines.append('')
 
         output_message = '\n'.join(output_lines)
         # Render success page with output
@@ -1249,6 +1276,37 @@ def get_current_weather():
             'error': True,
             'formatted_weather': 'Weather unavailable - please add manually'
         })
+
+
+@app.route('/api/actions-summary')
+def actions_summary():
+    """
+    Generate actions summary from most recent journal entry for each plant
+    Returns JSON with plant_id and actions for markdown generation
+    """
+    try:
+        all_plants = data_manager.get_all_plants()
+        actions_list = []
+
+        for plant in all_plants:
+            plant_id = plant.get('id')
+            journal = plant.get('journal', [])
+
+            # Get most recent journal entry (first in array)
+            if journal and len(journal) > 0:
+                latest_entry = journal[0]
+                actions = latest_entry.get('actions', '')
+
+                if actions:
+                    actions_list.append({
+                        'plant_id': plant_id,
+                        'actions': actions
+                    })
+
+        return jsonify({'actions': actions_list})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 
 if __name__ == '__main__':

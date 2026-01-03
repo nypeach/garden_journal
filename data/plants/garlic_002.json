@@ -53,6 +53,38 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:32 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.15",
+        "salt_mg_L": "79",
+        "moisture_mScm": "51.00",
+        "light": "99",
+        "rh_percent": "39",
+        "fertility_percent": "8.0",
+        "soil_temp_f": "57.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Music Hardneck zone shows an evenly settled, well-aerated soil surface with no pooling or signs of oversaturation. No new Music shoot is visible above the soil line yet, which remains appropriate for the early rooting and pre-emergence stage. Soil moisture appears stable and consistent with the probe reading.",
+      "actions": "Do not water today; moisture is in an ideal rooting range. Do not fertilize and keep the soil surface undisturbed to support root initiation and emergence.",
+      "next_steps": "Recheck moisture in 48 hours and only water if moisture drops below 35. Continue watching for new green tips between Jan 3 and Jan 10 as emergence begins.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "garlic_002-20260101-02.jpeg",
+          "caption": "Close-up of the Music Hardneck planting zone showing a stable, evenly textured soil surface with good aeration and no visible emergence yet during the rooting phase.",
+          "tags": "garlic, Music Hardneck, pre-emergence, rooting phase, soil surface, window box"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "4:34 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -75,7 +107,11 @@
       "actions": "Apply 1/3 cup of water slowly and evenly across the Music Hardneck zone only to support clove root initiation. Do not fertilize and do not disturb the soil surface.",
       "next_steps": "Recheck moisture tomorrow late morning and repeat the same light watering only if moisture remains below 25. Avoid any additional watering if moisture rebounds into the 30–55 range. Continue watching for new green tips in early January.",
       "q_and_a_summary": "",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and left uncovered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was left uncovered to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was left uncovered again even though the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "garlic_002-20251229-02.jpeg",
@@ -107,7 +143,11 @@
       "actions": "Apply 1/3 cup of water slowly and evenly across the Music Hardneck zone only to support clove root initiation. Do not fertilize and do not disturb the soil surface.",
       "next_steps": "Recheck moisture tomorrow late morning and repeat the same light watering only if moisture remains below 25. Avoid any additional watering if moisture rebounds into the 30–55 range. Continue watching for new green tips in early January.",
       "q_and_a_summary": "",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This window box was watered and left uncovered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was left uncovered to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was left uncovered again even though the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "garlic_002-20251229-02.jpeg",

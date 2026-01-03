@@ -9,7 +9,7 @@
       "sub_category": "Follow-up vs initial entry",
       "trigger_if": "The assistant adds user-provided actions or observations from the initial daily message (the same message that includes weather, photos, and probe readings) into the follow_up array",
       "response_then": "Remove those entries from `follow_up`.\nUser actions, observations, and questions provided with the initial probe readings (including any watering questions, regardless of the time referenced) must be incorporated into the main Daily Journal Entry (`observations` / `actions` / `next_steps` and/or `q_and_a_summary`), not logged as follow-ups.\nThe `follow_up` array is used ONLY for messages sent AFTER the initial daily entry.\n",
-      "count": 18,
+      "count": 19,
       "status": "active",
       "tags": [
         "follow-up",
@@ -187,8 +187,8 @@
       "category": "Photos & Evidence Handling",
       "sub_category": "Filename / order preservation",
       "trigger_if": "The assistant includes probe screenshots in the photos array, uses placeholder names, changes filename order, or assigns captions that do not match the actual plant photos",
-      "response_then": "Rebuild the photos array using ONLY filenames that correspond to actual plant photos (exclude all probe screenshots), preserve the exact filenames and order I provided, and write captions that accurately describe each specific photo.",
-      "count": 5,
+      "response_then": "Regenerate the Daily Journal Entry JSON and rebuild the photos array using ONLY filenames that correspond to actual plant photos (exclude all probe screenshots), preserve the exact filenames and order I provided, and write captions that accurately describe each specific photo.",
+      "count": 14,
       "status": "active",
       "tags": [
         "photos",
@@ -375,7 +375,7 @@
       "sub_category": "Required probe summary format compliance",
       "trigger_if": "The assistant labels the probe reading section with an instructional or meta heading such as: \"🌞 Probe Readings — Interpretation (Required Format)\" or any other non-dynamic, descriptive heading",
       "response_then": "Remove that heading entirely and instead use the dynamic probe summary headline itself as the H2 section heading, exactly as defined in the guide, for example:\n- 🌞 **Your readings today are excellent**\n- 🌤️ **Your readings are generally good with a few things to watch**\n- ⚠️ **Your readings today show some issues that need attention**\n\nDo not add any extra headings that describe formatting, requirements, or workflow.\nThe dynamic probe summary headline is the section heading.",
-      "count": 7,
+      "count": 8,
       "status": "active",
       "tags": [
         "probe",
@@ -485,8 +485,8 @@
       "category": "Plant Main Data",
       "sub_category": "Review workflow",
       "trigger_if": "The assistant fails to perform the Plant Main Data Review after logging",
-      "response_then": "Perform the Plant Main Data Review (silently) using the “When to suggest update” rules.\n\nImportant definition:\nAn attribute is “outdated” ONLY if the CURRENT Plant Main Data value is wrong (i.e., it differs from what’s true now or the plant materially changed). Do NOT treat “newly confirmed details” as outdated.\n\nThen output ONE of the following only:\n- Exactly: No Plant Main Data updates necessary\nOR\n- A list of outdated attribute names and why they are wrong.\n\nDo NOT output headings (e.g., “Plant Main Data Review → Result”) and do NOT list “confirmed” attributes.\n",
-      "count": 60,
+      "response_then": "Perform the Plant Main Data Review (silently) using the “When to suggest update” rules.\n\nImportant definition:\nAn attribute is “outdated” ONLY if the CURRENT Plant Main Data value is wrong (i.e., it differs from what’s true now or the plant materially changed). Do NOT treat “newly confirmed details” as outdated.\n\nThen output ONE of the following only:\n- Exactly: No Plant Main Data updates necessary\nOR\n- First give me just the bulleted list of attributes for what needs changing. Then ask \"Ready to go one-by-one?\" Then one-by-one for each attribute... - Present the CURRENT attribute only - restate why it needs updating - restate the proposed updated wording (no code block) Then wait for the user to explicitly confirm or revise it before proceeding.\n\nDo NOT output headings (e.g., “Plant Main Data Review → Result”) and do NOT list “confirmed” attributes.\n",
+      "count": 67,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -508,7 +508,7 @@
       "sub_category": "Multi-attribute updates",
       "trigger_if": "The assistant presents multiple Plant Main Data attributes and proceeds to explain or propose updates for more than one attribute without stopping for discussion and explicit lock-in after each one",
       "response_then": "Stop. Do not resume from any intermediate point.\n\nFirst give me just the bulleted list of attributes for what needs changing.\nThen ask \"Ready to go one-by-one?\"\n\nThen one-by-one for each attribute...\n- Present the CURRENT attribute only\n- restate why it needs updating\n- restate the proposed updated wording (no code block)\nThen wait for the user to explicitly confirm or revise it before proceeding.",
-      "count": 13,
+      "count": 14,
       "status": "active",
       "tags": [
         "plant-main-data",
@@ -797,7 +797,7 @@
         "Adding advisory text to Q&A without a question mark or explicit as"
       ],
       "include_footer": true,
-      "count": 7,
+      "count": 10,
       "applies_when": ""
     },
     {
@@ -922,7 +922,7 @@
         "inferred-questions"
       ],
       "include_footer": true,
-      "count": 16,
+      "count": 17,
       "applies_when": ""
     },
     {
@@ -983,7 +983,7 @@
       "category": "Daily Workflow",
       "sub_category": "Reset / Recovery / Multi-rule violations",
       "trigger_if": "The assistant produces a “jacked up” Daily Journal Entry JSON (invented fields, wrong schema, probe readings in photos, invented follow-ups, or transcript-style `q_and_a_summary`) AND/OR fails to complete the required Plant Main Data Review after logging — especially after prior corrections.",
-      "response_then": "Stop. Regenerate the Daily Journal Entry JSON using the **exact schema and field names from the guide** — no added, removed, or renamed fields.\n\nRules (must all be followed):\n- `q_and_a_summary` must be either:\n  - an **empty string**, OR\n  - a **natural narrative summary** of the questions asked and answers given  \n    (no “User asked…”, no “Asked whether…”, no “Advised…”, no transcript style)\n- Do NOT make up follow-ups.\n  - User actions/observations included in the **initial daily message** must be incorporated into the main `observations` summary.\n  - The `follow_up` array is used **ONLY** for messages sent **after** the initial daily entry.\n- Do NOT include probe screenshots or probe readings in the `photos` array.\n- Preserve the user-provided photo filenames and order (excluding probe screenshot(s)).\n\nImmediately after the corrected Daily Journal Entry JSON:\nPerform the Plant Main Data Review now (silently) using the “When to suggest update” rules, then provide the outcome:\n- Say **EXACTLY**: No **Plant Main Data** updates necessary  \n  **OR**\n- Identify the outdated attributes (attribute names only) and why.\n\nAcknowledge the correction with **one brief sentence** confirming you will follow this approach going forward, then continue the workflow as my professional horticulturist or extension agent.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative including High/Low/Condition\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Summary narrative of questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
+      "response_then": "Stop. Regenerate the Daily Journal Entry JSON using the **exact schema and field names from the guide** — no added, removed, or renamed fields.\n\nRules (must all be followed):\n- `q_and_a_summary` must be either:\n  - an **empty string**, OR\n  - a **natural narrative summary** of the questions asked and answers given  \n    (no “User asked…”, no “Asked whether…”, no “Advised…”, no transcript style)\n- Do not populate `q_and_a_summary` unless the user clearly asks a question (ends with “?” or is explicitly phrased as a question).\n- Do NOT make up follow-ups.\n  - User actions/observations included in the **initial daily message** must be incorporated into the main `observations` summary.\n  - The `follow_up` array is used **ONLY** for messages sent **after** the initial daily entry.\n- Do NOT include probe screenshots or probe readings in the `photos` array.\n- Preserve the user-provided photo filenames and order (excluding probe screenshot(s)).\n- Do not refer to the plant by its thread/file ID (e.g., “Cilantro_002”). In `observations`, `actions`, and `next_steps`, write like a professional horticulturist using natural phrasing (e.g., “this plant,” “the cilantro,” “the seedling,” “the canopy”) and concise action verbs (e.g., “Water lightly”).  Redo the Journal Entry using natural phrasing.\n\nImmediately after the corrected Daily Journal Entry JSON:\nPerform the Plant Main Data Review now (silently) using the “When to suggest update” rules, then provide the outcome:\n- Say **EXACTLY**: No **Plant Main Data** updates necessary  \n  **OR**\n- Identify the outdated attributes (attribute names only) and why.\n\nAcknowledge the correction with **one brief sentence** confirming you will follow this approach going forward, then continue the workflow as my professional horticulturist or extension agent.\n\n```json\n{\n  \"date\": \"M/D/YYYY\",\n  \"time\": \"H:MM AM/PM\",\n  \"conditions\": \"Weather narrative including High/Low/Condition\",\n  \"digital_probe\": {\n    \"ph\": \"6.50\",\n    \"ec_mScm\": \"0.02\",\n    \"salt_mg_L\": \"139\",\n    \"moisture_mScm\": \"49.00\",\n    \"light\": \"99\",\n    \"rh_percent\": \"45\",\n    \"fertility_percent\": \"1.0\",\n    \"soil_temp_f\": \"85.5\"\n  },\n  \"analog_probe\": {\n    \"fertility\": \"Text description or empty\",\n    \"moisture\": \"Text description or empty\",\n    \"ph\": \"Text description or empty\"\n  },\n  \"observations\": \"What the plant looks like RIGHT NOW\",\n  \"actions\": \"What to do RIGHT NOW (present tense)\",\n  \"next_steps\": \"Monitoring and future care\",\n  \"q_and_a_summary\": \"Summary narrative of questions asked and answers given\",\n  \"follow_up\": [\n    \"[H:MM AM/PM] Narrative summary of action/observation\"\n  ],\n  \"photos\": [\n    {\n      \"file_name\": \"{plantname_001}-{YYYYMMDD}-{nn}.jpeg\",\n      \"caption\": \"Complete sentence description\",\n      \"tags\": \"comma, separated, keywords\"\n    }\n  ]\n}\n```",
       "anti_patterns": [
         "Inventing new JSON fields (“plant_name”, “weather”, “probe_readings”, etc.)",
         "Logging probe screenshots as photos",
@@ -1004,7 +1004,7 @@
         "hard-reset"
       ],
       "include_footer": true,
-      "count": 6,
+      "count": 13,
       "applies_when": ""
     },
     {
@@ -1037,7 +1037,7 @@
       "category": "Daily Workflow",
       "sub_category": "Products / Fertilizer Measurement Precision",
       "trigger_if": "The assistant recommends using a fertilizer (including a user-owned product like Purived 4-5-5 or Gardenwise 10-10-10) but gives vague dilution guidance such as “¼-strength,” “half strength,” “go light,” “use a weak mix,” or “follow the label,” instead of providing exact measured amounts scaled to the user’s actual container.",
-      "response_then": "Do NOT use vague dilution language. Provide exact measured amounts scaled to the user’s container.\n\nIf you do not know the correct dilution rate or manufacturer instructions, use the web tool to look it up first — do not guess.\n\n**🚫 Bad Examples**\n\"Go light (¼-strength) so we don’t swing the EC upward abruptly.\"\n\"Feed lightly using Purived 4-5-5 (1 capful per gallon), then apply 3 cups of the mixed solution.\"\n\n**✅ Good Examples**\n\"Mix 1/4 capful with 2 cups of water, then apply slowly at the base until the top 1–2 inches of soil is evenly moistened.\"\n\"Mix 3/8 teaspoon of Purived 4-5-5 into 3 cups of water, then apply the full 3 cups slowly at the base.\"\n",
+      "response_then": "Do NOT use vague dilution language. Provide exact measured amounts scaled to the user’s container. Redo the Daily Journal Entry JSON with the correct measurements to scale.\n\nIf you do not know the correct dilution rate or manufacturer instructions, use the web tool to look it up first — do not guess.\n\n**🚫 Bad Examples**\n\"Go light (¼-strength) so we don’t swing the EC upward abruptly.\"\n\"Feed lightly using Purived 4-5-5 (1 capful per gallon), then apply 3 cups of the mixed solution.\"\n\n**✅ Good Examples**\n\"Mix 1/4 capful with 2 cups of water, then apply slowly at the base until the top 1–2 inches of soil is evenly moistened.\"\n\"Mix 3/8 teaspoon of Purived 4-5-5 into 3 cups of water, then apply the full 3 cups slowly at the base.\"\n",
       "anti_patterns": [
         "\"Use ¼-strength / half strength.\"",
         "\"Go light / weak mix.\"",
@@ -1053,7 +1053,76 @@
         "web-lookup"
       ],
       "include_footer": true,
+      "count": 4,
+      "applies_when": ""
+    },
+    {
+      "id": "PMD-REVIEW-003",
+      "title": "Plant Main Data Review Output Shows Workflow / Headings Instead of Result Only",
+      "category": "Plant Main Data",
+      "sub_category": "Review Output Format / Silent Review Violation",
+      "trigger_if": "After the Daily Journal Entry JSON, the assistant outputs Plant Main Data Review workflow text such as:\n- “Plant Main Data Review (silent) → Result”\n- “✅ Outdated attributes identified:”\n- Bullet lists of attributes\n- “If you say ‘lock it in’…” prompts\n…instead of outputting only the required final outcome sentence.",
+      "response_then": "Do NOT show Plant Main Data Review workflow, headings, bullets, or confirmation prompts. Output ONLY the required final outcome sentence exactly as specified:\n- Say EXACTLY: **No Plant Main Data updates necessary**\nOR\n- Provide just the bulleted list of attributes for what needs changing.\nThen ask \"Ready to go one-by-one?\"",
+      "anti_patterns": [
+        "Plant Main Data Review (silent) → Result",
+        "✅ Outdated attributes identified:",
+        "If you say “lock it in,” I’ll propose the exact updated wording…"
+      ],
+      "tags": [
+        "plant-main-data",
+        "silent-review",
+        "workflow-leak",
+        "formatting"
+      ],
+      "include_footer": true,
+      "count": 4,
+      "applies_when": ""
+    },
+    {
+      "id": "DW-CONFIRM-002",
+      "title": "User Needs to Send Entire Initial Plant Data JSON",
+      "category": "Daily Workflow",
+      "sub_category": "Context Loss / Rehydrating Thread Context",
+      "trigger_if": "The assistant indicates (explicitly or implicitly) that it cannot see the Initial Plant Data JSON / Plant Main Data in context, OR the user needs to re-send the entire Initial Plant Data JSON because the context window has been exceeded (especially before any container-based quantities or Plant Main Data Review decisions).",
+      "response_then": "Here is the Initial Plant Data JSON provided at the start of this thread with updated journal entries.  Keep Plant Main Data in context. Use all attributes from `id` through `timeline` provided in the Initial Plant Data JSON at the beginning of this thread as authoritative. Scale all watering/fertilizer/amendment/spray instructions to the container size without asking me.",
+      "anti_patterns": [
+        "“I can’t see the Initial Plant Data JSON anymore — can you re-send it?”",
+        "“I don’t have your container size, so I can’t scale this.”",
+        "Recommending watering/fertilizer amounts without using the container details from the Initial Plant Data JSON"
+      ],
+      "tags": [
+        "context-window",
+        "initial-json",
+        "plant-main-data",
+        "container-scaling",
+        "recovery"
+      ],
+      "include_footer": true,
       "count": 1,
+      "applies_when": ""
+    },
+    {
+      "id": "DW-VOICE-002",
+      "title": "Avoid Referring to Plant Name or Plant ID in Narrative",
+      "category": "Daily Workflow",
+      "sub_category": "Voice / Professional Tone",
+      "trigger_if": "The assistant refers to the plant in `observations`, `actions`, or `next_steps` using the thread/file identifier (e.g., “Cilantro_002”, “strawberry_001”, “tomato_003”) instead of natural horticulturist language.",
+      "response_then": "Do not refer to the plant by its thread/file ID (e.g., “Cilantro_002”). In `observations`, `actions`, and `next_steps`, write like a professional horticulturist using natural phrasing (e.g., “this plant,” “the cilantro,” “the seedling,” “the canopy”) and concise action verbs (e.g., “Water lightly”).  Redo the Journal Entry using natural phrasing.",
+      "anti_patterns": [
+        "\"observations\": \"Cilantro_002 is currently inside...\"",
+        "\"actions\": \"Water cilantro_002 lightly...\"",
+        "\"next_steps\": \"Monitor cilantro_002 for...\""
+      ],
+      "tags": [
+        "voice",
+        "tone",
+        "narrative",
+        "observations",
+        "actions",
+        "professionalism\n````markdown"
+      ],
+      "include_footer": true,
+      "count": 3,
       "applies_when": ""
     }
   ]

@@ -54,6 +54,58 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:38 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight. Tonight: Clear. Tomorrow: Sunny with a high of 72°F.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.04",
+        "salt_mg_L": "22",
+        "moisture_mScm": "25",
+        "light": "98",
+        "rh_percent": "40",
+        "fertility_percent": "2",
+        "soil_temp_f": "60.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Plant is healthy and actively producing with a full green canopy, multiple clusters of tomatoes in green to turning stages, and new flowers forming at the top. Stems are trained to stakes and the lower canopy is thinned. Soil appears dry on the surface and probe readings show inconsistent moisture depending on placement, with very low fertility and low EC consistent with a nutrient-light root zone during heavy fruiting.",
+      "actions": "Water today with 2 gallons total split into 1 gallon slowly at the root zone, wait 15–30 minutes, then 1 gallon slowly again to re-wet dry pockets evenly. Do not fertilize today; focus on stabilizing moisture. Harvest any fully colored tomatoes and continue removing any damaged or spotty leaves to improve airflow.",
+      "next_steps": "Tomorrow morning, check moisture 2–3 inches down and only water if dry. If the plant grows beyond the current stake height, add taller support and continue tying upward. Once moisture is stable again, resume Purived 4-5-5 feeding on the next watering at a gentle strength.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20260101-03.jpeg",
+          "caption": "Full plant view showing a vigorous canopy with multiple fruit clusters and good staking support in the raised bed.",
+          "tags": "tomato, raised bed, full plant, vigorous growth, staking, fruit set"
+        },
+        {
+          "file_name": "tomato_001-20260101-04.jpeg",
+          "caption": "Close view of the canopy with dense healthy foliage and developing fruit clusters in partial sun.",
+          "tags": "tomato, canopy, healthy foliage, fruit clusters, vigorous, green leaves"
+        },
+        {
+          "file_name": "tomato_001-20260101-05.jpeg",
+          "caption": "Side profile showing trained stems and fruit at mixed ripening stages, indicating ongoing production.",
+          "tags": "tomato, trained stems, staking, ripening fruit, production, raised bed"
+        },
+        {
+          "file_name": "tomato_001-20260101-06.jpeg",
+          "caption": "Top-down view highlighting dense new growth and flowering tips, showing the plant is still actively growing.",
+          "tags": "tomato, top view, new growth, flowering, vigor, canopy"
+        },
+        {
+          "file_name": "tomato_001-20260101-07.jpeg",
+          "caption": "Wide view of the raised bed showing overall structure, foliage density, and fruit load across the plant.",
+          "tags": "tomato, raised bed, wide view, fruit load, staking, outdoor garden"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "2:53 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight. Tonight: IncreasingClouds. Tomorrow: DecreasingClouds with a high of 69°F.",
@@ -77,7 +129,10 @@
       "next_steps": "Tomorrow morning, water only if the root zone is drying again (check 2–3 inches down). Continue harvesting any fully colored tomatoes and keep lower diseased/spotted foliage removed. If the plant outgrows the current stake height, add a taller stake or additional support and tie growth upward.",
       "q_and_a_summary": "The probe results looked unbelievable and differed between two attempts, especially with the first showing zero moisture and nutrients. Based on the dry soil and the more believable second reading, the plan is to rehydrate the root zone with two gallons split over time and include fertilizer in the second pass so it moves evenly through newly moistened soil rather than hitting dry roots all at once.",
       "follow_up": [
-        "[6:41 PM] Took additional probe readings from both behind and in front of the main root zone and documented placement with photos, confirming moisture and nutrient values were present when the probe was positioned closer to the active roots rather than in dry pockets farther out."
+        "[6:41 PM] Took additional probe readings from both behind and in front of the main root zone and documented placement with photos, confirming moisture and nutrient values were present when the probe was positioned closer to the active roots rather than in dry pockets farther out.",
+        "[3:30 PM] 12/30/2025 - This window box was watered and covered even though the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was covered again given the temperature was forecased to drop down to 40°F overnight."
       ],
       "photos": [
         {

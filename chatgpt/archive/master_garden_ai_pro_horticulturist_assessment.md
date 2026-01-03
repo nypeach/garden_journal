@@ -19,16 +19,16 @@ This reflects how a real horticulturist thinks during a daily nursery walk-throu
 
 ## 🌿 Expert Assessment – Section Topics
 
-### 1. **Nursery Observations & Reported Notes**
-- Direct observations provided by nursery staff
+### 1. **User Observations & Reported Notes**
+- Direct observations provided by user
 - Subjective or experiential notes (e.g., “wilts in the afternoon,” “dries faster than others”)
 - Operational context (recent irrigation changes, handling, movement, treatments)
 - Observations are recorded as reported, without interpretation
 
 ---
 
-### 2. **Nursery Questions & Expressed Concerns**
-- Specific questions asked by the nursery
+### 2. **User Questions & Expressed Concerns**
+- Specific questions asked by the user
 - Any stated worries, suspicions, or uncertainties (e.g., disease, overwatering, decline)
 - Concerns documented verbatim to preserve intent and context
 - No conclusions drawn in this section
@@ -126,7 +126,7 @@ This reflects how a real horticulturist thinks during a daily nursery walk-throu
 ---
 
 ### 14. **Focused Concern Analysis (If Applicable)**
-- Direct evaluation of any nursery-expressed concern
+- Direct evaluation of any user-expressed concern
 - Whether available evidence supports or contradicts the concern
 - Biological plausibility based on probe data, visuals, weather, and history
 - Risk level assessment (low / moderate / high)
@@ -142,7 +142,7 @@ This reflects how a real horticulturist thinks during a daily nursery walk-throu
 
 ---
 
-### 16. **Responses to Nursery Questions**
+### 16. **Responses to User Questions**
 - Direct answers to previously stated nursery questions
 - References to findings from the expert assessment
 - Clear, practical explanations without unnecessary jargon

@@ -60,6 +60,48 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "7:40 AM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40 early. Tonight: Mostly clear, with a low around 44°F. Mostly sunny, with a high near 73°F.",
+      "digital_probe": {
+        "ph": "6.8",
+        "ec_mScm": "0.16",
+        "salt_mg_L": "80",
+        "moisture_mScm": "30",
+        "light": "3",
+        "rh_percent": "52",
+        "fertility_percent": "8",
+        "soil_temp_f": "58.8"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Basil is alive and recovering after recent topping/harvest, with multiple stems showing new leaf sets and nodes. The basil canopy is smaller and more open than before due to pruning, but there is clear regrowth at the tips. Soil surface appears partially dry, and the probe confirms the root zone is drying. The herb box is currently indoors and light exposure is minimal at the time of the reading.",
+      "actions": "Bring the herb box outside around 10:00 AM once temperatures reach ~55°F for stronger sun exposure. Water only the Thai basil section with 1 cup of plain water applied slowly to the soil, then wait 3–5 minutes and apply an additional 1/2 cup only if the soil still appears dusty-dry and has not darkened evenly. Do not fertilize today. Bring the planter back inside before evening cooling.",
+      "next_steps": "Monitor basil for perked leaves and branching over the next 7–14 days. Keep moisture consistent and avoid large swings from very dry to saturated. Recheck moisture tomorrow late morning if possible; water the basil section again only if leaves look thin or droopy and the soil surface is dry.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "basil_003-20260101-02.jpeg",
+          "caption": "Top-down indoor photo of the herb box showing cilantro filling the back section while the basil in the front section is shorter and sparse from recent topping, with visible new growth at the tips.",
+          "tags": "basil, indoor, herb box, regrowth, sparse canopy"
+        },
+        {
+          "file_name": "basil_003-20260101-03.jpeg",
+          "caption": "Angled side view indoors showing basil stems with fresh new leaf sets emerging from cut points, with the cilantro canopy taller behind it.",
+          "tags": "basil, regrowth, stems, new nodes, topped"
+        },
+        {
+          "file_name": "basil_003-20260101-04.jpeg",
+          "caption": "Close-up indoor photo of the basil section showing multiple small basil plants with new branching growth and an open canopy, with soil surface visible between plants.",
+          "tags": "basil, close-up, branching, recovery, soil surface"
+        }
+      ]
+    },
+    {
       "date": "12/29/2025",
       "time": "5:10 PM",
       "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
@@ -82,7 +124,11 @@
       "actions": "Water this morning with 2 cups of plain water applied evenly across the entire herb window box. Do not fertilize today.",
       "next_steps": "Watch for new branch shoots forming at cut nodes over the next 3–6 days. Recheck moisture tomorrow late morning; water again only if readings fall below 35. Begin light feeding only after visible regrowth begins and moisture cycling is stable.",
       "q_and_a_summary": "Discussed whether the basil was pruned too much and whether it will become bushier again; confirmed the topping was appropriate and will trigger branching at nodes. Discussed whether to water in the early morning; recommended a light watering because the prior evening moisture reading was in the low 40s and will likely be lower by morning. Discussed how to approximate 2 cups using a hose shower nozzle; estimated that 2 cups typically equals about 5–10 seconds of gentle flow and recommended a one-time measuring-cup calibration for accuracy.",
-      "follow_up": [],
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
       "photos": [
         {
           "file_name": "basil_003-20251229-02.jpeg",

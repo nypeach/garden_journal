@@ -56,6 +56,89 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:31 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight.",
+      "digital_probe": {
+        "ph": "7.00",
+        "ec_mScm": "0.64",
+        "salt_mg_L": "321",
+        "moisture_mScm": "70.00",
+        "light": "89",
+        "rh_percent": "40",
+        "fertility_percent": "39.0",
+        "soil_temp_f": "59.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño section is dense and vigorous with upright stems and a fuller canopy of broad leaves. Foliage is healthy with no visible wilting or pest damage, and the cluster shows strong vegetative momentum despite cooler root-zone temperatures. Soil appears evenly moist, consistent with a higher moisture reading.",
+      "actions": "Do not water today. Keep the planter in full sun and bring it indoors this evening before temperatures drop to protect the root zone from chilling. Do not fertilize today as fertility and EC are already moderate.",
+      "next_steps": "Allow the planter to dry down over the next 24–48 hours and recheck moisture before the next watering. Continue bringing the planter indoors on clear nights below 50°F until overnight temperatures stabilize. Begin thinning once overnight lows remain in the 50s to reduce crowding and improve airflow and stem strength.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_003-20260101-02.jpeg",
+          "caption": "Overhead view showing a dense, healthy jalapeño canopy with broad upright leaves and strong vegetative expansion in the shared window box.",
+          "tags": "jalapeno, overhead, canopy, vegetative-growth, dense-growth, shared-planter"
+        },
+        {
+          "file_name": "pepper_003-20260101-03.jpeg",
+          "caption": "Angled side view highlighting the tall, crowded seedling cluster with multiple upright stems and vigorous leaf mass.",
+          "tags": "jalapeno, side-view, stems, vigor, crowded, vegetative-growth"
+        },
+        {
+          "file_name": "pepper_003-20260101-04.jpeg",
+          "caption": "Wider view showing the jalapeño cluster’s full structure and healthy posture within the pepper window box under bright sun.",
+          "tags": "jalapeno, wide-view, structure, foliage, shared-planter, sunlight"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:30 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.17",
+        "salt_mg_L": "89",
+        "moisture_mScm": "47.00",
+        "light": "99",
+        "rh_percent": "42",
+        "fertility_percent": "9.0",
+        "soil_temp_f": "80.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The jalapeño section shows dense, vigorous vegetative growth with upright stems and a rapidly expanding canopy. Leaf shape is healthy with no visible wilting or distortion, though coloration is slightly pale consistent with low fertility. Soil appears evenly moist and stable, matching the ideal moisture reading.",
+      "actions": "Do not water today. Mix 1 teaspoon Purived 4-5-5 into 1/2 gallon of water and apply 2 cups evenly across the entire window box. Thin the jalapeño cluster within 48 hours by snipping excess seedlings at soil level and keeping the 2 strongest plants.",
+      "next_steps": "Recheck probe readings in 2 days to confirm fertility rise and stable moisture. Plan a second light feeding in 3–5 days if fertility remains below 10.0. Monitor for darker green leaves and thicker stems after thinning.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was covered again given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "pepper_003-20251229-02.jpeg",
+          "caption": "Overhead view showing a dense jalapeño canopy with vigorous leaf expansion and a crowded seedling cluster around the support stake.",
+          "tags": "jalapeno, overhead, canopy, dense-growth, crowded, vegetative-growth"
+        },
+        {
+          "file_name": "pepper_003-20251229-03.jpeg",
+          "caption": "Side view showing tall, upright jalapeño stems with healthy leaf structure and dense growth indicating the need for thinning for stronger future branching.",
+          "tags": "jalapeno, side-view, stems, height, dense-growth, thinning-needed"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:25 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

@@ -48,6 +48,267 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "12:09 PM",
+      "conditions": "Sunny, with a high near 66°F dropping to 44°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.02",
+        "salt_mg_L": "139",
+        "moisture_mScm": "49.00",
+        "light": "99",
+        "rh_percent": "45",
+        "fertility_percent": "1.0",
+        "soil_temp_f": "85.5"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The plant is currently indoors and will be moved outside around 10:00 AM when temperatures reach about 55°F. One side of the pot is noticeably drier than the other, so several probe readings were taken to compare moisture across the container. Some buds appear questionable on close inspection and need triage into keep vs cut.",
+      "actions": "Water today based on the drier side of the pot and ensure the entire root zone is evenly moistened. Move the pot outside around 10:00 AM for sun and airflow, keeping it sheltered from strong wind at first. Inspect the questionable buds and remove any that are brown, shriveled, or collapsing while keeping tight green buds and healthy blooms.",
+      "next_steps": "Continue monitoring moisture across the pot since uneven drying can lead to stressed leaves and aborted blooms. Keep the plant outdoors during the day when temperatures are above the mid-50s, and protect it from colder nights if temperatures approach the low 40s with wind. Once steady weather returns, maintain a consistent watering schedule and resume light feeding only when growth and flowering stabilize.",
+      "q_and_a_summary": "Discussed whether feeding should be done today since the earlier fertilization plan was delayed due to weather, and confirmed fertilizing can be paired with watering if the plant is actively growing and moisture is managed evenly. Reviewed plans for moving the pot outdoors at a safe temperature threshold and clarified that bud and bloom removal should focus on damaged or declining tissue while preserving firm, healthy buds and flowers.",
+      "follow_up": [
+        "[11:00 AM] Watered with 8 oz water and then with 16 oz mixed with 1/4 tsp Purived 4-5-5 fertilizer."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20260101-02.jpeg",
+          "caption": "The plant canopy is shown from above with multiple leaves and developing growth visible for overall health assessment.",
+          "tags": "strawberry, canopy, foliage, overall health, top view"
+        },
+        {
+          "file_name": "strawberry_002-20260101-03.jpeg",
+          "caption": "A side view of the plant shows leaf density and spacing, helping evaluate airflow and older leaf condition.",
+          "tags": "strawberry, side view, airflow, leaf density, structure"
+        },
+        {
+          "file_name": "strawberry_002-20260101-04.jpeg",
+          "caption": "A closer view highlights the inner crown area where new growth and bloom stems emerge.",
+          "tags": "strawberry, crown, new growth, bloom stems, close-up"
+        },
+        {
+          "file_name": "strawberry_002-20260101-05.jpeg",
+          "caption": "A close inspection photo shows developing buds and flower structures for keep-versus-cut decisions.",
+          "tags": "strawberry, buds, blooms, triage, close-up"
+        },
+        {
+          "file_name": "strawberry_002-20260101-06.jpeg",
+          "caption": "A zoomed-in photo shows questionable buds and flower tissue for evaluating whether to remove or retain.",
+          "tags": "strawberry, buds, bloom health, questionable, close-up"
+        },
+        {
+          "file_name": "strawberry_002-20260101-07.jpeg",
+          "caption": "A detailed bud and bloom close-up helps assess discoloration, firmness, and potential fruiting viability.",
+          "tags": "strawberry, bud, bloom, viability, close-up"
+        },
+        {
+          "file_name": "strawberry_002-20260101-08.jpeg",
+          "caption": "Another close-up captures flower and bud condition to help confirm which tissues are healthy versus declining.",
+          "tags": "strawberry, flowers, buds, decline, close-up"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "7:13 AM",
+      "conditions": "Sunny, with a high near 66°F. Wind chill values as low as 40°F early. Tonight mostly clear, low around 44°F. Tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "8.7",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "61",
+        "moisture_mScm": "46.00",
+        "light": "3",
+        "rh_percent": "53",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "58.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This plant is currently indoors and looks overall healthy and leafy with several buds forming; one side of the pot is noticeably drier than the other, and there are a few buds that look questionable compared to the healthiest one.",
+      "actions": "Move this plant outside around 10:00 AM once temperatures rise above the mid-50s, water if the surface is dry and the pot feels light, and remove only clearly dead or collapsed buds while leaving firm, green, developing buds intact.",
+      "next_steps": "Monitor moisture balance across the pot and rotate the container to even light exposure; reassess bud health daily for the next 2–3 days and, if temperatures remain mild, keep this plant outside during the day and bring it in only if nights approach the low 40s or colder.",
+      "q_and_a_summary": "We talked through whether it made sense to fertilize today along with watering after weather disruptions delayed feeding, and confirmed that a gentle fertilizer approach is appropriate when watering is needed. We also reviewed concerns about questionable buds and clarified that only buds that are clearly dead or collapsed should be removed, while any firm, green, developing buds should be left to continue progressing.",
+      "follow_up": [
+        "[11:00 AM] Watered with 8 oz plain water, then added 16 oz water mixed with 1/4 tsp Purived 4-5-5 fertilizer to provide a gentle feeding and rehydrate the pot more evenly."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20260101-02.jpeg",
+          "caption": "This plant is indoors with a dense, healthy canopy and multiple flower buds forming above the foliage.",
+          "tags": "indoor, strawberry, canopy, buds, overall health"
+        },
+        {
+          "file_name": "strawberry_002-20260101-03.jpeg",
+          "caption": "This plant shows several upright stems and developing buds clustered through the center of the canopy.",
+          "tags": "stems, buds, growth, structure"
+        },
+        {
+          "file_name": "strawberry_002-20260101-04.jpeg",
+          "caption": "Top-down view shows strong leaf coverage with multiple buds at different stages of development.",
+          "tags": "top view, leaf density, buds, vigor"
+        },
+        {
+          "file_name": "strawberry_002-20260101-05.jpeg",
+          "caption": "A close-up shows a questionable bud with uneven coloration and possible aborted development.",
+          "tags": "bud, close-up, questionable, abortion, monitoring"
+        },
+        {
+          "file_name": "strawberry_002-20260101-06.jpeg",
+          "caption": "A bud on a tall stem appears partially formed and should be monitored for continued development.",
+          "tags": "bud, tall stem, monitoring, flower development"
+        },
+        {
+          "file_name": "strawberry_002-20260101-07.jpeg",
+          "caption": "Another bud appears partially open with mixed coloration and should be evaluated over the next 24–48 hours.",
+          "tags": "bud, partially open, mixed coloration, monitoring"
+        },
+        {
+          "file_name": "strawberry_002-20260101-08.jpeg",
+          "caption": "A healthy red bloom is visible among the foliage, indicating active flowering and reproductive energy.",
+          "tags": "flower, bloom, healthy, strawberry, reproduction"
+        }
+      ]
+    },
+    {
+      "date": "1/1/2026",
+      "time": "7:13 AM",
+      "conditions": "Sunny with a high near 66°F and wind chill as low as 40°F early; tonight mostly clear with a low around 44°F; tomorrow mostly sunny with a high near 73°F.",
+      "digital_probe": {
+        "ph": "8.70",
+        "ec_mScm": "0.12",
+        "salt_mg_L": "61",
+        "moisture_mScm": "46.00",
+        "light": "3",
+        "rh_percent": "53",
+        "fertility_percent": "6.0",
+        "soil_temp_f": "58.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This plant is indoors this morning and appears full and leafy with healthy green foliage and several flower stems carrying buds. One open red bloom is present, and a few blooms appear spent or failed with darkened centers. The pot shows uneven moisture (one side drier than the other), but overall the plant looks vigorous with active bud production.",
+      "actions": "Skip fertilizing today due to very high pH. If the pot feels light or the top 1–2 inches are dry, water lightly and evenly around the entire pot to balance moisture, stopping at the first sign of drainage. Remove spent or failed blooms by snipping the flower stems low near the crown (photos 6 and 7). Bring the plant outside around 10:00 AM when temperatures reach about 55°F for sun and airflow.",
+      "next_steps": "Keep the plant outdoors during warm daylight hours for stronger light and better pollination, and bring it inside again if temperatures drop into the low 40s for extended periods. Gently tap or shake flowering stems once daily when outside to help pollination. Recheck pH on the next probe day before resuming fertilizer so nutrients can be absorbed effectively.",
+      "q_and_a_summary": "You wanted to know whether to fertilize today when watering and which questionable buds should be cut or kept. Fertilizer should be skipped today because the pH reading is very high and would limit nutrient uptake. The green developing buds should be kept, while the blooms with darkened centers should be removed by cutting their stems back low.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20260101-02.jpeg",
+          "caption": "Side view indoors showing a healthy canopy with multiple stems and developing buds.",
+          "tags": "strawberry, canopy, buds, indoor, healthy foliage"
+        },
+        {
+          "file_name": "strawberry_002-20260101-03.jpeg",
+          "caption": "Front view indoors showing several flower stems rising above the leaves and an overall vigorous plant structure.",
+          "tags": "strawberry, structure, flower stems, buds, vigorous"
+        },
+        {
+          "file_name": "strawberry_002-20260101-04.jpeg",
+          "caption": "Top-down view showing dense green leaves and multiple flower stems emerging through the canopy.",
+          "tags": "strawberry, top view, canopy, flower stems, buds"
+        },
+        {
+          "file_name": "strawberry_002-20260101-05.jpeg",
+          "caption": "Close-up of a bloom with a darkened center indicating a likely spent or failed flower set.",
+          "tags": "strawberry, flower, spent bloom, failed set"
+        },
+        {
+          "file_name": "strawberry_002-20260101-06.jpeg",
+          "caption": "Close-up of a questionable bloom with a darkened center; this flower stem should be removed low near the crown.",
+          "tags": "strawberry, flower, spent, prune, remove"
+        },
+        {
+          "file_name": "strawberry_002-20260101-07.jpeg",
+          "caption": "Close-up of another questionable bloom with a darkened center; this flower stem should be removed low near the crown.",
+          "tags": "strawberry, flower, spent, prune, remove"
+        },
+        {
+          "file_name": "strawberry_002-20260101-08.jpeg",
+          "caption": "Wider view showing multiple green developing buds on tall stems plus one open red bloom; the green buds should be kept.",
+          "tags": "strawberry, buds, developing, bloom, keep"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:18 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "6.9",
+        "ec_mScm": "0.05",
+        "salt_mg_L": "28",
+        "moisture_mScm": "20",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "3",
+        "soil_temp_f": "87.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Foliage looks mostly healthy and green with active growth and multiple buds forming, but several blooms/fruitlets show browning and collapse consistent with stress. The potting mix surface appears dry and the plant is likely drying down quickly in full sun.",
+      "actions": "Water now with a slow soak until slight runoff, then stop. Water again tomorrow morning between 6–7am to prevent further dry-down during bloom. Snip and remove the clearly failed blooms/fruitlets shown in photos 5, 7, and 8 to redirect energy to healthy buds and new flower development.",
+      "next_steps": "Keep moisture more consistent during bloom/fruit set by prioritizing morning watering and avoiding deep dry-down. After the pot is re-wetted, begin gentle, consistent feeding to raise fertility from very low levels. Monitor new blooms over the next few days; healthy blooms should stay bright with clean centers and set fruitlets without browning.",
+      "q_and_a_summary": "This plant isn't dying—the leaves show good vigor and the crown is still pushing growth—but today's very low moisture and very low fertility are enough to cause strawberries to abort blooms and early fruit. A thorough watering now and again tomorrow morning will stabilize the root zone, and removing the clearly failed blooms will help the plant focus on the next healthy flush of flowers.",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was brought back outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was brought back inside given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "strawberry_002-20251229-02.jpeg",
+          "caption": "Top view shows overall healthy green canopy with several developing buds and no widespread leaf collapse.",
+          "tags": "strawberry, canopy, overall health, buds, container"
+        },
+        {
+          "file_name": "strawberry_002-20251229-03.jpeg",
+          "caption": "Side view shows multiple flower stalks and buds above a mostly green leaf canopy.",
+          "tags": "strawberry, container, flower stalks, buds, growth"
+        },
+        {
+          "file_name": "strawberry_002-20251229-04.jpeg",
+          "caption": "Plant structure shows active growth with a few older leaves and developing flower stems.",
+          "tags": "strawberry, plant structure, foliage, buds"
+        },
+        {
+          "file_name": "strawberry_002-20251229-05.jpeg",
+          "caption": "Bloom/fruitlet shows browning and a stressed center consistent with aborted set.",
+          "tags": "strawberry, aborted fruitlet, bloom failure, stress"
+        },
+        {
+          "file_name": "strawberry_002-20251229-06.jpeg",
+          "caption": "Removed failed bloom/fruit tissue indicates recent abortion rather than whole-plant decline.",
+          "tags": "strawberry, failed bloom, aborted set, removal"
+        },
+        {
+          "file_name": "strawberry_002-20251229-07.jpeg",
+          "caption": "Collapsed bloom shows poor petal formation and failure to open normally.",
+          "tags": "strawberry, bad bloom, collapse, deadhead"
+        },
+        {
+          "file_name": "strawberry_002-20251229-08.jpeg",
+          "caption": "Failed fruit base and browning tissue near the crown suggests stress during early set.",
+          "tags": "strawberry, failed set, browning, deadhead"
+        },
+        {
+          "file_name": "strawberry_002-20251229-09.jpeg",
+          "caption": "Close-up of a removed bloom shows discoloration at the center consistent with abortion from stress.",
+          "tags": "strawberry, bloom abortion, stress, close-up"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:09 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

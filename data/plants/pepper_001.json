@@ -56,6 +56,84 @@
   ],
   "journal": [
     {
+      "date": "1/1/2026",
+      "time": "11:26 AM",
+      "conditions": "Sunny with a high of 66°F dropping to 45°F overnight.",
+      "digital_probe": {
+        "ph": "6.50",
+        "ec_mScm": "0.41",
+        "salt_mg_L": "209",
+        "moisture_mScm": "80.00",
+        "light": "99",
+        "rh_percent": "48",
+        "fertility_percent": "24.0",
+        "soil_temp_f": "66.6"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet plant shows clear vegetative growth with a taller stem and multiple expanding true leaves. Foliage remains a lighter yellow-green rather than deep green, consistent with only moderate fertility and slower uptake under cool nights. Soil is very wet today, matching the moisture reading of 80.00 mS/cm, but the plant remains upright with good leaf posture and no visible pest damage.",
+      "actions": "Do not water today because moisture is high. Do not apply fertilizer today; allow the soil to dry down naturally. Bring the planter inside at 5:30–6:00 PM tonight (or shelter against the house and cover) to reduce chill stress from the 45°F overnight low.",
+      "next_steps": "Recheck moisture at the next opportunity and resume watering only once moisture drops into the mid-range (about 50–60 mS/cm). Plan a gentle feeding once moisture is mid-range to improve leaf color and support faster vegetative expansion. Continue protecting from nights below 50°F by bringing inside or covering outdoors.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "pepper_001-20260101-02.jpeg",
+          "caption": "Overhead view showing a larger Scotch Bonnet plant with multiple true leaves and lighter green coloration in bright sun, with very moist soil present in the planting section.",
+          "tags": "scotch-bonnet, pepper, overhead, vegetative-growth, leaf-color"
+        },
+        {
+          "file_name": "pepper_001-20260101-03.jpeg",
+          "caption": "Angled view showing upright stem posture and expanding leaf set, with foliage appearing pale green consistent with moderate fertility and cool-weather uptake limits.",
+          "tags": "scotch-bonnet, pepper, angled-view, true-leaves, pale-foliage"
+        }
+      ]
+    },
+    {
+      "date": "12/29/2025",
+      "time": "4:27 PM",
+      "conditions": "Sunny with a high of 83°F dropping to 59°F overnight.",
+      "digital_probe": {
+        "ph": "5.90",
+        "ec_mScm": "0.30",
+        "salt_mg_L": "154",
+        "moisture_mScm": "45.00",
+        "light": "99",
+        "rh_percent": "40",
+        "fertility_percent": "17.0",
+        "soil_temp_f": "83.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "The Scotch Bonnet is upright and stable with a clear increase in true leaf count and an active central growth point. Foliage is pale lime-green overall, consistent with low nutrient availability at this stage rather than stress. Soil surface appears evenly drying with no signs of saturation or damping-off.",
+      "actions": "Tomorrow morning, mix 1/4 teaspoon Purived 4-5-5 into 2 cups of water and apply the full 2 cups slowly in a wide ring around the Scotch Bonnet section (not against the stem). Do not water again unless moisture drops below 35.00 mS/cm.",
+      "next_steps": "Recheck probe readings in 24–48 hours to confirm fertility increases and leaf color deepens. Continue allowing healthy dry-down cycles and avoid additional feeding until moisture remains in the mid-range and growth continues steadily.",
+      "q_and_a_summary": "",
+      "follow_up": [
+        "[3:30 PM] 12/30/2025 - This plant was not watered and brought inside because the temperature was forecased to drop down to 42°F overnight.",
+        "[10:00 AM] 12/31/2025 - This plant was uncovered and left outside to get sun",
+        "[6:00 PM] 12/31/2025 - This plant was covered again given the temperature was forecased to drop down to 40°F overnight."
+      ],
+      "photos": [
+        {
+          "file_name": "pepper_001-20251229-02.jpeg",
+          "caption": "Overhead view showing the Scotch Bonnet with multiple true leaves, upright growth, and pale lime-green foliage in a drying soil surface.",
+          "tags": "scotch-bonnet, pepper, early-vegetative, true-leaves, overhead, pale-foliage"
+        },
+        {
+          "file_name": "pepper_001-20251229-03.jpeg",
+          "caption": "Angled view showing an upright Scotch Bonnet with expanding leaf set and active new growth at the center, with soil in a healthy dry-down state.",
+          "tags": "scotch-bonnet, pepper, early-vegetative, new-growth, angled-view, soil-drydown"
+        }
+      ]
+    },
+    {
       "date": "12/28/2025",
       "time": "12:23 PM",
       "conditions": "Sunny with a high of 82°F dropping to 60°F overnight.",

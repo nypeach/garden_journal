@@ -30,6 +30,7 @@
         <a class="nav-link" href="{{ url_for('assist_corrections') }}" target="_blank">🔧 Open Correction Tool</a>
         <a class="nav-link" href="{{ url_for('journal_update') }}" target="_blank">📝 Journal Update</a>
         <a class="nav-link" href="{{ url_for('channel_start') }}" target="_blank">🚀 Channel Start</a>
+        <a class="nav-link" href="#" onclick="copyActionsSummary(event)" id="actions-btn">📋 Actions</a>
       </div>
     </div>
   </header>
@@ -86,6 +87,63 @@
   </div>
 
   <script src="/static/modal.js"></script>
+  <script>
+    async function copyActionsSummary(event) {
+      event.preventDefault();
+
+      const button = event.target;
+      const originalText = button.textContent;
+
+      try {
+        // Fetch actions summary from API
+        const response = await fetch('/api/actions-summary');
+        const data = await response.json();
+
+        if (data.error) {
+          alert('Error: ' + data.error);
+          return;
+        }
+
+        // Build markdown
+        let markdown = '';
+        data.actions.forEach(item => {
+          markdown += `- ${item.plant_id}: ${item.actions}\n\n`;
+        });
+
+        // Copy to clipboard
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(markdown);
+          button.textContent = '✓ Actions';
+          setTimeout(() => {
+            button.textContent = originalText;
+          }, 2000);
+        } else {
+          // Fallback
+          const textarea = document.createElement('textarea');
+          textarea.value = markdown;
+          textarea.style.position = 'absolute';
+          textarea.style.left = '-9999px';
+          document.body.appendChild(textarea);
+          textarea.select();
+
+          try {
+            document.execCommand('copy');
+            button.textContent = '✓ Actions';
+            setTimeout(() => {
+              button.textContent = originalText;
+            }, 2000);
+          } catch (err) {
+            alert('Copy failed. Please manually select and copy.');
+          }
+
+          document.body.removeChild(textarea);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to generate actions summary');
+      }
+    }
+  </script>
 </body>
 
 </html>
