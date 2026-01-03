@@ -30,7 +30,7 @@ Plants reference containers by `common_name`, and AI Assistant looks up containe
         "product_amount": ""
       }
     ],
-    "container_dimensions": {
+    "container_specifications": {
       "volume": "",
       "dimensions": "",
       "material": ""
@@ -62,9 +62,9 @@ Below are the field definitions for the **Inventory** JSON:
   - `water_volume` (string, required): Amount of water (e.g., "1/4 cup", "1 pint", "1 gallon")
   - `concentrate` (string, required): Amount of concentrate to add to that water volume (e.g., "1/12 tsp (~0.42 mL)", "2 tsp (~10 mL)")
 
-- `container_dimensions` (object, optional): Physical specifications - ONLY for products where `type` is `container`
+- `container_specifications` (object, optional): Physical specifications - ONLY for products where `type` is `container`
   - `volume` (string, optional): Container volume capacity (e.g., "5 gallon", "2 quart")
-  - `dimensions` (string, optional): Physical measurements including top/bottom width, length, depth, height (e.g., "23.5\"W top, 20.3\"W bottom x 7.8\"L × 6\"D")
+  - `dimensions` (string, optional): Physical measurements including top/bottom width, length, depth, height (e.g., "23.5 inch W top, 20.3 inch W bottom × 7.8 inch L × 6 inch D")
   - `material` (string, optional): Container material (e.g., "fabric", "plastic", "ceramic")
 
 - `suitable_for_plants` (array of strings, optional): ONLY for containers - list of mature plant types that can fit in this container size (e.g., ["basil", "cilantro", "parsley", "dill"] or ["tomatoes (determinate)", "peppers", "eggplant", "cucumbers (with trellis)"])
