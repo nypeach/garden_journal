@@ -240,6 +240,8 @@ Each **Plant Data** profile must follow this structure:
   "plant": "Plant Name (Variety)",
   "physical_location": "City, ST",
   "garden_location": "Location Description",
+  "full_sun_start": "10:43 AM EST",
+  "full_shade_start": "3:30 PM EST",
   "container": "Container Type",
   "soil_mix": "Soil Product Name",
   "origin_history": [
@@ -305,6 +307,8 @@ Below are the field definitions for the **Plant Main Data**:
 - `plant` (string, required): Common name of the plant
 - `physical_location` (string, required): Geographic location where the plant is grown
 - `garden_location` (string, required): Specific location within the garden (e.g., "Fence Panel 11")
+- `full_sun_start`  (string): Time the specific plant reaches full sun
+- `full_shade_start` (string): Time the specific plant reaches full shade
 - `container` (string, required): Type of container used for the plant
 - `soil_mix` (string, required): Description of the soil mixture composition
 - `origin_history` (array of strings, required): Chronological list of significant events in the plant's history (See "Origin History Rules" below)
@@ -327,13 +331,15 @@ The **Plant Main Data Field Formatting** section includes:
 - C. **Plant** Field Formatting
 - D. **Physical Location** Field Formatting
 - E. **Garden Location** Field Formatting
-- F. **Container** Field Formatting
-- G. **Soil Mix** Field Formatting
-- H. **Origin History** Formatting
-- I. **What's Been Logged** Formatting
-- J. **Current Stage** Formatting
-- K. **Timeline** Formatting
-- L. **String Field** Formatting
+- F. **Full Sun Start** Field Formatting
+- G. **Full Shade Start** Field Formatting
+- H. **Container** Field Formatting
+- I. **Soil Mix** Field Formatting
+- J. **Origin History** Formatting
+- K. **What's Been Logged** Formatting
+- L. **Current Stage** Formatting
+- M. **Timeline** Formatting
+- N. **String Field** Formatting
 
 ___
 
@@ -381,7 +387,17 @@ ___
 
 ___
 
-### F. **Container** Field Formatting
+### F. **Full Sun Start** Field Formatting
+
+- Format:  Time of entry in `H:MM AM/PM EST` format
+
+## G. **Full Shade Start** Field Formatting
+
+- Format:  Time of entry in `H:MM AM/PM EST` format
+
+___
+
+### H. **Container** Field Formatting
 
 - Format: `{Common Name of the Container}`
 - Clarifying descriptions should be in Parenthesis
@@ -389,14 +405,14 @@ ___
 
 ___
 
-### G. **Soil Mix** Field Formatting
+### I. **Soil Mix** Field Formatting
 
 - Format: `{Common Name of the Product}`
 - Examples: "Miracle-Gro Potting Mix", "Top Soil/Sand"
 
 ___
 
-### H. **Origin History** Formatting
+### J. **Origin History** Formatting
 
 - Array of string elements
 - Minimum 3 elements required
@@ -412,7 +428,7 @@ ___
 
 ___
 
-### I. **What's Been Logged** Formatting
+### K. **What's Been Logged** Formatting
 
 - Format: `{Paragraph describing what's been logged}`
 - Single Paragraph
@@ -420,13 +436,13 @@ ___
 
 ___
 
-### J. **Current Stage** Formatting
+### L. **Current Stage** Formatting
 
 - Format: `{Current Plant Stage for this Plant}`
 
 ___
 
-### K. **Timeline** Formatting
+### M. **Timeline** Formatting
 
 - Array of object elements
 - Each timeline element must contain:
@@ -444,7 +460,7 @@ ___
 
 ___
 
-### L. **String Field** Formatting
+### N. **String Field** Formatting
 
 - All text fields should use complete sentences where appropriate
 - Empty strings `""` are acceptable for optional content but all required fields must have values

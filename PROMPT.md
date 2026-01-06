@@ -1,6 +1,6 @@
 ===============================================
 # 🌿 Master Garden AI Assistant Prompt
-_Last Updated: December 30, 2025 4:45 PM_
+_Last Updated: January 5 8:45 PM_
 ===============================================
 
 ## Purpose
@@ -70,6 +70,17 @@ This file maintains context for AI assistants working on the **Garden Journal** 
    - Do NOT proceed with any work until explicitly told to
    - Wait for confirmation with "yes, proceed" or similar
 
+10. **Separation of Concerns - PRIME DIRECTIVE**
+    - NEVER use inline styles in HTML templates
+    - ALL styling goes in `static/style.css`
+    - Use existing CSS classes or create new ones as needed
+    - If you violate this, you're creating technical debt and bugs
+
+11. **Work incrementally on complex features**
+    - Break down multi-step features into individual steps
+    - Wait for user confirmation after each step
+    - This prevents overwhelming the user and allows for course correction
+
 ### File Creation Protocol
 
 **CRITICAL:** When creating or updating files (markdown, JSON, or any code), ALWAYS use a **code artifact** with appropriate language tag (application/vnd.ant.code with language="markdown", "json", etc.), NOT a document artifact. The code artifact must appear in the sidebar as a persistent artifact. The user needs to copy raw code, not a rendered preview. If the content appears as formatted/styled text instead of a code block in the sidebar, regenerate it as a code artifact.
@@ -123,20 +134,21 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - `templates/journal_update.html` - Journal entry submission
 - `templates/channel_start.html` - ChatGPT channel initialization
 - `templates/assist_corrections.html` - Correction management tool
-- `data/` - JSON data files (plants, containers, products, dashboard_order, assist_corrections)
+- `data/` - JSON data files (plants, containers, products, dashboard_order, assist_corrections, watering_estimates.csv)
 - `docs/schema.md` - Complete data schema documentation
 - `docs/photo_requirements.md` - Photo handling system requirements and workflow
+- `MASTER_GARDEN_TEMPLATES_OVERVIEW.md` - Complete functional reference for all templates (what each does, button actions, data flow)
 - `PROMPT.md` - This file (AI assistant continuity)
 
 ---
 
 ## 🎯 Current Development Status
 
-**Current Phase:** Photo Prep Tool Refinements - December 30, 2025
+**Current Phase:** Photo Prep Tool Enhancements - December 30, 2025
 
 ### ✅ Completed Today (Dec 30, 2025)
 
-**Major Photo Prep Overhaul:**
+**Morning Session - Photo Prep Overhaul:**
 1. **Form Restructuring**
    - Moved Context to top (first field)
    - Consolidated Date, Plant ID, Starting Photo #, Time Override into single row
@@ -182,7 +194,7 @@ This file maintains context for AI assistants working on the **Garden Journal** 
    - Copies to clipboard with visual feedback
    - Helps ensure correct ID sequencing for new corrections
 
-8. **Bug Fixes**
+8. **Bug Fixes (Morning)**
    - Fixed dashboard.html timeline display (stage → what_i_should_see)
    - Fixed pepper_003.json schema compliance
    - Restored missing assist_corrections routes
@@ -196,24 +208,125 @@ This file maintains context for AI assistants working on the **Garden Journal** 
    - Fixed Initial context instructions (separated watering from final instructions)
    - Fixed Follow-Up context instructions (photo-specific validation only when photos present)
 
+**Afternoon Session - Critical Fixes:**
+
+9. **Journal Update Fragment Handling (MAJOR FIX)**
+   - **Problem:** Plant Main Data fragment update was broken - added validation logic that prevented simple fragment updates
+   - **Root Cause:** Code was changed from simple key-value replacement to field-specific validation
+   - **Solution:** Restored original Dec 23 logic:
+     - Parse JSON fragment (auto-wrapped in `{}`)
+     - Strip leading whitespace from each line (handles indented fragments from ChatGPT)
+     - Loop through key-value pairs
+     - Update ONLY those fields in plant object
+     - Save plant
+   - **Key insight:** Fragments have 2-space indentation for copy/paste readability - must strip before parsing
+   - This was working perfectly for over a month before being accidentally changed
+
+10. **Separation of Concerns - CSS Cleanup**
+    - **Violation found:** Inline styles on checkboxes in photo_prep.html
+    - **Fix:** Removed ALL inline styles from checkbox labels
+    - **Solution:** Use existing `.radio-label` class from style.css
+    - **Prime Directive restored:** All styling in CSS, none in HTML
+
+11. **Photo Prep Enhancement - Latest Journal Entry**
+    - Added "Add latest journal entry" checkbox (unchecked by default)
+    - When checked, appends latest journal entry JSON to output (both Initial and Follow-Up contexts)
+    - Format:
+      ```
+      Here is the last journal entry so you have it in context:
+
+      ```json
+      {latest journal entry}
+      ```
+      ```
+    - Helps ChatGPT maintain continuity without reconstructing data
+
+12. **Dashboard Enhancement - Actions Summary**
+    - Added "📋 Actions" button to chip-row navigation
+    - Fetches latest `actions` field from most recent journal entry for each plant
+    - Generates markdown list (no backticks, blank line between entries)
+    - Copies to clipboard with ✓ feedback
+    - Quick way to see all current action items across entire garden
+
+13. **Documentation - Template Overview**
+    - Created `MASTER_GARDEN_TEMPLATES_OVERVIEW.md` in root directory
+    - Complete functional reference for all templates
+    - Documents what each button does, data sources, output formats
+    - Perfect for onboarding new AI assistants or explaining to ChatGPT
+    - Separate from README (high-level) and schema docs (low-level)
+
+**Evening Session - Watering Guide Feature:**
+
+14. **Photo Prep Enhancement - Watering Guide**
+    - Added "💦 Watering Guide" button next to Refresh Weather
+    - Parses Global Message (Weather) for:
+      - Weather condition (maps Mostly Sunny→Sunny, Mostly Cloudy→Cloudy, Mostly Clear→Sunny)
+      - High temperature
+      - Overnight low temperature
+      - Precipitation percentage (or 0% if none)
+      - Moisture readings for each plant (format: "plant_id: value, plant_id: value")
+    - Loads `data/watering_estimates.csv`
+    - For each plant with moisture reading:
+      - Matches by: plant_id, condition, precip range, moisture range, high temp range
+      - Extracts watering instruction from appropriate column
+      - Checks if overnight low triggers "Bring Inside/Cover" threshold
+    - Generates markdown output:
+      ```
+      WEATHER
+      {weather text only - moisture readings removed}
+
+      6 AM WATERING INSTRUCTIONS
+      - plant_id: watering instruction
+
+      ‼️ BRING INSIDE / COVER BEFORE 6 PM (only if needed)
+      - plant_id
+      ```
+    - Copies to clipboard with ✓ Copied! visual feedback (2 seconds)
+    - New API route: `/api/watering-guide` (POST)
+
+15. **Template Data Attributes Fix**
+    - Removed Jinja2 template syntax from JavaScript (was causing IDE errors)
+    - Moved template data to HTML data attributes on success card
+    - JavaScript reads from `dataset` instead of inline template variables
+    - Cleaner separation of concerns, no more IDE complaints
+
 ### 🐛 Known Issues
-- None currently
+- Inline styles still present in photo_prep.html (weather buttons section) - needs cleanup
 
-### 📋 Next Up: ITEM 2 - Regenerate Button
+### 📋 Next Up
 
-**Problem:** User makes a mistake in form, submits, gets output, then realizes the error. Currently must start over.
+**PRIORITY 1: Remove All Inline Styles (Prime Directive Violation)**
+- **Problem:** photo_prep.html still has inline styles in several places (weather button section, checkbox container)
+- **Solution:** Create appropriate CSS classes in style.css, remove all inline `style=` attributes
+- **Goal:** Complete separation of concerns - zero inline styles anywhere
+- **Importance:** HIGH - this is a Prime Directive violation and creates technical debt
 
-**Solution:** Add "🔄 Regenerate" button on success page that:
-1. Returns to form with all fields pre-populated
-2. Keeps filename list in readonly/disabled state (can't restore actual file uploads due to browser security)
-3. Allows fixing the mistake and resubmitting
+**PRIORITY 2: Add Third Context State to Photo Prep Tool**
+- **Problem:** Photo Prep currently has Initial and Follow-Up contexts hardcoded in app.py
+- **Need:** Add third context state (TBD) and make prompts easily editable without code changes
+- **Solution:** Similar to channel_start tool:
+  - Create markdown template files for each context (e.g., `photo_prep_initial.md`, `photo_prep_followup.md`, `photo_prep_[new].md`)
+  - Support variable substitution from plant JSON (e.g., `{id}`, `{plant}`, `{garden_location}`)
+  - Load templates from files instead of hardcoded strings in app.py
+  - Make it easy for user to edit prompts by editing markdown files
+- **Benefits:**
+  - User can edit prompts without coming to AI assistant
+  - Easy to add new context states
+  - Cleaner code separation
+  - Consistent with channel_start pattern
 
-**Implementation Notes:**
-- Button appears on success page next to "Process Another Plant" and "Start Fresh"
-- Uses URL parameters or localStorage to pass form state back
-- Photo filenames shown as text list (read-only) since actual File objects can't be restored
-- User can change any other field and resubmit
-- Form should clearly indicate it's in "regenerate mode" with photos locked
+**PRIORITY 3: Regenerate Button (Previously ITEM 2)**
+- **Problem:** User makes a mistake in form, submits, gets output, then realizes the error. Currently must start over.
+- **Solution:** Add "🔄 Regenerate" button on success page that:
+  1. Returns to form with all fields pre-populated
+  2. Keeps filename list in readonly/disabled state (can't restore actual file uploads due to browser security)
+  3. Allows fixing the mistake and resubmitting
+- **Implementation Notes:**
+  - Button appears on success page next to "Process Another Plant" and "Start Fresh"
+  - Uses URL parameters or localStorage to pass form state back
+  - Photo filenames shown as text list (read-only) since actual File objects can't be restored
+  - User can change any other field and resubmit
+  - Form should clearly indicate it's in "regenerate mode" with photos locked
 
 ---
 
@@ -246,11 +359,11 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [x] Dynamic journal route (`/journal/<plant_id>`)
 - [x] Unified CSS styling across dashboard and journal
 
-### Phase 4: GPT Integration Forms (DEFERRED)
-- Channel Start tool (COMPLETE ✅)
-- Journal Update tool (COMPLETE ✅)
-- Assist Corrections tool (COMPLETE ✅)
-- New journal entry workflow from dashboard (DEFERRED)
+### Phase 4: GPT Integration Forms (COMPLETE ✅)
+- [x] Channel Start tool
+- [x] Journal Update tool
+- [x] Assist Corrections tool
+- [x] Actions Summary button
 
 ### Phase 5: Photo Management System (COMPLETE ✅)
 - [x] **Photo Prep Tool** - Compression, renaming, organization
@@ -261,6 +374,9 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - [x] **Weather Integration** - Manual refresh button, caching
 - [x] **Smart Persistence** - Form field persistence across changes
 - [x] **Assist Corrections Enhancement** - Copy Prompt for ChatGPT
+- [x] **Latest Journal Entry** - Checkbox to append to output
+- [x] **Actions Summary** - Dashboard button to copy all current actions
+- [x] **Watering Guide** - CSV-based watering instruction generator
 
 ---
 
@@ -279,12 +395,14 @@ This file maintains context for AI assistants working on the **Garden Journal** 
 - Single `style.css` for all pages (unified styling)
 - Modal JavaScript in `static/modal.js`
 - ChatGPT-related files in `chatgpt/` folder
+- Photo prep prompt templates will go in `photo_prep/` folder (future)
 
 ### Data Structure
 - Individual plant files: `data/plants/*.json`
 - Shared data: `data/containers.json`, `data/products.json`, `data/meta.json`
 - Dashboard ordering: `data/dashboard_order.json`
 - Assist corrections: `data/assist_corrections.json`
+- Watering estimates: `data/watering_estimates.csv`
 - See `docs/schema.md` for complete data schema
 - All dates: `M/D/YYYY` format (in JSON)
 - All times: `H:MM AM/PM` format
@@ -308,6 +426,14 @@ All markdown files must use this structure at the top:
 _Last Updated: {current date and time}_
 ===============================================
 ```
+
+### Separation of Concerns - PRIME DIRECTIVE
+**CRITICAL:** Never use inline styles in HTML templates
+- ALL styling goes in `static/style.css`
+- Use existing CSS classes or create new ones as needed
+- Inline styles create technical debt and bugs
+- If you find inline styles, remove them and use CSS classes
+- **Current violation:** photo_prep.html still has inline styles that need cleanup
 
 ---
 
@@ -384,20 +510,32 @@ git add -A && git commit -m "type: Brief description
 - **Find/replace over full files** - When possible
 - **Investigate before explaining** - Don't make up reasons
 - **When asked "what do you see?" - ONLY answer that and STOP**
+- **NEVER use inline styles** - Separation of concerns is sacred
+- **Work step-by-step on complex features** - Prevents overwhelming user
 
 ---
 
 ## 📚 Photo Prep Tool - Current State
 
 ### Form Layout (Top to Bottom)
-1. **Photo Upload Zone** (drag & drop)
-2. **Context** (Initial / Follow-Up)
-3. **Row:** Date | Plant ID | Starting Photo # | Time Override
-4. **Checkboxes:** Include watering | Include questions
-5. **Photo Upload Zone** (after checkboxes)
-6. **Global Message (Weather)** with Refresh button (Initial only)
-7. **Plant-Specific Message**
-8. **Process Photos** button
+1. **Context** (Initial / Follow-Up)
+2. **Row:** Date | Plant ID | Starting Photo # | Time Override
+3. **File Upload Zone** (drag & drop)
+4. **Checkboxes:** Include watering | Include questions | Add latest journal entry
+5. **Global Message (Weather)** with 💦 Watering Guide and 🌤️ Refresh Weather buttons
+6. **Plant-Specific Message**
+7. **Process Photos** button
+
+### Watering Guide Feature
+- **Input:** Weather text + moisture readings in Global Message (format: "plant_id: value, plant_id: value")
+- **Processing:**
+  - Parses condition (maps to Sunny/Partly Cloudy/Cloudy)
+  - Extracts high temp, overnight low, precipitation %
+  - Determines moisture range per plant (Dry 0-3, Normal 3-7, Wet 7-10)
+  - Matches against `data/watering_estimates.csv` by: plant_id, condition, precip range, moisture range, temp range
+  - Checks overnight low against "Bring Inside/Cover" thresholds
+- **Output:** Markdown with weather, watering instructions per plant, optional bring inside alert
+- **CSV Columns:** id, Bring Inside/Cover, Precip Range, Condition, 6AM Moisture, temp columns (60-65°F through 90+°F)
 
 ### Initial Context Output Format
 ```
@@ -415,7 +553,9 @@ Here are the photo names:
 Please provide:
 Full Expert Assessment → Daily Journal Entry JSON → Plant Main Data Review (silently) → Result
 
-If any required inputs are missing, ask me for them before beginning.
+If weather, probe readings, or photos are missing, ask me for them before beginning.
+
+[Latest journal entry if checked]
 ```
 
 ### Follow-Up Context Output Format
@@ -441,6 +581,8 @@ Update `q_and_a_summary` by APPENDING a short narrative summary of the new quest
 
 [Photo reminder if photos uploaded]
 If photo filenames are listed but no photos were uploaded, reply only: "Please provide the photos referenced." and wait for them before responding further.
+
+[Latest journal entry if checked]
 ```
 
 **Commented out lines (kept for reference):**
@@ -459,6 +601,24 @@ Do NOT reconstruct or invent a replacement JSON.
 - **Manual refresh** - User controls when to fetch fresh weather
 - **Conditional sections** - Photos and Q&A only show when applicable
 - **Probe indicators** - Checkbox adds "← (probe reading)" to output, doesn't filter
+- **Latest journal entry** - Checkbox appends JSON for context
+- **Watering guide** - CSV-based instruction generator with bring inside alerts
+
+---
+
+## 📚 Journal Update Tool - Current State
+
+### Fragment Handling (CRITICAL)
+**Plant Main Data fragments:**
+- Accepts indented JSON fragments (2-space indentation from ChatGPT)
+- Auto-strips leading whitespace from each line
+- Auto-wraps in `{}` if not present
+- Removes trailing commas
+- Parses and updates ONLY the fields present in fragment
+- Simple key-value replacement - no field validation
+- Works with ANY plant main data fields (container, soil_mix, origin_history, whats_been_logged, current_stage, current_state, timeline, etc.)
+
+**This logic was working perfectly for over a month - do not change it!**
 
 ---
 
@@ -474,14 +634,35 @@ Do NOT reconstruct or invent a replacement JSON.
 - Copies to clipboard with visual feedback (✓ Copied!)
 - Ensures correct ID sequencing when creating new corrections
 
+### Primary Purpose
+- Track how often corrections are needed (via `count` field)
+- Identify where ChatGPT guide needs improvement
+- Secondary: Provide correct wording to get ChatGPT back on track
+
+---
+
+## 📚 Dashboard - Actions Summary
+
+### Actions Button
+- **📋 Actions** button in chip-row navigation
+- Fetches latest `actions` field from most recent journal entry for each plant
+- Generates markdown list:
+  - Format: `- plant_id: action text`
+  - Blank line between each entry
+  - No backticks around plant_id
+- Copies to clipboard with ✓ feedback
+- Quick reference for all current garden action items
+
 ---
 
 ## 📚 Additional Resources
 
 - **Data Schema:** See `docs/schema.md` for complete JSON structure
 - **Photo System:** See `docs/photo_requirements.md` for photo workflow
+- **Template Reference:** See `MASTER_GARDEN_TEMPLATES_OVERVIEW.md` for complete functional documentation
 - **Assist Corrections:** See `data/assist_corrections.json` for IF/THEN statements
 - **ChatGPT Integration:** See `chatgpt/` folder for plant channel templates
+- **Watering Estimates:** See `data/watering_estimates.csv` for watering instruction lookup table
 - **Project Structure:** See README.md for complete folder tree
 
 ---
@@ -506,5 +687,7 @@ When significant progress is made:
 - Token efficiency
 - Historical context
 - **EXACT file reconstruction when provided in parts**
+- **Separation of concerns - NO inline styles**
+- **Step-by-step on complex features**
 
 When in doubt, **ask first, implement second**.

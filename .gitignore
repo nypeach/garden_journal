@@ -13,6 +13,7 @@ photos/*.jpg
 photos/*.png
 static/images/plants/*
 !static/images/plants/.gitkeep
+scratchpad/
 
 
 # IDE

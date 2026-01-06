@@ -6,7 +6,11 @@
   "garden_location": "Panel 4",
   "full_sun_start": "9:00 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Round pot, 2.32 qt, black",
+  "container": {
+    "name": "2.32 Qt Black Round Pot",
+    "volume": "2.32 Qt (0.58 Gal)",
+    "dimensions": "6.5\" Diameter x 5.5\" Height"
+  },
   "soil_mix": "Miracle-Gro Organic Potting Mix",
   "origin_history": [
     "Bought at Lowe's on Oct 8, 2025 in 25 oz container with nursery potting mix.",

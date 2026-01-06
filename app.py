@@ -192,7 +192,7 @@ def channel_start():
             chatgpt_path = Path('chatgpt')
 
             # Read prompt file
-            prompt_file = chatgpt_path / 'master_garden_01_ai_prompt.md'
+            prompt_file = chatgpt_path / 'archive/master_garden_01_ai_prompt.md'
             with open(prompt_file, 'r') as f:
                 prompt_content = f.read()
 
@@ -201,12 +201,12 @@ def channel_start():
             prompt_content = prompt_content.replace('{plant}', plant.get('plant', plant_id))
 
             # Read guide file
-            guide_file = chatgpt_path / 'master_garden_02_ai_guide.md'
+            guide_file = chatgpt_path / 'archive/master_garden_02_ai_guide.md'
             with open(guide_file, 'r') as f:
                 guide_content = f.read()
 
             # Read after JSON file
-            after_json_file = chatgpt_path / 'master_garden_04_ai_after_json.md'
+            after_json_file = chatgpt_path / 'archive/master_garden_04_ai_after_json.md'
             with open(after_json_file, 'r') as f:
                 after_json_content = f.read()
 
@@ -1304,6 +1304,177 @@ def actions_summary():
                     })
 
         return jsonify({'actions': actions_list})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/watering-guide', methods=['POST'])
+def watering_guide():
+    """
+    Generate watering instructions based on weather and moisture readings
+    """
+    try:
+        import csv
+        import re
+
+        # Get global message from request
+        data = request.get_json()
+        global_message = data.get('global_message', '').strip()
+
+        if not global_message:
+            return jsonify({'error': 'Global message is required'}), 400
+
+        # Parse weather data
+        # Extract condition (map to Sunny/Partly Cloudy/Cloudy)
+        condition_mapping = {
+            'mostly sunny': 'Sunny',
+            'mostly clear': 'Sunny',
+            'mostly cloudy': 'Cloudy',
+            'partly cloudy': 'Partly Cloudy',
+            'sunny': 'Sunny',
+            'cloudy': 'Cloudy'
+        }
+
+        condition = None
+        global_lower = global_message.lower()
+        for key, value in condition_mapping.items():
+            if key in global_lower:
+                condition = value
+                break
+
+        if not condition:
+            return jsonify({'error': 'Could not parse weather condition from message'}), 400
+
+        # Extract high temp
+        high_match = re.search(r'high of (\d+)°F', global_message, re.IGNORECASE)
+        if not high_match:
+            return jsonify({'error': 'Could not parse high temperature from message'}), 400
+        high_temp = int(high_match.group(1))
+
+        # Extract overnight low
+        low_match = re.search(r'dropping to (\d+)°F', global_message, re.IGNORECASE)
+        if not low_match:
+            return jsonify({'error': 'Could not parse overnight low temperature from message'}), 400
+        overnight_low = int(low_match.group(1))
+
+        # Extract precipitation % (or default to 0)
+        precip_match = re.search(r'(\d+)%?\s*chance of precipitation', global_message, re.IGNORECASE)
+        precip_pct = int(precip_match.group(1)) if precip_match else 0
+
+        # Determine precip range
+        if precip_pct <= 25:
+            precip_range = '0-25%'
+        elif precip_pct <= 50:
+            precip_range = '26-50%'
+        elif precip_pct <= 75:
+            precip_range = '51-75%'
+        else:
+            precip_range = '76-100%'
+
+        # Parse moisture readings (format: "plant_id: value, plant_id: value")
+        moisture_readings = {}
+        moisture_pattern = r'([a-z_]+\d+):\s*([\d.]+)'
+        for match in re.finditer(moisture_pattern, global_message):
+            plant_id = match.group(1)
+            moisture_value = float(match.group(2))
+            moisture_readings[plant_id] = moisture_value
+
+        if not moisture_readings:
+            return jsonify({'error': 'No moisture readings found in message. Format: "plant_id: value, plant_id: value"'}), 400
+
+        # Load watering estimates CSV
+        csv_path = Path(__file__).parent / 'data' / 'watering_estimates.csv'
+        if not csv_path.exists():
+            return jsonify({'error': 'watering_estimates.csv not found'}), 500
+
+        # Read CSV into memory
+        csv_data = []
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                csv_data.append(row)
+
+        # Generate watering instructions
+        watering_instructions = []
+        bring_inside = []
+
+        for plant_id, moisture_value in moisture_readings.items():
+            # Determine moisture range
+            if moisture_value < 3:
+                moisture_range = 'Dry (0-3)'
+            elif moisture_value <= 7:
+                moisture_range = 'Normal (3-7)'
+            else:
+                moisture_range = 'Wet (7-10)'
+
+            # Find matching row
+            matching_row = None
+            for row in csv_data:
+                if (row['id'] == plant_id and
+                    row['Condition'] == condition and
+                    row['Precip Range'] == precip_range and
+                    row['6AM Moisture'] == moisture_range):
+                    matching_row = row
+                    break
+
+            if not matching_row:
+                continue  # Skip if no match found
+
+            # Determine temp column
+            if high_temp < 66:
+                temp_col = '60-65°F'
+            elif high_temp < 71:
+                temp_col = '66-70°F'
+            elif high_temp < 76:
+                temp_col = '71-75°F'
+            elif high_temp < 81:
+                temp_col = '76-80°F'
+            elif high_temp < 86:
+                temp_col = '81-85°F'
+            elif high_temp < 91:
+                temp_col = '86-90°F'
+            else:
+                temp_col = '90+°F'
+
+            # Get watering instruction
+            instruction = matching_row.get(temp_col, '')
+            if instruction:
+                watering_instructions.append(f"- {plant_id}: {instruction}")
+
+            # Check if needs to be brought inside/covered
+            bring_inside_threshold = matching_row.get('Bring Inside/Cover', '')
+            if bring_inside_threshold:
+                # Parse threshold (e.g., "< 45°F")
+                threshold_match = re.search(r'<\s*(\d+)', bring_inside_threshold)
+                if threshold_match:
+                    threshold_temp = int(threshold_match.group(1))
+                    if overnight_low < threshold_temp:
+                        bring_inside.append(f"- {plant_id}")
+
+        # Build markdown output
+        output_lines = []
+        output_lines.append('WEATHER')
+        # Extract just the weather part (everything before moisture readings)
+        weather_only = re.split(r'\n\s*[a-z_]+\d+:', global_message)[0].strip()
+        output_lines.append(weather_only)
+        output_lines.append('')
+        output_lines.append('')  # Extra blank line
+        output_lines.append('6 AM WATERING INSTRUCTIONS')
+        output_lines.extend(watering_instructions)
+
+        if bring_inside:
+            output_lines.append('')
+            output_lines.append('')  # Extra blank line
+            output_lines.append('‼️ BRING INSIDE / COVER BEFORE 6 PM')
+            output_lines.extend(bring_inside)
+
+        markdown_output = '\n'.join(output_lines)
+
+        return jsonify({
+            'success': True,
+            'markdown': markdown_output
+        })
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

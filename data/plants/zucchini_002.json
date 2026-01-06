@@ -6,7 +6,11 @@
   "garden_location": "Panel 16-18",
   "full_sun_start": "11:15 AM EST",
   "full_shade_start": "4:15 PM EST",
-  "container": "Raised Bed (Stake 3)",
+  "container": {
+    "name": "Brown Raised Bed - Stake 3 of 4 (1.5' x 2' each)",
+    "volume": "9.5 Gal (37.5 Qt)",
+    "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+  },
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
     "Zucchini seeds purchased on Oct 8, 2025.",
@@ -48,6 +52,112 @@
     }
   ],
   "journal": [
+    {
+      "date": "1/5/2026",
+      "time": "7:00 AM",
+      "conditions": "Mostly Sunny with a high of 79°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Patchy Fog then a high of 81°F.",
+      "digital_probe": {
+        "ph": "6.63",
+        "ec_mScm": "0.11",
+        "salt_mg_L": "58",
+        "moisture_mScm": "52",
+        "light": "9",
+        "rh_percent": "64%",
+        "fertility_percent": "5.8",
+        "soil_temp_f": "64.0"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini plant is actively producing multiple female fruits and at least one developing male flower. Alice (hand-pollinated) remains firm and is slightly lighter toward the blossom end but not soft; blossom end is drying. Bertha (unpollinated) remains present and firm with slight lightening and no obvious growth spurt. Carole and Donna (suspected sneaky pollinations) appear to be holding with no major visible change noted this morning. Eloise is developing and appears closer to opening than Abraham. Abraham is developing but not yet at pollen-ready stage.",
+      "actions": "Do NOT fertilize again this morning (you fed yesterday at 4 PM and the root zone is still carrying available nutrients). Do NOT do a heavy watering right now—only give a light drink if the top 1\" is drying and the plant is starting to soften/droop; otherwise wait until early afternoon. Leave all fruits attached for now and treat today as a growth-check day: re-measure Alice, Bertha, Carole, and Donna at ~2 PM and note firmness + color. Watch Eloise closely for opening; once Abraham is pollen-ready (soft flower, visible pollen), plan to hand pollinate any female that opens that same morning for near-guaranteed set.",
+      "next_steps": "Measure again later this afternoon to determine growth trends and confirm which fruits are actively sizing. If any fruit shows a true abort pattern (softening + yellowing + wrinkling + stalled growth), remove it to reduce plant load. Keep moisture consistent over the next 24–48 hours (avoid big swings between dry and saturated) to support steady fruit sizing. If Eloise opens before Abraham is ready, attempt early-morning pollination with any mature male available and prioritize pollinating the largest/most mature female that day.",
+      "q_and_a_summary": "After yesterday’s half-strength feed, the priority shifted to stability rather than adding more fertilizer. The plant is in a fruit-setting window where consistent moisture and steady conditions matter more than frequent feeding. A noticeable growth spurt is expected within hours on any fruit that truly set—especially as temperatures rise—while fruits that were not pollinated often stall, lighten, and gradually abort. The key focus is confirming which fruits are in active sizing today, and timing the next successful hand pollination so every new female that opens can be set reliably once a pollen-ready male is available.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20260105-01.jpeg",
+          "caption": "Alice (hand-pollinated) measured and photographed for morning baseline; fruit remains firm with slight lightening toward blossom end.",
+          "tags": "alice, zucchini, hand pollinated, fruit set, measurement, firmness"
+        },
+        {
+          "file_name": "zucchini_002-20260105-02.jpeg",
+          "caption": "Bertha (unpollinated) photographed for morning baseline; fruit remains firm with slight lightening toward blossom end.",
+          "tags": "bertha, zucchini, unpollinated, fruit hold, baseline, firmness"
+        },
+        {
+          "file_name": "zucchini_002-20260105-03.jpeg",
+          "caption": "Carole (suspected sneaky pollination) photographed and measured for morning baseline tracking.",
+          "tags": "carole, zucchini, sneaky pollinated, fruit tracking, baseline, measurement"
+        },
+        {
+          "file_name": "zucchini_002-20260105-04.jpeg",
+          "caption": "Donna (suspected sneaky pollination) photographed and measured for morning baseline tracking.",
+          "tags": "donna, zucchini, sneaky pollinated, fruit tracking, baseline, measurement"
+        },
+        {
+          "file_name": "zucchini_002-20260105-05.jpeg",
+          "caption": "Eloise (new female) photographed for maturity tracking; expected to open soon.",
+          "tags": "eloise, zucchini, female flower, pre-bloom, maturity, pollination planning"
+        },
+        {
+          "file_name": "zucchini_002-20260105-06.jpeg",
+          "caption": "Abraham (developing male flower) photographed for readiness tracking; not yet pollen-ready.",
+          "tags": "abraham, zucchini, male flower, development, pollen readiness, pollination planning"
+        }
+      ]
+    },
+    {
+      "date": "1/4/2026",
+      "time": "4:00 PM",
+      "conditions": "Sunny with a high of 78°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Patchy Fog then a high of 79°F.",
+      "digital_probe": {
+        "ph": "7.50",
+        "ec_mScm": "0.13",
+        "salt_mg_L": "680",
+        "moisture_mScm": "59",
+        "light": "99",
+        "rh_percent": "48%",
+        "fertility_percent": "7.0",
+        "soil_temp_f": "75.4"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Zucchini plant is actively fruiting with multiple female fruits at different stages. Two fruits (CAROLE and DONNA) appear successfully set without hand pollination—darker green, firm, and growing well. ALICE (hand-pollinated) remains firm with a noticeably shriveled/drying blossom end and has grown more slowly than the two likely ‘sneaky pollinated’ fruits. BERTHA (unpollinated) remains firm but has not grown much and the blossom end is starting to shrivel. Several male buds are present in multiple stages but none are open/producing pollen today. A large older leaf under the fruit cluster is declining/yellowing and partially shaded; it is close to ALICE and BERTHA but other healthy leaves/petioles are still feeding the fruiting area.",
+      "actions": "Feed the plant now with a light fertilizer mix (1 gallon water + 1 capful of chosen fertilizer) since EC/fertility readings are very low. Remove the declining leaf now by cutting the petiole cleanly at the main stem (do not tear), because it is no longer contributing meaningfully and may reduce airflow. Continue to hand-pollinate any female flowers that open tomorrow morning using a freshly opened male flower once pollen is visible (fuzzy/yellow and easily transferred).",
+      "next_steps": "Re-measure fruit lengths daily at roughly the same time (main stalk → just before flower). Track growth over the next 24–48 hours: CAROLE and DONNA should continue to lengthen quickly; ALICE should either begin accelerating or start to soften/shrivel if set failed; BERTHA will likely stall and begin to shrivel if she was not pollinated. Watch for the first male flower to open—once one male is producing pollen, use it to pollinate every new female flower the morning it opens to drive fruit set rate toward 100%. Continue consistent watering to keep moisture steady (avoid big swings) and re-check probe readings tomorrow after watering has equilibrated.",
+      "q_and_a_summary": "The larger, greener fruits showed darker green firmness and measurable growth, strongly suggesting successful pollination and fruit set. Hand-pollinated ALICE appeared slower, but blossom-end shrivel can occur even on set fruit—stalled growth typically indicates failed pollination rather than leaf issues. A dying leaf near the fruit cluster could be safely removed if other healthy leaves remained. Probe readings showed very low EC and fertility, indicating a light feeding was appropriate. With at least one viable male flower and timely morning hand-pollination of every female flower, nearly every female can set fruit—this is what '100% fruit set' means.",
+      "follow_up": [
+        "[4:00 PM] Fertilized with Purived 4-5-5 1/2 strength diluted with a gallon of water."
+      ],
+      "photos": [
+        {
+          "file_name": "zucchini_002-20260104-01.jpeg",
+          "caption": "Close-up of CAROLE (unpollinated, likely set) showing firm, darker green fruit with closed blossom.",
+          "tags": "zucchini, female fruit, carole, firm, likely pollinated, growth"
+        },
+        {
+          "file_name": "zucchini_002-20260104-02.jpeg",
+          "caption": "Close-up of ALICE (hand-pollinated) showing firm fruit with shriveled/drying blossom end.",
+          "tags": "zucchini, alice, hand pollinated, blossom end, shriveled, watch"
+        },
+        {
+          "file_name": "zucchini_002-20260104-03.jpeg",
+          "caption": "Measurement photo showing a fruit length measurement (main stalk to just before flower) for tracking daily growth.",
+          "tags": "zucchini, measurement, growth tracking, ruler, data"
+        },
+        {
+          "file_name": "zucchini_002-20260104-04.jpeg",
+          "caption": "Declining leaf under the fruit cluster, positioned close to ALICE and BERTHA, identified for removal to improve airflow and reduce stress.",
+          "tags": "zucchini, leaf decline, yellowing, pruning, airflow"
+        }
+      ]
+    },
     {
       "date": "1/1/2026",
       "time": "11:44 AM",

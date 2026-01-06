@@ -1,0 +1,394 @@
+[
+  {
+    "id": "arugula_001",
+    "status": "Active",
+    "plant": "Arugula",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 12",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "13.12 Qt Black Window Planter",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "basil_001",
+    "status": "Active",
+    "plant": "Basil (Left)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 1",
+    "full_sun_start": "9:05 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "0.94 Gal White Round Pot",
+      "volume": "0.94 Gal (3.76 Qt)",
+      "dimensions": "8\" Diameter x 6.5\" Height"
+    }
+  },
+  {
+    "id": "basil_002",
+    "status": "Active",
+    "plant": "Basil (Right)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 2",
+    "full_sun_start": "9:05 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "0.94 Gal White Round Pot",
+      "volume": "0.94 Gal (3.76 Qt)",
+      "dimensions": "8\" Diameter x 6.5\" Height"
+    }
+  },
+  {
+    "id": "basil_003",
+    "status": "Active",
+    "plant": "Thai Basil",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 12",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "5 Herb Black Window Box 13.12 Qt",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "broccoli_001",
+    "status": "Active",
+    "plant": "Broccoli",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 13",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "13.12 Qt Black Window Planter",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "chamomile_001",
+    "status": "Active",
+    "plant": "Chamomile",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 10",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "13.12 Qt Black Window Planter",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "chives_001",
+    "status": "Active",
+    "plant": "Chives (Left)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 13",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "25 oz White Round Pot",
+      "volume": "25 oz (0.78 Qt, 0.20 Gal)",
+      "dimensions": "5\" Diameter x 4.5\" Height"
+    }
+  },
+  {
+    "id": "chives_002",
+    "status": "Active",
+    "plant": "Chives (Right)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 13",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "25 oz White Round Pot",
+      "volume": "25 oz (0.78 Qt, 0.20 Gal)",
+      "dimensions": "5\" Diameter x 4.5\" Height"
+    }
+  },
+  {
+    "id": "cilantro_001",
+    "status": "Active",
+    "plant": "Cilantro",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 12",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "13.12 Qt Black Window Planter",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "cilantro_002",
+    "status": "Active",
+    "plant": "Cilantro (Herb Box)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 12",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "5 Herb Black Window Box 13.12 Qt",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "garlic_001",
+    "status": "Active",
+    "plant": "Siberian Hardneck",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 8",
+    "full_sun_start": "9:45 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "Garlic Planter - Section 1 of 3 (7.8\" x 7.8\" each)",
+      "volume": "4.37 Qt (1.09 Gal)",
+      "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+    }
+  },
+  {
+    "id": "garlic_002",
+    "status": "Active",
+    "plant": "Music Hardneck",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 8",
+    "full_sun_start": "9:45 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "Garlic Planter - Section 2 of 3 (7.8\" x 7.8\" each)",
+      "volume": "4.37 Qt (1.09 Gal)",
+      "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+    }
+  },
+  {
+    "id": "garlic_003",
+    "status": "Active",
+    "plant": "Chesnok Red Hardneck",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 8",
+    "full_sun_start": "9:45 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "Garlic Planter - Section 3 of 3 (7.8\" x 7.8\" each)",
+      "volume": "4.37 Qt (1.09 Gal)",
+      "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+    }
+  },
+  {
+    "id": "green_beans_001",
+    "status": "Active",
+    "plant": "Green Beans (Bush Jade)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 16-18",
+    "full_sun_start": "11:15 AM EST",
+    "full_shade_start": "4:15 PM EST",
+    "container": {
+      "name": "Brown Raised Bed - Stake 2 of 4 (1.5' x 2' each)",
+      "volume": "9.5 Gal (37.5 Qt)",
+      "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+    }
+  },
+  {
+    "id": "mum_001",
+    "status": "Active",
+    "plant": "Yellow Chrysanthemum (Left)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Firepit",
+    "full_sun_start": "9:30 AM EST",
+    "full_shade_start": "4:15 PM EST",
+    "container": {
+      "name": "4 Gal Plastic Nursery Pot",
+      "volume": "4 Gal",
+      "dimensions": "12\" Diameter x 11\" Height"
+    }
+  },
+  {
+    "id": "mum_002",
+    "status": "Active",
+    "plant": "Yellow Chrysanthemum (Right)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Firepit",
+    "full_sun_start": "9:30 AM EST",
+    "full_shade_start": "4:15 PM EST",
+    "container": {
+      "name": "4 Gal Plastic Nursery Pot",
+      "volume": "4 Gal",
+      "dimensions": "12\" Diameter x 11\" Height"
+    }
+  },
+  {
+    "id": "parsley_001",
+    "status": "Active",
+    "plant": "Parsley",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 12",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "5 Herb Black Window Box 13.12 Qt",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "pepper_001",
+    "status": "Active",
+    "plant": "Scotch Bonnet",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 7",
+    "full_sun_start": "9:10 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "Pepper Planter - Stake 1 of 3 (7.8\" x 7.8\" each)",
+      "volume": "4.37 Qt (1.09 Gal)",
+      "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+    }
+  },
+  {
+    "id": "pepper_002",
+    "status": "Active",
+    "plant": "Orange Cal Wonder",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 7",
+    "full_sun_start": "9:10 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "Pepper Planter - Stake 2 of 3 (7.8\" x 7.8\" each)",
+      "volume": "4.37 Qt (1.09 Gal)",
+      "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+    }
+  },
+  {
+    "id": "pepper_003",
+    "status": "Active",
+    "plant": "Jalape\u00f1o",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 7",
+    "full_sun_start": "9:10 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "Pepper Planter - Stake 2 of 3 (7.8\" x 7.8\" each)",
+      "volume": "4.37 Qt (1.09 Gal)",
+      "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+    }
+  },
+  {
+    "id": "scallions_001",
+    "status": "Active",
+    "plant": "Scallions",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 8",
+    "full_sun_start": "9:45 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "13.12 Qt Black Window Planter",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "shallots_001",
+    "status": "Active",
+    "plant": "Shallots",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 10",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "13.12 Qt Black Window Planter",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "strawberry_001",
+    "status": "Active",
+    "plant": "Strawberry (Left)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 4",
+    "full_sun_start": "9:00 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "2.32 Qt Black Round Pot",
+      "volume": "2.32 Qt (0.58 Gal)",
+      "dimensions": "6.5\" Diameter x 5.5\" Height"
+    }
+  },
+  {
+    "id": "strawberry_002",
+    "status": "Active",
+    "plant": "Strawberry (Right)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 3",
+    "full_sun_start": "9:00 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "5 Qt Black Round Pot (6\")",
+      "volume": "5 Qt (1.25 Gal)",
+      "dimensions": "6.0\"W x 6.0\"L"
+    }
+  },
+  {
+    "id": "thyme_001",
+    "status": "Active",
+    "plant": "Thyme",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 12",
+    "full_sun_start": "10:43 AM EST",
+    "full_shade_start": "3:30 PM EST",
+    "container": {
+      "name": "5 Herb Black Window Box 13.12 Qt",
+      "volume": "13.12 Qt (3.28 Gal)",
+      "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+    }
+  },
+  {
+    "id": "tomato_001",
+    "status": "Active",
+    "plant": "Tomato (Husky Cherry Red)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 16-18",
+    "full_sun_start": "11:15 AM EST",
+    "full_shade_start": "4:15 PM EST",
+    "container": {
+      "name": "Brown Raised Bed - Stake 1 of 4 (1.5' x 2' each)",
+      "volume": "9.5 Gal (37.5 Qt)",
+      "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+    }
+  },
+  {
+    "id": "zucchini_001",
+    "status": "Active",
+    "plant": "Zucchini (Right)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 16-18",
+    "full_sun_start": "11:15 AM EST",
+    "full_shade_start": "4:15 PM EST",
+    "container": {
+      "name": "Brown Raised Bed - Stake 4 of 4 (1.5' x 2' each)",
+      "volume": "9.5 Gal (37.5 Qt)",
+      "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+    }
+  },
+  {
+    "id": "zucchini_002",
+    "status": "Active",
+    "plant": "Zucchini (Center)",
+    "physical_location": "Loxahatchee, FL",
+    "garden_location": "Panel 16-18",
+    "full_sun_start": "11:15 AM EST",
+    "full_shade_start": "4:15 PM EST",
+    "container": {
+      "name": "Brown Raised Bed - Stake 3 of 4 (1.5' x 2' each)",
+      "volume": "9.5 Gal (37.5 Qt)",
+      "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+    }
+  }
+]

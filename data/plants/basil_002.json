@@ -6,7 +6,11 @@
   "garden_location": "Panel 2",
   "full_sun_start": "9:05 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Round pot, 0.94 gal, white",
+  "container": {
+    "name": "0.94 Gal White Round Pot",
+    "volume": "0.94 Gal (3.76 Qt)",
+    "dimensions": "8\" Diameter x 6.5\" Height"
+  },
   "soil_mix": "Nursery Potting Mix",
   "origin_history": [
     "Basil plant bought on Oct 8, 2025 and remains in the original Nursery container.",
@@ -14,7 +18,7 @@
     "Recently topped very short to reset height and encourage dense branching."
   ],
   "whats_been_logged": "The plant experienced severe acidic soil and nutrient lockout after being topped very short, causing widespread yellowing and weak growth. pH swung from extreme acidity to alkalinity before stabilizing in the ideal range. The correction process involved careful monitoring, gradual pH adjustments, and patience while new growth slowly regained color and firmness. Healthy compact lateral branching has now emerged as the plant transitions into its post-topping recovery phase.",
-  "current_stage": "Post-topping regrowth and recovery",
+  "current_stage": "Vegetative Recovery Stage (post-topping)",
   "current_state": "The plant has recovered well from its pH crisis and severe topping. New growth is compact, bright, and fuller, with healthy lateral branching emerging from preserved lower nodes. A few pale lower leaves remain from earlier stress but show no progression. The main structure is upright and stable, with no pest pressure or nutrient deficiency visible. The plant remains sensitive to harsh afternoon heat but thrives in morning light.",
   "timeline": [
     {

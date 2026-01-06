@@ -6,7 +6,11 @@
   "garden_location": "Panel 8",
   "full_sun_start": "9:45 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Window Box",
+  "container": {
+    "name": "13.12 Qt Black Window Planter",
+    "volume": "13.12 Qt (3.28 Gal)",
+    "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+  },
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Scallions planted on Nov 12, 2025 from grocery scallion bottoms.",
@@ -14,7 +18,7 @@
     "Shared with Siberian Hardneck, Music Hardneck, Chesnok Red Hardneck."
   ],
   "whats_been_logged": "The focus has shifted from monitoring early upright clump formation and pH correction to tracking the first full cut-down harvest, improved soil aeration, and the beginning of the post-harvest regrowth cycle. Current attention is on the emergence of new shoots and maintaining balanced moisture as the planter transitions into repeat-harvest growth.",
-  "current_stage": "Post-harvest regrowth cycle",
+  "current_stage": "Vegetative Recovery Stage (post-harvest)",
   "current_state": "The planter now contains freshly cut scallion bases with clean cut surfaces and healthy green centers already beginning to emerge. The soil surface has improved aeration after light fluffing and filling of probe holes, and the scallion clumps appear firm, hydrated, and poised for rapid regeneration.",
   "timeline": [
     {

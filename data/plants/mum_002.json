@@ -6,7 +6,11 @@
   "garden_location": "Firepit",
   "full_sun_start": "9:30 AM EST",
   "full_shade_start": "4:15 PM EST",
-  "container": "Round pot, 2 gal, black",
+  "container": {
+    "name": "4 Gal Plastic Nursery Pot",
+    "volume": "4 Gal",
+    "dimensions": "12\" Diameter x 11\" Height"
+  },
   "soil_mix": "Original Nursery Mix",
   "origin_history": [
     "Found dying plant by a dumpster on December 7, 2025.",

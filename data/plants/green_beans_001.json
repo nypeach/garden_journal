@@ -6,7 +6,11 @@
   "garden_location": "Panel 16-18",
   "full_sun_start": "11:15 AM EST",
   "full_shade_start": "4:15 PM EST",
-  "container": "Raised Bed (Stake 2)",
+  "container": {
+    "name": "Brown Raised Bed - Stake 2 of 4 (1.5' x 2' each)",
+    "volume": "9.5 Gal (37.5 Qt)",
+    "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+  },
   "soil_mix": "Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
     "Planted in brown raised bed 2' × 6' × 10\" in early November 2025.",

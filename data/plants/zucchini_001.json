@@ -6,7 +6,11 @@
   "garden_location": "Panel 16-18",
   "full_sun_start": "11:15 AM EST",
   "full_shade_start": "4:15 PM EST",
-  "container": "Raised Bed (Stake 4)",
+  "container": {
+    "name": "Brown Raised Bed - Stake 4 of 4 (1.5' x 2' each)",
+    "volume": "9.5 Gal (37.5 Qt)",
+    "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+  },
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
     "Seed started in black window planter 23.5\" × 7.85\" × 6\".",
@@ -14,7 +18,7 @@
     "Experienced transplant stress."
   ],
   "whats_been_logged": "The focus has been on recovery from transplant stress while stabilizing moisture and pH, correcting early nutrient lockout, and tracking the return of vigorous crown growth. Recent observations show a clear rebound with improved leaf color, stronger posture, and soil conditions that are now consistently supportive, allowing vegetative growth to resume.",
-  "current_stage": "Post-Transplant Stabilization (Vegetative Growth Resuming)",
+  "current_stage": "Vegetative Recovery Stage (post-transplant)",
   "current_state": "The plant shows strong recovery with upright, firm petioles and more uniformly green foliage. The crown is actively producing multiple new leaves, and overall structure appears stable with no signs of collapse, rot, or progressive necrosis.",
   "timeline": [
     {
@@ -47,6 +51,53 @@
     }
   ],
   "journal": [
+    {
+      "date": "1/5/2026",
+      "time": "7:23 AM",
+      "conditions": "Mostly Sunny with a high of 79°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Patchy Fog then a high of 81°F.",
+      "digital_probe": {
+        "ph": "6.60",
+        "ec_mScm": "0.08",
+        "salt_mg_L": "39",
+        "moisture_mScm": "43.50",
+        "light": "15",
+        "rh_percent": "62",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "62.2"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "This young zucchini is stressed, with widespread pale stippling across the leaves and one older leaf showing darker blotchy necrosis. Several older leaves are declining near the crown while the center is pushing new growth. Root-zone readings show ideal pH but very low nutrient availability and uneven moisture around the plant.",
+      "actions": "Inspect leaf undersides for mites using a white-paper tap test. Remove the worst collapsing or heavily damaged older leaves with clean scissors. Water slowly and evenly to bring the full root zone to a consistent, moderate moisture level. Apply a gentle, balanced vegetable feed at half strength to begin correcting the very low fertility. If mites are confirmed or strongly suspected, spray insecticidal soap or horticultural oil thoroughly on leaf undersides in early morning or late afternoon and repeat on a short interval.",
+      "next_steps": "Recheck the underside of leaves in 48–72 hours for mites and any webbing. Monitor new leaves closely; clean new growth is the best sign the issue is under control. Keep moisture steady and avoid wet/dry swings. Continue light feeding weekly until growth is vigorous and leaf color improves. Watch for powdery patches or expanding lesions during foggy mornings; increase airflow and avoid wetting foliage if disease pressure rises.",
+      "q_and_a_summary": "",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "zucchini_001-20260105-05.jpeg",
+          "caption": "Wide view of the young zucchini showing overall canopy condition and spacing in the bed.",
+          "tags": "zucchini, young plant, canopy, overall health, bed"
+        },
+        {
+          "file_name": "zucchini_001-20260105-06.jpeg",
+          "caption": "Close-up of an older leaf with yellowing and irregular dark blotches consistent with stress and possible secondary leaf spotting.",
+          "tags": "zucchini, leaf damage, chlorosis, necrosis, blotches"
+        },
+        {
+          "file_name": "zucchini_001-20260105-07.jpeg",
+          "caption": "Leaf surface showing widespread pale stippling consistent with sap-sucking pest feeding and reduced vigor.",
+          "tags": "zucchini, stippling, pest damage, mites, leaf surface"
+        },
+        {
+          "file_name": "zucchini_001-20260105-08.jpeg",
+          "caption": "Crown and inner growth showing stressed older tissue and developing new leaves at the center.",
+          "tags": "zucchini, crown, new growth, stressed leaves, recovery"
+        }
+      ]
+    },
     {
       "date": "1/1/2026",
       "time": "11:46 AM",

@@ -6,7 +6,11 @@
   "garden_location": "Panel 16-18",
   "full_sun_start": "11:15 AM EST",
   "full_shade_start": "4:15 PM EST",
-  "container": "Raised bed 2' × 6' × 10\", brown (Stake 1)",
+  "container": {
+    "name": "Brown Raised Bed - Stake 1 of 4 (1.5' x 2' each)",
+    "volume": "9.5 Gal (37.5 Qt)",
+    "dimensions": "1.5' x 2' x 5\"(section of 2' x 6' x 5\" Raised Bed)"
+  },
   "soil_mix": "Miracle-Gro Mulch, Miracle-Gro Potting Mix, Soil/Sand",
   "origin_history": [
     "Bought on Oct 8, 2025 (2.32 qt container).",
@@ -53,6 +57,97 @@
     }
   ],
   "journal": [
+    {
+      "date": "1/5/2026",
+      "time": "7:30 AM",
+      "conditions": "Loxahatchee, FL. Mostly Sunny with a high of 79°F dropping to 60°F overnight. Tonight: Mostly Clear. Tomorrow: Patchy Fog then a high of 81°F.",
+      "digital_probe": {
+        "ph": "7.73",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "38",
+        "moisture_mScm": "28",
+        "light": "13",
+        "rh_percent": "64%",
+        "fertility_percent": "4.0",
+        "soil_temp_f": "62.9"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Morning readings after yesterday’s 4:00 PM full-strength feeding show pH still high and EC/fertility still low overall, with moisture varying widely by probe location (very dry pocket at the back vs moist zone at the front). The plant is still heavily fruiting and needs steady nutrition, but not back-to-back fertilization.",
+      "actions": "Do NOT fertilize again this morning. Water only if the root zone is actually drying (confirm by checking soil moisture 2–3 inches down). If soil feels cool and slightly damp near roots, skip watering. If dry, give a light plain-water drink to carry the plant to mid-afternoon.",
+      "next_steps": "Recheck probe readings tomorrow morning or 48 hours after feeding for a more stable nutrient signal. Continue with a consistent feeding cadence (every 5–7 days for liquid) rather than daily. Consider transitioning to a tomato-focused granular fertilizer with calcium (e.g., 3-4-6 Tomato-Tone) for steady release. Keep avoiding lime/dolomite and baking soda due to already-high pH; consider occasional mild vinegar acidification of irrigation water if pH remains high over time.",
+      "q_and_a_summary": "The plant was fertilized at 4:00 PM with Purived 4-5-5 full strength. The next morning, multiple probe readings from different angles showed wide ranges: pH 7.4–8.0, EC 0.05–0.11, fertility 3–6%, moisture 7–47%. Less than 16 hours had passed since feeding, and the probe's inconsistency across angles indicated it was not providing lab-grade precision. The plant did not need additional fertilizer that morning; watering decisions should rely on soil feel and plant posture, especially with no return visit until approximately 2 PM.",
+      "follow_up": [],
+      "photos": [
+        {
+          "file_name": "tomato_001-20260105-02.jpeg",
+          "caption": "Probe placement photo showing the sensor inserted at the back-side location near the tomato root zone.",
+          "tags": "tomato, probe placement, raised bed, root zone, morning"
+        },
+        {
+          "file_name": "tomato_001-20260105-04.jpeg",
+          "caption": "Probe placement photo showing the sensor inserted at the front-side location near the tomato root zone.",
+          "tags": "tomato, probe placement, front of plant, raised bed, root zone"
+        },
+        {
+          "file_name": "tomato_001-20260105-06.jpeg",
+          "caption": "Probe placement photo showing the sensor inserted further from the main stem to compare root zone vs surrounding soil conditions.",
+          "tags": "tomato, probe placement, comparison reading, raised bed, soil"
+        }
+      ]
+    },
+    {
+      "date": "1/4/2026",
+      "time": "4:00 PM",
+      "conditions": "Florida afternoon. ~78°F at ~3:00 PM, full sun. Warm and bright conditions.",
+      "digital_probe": {
+        "ph": "7.95",
+        "ec_mScm": "0.07",
+        "salt_mg_L": "37",
+        "moisture_mScm": "50",
+        "light": "99",
+        "rh_percent": "48%",
+        "fertility_percent": "3.5",
+        "soil_temp_f": "85.3"
+      },
+      "analog_probe": {
+        "fertility": "",
+        "moisture": "",
+        "ph": ""
+      },
+      "observations": "Husky Red Cherry tomato is in active fruiting with multiple clusters at different stages of ripening. Plant appears vigorous and productive, supported on stakes in a raised bed. Root zone readings show very low EC/fertility and elevated pH.",
+      "actions": "Feed now with Purived 4-5-5 at full strength (1 capful per gallon) as a controlled root-zone drench. Apply evenly around the root zone, not directly on the stem.",
+      "next_steps": "Do not fertilize again tomorrow morning. Recheck probe readings 24–48 hours after feeding (preferably morning before watering). Monitor for leaf tip burn, excessive lush growth, or blossom-end rot. Consider switching to a tomato-focused granular fertilizer with calcium for steady feeding and improved fruit support.",
+      "q_and_a_summary": "Two probe readings taken behind and in front of the main root showed very low EC (0.06–0.07) and low fertility (3–4%) with high pH (7.8–8.1). The plant needed feeding but with caution due to heat and full sun exposure—half strength immediately or full strength in evening. Available household items included baking soda, vinegar, and dolomite lime all of which were rules out. RV park hose water likely contributes to ongoing alkalinity. The plant would benefit from tomato fertilizer (3-4-6) plus a calcium source that does not raise pH (gypsum or Cal-Mag preferred).",
+      "follow_up": [
+        "[4:00 PM] Applied Purived 4-5-5 diluted 1 capful per gallon around the root zone as a single feeding."
+      ],
+      "photos": [
+        {
+          "file_name": "tomato_001-20260104-03.jpeg",
+          "caption": "Probe placement photo showing the sensor inserted near the tomato’s root zone in the raised bed.",
+          "tags": "tomato, raised bed, probe placement, root zone, irrigation, soil"
+        },
+        {
+          "file_name": "tomato_001-20260104-04.jpeg",
+          "caption": "Overall plant photo showing heavy fruiting clusters, staking support, and raised-bed environment.",
+          "tags": "tomato, fruiting, clusters, staking, raised bed, garden"
+        },
+        {
+          "file_name": "tomato_001-20260104-05.jpeg",
+          "caption": "Top-down view of the tomato plant showing canopy fullness, fruit distribution, and overall vigor.",
+          "tags": "tomato, canopy, vigor, fruiting, garden overview"
+        },
+        {
+          "file_name": "tomato_001-20260104-06.jpeg",
+          "caption": "Close-up view of fruit clusters and lower stem structure, showing ripening cherries and ongoing production.",
+          "tags": "tomato, cherry tomato, ripening, fruit clusters, stem, staking"
+        }
+      ]
+    },
     {
       "date": "1/1/2026",
       "time": "11:38 AM",

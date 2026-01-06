@@ -14,6 +14,9 @@ This inventory serves as the single source of truth for all garden products and 
 
 Plants reference containers by `common_name`, and AI Assistant looks up container dimensions and product usage rates from this unified inventory to ensure all recommendations are specific, accurate, and based on what is actually in inventory.
 
+**Scope:** This schema is for *editing/validating* `inventory.json` only. Assistants must treat `inventory.json` as the runtime source of truth and must not use this schema to generate actions or recommendations.
+
+
 ## Inventory JSON Structure
 ```json
 [
@@ -60,7 +63,7 @@ Below are the field definitions for the **Inventory** JSON:
 - `dilution_instructions` (string, optional): How to dilute the product if `ready_to_use` is `false`. Only present when `ready_to_use` is `false`
 - `conversions` (array of objects, optional): Dilution conversion table - ONLY for products where `ready_to_use` is `false`
   - `water_volume` (string, required): Amount of water (e.g., "1/4 cup", "1 pint", "1 gallon")
-  - `concentrate` (string, required): Amount of concentrate to add to that water volume (e.g., "1/12 tsp (~0.42 mL)", "2 tsp (~10 mL)")
+  - `product_amount` (string, required): Amount of product to add to that water volume (e.g., "1/8 tsp", "2 tsp", "44 mL")
 
 - `container_specifications` (object, optional): Physical specifications - ONLY for products where `type` is `container`
   - `volume` (string, optional): Container volume capacity (e.g., "5 gallon", "2 quart")

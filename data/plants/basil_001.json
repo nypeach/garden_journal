@@ -6,7 +6,11 @@
   "garden_location": "Panel 1",
   "full_sun_start": "9:05 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Round pot, 0.94 gal, white",
+  "container": {
+    "name": "0.94 Gal White Round Pot",
+    "volume": "0.94 Gal (3.76 Qt)",
+    "dimensions": "8\" Diameter x 6.5\" Height"
+  },
   "soil_mix": "Nursery Potting Mix",
   "origin_history": [
     "Bought on Oct 8, 2025 and kept in the original nursery container.",
@@ -14,7 +18,7 @@
     "Recently topped very short to reset height and encourage dense branching."
   ],
   "whats_been_logged": "The plant has moved from tall, leggy growth through a hard reset prune into clustered regrowth with multiple shoots emerging along the stems. Early issues with uneven moisture and soil disturbance were corrected, improving stability and airflow around the base. Damaged leaves were removed and the canopy has been rebuilding cleanly, with new growth becoming dense, healthy, and vigorous.",
-  "current_stage": "Clustered Regrowth Phase",
+  "current_stage": "Vegetative Recovery Stage (post-pruning)",
   "current_state": "Healthy, vigorous regrowth with dense new shoots and clean foliage, showing stable recovery and balanced moisture conditions.",
   "timeline": [
     {

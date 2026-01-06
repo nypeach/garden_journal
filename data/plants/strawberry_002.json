@@ -6,7 +6,11 @@
   "garden_location": "Panel 3",
   "full_sun_start": "9:00 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Round pot, 6\" 5 qt, black",
+  "container": {
+    "name": "5 Qt Black Round Pot (6\")",
+    "volume": "5 Qt (1.25 Gal)",
+    "dimensions": "6.0\"W x 6.0\"L"
+  },
   "soil_mix": "Miracle-Gro Potting Mix, Nursery Potting Mix",
   "origin_history": [
     "New strawberry purchased on 11/11/2025.",

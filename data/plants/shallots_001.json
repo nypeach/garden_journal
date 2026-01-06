@@ -6,7 +6,11 @@
   "garden_location": "Panel 10",
   "full_sun_start": "10:43 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Window Box",
+  "container": {
+    "name": "13.12 Qt Black Window Planter",
+    "volume": "13.12 Qt (3.28 Gal)",
+    "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+  },
   "soil_mix": "Same as garlic planters",
   "origin_history": [
     "Bulbs planted 2\" deep around Nov 9-10, 2025.",

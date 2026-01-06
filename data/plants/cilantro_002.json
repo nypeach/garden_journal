@@ -6,7 +6,11 @@
   "garden_location": "Panel 12",
   "full_sun_start": "10:43 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "5 Herb Window Box",
+  "container": {
+    "name": "5 Herb Black Window Box 13.12 Qt",
+    "volume": "13.12 Qt (3.28 Gal)",
+    "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+  },
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Part of mixed Herb Planter seeded on Nov 12, 2025.",

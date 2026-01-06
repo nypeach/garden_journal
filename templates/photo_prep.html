@@ -117,10 +117,16 @@
         <div id="global_message_container">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 16px;">
             <div class="field-label" style="margin: 0;">Global Message (Weather)</div>
-            <button type="button" onclick="refreshWeather()" class="submit-btn"
-              style="padding: 6px 12px; font-size: 0.85rem; background: var(--accent);">
-              🌤️ Refresh Weather
-            </button>
+            <div style="display: flex; gap: 8px;">
+              <button type="button" onclick="generateWateringGuide(event)" class="submit-btn"
+                style="padding: 6px 12px; font-size: 0.85rem; background: var(--accent);">
+                💦 Watering Guide
+              </button>
+              <button type="button" onclick="refreshWeather()" class="submit-btn"
+                style="padding: 6px 12px; font-size: 0.85rem; background: var(--accent);">
+                🌤️ Refresh Weather
+              </button>
+            </div>
           </div>
           <textarea id="global_message" name="global_message" class="form-textarea"
             placeholder="Today 12/11/2025: Mostly Sunny with a high of 73°F dropping to 53°F overnight...">{{ global_message if global_message else '' }}</textarea>
@@ -142,7 +148,8 @@
 
     {% if success %}
     <!-- Success Card -->
-    <div class="card">
+    <div class="card" id="success-data" data-global-message="{{ global_message if global_message else '' }}"
+      data-current-date="{{ current_date if current_date else '' }}">
       <div class="output-header">
         <span class="success-icon">✅</span>
         <h2>Photos Processed Successfully!</h2>
@@ -165,12 +172,13 @@
       </div>
 
       <script>
+
         // Save global message and date to localStorage
-        const globalMessage = {{ (global_message if global_message else '')| tojson }};
-        const currentDate = {{ (current_date if current_date else '')| tojson }};
+        const globalMessage = document.getElementById('success-data').dataset.globalMessage || '';
+        const currentDate = document.getElementById('success-data').dataset.currentDate || '';
 
         // Always save to localStorage (even if empty)
-        localStorage.setItem('garden_global_message', globalMessage || '');
+        localStorage.setItem('garden_global_message', globalMessage);
 
         function processAnotherPlant() {
           // Use the globalMessage variable from this success page
@@ -450,6 +458,71 @@
     // Manual refresh weather button handler
     function refreshWeather() {
       loadWeather(false);
+    }
+
+    // Generate watering guide
+    async function generateWateringGuide(event) {
+      const globalMessageInput = document.getElementById('global_message');
+      const globalMessage = globalMessageInput.value.trim();
+
+      if (!globalMessage) {
+        alert('Please enter weather and moisture data in Global Message first');
+        return;
+      }
+
+      const button = event.target;
+      const originalText = button.textContent;
+
+      try {
+        const response = await fetch('/api/watering-guide', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            global_message: globalMessage
+          })
+        });
+
+        const data = await response.json();
+
+        if (data.error) {
+          alert('Error: ' + data.error);
+          return;
+        }
+
+        // Copy to clipboard
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(data.markdown);
+          button.textContent = '✓ Copied!';
+          setTimeout(() => {
+            button.textContent = originalText;
+          }, 2000);
+        } else {
+          // Fallback
+          const textarea = document.createElement('textarea');
+          textarea.value = data.markdown;
+          textarea.style.position = 'absolute';
+          textarea.style.left = '-9999px';
+          document.body.appendChild(textarea);
+          textarea.select();
+
+          try {
+            document.execCommand('copy');
+            button.textContent = '✓ Copied!';
+            setTimeout(() => {
+              button.textContent = originalText;
+            }, 2000);
+          } catch (err) {
+            alert('Copy failed. Here is the output:\n\n' + data.markdown);
+          }
+
+          document.body.removeChild(textarea);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to generate watering guide: ' + error.message);
+      }
     }
 
     // Show/hide global message based on context

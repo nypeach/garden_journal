@@ -6,7 +6,11 @@
   "garden_location": "Panel 13",
   "full_sun_start": "10:43 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "25 oz round, white pot",
+  "container": {
+    "name": "25 oz White Round Pot",
+    "volume": "25 oz (0.78 Qt, 0.20 Gal)",
+    "dimensions": "5\" Diameter x 4.5\" Height"
+  },
   "soil_mix": "Miracle-Gro Potting Mix, Topsoil/Sand",
   "origin_history": [
     "Seeded on Nov 13, 2025 as a ring around the broccoli tray.",

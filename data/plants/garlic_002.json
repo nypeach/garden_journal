@@ -6,7 +6,11 @@
   "garden_location": "Panel 8",
   "full_sun_start": "9:45 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Window Box",
+  "container": {
+    "name": "Garlic Planter - Section 2 of 3 (7.8\" x 7.8\" each)",
+    "volume": "4.37 Qt (1.09 Gal)",
+    "dimensions": "7.8\" W Top, 6.8\" W Bottom x 7.8\" L x 6\" D (section of 23.5\" x 7.8\" x 6\" window planter)"
+  },
   "soil_mix": "Miracle-Gro Potting Mix",
   "origin_history": [
     "Vernalized the garlic for 6 weeks prior to planting in mid-November 2025.",

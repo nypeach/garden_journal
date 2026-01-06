@@ -6,7 +6,11 @@
   "garden_location": "Panel 12",
   "full_sun_start": "10:43 AM EST",
   "full_shade_start": "3:30 PM EST",
-  "container": "Window Box",
+  "container": {
+    "name": "13.12 Qt Black Window Planter",
+    "volume": "13.12 Qt (3.28 Gal)",
+    "dimensions": "23.5\"W Top, 20.3\"W Bottom x 7.8\"L x 6\"D"
+  },
   "soil_mix": "Miracle-Gro Potting Mix, Sand/Soil",
   "origin_history": [
     "Seeds purchased and planted on Oct 8, 2025.",
